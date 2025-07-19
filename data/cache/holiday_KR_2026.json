@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "KR-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-02-16-1",
+      "name": "Lunar New Year",
+      "date": "2026-02-16",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-02-17-2",
+      "name": "Lunar New Year",
+      "date": "2026-02-17",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-02-18-3",
+      "name": "Lunar New Year",
+      "date": "2026-02-18",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-03-01-4",
+      "name": "Independence Movement Day",
+      "date": "2026-03-01",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-05-05-5",
+      "name": "Children's Day",
+      "date": "2026-05-05",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-05-24-6",
+      "name": "Buddha's Birthday",
+      "date": "2026-05-24",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-06-06-7",
+      "name": "Memorial Day",
+      "date": "2026-06-06",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-08-15-8",
+      "name": "Liberation Day",
+      "date": "2026-08-15",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-09-24-9",
+      "name": "Chuseok",
+      "date": "2026-09-24",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-09-25-10",
+      "name": "Chuseok",
+      "date": "2026-09-25",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-09-26-11",
+      "name": "Chuseok",
+      "date": "2026-09-26",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-10-03-12",
+      "name": "National Foundation Day",
+      "date": "2026-10-03",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-10-09-13",
+      "name": "Hangul Day",
+      "date": "2026-10-09",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    },
+    {
+      "id": "KR-2026-12-25-14",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:56.834Z",
+      "updatedAt": "2025-07-19T05:12:56.834Z"
+    }
+  ],
+  "timestamp": 1752901976837,
+  "ttl": 86400000,
+  "key": "holiday:KR:2026"
+}

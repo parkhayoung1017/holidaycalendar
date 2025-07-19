@@ -1,0 +1,140 @@
+{
+  "countryCode": "IT",
+  "year": 2025,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-07-19T05:12:24.343Z",
+  "holidays": [
+    {
+      "id": "IT-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-01-06-1",
+      "name": "Epiphany",
+      "date": "2025-01-06",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-04-20-2",
+      "name": "Easter Sunday",
+      "date": "2025-04-20",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-04-21-3",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-04-25-4",
+      "name": "Liberation Day",
+      "date": "2025-04-25",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-05-01-5",
+      "name": "International Workers Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-06-02-6",
+      "name": "Republic Day",
+      "date": "2025-06-02",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-08-15-7",
+      "name": "Assumption Day",
+      "date": "2025-08-15",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-11-01-8",
+      "name": "All Saints Day",
+      "date": "2025-11-01",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-12-08-9",
+      "name": "Immaculate Conception",
+      "date": "2025-12-08",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-12-25-10",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    },
+    {
+      "id": "IT-2025-12-26-11",
+      "name": "St. Stephen's Day",
+      "date": "2025-12-26",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:24.343Z",
+      "updatedAt": "2025-07-19T05:12:24.343Z"
+    }
+  ]
+}

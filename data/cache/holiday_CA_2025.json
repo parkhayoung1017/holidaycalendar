@@ -1,0 +1,439 @@
+{
+  "data": [
+    {
+      "id": "CA-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:21.709Z",
+      "updatedAt": "2025-07-19T05:12:21.709Z"
+    },
+    {
+      "id": "CA-2025-02-17-1",
+      "name": "Louis Riel Day",
+      "date": "2025-02-17",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-MB"
+      ],
+      "createdAt": "2025-07-19T05:12:21.709Z",
+      "updatedAt": "2025-07-19T05:12:21.709Z"
+    },
+    {
+      "id": "CA-2025-02-17-2",
+      "name": "Islander Day",
+      "date": "2025-02-17",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-PE"
+      ],
+      "createdAt": "2025-07-19T05:12:21.709Z",
+      "updatedAt": "2025-07-19T05:12:21.709Z"
+    },
+    {
+      "id": "CA-2025-02-17-3",
+      "name": "Heritage Day",
+      "date": "2025-02-17",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NS"
+      ],
+      "createdAt": "2025-07-19T05:12:21.709Z",
+      "updatedAt": "2025-07-19T05:12:21.709Z"
+    },
+    {
+      "id": "CA-2025-02-17-4",
+      "name": "Family Day",
+      "date": "2025-02-17",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-BC",
+        "CA-NB",
+        "CA-ON",
+        "CA-SK"
+      ],
+      "createdAt": "2025-07-19T05:12:21.709Z",
+      "updatedAt": "2025-07-19T05:12:21.709Z"
+    },
+    {
+      "id": "CA-2025-03-17-5",
+      "name": "Saint Patrick's Day",
+      "date": "2025-03-17",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-04-18-6",
+      "name": "Good Friday",
+      "date": "2025-04-18",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-04-21-7",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-PE"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-04-23-8",
+      "name": "Saint George's Day",
+      "date": "2025-04-23",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-05-19-9",
+      "name": "National Patriots' Day",
+      "date": "2025-05-19",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-QC"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-05-19-10",
+      "name": "Victoria Day",
+      "date": "2025-05-19",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-06-21-11",
+      "name": "National Aboriginal Day",
+      "date": "2025-06-21",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NT"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-06-24-12",
+      "name": "Discovery Day",
+      "date": "2025-06-24",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-06-24-13",
+      "name": "National Holiday",
+      "date": "2025-06-24",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-QC"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-07-01-14",
+      "name": "Canada Day",
+      "date": "2025-07-01",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-07-12-15",
+      "name": "Orangemen's Day",
+      "date": "2025-07-12",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-08-04-16",
+      "name": "Civic Holiday",
+      "date": "2025-08-04",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-MB",
+        "CA-NL",
+        "CA-NT",
+        "CA-NU",
+        "CA-ON"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-08-04-17",
+      "name": "British Columbia Day",
+      "date": "2025-08-04",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-BC"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-08-04-18",
+      "name": "Heritage Day",
+      "date": "2025-08-04",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-YT"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-08-04-19",
+      "name": "New Brunswick Day",
+      "date": "2025-08-04",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NB"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-08-04-20",
+      "name": "Natal Day",
+      "date": "2025-08-04",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NS"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-08-04-21",
+      "name": "Saskatchewan Day",
+      "date": "2025-08-04",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-SK"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-08-18-22",
+      "name": "Gold Cup Parade Day",
+      "date": "2025-08-18",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-PE"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-08-18-23",
+      "name": "Discovery Day",
+      "date": "2025-08-18",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-YT"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-09-01-24",
+      "name": "Labour Day",
+      "date": "2025-09-01",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-09-30-25",
+      "name": "National Day for Truth and Reconciliation",
+      "date": "2025-09-30",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-10-13-26",
+      "name": "Thanksgiving",
+      "date": "2025-10-13",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-11-11-27",
+      "name": "Armistice Day",
+      "date": "2025-11-11",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-11-11-28",
+      "name": "Remembrance Day",
+      "date": "2025-11-11",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-BC",
+        "CA-NB",
+        "CA-NT",
+        "CA-NS",
+        "CA-NU",
+        "CA-PE",
+        "CA-SK",
+        "CA-YT"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-12-25-29",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    },
+    {
+      "id": "CA-2025-12-26-30",
+      "name": "St. Stephen's Day",
+      "date": "2025-12-26",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-NB",
+        "CA-NS",
+        "CA-ON",
+        "CA-PE"
+      ],
+      "createdAt": "2025-07-19T05:12:21.710Z",
+      "updatedAt": "2025-07-19T05:12:21.710Z"
+    }
+  ],
+  "timestamp": 1752901941711,
+  "ttl": 86400000,
+  "key": "holiday:CA:2025"
+}

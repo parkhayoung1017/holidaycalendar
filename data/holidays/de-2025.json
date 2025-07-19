@@ -1,0 +1,281 @@
+{
+  "countryCode": "DE",
+  "year": 2025,
+  "totalHolidays": 20,
+  "lastUpdated": "2025-07-19T05:12:23.026Z",
+  "holidays": [
+    {
+      "id": "DE-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:23.025Z",
+      "updatedAt": "2025-07-19T05:12:23.025Z"
+    },
+    {
+      "id": "DE-2025-01-06-1",
+      "name": "Epiphany",
+      "date": "2025-01-06",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BW",
+        "DE-BY",
+        "DE-ST"
+      ],
+      "createdAt": "2025-07-19T05:12:23.025Z",
+      "updatedAt": "2025-07-19T05:12:23.025Z"
+    },
+    {
+      "id": "DE-2025-03-08-2",
+      "name": "International Women's Day",
+      "date": "2025-03-08",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BE",
+        "DE-MV"
+      ],
+      "createdAt": "2025-07-19T05:12:23.025Z",
+      "updatedAt": "2025-07-19T05:12:23.025Z"
+    },
+    {
+      "id": "DE-2025-04-18-3",
+      "name": "Good Friday",
+      "date": "2025-04-18",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-04-20-4",
+      "name": "Easter Sunday",
+      "date": "2025-04-20",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BB"
+      ],
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-04-21-5",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-05-01-6",
+      "name": "Labour Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-05-08-7",
+      "name": "Liberation Day",
+      "date": "2025-05-08",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BE"
+      ],
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-05-29-8",
+      "name": "Ascension Day",
+      "date": "2025-05-29",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-06-08-9",
+      "name": "Pentecost",
+      "date": "2025-06-08",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BB"
+      ],
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-06-09-10",
+      "name": "Whit Monday",
+      "date": "2025-06-09",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-06-19-11",
+      "name": "Corpus Christi",
+      "date": "2025-06-19",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BW",
+        "DE-BY",
+        "DE-HE",
+        "DE-NW",
+        "DE-RP",
+        "DE-SL"
+      ],
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-08-15-12",
+      "name": "Assumption Day",
+      "date": "2025-08-15",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-SL"
+      ],
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-09-20-13",
+      "name": "World Children's Day",
+      "date": "2025-09-20",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-TH"
+      ],
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-10-03-14",
+      "name": "German Unity Day",
+      "date": "2025-10-03",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-10-31-15",
+      "name": "Reformation Day",
+      "date": "2025-10-31",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BB",
+        "DE-MV",
+        "DE-SN",
+        "DE-ST",
+        "DE-TH",
+        "DE-HB",
+        "DE-HH",
+        "DE-NI",
+        "DE-SH"
+      ],
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-11-01-16",
+      "name": "All Saints' Day",
+      "date": "2025-11-01",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BW",
+        "DE-BY",
+        "DE-NW",
+        "DE-RP",
+        "DE-SL"
+      ],
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-11-19-17",
+      "name": "Repentance and Prayer Day",
+      "date": "2025-11-19",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-SN"
+      ],
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-12-25-18",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    },
+    {
+      "id": "DE-2025-12-26-19",
+      "name": "St. Stephen's Day",
+      "date": "2025-12-26",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:23.026Z",
+      "updatedAt": "2025-07-19T05:12:23.026Z"
+    }
+  ]
+}

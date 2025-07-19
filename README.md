@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# World Holiday Calendar
 
-## Getting Started
+전세계 주요 국가의 연도별 공휴일 정보를 제공하는 웹 서비스입니다.
 
-First, run the development server:
+## 기능
+
+- 국가별/연도별 공휴일 검색
+- 지역별 공휴일 비교
+- 오늘의 공휴일 정보
+- AI 기반 공휴일 설명 생성
+- SEO 최적화된 정적 페이지
+
+## 기술 스택
+
+- **프론트엔드**: Next.js 14, TypeScript, Tailwind CSS
+- **데이터**: Holiday API, OpenAI GPT API
+- **배포**: Vercel
+- **자동화**: GitHub Actions
+
+## 시작하기
+
+### 환경 설정
+
+1. 환경변수 파일 설정:
+```bash
+cp .env.example .env.local
+```
+
+2. 필요한 API 키를 `.env.local`에 설정:
+   - Holiday API 키 (Calendarific)
+   - OpenAI API 키
+
+### 개발 서버 실행
 
 ```bash
 npm run dev
-# or
+# 또는
 yarn dev
-# or
+# 또는
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[http://localhost:3000](http://localhost:3000)에서 결과를 확인할 수 있습니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 프로젝트 구조
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/                 # Next.js App Router 페이지
+├── components/          # React 컴포넌트
+│   ├── ui/             # 재사용 가능한 UI 컴포넌트
+│   ├── layout/         # 레이아웃 컴포넌트
+│   └── search/         # 검색 관련 컴포넌트
+├── lib/                # 유틸리티 함수
+├── types/              # TypeScript 타입 정의
+data/
+├── holidays/           # 공휴일 데이터 (JSON)
+└── countries/          # 국가 정보 데이터
+```
 
-## Learn More
+## 배포
 
-To learn more about Next.js, take a look at the following resources:
+이 프로젝트는 Vercel에서 쉽게 배포할 수 있습니다.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+자세한 배포 방법은 [Next.js 배포 문서](https://nextjs.org/docs/app/building-your-application/deploying)를 참조하세요.

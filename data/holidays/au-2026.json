@@ -1,0 +1,355 @@
+{
+  "countryCode": "AU",
+  "year": 2026,
+  "totalHolidays": 25,
+  "lastUpdated": "2025-07-19T05:12:58.112Z",
+  "holidays": [
+    {
+      "id": "AU-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-01-26-1",
+      "name": "Australia Day",
+      "date": "2026-01-26",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-03-02-2",
+      "name": "Labour Day",
+      "date": "2026-03-02",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-WA"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-03-09-3",
+      "name": "Canberra Day",
+      "date": "2026-03-09",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-03-09-4",
+      "name": "March Public Holiday",
+      "date": "2026-03-09",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-SA"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-03-09-5",
+      "name": "Eight Hours Day",
+      "date": "2026-03-09",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-TAS"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-03-09-6",
+      "name": "Labour Day",
+      "date": "2026-03-09",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-VIC"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-04-03-7",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-04-04-8",
+      "name": "Holy Saturday",
+      "date": "2026-04-04",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-04-05-9",
+      "name": "Easter Sunday",
+      "date": "2026-04-05",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC",
+        "AU-WA"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-04-06-10",
+      "name": "Easter Monday",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-04-25-11",
+      "name": "Anzac Day",
+      "date": "2026-04-25",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-05-04-12",
+      "name": "May Day",
+      "date": "2026-05-04",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-NT"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-05-04-13",
+      "name": "Labour Day",
+      "date": "2026-05-04",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-QLD"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-06-01-14",
+      "name": "Reconciliation Day",
+      "date": "2026-06-01",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-06-01-15",
+      "name": "Western Australia Day",
+      "date": "2026-06-01",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-WA"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-06-08-16",
+      "name": "King's Birthday",
+      "date": "2026-06-08",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-SA",
+        "AU-TAS",
+        "AU-VIC"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-08-03-17",
+      "name": "Picnic Day",
+      "date": "2026-08-03",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-NT"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-09-25-18",
+      "name": "Friday before AFL Grand Final (Tentative Date)",
+      "date": "2026-09-25",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-VIC"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-09-28-19",
+      "name": "King's Birthday",
+      "date": "2026-09-28",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-WA"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-10-05-20",
+      "name": "Labour Day",
+      "date": "2026-10-05",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-SA"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-10-05-21",
+      "name": "King's Birthday",
+      "date": "2026-10-05",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-QLD"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-11-03-22",
+      "name": "Melbourne Cup",
+      "date": "2026-11-03",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-VIC"
+      ],
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-12-25-23",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    },
+    {
+      "id": "AU-2026-12-28-24",
+      "name": "St. Stephen's Day",
+      "date": "2026-12-28",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:58.112Z",
+      "updatedAt": "2025-07-19T05:12:58.112Z"
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "countryCode": "ES",
+  "year": 2023,
+  "totalHolidays": 33,
+  "lastUpdated": "2025-07-19T05:12:01.441Z",
+  "holidays": [
+    {
+      "id": "ES-2023-01-01-0",
+      "name": "New Year's Day",
+      "date": "2023-01-01",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.440Z",
+      "updatedAt": "2025-07-19T05:12:01.440Z"
+    },
+    {
+      "id": "ES-2023-01-06-2",
+      "name": "Epiphany",
+      "date": "2023-01-06",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-02-21-3",
+      "name": "Carnival Tuesday",
+      "date": "2023-02-21",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-EX"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-02-28-4",
+      "name": "Day of Andalucía",
+      "date": "2023-02-28",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-AN"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-03-01-5",
+      "name": "Day of the Balearic Islands",
+      "date": "2023-03-01",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-IB"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-03-20-6",
+      "name": "St. Joseph's Day",
+      "date": "2023-03-20",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-MD"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-04-06-7",
+      "name": "Maundy Thursday",
+      "date": "2023-04-06",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-AN",
+        "ES-AR",
+        "ES-CL",
+        "ES-CM",
+        "ES-CN",
+        "ES-EX",
+        "ES-GA",
+        "ES-IB",
+        "ES-RI",
+        "ES-MD",
+        "ES-MC",
+        "ES-NC",
+        "ES-AS",
+        "ES-PV",
+        "ES-CB"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-04-07-8",
+      "name": "Good Friday",
+      "date": "2023-04-07",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-04-10-9",
+      "name": "Easter Monday",
+      "date": "2023-04-10",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CT",
+        "ES-IB",
+        "ES-RI",
+        "ES-NC",
+        "ES-PV",
+        "ES-VC"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-04-24-10",
+      "name": "Day of Aragón",
+      "date": "2023-04-24",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-AR"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-05-01-11",
+      "name": "Labour Day",
+      "date": "2023-05-01",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-05-02-12",
+      "name": "Day of Madrid",
+      "date": "2023-05-02",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-MD"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-05-17-13",
+      "name": "Galician Literature Day",
+      "date": "2023-05-17",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-GA"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-05-30-14",
+      "name": "Day of the Canary Islands",
+      "date": "2023-05-30",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CN"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-05-31-15",
+      "name": "Day of Castilla-La Mancha",
+      "date": "2023-05-31",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CM"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-06-08-16",
+      "name": "Corpus Christi",
+      "date": "2023-06-08",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CM"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-06-09-17",
+      "name": "Day of La Rioja",
+      "date": "2023-06-09",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-RI"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-06-09-18",
+      "name": "Day of Murcia",
+      "date": "2023-06-09",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-MC"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-06-24-19",
+      "name": "St. John's Day",
+      "date": "2023-06-24",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CT",
+        "ES-VC"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-07-25-20",
+      "name": "Santiago Apóstol",
+      "date": "2023-07-25",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CL",
+        "ES-GA",
+        "ES-NC",
+        "ES-PV"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-07-28-21",
+      "name": "Day of the Cantabrian Institutions",
+      "date": "2023-07-28",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CB"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-08-15-22",
+      "name": "Assumption",
+      "date": "2023-08-15",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-09-08-23",
+      "name": "Day of Asturias",
+      "date": "2023-09-08",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-AS"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-09-08-24",
+      "name": "Day of Extremadura",
+      "date": "2023-09-08",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-EX"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-09-11-25",
+      "name": "National Day of Catalonia",
+      "date": "2023-09-11",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CT"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-09-15-26",
+      "name": "Regional Holiday",
+      "date": "2023-09-15",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CB"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-10-09-27",
+      "name": "Day of the Valencian Community",
+      "date": "2023-10-09",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-VC"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-10-12-28",
+      "name": "Fiesta Nacional de España",
+      "date": "2023-10-12",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-11-01-29",
+      "name": "All Saints Day",
+      "date": "2023-11-01",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-12-06-30",
+      "name": "Constitution Day",
+      "date": "2023-12-06",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-12-08-31",
+      "name": "Immaculate Conception",
+      "date": "2023-12-08",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-12-25-32",
+      "name": "Christmas Day",
+      "date": "2023-12-25",
+      "country": "",
+      "countryCode": "ES",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    },
+    {
+      "id": "ES-2023-12-26-33",
+      "name": "Santiago Apóstol",
+      "date": "2023-12-26",
+      "country": "",
+      "countryCode": "ES",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "ES-CT"
+      ],
+      "createdAt": "2025-07-19T05:12:01.441Z",
+      "updatedAt": "2025-07-19T05:12:01.441Z"
+    }
+  ]
+}

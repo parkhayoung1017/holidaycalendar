@@ -1,0 +1,267 @@
+{
+  "countryCode": "DE",
+  "year": 2026,
+  "totalHolidays": 19,
+  "lastUpdated": "2025-07-19T05:12:51.650Z",
+  "holidays": [
+    {
+      "id": "DE-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-01-06-1",
+      "name": "Epiphany",
+      "date": "2026-01-06",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BW",
+        "DE-BY",
+        "DE-ST"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-03-08-2",
+      "name": "International Women's Day",
+      "date": "2026-03-08",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BE",
+        "DE-MV"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-04-03-3",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-04-05-4",
+      "name": "Easter Sunday",
+      "date": "2026-04-05",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BB"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-04-06-5",
+      "name": "Easter Monday",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-05-01-6",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-05-14-7",
+      "name": "Ascension Day",
+      "date": "2026-05-14",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-05-24-8",
+      "name": "Pentecost",
+      "date": "2026-05-24",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BB"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-05-25-9",
+      "name": "Whit Monday",
+      "date": "2026-05-25",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-06-04-10",
+      "name": "Corpus Christi",
+      "date": "2026-06-04",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BW",
+        "DE-BY",
+        "DE-HE",
+        "DE-NW",
+        "DE-RP",
+        "DE-SL"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-08-15-11",
+      "name": "Assumption Day",
+      "date": "2026-08-15",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-SL"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-09-20-12",
+      "name": "World Children's Day",
+      "date": "2026-09-20",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-TH"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-10-03-13",
+      "name": "German Unity Day",
+      "date": "2026-10-03",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-10-31-14",
+      "name": "Reformation Day",
+      "date": "2026-10-31",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BB",
+        "DE-MV",
+        "DE-SN",
+        "DE-ST",
+        "DE-TH",
+        "DE-HB",
+        "DE-HH",
+        "DE-NI",
+        "DE-SH"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-11-01-15",
+      "name": "All Saints' Day",
+      "date": "2026-11-01",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-BW",
+        "DE-BY",
+        "DE-NW",
+        "DE-RP",
+        "DE-SL"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-11-18-16",
+      "name": "Repentance and Prayer Day",
+      "date": "2026-11-18",
+      "country": "",
+      "countryCode": "DE",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "DE-SN"
+      ],
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-12-25-17",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    },
+    {
+      "id": "DE-2026-12-26-18",
+      "name": "St. Stephen's Day",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "DE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T05:12:51.650Z",
+      "updatedAt": "2025-07-19T05:12:51.650Z"
+    }
+  ]
+}

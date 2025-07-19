@@ -1,0 +1,129 @@
+{
+  "countryCode": "FR",
+  "year": 2024,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-07-19T04:27:10.407Z",
+  "holidays": [
+    {
+      "id": "FR-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-04-01-1",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-05-01-2",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-05-08-3",
+      "name": "Victory in Europe Day",
+      "date": "2024-05-08",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-05-09-4",
+      "name": "Ascension Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-05-20-5",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-07-14-6",
+      "name": "Bastille Day",
+      "date": "2024-07-14",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-08-15-7",
+      "name": "Assumption Day",
+      "date": "2024-08-15",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-11-01-8",
+      "name": "All Saints' Day",
+      "date": "2024-11-01",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-11-11-9",
+      "name": "Armistice Day",
+      "date": "2024-11-11",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    },
+    {
+      "id": "FR-2024-12-25-10",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-19T04:27:10.407Z",
+      "updatedAt": "2025-07-19T04:27:10.407Z"
+    }
+  ]
+}
