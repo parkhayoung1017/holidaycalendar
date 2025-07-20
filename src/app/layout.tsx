@@ -37,6 +37,12 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9099299007950279" />
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9099299007950279"
+          crossOrigin="anonymous"
+        />
         <WebsiteStructuredData />
         <OrganizationStructuredData />
       </head>
