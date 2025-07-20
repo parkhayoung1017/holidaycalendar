@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { SUPPORTED_COUNTRIES, REGIONS, SUPPORTED_YEARS } from '../src/lib/constants';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://globalholidays.site';
+const SITE_URL = 'https://globalholidays.site';
 
 interface SitemapUrl {
   loc: string;
