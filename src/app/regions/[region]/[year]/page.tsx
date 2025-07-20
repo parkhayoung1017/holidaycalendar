@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { REGIONS, SUPPORTED_COUNTRIES, CURRENT_YEAR } from '@/lib/constants';
 import { loadHolidayData, loadCountryData } from '@/lib/data-loader';
 import { Holiday, Country } from '@/types';
@@ -126,9 +127,9 @@ export default async function RegionalHolidayPage({ params }: PageProps) {
         {/* 헤더 */}
         <div className="mb-8">
           <div className="flex items-center gap-2 text-sm text-gray-500 mb-4">
-            <a href="/" className="hover:text-blue-600">홈</a>
+            <Link href="/" className="hover:text-blue-600">홈</Link>
             <span>›</span>
-            <a href="/regions" className="hover:text-blue-600">대륙별 공휴일</a>
+            <Link href="/regions" className="hover:text-blue-600">대륙별 공휴일</Link>
             <span>›</span>
             <span className="text-gray-900">{region.displayName}</span>
           </div>
@@ -145,21 +146,21 @@ export default async function RegionalHolidayPage({ params }: PageProps) {
             
             {/* 연도 네비게이션 */}
             <div className="flex items-center gap-2">
-              <a
+              <Link
                 href={`/regions/${regionName}/${year - 1}`}
                 className="px-3 py-2 text-sm bg-white border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
               >
                 ← {year - 1}년
-              </a>
+              </Link>
               <span className="px-4 py-2 text-sm font-medium bg-blue-100 text-blue-800 rounded-md">
                 {year}년
               </span>
-              <a
+              <Link
                 href={`/regions/${regionName}/${year + 1}`}
                 className="px-3 py-2 text-sm bg-white border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
               >
                 {year + 1}년 →
-              </a>
+              </Link>
             </div>
           </div>
         </div>

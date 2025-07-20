@@ -17,7 +17,6 @@ interface RegionalHolidayComparisonProps {
 }
 
 export default function RegionalHolidayComparison({
-  region,
   year,
   countriesData
 }: RegionalHolidayComparisonProps) {
