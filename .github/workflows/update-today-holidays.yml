@@ -14,6 +14,11 @@ on:
       - 'scripts/update-today-holidays.ts'
       - '.github/workflows/update-today-holidays.yml'
 
+# GitHub Actions에 필요한 권한 설정
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   update-today-holidays:
     runs-on: ubuntu-latest
