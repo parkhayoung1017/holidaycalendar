@@ -1,0 +1,101 @@
+name: Update Today Holidays
+
+on:
+  # 매일 UTC 00:00 (한국시간 09:00)에 실행
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # 수동 실행 가능
+  workflow_dispatch:
+  
+  # 푸시 시에도 실행 (테스트용)
+  push:
+    paths:
+      - 'scripts/update-today-holidays.ts'
+      - '.github/workflows/update-today-holidays.yml'
+
+jobs:
+  update-today-holidays:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Install tsx globally
+        run: npm install -g tsx
+        
+      - name: Create logs directory
+        run: mkdir -p logs
+        
+      - name: Update today holidays
+        run: tsx scripts/update-today-holidays.ts
+        env:
+          NODE_ENV: production
+          
+      - name: Check if there are changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add logs/
+          git commit -m "chore: update today holidays log - $(date +'%Y-%m-%d')" || exit 0
+          git push
+          
+      - name: Display update summary
+        run: |
+          echo "## Today Holidays Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date**: $(date +'%Y-%m-%d')" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time**: $(date +'%H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "logs/today-holidays-update.json" ]; then
+            echo "- **Status**: ✅ Success" >> $GITHUB_STEP_SUMMARY
+            
+            # 최신 로그 엔트리에서 정보 추출
+            LATEST_LOG=$(tail -n 1 logs/today-holidays-update.json | sed 's/^[[:space:]]*//' | sed 's/[[:space:]]*$//' | sed 's/,$//')
+            
+            if [ "$LATEST_LOG" != "]" ] && [ "$LATEST_LOG" != "[" ]; then
+              TOTAL_HOLIDAYS=$(echo "$LATEST_LOG" | jq -r '.totalHolidays // 0')
+              COUNTRIES_COUNT=$(echo "$LATEST_LOG" | jq -r '.countriesCount // 0')
+              
+              echo "- **Total Holidays**: $TOTAL_HOLIDAYS" >> $GITHUB_STEP_SUMMARY
+              echo "- **Countries**: $COUNTRIES_COUNT" >> $GITHUB_STEP_SUMMARY
+              
+              if [ "$COUNTRIES_COUNT" -gt 0 ]; then
+                echo "" >> $GITHUB_STEP_SUMMARY
+                echo "### Countries with holidays today:" >> $GITHUB_STEP_SUMMARY
+                echo "$LATEST_LOG" | jq -r '.countries[]?' | while read -r country; do
+                  echo "- $country" >> $GITHUB_STEP_SUMMARY
+                done
+              else
+                echo "" >> $GITHUB_STEP_SUMMARY
+                echo "🗓️ No holidays today in supported countries." >> $GITHUB_STEP_SUMMARY
+              fi
+            fi
+          else
+            echo "- **Status**: ❌ Failed (no log file generated)" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+      - name: Trigger Vercel deployment
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          echo "Changes detected, Vercel will automatically redeploy the site."
+          echo "The updated today holidays page will be available shortly."

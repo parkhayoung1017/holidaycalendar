@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { REGIONS, CURRENT_YEAR } from '@/lib/constants';
+import { WebsiteStructuredData, OrganizationStructuredData } from '@/components/seo/StructuredData';
 
 export const metadata: Metadata = {
   title: '대륙별 공휴일 비교 - World Holiday Calendar',
@@ -23,6 +24,9 @@ export const metadata: Metadata = {
 export default function RegionsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
+      <WebsiteStructuredData />
+      <OrganizationStructuredData />
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* 헤더 */}
         <div className="mb-8">

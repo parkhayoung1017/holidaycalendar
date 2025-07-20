@@ -6,6 +6,8 @@ import HolidayList from '@/components/holiday/HolidayList';
 import YearNavigation from '@/components/navigation/YearNavigation';
 import CountryHeader from '@/components/country/CountryHeader';
 import { loadHolidayData } from '@/lib/data-loader';
+import { generateCountryYearMetadata } from '@/lib/seo-utils';
+import StructuredData from '@/components/seo/StructuredData';
 
 interface PageProps {
   params: Promise<{ 'country-year': string }>;
@@ -23,17 +25,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const countryInfo = SUPPORTED_COUNTRIES.find(c => c.code === country.toUpperCase());
-  
-  return {
-    title: `${countryInfo?.name || country} ${year}년 공휴일 - World Holiday Calendar`,
-    description: `${countryInfo?.name || country}의 ${year}년 공휴일 정보를 확인하세요. 정확한 날짜와 공휴일 설명을 제공합니다.`,
-    keywords: [`${countryInfo?.name}`, `${year}`, '공휴일', '휴일', '여행', 'holiday'],
-    openGraph: {
-      title: `${countryInfo?.name || country} ${year}년 공휴일`,
-      description: `${countryInfo?.name || country}의 ${year}년 공휴일 정보`,
-      type: 'website',
-    }
-  };
+  if (!countryInfo) {
+    return {
+      title: '페이지를 찾을 수 없습니다 - World Holiday Calendar'
+    };
+  }
+
+  // 공휴일 데이터 로드하여 정확한 메타데이터 생성
+  try {
+    const holidays = await loadHolidayData(country, year);
+    return generateCountryYearMetadata(country, year, holidays || []);
+  } catch (error) {
+    console.error('메타데이터 생성 중 오류:', error);
+    return {
+      title: `${countryInfo.name} ${year}년 공휴일 - World Holiday Calendar`,
+      description: `${countryInfo.name}의 ${year}년 공휴일 정보를 확인하세요.`
+    };
+  }
 }
 
 // 정적 경로 생성
@@ -145,6 +153,15 @@ export default async function CountryYearPage({ params }: PageProps) {
   
   return (
     <div className="container mx-auto px-4 py-8">
+      <StructuredData 
+        type="country" 
+        data={{
+          country: countryInfo,
+          year,
+          holidays
+        }}
+      />
+      
       <CountryHeader 
         country={countryInfo} 
         year={year} 
