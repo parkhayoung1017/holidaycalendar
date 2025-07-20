@@ -177,8 +177,44 @@ export default async function HolidayDetailPage({ params }: HolidayDetailPagePro
   }
 }
 
-// 정적 생성을 위한 경로 생성
+// 정적 생성을 위한 경로 생성 (SSG)
 export async function generateStaticParams() {
-  // 개발 단계에서는 빈 배열 반환 (필요시 주요 공휴일들만 사전 생성)
-  return [];
+  const params: Array<{ country: string; slug: string }> = [];
+  
+  try {
+    const { getAllAvailableData } = await import('@/lib/data-loader');
+    const availableData = await getAllAvailableData();
+    const currentYear = new Date().getFullYear();
+    
+    // 인기 국가들의 현재 연도 공휴일만 사전 생성
+    const popularCountries = ['US', 'GB', 'DE', 'FR', 'JP', 'KR'];
+    
+    for (const countryCode of popularCountries) {
+      if (availableData[countryCode]?.includes(currentYear)) {
+        try {
+          const holidays = await loadHolidayData(countryCode, currentYear);
+          
+          // 각 공휴일에 대한 경로 생성
+          for (const holiday of holidays.slice(0, 10)) { // 국가당 최대 10개 공휴일만
+            const slug = createHolidaySlug(holiday.name);
+            params.push({
+              country: countryCode.toLowerCase(),
+              slug
+            });
+          }
+        } catch (error) {
+          console.error(`Failed to generate params for ${countryCode}:`, error);
+        }
+      }
+    }
+    
+    console.log(`✅ Generated ${params.length} static paths for holiday detail pages`);
+  } catch (error) {
+    console.error('Failed to generate holiday detail static params:', error);
+  }
+  
+  return params;
 }
+
+// ISR 설정 - 24시간마다 재생성
+export const revalidate = 86400;

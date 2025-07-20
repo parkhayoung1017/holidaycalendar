@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { WebsiteStructuredData, OrganizationStructuredData } from "@/components/seo/StructuredData";
+import { ErrorBoundary } from "@/components/error/ErrorBoundary";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,7 +44,9 @@ export default function RootLayout({
       >
         <Header />
         <main className="flex-1">
-          {children}
+          <ErrorBoundary>
+            {children}
+          </ErrorBoundary>
         </main>
         <Footer />
       </body>

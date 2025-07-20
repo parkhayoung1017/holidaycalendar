@@ -1,5 +1,8 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 import { Holiday, CalendarificResponse, NagerDateResponse } from '../types';
+import { logApiError, logWarning, logInfo } from './error-logger';
+import fs from 'fs';
+import path from 'path';
 
 /**
  * Holiday API 클라이언트 클래스
@@ -55,25 +58,43 @@ export class HolidayApiClient {
 
   /**
    * 특정 국가와 연도의 공휴일 데이터를 가져옵니다.
+   * API 실패 시 캐시된 데이터를 사용합니다.
    * @param countryCode ISO 3166-1 alpha-2 국가 코드 (예: 'US', 'KR')
    * @param year 연도 (예: 2024)
    * @returns Promise<Holiday[]> 공휴일 배열
    */
   async fetchHolidaysByCountryYear(countryCode: string, year: number): Promise<Holiday[]> {
     try {
-      console.log(`공휴일 데이터 요청: ${countryCode} ${year}`);
+      logInfo(`공휴일 데이터 요청 시작: ${countryCode} ${year}`);
       
       const response = await this.executeWithRetry(() => 
         this.makeApiRequest(countryCode, year)
       );
 
       const normalizedData = this.normalizeApiResponse(response.data, countryCode);
-      console.log(`공휴일 데이터 수신 완료: ${normalizedData.length}개`);
       
+      // 성공한 데이터를 캐시에 저장
+      await this.saveToCacheFile(countryCode, year, normalizedData);
+      
+      logInfo(`공휴일 데이터 수신 완료: ${countryCode} ${year} - ${normalizedData.length}개`);
       return normalizedData;
+      
     } catch (error) {
-      console.error(`공휴일 데이터 요청 실패: ${countryCode} ${year}`, error);
-      throw new Error(`Failed to fetch holidays for ${countryCode} ${year}: ${error}`);
+      const apiError = error as Error;
+      logApiError(`fetchHolidaysByCountryYear`, apiError, { countryCode, year });
+      
+      // API 실패 시 캐시된 데이터 사용 시도
+      logWarning(`API 실패로 캐시 데이터 사용 시도: ${countryCode} ${year}`);
+      const cachedData = await this.loadFromCacheFile(countryCode, year);
+      
+      if (cachedData && cachedData.length > 0) {
+        logInfo(`캐시 데이터 사용: ${countryCode} ${year} - ${cachedData.length}개`);
+        return cachedData;
+      }
+      
+      // 캐시 데이터도 없으면 에러 발생
+      logApiError(`fetchHolidaysByCountryYear - 캐시 데이터 없음`, apiError, { countryCode, year });
+      throw new Error(`Failed to fetch holidays for ${countryCode} ${year} and no cached data available: ${apiError.message}`);
     }
   }
 
@@ -222,6 +243,86 @@ export class HolidayApiClient {
     if (typeStr.includes('school')) return 'school';
     
     return 'optional';
+  }
+
+  /**
+   * 캐시 파일에 데이터를 저장합니다.
+   * @param countryCode 국가 코드
+   * @param year 연도
+   * @param data 저장할 공휴일 데이터
+   */
+  private async saveToCacheFile(countryCode: string, year: number, data: Holiday[]): Promise<void> {
+    if (typeof window !== 'undefined') return; // 브라우저에서는 실행하지 않음
+
+    try {
+      const cacheDir = path.join(process.cwd(), 'data', 'cache');
+      const fileName = `holiday_${countryCode.toUpperCase()}_${year}.json`;
+      const filePath = path.join(cacheDir, fileName);
+
+      // 캐시 디렉토리 생성
+      if (!fs.existsSync(cacheDir)) {
+        fs.mkdirSync(cacheDir, { recursive: true });
+      }
+
+      // 메타데이터와 함께 저장
+      const cacheData = {
+        countryCode: countryCode.toUpperCase(),
+        year,
+        cachedAt: new Date().toISOString(),
+        data
+      };
+
+      fs.writeFileSync(filePath, JSON.stringify(cacheData, null, 2));
+      logInfo(`캐시 파일 저장 완료: ${fileName}`);
+    } catch (error) {
+      logApiError('saveToCacheFile', error as Error, { countryCode, year });
+    }
+  }
+
+  /**
+   * 캐시 파일에서 데이터를 로드합니다.
+   * @param countryCode 국가 코드
+   * @param year 연도
+   * @returns Promise<Holiday[] | null> 캐시된 공휴일 데이터 또는 null
+   */
+  private async loadFromCacheFile(countryCode: string, year: number): Promise<Holiday[] | null> {
+    if (typeof window !== 'undefined') return null; // 브라우저에서는 실행하지 않음
+
+    try {
+      const cacheDir = path.join(process.cwd(), 'data', 'cache');
+      const fileName = `holiday_${countryCode.toUpperCase()}_${year}.json`;
+      const filePath = path.join(cacheDir, fileName);
+
+      if (!fs.existsSync(filePath)) {
+        logWarning(`캐시 파일 없음: ${fileName}`);
+        return null;
+      }
+
+      const fileContent = fs.readFileSync(filePath, 'utf-8');
+      const cacheData = JSON.parse(fileContent);
+
+      // 캐시 데이터 유효성 검사
+      if (!cacheData.data || !Array.isArray(cacheData.data)) {
+        logWarning(`캐시 데이터 형식 오류: ${fileName}`);
+        return null;
+      }
+
+      // 캐시 만료 검사 (30일)
+      const cachedAt = new Date(cacheData.cachedAt);
+      const now = new Date();
+      const daysDiff = (now.getTime() - cachedAt.getTime()) / (1000 * 60 * 60 * 24);
+
+      if (daysDiff > 30) {
+        logWarning(`캐시 데이터 만료: ${fileName} (${Math.round(daysDiff)}일 경과)`);
+        return null;
+      }
+
+      logInfo(`캐시 파일 로드 완료: ${fileName} - ${cacheData.data.length}개`);
+      return cacheData.data;
+    } catch (error) {
+      logApiError('loadFromCacheFile', error as Error, { countryCode, year });
+      return null;
+    }
   }
 
   /**

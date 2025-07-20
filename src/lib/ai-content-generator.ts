@@ -1,4 +1,5 @@
 import { Holiday, AIContentRequest, AIContentResponse } from '@/types';
+import { logApiError, logWarning, logInfo } from './error-logger';
 
 // 공휴일 설명 데이터베이스
 interface HolidayDescription {
@@ -273,13 +274,17 @@ function getHolidayTemplate(holidayName: string, countryName: string): string {
 
 /**
  * 공휴일 설명을 생성합니다 (정적 데이터베이스 기반)
+ * AI API 실패 시 기본 템플릿을 사용하는 폴백 로직 포함
  */
 export async function generateHolidayDescription(request: AIContentRequest): Promise<AIContentResponse> {
   try {
+    logInfo(`공휴일 설명 생성 시작: ${request.holidayName} (${request.countryName})`);
+    
     const { holidayId, holidayName, countryName, existingDescription } = request;
     
     // 이미 설명이 있으면 그대로 반환
     if (existingDescription && existingDescription.trim().length > 30) {
+      logInfo(`기존 설명 사용: ${holidayName}`);
       return {
         holidayId,
         description: existingDescription.trim(),
@@ -306,6 +311,14 @@ export async function generateHolidayDescription(request: AIContentRequest): Pro
     const bestMatch = findBestMatch(holidayName, countryCode);
     
     if (bestMatch) {
+      logInfo(`데이터베이스 매칭 성공: ${holidayName}`);
+      
+      // 콘텐츠 품질 검증
+      if (!validateContent(bestMatch.description)) {
+        logWarning(`데이터베이스 콘텐츠 품질 검증 실패, 템플릿 사용: ${holidayName}`);
+        return generateFallbackDescription(request);
+      }
+      
       return {
         holidayId,
         description: bestMatch.description,
@@ -315,29 +328,66 @@ export async function generateHolidayDescription(request: AIContentRequest): Pro
     }
     
     // 매칭되지 않으면 템플릿 사용
-    const template = getHolidayTemplate(holidayName, countryName);
-    const description = template
-      .replace(/{name}/g, holidayName)
-      .replace(/{country}/g, countryName);
+    logWarning(`데이터베이스 매칭 실패, 템플릿 사용: ${holidayName}`);
+    return generateTemplateDescription(request, countryCode);
     
+  } catch (error) {
+    const aiError = error as Error;
+    logApiError('generateHolidayDescription', aiError, { 
+      holidayId: request.holidayId,
+      holidayName: request.holidayName,
+      countryName: request.countryName 
+    });
+    
+    // 에러 발생 시 폴백 설명 사용
+    return generateFallbackDescription(request);
+  }
+}
+
+/**
+ * 템플릿 기반 설명을 생성합니다
+ */
+function generateTemplateDescription(request: AIContentRequest, countryCode: string): AIContentResponse {
+  try {
+    const template = getHolidayTemplate(request.holidayName, request.countryName);
+    const description = template
+      .replace(/{name}/g, request.holidayName)
+      .replace(/{country}/g, request.countryName);
+    
+    // 템플릿 설명도 품질 검증
+    if (!validateContent(description)) {
+      logWarning(`템플릿 콘텐츠 품질 검증 실패, 기본 폴백 사용: ${request.holidayName}`);
+      return generateFallbackDescription(request);
+    }
+    
+    logInfo(`템플릿 설명 생성 완료: ${request.holidayName}`);
     return {
-      holidayId,
+      holidayId: request.holidayId,
       description,
       confidence: 0.6,
       generatedAt: new Date().toISOString()
     };
-    
   } catch (error) {
-    console.error('공휴일 설명 생성 중 오류:', error);
-    
-    // 폴백: 기본 설명
-    return {
-      holidayId: request.holidayId,
-      description: `${request.holidayName}은(는) ${request.countryName}에서 기념하는 특별한 날입니다. 이 날에는 전통적인 의식과 함께 가족들이 모여 의미 있는 시간을 보내며, 문화적 가치를 이어가는 소중한 기회가 됩니다.`,
-      confidence: 0.3,
-      generatedAt: new Date().toISOString()
-    };
+    logApiError('generateTemplateDescription', error as Error, { holidayName: request.holidayName });
+    return generateFallbackDescription(request);
   }
+}
+
+/**
+ * 최종 폴백 설명을 생성합니다 (요구사항 8.3 구현)
+ */
+function generateFallbackDescription(request: AIContentRequest): AIContentResponse {
+  logWarning(`기본 폴백 설명 사용: ${request.holidayName}`);
+  
+  // 가장 기본적이고 안전한 설명 템플릿
+  const fallbackDescription = `${request.holidayName}은(는) ${request.countryName}에서 기념하는 특별한 날입니다. 이 날에는 전통적인 의식과 함께 가족들이 모여 의미 있는 시간을 보내며, 문화적 가치를 이어가는 소중한 기회가 됩니다. 각 지역의 고유한 관습과 전통을 통해 공동체의 결속을 다지고, 세대 간 문화 전승의 역할을 하는 중요한 날입니다.`;
+  
+  return {
+    holidayId: request.holidayId,
+    description: fallbackDescription,
+    confidence: 0.3,
+    generatedAt: new Date().toISOString()
+  };
 }
 
 /**

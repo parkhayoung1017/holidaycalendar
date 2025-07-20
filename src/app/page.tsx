@@ -4,6 +4,9 @@ import { POPULAR_COUNTRIES, CURRENT_YEAR, DEFAULT_METADATA } from "@/lib/constan
 import { getAllAvailableData } from "@/lib/data-loader";
 import Link from "next/link";
 
+// ISR 설정 - 6시간마다 재생성
+export const revalidate = 21600;
+
 export default async function Home() {
   // 실제 사용 가능한 데이터 확인
   const availableData = await getAllAvailableData();

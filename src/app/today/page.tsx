@@ -4,6 +4,8 @@ import { SUPPORTED_COUNTRIES } from '@/lib/constants';
 import TodayHolidaysView from '@/components/today/TodayHolidaysView';
 import { generateTodayHolidaysMetadata } from '@/lib/seo-utils';
 import StructuredData from '@/components/seo/StructuredData';
+import { ErrorMessages } from '@/components/error/ErrorMessage';
+import { logError } from '@/lib/error-logger';
 
 // 현재 날짜를 ISO 형식으로 가져오는 함수
 function getTodayISO(): string {
@@ -41,40 +43,73 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function TodayPage() {
   const todayISO = getTodayISO();
   
-  // 오늘 날짜의 공휴일 데이터 로드
-  const todayHolidays = await getHolidaysByDate(todayISO);
-  
-  // 국가 정보 매핑
-  const holidaysWithCountryInfo = todayHolidays.map(holiday => {
-    const countryInfo = SUPPORTED_COUNTRIES.find(c => c.code === holiday.countryCode);
-    return {
-      ...holiday,
-      countryName: countryInfo?.name || holiday.country,
-      countryFlag: countryInfo?.flag || '🏳️',
-    };
-  });
+  try {
+    // 오늘 날짜의 공휴일 데이터 로드
+    const todayHolidays = await getHolidaysByDate(todayISO);
+    
+    // 국가 정보 매핑
+    const holidaysWithCountryInfo = todayHolidays.map(holiday => {
+      const countryInfo = SUPPORTED_COUNTRIES.find(c => c.code === holiday.countryCode);
+      return {
+        ...holiday,
+        countryName: countryInfo?.name || holiday.country,
+        countryFlag: countryInfo?.flag || '🏳️',
+      };
+    });
 
-  return (
-    <div className="min-h-screen bg-gray-50">
-      {holidaysWithCountryInfo.length > 0 && (
-        <StructuredData 
-          type="holiday" 
-          data={{
-            holidays: holidaysWithCountryInfo,
-            date: todayISO,
-            type: 'today'
-          }}
-        />
-      )}
-      
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <TodayHolidaysView 
-          holidays={holidaysWithCountryInfo}
-          date={todayISO}
-        />
+    return (
+      <div className="min-h-screen bg-gray-50">
+        {holidaysWithCountryInfo.length > 0 && (
+          <StructuredData 
+            type="holiday" 
+            data={{
+              holidays: holidaysWithCountryInfo,
+              date: todayISO,
+              type: 'today'
+            }}
+          />
+        )}
+        
+        <div className="max-w-4xl mx-auto px-4 py-8">
+          <TodayHolidaysView 
+            holidays={holidaysWithCountryInfo}
+            date={todayISO}
+          />
+        </div>
       </div>
-    </div>
-  );
+    );
+  } catch (error) {
+    // 에러 로깅
+    logError(error as Error, {
+      operation: 'TodayPage',
+      date: todayISO,
+      timestamp: new Date().toISOString()
+    });
+
+    // 에러 발생 시 폴백 UI 표시
+    return (
+      <div className="min-h-screen bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 py-8">
+          <div className="text-center mb-8">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">
+              오늘의 공휴일
+            </h1>
+            <p className="text-gray-600">
+              {new Date().toLocaleDateString('ko-KR', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+              })}
+            </p>
+          </div>
+          
+          <ErrorMessages.ApiFailure 
+            onRetry={() => window.location.reload()} 
+          />
+        </div>
+      </div>
+    );
+  }
 }
 
 // 페이지를 매시간 재생성하도록 설정 (ISR)

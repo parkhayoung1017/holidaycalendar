@@ -8,6 +8,8 @@ import CountryHeader from '@/components/country/CountryHeader';
 import { loadHolidayData } from '@/lib/data-loader';
 import { generateCountryYearMetadata } from '@/lib/seo-utils';
 import StructuredData from '@/components/seo/StructuredData';
+import { ErrorMessages } from '@/components/error/ErrorMessage';
+import { logError } from '@/lib/error-logger';
 
 interface PageProps {
   params: Promise<{ 'country-year': string }>;
@@ -44,7 +46,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 }
 
-// 정적 경로 생성
+// 정적 경로 생성 (SSG)
 export async function generateStaticParams() {
   const paths: Array<{ 'country-year': string }> = [];
   
@@ -63,6 +65,8 @@ export async function generateStaticParams() {
         }
       }
     }
+    
+    console.log(`✅ Generated ${paths.length} static paths for country-year pages`);
   } catch (error) {
     console.error('Failed to generate static params:', error);
     // 폴백으로 기본 경로들 생성
@@ -70,14 +74,21 @@ export async function generateStaticParams() {
     const currentYear = new Date().getFullYear();
     
     for (const country of popularCountries) {
-      paths.push({
-        'country-year': `${country.name.toLowerCase().replace(/\s+/g, '-')}-${currentYear - 1}`
-      });
+      for (let year = currentYear - 1; year <= currentYear + 1; year++) {
+        paths.push({
+          'country-year': `${country.name.toLowerCase().replace(/\s+/g, '-')}-${year}`
+        });
+      }
     }
+    
+    console.log(`⚠️ Generated ${paths.length} fallback static paths`);
   }
   
   return paths;
 }
+
+// ISR 설정 - 1시간마다 재생성
+export const revalidate = 3600;
 
 // URL에서 국가와 연도 파싱
 function parseCountryYear(countryYear: string): { country: string | null; year: number | null } {
@@ -118,63 +129,96 @@ export default async function CountryYearPage({ params }: PageProps) {
     notFound();
   }
   
-  // 공휴일 데이터 로드
-  const holidays = await loadHolidayData(country, year);
-  
-  // 해당 국가의 사용 가능한 연도 목록 가져오기
-  const { getAvailableYears } = await import('@/lib/data-loader');
-  const availableYears = await getAvailableYears(country);
-  
-  if (!holidays || holidays.length === 0) {
+  try {
+    // 공휴일 데이터 로드
+    const holidays = await loadHolidayData(country, year);
+    
+    // 해당 국가의 사용 가능한 연도 목록 가져오기
+    const { getAvailableYears } = await import('@/lib/data-loader');
+    const availableYears = await getAvailableYears(country);
+    
+    // 요구사항 6.3: 데이터가 없으면 "해당 연도 데이터를 준비 중입니다" 메시지 표시
+    if (!holidays || holidays.length === 0) {
+      return (
+        <div className="container mx-auto px-4 py-8">
+          <CountryHeader country={countryInfo} year={year} />
+          <YearNavigation 
+            country={countryInfo} 
+            currentYear={year} 
+            availableYears={availableYears}
+          />
+          
+          <div className="mt-8">
+            <ErrorMessages.DataNotAvailable 
+              year={year} 
+              country={countryInfo.name} 
+            />
+          </div>
+          
+          {availableYears.length > 0 && (
+            <div className="mt-6 text-center">
+              <p className="text-blue-600">
+                현재 {availableYears.join(', ')}년 데이터를 제공하고 있습니다.
+              </p>
+            </div>
+          )}
+        </div>
+      );
+    }
+    
     return (
       <div className="container mx-auto px-4 py-8">
-        <CountryHeader country={countryInfo} year={year} />
+        <StructuredData 
+          type="country" 
+          data={{
+            country: countryInfo,
+            year,
+            holidays
+          }}
+        />
+        
+        <CountryHeader 
+          country={countryInfo} 
+          year={year} 
+          totalHolidays={holidays.length}
+        />
+        
         <YearNavigation 
           country={countryInfo} 
           currentYear={year} 
           availableYears={availableYears}
         />
-        <div className="text-center py-12">
-          <h2 className="text-2xl font-semibold text-gray-600 mb-4">
-            데이터를 준비 중입니다
-          </h2>
-          <p className="text-gray-500">
-            {countryInfo.name}의 {year}년 공휴일 데이터를 곧 제공할 예정입니다.
+        
+        <HolidayList holidays={holidays} />
+      </div>
+    );
+  } catch (error) {
+    // 에러 로깅
+    logError(error as Error, {
+      operation: 'CountryYearPage',
+      country,
+      year,
+      countryName: countryInfo.name,
+      timestamp: new Date().toISOString()
+    });
+
+    // 에러 발생 시 폴백 UI 표시
+    return (
+      <div className="container mx-auto px-4 py-8">
+        <CountryHeader country={countryInfo} year={year} />
+        
+        <div className="mt-8">
+          <ErrorMessages.ApiFailure 
+            onRetry={() => window.location.reload()} 
+          />
+        </div>
+        
+        <div className="mt-6 text-center">
+          <p className="text-gray-600">
+            다른 연도의 데이터를 확인해보세요.
           </p>
-          {availableYears.length > 0 && (
-            <p className="text-blue-600 mt-4">
-              현재 {availableYears.join(', ')}년 데이터를 제공하고 있습니다.
-            </p>
-          )}
         </div>
       </div>
     );
   }
-  
-  return (
-    <div className="container mx-auto px-4 py-8">
-      <StructuredData 
-        type="country" 
-        data={{
-          country: countryInfo,
-          year,
-          holidays
-        }}
-      />
-      
-      <CountryHeader 
-        country={countryInfo} 
-        year={year} 
-        totalHolidays={holidays.length}
-      />
-      
-      <YearNavigation 
-        country={countryInfo} 
-        currentYear={year} 
-        availableYears={availableYears}
-      />
-      
-      <HolidayList holidays={holidays} />
-    </div>
-  );
 }

@@ -3,6 +3,9 @@ import Link from 'next/link';
 import { REGIONS, CURRENT_YEAR } from '@/lib/constants';
 import { WebsiteStructuredData, OrganizationStructuredData } from '@/components/seo/StructuredData';
 
+// ISR 설정 - 12시간마다 재생성
+export const revalidate = 43200;
+
 export const metadata: Metadata = {
   title: '대륙별 공휴일 비교 - World Holiday Calendar',
   description: '전세계 대륙별로 공휴일을 비교해보세요. 아시아, 유럽, 북미, 오세아니아 등 각 대륙의 국가별 공휴일을 한눈에 확인할 수 있습니다.',

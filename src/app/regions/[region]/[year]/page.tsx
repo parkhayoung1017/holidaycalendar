@@ -84,7 +84,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-// 정적 경로 생성
+// 정적 경로 생성 (SSG)
 export async function generateStaticParams() {
   const params = [];
   
@@ -100,8 +100,12 @@ export async function generateStaticParams() {
     }
   }
   
+  console.log(`✅ Generated ${params.length} static paths for regional pages`);
   return params;
 }
+
+// ISR 설정 - 6시간마다 재생성
+export const revalidate = 21600;
 
 export default async function RegionalHolidayPage({ params }: PageProps) {
   const regionName = decodeURIComponent(params.region);

@@ -11,6 +11,11 @@ const nextConfig: NextConfig = {
     // your project has type errors.
     ignoreBuildErrors: true,
   },
+  
+  // 정적 사이트 생성 최적화 (환경변수로 제어)
+  output: process.env.BUILD_MODE === 'export' ? 'export' : undefined,
+  distDir: process.env.BUILD_MODE === 'export' ? 'out' : '.next',
+  
   // SEO 최적화 설정
   trailingSlash: false,
   generateEtags: true,
@@ -19,6 +24,7 @@ const nextConfig: NextConfig = {
   
   // 이미지 최적화 설정
   images: {
+    unoptimized: process.env.BUILD_MODE === 'export', // 정적 export일 때만 비활성화
     domains: ['world-holiday-calendar.com'],
     formats: ['image/webp', 'image/avif'],
   },
@@ -26,6 +32,11 @@ const nextConfig: NextConfig = {
   // 환경변수 설정
   env: {
     NEXT_PUBLIC_SITE_URL: process.env.NEXT_PUBLIC_SITE_URL || 'https://world-holiday-calendar.com',
+  },
+  
+  // 빌드 최적화
+  experimental: {
+    optimizePackageImports: ['date-fns'],
   },
   
   // 헤더 설정
