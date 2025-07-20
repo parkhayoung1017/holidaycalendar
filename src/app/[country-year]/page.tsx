@@ -10,6 +10,8 @@ import { generateCountryYearMetadata } from '@/lib/seo-utils';
 import StructuredData from '@/components/seo/StructuredData';
 import { ErrorMessages } from '@/components/error/ErrorMessage';
 import { logError } from '@/lib/error-logger';
+import ResponsiveBanner from '@/components/ads/ResponsiveBanner';
+import SidebarBanner from '@/components/ads/SidebarBanner';
 
 interface PageProps {
   params: Promise<{ 'country-year': string }>;
@@ -189,7 +191,24 @@ export default async function CountryYearPage({ params }: PageProps) {
           availableYears={availableYears}
         />
         
-        <HolidayList holidays={holidays} />
+        {/* 상단 광고 */}
+        <div className="my-8 flex justify-center">
+          <ResponsiveBanner />
+        </div>
+        
+        {/* 메인 콘텐츠와 사이드바 */}
+        <div className="flex flex-col lg:flex-row gap-8">
+          <div className="flex-1">
+            <HolidayList holidays={holidays} />
+          </div>
+          
+          {/* 사이드바 광고 */}
+          <div className="lg:w-80 flex-shrink-0">
+            <div className="sticky top-4">
+              <SidebarBanner />
+            </div>
+          </div>
+        </div>
       </div>
     );
   } catch (error) {

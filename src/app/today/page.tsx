@@ -6,6 +6,8 @@ import { generateTodayHolidaysMetadata } from '@/lib/seo-utils';
 import StructuredData from '@/components/seo/StructuredData';
 import { ErrorMessages } from '@/components/error/ErrorMessage';
 import { logError } from '@/lib/error-logger';
+import ResponsiveBanner from '@/components/ads/ResponsiveBanner';
+import InlineBanner from '@/components/ads/InlineBanner';
 
 // 현재 날짜를 ISO 형식으로 가져오는 함수
 function getTodayISO(): string {
@@ -71,10 +73,20 @@ export default async function TodayPage() {
         )}
         
         <div className="max-w-4xl mx-auto px-4 py-8">
+          {/* 상단 광고 */}
+          <div className="mb-8 flex justify-center">
+            <ResponsiveBanner />
+          </div>
+          
           <TodayHolidaysView 
             holidays={holidaysWithCountryInfo}
             date={todayISO}
           />
+          
+          {/* 하단 광고 */}
+          <div className="mt-8 flex justify-center">
+            <InlineBanner />
+          </div>
         </div>
       </div>
     );

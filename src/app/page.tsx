@@ -3,6 +3,8 @@ import MonthlyCalendar from "@/components/calendar/MonthlyCalendar";
 import { POPULAR_COUNTRIES, CURRENT_YEAR, DEFAULT_METADATA } from "@/lib/constants";
 import { getAllAvailableData } from "@/lib/data-loader";
 import Link from "next/link";
+import ResponsiveBanner from "@/components/ads/ResponsiveBanner";
+import InlineBanner from "@/components/ads/InlineBanner";
 
 // ISR 설정 - 6시간마다 재생성
 export const revalidate = 21600;
@@ -76,6 +78,11 @@ export default async function Home() {
           </div>
         </div>
 
+        {/* 상단 광고 */}
+        <div className="mb-8 flex justify-center">
+          <ResponsiveBanner className="max-w-full" />
+        </div>
+
         {/* 이번 달 캘린더 섹션 */}
         <div className="mb-8">
           <MonthlyCalendar />
@@ -138,6 +145,11 @@ export default async function Home() {
             </div>
           );
         })()}
+
+        {/* 중간 광고 */}
+        <div className="mb-8 flex justify-center">
+          <InlineBanner />
+        </div>
 
         {/* 기능 소개 섹션 */}
         <div className="grid md:grid-cols-3 gap-6 mb-8">

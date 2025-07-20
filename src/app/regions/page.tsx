@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { REGIONS, CURRENT_YEAR } from '@/lib/constants';
 import { WebsiteStructuredData, OrganizationStructuredData } from '@/components/seo/StructuredData';
+import ResponsiveBanner from '@/components/ads/ResponsiveBanner';
+import DisplayBanner from '@/components/ads/DisplayBanner';
 
 // ISR 설정 - 12시간마다 재생성
 export const revalidate = 43200;
@@ -48,6 +50,11 @@ export default function RegionsPage() {
               같은 대륙 내 국가들의 공휴일을 한눈에 확인할 수 있습니다.
             </p>
           </div>
+        </div>
+
+        {/* 상단 광고 */}
+        <div className="mb-8 flex justify-center">
+          <ResponsiveBanner />
         </div>
 
         {/* 지역 카드 그리드 */}
@@ -105,6 +112,11 @@ export default function RegionsPage() {
                 </div>
               );
             })}
+        </div>
+
+        {/* 중간 광고 */}
+        <div className="mt-8 mb-8 flex justify-center">
+          <DisplayBanner />
         </div>
 
         {/* 추가 정보 섹션 */}

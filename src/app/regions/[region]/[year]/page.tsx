@@ -5,6 +5,8 @@ import { REGIONS, SUPPORTED_COUNTRIES, CURRENT_YEAR } from '@/lib/constants';
 import { loadHolidayData, loadCountryData } from '@/lib/data-loader';
 import { Holiday, Country } from '@/types';
 import RegionalHolidayComparison from '@/components/regional/RegionalHolidayComparison';
+import ResponsiveBanner from '@/components/ads/ResponsiveBanner';
+import DisplayBanner from '@/components/ads/DisplayBanner';
 
 interface PageProps {
   params: {
@@ -169,12 +171,22 @@ export default async function RegionalHolidayPage({ params }: PageProps) {
           </div>
         </div>
 
+        {/* 상단 광고 */}
+        <div className="mb-8 flex justify-center">
+          <ResponsiveBanner />
+        </div>
+
         {/* 대륙별 공휴일 비교 컴포넌트 */}
         <RegionalHolidayComparison
           region={region}
           year={year}
           countriesData={countriesData}
         />
+
+        {/* 하단 광고 */}
+        <div className="mt-8 flex justify-center">
+          <DisplayBanner />
+        </div>
       </div>
     </div>
   );
