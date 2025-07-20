@@ -154,11 +154,11 @@ export const CACHE_TTL = {
 
 // 기본 메타데이터
 export const DEFAULT_METADATA = {
-  TITLE: 'World Holiday Calendar - 전세계 공휴일 정보',
+  TITLE: 'Global Holidays - 전세계 공휴일 정보',
   DESCRIPTION: '전세계 주요 국가의 공휴일 정보를 한눈에 확인하세요. 여행 계획과 업무 일정에 도움이 되는 정확한 공휴일 데이터를 제공합니다.',
-  KEYWORDS: ['공휴일', '휴일', '여행', '해외여행', '국가별공휴일', 'holiday', 'vacation', 'travel'],
+  KEYWORDS: ['공휴일', '휴일', '여행', '해외여행', '국가별공휴일', 'holiday', 'vacation', 'travel', 'global holidays'],
   OG_IMAGE: '/og-image.png',
-  SITE_NAME: 'World Holiday Calendar'
+  SITE_NAME: 'Global Holidays'
 } as const;
 
 // URL 패턴

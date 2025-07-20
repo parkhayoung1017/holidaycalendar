@@ -3,7 +3,7 @@ import { SUPPORTED_COUNTRIES, REGIONS, SUPPORTED_YEARS } from '@/lib/constants';
 import fs from 'fs';
 import path from 'path';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://world-holiday-calendar.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://globalholidays.site';
 
 /**
  * Next.js 자동 사이트맵 생성

@@ -1154,3 +1154,1159 @@
 {"timestamp":"2025-07-20T07:26:47.856Z","level":"info","message":"사용 가능한 연도 조회 완료: FR - 4개 연도"}
 {"timestamp":"2025-07-20T07:26:47.857Z","level":"info","message":"사용 가능한 연도 조회 완료: ES - 3개 연도"}
 {"timestamp":"2025-07-20T07:26:47.857Z","level":"info","message":"사용 가능한 연도 조회 완료: FR - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:23.291Z","level":"info","message":"전체 사용 가능한 데이터 조회 시작"}
+{"timestamp":"2025-07-20T07:58:23.297Z","level":"info","message":"전체 사용 가능한 데이터 조회 완료: 10개 국가, 35개 파일"}
+{"timestamp":"2025-07-20T07:58:23.297Z","level":"info","message":"전체 사용 가능한 데이터 조회 시작"}
+{"timestamp":"2025-07-20T07:58:23.299Z","level":"info","message":"전체 사용 가능한 데이터 조회 완료: 10개 국가, 35개 파일"}
+{"timestamp":"2025-07-20T07:58:23.299Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:23.301Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:23.302Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:23.303Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:23.303Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:23.304Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:23.304Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:23.305Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:23.305Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:23.305Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:23.305Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:23.306Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.197Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.198Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.198Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.199Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.199Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.200Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.203Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.203Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.204Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.204Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.204Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2024"}
+{"timestamp":"2025-07-20T07:58:24.205Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.208Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2024"}
+{"timestamp":"2025-07-20T07:58:24.208Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.208Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.209Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.209Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.213Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.213Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2023"}
+{"timestamp":"2025-07-20T07:58:24.213Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.214Z","level":"info","message":"국가 데이터 로드 시작: KR"}
+{"timestamp":"2025-07-20T07:58:24.215Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.215Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.215Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2023"}
+{"timestamp":"2025-07-20T07:58:24.216Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.216Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2023"}
+{"timestamp":"2025-07-20T07:58:24.217Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.218Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.218Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.218Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.218Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2026"}
+{"timestamp":"2025-07-20T07:58:24.219Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.219Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2026"}
+{"timestamp":"2025-07-20T07:58:24.220Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.220Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.220Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.220Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.220Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2025"}
+{"timestamp":"2025-07-20T07:58:24.221Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2025"}
+{"timestamp":"2025-07-20T07:58:24.221Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.221Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.221Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.223Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.228Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.228Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.228Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.229Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.229Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.229Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.230Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.230Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.229Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2023"}
+{"timestamp":"2025-07-20T07:58:24.231Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.231Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2023"}
+{"timestamp":"2025-07-20T07:58:24.231Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.231Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.231Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.232Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2026"}
+{"timestamp":"2025-07-20T07:58:24.233Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2026"}
+{"timestamp":"2025-07-20T07:58:24.233Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.234Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.235Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2023"}
+{"timestamp":"2025-07-20T07:58:24.235Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2023"}
+{"timestamp":"2025-07-20T07:58:24.240Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.241Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.241Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.245Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.247Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.249Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.249Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.250Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.251Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.251Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.251Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.252Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.252Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2024 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.253Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.253Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.253Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.253Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.254Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2023 - 14개"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"사용 가능한 연도 조회 시작: GB"}
+{"timestamp":"2025-07-20T07:58:24.255Z","level":"info","message":"공휴일 데이터 로드 완료: IT-2026 - 12개"}
+{"timestamp":"2025-07-20T07:58:24.256Z","level":"info","message":"공휴일 데이터 로드 완료: IT-2026 - 12개"}
+{"timestamp":"2025-07-20T07:58:24.256Z","level":"info","message":"사용 가능한 연도 조회 시작: IT"}
+{"timestamp":"2025-07-20T07:58:24.256Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.256Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.256Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2024 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.256Z","level":"info","message":"사용 가능한 연도 조회 시작: GB"}
+{"timestamp":"2025-07-20T07:58:24.256Z","level":"info","message":"공휴일 데이터 로드 완료: IT-2025 - 12개"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"info","message":"공휴일 데이터 로드 완료: IT-2023 - 12개"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"info","message":"공휴일 설명 생성 시작: New Year's Day (France)"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: New Year's Day"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2026 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"info","message":"템플릿 설명 생성 완료: New Year's Day"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2026 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"info","message":"사용 가능한 연도 조회 시작: JP"}
+{"timestamp":"2025-07-20T07:58:24.257Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"사용 가능한 연도 조회 시작: JP"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2023 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"사용 가능한 연도 조회 시작: JP"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 설명 생성 시작: Victory in Europe Day (France)"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2023 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Victory in Europe Day"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"템플릿 설명 생성 완료: Victory in Europe Day"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2023 - 14개"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.258Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.259Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.259Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.259Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.259Z","level":"info","message":"공휴일 설명 생성 시작: Ascension Day (France)"}
+{"timestamp":"2025-07-20T07:58:24.259Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Ascension Day"}
+{"timestamp":"2025-07-20T07:58:24.259Z","level":"info","message":"템플릿 설명 생성 완료: Ascension Day"}
+{"timestamp":"2025-07-20T07:58:24.259Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.259Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"공휴일 데이터 로드 완료: IT-2023 - 12개"}
+{"timestamp":"2025-07-20T07:58:24.259Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"사용 가능한 연도 조회 시작: IT"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"공휴일 데이터 로드 완료: IT-2025 - 12개"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"사용 가능한 연도 조회 시작: IT"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"공휴일 설명 생성 시작: Easter Monday (France)"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Easter Monday"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"템플릿 설명 생성 완료: Easter Monday"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.260Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"사용 가능한 연도 조회 완료: GB - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"공휴일 설명 생성 시작: Bastille Day (France)"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"데이터베이스 매칭 성공: Bastille Day"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"사용 가능한 연도 조회 완료: IT - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"info","message":"공휴일 설명 생성 시작: Labour Day (France)"}
+{"timestamp":"2025-07-20T07:58:24.261Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Labour Day"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"템플릿 설명 생성 완료: Labour Day"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 설명 생성 시작: Assumption Day (France)"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Assumption Day"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"템플릿 설명 생성 완료: Assumption Day"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 설명 생성 시작: Whit Monday (France)"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Whit Monday"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"템플릿 설명 생성 완료: Whit Monday"}
+{"timestamp":"2025-07-20T07:58:24.262Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"사용 가능한 연도 조회 완료: GB - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"공휴일 설명 생성 시작: Truman Day (United States)"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"사용 가능한 연도 조회 완료: JP - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"사용 가능한 연도 조회 완료: JP - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"사용 가능한 연도 조회 완료: JP - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Truman Day"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"사용 가능한 연도 조회 완료: IT - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"템플릿 설명 생성 완료: Truman Day"}
+{"timestamp":"2025-07-20T07:58:24.263Z","level":"info","message":"사용 가능한 연도 조회 완료: IT - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.264Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.264Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.264Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.264Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.264Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.264Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.264Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"공휴일 설명 생성 시작: New Year's Day (United Kingdom)"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: New Year's Day"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"템플릿 설명 생성 완료: New Year's Day"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.265Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"공휴일 설명 생성 시작: Memorial Day (United States)"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Memorial Day"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"템플릿 설명 생성 완료: Memorial Day"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"공휴일 설명 생성 시작: Juneteenth National Independence Day (United States)"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.266Z","level":"info","message":"데이터베이스 매칭 성공: Juneteenth National Independence Day"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 설명 생성 시작: Independence Day (United States)"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"데이터베이스 매칭 성공: Independence Day"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 설명 생성 시작: Labor Day (United States)"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Labor Day"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"템플릿 설명 생성 완료: Labor Day"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.267Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"공휴일 설명 생성 시작: 2 January (United Kingdom)"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: 2 January"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"템플릿 설명 생성 완료: 2 January"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.268Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"국가 데이터 로드 시작: KR"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"공휴일 설명 생성 시작: Saint Patrick's Day (United Kingdom)"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Saint Patrick's Day"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"템플릿 설명 생성 완료: Saint Patrick's Day"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2024"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.269Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.270Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.271Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.274Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.275Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.275Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.275Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.275Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.275Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.279Z","level":"info","message":"국가 데이터 로드 시작: KR"}
+{"timestamp":"2025-07-20T07:58:24.279Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.280Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.281Z","level":"info","message":"국가 데이터 로드 시작: KR"}
+{"timestamp":"2025-07-20T07:58:24.281Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.281Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2026"}
+{"timestamp":"2025-07-20T07:58:24.288Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.288Z","level":"info","message":"공휴일 설명 생성 시작: Buddha's Birthday (South Korea)"}
+{"timestamp":"2025-07-20T07:58:24.288Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Buddha's Birthday"}
+{"timestamp":"2025-07-20T07:58:24.289Z","level":"info","message":"템플릿 설명 생성 완료: Buddha's Birthday"}
+{"timestamp":"2025-07-20T07:58:24.289Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.289Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.291Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.292Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.293Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2023 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.293Z","level":"info","message":"국가 데이터 로드 시작: JP"}
+{"timestamp":"2025-07-20T07:58:24.293Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.294Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2023"}
+{"timestamp":"2025-07-20T07:58:24.295Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.295Z","level":"info","message":"공휴일 설명 생성 시작: Memorial Day (South Korea)"}
+{"timestamp":"2025-07-20T07:58:24.296Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Memorial Day"}
+{"timestamp":"2025-07-20T07:58:24.296Z","level":"info","message":"템플릿 설명 생성 완료: Memorial Day"}
+{"timestamp":"2025-07-20T07:58:24.296Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.296Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.298Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.298Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.298Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.298Z","level":"info","message":"공휴일 설명 생성 시작: Liberation Day (South Korea)"}
+{"timestamp":"2025-07-20T07:58:24.298Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Liberation Day"}
+{"timestamp":"2025-07-20T07:58:24.298Z","level":"info","message":"템플릿 설명 생성 완료: Liberation Day"}
+{"timestamp":"2025-07-20T07:58:24.298Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.298Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.298Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"info","message":"공휴일 설명 생성 시작: National Foundation Day (South Korea)"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: National Foundation Day"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"info","message":"템플릿 설명 생성 완료: National Foundation Day"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.299Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2024 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"국가 데이터 로드 시작: JP"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2024"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"국가 데이터 로드 시작: JP"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2026 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"국가 데이터 로드 시작: JP"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2026"}
+{"timestamp":"2025-07-20T07:58:24.300Z","level":"warn","message":"공휴일 데이터 파일 없음: JP-2024","context":{"countryCode":"JP","year":2024,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/jp-2024.json"}}
+{"timestamp":"2025-07-20T07:58:24.301Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.301Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.308Z","level":"info","message":"특정 날짜 공휴일 조회 시작: 2025-07-20"}
+{"timestamp":"2025-07-20T07:58:24.313Z","level":"info","message":"특정 날짜 공휴일 조회 시작: 2025-07-20"}
+{"timestamp":"2025-07-20T07:58:24.348Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2026"}
+{"timestamp":"2025-07-20T07:58:24.349Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2026"}
+{"timestamp":"2025-07-20T07:58:24.353Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.356Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2025"}
+{"timestamp":"2025-07-20T07:58:24.356Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2025"}
+{"timestamp":"2025-07-20T07:58:24.358Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2023"}
+{"timestamp":"2025-07-20T07:58:24.358Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2023"}
+{"timestamp":"2025-07-20T07:58:24.362Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2023 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.375Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.376Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.376Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.376Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.377Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2026 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.383Z","level":"info","message":"공휴일 데이터 로드 완료: AU-2026 - 25개"}
+{"timestamp":"2025-07-20T07:58:24.383Z","level":"info","message":"사용 가능한 연도 조회 시작: AU"}
+{"timestamp":"2025-07-20T07:58:24.384Z","level":"info","message":"공휴일 데이터 로드 완료: AU-2026 - 25개"}
+{"timestamp":"2025-07-20T07:58:24.384Z","level":"info","message":"공휴일 데이터 로드 완료: AU-2025 - 24개"}
+{"timestamp":"2025-07-20T07:58:24.384Z","level":"info","message":"사용 가능한 연도 조회 시작: AU"}
+{"timestamp":"2025-07-20T07:58:24.385Z","level":"info","message":"공휴일 데이터 로드 완료: AU-2025 - 24개"}
+{"timestamp":"2025-07-20T07:58:24.385Z","level":"info","message":"공휴일 데이터 로드 완료: AU-2023 - 25개"}
+{"timestamp":"2025-07-20T07:58:24.385Z","level":"info","message":"사용 가능한 연도 조회 시작: AU"}
+{"timestamp":"2025-07-20T07:58:24.389Z","level":"info","message":"공휴일 데이터 로드 완료: AU-2023 - 25개"}
+{"timestamp":"2025-07-20T07:58:24.398Z","level":"info","message":"사용 가능한 연도 조회 완료: AU - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.399Z","level":"info","message":"사용 가능한 연도 조회 완료: AU - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.399Z","level":"info","message":"사용 가능한 연도 조회 완료: AU - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.407Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.407Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.408Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.409Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.410Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.410Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.410Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.411Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.412Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.412Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.412Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.413Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.413Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.413Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.413Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.413Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.413Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.413Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.414Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.415Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2026"}
+{"timestamp":"2025-07-20T07:58:24.415Z","level":"info","message":"공휴일 데이터 로드 시작: fr-2025"}
+{"timestamp":"2025-07-20T07:58:24.417Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2026"}
+{"timestamp":"2025-07-20T07:58:24.418Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.418Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.418Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.418Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.418Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.418Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.418Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.419Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.419Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.419Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2024"}
+{"timestamp":"2025-07-20T07:58:24.419Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2024"}
+{"timestamp":"2025-07-20T07:58:24.419Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.420Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.420Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2023"}
+{"timestamp":"2025-07-20T07:58:24.421Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2023"}
+{"timestamp":"2025-07-20T07:58:24.421Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.420Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.422Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.422Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.422Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.422Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.422Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.423Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.423Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.423Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.423Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.424Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.425Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.425Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.424Z","level":"info","message":"공휴일 데이터 로드 시작: US-2026"}
+{"timestamp":"2025-07-20T07:58:24.427Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.428Z","level":"info","message":"공휴일 데이터 로드 시작: US-2026"}
+{"timestamp":"2025-07-20T07:58:24.428Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.429Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.429Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.429Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.429Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.430Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.430Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.430Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.431Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.431Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.432Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.432Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.433Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.434Z","level":"info","message":"공휴일 데이터 로드 시작: US-2024"}
+{"timestamp":"2025-07-20T07:58:24.435Z","level":"info","message":"공휴일 데이터 로드 시작: US-2024"}
+{"timestamp":"2025-07-20T07:58:24.436Z","level":"info","message":"공휴일 데이터 로드 시작: US-2023"}
+{"timestamp":"2025-07-20T07:58:24.436Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.446Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.446Z","level":"info","message":"공휴일 설명 생성 시작: New Year's Day (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.446Z","level":"info","message":"공휴일 데이터 로드 시작: US-2023"}
+{"timestamp":"2025-07-20T07:58:24.446Z","level":"info","message":"데이터베이스 매칭 성공: New Year's Day"}
+{"timestamp":"2025-07-20T07:58:24.446Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.447Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.447Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.447Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.447Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.447Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 설명 생성 시작: Armistice Day (France)"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Armistice Day"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"템플릿 설명 생성 완료: Armistice Day"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 설명 생성 시작: Coming of Age Day (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"데이터베이스 매칭 성공: Coming of Age Day"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 설명 생성 시작: Foundation Day (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"데이터베이스 매칭 성공: Foundation Day"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.448Z","level":"info","message":"공휴일 데이터 로드 시작: gb-2025"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"공휴일 설명 생성 시작: All Saints' Day (France)"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: All Saints' Day"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"템플릿 설명 생성 완료: All Saints' Day"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"공휴일 데이터 로드 완료: fr-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"국가 데이터 로드 시작: fr"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.449Z","level":"info","message":"공휴일 설명 생성 시작: Vernal Equinox Day (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.450Z","level":"info","message":"데이터베이스 매칭 성공: Vernal Equinox Day"}
+{"timestamp":"2025-07-20T07:58:24.451Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.451Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.452Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.453Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.453Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2026 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.453Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.455Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.455Z","level":"info","message":"사용 가능한 연도 조회 시작: KR"}
+{"timestamp":"2025-07-20T07:58:24.455Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2026 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.455Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.456Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.456Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.456Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.456Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 설명 생성 시작: New Year's Day (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"데이터베이스 매칭 성공: New Year's Day"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"사용 가능한 연도 조회 시작: KR"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 설명 생성 시작: Shōwa Day (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"데이터베이스 매칭 성공: Shōwa Day"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2024 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"사용 가능한 연도 조회 시작: KR"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2024 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.458Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2023 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.458Z","level":"info","message":"사용 가능한 연도 조회 시작: KR"}
+{"timestamp":"2025-07-20T07:58:24.458Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.458Z","level":"info","message":"공휴일 설명 생성 시작: The Emperor's Birthday (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.458Z","level":"info","message":"데이터베이스 매칭 성공: The Emperor's Birthday"}
+{"timestamp":"2025-07-20T07:58:24.458Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.458Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2023 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.457Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.458Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.458Z","level":"info","message":"공휴일 데이터 로드 완료: US-2026 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.459Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.459Z","level":"info","message":"사용 가능한 연도 조회 시작: US"}
+{"timestamp":"2025-07-20T07:58:24.459Z","level":"info","message":"공휴일 데이터 로드 완료: US-2026 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.460Z","level":"info","message":"사용 가능한 연도 조회 시작: US"}
+{"timestamp":"2025-07-20T07:58:24.461Z","level":"info","message":"공휴일 데이터 로드 완료: US-2024 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.461Z","level":"info","message":"사용 가능한 연도 조회 시작: US"}
+{"timestamp":"2025-07-20T07:58:24.461Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.461Z","level":"info","message":"공휴일 데이터 로드 완료: US-2024 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.462Z","level":"info","message":"공휴일 데이터 로드 완료: US-2023 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.462Z","level":"info","message":"사용 가능한 연도 조회 시작: US"}
+{"timestamp":"2025-07-20T07:58:24.463Z","level":"info","message":"공휴일 데이터 로드 완료: US-2023 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.463Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.463Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.463Z","level":"info","message":"공휴일 설명 생성 시작: Good Friday (United Kingdom)"}
+{"timestamp":"2025-07-20T07:58:24.463Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Good Friday"}
+{"timestamp":"2025-07-20T07:58:24.463Z","level":"info","message":"사용 가능한 연도 조회 완료: KR - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"템플릿 설명 생성 완료: Good Friday"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"사용 가능한 연도 조회 완료: KR - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"사용 가능한 연도 조회 완료: KR - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"공휴일 설명 생성 시작: Easter Monday (United Kingdom)"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Easter Monday"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"템플릿 설명 생성 완료: Easter Monday"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.464Z","level":"info","message":"사용 가능한 연도 조회 완료: KR - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"사용 가능한 연도 조회 완료: US - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"사용 가능한 연도 조회 완료: US - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 설명 생성 시작: Early May Bank Holiday (United Kingdom)"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Early May Bank Holiday"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"템플릿 설명 생성 완료: Early May Bank Holiday"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.465Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"공휴일 설명 생성 시작: Spring Bank Holiday (United Kingdom)"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Spring Bank Holiday"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"템플릿 설명 생성 완료: Spring Bank Holiday"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"공휴일 설명 생성 시작: Battle of the Boyne (United Kingdom)"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Battle of the Boyne"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"템플릿 설명 생성 완료: Battle of the Boyne"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"사용 가능한 연도 조회 완료: US - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"사용 가능한 연도 조회 완료: US - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.466Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.467Z","level":"info","message":"공휴일 설명 생성 시작: Summer Bank Holiday (United Kingdom)"}
+{"timestamp":"2025-07-20T07:58:24.467Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Summer Bank Holiday"}
+{"timestamp":"2025-07-20T07:58:24.467Z","level":"info","message":"템플릿 설명 생성 완료: Summer Bank Holiday"}
+{"timestamp":"2025-07-20T07:58:24.467Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.471Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.484Z","level":"info","message":"공휴일 데이터 로드 완료: gb-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.488Z","level":"info","message":"국가 데이터 로드 시작: gb"}
+{"timestamp":"2025-07-20T07:58:24.488Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.490Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.490Z","level":"info","message":"공휴일 설명 생성 시작: Epiphany (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.490Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Epiphany"}
+{"timestamp":"2025-07-20T07:58:24.491Z","level":"info","message":"템플릿 설명 생성 완료: Epiphany"}
+{"timestamp":"2025-07-20T07:58:24.491Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.493Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.493Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.493Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.497Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.498Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.500Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.500Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.500Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.501Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.501Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.505Z","level":"info","message":"국가 데이터 로드 시작: GB"}
+{"timestamp":"2025-07-20T07:58:24.510Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.511Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2023"}
+{"timestamp":"2025-07-20T07:58:24.512Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.517Z","level":"info","message":"국가 데이터 로드 시작: US"}
+{"timestamp":"2025-07-20T07:58:24.519Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.520Z","level":"info","message":"공휴일 데이터 로드 시작: US-2023"}
+{"timestamp":"2025-07-20T07:58:24.521Z","level":"info","message":"국가 데이터 로드 시작: KR"}
+{"timestamp":"2025-07-20T07:58:24.521Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.521Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2027"}
+{"timestamp":"2025-07-20T07:58:24.522Z","level":"info","message":"국가 데이터 로드 시작: GB"}
+{"timestamp":"2025-07-20T07:58:24.522Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.523Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2024"}
+{"timestamp":"2025-07-20T07:58:24.523Z","level":"info","message":"국가 데이터 로드 시작: GB"}
+{"timestamp":"2025-07-20T07:58:24.523Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.523Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2026"}
+{"timestamp":"2025-07-20T07:58:24.524Z","level":"info","message":"국가 데이터 로드 시작: GB"}
+{"timestamp":"2025-07-20T07:58:24.524Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.524Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.525Z","level":"info","message":"국가 데이터 로드 시작: GB"}
+{"timestamp":"2025-07-20T07:58:24.525Z","level":"info","message":"국가 데이터 로드 완료: United Kingdom (GB)"}
+{"timestamp":"2025-07-20T07:58:24.526Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2027"}
+{"timestamp":"2025-07-20T07:58:24.527Z","level":"info","message":"국가 데이터 로드 시작: US"}
+{"timestamp":"2025-07-20T07:58:24.527Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.527Z","level":"info","message":"공휴일 데이터 로드 시작: US-2024"}
+{"timestamp":"2025-07-20T07:58:24.527Z","level":"warn","message":"공휴일 데이터 파일 없음: KR-2027","context":{"countryCode":"KR","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/kr-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.527Z","level":"info","message":"국가 데이터 로드 시작: JP"}
+{"timestamp":"2025-07-20T07:58:24.527Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.527Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2027"}
+{"timestamp":"2025-07-20T07:58:24.527Z","level":"warn","message":"공휴일 데이터 파일 없음: GB-2027","context":{"countryCode":"GB","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/gb-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.528Z","level":"info","message":"국가 데이터 로드 시작: DE"}
+{"timestamp":"2025-07-20T07:58:24.528Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.528Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2027"}
+{"timestamp":"2025-07-20T07:58:24.528Z","level":"warn","message":"공휴일 데이터 파일 없음: JP-2027","context":{"countryCode":"JP","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/jp-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.530Z","level":"warn","message":"공휴일 데이터 파일 없음: DE-2027","context":{"countryCode":"DE","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/de-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.531Z","level":"info","message":"국가 데이터 로드 시작: FR"}
+{"timestamp":"2025-07-20T07:58:24.531Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.531Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2027"}
+{"timestamp":"2025-07-20T07:58:24.536Z","level":"warn","message":"공휴일 데이터 파일 없음: FR-2027","context":{"countryCode":"FR","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/fr-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.537Z","level":"info","message":"국가 데이터 로드 시작: IT"}
+{"timestamp":"2025-07-20T07:58:24.537Z","level":"info","message":"국가 데이터 로드 완료: Italy (IT)"}
+{"timestamp":"2025-07-20T07:58:24.537Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2027"}
+{"timestamp":"2025-07-20T07:58:24.538Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2023 - 14개"}
+{"timestamp":"2025-07-20T07:58:24.538Z","level":"info","message":"국가 데이터 로드 시작: DE"}
+{"timestamp":"2025-07-20T07:58:24.538Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.538Z","level":"info","message":"특정 날짜 공휴일 조회 완료: 2025-07-20 - 0개 공휴일 (35개 파일 처리, 0개 파일 오류)"}
+{"timestamp":"2025-07-20T07:58:24.538Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2023"}
+{"timestamp":"2025-07-20T07:58:24.540Z","level":"warn","message":"공휴일 데이터 파일 없음: IT-2027","context":{"countryCode":"IT","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/it-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.540Z","level":"info","message":"국가 데이터 로드 시작: ES"}
+{"timestamp":"2025-07-20T07:58:24.540Z","level":"info","message":"국가 데이터 로드 완료: Spain (ES)"}
+{"timestamp":"2025-07-20T07:58:24.540Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2027"}
+{"timestamp":"2025-07-20T07:58:24.540Z","level":"info","message":"공휴일 데이터 로드 완료: US-2023 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.540Z","level":"info","message":"국가 데이터 로드 시작: CA"}
+{"timestamp":"2025-07-20T07:58:24.540Z","level":"info","message":"국가 데이터 로드 완료: Canada (CA)"}
+{"timestamp":"2025-07-20T07:58:24.540Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2023"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2026 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"국가 데이터 로드 시작: DE"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2026"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2024 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"국가 데이터 로드 시작: DE"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2024"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"국가 데이터 로드 시작: DE"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"warn","message":"공휴일 데이터 파일 없음: ES-2027","context":{"countryCode":"ES","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/es-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.541Z","level":"info","message":"공휴일 데이터 로드 완료: US-2024 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.542Z","level":"info","message":"국가 데이터 로드 시작: CA"}
+{"timestamp":"2025-07-20T07:58:24.542Z","level":"info","message":"국가 데이터 로드 완료: Canada (CA)"}
+{"timestamp":"2025-07-20T07:58:24.542Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2024"}
+{"timestamp":"2025-07-20T07:58:24.542Z","level":"warn","message":"공휴일 데이터 파일 없음: DE-2024","context":{"countryCode":"DE","year":2024,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/de-2024.json"}}
+{"timestamp":"2025-07-20T07:58:24.542Z","level":"info","message":"국가 데이터 로드 시작: FR"}
+{"timestamp":"2025-07-20T07:58:24.542Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.542Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2024"}
+{"timestamp":"2025-07-20T07:58:24.547Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2023 - 19개"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"국가 데이터 로드 시작: FR"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2023"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2023 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2026 - 19개"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"국가 데이터 로드 시작: FR"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2026"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"국가 데이터 로드 시작: FR"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"국가 데이터 로드 완료: France (FR)"}
+{"timestamp":"2025-07-20T07:58:24.548Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.552Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2024 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.552Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2024 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.552Z","level":"info","message":"국가 데이터 로드 시작: IT"}
+{"timestamp":"2025-07-20T07:58:24.552Z","level":"info","message":"국가 데이터 로드 완료: Italy (IT)"}
+{"timestamp":"2025-07-20T07:58:24.552Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2024"}
+{"timestamp":"2025-07-20T07:58:24.555Z","level":"warn","message":"공휴일 데이터 파일 없음: IT-2024","context":{"countryCode":"IT","year":2024,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/it-2024.json"}}
+{"timestamp":"2025-07-20T07:58:24.555Z","level":"info","message":"국가 데이터 로드 시작: ES"}
+{"timestamp":"2025-07-20T07:58:24.555Z","level":"info","message":"국가 데이터 로드 완료: Spain (ES)"}
+{"timestamp":"2025-07-20T07:58:24.555Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2024"}
+{"timestamp":"2025-07-20T07:58:24.557Z","level":"warn","message":"공휴일 데이터 파일 없음: ES-2024","context":{"countryCode":"ES","year":2024,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/es-2024.json"}}
+{"timestamp":"2025-07-20T07:58:24.563Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2023 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.563Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.564Z","level":"info","message":"국가 데이터 로드 시작: IT"}
+{"timestamp":"2025-07-20T07:58:24.564Z","level":"info","message":"국가 데이터 로드 완료: Italy (IT)"}
+{"timestamp":"2025-07-20T07:58:24.566Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.566Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.566Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2023"}
+{"timestamp":"2025-07-20T07:58:24.567Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.567Z","level":"info","message":"국가 데이터 로드 시작: IT"}
+{"timestamp":"2025-07-20T07:58:24.567Z","level":"info","message":"국가 데이터 로드 완료: Italy (IT)"}
+{"timestamp":"2025-07-20T07:58:24.567Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2025"}
+{"timestamp":"2025-07-20T07:58:24.567Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2026 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.567Z","level":"info","message":"국가 데이터 로드 시작: IT"}
+{"timestamp":"2025-07-20T07:58:24.567Z","level":"info","message":"국가 데이터 로드 완료: Italy (IT)"}
+{"timestamp":"2025-07-20T07:58:24.567Z","level":"info","message":"공휴일 데이터 로드 시작: IT-2026"}
+{"timestamp":"2025-07-20T07:58:24.567Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.568Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.568Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.568Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.568Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.569Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.569Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.569Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.569Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.570Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.570Z","level":"info","message":"공휴일 데이터 로드 완료: IT-2023 - 12개"}
+{"timestamp":"2025-07-20T07:58:24.570Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.570Z","level":"info","message":"국가 데이터 로드 시작: ES"}
+{"timestamp":"2025-07-20T07:58:24.570Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.570Z","level":"info","message":"국가 데이터 로드 완료: Spain (ES)"}
+{"timestamp":"2025-07-20T07:58:24.570Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2023"}
+{"timestamp":"2025-07-20T07:58:24.570Z","level":"info","message":"공휴일 데이터 로드 시작: jp-2025"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"공휴일 데이터 로드 완료: IT-2025 - 12개"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"국가 데이터 로드 시작: ES"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"국가 데이터 로드 완료: Spain (ES)"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.571Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2025"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"공휴일 데이터 로드 완료: IT-2026 - 12개"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"국가 데이터 로드 시작: ES"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"국가 데이터 로드 완료: Spain (ES)"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2026"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.572Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.573Z","level":"info","message":"공휴일 데이터 로드 완료: ES-2023 - 33개"}
+{"timestamp":"2025-07-20T07:58:24.573Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.573Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.573Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.573Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.574Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.574Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.574Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.574Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.574Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.574Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.574Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.575Z","level":"info","message":"공휴일 데이터 로드 시작: kr-2025"}
+{"timestamp":"2025-07-20T07:58:24.575Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.576Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.576Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.576Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.577Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.577Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.577Z","level":"info","message":"공휴일 설명 생성 시작: Constitution Memorial Day (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.578Z","level":"info","message":"데이터베이스 매칭 성공: Constitution Memorial Day"}
+{"timestamp":"2025-07-20T07:58:24.578Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"공휴일 데이터 로드 완료: ES-2025 - 32개"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"공휴일 설명 생성 시작: Children's Day (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"데이터베이스 매칭 성공: Children's Day"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.579Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.580Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.580Z","level":"info","message":"공휴일 데이터 로드 완료: ES-2026 - 32개"}
+{"timestamp":"2025-07-20T07:58:24.580Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.580Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.580Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.580Z","level":"info","message":"공휴일 설명 생성 시작: Greenery Day (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.580Z","level":"info","message":"데이터베이스 매칭 성공: Greenery Day"}
+{"timestamp":"2025-07-20T07:58:24.580Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.581Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.581Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.581Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.581Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.582Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.582Z","level":"info","message":"공휴일 설명 생성 시작: Marine Day (Japan)"}
+{"timestamp":"2025-07-20T07:58:24.582Z","level":"info","message":"데이터베이스 매칭 성공: Marine Day"}
+{"timestamp":"2025-07-20T07:58:24.582Z","level":"info","message":"공휴일 데이터 로드 시작: JP-2025"}
+{"timestamp":"2025-07-20T07:58:24.582Z","level":"info","message":"공휴일 데이터 로드 완료: jp-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.582Z","level":"info","message":"국가 데이터 로드 시작: jp"}
+{"timestamp":"2025-07-20T07:58:24.582Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.582Z","level":"info","message":"국가 데이터 로드 완료: Japan (JP)"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"info","message":"공휴일 설명 생성 시작: New Year's Day (South Korea)"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: New Year's Day"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"info","message":"템플릿 설명 생성 완료: New Year's Day"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.583Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.584Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.586Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.586Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.586Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.586Z","level":"info","message":"공휴일 데이터 로드 시작: de-2025"}
+{"timestamp":"2025-07-20T07:58:24.587Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.587Z","level":"info","message":"공휴일 설명 생성 시작: Independence Movement Day (South Korea)"}
+{"timestamp":"2025-07-20T07:58:24.587Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Independence Movement Day"}
+{"timestamp":"2025-07-20T07:58:24.587Z","level":"info","message":"템플릿 설명 생성 완료: Independence Movement Day"}
+{"timestamp":"2025-07-20T07:58:24.587Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.588Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.588Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.588Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.589Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.589Z","level":"info","message":"공휴일 설명 생성 시작: Children's Day (South Korea)"}
+{"timestamp":"2025-07-20T07:58:24.589Z","level":"info","message":"데이터베이스 매칭 성공: Children's Day"}
+{"timestamp":"2025-07-20T07:58:24.589Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.589Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.589Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.590Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.590Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.590Z","level":"info","message":"공휴일 설명 생성 시작: Lunar New Year (South Korea)"}
+{"timestamp":"2025-07-20T07:58:24.590Z","level":"info","message":"데이터베이스 매칭 성공: Lunar New Year"}
+{"timestamp":"2025-07-20T07:58:24.590Z","level":"info","message":"공휴일 데이터 로드 시작: KR-2025"}
+{"timestamp":"2025-07-20T07:58:24.590Z","level":"info","message":"공휴일 데이터 로드 완료: kr-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.590Z","level":"info","message":"국가 데이터 로드 시작: kr"}
+{"timestamp":"2025-07-20T07:58:24.590Z","level":"info","message":"국가 데이터 로드 완료: South Korea (KR)"}
+{"timestamp":"2025-07-20T07:58:24.592Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.592Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.592Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.592Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.592Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.592Z","level":"info","message":"공휴일 데이터 로드 완료: JP-2025 - 16개"}
+{"timestamp":"2025-07-20T07:58:24.592Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 설명 생성 시작: Good Friday (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Good Friday"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"템플릿 설명 생성 완료: Good Friday"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 설명 생성 시작: Easter Sunday (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Easter Sunday"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"템플릿 설명 생성 완료: Easter Sunday"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 데이터 로드 완료: KR-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.593Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.594Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.594Z","level":"info","message":"공휴일 설명 생성 시작: Easter Monday (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.594Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Easter Monday"}
+{"timestamp":"2025-07-20T07:58:24.594Z","level":"info","message":"템플릿 설명 생성 완료: Easter Monday"}
+{"timestamp":"2025-07-20T07:58:24.594Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.594Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.594Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.594Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.596Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.596Z","level":"info","message":"공휴일 설명 생성 시작: International Women's Day (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.596Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: International Women's Day"}
+{"timestamp":"2025-07-20T07:58:24.596Z","level":"info","message":"템플릿 설명 생성 완료: International Women's Day"}
+{"timestamp":"2025-07-20T07:58:24.597Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.597Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.597Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.597Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.597Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.597Z","level":"info","message":"공휴일 설명 생성 시작: Labour Day (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.598Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Labour Day"}
+{"timestamp":"2025-07-20T07:58:24.598Z","level":"info","message":"템플릿 설명 생성 완료: Labour Day"}
+{"timestamp":"2025-07-20T07:58:24.598Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.598Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.598Z","level":"info","message":"공휴일 설명 생성 시작: Liberation Day (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.598Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Liberation Day"}
+{"timestamp":"2025-07-20T07:58:24.599Z","level":"info","message":"템플릿 설명 생성 완료: Liberation Day"}
+{"timestamp":"2025-07-20T07:58:24.599Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.599Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.599Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.599Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.599Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.600Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.600Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.600Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.600Z","level":"info","message":"공휴일 설명 생성 시작: Pentecost (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.600Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Pentecost"}
+{"timestamp":"2025-07-20T07:58:24.600Z","level":"info","message":"템플릿 설명 생성 완료: Pentecost"}
+{"timestamp":"2025-07-20T07:58:24.600Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.601Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.601Z","level":"info","message":"공휴일 설명 생성 시작: Ascension Day (Germany)"}
+{"timestamp":"2025-07-20T07:58:24.601Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Ascension Day"}
+{"timestamp":"2025-07-20T07:58:24.601Z","level":"info","message":"템플릿 설명 생성 완료: Ascension Day"}
+{"timestamp":"2025-07-20T07:58:24.601Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.601Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.601Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.601Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.602Z","level":"info","message":"공휴일 데이터 로드 완료: de-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.602Z","level":"info","message":"국가 데이터 로드 시작: de"}
+{"timestamp":"2025-07-20T07:58:24.602Z","level":"info","message":"국가 데이터 로드 완료: Germany (DE)"}
+{"timestamp":"2025-07-20T07:58:24.603Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.603Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.603Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.603Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.605Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.605Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.605Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.606Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.614Z","level":"info","message":"국가 데이터 로드 시작: AU"}
+{"timestamp":"2025-07-20T07:58:24.614Z","level":"info","message":"국가 데이터 로드 완료: Australia (AU)"}
+{"timestamp":"2025-07-20T07:58:24.614Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2023"}
+{"timestamp":"2025-07-20T07:58:24.616Z","level":"info","message":"국가 데이터 로드 시작: US"}
+{"timestamp":"2025-07-20T07:58:24.616Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.616Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.617Z","level":"info","message":"국가 데이터 로드 시작: US"}
+{"timestamp":"2025-07-20T07:58:24.617Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.617Z","level":"info","message":"공휴일 데이터 로드 시작: US-2027"}
+{"timestamp":"2025-07-20T07:58:24.620Z","level":"info","message":"국가 데이터 로드 시작: US"}
+{"timestamp":"2025-07-20T07:58:24.620Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.620Z","level":"info","message":"공휴일 데이터 로드 시작: US-2026"}
+{"timestamp":"2025-07-20T07:58:24.622Z","level":"info","message":"국가 데이터 로드 시작: AU"}
+{"timestamp":"2025-07-20T07:58:24.622Z","level":"info","message":"국가 데이터 로드 완료: Australia (AU)"}
+{"timestamp":"2025-07-20T07:58:24.622Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2025"}
+{"timestamp":"2025-07-20T07:58:24.624Z","level":"info","message":"국가 데이터 로드 시작: AU"}
+{"timestamp":"2025-07-20T07:58:24.624Z","level":"info","message":"국가 데이터 로드 완료: Australia (AU)"}
+{"timestamp":"2025-07-20T07:58:24.624Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2026"}
+{"timestamp":"2025-07-20T07:58:24.624Z","level":"info","message":"국가 데이터 로드 시작: AU"}
+{"timestamp":"2025-07-20T07:58:24.625Z","level":"info","message":"국가 데이터 로드 완료: Australia (AU)"}
+{"timestamp":"2025-07-20T07:58:24.625Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2024"}
+{"timestamp":"2025-07-20T07:58:24.626Z","level":"info","message":"국가 데이터 로드 시작: AU"}
+{"timestamp":"2025-07-20T07:58:24.626Z","level":"info","message":"국가 데이터 로드 완료: Australia (AU)"}
+{"timestamp":"2025-07-20T07:58:24.626Z","level":"info","message":"공휴일 데이터 로드 시작: AU-2027"}
+{"timestamp":"2025-07-20T07:58:24.630Z","level":"warn","message":"공휴일 데이터 파일 없음: US-2027","context":{"countryCode":"US","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/us-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.630Z","level":"info","message":"국가 데이터 로드 시작: CA"}
+{"timestamp":"2025-07-20T07:58:24.630Z","level":"info","message":"국가 데이터 로드 완료: Canada (CA)"}
+{"timestamp":"2025-07-20T07:58:24.630Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2027"}
+{"timestamp":"2025-07-20T07:58:24.631Z","level":"warn","message":"공휴일 데이터 파일 없음: AU-2024","context":{"countryCode":"AU","year":2024,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/au-2024.json"}}
+{"timestamp":"2025-07-20T07:58:24.631Z","level":"warn","message":"공휴일 데이터 파일 없음: AU-2027","context":{"countryCode":"AU","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/au-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.635Z","level":"warn","message":"공휴일 데이터 파일 없음: CA-2027","context":{"countryCode":"CA","year":2027,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/ca-2027.json"}}
+{"timestamp":"2025-07-20T07:58:24.638Z","level":"info","message":"특정 날짜 공휴일 조회 완료: 2025-07-20 - 0개 공휴일 (35개 파일 처리, 0개 파일 오류)"}
+{"timestamp":"2025-07-20T07:58:24.644Z","level":"info","message":"전체 사용 가능한 데이터 조회 시작"}
+{"timestamp":"2025-07-20T07:58:24.645Z","level":"info","message":"공휴일 데이터 로드 완료: AU-2023 - 25개"}
+{"timestamp":"2025-07-20T07:58:24.645Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.645Z","level":"info","message":"국가 데이터 로드 시작: CA"}
+{"timestamp":"2025-07-20T07:58:24.646Z","level":"info","message":"국가 데이터 로드 완료: Canada (CA)"}
+{"timestamp":"2025-07-20T07:58:24.646Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2025"}
+{"timestamp":"2025-07-20T07:58:24.647Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.647Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.647Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.648Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.648Z","level":"info","message":"공휴일 데이터 로드 완료: US-2026 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.648Z","level":"info","message":"국가 데이터 로드 시작: CA"}
+{"timestamp":"2025-07-20T07:58:24.648Z","level":"info","message":"국가 데이터 로드 완료: Canada (CA)"}
+{"timestamp":"2025-07-20T07:58:24.649Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2026"}
+{"timestamp":"2025-07-20T07:58:24.649Z","level":"info","message":"공휴일 데이터 로드 완료: AU-2025 - 24개"}
+{"timestamp":"2025-07-20T07:58:24.649Z","level":"info","message":"공휴일 데이터 로드 완료: AU-2026 - 25개"}
+{"timestamp":"2025-07-20T07:58:24.651Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.651Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.651Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.651Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.652Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.653Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.653Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.653Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.654Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2026"}
+{"timestamp":"2025-07-20T07:58:24.654Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.654Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2026"}
+{"timestamp":"2025-07-20T07:58:24.655Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.655Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.655Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.655Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2025"}
+{"timestamp":"2025-07-20T07:58:24.655Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.655Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.655Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.656Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2025"}
+{"timestamp":"2025-07-20T07:58:24.656Z","level":"info","message":"공휴일 데이터 로드 시작: us-2025"}
+{"timestamp":"2025-07-20T07:58:24.658Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2024"}
+{"timestamp":"2025-07-20T07:58:24.659Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2024"}
+{"timestamp":"2025-07-20T07:58:24.660Z","level":"info","message":"전체 사용 가능한 데이터 조회 완료: 10개 국가, 35개 파일"}
+{"timestamp":"2025-07-20T07:58:24.662Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2023"}
+{"timestamp":"2025-07-20T07:58:24.662Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2025 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.662Z","level":"info","message":"공휴일 데이터 로드 시작: CA-2023"}
+{"timestamp":"2025-07-20T07:58:24.663Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2026"}
+{"timestamp":"2025-07-20T07:58:24.663Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2026"}
+{"timestamp":"2025-07-20T07:58:24.665Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2026 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.666Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.666Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.666Z","level":"info","message":"공휴일 설명 생성 시작: New Year's Day (United States)"}
+{"timestamp":"2025-07-20T07:58:24.666Z","level":"info","message":"데이터베이스 매칭 성공: New Year's Day"}
+{"timestamp":"2025-07-20T07:58:24.666Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.666Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.666Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.666Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.666Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2025"}
+{"timestamp":"2025-07-20T07:58:24.667Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2023"}
+{"timestamp":"2025-07-20T07:58:24.667Z","level":"info","message":"공휴일 데이터 로드 시작: DE-2023"}
+{"timestamp":"2025-07-20T07:58:24.668Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.668Z","level":"info","message":"공휴일 설명 생성 시작: Martin Luther King, Jr. Day (United States)"}
+{"timestamp":"2025-07-20T07:58:24.668Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Martin Luther King, Jr. Day"}
+{"timestamp":"2025-07-20T07:58:24.668Z","level":"info","message":"템플릿 설명 생성 완료: Martin Luther King, Jr. Day"}
+{"timestamp":"2025-07-20T07:58:24.668Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2026"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2026"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"공휴일 설명 생성 시작: Lincoln's Birthday (United States)"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Lincoln's Birthday"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"템플릿 설명 생성 완료: Lincoln's Birthday"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.669Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"공휴일 설명 생성 시작: Presidents Day (United States)"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2026 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Presidents Day"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"사용 가능한 연도 조회 시작: CA"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"템플릿 설명 생성 완료: Presidents Day"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2026 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2025 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"사용 가능한 연도 조회 시작: CA"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2025 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.670Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"공휴일 설명 생성 시작: Good Friday (United States)"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"warn","message":"데이터베이스 매칭 실패, 템플릿 사용: Good Friday"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2024 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"사용 가능한 연도 조회 시작: CA"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"템플릿 설명 생성 완료: Good Friday"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2024 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"공휴일 데이터 로드 시작: US-2025"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"공휴일 데이터 로드 완료: us-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"국가 데이터 로드 시작: us"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"국가 데이터 로드 완료: United States (US)"}
+{"timestamp":"2025-07-20T07:58:24.671Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2023 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.672Z","level":"info","message":"사용 가능한 연도 조회 시작: CA"}
+{"timestamp":"2025-07-20T07:58:24.672Z","level":"info","message":"공휴일 데이터 로드 완료: CA-2023 - 31개"}
+{"timestamp":"2025-07-20T07:58:24.672Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2026 - 19개"}
+{"timestamp":"2025-07-20T07:58:24.672Z","level":"info","message":"사용 가능한 연도 조회 시작: DE"}
+{"timestamp":"2025-07-20T07:58:24.672Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2026 - 19개"}
+{"timestamp":"2025-07-20T07:58:24.672Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.672Z","level":"info","message":"사용 가능한 연도 조회 시작: DE"}
+{"timestamp":"2025-07-20T07:58:24.673Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.673Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2025 - 20개"}
+{"timestamp":"2025-07-20T07:58:24.673Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.673Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2023 - 19개"}
+{"timestamp":"2025-07-20T07:58:24.673Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.673Z","level":"info","message":"사용 가능한 연도 조회 시작: DE"}
+{"timestamp":"2025-07-20T07:58:24.673Z","level":"info","message":"공휴일 데이터 로드 완료: DE-2023 - 19개"}
+{"timestamp":"2025-07-20T07:58:24.674Z","level":"info","message":"공휴일 데이터 로드 완료: ES-2026 - 32개"}
+{"timestamp":"2025-07-20T07:58:24.674Z","level":"info","message":"사용 가능한 연도 조회 시작: ES"}
+{"timestamp":"2025-07-20T07:58:24.674Z","level":"info","message":"공휴일 데이터 로드 완료: ES-2026 - 32개"}
+{"timestamp":"2025-07-20T07:58:24.675Z","level":"info","message":"사용 가능한 연도 조회 완료: CA - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.675Z","level":"info","message":"사용 가능한 연도 조회 완료: CA - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.675Z","level":"info","message":"사용 가능한 연도 조회 완료: CA - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.675Z","level":"info","message":"사용 가능한 연도 조회 완료: DE - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.675Z","level":"info","message":"사용 가능한 연도 조회 완료: DE - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.677Z","level":"info","message":"사용 가능한 연도 조회 완료: CA - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.677Z","level":"info","message":"사용 가능한 연도 조회 완료: DE - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.677Z","level":"info","message":"사용 가능한 연도 조회 완료: ES - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.678Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.679Z","level":"info","message":"공휴일 데이터 로드 완료: US-2025 - 15개"}
+{"timestamp":"2025-07-20T07:58:24.766Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.766Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2025"}
+{"timestamp":"2025-07-20T07:58:24.767Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2024"}
+{"timestamp":"2025-07-20T07:58:24.767Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2024"}
+{"timestamp":"2025-07-20T07:58:24.767Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2025"}
+{"timestamp":"2025-07-20T07:58:24.767Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2025"}
+{"timestamp":"2025-07-20T07:58:24.768Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2023"}
+{"timestamp":"2025-07-20T07:58:24.768Z","level":"info","message":"공휴일 데이터 로드 시작: ES-2023"}
+{"timestamp":"2025-07-20T07:58:24.768Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2026"}
+{"timestamp":"2025-07-20T07:58:24.769Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2026"}
+{"timestamp":"2025-07-20T07:58:24.769Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2023"}
+{"timestamp":"2025-07-20T07:58:24.769Z","level":"info","message":"공휴일 데이터 로드 시작: FR-2023"}
+{"timestamp":"2025-07-20T07:58:24.770Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2026"}
+{"timestamp":"2025-07-20T07:58:24.770Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2026"}
+{"timestamp":"2025-07-20T07:58:24.770Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.771Z","level":"info","message":"공휴일 데이터 로드 시작: GB-2025"}
+{"timestamp":"2025-07-20T07:58:24.771Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.771Z","level":"info","message":"사용 가능한 연도 조회 시작: FR"}
+{"timestamp":"2025-07-20T07:58:24.771Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2025 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2024 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"사용 가능한 연도 조회 시작: FR"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2024 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"공휴일 데이터 로드 완료: ES-2025 - 32개"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"사용 가능한 연도 조회 시작: ES"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"공휴일 데이터 로드 완료: ES-2025 - 32개"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"공휴일 데이터 로드 완료: ES-2023 - 33개"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"사용 가능한 연도 조회 시작: ES"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"공휴일 데이터 로드 완료: ES-2023 - 33개"}
+{"timestamp":"2025-07-20T07:58:24.772Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2026 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"사용 가능한 연도 조회 시작: FR"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2026 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2023 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"사용 가능한 연도 조회 시작: FR"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"공휴일 데이터 로드 완료: FR-2023 - 11개"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2026 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"사용 가능한 연도 조회 시작: GB"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2026 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"사용 가능한 연도 조회 시작: GB"}
+{"timestamp":"2025-07-20T07:58:24.773Z","level":"info","message":"공휴일 데이터 로드 완료: GB-2025 - 13개"}
+{"timestamp":"2025-07-20T07:58:24.774Z","level":"info","message":"사용 가능한 연도 조회 완료: FR - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.774Z","level":"info","message":"사용 가능한 연도 조회 완료: FR - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.774Z","level":"info","message":"사용 가능한 연도 조회 완료: ES - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.774Z","level":"info","message":"사용 가능한 연도 조회 완료: ES - 3개 연도"}
+{"timestamp":"2025-07-20T07:58:24.774Z","level":"info","message":"사용 가능한 연도 조회 완료: GB - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.774Z","level":"info","message":"사용 가능한 연도 조회 완료: FR - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.774Z","level":"info","message":"사용 가능한 연도 조회 완료: GB - 4개 연도"}
+{"timestamp":"2025-07-20T07:58:24.774Z","level":"info","message":"사용 가능한 연도 조회 완료: FR - 4개 연도"}

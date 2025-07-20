@@ -218,7 +218,7 @@ export function generateSlug(text: string): string {
  * 구조화된 데이터 (JSON-LD) 생성
  */
 export function generateStructuredData(type: 'holiday' | 'country' | 'region', data: any) {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://world-holiday-calendar.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://globalholidays.site';
   
   switch (type) {
     case 'holiday':
