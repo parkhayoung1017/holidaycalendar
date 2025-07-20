@@ -26,6 +26,14 @@ export async function loadHolidayData(
       `${countryCode.toLowerCase()}-${year}.json`
     );
     
+    // 파일 존재 여부 확인
+    try {
+      await fs.access(dataPath);
+    } catch {
+      // 파일이 없으면 빈 배열 반환 (에러 로그 없이)
+      return [];
+    }
+    
     const fileContent = await fs.readFile(dataPath, 'utf-8');
     const data: HolidayDataFile = JSON.parse(fileContent);
     

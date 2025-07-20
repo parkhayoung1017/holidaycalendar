@@ -49,49 +49,31 @@ export const SUPPORTED_COUNTRIES = [
   { code: 'SA', name: 'Saudi Arabia', region: 'Middle East', flag: '🇸🇦', popular: false },
 ] as const;
 
-// 지역 목록 (확장된 버전)
+// 지역 목록 (실제 데이터가 있는 국가들만 포함)
 export const REGIONS = [
   { 
     name: 'Asia', 
     displayName: '아시아', 
-    countries: ['KR', 'JP', 'CN', 'IN', 'TH', 'VN', 'SG', 'MY', 'PH', 'ID'],
+    countries: ['KR', 'JP'], // 실제 데이터가 있는 국가만
     displayOrder: 1
   },
   { 
     name: 'Europe', 
     displayName: '유럽', 
-    countries: ['GB', 'DE', 'FR', 'IT', 'ES', 'NL', 'CH', 'AT', 'SE', 'NO'],
+    countries: ['GB', 'DE', 'FR', 'IT', 'ES'], // 실제 데이터가 있는 국가만
     displayOrder: 2
   },
   { 
     name: 'North America', 
     displayName: '북미', 
-    countries: ['US', 'CA', 'MX'],
+    countries: ['US', 'CA'], // 실제 데이터가 있는 국가만
     displayOrder: 3
   },
   { 
     name: 'Oceania', 
     displayName: '오세아니아', 
-    countries: ['AU', 'NZ'],
+    countries: ['AU'], // 실제 데이터가 있는 국가만
     displayOrder: 4
-  },
-  { 
-    name: 'South America', 
-    displayName: '남미', 
-    countries: ['BR', 'AR', 'CL'],
-    displayOrder: 5
-  },
-  { 
-    name: 'Africa', 
-    displayName: '아프리카', 
-    countries: ['ZA', 'EG'],
-    displayOrder: 6
-  },
-  { 
-    name: 'Middle East', 
-    displayName: '중동', 
-    countries: ['AE', 'SA'],
-    displayOrder: 7
   },
 ] as const;
 

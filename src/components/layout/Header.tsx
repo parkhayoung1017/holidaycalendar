@@ -17,7 +17,7 @@ export default function Header() {
               오늘의 공휴일
             </Link>
             <Link href="/regions" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">
-              지역별 공휴일
+              대륙별 공휴일
             </Link>
           </nav>
         </div>
