@@ -58,7 +58,14 @@ export default function SameDateHolidayGroups({
                     {group.map(({ country, holiday }, index) => (
                       <div
                         key={`${country.code}-${index}`}
-                        className="bg-white rounded-lg p-4 border shadow-sm hover:shadow-md transition-shadow"
+                        className="bg-white rounded-lg p-4 border shadow-sm hover:shadow-md transition-shadow cursor-pointer"
+                        onClick={() => {
+                          const slug = holiday.name.toLowerCase()
+                            .replace(/[^a-z0-9\s]/g, '')
+                            .replace(/\s+/g, '-');
+                          window.location.href = `/holiday/${holiday.countryCode.toLowerCase()}/${slug}`;
+                        }}
+                        title={`${holiday.name} - 클릭하여 상세보기`}
                       >
                         <div className="flex items-start gap-3">
                           <span className="text-2xl flex-shrink-0">{country.flag}</span>

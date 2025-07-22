@@ -1,9 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { MONTH_NAMES, DAY_NAMES, CURRENT_YEAR } from '@/lib/constants';
+import { MONTH_NAMES, DAY_NAMES, CURRENT_YEAR, SUPPORTED_COUNTRIES } from '@/lib/constants';
+import { Holiday } from '@/types';
 
-interface Holiday {
+interface CalendarHoliday {
   date: string;
   name: string;
   country: string;
@@ -24,10 +25,11 @@ export default function MonthlyCalendar({
   className = ""
 }: MonthlyCalendarProps) {
   const [currentDate] = useState(new Date());
+  const [showAllHolidays, setShowAllHolidays] = useState(false);
   
   // 월별 샘플 공휴일 데이터 생성 함수
-  const generateSampleHolidays = (year: number, month: number): Holiday[] => {
-    const holidays: Holiday[] = [];
+  const generateSampleHolidays = (year: number, month: number): CalendarHoliday[] => {
+    const holidays: CalendarHoliday[] = [];
     
     // 월별 공휴일 데이터
     const monthlyHolidays: Record<number, Array<{day: number, name: string, country: string, flag: string}>> = {
@@ -93,7 +95,7 @@ export default function MonthlyCalendar({
       const lastDayOfMonth = new Date(year, month + 1, 0).getDate();
       if (holiday.day <= lastDayOfMonth) {
         holidays.push({
-          date: new Date(year, month, holiday.day).toISOString().split('T')[0],
+          date: getLocalDateString(new Date(year, month, holiday.day)),
           name: holiday.name,
           country: holiday.country,
           flag: holiday.flag
@@ -104,8 +106,31 @@ export default function MonthlyCalendar({
     return holidays;
   };
 
+  // 로컬 시간대 기준으로 날짜 문자열 생성
+  const getLocalDateString = (date: Date): string => {
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+  };
+
+  // 실제 공휴일 데이터를 캘린더 형식으로 변환
+  const convertToCalendarHolidays = (holidays: Holiday[]): CalendarHoliday[] => {
+    return holidays.map(holiday => {
+      // 국가 코드로 플래그 찾기
+      const country = SUPPORTED_COUNTRIES.find(c => c.code === holiday.countryCode);
+      return {
+        date: holiday.date,
+        name: holiday.name,
+        country: holiday.countryCode,
+        flag: country?.flag || '🌍'
+      };
+    });
+  };
+
   const sampleHolidays = generateSampleHolidays(year, month);
-  const displayHolidays = holidays.length > 0 ? holidays : sampleHolidays;
+  const realHolidays = convertToCalendarHolidays(holidays);
+  const displayHolidays = realHolidays.length > 0 ? realHolidays : sampleHolidays;
 
   // 달력 데이터 생성
   const generateCalendarData = () => {
@@ -126,7 +151,7 @@ export default function MonthlyCalendar({
       const date = new Date(startDate);
       date.setDate(startDate.getDate() + i);
       
-      const dateString = date.toISOString().split('T')[0];
+      const dateString = getLocalDateString(date);
       const dayHolidays = displayHolidays.filter(h => h.date === dateString);
       
       days.push({
@@ -152,7 +177,17 @@ export default function MonthlyCalendar({
           {year}년 {MONTH_NAMES.ko[month]}
         </h3>
         <div className="text-sm text-gray-500">
-          오늘의 공휴일 확인
+          {realHolidays.length > 0 ? (
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+              전세계 {realHolidays.length}개 공휴일
+            </span>
+          ) : (
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 bg-gray-400 rounded-full"></span>
+              샘플 데이터
+            </span>
+          )}
         </div>
       </div>
 
@@ -197,8 +232,15 @@ export default function MonthlyCalendar({
                 {day.holidays.slice(0, 2).map((holiday, holidayIndex) => (
                   <div
                     key={`${holiday.date}-${holidayIndex}`}
-                    className="text-xs bg-red-100 text-red-800 px-1 py-0.5 rounded truncate"
-                    title={`${holiday.country}: ${holiday.name}`}
+                    className="text-xs bg-red-100 text-red-800 px-1 py-0.5 rounded truncate hover:bg-red-200 cursor-pointer transition-colors"
+                    title={`${holiday.country}: ${holiday.name} - 클릭하여 상세보기`}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const slug = holiday.name.toLowerCase()
+                        .replace(/[^a-z0-9\s]/g, '')
+                        .replace(/\s+/g, '-');
+                      window.location.href = `/holiday/${holiday.country.toLowerCase()}/${slug}`;
+                    }}
                   >
                     <span className="mr-1">{holiday.flag}</span>
                     {holiday.name.length > 8 ? 
@@ -208,7 +250,18 @@ export default function MonthlyCalendar({
                   </div>
                 ))}
                 {day.holidays.length > 2 && (
-                  <div className="text-xs text-gray-500">
+                  <div 
+                    className="text-xs text-gray-500 hover:text-gray-700 cursor-pointer"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      // 첫 번째 공휴일로 이동 (또는 모든 공휴일을 보여주는 페이지로 이동)
+                      const firstHoliday = day.holidays[0];
+                      const slug = firstHoliday.name.toLowerCase()
+                        .replace(/[^a-z0-9\s]/g, '')
+                        .replace(/\s+/g, '-');
+                      window.location.href = `/holiday/${firstHoliday.country.toLowerCase()}/${slug}`;
+                    }}
+                  >
                     +{day.holidays.length - 2}개 더
                   </div>
                 )}
@@ -241,30 +294,85 @@ export default function MonthlyCalendar({
         </div>
       </div>
 
-      {/* 이번 달 주요 공휴일 요약 */}
+      {/* 이번 달 공휴일 목록 */}
       {displayHolidays.length > 0 && (
         <div className="mt-6 pt-4 border-t border-gray-200">
-          <h4 className="text-sm font-medium text-gray-900 mb-3">
-            이번 달 주요 공휴일
-          </h4>
-          <div className="space-y-2">
-            {displayHolidays.slice(0, 3).map((holiday, index) => (
-              <div key={`summary-${index}`} className="flex items-center justify-between text-sm">
-                <div className="flex items-center gap-2">
-                  <span>{holiday.flag}</span>
-                  <span className="text-gray-900">{holiday.name}</span>
-                </div>
-                <span className="text-gray-500">
-                  {new Date(holiday.date).getDate()}일
-                </span>
-              </div>
-            ))}
-            {displayHolidays.length > 3 && (
-              <div className="text-xs text-gray-500 text-center pt-2">
-                총 {displayHolidays.length}개의 공휴일이 있습니다
-              </div>
-            )}
+          <div className="flex items-center justify-between mb-3">
+            <h4 className="text-sm font-medium text-gray-900">
+              이번 달 공휴일 ({displayHolidays.length}개)
+            </h4>
+            <button
+              onClick={() => setShowAllHolidays(!showAllHolidays)}
+              className="text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1"
+            >
+              {showAllHolidays ? '접기' : '전체보기'}
+              <svg 
+                className={`w-3 h-3 transition-transform ${showAllHolidays ? 'rotate-180' : ''}`}
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
           </div>
+          
+          <div className="space-y-2">
+            {(showAllHolidays ? displayHolidays : displayHolidays.slice(0, 3))
+              .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+              .map((holiday, index) => {
+                const holidayDate = new Date(holiday.date);
+                const countryInfo = SUPPORTED_COUNTRIES.find(c => c.code === holiday.country);
+                const countryName = countryInfo?.name || holiday.country;
+                
+                return (
+                  <div 
+                    key={`holiday-${index}`} 
+                    className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors"
+                    onClick={() => {
+                      // 공휴일 상세 페이지로 이동
+                      const slug = holiday.name.toLowerCase()
+                        .replace(/[^a-z0-9\s]/g, '')
+                        .replace(/\s+/g, '-');
+                      window.location.href = `/holiday/${holiday.country.toLowerCase()}/${slug}`;
+                    }}
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className="text-center min-w-[40px]">
+                        <div className="text-lg font-semibold text-gray-900">
+                          {holidayDate.getDate()}
+                        </div>
+                        <div className="text-xs text-gray-500">
+                          {holidayDate.toLocaleDateString('ko-KR', { weekday: 'short' })}
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg">{holiday.flag}</span>
+                        <div>
+                          <div className="text-sm font-medium text-gray-900">
+                            {holiday.name}
+                          </div>
+                          <div className="text-xs text-gray-500">
+                            {countryName}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="text-xs text-gray-400">
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </div>
+                  </div>
+                );
+              })}
+          </div>
+          
+          {!showAllHolidays && displayHolidays.length > 3 && (
+            <div className="text-xs text-gray-500 text-center pt-2">
+              {displayHolidays.length - 3}개 공휴일 더 보기
+            </div>
+          )}
         </div>
       )}
     </div>

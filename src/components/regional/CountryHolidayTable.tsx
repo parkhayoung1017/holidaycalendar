@@ -90,7 +90,14 @@ export default function CountryHolidayTable({
                             {countryHolidays.map((holiday, idx) => (
                               <div
                                 key={idx}
-                                className="bg-blue-100 text-blue-800 px-2 py-1 rounded-md text-xs font-medium"
+                                className="bg-blue-100 text-blue-800 px-2 py-1 rounded-md text-xs font-medium hover:bg-blue-200 cursor-pointer transition-colors"
+                                title={`${holiday.name} - 클릭하여 상세보기`}
+                                onClick={() => {
+                                  const slug = holiday.name.toLowerCase()
+                                    .replace(/[^a-z0-9\s]/g, '')
+                                    .replace(/\s+/g, '-');
+                                  window.location.href = `/holiday/${holiday.countryCode.toLowerCase()}/${slug}`;
+                                }}
                               >
                                 {holiday.name}
                               </div>

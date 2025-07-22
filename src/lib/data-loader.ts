@@ -198,6 +198,91 @@ export async function getAllAvailableData(): Promise<Record<string, number[]>> {
 }
 
 /**
+ * 특정 월의 모든 공휴일을 가져옵니다.
+ */
+export async function getHolidaysByMonth(year: number, month: number): Promise<Holiday[]> {
+  try {
+    logInfo(`월별 공휴일 조회 시작: ${year}-${month + 1}`);
+    
+    const holidaysDir = path.join(process.cwd(), 'data', 'holidays');
+    
+    // 디렉토리 존재 여부 확인
+    try {
+      await fs.access(holidaysDir);
+    } catch {
+      logWarning(`공휴일 데이터 디렉토리 없음: ${holidaysDir}`, {
+        year,
+        month,
+        holidaysDir
+      });
+      return [];
+    }
+    
+    const files = await fs.readdir(holidaysDir);
+    const holidays: Holiday[] = [];
+    let processedFiles = 0;
+    let errorFiles = 0;
+    
+    // 해당 연도의 파일들만 필터링
+    const yearFiles = files.filter(file => 
+      file.endsWith('.json') && file.includes(`-${year}.json`)
+    );
+    
+    for (const file of yearFiles) {
+      try {
+        const filePath = path.join(holidaysDir, file);
+        const fileContent = await fs.readFile(filePath, 'utf-8');
+        const data: HolidayDataFile = JSON.parse(fileContent);
+        
+        // 데이터 유효성 검증
+        if (!data.holidays || !Array.isArray(data.holidays)) {
+          logWarning(`파일 데이터 형식 오류: ${file}`, {
+            year,
+            month,
+            file,
+            dataStructure: Object.keys(data)
+          });
+          errorFiles++;
+          continue;
+        }
+        
+        // 해당 월의 공휴일만 필터링
+        const monthHolidays = data.holidays.filter(holiday => {
+          const holidayDate = new Date(holiday.date);
+          return holidayDate.getFullYear() === year && holidayDate.getMonth() === month;
+        });
+        
+        holidays.push(...monthHolidays);
+        processedFiles++;
+        
+      } catch (error) {
+        logError(error as Error, {
+          operation: 'getHolidaysByMonth - file processing',
+          year,
+          month,
+          file
+        });
+        errorFiles++;
+      }
+    }
+    
+    // 날짜순으로 정렬
+    holidays.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+    
+    logInfo(`월별 공휴일 조회 완료: ${year}-${month + 1} - ${holidays.length}개 공휴일 (${processedFiles}개 파일 처리, ${errorFiles}개 파일 오류)`);
+    return holidays;
+    
+  } catch (error) {
+    logError(error as Error, {
+      operation: 'getHolidaysByMonth',
+      year,
+      month
+    });
+    return [];
+  }
+}
+
+/**
  * 특정 날짜의 공휴일을 모든 국가에서 찾습니다.
  * 요구사항 5.2: 오늘 공휴일이 없으면 빈 배열 반환
  */

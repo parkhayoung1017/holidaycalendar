@@ -9,10 +9,13 @@ import { logError } from '@/lib/error-logger';
 import ResponsiveBanner from '@/components/ads/ResponsiveBanner';
 import InlineBanner from '@/components/ads/InlineBanner';
 
-// 현재 날짜를 ISO 형식으로 가져오는 함수
+// 현재 날짜를 로컬 시간대 기준으로 가져오는 함수
 function getTodayISO(): string {
   const today = new Date();
-  return today.toISOString().split('T')[0]; // YYYY-MM-DD 형식
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 }
 
 // 메타데이터 생성

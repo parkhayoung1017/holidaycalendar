@@ -1,7 +1,7 @@
 import SearchBar from "@/components/search/SearchBar";
 import MonthlyCalendar from "@/components/calendar/MonthlyCalendar";
 import { POPULAR_COUNTRIES, CURRENT_YEAR, DEFAULT_METADATA } from "@/lib/constants";
-import { getAllAvailableData } from "@/lib/data-loader";
+import { getAllAvailableData, getHolidaysByMonth } from "@/lib/data-loader";
 import Link from "next/link";
 import ResponsiveBanner from "@/components/ads/ResponsiveBanner";
 import InlineBanner from "@/components/ads/InlineBanner";
@@ -12,6 +12,12 @@ export const revalidate = 21600;
 export default async function Home() {
   // 실제 사용 가능한 데이터 확인
   const availableData = await getAllAvailableData();
+  
+  // 현재 월의 전 세계 공휴일 데이터 가져오기
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
+  const currentMonth = currentDate.getMonth();
+  const monthlyHolidays = await getHolidaysByMonth(currentYear, currentMonth);
   
   // 인기 국가 중에서 실제 데이터가 있는 것들만 필터링
   const availablePopularCountries = POPULAR_COUNTRIES.filter(country => 
@@ -85,7 +91,11 @@ export default async function Home() {
 
         {/* 이번 달 캘린더 섹션 */}
         <div className="mb-8">
-          <MonthlyCalendar />
+          <MonthlyCalendar 
+            year={currentYear}
+            month={currentMonth}
+            holidays={monthlyHolidays}
+          />
         </div>
 
         {/* 인기 국가 바로가기 섹션 */}
