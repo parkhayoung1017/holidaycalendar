@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "id": "IS-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-04-14-1",
+      "name": "Maundy Thursday",
+      "date": "2022-04-14",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-04-15-2",
+      "name": "Good Friday",
+      "date": "2022-04-15",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-04-17-3",
+      "name": "Easter Sunday",
+      "date": "2022-04-17",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-04-18-4",
+      "name": "Easter Monday",
+      "date": "2022-04-18",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-04-21-5",
+      "name": "First Day of Summer",
+      "date": "2022-04-21",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-05-01-6",
+      "name": "May Day",
+      "date": "2022-05-01",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-05-26-7",
+      "name": "Ascension Day",
+      "date": "2022-05-26",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-06-05-8",
+      "name": "Pentecost",
+      "date": "2022-06-05",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-06-06-9",
+      "name": "Whit Monday",
+      "date": "2022-06-06",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-06-17-10",
+      "name": "Icelandic National Day",
+      "date": "2022-06-17",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-08-01-11",
+      "name": "Commerce Day",
+      "date": "2022-08-01",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-12-24-12",
+      "name": "Christmas Eve",
+      "date": "2022-12-24",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-12-25-13",
+      "name": "Christmas Day",
+      "date": "2022-12-25",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2022-12-26",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    },
+    {
+      "id": "IS-2022-12-31-15",
+      "name": "New Year's Eve",
+      "date": "2022-12-31",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:30.756Z",
+      "updatedAt": "2025-07-22T00:33:30.756Z"
+    }
+  ],
+  "timestamp": 1753144410757,
+  "ttl": 86400000,
+  "key": "holiday:IS:2022"
+}

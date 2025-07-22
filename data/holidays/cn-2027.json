@@ -1,0 +1,85 @@
+{
+  "countryCode": "CN",
+  "year": 2027,
+  "totalHolidays": 7,
+  "lastUpdated": "2025-07-22T00:33:59.997Z",
+  "holidays": [
+    {
+      "id": "CN-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:59.997Z",
+      "updatedAt": "2025-07-22T00:33:59.997Z"
+    },
+    {
+      "id": "CN-2027-02-06-1",
+      "name": "Chinese New Year (Spring Festival)",
+      "date": "2027-02-06",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:59.997Z",
+      "updatedAt": "2025-07-22T00:33:59.997Z"
+    },
+    {
+      "id": "CN-2027-04-05-2",
+      "name": "Qingming Festival (Tomb-Sweeping Day)",
+      "date": "2027-04-05",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:59.997Z",
+      "updatedAt": "2025-07-22T00:33:59.997Z"
+    },
+    {
+      "id": "CN-2027-05-01-3",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:59.997Z",
+      "updatedAt": "2025-07-22T00:33:59.997Z"
+    },
+    {
+      "id": "CN-2027-06-09-4",
+      "name": "Dragon Boat Festival",
+      "date": "2027-06-09",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:59.997Z",
+      "updatedAt": "2025-07-22T00:33:59.997Z"
+    },
+    {
+      "id": "CN-2027-09-15-5",
+      "name": "Mid-Autumn Festival",
+      "date": "2027-09-15",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:59.997Z",
+      "updatedAt": "2025-07-22T00:33:59.997Z"
+    },
+    {
+      "id": "CN-2027-10-01-6",
+      "name": "National Day",
+      "date": "2027-10-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:59.997Z",
+      "updatedAt": "2025-07-22T00:33:59.997Z"
+    }
+  ]
+}

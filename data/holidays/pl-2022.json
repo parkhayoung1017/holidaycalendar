@@ -1,0 +1,151 @@
+{
+  "countryCode": "PL",
+  "year": 2022,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-07-22T00:33:34.537Z",
+  "holidays": [
+    {
+      "id": "PL-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-01-06-1",
+      "name": "Epiphany",
+      "date": "2022-01-06",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-04-17-2",
+      "name": "Easter Sunday",
+      "date": "2022-04-17",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-04-18-3",
+      "name": "Easter Monday",
+      "date": "2022-04-18",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-05-01-4",
+      "name": "May Day",
+      "date": "2022-05-01",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-05-03-5",
+      "name": "Constitution Day",
+      "date": "2022-05-03",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-06-05-6",
+      "name": "Pentecost",
+      "date": "2022-06-05",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-06-16-7",
+      "name": "Corpus Christi",
+      "date": "2022-06-16",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-08-15-8",
+      "name": "Assumption Day",
+      "date": "2022-08-15",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2022-11-01",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-11-11-10",
+      "name": "Independence Day",
+      "date": "2022-11-11",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-12-25-11",
+      "name": "Christmas Day",
+      "date": "2022-12-25",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    },
+    {
+      "id": "PL-2022-12-26-12",
+      "name": "St. Stephen's Day",
+      "date": "2022-12-26",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:34.536Z",
+      "updatedAt": "2025-07-22T00:33:34.536Z"
+    }
+  ]
+}

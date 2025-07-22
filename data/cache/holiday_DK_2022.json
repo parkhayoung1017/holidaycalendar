@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "DK-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-04-14-1",
+      "name": "Maundy Thursday",
+      "date": "2022-04-14",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-04-15-2",
+      "name": "Good Friday",
+      "date": "2022-04-15",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-04-17-3",
+      "name": "Easter Sunday",
+      "date": "2022-04-17",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-04-18-4",
+      "name": "Easter Monday",
+      "date": "2022-04-18",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-05-13-5",
+      "name": "General Prayer Day",
+      "date": "2022-05-13",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-05-26-6",
+      "name": "Ascension Day",
+      "date": "2022-05-26",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-05-27-7",
+      "name": "Bank closing day",
+      "date": "2022-05-27",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-06-05-8",
+      "name": "Constitution Day",
+      "date": "2022-06-05",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-06-05-9",
+      "name": "Pentecost",
+      "date": "2022-06-05",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-06-06-10",
+      "name": "Whit Monday",
+      "date": "2022-06-06",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-12-24-11",
+      "name": "Christmas Eve",
+      "date": "2022-12-24",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-12-25-12",
+      "name": "Christmas Day",
+      "date": "2022-12-25",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2022-12-26",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    },
+    {
+      "id": "DK-2022-12-31-14",
+      "name": "New Year's Eve",
+      "date": "2022-12-31",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:28.621Z",
+      "updatedAt": "2025-07-22T00:33:28.621Z"
+    }
+  ],
+  "timestamp": 1753144408622,
+  "ttl": 86400000,
+  "key": "holiday:DK:2022"
+}

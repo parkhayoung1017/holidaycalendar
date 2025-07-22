@@ -1,0 +1,203 @@
+{
+  "data": [
+    {
+      "id": "PT-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-03-01-1",
+      "name": "Carnival",
+      "date": "2022-03-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-04-15-2",
+      "name": "Good Friday",
+      "date": "2022-04-15",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-04-17-3",
+      "name": "Easter Sunday",
+      "date": "2022-04-17",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-04-25-4",
+      "name": "Freedom Day",
+      "date": "2022-04-25",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-05-01-5",
+      "name": "Labour Day",
+      "date": "2022-05-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-06-01-6",
+      "name": "Azores Day",
+      "date": "2022-06-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-20"
+      ],
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-06-10-7",
+      "name": "National Day",
+      "date": "2022-06-10",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-06-16-8",
+      "name": "Corpus Christi",
+      "date": "2022-06-16",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-07-01-9",
+      "name": "Madeira Day",
+      "date": "2022-07-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-30"
+      ],
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-08-15-10",
+      "name": "Assumption Day",
+      "date": "2022-08-15",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-10-05-11",
+      "name": "Republic Day",
+      "date": "2022-10-05",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-11-01-12",
+      "name": "All Saints Day",
+      "date": "2022-11-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-12-01-13",
+      "name": "Restoration of Independence",
+      "date": "2022-12-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-12-08-14",
+      "name": "Immaculate Conception",
+      "date": "2022-12-08",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-12-25-15",
+      "name": "Christmas Day",
+      "date": "2022-12-25",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    },
+    {
+      "id": "PT-2022-12-26-16",
+      "name": "St. Stephen's Day",
+      "date": "2022-12-26",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-30"
+      ],
+      "createdAt": "2025-07-22T00:33:32.875Z",
+      "updatedAt": "2025-07-22T00:33:32.875Z"
+    }
+  ],
+  "timestamp": 1753144412877,
+  "ttl": 86400000,
+  "key": "holiday:PT:2022"
+}

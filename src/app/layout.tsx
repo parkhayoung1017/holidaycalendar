@@ -21,6 +21,21 @@ export const metadata: Metadata = {
   title: "Global Holidays - 전세계 공휴일 정보",
   description: "전세계 주요 국가의 연도별 공휴일 정보를 제공하는 웹 서비스입니다. 여행 계획과 업무 일정에 도움이 되는 정확한 공휴일 정보를 확인하세요.",
   keywords: "공휴일, 휴일, 국가별 공휴일, 여행, 해외 공휴일, global holidays, world holidays",
+  icons: {
+    icon: [
+      {
+        url: '/icon.svg',
+        type: 'image/svg+xml',
+      },
+      {
+        url: '/calendar-icon.svg',
+        type: 'image/svg+xml',
+        sizes: '512x512',
+      }
+    ],
+    shortcut: '/calendar-icon.svg',
+    apple: '/calendar-icon.svg',
+  },
   openGraph: {
     title: "Global Holidays - 전세계 공휴일 정보",
     description: "전세계 공휴일 정보를 한눈에 확인하세요",

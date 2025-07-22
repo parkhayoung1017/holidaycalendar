@@ -1,0 +1,140 @@
+{
+  "countryCode": "NA",
+  "year": 2024,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-07-22T00:41:17.878Z",
+  "holidays": [
+    {
+      "id": "NA-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-03-21-1",
+      "name": "Independence Day",
+      "date": "2024-03-21",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-04-01-3",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-05-01-4",
+      "name": "Workers' Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-05-04-5",
+      "name": "Cassinga Day",
+      "date": "2024-05-04",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-05-09-6",
+      "name": "Ascension Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-05-25-7",
+      "name": "Africa Day",
+      "date": "2024-05-25",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-08-26-8",
+      "name": "Heroes' Day",
+      "date": "2024-08-26",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-12-10-9",
+      "name": "Human Rights Day",
+      "date": "2024-12-10",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-12-25-10",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    },
+    {
+      "id": "NA-2024-12-26-11",
+      "name": "Day of Goodwill",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:17.878Z",
+      "updatedAt": "2025-07-22T00:41:17.878Z"
+    }
+  ]
+}

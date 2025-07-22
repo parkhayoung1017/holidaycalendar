@@ -1,0 +1,162 @@
+{
+  "countryCode": "PE",
+  "year": 2024,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-07-22T00:40:54.546Z",
+  "holidays": [
+    {
+      "id": "PE-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-03-28-1",
+      "name": "Holy Thursday",
+      "date": "2024-03-28",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-03-28-2",
+      "name": "Maundy Thursday",
+      "date": "2024-03-28",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-03-29-3",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-03-31-4",
+      "name": "Easter Sunday",
+      "date": "2024-03-31",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-05-01-5",
+      "name": "International Workers' Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-06-29-6",
+      "name": "St. Peter and St. Paul",
+      "date": "2024-06-29",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-07-28-7",
+      "name": "Independence Day",
+      "date": "2024-07-28",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-07-29-8",
+      "name": "Independence Day",
+      "date": "2024-07-29",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-08-30-9",
+      "name": "Santa Rosa de Lima",
+      "date": "2024-08-30",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-10-08-10",
+      "name": "Battle of Angamos",
+      "date": "2024-10-08",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-11-01-11",
+      "name": "All Saints Day",
+      "date": "2024-11-01",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-12-08-12",
+      "name": "Immaculate Conception",
+      "date": "2024-12-08",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    },
+    {
+      "id": "PE-2024-12-25-13",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:54.546Z",
+      "updatedAt": "2025-07-22T00:40:54.546Z"
+    }
+  ]
+}

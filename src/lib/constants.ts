@@ -1,18 +1,30 @@
 // ===== 국가 및 지역 상수 =====
 
-// 지원하는 국가 목록 (확장된 버전)
+// 지원하는 국가 목록 (대폭 확장된 버전)
 export const SUPPORTED_COUNTRIES = [
   // 아시아
   { code: 'KR', name: 'South Korea', region: 'Asia', flag: '🇰🇷', popular: true },
   { code: 'JP', name: 'Japan', region: 'Asia', flag: '🇯🇵', popular: true },
   { code: 'CN', name: 'China', region: 'Asia', flag: '🇨🇳', popular: true },
   { code: 'IN', name: 'India', region: 'Asia', flag: '🇮🇳', popular: true },
-  { code: 'TH', name: 'Thailand', region: 'Asia', flag: '🇹🇭', popular: false },
+  { code: 'TH', name: 'Thailand', region: 'Asia', flag: '🇹🇭', popular: true },
   { code: 'VN', name: 'Vietnam', region: 'Asia', flag: '🇻🇳', popular: false },
-  { code: 'SG', name: 'Singapore', region: 'Asia', flag: '🇸🇬', popular: false },
+  { code: 'SG', name: 'Singapore', region: 'Asia', flag: '🇸🇬', popular: true },
   { code: 'MY', name: 'Malaysia', region: 'Asia', flag: '🇲🇾', popular: false },
   { code: 'PH', name: 'Philippines', region: 'Asia', flag: '🇵🇭', popular: false },
   { code: 'ID', name: 'Indonesia', region: 'Asia', flag: '🇮🇩', popular: false },
+  { code: 'TW', name: 'Taiwan', region: 'Asia', flag: '🇹🇼', popular: false },
+  { code: 'HK', name: 'Hong Kong', region: 'Asia', flag: '🇭🇰', popular: false },
+  { code: 'MO', name: 'Macau', region: 'Asia', flag: '🇲🇴', popular: false },
+  { code: 'BD', name: 'Bangladesh', region: 'Asia', flag: '🇧🇩', popular: false },
+  { code: 'PK', name: 'Pakistan', region: 'Asia', flag: '🇵🇰', popular: false },
+  { code: 'LK', name: 'Sri Lanka', region: 'Asia', flag: '🇱🇰', popular: false },
+  { code: 'MM', name: 'Myanmar', region: 'Asia', flag: '🇲🇲', popular: false },
+  { code: 'KH', name: 'Cambodia', region: 'Asia', flag: '🇰🇭', popular: false },
+  { code: 'LA', name: 'Laos', region: 'Asia', flag: '🇱🇦', popular: false },
+  { code: 'MN', name: 'Mongolia', region: 'Asia', flag: '🇲🇳', popular: false },
+  { code: 'KZ', name: 'Kazakhstan', region: 'Asia', flag: '🇰🇿', popular: false },
+  { code: 'UZ', name: 'Uzbekistan', region: 'Asia', flag: '🇺🇿', popular: false },
 
   // 유럽
   { code: 'GB', name: 'United Kingdom', region: 'Europe', flag: '🇬🇧', popular: true },
@@ -20,60 +32,160 @@ export const SUPPORTED_COUNTRIES = [
   { code: 'FR', name: 'France', region: 'Europe', flag: '🇫🇷', popular: true },
   { code: 'IT', name: 'Italy', region: 'Europe', flag: '🇮🇹', popular: true },
   { code: 'ES', name: 'Spain', region: 'Europe', flag: '🇪🇸', popular: true },
-  { code: 'NL', name: 'Netherlands', region: 'Europe', flag: '🇳🇱', popular: false },
+  { code: 'NL', name: 'Netherlands', region: 'Europe', flag: '🇳🇱', popular: true },
   { code: 'CH', name: 'Switzerland', region: 'Europe', flag: '🇨🇭', popular: false },
   { code: 'AT', name: 'Austria', region: 'Europe', flag: '🇦🇹', popular: false },
   { code: 'SE', name: 'Sweden', region: 'Europe', flag: '🇸🇪', popular: false },
   { code: 'NO', name: 'Norway', region: 'Europe', flag: '🇳🇴', popular: false },
+  { code: 'DK', name: 'Denmark', region: 'Europe', flag: '🇩🇰', popular: false },
+  { code: 'FI', name: 'Finland', region: 'Europe', flag: '🇫🇮', popular: false },
+  { code: 'IS', name: 'Iceland', region: 'Europe', flag: '🇮🇸', popular: false },
+  { code: 'IE', name: 'Ireland', region: 'Europe', flag: '🇮🇪', popular: false },
+  { code: 'PT', name: 'Portugal', region: 'Europe', flag: '🇵🇹', popular: false },
+  { code: 'BE', name: 'Belgium', region: 'Europe', flag: '🇧🇪', popular: false },
+  { code: 'LU', name: 'Luxembourg', region: 'Europe', flag: '🇱🇺', popular: false },
+  { code: 'PL', name: 'Poland', region: 'Europe', flag: '🇵🇱', popular: false },
+  { code: 'CZ', name: 'Czech Republic', region: 'Europe', flag: '🇨🇿', popular: false },
+  { code: 'SK', name: 'Slovakia', region: 'Europe', flag: '🇸🇰', popular: false },
+  { code: 'HU', name: 'Hungary', region: 'Europe', flag: '🇭🇺', popular: false },
+  { code: 'SI', name: 'Slovenia', region: 'Europe', flag: '🇸🇮', popular: false },
+  { code: 'HR', name: 'Croatia', region: 'Europe', flag: '🇭🇷', popular: false },
+  { code: 'RS', name: 'Serbia', region: 'Europe', flag: '🇷🇸', popular: false },
+  { code: 'BG', name: 'Bulgaria', region: 'Europe', flag: '🇧🇬', popular: false },
+  { code: 'RO', name: 'Romania', region: 'Europe', flag: '🇷🇴', popular: false },
+  { code: 'GR', name: 'Greece', region: 'Europe', flag: '🇬🇷', popular: false },
+  { code: 'CY', name: 'Cyprus', region: 'Europe', flag: '🇨🇾', popular: false },
+  { code: 'MT', name: 'Malta', region: 'Europe', flag: '🇲🇹', popular: false },
+  { code: 'EE', name: 'Estonia', region: 'Europe', flag: '🇪🇪', popular: false },
+  { code: 'LV', name: 'Latvia', region: 'Europe', flag: '🇱🇻', popular: false },
+  { code: 'LT', name: 'Lithuania', region: 'Europe', flag: '🇱🇹', popular: false },
+  { code: 'RU', name: 'Russia', region: 'Europe', flag: '🇷🇺', popular: false },
+  { code: 'UA', name: 'Ukraine', region: 'Europe', flag: '🇺🇦', popular: false },
+  { code: 'BY', name: 'Belarus', region: 'Europe', flag: '🇧🇾', popular: false },
 
   // 북미
   { code: 'US', name: 'United States', region: 'North America', flag: '🇺🇸', popular: true },
   { code: 'CA', name: 'Canada', region: 'North America', flag: '🇨🇦', popular: true },
-  { code: 'MX', name: 'Mexico', region: 'North America', flag: '🇲🇽', popular: false },
+  { code: 'MX', name: 'Mexico', region: 'North America', flag: '🇲🇽', popular: true },
+  { code: 'GT', name: 'Guatemala', region: 'North America', flag: '🇬🇹', popular: false },
+  { code: 'BZ', name: 'Belize', region: 'North America', flag: '🇧🇿', popular: false },
+  { code: 'SV', name: 'El Salvador', region: 'North America', flag: '🇸🇻', popular: false },
+  { code: 'HN', name: 'Honduras', region: 'North America', flag: '🇭🇳', popular: false },
+  { code: 'NI', name: 'Nicaragua', region: 'North America', flag: '🇳🇮', popular: false },
+  { code: 'CR', name: 'Costa Rica', region: 'North America', flag: '🇨🇷', popular: false },
+  { code: 'PA', name: 'Panama', region: 'North America', flag: '🇵🇦', popular: false },
+  { code: 'CU', name: 'Cuba', region: 'North America', flag: '🇨🇺', popular: false },
+  { code: 'JM', name: 'Jamaica', region: 'North America', flag: '🇯🇲', popular: false },
+  { code: 'HT', name: 'Haiti', region: 'North America', flag: '🇭🇹', popular: false },
+  { code: 'DO', name: 'Dominican Republic', region: 'North America', flag: '🇩🇴', popular: false },
+
+  // 남미
+  { code: 'BR', name: 'Brazil', region: 'South America', flag: '🇧🇷', popular: true },
+  { code: 'AR', name: 'Argentina', region: 'South America', flag: '🇦🇷', popular: true },
+  { code: 'CL', name: 'Chile', region: 'South America', flag: '🇨🇱', popular: false },
+  { code: 'PE', name: 'Peru', region: 'South America', flag: '🇵🇪', popular: false },
+  { code: 'CO', name: 'Colombia', region: 'South America', flag: '🇨🇴', popular: false },
+  { code: 'VE', name: 'Venezuela', region: 'South America', flag: '🇻🇪', popular: false },
+  { code: 'EC', name: 'Ecuador', region: 'South America', flag: '🇪🇨', popular: false },
+  { code: 'BO', name: 'Bolivia', region: 'South America', flag: '🇧🇴', popular: false },
+  { code: 'PY', name: 'Paraguay', region: 'South America', flag: '🇵🇾', popular: false },
+  { code: 'UY', name: 'Uruguay', region: 'South America', flag: '🇺🇾', popular: false },
+  { code: 'GY', name: 'Guyana', region: 'South America', flag: '🇬🇾', popular: false },
+  { code: 'SR', name: 'Suriname', region: 'South America', flag: '🇸🇷', popular: false },
 
   // 오세아니아
   { code: 'AU', name: 'Australia', region: 'Oceania', flag: '🇦🇺', popular: true },
-  { code: 'NZ', name: 'New Zealand', region: 'Oceania', flag: '🇳🇿', popular: false },
-
-  // 남미
-  { code: 'BR', name: 'Brazil', region: 'South America', flag: '🇧🇷', popular: false },
-  { code: 'AR', name: 'Argentina', region: 'South America', flag: '🇦🇷', popular: false },
-  { code: 'CL', name: 'Chile', region: 'South America', flag: '🇨🇱', popular: false },
+  { code: 'NZ', name: 'New Zealand', region: 'Oceania', flag: '🇳🇿', popular: true },
+  { code: 'FJ', name: 'Fiji', region: 'Oceania', flag: '🇫🇯', popular: false },
+  { code: 'PG', name: 'Papua New Guinea', region: 'Oceania', flag: '🇵🇬', popular: false },
+  { code: 'SB', name: 'Solomon Islands', region: 'Oceania', flag: '🇸🇧', popular: false },
+  { code: 'VU', name: 'Vanuatu', region: 'Oceania', flag: '🇻🇺', popular: false },
+  { code: 'NC', name: 'New Caledonia', region: 'Oceania', flag: '🇳🇨', popular: false },
+  { code: 'PF', name: 'French Polynesia', region: 'Oceania', flag: '🇵🇫', popular: false },
 
   // 아프리카
-  { code: 'ZA', name: 'South Africa', region: 'Africa', flag: '🇿🇦', popular: false },
-  { code: 'EG', name: 'Egypt', region: 'Africa', flag: '🇪🇬', popular: false },
+  { code: 'ZA', name: 'South Africa', region: 'Africa', flag: '🇿🇦', popular: true },
+  { code: 'EG', name: 'Egypt', region: 'Africa', flag: '🇪🇬', popular: true },
+  { code: 'NG', name: 'Nigeria', region: 'Africa', flag: '🇳🇬', popular: false },
+  { code: 'KE', name: 'Kenya', region: 'Africa', flag: '🇰🇪', popular: false },
+  { code: 'ET', name: 'Ethiopia', region: 'Africa', flag: '🇪🇹', popular: false },
+  { code: 'GH', name: 'Ghana', region: 'Africa', flag: '🇬🇭', popular: false },
+  { code: 'TZ', name: 'Tanzania', region: 'Africa', flag: '🇹🇿', popular: false },
+  { code: 'UG', name: 'Uganda', region: 'Africa', flag: '🇺🇬', popular: false },
+  { code: 'MZ', name: 'Mozambique', region: 'Africa', flag: '🇲🇿', popular: false },
+  { code: 'MG', name: 'Madagascar', region: 'Africa', flag: '🇲🇬', popular: false },
+  { code: 'ZW', name: 'Zimbabwe', region: 'Africa', flag: '🇿🇼', popular: false },
+  { code: 'BW', name: 'Botswana', region: 'Africa', flag: '🇧🇼', popular: false },
+  { code: 'NA', name: 'Namibia', region: 'Africa', flag: '🇳🇦', popular: false },
+  { code: 'ZM', name: 'Zambia', region: 'Africa', flag: '🇿🇲', popular: false },
+  { code: 'MW', name: 'Malawi', region: 'Africa', flag: '🇲🇼', popular: false },
+  { code: 'MA', name: 'Morocco', region: 'Africa', flag: '🇲🇦', popular: false },
+  { code: 'DZ', name: 'Algeria', region: 'Africa', flag: '🇩🇿', popular: false },
+  { code: 'TN', name: 'Tunisia', region: 'Africa', flag: '🇹🇳', popular: false },
+  { code: 'LY', name: 'Libya', region: 'Africa', flag: '🇱🇾', popular: false },
+  { code: 'SD', name: 'Sudan', region: 'Africa', flag: '🇸🇩', popular: false },
 
   // 중동
-  { code: 'AE', name: 'United Arab Emirates', region: 'Middle East', flag: '🇦🇪', popular: false },
-  { code: 'SA', name: 'Saudi Arabia', region: 'Middle East', flag: '🇸🇦', popular: false },
+  { code: 'AE', name: 'United Arab Emirates', region: 'Middle East', flag: '🇦🇪', popular: true },
+  { code: 'SA', name: 'Saudi Arabia', region: 'Middle East', flag: '🇸🇦', popular: true },
+  { code: 'IL', name: 'Israel', region: 'Middle East', flag: '🇮🇱', popular: false },
+  { code: 'TR', name: 'Turkey', region: 'Middle East', flag: '🇹🇷', popular: false },
+  { code: 'IR', name: 'Iran', region: 'Middle East', flag: '🇮🇷', popular: false },
+  { code: 'IQ', name: 'Iraq', region: 'Middle East', flag: '🇮🇶', popular: false },
+  { code: 'SY', name: 'Syria', region: 'Middle East', flag: '🇸🇾', popular: false },
+  { code: 'LB', name: 'Lebanon', region: 'Middle East', flag: '🇱🇧', popular: false },
+  { code: 'JO', name: 'Jordan', region: 'Middle East', flag: '🇯🇴', popular: false },
+  { code: 'KW', name: 'Kuwait', region: 'Middle East', flag: '🇰🇼', popular: false },
+  { code: 'QA', name: 'Qatar', region: 'Middle East', flag: '🇶🇦', popular: false },
+  { code: 'BH', name: 'Bahrain', region: 'Middle East', flag: '🇧🇭', popular: false },
+  { code: 'OM', name: 'Oman', region: 'Middle East', flag: '🇴🇲', popular: false },
+  { code: 'YE', name: 'Yemen', region: 'Middle East', flag: '🇾🇪', popular: false },
+  { code: 'AF', name: 'Afghanistan', region: 'Middle East', flag: '🇦🇫', popular: false },
 ] as const;
 
-// 지역 목록 (실제 데이터가 있는 국가들만 포함)
+// 지역 목록 (확장된 버전)
 export const REGIONS = [
   { 
     name: 'Asia', 
     displayName: '아시아', 
-    countries: ['KR', 'JP'], // 실제 데이터가 있는 국가만
+    countries: ['KR', 'JP', 'CN', 'IN', 'TH', 'SG', 'VN', 'MY', 'PH', 'ID', 'TW', 'HK', 'MO', 'BD', 'PK', 'LK', 'MM', 'KH', 'LA', 'MN', 'KZ', 'UZ'],
     displayOrder: 1
   },
   { 
     name: 'Europe', 
     displayName: '유럽', 
-    countries: ['GB', 'DE', 'FR', 'IT', 'ES'], // 실제 데이터가 있는 국가만
+    countries: ['GB', 'DE', 'FR', 'IT', 'ES', 'NL', 'CH', 'AT', 'SE', 'NO', 'DK', 'FI', 'IS', 'IE', 'PT', 'BE', 'LU', 'PL', 'CZ', 'SK', 'HU', 'SI', 'HR', 'RS', 'BG', 'RO', 'GR', 'CY', 'MT', 'EE', 'LV', 'LT', 'RU', 'UA', 'BY'],
     displayOrder: 2
   },
   { 
     name: 'North America', 
     displayName: '북미', 
-    countries: ['US', 'CA'], // 실제 데이터가 있는 국가만
+    countries: ['US', 'CA', 'MX', 'GT', 'BZ', 'SV', 'HN', 'NI', 'CR', 'PA', 'CU', 'JM', 'HT', 'DO'],
     displayOrder: 3
+  },
+  { 
+    name: 'South America', 
+    displayName: '남미', 
+    countries: ['BR', 'AR', 'CL', 'PE', 'CO', 'VE', 'EC', 'BO', 'PY', 'UY', 'GY', 'SR'],
+    displayOrder: 4
   },
   { 
     name: 'Oceania', 
     displayName: '오세아니아', 
-    countries: ['AU'], // 실제 데이터가 있는 국가만
-    displayOrder: 4
+    countries: ['AU', 'NZ', 'FJ', 'PG', 'SB', 'VU', 'NC', 'PF'],
+    displayOrder: 5
+  },
+  { 
+    name: 'Africa', 
+    displayName: '아프리카', 
+    countries: ['ZA', 'EG', 'NG', 'KE', 'ET', 'GH', 'TZ', 'UG', 'MZ', 'MG', 'ZW', 'BW', 'NA', 'ZM', 'MW', 'MA', 'DZ', 'TN', 'LY', 'SD'],
+    displayOrder: 6
+  },
+  { 
+    name: 'Middle East', 
+    displayName: '중동', 
+    countries: ['AE', 'SA', 'IL', 'TR', 'IR', 'IQ', 'SY', 'LB', 'JO', 'KW', 'QA', 'BH', 'OM', 'YE', 'AF'],
+    displayOrder: 7
   },
 ] as const;
 
@@ -82,11 +194,11 @@ export const POPULAR_COUNTRIES = SUPPORTED_COUNTRIES.filter(country => country.p
 
 // ===== 날짜 및 시간 상수 =====
 
-// 현재 연도와 지원 연도 범위
+// 현재 연도와 지원 연도 범위 (확장된 버전)
 export const CURRENT_YEAR = new Date().getFullYear();
 export const SUPPORTED_YEARS = Array.from(
-  { length: 10 }, 
-  (_, i) => CURRENT_YEAR - 2 + i
+  { length: 15 }, 
+  (_, i) => CURRENT_YEAR - 5 + i
 );
 
 // 월 이름 (다국어 지원)

@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "CR-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.571Z",
+      "updatedAt": "2025-07-22T00:40:50.571Z"
+    },
+    {
+      "id": "CR-2024-03-28-1",
+      "name": "Maundy Thursday",
+      "date": "2024-03-28",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    },
+    {
+      "id": "CR-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    },
+    {
+      "id": "CR-2024-04-11-3",
+      "name": "Juan Santamaría Day",
+      "date": "2024-04-11",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    },
+    {
+      "id": "CR-2024-05-01-4",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    },
+    {
+      "id": "CR-2024-07-25-5",
+      "name": "Annexation of the Party of Nicoya to Costa Rica",
+      "date": "2024-07-25",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    },
+    {
+      "id": "CR-2024-08-02-6",
+      "name": "Feast of Our Lady of the Angels",
+      "date": "2024-08-02",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    },
+    {
+      "id": "CR-2024-08-15-7",
+      "name": "Mother's Day",
+      "date": "2024-08-15",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    },
+    {
+      "id": "CR-2024-09-15-8",
+      "name": "Independence Day",
+      "date": "2024-09-15",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    },
+    {
+      "id": "CR-2024-12-01-9",
+      "name": "Army Abolition Day",
+      "date": "2024-12-01",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    },
+    {
+      "id": "CR-2024-12-25-10",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:50.572Z",
+      "updatedAt": "2025-07-22T00:40:50.572Z"
+    }
+  ],
+  "timestamp": 1753144850572,
+  "ttl": 86400000,
+  "key": "holiday:CR:2024"
+}

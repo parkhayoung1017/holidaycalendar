@@ -3,6 +3,10 @@ import { SUPPORTED_COUNTRIES, REGIONS, SUPPORTED_YEARS } from '@/lib/constants';
 import fs from 'fs';
 import path from 'path';
 
+// 정적 export를 위한 설정
+export const dynamic = 'force-static';
+export const revalidate = false;
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://globalholidays.site';
 
 /**

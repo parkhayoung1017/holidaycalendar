@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "MX-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:03.998Z",
+      "updatedAt": "2025-07-22T00:34:03.998Z"
+    },
+    {
+      "id": "MX-2027-02-01-1",
+      "name": "Constitution Day",
+      "date": "2027-02-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:03.998Z",
+      "updatedAt": "2025-07-22T00:34:03.998Z"
+    },
+    {
+      "id": "MX-2027-03-15-2",
+      "name": "Benito Juárez's birthday",
+      "date": "2027-03-15",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:03.998Z",
+      "updatedAt": "2025-07-22T00:34:03.998Z"
+    },
+    {
+      "id": "MX-2027-03-25-3",
+      "name": "Maundy Thursday",
+      "date": "2027-03-25",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:03.998Z",
+      "updatedAt": "2025-07-22T00:34:03.998Z"
+    },
+    {
+      "id": "MX-2027-03-26-4",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:03.998Z",
+      "updatedAt": "2025-07-22T00:34:03.998Z"
+    },
+    {
+      "id": "MX-2027-04-30-5",
+      "name": "Labor Day",
+      "date": "2027-04-30",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:03.998Z",
+      "updatedAt": "2025-07-22T00:34:03.998Z"
+    },
+    {
+      "id": "MX-2027-09-16-6",
+      "name": "Independence Day",
+      "date": "2027-09-16",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:03.998Z",
+      "updatedAt": "2025-07-22T00:34:03.998Z"
+    },
+    {
+      "id": "MX-2027-11-15-7",
+      "name": "Revolution Day",
+      "date": "2027-11-15",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:03.998Z",
+      "updatedAt": "2025-07-22T00:34:03.998Z"
+    },
+    {
+      "id": "MX-2027-12-25-8",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:03.998Z",
+      "updatedAt": "2025-07-22T00:34:03.998Z"
+    }
+  ],
+  "timestamp": 1753144443999,
+  "ttl": 86400000,
+  "key": "holiday:MX:2027"
+}

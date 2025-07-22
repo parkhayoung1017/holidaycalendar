@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "HN-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.251Z",
+      "updatedAt": "2025-07-22T00:40:49.251Z"
+    },
+    {
+      "id": "HN-2024-03-28-1",
+      "name": "Maundy Thursday",
+      "date": "2024-03-28",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.251Z",
+      "updatedAt": "2025-07-22T00:40:49.251Z"
+    },
+    {
+      "id": "HN-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.251Z",
+      "updatedAt": "2025-07-22T00:40:49.251Z"
+    },
+    {
+      "id": "HN-2024-03-30-3",
+      "name": "Holy Saturday",
+      "date": "2024-03-30",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.251Z",
+      "updatedAt": "2025-07-22T00:40:49.251Z"
+    },
+    {
+      "id": "HN-2024-04-14-4",
+      "name": "America's Day",
+      "date": "2024-04-14",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.251Z",
+      "updatedAt": "2025-07-22T00:40:49.251Z"
+    },
+    {
+      "id": "HN-2024-05-01-5",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.251Z",
+      "updatedAt": "2025-07-22T00:40:49.251Z"
+    },
+    {
+      "id": "HN-2024-09-15-6",
+      "name": "Independence Day",
+      "date": "2024-09-15",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.251Z",
+      "updatedAt": "2025-07-22T00:40:49.251Z"
+    },
+    {
+      "id": "HN-2024-10-03-7",
+      "name": "Francisco Morazán's Day/Soldier's Day",
+      "date": "2024-10-03",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.251Z",
+      "updatedAt": "2025-07-22T00:40:49.251Z"
+    },
+    {
+      "id": "HN-2024-10-12-8",
+      "name": "Columbus Day",
+      "date": "2024-10-12",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.253Z",
+      "updatedAt": "2025-07-22T00:40:49.253Z"
+    },
+    {
+      "id": "HN-2024-10-21-9",
+      "name": "Army Day",
+      "date": "2024-10-21",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.253Z",
+      "updatedAt": "2025-07-22T00:40:49.253Z"
+    },
+    {
+      "id": "HN-2024-12-25-10",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:49.253Z",
+      "updatedAt": "2025-07-22T00:40:49.253Z"
+    }
+  ],
+  "timestamp": 1753144849253,
+  "ttl": 86400000,
+  "key": "holiday:HN:2024"
+}

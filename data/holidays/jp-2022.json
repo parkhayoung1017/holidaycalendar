@@ -1,0 +1,184 @@
+{
+  "countryCode": "JP",
+  "year": 2022,
+  "totalHolidays": 16,
+  "lastUpdated": "2025-07-22T00:33:17.687Z",
+  "holidays": [
+    {
+      "id": "JP-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-01-10-1",
+      "name": "Coming of Age Day",
+      "date": "2022-01-10",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-02-11-2",
+      "name": "Foundation Day",
+      "date": "2022-02-11",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-02-23-3",
+      "name": "The Emperor's Birthday",
+      "date": "2022-02-23",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-03-21-4",
+      "name": "Vernal Equinox Day",
+      "date": "2022-03-21",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-04-29-5",
+      "name": "Shōwa Day",
+      "date": "2022-04-29",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-05-03-6",
+      "name": "Constitution Memorial Day",
+      "date": "2022-05-03",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-05-04-7",
+      "name": "Greenery Day",
+      "date": "2022-05-04",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-05-05-8",
+      "name": "Children's Day",
+      "date": "2022-05-05",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-07-18-9",
+      "name": "Marine Day",
+      "date": "2022-07-18",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-08-11-10",
+      "name": "Mountain Day",
+      "date": "2022-08-11",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-09-19-11",
+      "name": "Respect for the Aged Day",
+      "date": "2022-09-19",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-09-23-12",
+      "name": "Autumnal Equinox Day",
+      "date": "2022-09-23",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-10-10-13",
+      "name": "Sports Day",
+      "date": "2022-10-10",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-11-03-14",
+      "name": "Culture Day",
+      "date": "2022-11-03",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    },
+    {
+      "id": "JP-2022-11-23-15",
+      "name": "Labour Thanksgiving Day",
+      "date": "2022-11-23",
+      "country": "",
+      "countryCode": "JP",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:17.687Z",
+      "updatedAt": "2025-07-22T00:33:17.687Z"
+    }
+  ]
+}

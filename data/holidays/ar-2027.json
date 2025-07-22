@@ -1,0 +1,184 @@
+{
+  "countryCode": "AR",
+  "year": 2027,
+  "totalHolidays": 16,
+  "lastUpdated": "2025-07-22T00:34:06.653Z",
+  "holidays": [
+    {
+      "id": "AR-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-02-08-1",
+      "name": "Carnival",
+      "date": "2027-02-08",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-02-09-2",
+      "name": "Carnival",
+      "date": "2027-02-09",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-03-24-3",
+      "name": "Day of Remembrance for Truth and Justice",
+      "date": "2027-03-24",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-03-26-4",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-04-02-5",
+      "name": "Day of the Veterans and Fallen of the Malvinas War",
+      "date": "2027-04-02",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-05-01-6",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-05-25-7",
+      "name": "May Revolution",
+      "date": "2027-05-25",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-06-20-9",
+      "name": "General Manuel Belgrano Memorial Day",
+      "date": "2027-06-20",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-06-21-8",
+      "name": "Anniversary of the Passing of General Martín Miguel de Güemes",
+      "date": "2027-06-21",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-07-09-10",
+      "name": "Independence Day",
+      "date": "2027-07-09",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-08-16-11",
+      "name": "General José de San Martín Memorial Day",
+      "date": "2027-08-16",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-10-11-12",
+      "name": "Day of Respect for Cultural Diversity",
+      "date": "2027-10-11",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-11-20-13",
+      "name": "National Sovereignty Day",
+      "date": "2027-11-20",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-12-08-14",
+      "name": "Immaculate Conception Day",
+      "date": "2027-12-08",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    },
+    {
+      "id": "AR-2027-12-25-15",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:06.653Z",
+      "updatedAt": "2025-07-22T00:34:06.653Z"
+    }
+  ]
+}

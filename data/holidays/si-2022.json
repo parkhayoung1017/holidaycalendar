@@ -1,0 +1,239 @@
+{
+  "countryCode": "SI",
+  "year": 2022,
+  "totalHolidays": 21,
+  "lastUpdated": "2025-07-22T00:33:38.133Z",
+  "holidays": [
+    {
+      "id": "SI-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-01-02-1",
+      "name": "New Year's Day",
+      "date": "2022-01-02",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-02-08-2",
+      "name": "Prešeren Day",
+      "date": "2022-02-08",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-04-17-3",
+      "name": "Easter Sunday",
+      "date": "2022-04-17",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-04-18-4",
+      "name": "Easter Monday",
+      "date": "2022-04-18",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-04-27-5",
+      "name": "Day of Uprising Against Occupation",
+      "date": "2022-04-27",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-05-01-6",
+      "name": "Labour Day",
+      "date": "2022-05-01",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-05-02-7",
+      "name": "Labour Day",
+      "date": "2022-05-02",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-05-02-8",
+      "name": "Primož Trubar Day",
+      "date": "2022-05-02",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-06-05-9",
+      "name": "Pentecost",
+      "date": "2022-06-05",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-06-25-10",
+      "name": "Statehood Day",
+      "date": "2022-06-25",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-08-14-11",
+      "name": "Sovereignty Day",
+      "date": "2022-08-14",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-08-15-12",
+      "name": "Assumption Day",
+      "date": "2022-08-15",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-08-15-13",
+      "name": "Unification of Prekmurje Slovenes with the Mother Nation",
+      "date": "2022-08-15",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-09-15-14",
+      "name": "Integration of Primorska into the Homeland",
+      "date": "2022-09-15",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.132Z",
+      "updatedAt": "2025-07-22T00:33:38.132Z"
+    },
+    {
+      "id": "SI-2022-09-23-15",
+      "name": "Slovenian Sports Day",
+      "date": "2022-09-23",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.133Z",
+      "updatedAt": "2025-07-22T00:33:38.133Z"
+    },
+    {
+      "id": "SI-2022-10-31-16",
+      "name": "Reformation Day",
+      "date": "2022-10-31",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.133Z",
+      "updatedAt": "2025-07-22T00:33:38.133Z"
+    },
+    {
+      "id": "SI-2022-11-01-17",
+      "name": "Day of the Dead",
+      "date": "2022-11-01",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.133Z",
+      "updatedAt": "2025-07-22T00:33:38.133Z"
+    },
+    {
+      "id": "SI-2022-11-23-18",
+      "name": "Rudolf Maister Day",
+      "date": "2022-11-23",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.133Z",
+      "updatedAt": "2025-07-22T00:33:38.133Z"
+    },
+    {
+      "id": "SI-2022-12-25-19",
+      "name": "Christmas Day",
+      "date": "2022-12-25",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.133Z",
+      "updatedAt": "2025-07-22T00:33:38.133Z"
+    },
+    {
+      "id": "SI-2022-12-26-20",
+      "name": "Independence and Unity Day",
+      "date": "2022-12-26",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:38.133Z",
+      "updatedAt": "2025-07-22T00:33:38.133Z"
+    }
+  ]
+}

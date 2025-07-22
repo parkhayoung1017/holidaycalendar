@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "UA-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-03-08-1",
+      "name": "International Women's Day",
+      "date": "2024-03-08",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-05-01-2",
+      "name": "International Workers' Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-05-05-3",
+      "name": "Easter Sunday",
+      "date": "2024-05-05",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-05-08-4",
+      "name": "Victory day over Nazism in World War II",
+      "date": "2024-05-08",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-06-23-5",
+      "name": "Pentecost",
+      "date": "2024-06-23",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-06-28-6",
+      "name": "Constitution Day",
+      "date": "2024-06-28",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-07-15-7",
+      "name": "Statehood Day",
+      "date": "2024-07-15",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-08-24-8",
+      "name": "Independence Day",
+      "date": "2024-08-24",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-10-01-9",
+      "name": "Defender of Ukraine Day",
+      "date": "2024-10-01",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    },
+    {
+      "id": "UA-2024-12-25-10",
+      "name": "(Gregorian and Revised Julian) Christmas",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:45.954Z",
+      "updatedAt": "2025-07-22T00:40:45.954Z"
+    }
+  ],
+  "timestamp": 1753144845955,
+  "ttl": 86400000,
+  "key": "holiday:UA:2024"
+}

@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "SG-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-02-01-1",
+      "name": "Chinese New Year",
+      "date": "2022-02-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-02-02-2",
+      "name": "Chinese New Year",
+      "date": "2022-02-02",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-04-15-3",
+      "name": "Good Friday",
+      "date": "2022-04-15",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-05-02-4",
+      "name": "Labour Day",
+      "date": "2022-05-02",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-05-03-5",
+      "name": "Hari Raya Puasa",
+      "date": "2022-05-03",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-05-16-6",
+      "name": "Vesak Day",
+      "date": "2022-05-16",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-07-11-7",
+      "name": "Hari Raya Haji",
+      "date": "2022-07-11",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-08-09-8",
+      "name": "National Day",
+      "date": "2022-08-09",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-10-24-9",
+      "name": "Deepavali",
+      "date": "2022-10-24",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    },
+    {
+      "id": "SG-2022-12-26-10",
+      "name": "Christmas Day",
+      "date": "2022-12-26",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:20.284Z",
+      "updatedAt": "2025-07-22T00:33:20.284Z"
+    }
+  ],
+  "timestamp": 1753144400285,
+  "ttl": 86400000,
+  "key": "holiday:SG:2022"
+}

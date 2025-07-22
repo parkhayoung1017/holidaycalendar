@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "CU-2024-01-01-0",
+      "name": "Triumph of the Revolution",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "CU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:51.895Z",
+      "updatedAt": "2025-07-22T00:40:51.895Z"
+    },
+    {
+      "id": "CU-2024-01-02-1",
+      "name": "Victory of Fidel Castro",
+      "date": "2024-01-02",
+      "country": "",
+      "countryCode": "CU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:51.895Z",
+      "updatedAt": "2025-07-22T00:40:51.895Z"
+    },
+    {
+      "id": "CU-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "CU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:51.895Z",
+      "updatedAt": "2025-07-22T00:40:51.895Z"
+    },
+    {
+      "id": "CU-2024-05-01-3",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "CU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:51.895Z",
+      "updatedAt": "2025-07-22T00:40:51.895Z"
+    },
+    {
+      "id": "CU-2024-07-25-4",
+      "name": "Day before the Commemoration of the Assault of the Moncada garrison",
+      "date": "2024-07-25",
+      "country": "",
+      "countryCode": "CU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:51.895Z",
+      "updatedAt": "2025-07-22T00:40:51.895Z"
+    },
+    {
+      "id": "CU-2024-07-26-5",
+      "name": "Commemoration of the Assault of the Moncada garrison",
+      "date": "2024-07-26",
+      "country": "",
+      "countryCode": "CU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:51.895Z",
+      "updatedAt": "2025-07-22T00:40:51.895Z"
+    },
+    {
+      "id": "CU-2024-07-27-6",
+      "name": "Day after the Commemoration of the Assault of the Moncada garrison",
+      "date": "2024-07-27",
+      "country": "",
+      "countryCode": "CU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:51.895Z",
+      "updatedAt": "2025-07-22T00:40:51.895Z"
+    },
+    {
+      "id": "CU-2024-10-10-7",
+      "name": "Independence Day",
+      "date": "2024-10-10",
+      "country": "",
+      "countryCode": "CU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:51.895Z",
+      "updatedAt": "2025-07-22T00:40:51.895Z"
+    },
+    {
+      "id": "CU-2024-12-25-8",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "CU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:51.895Z",
+      "updatedAt": "2025-07-22T00:40:51.895Z"
+    }
+  ],
+  "timestamp": 1753144851895,
+  "ttl": 86400000,
+  "key": "holiday:CU:2024"
+}

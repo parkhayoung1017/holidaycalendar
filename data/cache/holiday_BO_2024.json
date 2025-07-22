@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "BO-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-02-02-1",
+      "name": "Feast of the Virgin of Candelaria",
+      "date": "2024-02-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-02-12-2",
+      "name": "Carnival",
+      "date": "2024-02-12",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-02-13-3",
+      "name": "Carnival",
+      "date": "2024-02-13",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-03-29-4",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-05-01-5",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-05-30-6",
+      "name": "Corpus Christi",
+      "date": "2024-05-30",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-06-21-7",
+      "name": "Andean New Year",
+      "date": "2024-06-21",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-08-02-8",
+      "name": "Agrarian Reform Day",
+      "date": "2024-08-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-08-06-9",
+      "name": "Independence Day",
+      "date": "2024-08-06",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-11-02-10",
+      "name": "All Saints' Day",
+      "date": "2024-11-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    },
+    {
+      "id": "BO-2024-12-25-11",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:57.192Z",
+      "updatedAt": "2025-07-22T00:40:57.192Z"
+    }
+  ],
+  "timestamp": 1753144857192,
+  "ttl": 86400000,
+  "key": "holiday:BO:2024"
+}

@@ -1,0 +1,140 @@
+{
+  "countryCode": "EE",
+  "year": 2024,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-07-22T00:40:43.293Z",
+  "holidays": [
+    {
+      "id": "EE-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-02-24-1",
+      "name": "Independence Day",
+      "date": "2024-02-24",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-03-31-3",
+      "name": "Easter Sunday",
+      "date": "2024-03-31",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-05-01-4",
+      "name": "Spring Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-05-19-5",
+      "name": "Pentecost",
+      "date": "2024-05-19",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-06-23-6",
+      "name": "Victory Day",
+      "date": "2024-06-23",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-06-24-7",
+      "name": "Midsummer Day",
+      "date": "2024-06-24",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-08-20-8",
+      "name": "Day of Restoration of Independence",
+      "date": "2024-08-20",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-12-24-9",
+      "name": "Christmas Eve",
+      "date": "2024-12-24",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-12-25-10",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    },
+    {
+      "id": "EE-2024-12-26-11",
+      "name": "St. Stephen's Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:43.293Z",
+      "updatedAt": "2025-07-22T00:40:43.293Z"
+    }
+  ]
+}

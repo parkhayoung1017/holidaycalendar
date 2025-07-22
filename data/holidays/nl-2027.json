@@ -1,0 +1,129 @@
+{
+  "countryCode": "NL",
+  "year": 2027,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-07-22T00:34:02.680Z",
+  "holidays": [
+    {
+      "id": "NL-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-03-26-1",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-03-28-2",
+      "name": "Easter Sunday",
+      "date": "2027-03-28",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-03-29-3",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-04-27-4",
+      "name": "King's Day",
+      "date": "2027-04-27",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-05-05-5",
+      "name": "Liberation Day",
+      "date": "2027-05-05",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-05-06-6",
+      "name": "Ascension Day",
+      "date": "2027-05-06",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-05-16-7",
+      "name": "Pentecost",
+      "date": "2027-05-16",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-05-17-8",
+      "name": "Whit Monday",
+      "date": "2027-05-17",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-12-25-9",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    },
+    {
+      "id": "NL-2027-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:02.680Z",
+      "updatedAt": "2025-07-22T00:34:02.680Z"
+    }
+  ]
+}

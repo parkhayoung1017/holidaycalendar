@@ -1,0 +1,205 @@
+{
+  "data": [
+    {
+      "id": "CO-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.211Z",
+      "updatedAt": "2025-07-22T00:40:55.211Z"
+    },
+    {
+      "id": "CO-2024-01-08-1",
+      "name": "Epiphany",
+      "date": "2024-01-08",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.211Z",
+      "updatedAt": "2025-07-22T00:40:55.211Z"
+    },
+    {
+      "id": "CO-2024-03-25-2",
+      "name": "Saint Joseph's Day",
+      "date": "2024-03-25",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.211Z",
+      "updatedAt": "2025-07-22T00:40:55.211Z"
+    },
+    {
+      "id": "CO-2024-03-28-3",
+      "name": "Maundy Thursday",
+      "date": "2024-03-28",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.211Z",
+      "updatedAt": "2025-07-22T00:40:55.211Z"
+    },
+    {
+      "id": "CO-2024-03-29-4",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.211Z",
+      "updatedAt": "2025-07-22T00:40:55.211Z"
+    },
+    {
+      "id": "CO-2024-05-01-5",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.211Z",
+      "updatedAt": "2025-07-22T00:40:55.211Z"
+    },
+    {
+      "id": "CO-2024-05-13-6",
+      "name": "Ascension Day",
+      "date": "2024-05-13",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.211Z",
+      "updatedAt": "2025-07-22T00:40:55.211Z"
+    },
+    {
+      "id": "CO-2024-06-03-7",
+      "name": "Corpus Christi",
+      "date": "2024-06-03",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.211Z",
+      "updatedAt": "2025-07-22T00:40:55.211Z"
+    },
+    {
+      "id": "CO-2024-06-10-8",
+      "name": "Sacred Heart",
+      "date": "2024-06-10",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.211Z",
+      "updatedAt": "2025-07-22T00:40:55.211Z"
+    },
+    {
+      "id": "CO-2024-07-01-9",
+      "name": "Saint Peter and Saint Paul",
+      "date": "2024-07-01",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.212Z",
+      "updatedAt": "2025-07-22T00:40:55.212Z"
+    },
+    {
+      "id": "CO-2024-07-20-10",
+      "name": "Declaration of Independence",
+      "date": "2024-07-20",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.212Z",
+      "updatedAt": "2025-07-22T00:40:55.212Z"
+    },
+    {
+      "id": "CO-2024-08-07-11",
+      "name": "Battle of Boyacá",
+      "date": "2024-08-07",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.212Z",
+      "updatedAt": "2025-07-22T00:40:55.212Z"
+    },
+    {
+      "id": "CO-2024-08-19-12",
+      "name": "Assumption of Mary",
+      "date": "2024-08-19",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.212Z",
+      "updatedAt": "2025-07-22T00:40:55.212Z"
+    },
+    {
+      "id": "CO-2024-10-14-13",
+      "name": "Columbus Day",
+      "date": "2024-10-14",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.212Z",
+      "updatedAt": "2025-07-22T00:40:55.212Z"
+    },
+    {
+      "id": "CO-2024-11-04-14",
+      "name": "All Saints’ Day",
+      "date": "2024-11-04",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.212Z",
+      "updatedAt": "2025-07-22T00:40:55.212Z"
+    },
+    {
+      "id": "CO-2024-11-11-15",
+      "name": "Independence of Cartagena",
+      "date": "2024-11-11",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.212Z",
+      "updatedAt": "2025-07-22T00:40:55.212Z"
+    },
+    {
+      "id": "CO-2024-12-08-16",
+      "name": "Immaculate Conception",
+      "date": "2024-12-08",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.212Z",
+      "updatedAt": "2025-07-22T00:40:55.212Z"
+    },
+    {
+      "id": "CO-2024-12-25-17",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:55.212Z",
+      "updatedAt": "2025-07-22T00:40:55.212Z"
+    }
+  ],
+  "timestamp": 1753144855212,
+  "ttl": 86400000,
+  "key": "holiday:CO:2024"
+}

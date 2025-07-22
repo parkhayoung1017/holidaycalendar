@@ -1,0 +1,96 @@
+{
+  "countryCode": "MX",
+  "year": 2022,
+  "totalHolidays": 8,
+  "lastUpdated": "2025-07-22T00:33:22.413Z",
+  "holidays": [
+    {
+      "id": "MX-2022-02-07-1",
+      "name": "Constitution Day",
+      "date": "2022-02-07",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:22.413Z",
+      "updatedAt": "2025-07-22T00:33:22.413Z"
+    },
+    {
+      "id": "MX-2022-03-21-2",
+      "name": "Benito Juárez's birthday",
+      "date": "2022-03-21",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:22.413Z",
+      "updatedAt": "2025-07-22T00:33:22.413Z"
+    },
+    {
+      "id": "MX-2022-04-14-3",
+      "name": "Maundy Thursday",
+      "date": "2022-04-14",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:22.413Z",
+      "updatedAt": "2025-07-22T00:33:22.413Z"
+    },
+    {
+      "id": "MX-2022-04-15-4",
+      "name": "Good Friday",
+      "date": "2022-04-15",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:22.413Z",
+      "updatedAt": "2025-07-22T00:33:22.413Z"
+    },
+    {
+      "id": "MX-2022-05-02-5",
+      "name": "Labor Day",
+      "date": "2022-05-02",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:22.413Z",
+      "updatedAt": "2025-07-22T00:33:22.413Z"
+    },
+    {
+      "id": "MX-2022-09-16-6",
+      "name": "Independence Day",
+      "date": "2022-09-16",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:22.413Z",
+      "updatedAt": "2025-07-22T00:33:22.413Z"
+    },
+    {
+      "id": "MX-2022-11-21-7",
+      "name": "Revolution Day",
+      "date": "2022-11-21",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:22.413Z",
+      "updatedAt": "2025-07-22T00:33:22.413Z"
+    },
+    {
+      "id": "MX-2022-12-25-8",
+      "name": "Christmas Day",
+      "date": "2022-12-25",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:22.413Z",
+      "updatedAt": "2025-07-22T00:33:22.413Z"
+    }
+  ]
+}

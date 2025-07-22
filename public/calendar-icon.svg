@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#000000"/>
+  
+  <!-- Calendar top -->
+  <rect x="40" y="60" width="432" height="64" rx="12" fill="#FFA5A5"/>
+  
+  <!-- Calendar rings -->
+  <rect x="80" y="40" width="24" height="40" rx="12" fill="#000000"/>
+  <rect x="160" y="40" width="24" height="40" rx="12" fill="#000000"/>
+  <rect x="240" y="40" width="24" height="40" rx="12" fill="#000000"/>
+  <rect x="320" y="40" width="24" height="40" rx="12" fill="#000000"/>
+  <rect x="400" y="40" width="24" height="40" rx="12" fill="#000000"/>
+  
+  <!-- Calendar body -->
+  <rect x="40" y="144" width="432" height="24" fill="#A5D8FF"/>
+  <rect x="40" y="176" width="432" height="256" fill="#F5F5F5"/>
+  
+  <!-- Calendar binding -->
+  <rect x="40" y="160" width="200" height="8" rx="4" fill="#000000"/>
+  <rect x="272" y="160" width="200" height="8" rx="4" fill="#000000"/>
+  
+  <!-- Party hat -->
+  <path d="M200 280L160 240L240 240L200 280Z" fill="#FFA5A5"/>
+  <path d="M180 260L160 240L200 240L180 260Z" fill="#00FF88"/>
+  <path d="M220 260L200 240L240 240L220 260Z" fill="#00FF88"/>
+  
+  <!-- Celebration lines -->
+  <path d="M280 200L300 220M320 200L340 220M360 200L380 220" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+  <path d="M120 300L140 320M160 300L180 320M200 300L220 320" stroke="#000000" stroke-width="8" stroke-linecap="round"/>
+</svg>

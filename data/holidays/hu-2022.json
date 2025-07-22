@@ -1,0 +1,151 @@
+{
+  "countryCode": "HU",
+  "year": 2022,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-07-22T00:33:36.849Z",
+  "holidays": [
+    {
+      "id": "HU-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-03-15-1",
+      "name": "1848 Revolution Memorial Day",
+      "date": "2022-03-15",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-04-15-2",
+      "name": "Good Friday",
+      "date": "2022-04-15",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-04-17-3",
+      "name": "Easter Sunday",
+      "date": "2022-04-17",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-04-18-4",
+      "name": "Easter Monday",
+      "date": "2022-04-18",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-05-01-5",
+      "name": "Labour day",
+      "date": "2022-05-01",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-06-05-6",
+      "name": "Pentecost",
+      "date": "2022-06-05",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-06-06-7",
+      "name": "Whit Monday",
+      "date": "2022-06-06",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-08-20-8",
+      "name": "State Foundation Day",
+      "date": "2022-08-20",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-10-23-9",
+      "name": "1956 Revolution Memorial Day",
+      "date": "2022-10-23",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-11-01-10",
+      "name": "All Saints Day",
+      "date": "2022-11-01",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-12-25-11",
+      "name": "Christmas Day",
+      "date": "2022-12-25",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    },
+    {
+      "id": "HU-2022-12-26-12",
+      "name": "St. Stephen's Day",
+      "date": "2022-12-26",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:36.849Z",
+      "updatedAt": "2025-07-22T00:33:36.849Z"
+    }
+  ]
+}

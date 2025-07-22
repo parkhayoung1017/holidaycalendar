@@ -1,0 +1,85 @@
+{
+  "countryCode": "CN",
+  "year": 2022,
+  "totalHolidays": 7,
+  "lastUpdated": "2025-07-22T00:33:18.992Z",
+  "holidays": [
+    {
+      "id": "CN-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:18.992Z",
+      "updatedAt": "2025-07-22T00:33:18.992Z"
+    },
+    {
+      "id": "CN-2022-02-01-1",
+      "name": "Chinese New Year (Spring Festival)",
+      "date": "2022-02-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:18.992Z",
+      "updatedAt": "2025-07-22T00:33:18.992Z"
+    },
+    {
+      "id": "CN-2022-04-05-2",
+      "name": "Qingming Festival (Tomb-Sweeping Day)",
+      "date": "2022-04-05",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:18.992Z",
+      "updatedAt": "2025-07-22T00:33:18.992Z"
+    },
+    {
+      "id": "CN-2022-05-01-3",
+      "name": "Labour Day",
+      "date": "2022-05-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:18.992Z",
+      "updatedAt": "2025-07-22T00:33:18.992Z"
+    },
+    {
+      "id": "CN-2022-06-03-4",
+      "name": "Dragon Boat Festival",
+      "date": "2022-06-03",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:18.992Z",
+      "updatedAt": "2025-07-22T00:33:18.992Z"
+    },
+    {
+      "id": "CN-2022-09-10-5",
+      "name": "Mid-Autumn Festival",
+      "date": "2022-09-10",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:18.992Z",
+      "updatedAt": "2025-07-22T00:33:18.992Z"
+    },
+    {
+      "id": "CN-2022-10-01-6",
+      "name": "National Day",
+      "date": "2022-10-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:18.992Z",
+      "updatedAt": "2025-07-22T00:33:18.992Z"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "countryCode": "SG",
+  "year": 2025,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-07-22T00:32:29.034Z",
+  "holidays": [
+    {
+      "id": "SG-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.033Z",
+      "updatedAt": "2025-07-22T00:32:29.033Z"
+    },
+    {
+      "id": "SG-2025-01-29-1",
+      "name": "Chinese New Year",
+      "date": "2025-01-29",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.033Z",
+      "updatedAt": "2025-07-22T00:32:29.033Z"
+    },
+    {
+      "id": "SG-2025-01-30-2",
+      "name": "Chinese New Year",
+      "date": "2025-01-30",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.033Z",
+      "updatedAt": "2025-07-22T00:32:29.033Z"
+    },
+    {
+      "id": "SG-2025-03-31-3",
+      "name": "Hari Raya Puasa",
+      "date": "2025-03-31",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.033Z",
+      "updatedAt": "2025-07-22T00:32:29.033Z"
+    },
+    {
+      "id": "SG-2025-04-18-4",
+      "name": "Good Friday",
+      "date": "2025-04-18",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.033Z",
+      "updatedAt": "2025-07-22T00:32:29.033Z"
+    },
+    {
+      "id": "SG-2025-05-01-5",
+      "name": "Labour Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.033Z",
+      "updatedAt": "2025-07-22T00:32:29.033Z"
+    },
+    {
+      "id": "SG-2025-05-12-6",
+      "name": "Vesak Day",
+      "date": "2025-05-12",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.033Z",
+      "updatedAt": "2025-07-22T00:32:29.033Z"
+    },
+    {
+      "id": "SG-2025-06-07-7",
+      "name": "Hari Raya Haji",
+      "date": "2025-06-07",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.033Z",
+      "updatedAt": "2025-07-22T00:32:29.033Z"
+    },
+    {
+      "id": "SG-2025-08-09-8",
+      "name": "National Day",
+      "date": "2025-08-09",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.033Z",
+      "updatedAt": "2025-07-22T00:32:29.034Z"
+    },
+    {
+      "id": "SG-2025-10-21-9",
+      "name": "Deepavali",
+      "date": "2025-10-21",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.034Z",
+      "updatedAt": "2025-07-22T00:32:29.034Z"
+    },
+    {
+      "id": "SG-2025-12-25-10",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:29.034Z",
+      "updatedAt": "2025-07-22T00:32:29.034Z"
+    }
+  ]
+}

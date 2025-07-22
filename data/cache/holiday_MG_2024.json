@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "MG-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    },
+    {
+      "id": "MG-2024-03-29-1",
+      "name": "Martyrs' Day",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    },
+    {
+      "id": "MG-2024-04-01-2",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    },
+    {
+      "id": "MG-2024-05-01-3",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    },
+    {
+      "id": "MG-2024-05-09-4",
+      "name": "Ascension Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    },
+    {
+      "id": "MG-2024-05-20-5",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    },
+    {
+      "id": "MG-2024-06-26-6",
+      "name": "Independence Day",
+      "date": "2024-06-26",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    },
+    {
+      "id": "MG-2024-08-15-7",
+      "name": "Assumption Day",
+      "date": "2024-08-15",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    },
+    {
+      "id": "MG-2024-11-01-8",
+      "name": "All Saints' Day",
+      "date": "2024-11-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    },
+    {
+      "id": "MG-2024-12-25-9",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:15.885Z",
+      "updatedAt": "2025-07-22T00:41:15.885Z"
+    }
+  ],
+  "timestamp": 1753144875885,
+  "ttl": 86400000,
+  "key": "holiday:MG:2024"
+}

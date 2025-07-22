@@ -1,0 +1,118 @@
+{
+  "countryCode": "SG",
+  "year": 2027,
+  "totalHolidays": 10,
+  "lastUpdated": "2025-07-22T00:34:01.294Z",
+  "holidays": [
+    {
+      "id": "SG-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.292Z",
+      "updatedAt": "2025-07-22T00:34:01.292Z"
+    },
+    {
+      "id": "SG-2027-02-06-1",
+      "name": "Chinese New Year",
+      "date": "2027-02-06",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.292Z",
+      "updatedAt": "2025-07-22T00:34:01.292Z"
+    },
+    {
+      "id": "SG-2027-02-08-2",
+      "name": "Chinese New Year",
+      "date": "2027-02-08",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.292Z",
+      "updatedAt": "2025-07-22T00:34:01.292Z"
+    },
+    {
+      "id": "SG-2027-03-10-3",
+      "name": "Hari Raya Puasa",
+      "date": "2027-03-10",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.292Z",
+      "updatedAt": "2025-07-22T00:34:01.292Z"
+    },
+    {
+      "id": "SG-2027-03-26-4",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.292Z",
+      "updatedAt": "2025-07-22T00:34:01.293Z"
+    },
+    {
+      "id": "SG-2027-05-01-5",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.293Z",
+      "updatedAt": "2025-07-22T00:34:01.293Z"
+    },
+    {
+      "id": "SG-2027-05-17-6",
+      "name": "Hari Raya Haji (Tentative Date)",
+      "date": "2027-05-17",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.293Z",
+      "updatedAt": "2025-07-22T00:34:01.293Z"
+    },
+    {
+      "id": "SG-2027-08-09-7",
+      "name": "National Day",
+      "date": "2027-08-09",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.293Z",
+      "updatedAt": "2025-07-22T00:34:01.293Z"
+    },
+    {
+      "id": "SG-2027-10-29-8",
+      "name": "Deepavali",
+      "date": "2027-10-29",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.293Z",
+      "updatedAt": "2025-07-22T00:34:01.293Z"
+    },
+    {
+      "id": "SG-2027-12-25-9",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:01.293Z",
+      "updatedAt": "2025-07-22T00:34:01.293Z"
+    }
+  ]
+}

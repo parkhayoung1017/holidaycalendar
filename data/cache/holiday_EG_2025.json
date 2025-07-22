@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "EG-2025-01-07-0",
+      "name": "Christmas",
+      "date": "2025-01-07",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:36.172Z",
+      "updatedAt": "2025-07-22T00:32:36.172Z"
+    },
+    {
+      "id": "EG-2025-01-25-1",
+      "name": "Revolution Day 2011 National Police Day",
+      "date": "2025-01-25",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:36.172Z",
+      "updatedAt": "2025-07-22T00:32:36.172Z"
+    },
+    {
+      "id": "EG-2025-04-24-2",
+      "name": "Sinai Liberation Day",
+      "date": "2025-04-24",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:36.172Z",
+      "updatedAt": "2025-07-22T00:32:36.172Z"
+    },
+    {
+      "id": "EG-2025-05-01-3",
+      "name": "Labour Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:36.172Z",
+      "updatedAt": "2025-07-22T00:32:36.172Z"
+    },
+    {
+      "id": "EG-2025-07-03-4",
+      "name": "June 30 Revolution",
+      "date": "2025-07-03",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:36.172Z",
+      "updatedAt": "2025-07-22T00:32:36.172Z"
+    },
+    {
+      "id": "EG-2025-07-23-5",
+      "name": "Revolution Day",
+      "date": "2025-07-23",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:36.172Z",
+      "updatedAt": "2025-07-22T00:32:36.172Z"
+    },
+    {
+      "id": "EG-2025-10-06-6",
+      "name": "Armed Forces Day",
+      "date": "2025-10-06",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:36.172Z",
+      "updatedAt": "2025-07-22T00:32:36.172Z"
+    }
+  ],
+  "timestamp": 1753144356173,
+  "ttl": 86400000,
+  "key": "holiday:EG:2025"
+}

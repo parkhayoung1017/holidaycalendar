@@ -1,0 +1,173 @@
+{
+  "countryCode": "AT",
+  "year": 2024,
+  "totalHolidays": 15,
+  "lastUpdated": "2025-07-22T00:40:40.645Z",
+  "holidays": [
+    {
+      "id": "AT-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-01-06-1",
+      "name": "Epiphany",
+      "date": "2024-01-06",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-03-31-2",
+      "name": "Easter Sunday",
+      "date": "2024-03-31",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-04-01-3",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-05-01-4",
+      "name": "National Holiday",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-05-09-5",
+      "name": "Ascension Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-05-19-6",
+      "name": "Pentecost",
+      "date": "2024-05-19",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-05-20-7",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-05-30-8",
+      "name": "Corpus Christi",
+      "date": "2024-05-30",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-08-15-9",
+      "name": "Assumption Day",
+      "date": "2024-08-15",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-10-26-10",
+      "name": "National Holiday",
+      "date": "2024-10-26",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-11-01-11",
+      "name": "All Saints' Day",
+      "date": "2024-11-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-12-08-12",
+      "name": "Immaculate Conception",
+      "date": "2024-12-08",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-12-25-13",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    },
+    {
+      "id": "AT-2024-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:40.645Z",
+      "updatedAt": "2025-07-22T00:40:40.645Z"
+    }
+  ]
+}

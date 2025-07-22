@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "BG-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-03-03-1",
+      "name": "Liberation Day",
+      "date": "2027-03-03",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-04-30-2",
+      "name": "Good Friday",
+      "date": "2027-04-30",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-05-01-3",
+      "name": "International Workers' Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-05-01-4",
+      "name": "Holy Saturday",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-05-02-5",
+      "name": "Easter Sunday",
+      "date": "2027-05-02",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-05-03-6",
+      "name": "Easter Monday",
+      "date": "2027-05-03",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-05-06-7",
+      "name": "Saint George's Day",
+      "date": "2027-05-06",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-05-24-8",
+      "name": "Saints Cyril and Methodius Day",
+      "date": "2027-05-24",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-09-06-9",
+      "name": "Unification Day",
+      "date": "2027-09-06",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-09-22-10",
+      "name": "Independence Day",
+      "date": "2027-09-22",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-12-24-11",
+      "name": "Christmas Eve",
+      "date": "2027-12-24",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-12-25-12",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    },
+    {
+      "id": "BG-2027-12-27-13",
+      "name": "Second day of Christmas",
+      "date": "2027-12-27",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:27.515Z",
+      "updatedAt": "2025-07-22T00:34:27.515Z"
+    }
+  ],
+  "timestamp": 1753144467516,
+  "ttl": 86400000,
+  "key": "holiday:BG:2027"
+}

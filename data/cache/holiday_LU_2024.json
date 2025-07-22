@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "LU-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.626Z",
+      "updatedAt": "2025-07-22T00:40:42.626Z"
+    },
+    {
+      "id": "LU-2024-03-29-1",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.626Z",
+      "updatedAt": "2025-07-22T00:40:42.626Z"
+    },
+    {
+      "id": "LU-2024-04-01-2",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.626Z",
+      "updatedAt": "2025-07-22T00:40:42.626Z"
+    },
+    {
+      "id": "LU-2024-05-01-3",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.626Z",
+      "updatedAt": "2025-07-22T00:40:42.626Z"
+    },
+    {
+      "id": "LU-2024-05-09-4",
+      "name": "Ascension Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.626Z",
+      "updatedAt": "2025-07-22T00:40:42.626Z"
+    },
+    {
+      "id": "LU-2024-05-09-5",
+      "name": "Europe Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.626Z",
+      "updatedAt": "2025-07-22T00:40:42.626Z"
+    },
+    {
+      "id": "LU-2024-05-20-6",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.627Z",
+      "updatedAt": "2025-07-22T00:40:42.627Z"
+    },
+    {
+      "id": "LU-2024-06-23-7",
+      "name": "Sovereign's birthday",
+      "date": "2024-06-23",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.627Z",
+      "updatedAt": "2025-07-22T00:40:42.627Z"
+    },
+    {
+      "id": "LU-2024-08-15-8",
+      "name": "Assumption Day",
+      "date": "2024-08-15",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.627Z",
+      "updatedAt": "2025-07-22T00:40:42.627Z"
+    },
+    {
+      "id": "LU-2024-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2024-11-01",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.627Z",
+      "updatedAt": "2025-07-22T00:40:42.627Z"
+    },
+    {
+      "id": "LU-2024-12-25-10",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.627Z",
+      "updatedAt": "2025-07-22T00:40:42.627Z"
+    },
+    {
+      "id": "LU-2024-12-26-11",
+      "name": "St. Stephen's Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:42.627Z",
+      "updatedAt": "2025-07-22T00:40:42.627Z"
+    }
+  ],
+  "timestamp": 1753144842628,
+  "ttl": 86400000,
+  "key": "holiday:LU:2024"
+}

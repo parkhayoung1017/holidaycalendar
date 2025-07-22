@@ -1,4 +1,7 @@
+'use client';
+
 import { generateStructuredData } from '@/lib/seo-utils';
+import { useEffect, useState } from 'react';
 
 interface StructuredDataProps {
   type: 'holiday' | 'country' | 'region';
@@ -29,7 +32,17 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
  * 웹사이트 전체에 대한 기본 구조화된 데이터
  */
 export function WebsiteStructuredData() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://world-holiday-calendar.com';
+  const [isClient, setIsClient] = useState(false);
+  
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+  
+  if (!isClient) {
+    return null;
+  }
+  
+  const baseUrl = 'https://globalholidays.site';
   
   const websiteData = {
     '@context': 'https://schema.org',
@@ -51,7 +64,7 @@ export function WebsiteStructuredData() {
       url: baseUrl,
       logo: {
         '@type': 'ImageObject',
-        url: `${baseUrl}/logo.png`
+        url: `${baseUrl}/calendar-icon.svg`
       }
     }
   };
@@ -70,14 +83,24 @@ export function WebsiteStructuredData() {
  * 조직 정보에 대한 구조화된 데이터
  */
 export function OrganizationStructuredData() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://world-holiday-calendar.com';
+  const [isClient, setIsClient] = useState(false);
+  
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+  
+  if (!isClient) {
+    return null;
+  }
+  
+  const baseUrl = 'https://globalholidays.site';
   
   const organizationData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'World Holiday Calendar',
     url: baseUrl,
-    logo: `${baseUrl}/logo.png`,
+    logo: `${baseUrl}/calendar-icon.svg`,
     description: '전세계 공휴일 정보를 제공하는 웹 서비스',
     foundingDate: '2024',
     contactPoint: {

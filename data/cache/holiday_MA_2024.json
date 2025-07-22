@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "MA-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    },
+    {
+      "id": "MA-2024-01-11-1",
+      "name": "Proclamation of Independence",
+      "date": "2024-01-11",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    },
+    {
+      "id": "MA-2024-01-14-2",
+      "name": "Amazigh New Year",
+      "date": "2024-01-14",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    },
+    {
+      "id": "MA-2024-05-01-3",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    },
+    {
+      "id": "MA-2024-07-30-4",
+      "name": "Enthronement",
+      "date": "2024-07-30",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    },
+    {
+      "id": "MA-2024-08-14-5",
+      "name": "Zikra Oued Ed-Dahab",
+      "date": "2024-08-14",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    },
+    {
+      "id": "MA-2024-08-20-6",
+      "name": "Revolution of the King and the People",
+      "date": "2024-08-20",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    },
+    {
+      "id": "MA-2024-08-21-7",
+      "name": "Youth Day",
+      "date": "2024-08-21",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    },
+    {
+      "id": "MA-2024-11-06-8",
+      "name": "Green March",
+      "date": "2024-11-06",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    },
+    {
+      "id": "MA-2024-11-18-9",
+      "name": "Independence Day",
+      "date": "2024-11-18",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:41:21.289Z",
+      "updatedAt": "2025-07-22T00:41:21.289Z"
+    }
+  ],
+  "timestamp": 1753144881290,
+  "ttl": 86400000,
+  "key": "holiday:MA:2024"
+}

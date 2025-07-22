@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Calendar top -->
+  <rect x="2" y="4" width="28" height="4" rx="1" fill="#FF6B6B"/>
+  
+  <!-- Calendar rings -->
+  <rect x="5" y="2" width="2" height="3" rx="1" fill="#333"/>
+  <rect x="10" y="2" width="2" height="3" rx="1" fill="#333"/>
+  <rect x="15" y="2" width="2" height="3" rx="1" fill="#333"/>
+  <rect x="20" y="2" width="2" height="3" rx="1" fill="#333"/>
+  <rect x="25" y="2" width="2" height="3" rx="1" fill="#333"/>
+  
+  <!-- Calendar body -->
+  <rect x="2" y="9" width="28" height="2" fill="#74C0FC"/>
+  <rect x="2" y="11" width="28" height="18" fill="#F8F9FA"/>
+  
+  <!-- Calendar binding -->
+  <rect x="2" y="10" width="12" height="1" fill="#333"/>
+  <rect x="18" y="10" width="12" height="1" fill="#333"/>
+  
+  <!-- Party hat -->
+  <path d="M12 18L10 15L14 15L12 18Z" fill="#FF6B6B"/>
+  <path d="M11 16.5L10 15L12 15L11 16.5Z" fill="#51CF66"/>
+  <path d="M13 16.5L12 15L14 15L13 16.5Z" fill="#51CF66"/>
+  
+  <!-- Celebration lines -->
+  <path d="M18 13L19 14M20 13L21 14M22 13L23 14" stroke="#333" stroke-width="0.5" stroke-linecap="round"/>
+  <path d="M8 20L9 21M10 20L11 21M12 20L13 21" stroke="#333" stroke-width="0.5" stroke-linecap="round"/>
+</svg>

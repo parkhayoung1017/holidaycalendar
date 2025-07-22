@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "RO-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-01-02-1",
+      "name": "Day after New Year's Day",
+      "date": "2022-01-02",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-01-24-2",
+      "name": "Union Day/Small Union",
+      "date": "2022-01-24",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-04-22-3",
+      "name": "Good Friday",
+      "date": "2022-04-22",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-04-24-4",
+      "name": "Easter Sunday",
+      "date": "2022-04-24",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-04-25-5",
+      "name": "Easter Monday",
+      "date": "2022-04-25",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-05-01-6",
+      "name": "Labour Day",
+      "date": "2022-05-01",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-06-01-7",
+      "name": "Children's Day",
+      "date": "2022-06-01",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-06-12-8",
+      "name": "Pentecost",
+      "date": "2022-06-12",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-06-13-9",
+      "name": "Whit Monday",
+      "date": "2022-06-13",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-08-15-10",
+      "name": "Dormition of the Theotokos",
+      "date": "2022-08-15",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-11-30-11",
+      "name": "St. Andrew's Day",
+      "date": "2022-11-30",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-12-01-12",
+      "name": "National Day/Great Union",
+      "date": "2022-12-01",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-12-25-13",
+      "name": "Christmas Day",
+      "date": "2022-12-25",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    },
+    {
+      "id": "RO-2022-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2022-12-26",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:40.607Z",
+      "updatedAt": "2025-07-22T00:33:40.607Z"
+    }
+  ],
+  "timestamp": 1753144420607,
+  "ttl": 86400000,
+  "key": "holiday:RO:2022"
+}

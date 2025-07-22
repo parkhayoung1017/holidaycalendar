@@ -1,0 +1,162 @@
+{
+  "countryCode": "HR",
+  "year": 2024,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-07-22T00:32:53.671Z",
+  "holidays": [
+    {
+      "id": "HR-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-01-06-1",
+      "name": "Epiphany",
+      "date": "2024-01-06",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-03-31-2",
+      "name": "Easter Sunday",
+      "date": "2024-03-31",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-04-01-3",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-05-01-4",
+      "name": "International Workers' Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-05-30-5",
+      "name": "Corpus Christi",
+      "date": "2024-05-30",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-05-30-6",
+      "name": "National Day",
+      "date": "2024-05-30",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-06-22-7",
+      "name": "Anti-Fascist Struggle Day",
+      "date": "2024-06-22",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-08-05-8",
+      "name": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
+      "date": "2024-08-05",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-08-15-9",
+      "name": "Assumption Day",
+      "date": "2024-08-15",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-11-01-10",
+      "name": "All Saints' Day",
+      "date": "2024-11-01",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-11-18-11",
+      "name": "Remembrance Day",
+      "date": "2024-11-18",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-12-25-12",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    },
+    {
+      "id": "HR-2024-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:53.671Z",
+      "updatedAt": "2025-07-22T00:32:53.671Z"
+    }
+  ]
+}

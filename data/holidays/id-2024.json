@@ -1,0 +1,96 @@
+{
+  "countryCode": "ID",
+  "year": 2024,
+  "totalHolidays": 8,
+  "lastUpdated": "2025-07-22T00:35:52.917Z",
+  "holidays": [
+    {
+      "id": "ID-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:35:52.917Z",
+      "updatedAt": "2025-07-22T00:35:52.917Z"
+    },
+    {
+      "id": "ID-2024-03-29-1",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:35:52.917Z",
+      "updatedAt": "2025-07-22T00:35:52.917Z"
+    },
+    {
+      "id": "ID-2024-03-31-2",
+      "name": "Easter Sunday",
+      "date": "2024-03-31",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:35:52.917Z",
+      "updatedAt": "2025-07-22T00:35:52.917Z"
+    },
+    {
+      "id": "ID-2024-05-01-3",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:35:52.917Z",
+      "updatedAt": "2025-07-22T00:35:52.917Z"
+    },
+    {
+      "id": "ID-2024-05-09-4",
+      "name": "Ascension Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:35:52.917Z",
+      "updatedAt": "2025-07-22T00:35:52.917Z"
+    },
+    {
+      "id": "ID-2024-06-01-5",
+      "name": "Pancasila Day",
+      "date": "2024-06-01",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:35:52.917Z",
+      "updatedAt": "2025-07-22T00:35:52.917Z"
+    },
+    {
+      "id": "ID-2024-08-17-6",
+      "name": "Independence Day",
+      "date": "2024-08-17",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:35:52.917Z",
+      "updatedAt": "2025-07-22T00:35:52.917Z"
+    },
+    {
+      "id": "ID-2024-12-25-7",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:35:52.917Z",
+      "updatedAt": "2025-07-22T00:35:52.917Z"
+    }
+  ]
+}

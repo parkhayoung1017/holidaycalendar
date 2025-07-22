@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "FI-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-01-06-1",
+      "name": "Epiphany",
+      "date": "2024-01-06",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-03-31-3",
+      "name": "Easter Sunday",
+      "date": "2024-03-31",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-04-01-4",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-05-01-5",
+      "name": "May Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-05-09-6",
+      "name": "Ascension Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-05-19-7",
+      "name": "Pentecost",
+      "date": "2024-05-19",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-06-21-8",
+      "name": "Midsummer Eve",
+      "date": "2024-06-21",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-06-22-9",
+      "name": "Midsummer Day",
+      "date": "2024-06-22",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-11-02-10",
+      "name": "All Saints' Day",
+      "date": "2024-11-02",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-12-06-11",
+      "name": "Independence Day",
+      "date": "2024-12-06",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-12-24-12",
+      "name": "Christmas Eve",
+      "date": "2024-12-24",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-12-25-13",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    },
+    {
+      "id": "FI-2024-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:47.115Z",
+      "updatedAt": "2025-07-22T00:32:47.115Z"
+    }
+  ],
+  "timestamp": 1753144367115,
+  "ttl": 86400000,
+  "key": "holiday:FI:2024"
+}

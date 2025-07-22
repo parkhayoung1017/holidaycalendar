@@ -1,4 +1,7 @@
 {
+  "countryCode": "US",
+  "year": 2024,
+  "cachedAt": "2025-07-22T00:40:39.814Z",
   "data": [
     {
       "id": "US-2024-01-01-0",
@@ -7,9 +10,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     },
     {
       "id": "US-2024-01-15-1",
@@ -18,9 +19,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     },
     {
       "id": "US-2024-02-12-2",
@@ -40,9 +39,7 @@
         "US-NY",
         "US-MO",
         "US-OH"
-      ],
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      ]
     },
     {
       "id": "US-2024-02-19-3",
@@ -51,9 +48,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     },
     {
       "id": "US-2024-03-29-4",
@@ -74,9 +69,19 @@
         "US-ND",
         "US-NJ",
         "US-TN"
-      ],
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      ]
+    },
+    {
+      "id": "US-2024-03-29-5",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "US",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "US-TX"
+      ]
     },
     {
       "id": "US-2024-05-08-6",
@@ -88,9 +93,7 @@
       "global": false,
       "counties": [
         "US-MO"
-      ],
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      ]
     },
     {
       "id": "US-2024-05-27-7",
@@ -99,9 +102,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     },
     {
       "id": "US-2024-06-19-8",
@@ -110,9 +111,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     },
     {
       "id": "US-2024-07-04-9",
@@ -121,9 +120,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     },
     {
       "id": "US-2024-09-02-10",
@@ -132,9 +129,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     },
     {
       "id": "US-2024-10-14-11",
@@ -178,9 +173,7 @@
         "US-UT",
         "US-VA",
         "US-WV"
-      ],
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      ]
     },
     {
       "id": "US-2024-10-14-12",
@@ -210,9 +203,7 @@
         "US-VA",
         "US-VT",
         "US-WI"
-      ],
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      ]
     },
     {
       "id": "US-2024-11-11-13",
@@ -221,9 +212,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     },
     {
       "id": "US-2024-11-28-14",
@@ -232,9 +221,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     },
     {
       "id": "US-2024-12-25-15",
@@ -243,12 +230,7 @@
       "country": "",
       "countryCode": "US",
       "type": "public",
-      "global": true,
-      "createdAt": "2025-07-19T04:26:46.747Z",
-      "updatedAt": "2025-07-19T04:26:46.747Z"
+      "global": true
     }
-  ],
-  "timestamp": 1752899206748,
-  "ttl": 86400000,
-  "key": "holiday:US:2024"
+  ]
 }

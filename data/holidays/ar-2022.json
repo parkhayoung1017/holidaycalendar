@@ -1,0 +1,184 @@
+{
+  "countryCode": "AR",
+  "year": 2022,
+  "totalHolidays": 16,
+  "lastUpdated": "2025-07-22T00:33:23.916Z",
+  "holidays": [
+    {
+      "id": "AR-2022-01-01-0",
+      "name": "New Year's Day",
+      "date": "2022-01-01",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-02-28-1",
+      "name": "Carnival",
+      "date": "2022-02-28",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-03-01-2",
+      "name": "Carnival",
+      "date": "2022-03-01",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-03-24-3",
+      "name": "Day of Remembrance for Truth and Justice",
+      "date": "2022-03-24",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-04-02-4",
+      "name": "Day of the Veterans and Fallen of the Malvinas War",
+      "date": "2022-04-02",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-04-15-5",
+      "name": "Good Friday",
+      "date": "2022-04-15",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-05-01-6",
+      "name": "Labour Day",
+      "date": "2022-05-01",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-05-25-7",
+      "name": "May Revolution",
+      "date": "2022-05-25",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-06-20-8",
+      "name": "Anniversary of the Passing of General Martín Miguel de Güemes",
+      "date": "2022-06-20",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-06-20-9",
+      "name": "General Manuel Belgrano Memorial Day",
+      "date": "2022-06-20",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-07-09-10",
+      "name": "Independence Day",
+      "date": "2022-07-09",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-08-15-11",
+      "name": "General José de San Martín Memorial Day",
+      "date": "2022-08-15",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-10-10-12",
+      "name": "Day of Respect for Cultural Diversity",
+      "date": "2022-10-10",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-11-20-13",
+      "name": "National Sovereignty Day",
+      "date": "2022-11-20",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-12-08-14",
+      "name": "Immaculate Conception Day",
+      "date": "2022-12-08",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    },
+    {
+      "id": "AR-2022-12-25-15",
+      "name": "Christmas Day",
+      "date": "2022-12-25",
+      "country": "",
+      "countryCode": "AR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:33:23.916Z",
+      "updatedAt": "2025-07-22T00:33:23.916Z"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "MX-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    },
+    {
+      "id": "MX-2024-02-05-1",
+      "name": "Constitution Day",
+      "date": "2024-02-05",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    },
+    {
+      "id": "MX-2024-03-18-2",
+      "name": "Benito Juárez's birthday",
+      "date": "2024-03-18",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    },
+    {
+      "id": "MX-2024-03-28-3",
+      "name": "Maundy Thursday",
+      "date": "2024-03-28",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    },
+    {
+      "id": "MX-2024-03-29-4",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    },
+    {
+      "id": "MX-2024-05-01-5",
+      "name": "Labor Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    },
+    {
+      "id": "MX-2024-09-16-6",
+      "name": "Independence Day",
+      "date": "2024-09-16",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    },
+    {
+      "id": "MX-2024-10-01-7",
+      "name": "Inauguration Day",
+      "date": "2024-10-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    },
+    {
+      "id": "MX-2024-11-18-8",
+      "name": "Revolution Day",
+      "date": "2024-11-18",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    },
+    {
+      "id": "MX-2024-12-25-9",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:32:10.460Z",
+      "updatedAt": "2025-07-22T00:32:10.460Z"
+    }
+  ],
+  "timestamp": 1753144330461,
+  "ttl": 86400000,
+  "key": "holiday:MX:2024"
+}

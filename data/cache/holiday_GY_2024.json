@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "GY-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.168Z",
+      "updatedAt": "2025-07-22T00:40:59.168Z"
+    },
+    {
+      "id": "GY-2024-02-23-1",
+      "name": "Republic Day",
+      "date": "2024-02-23",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    },
+    {
+      "id": "GY-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    },
+    {
+      "id": "GY-2024-04-01-3",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    },
+    {
+      "id": "GY-2024-05-01-4",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    },
+    {
+      "id": "GY-2024-05-05-5",
+      "name": "Arrival Day",
+      "date": "2024-05-05",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    },
+    {
+      "id": "GY-2024-05-26-6",
+      "name": "Independence Day",
+      "date": "2024-05-26",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    },
+    {
+      "id": "GY-2024-07-01-7",
+      "name": "Caricom Day",
+      "date": "2024-07-01",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    },
+    {
+      "id": "GY-2024-08-01-8",
+      "name": "Emancipation Day",
+      "date": "2024-08-01",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    },
+    {
+      "id": "GY-2024-12-25-9",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    },
+    {
+      "id": "GY-2024-12-26-10",
+      "name": "Boxing Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:40:59.169Z",
+      "updatedAt": "2025-07-22T00:40:59.169Z"
+    }
+  ],
+  "timestamp": 1753144859169,
+  "ttl": 86400000,
+  "key": "holiday:GY:2024"
+}

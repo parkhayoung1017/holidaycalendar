@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "BE-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-03-26-1",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-03-28-2",
+      "name": "Easter Sunday",
+      "date": "2027-03-28",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-03-29-3",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-05-01-4",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-05-06-5",
+      "name": "Ascension Day",
+      "date": "2027-05-06",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-05-07-6",
+      "name": "Day after Ascension Day",
+      "date": "2027-05-07",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-05-17-7",
+      "name": "Whit Monday",
+      "date": "2027-05-17",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-07-21-8",
+      "name": "Belgian National Day",
+      "date": "2027-07-21",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-08-15-9",
+      "name": "Assumption Day",
+      "date": "2027-08-15",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-11-01-10",
+      "name": "All Saints' Day",
+      "date": "2027-11-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-11-11-11",
+      "name": "Armistice Day",
+      "date": "2027-11-11",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-12-25-12",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    },
+    {
+      "id": "BE-2027-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-22T00:34:18.165Z",
+      "updatedAt": "2025-07-22T00:34:18.165Z"
+    }
+  ],
+  "timestamp": 1753144458166,
+  "ttl": 86400000,
+  "key": "holiday:BE:2027"
+}
