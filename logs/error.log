@@ -26973,3 +26973,5 @@
 {"timestamp":"2025-07-22T01:39:20.970Z","level":"info","message":"국가 데이터 로드 완료: Uzbekistan (UZ)"}
 {"timestamp":"2025-07-22T01:39:20.970Z","level":"info","message":"공휴일 데이터 로드 시작: UZ-2025"}
 {"timestamp":"2025-07-22T01:39:20.970Z","level":"warn","message":"공휴일 데이터 파일 없음: UZ-2025","context":{"countryCode":"UZ","year":2025,"dataPath":"/Users/hyman/holiday calander/world-holiday-calendar/data/holidays/uz-2025.json"}}
+{"timestamp":"2025-07-23T02:19:10.186Z","level":"info","message":"특정 날짜 공휴일 조회 시작: 2025-07-23"}
+{"timestamp":"2025-07-23T02:19:10.235Z","level":"info","message":"특정 날짜 공휴일 조회 완료: 2025-07-23 - 1개 공휴일 (208개 파일 처리, 0개 파일 오류)"}
