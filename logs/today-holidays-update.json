@@ -24,5 +24,13 @@
     ],
     "timestamp": "2025-07-23T02:19:10.185Z",
     "success": true
+  },
+  {
+    "date": "2025-07-24",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-07-24T02:11:42.017Z",
+    "success": true
   }
 ]
