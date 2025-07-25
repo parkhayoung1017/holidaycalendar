@@ -23,7 +23,8 @@ export default function HolidayDetailView({
         short: format(date, 'M월 d일', { locale: ko }),
         weekday: format(date, 'EEEE', { locale: ko }),
         month: format(date, 'M월', { locale: ko }),
-        year: format(date, 'yyyy년', { locale: ko })
+        year: format(date, 'yyyy년', { locale: ko }),
+        day: format(date, 'd', { locale: ko })
       };
     } catch (error) {
       console.error('날짜 파싱 오류:', error);
@@ -32,12 +33,20 @@ export default function HolidayDetailView({
         short: dateString,
         weekday: '',
         month: '',
-        year: ''
+        year: '',
+        day: '1'
       };
     }
   };
 
   const dateInfo = formatDate(holiday.date);
+  
+  // 디버깅을 위한 로그
+  console.log('Holiday date:', holiday.date);
+  console.log('Date info full:', dateInfo.full);
+  console.log('Date info day:', dateInfo.day);
+  console.log('Date info month:', dateInfo.month);
+  console.log('Date info weekday:', dateInfo.weekday);
   
   // 공휴일 타입 한글 변환
   const getHolidayTypeText = (type: Holiday['type']) => {
@@ -103,10 +112,12 @@ export default function HolidayDetailView({
           </div>
           
           {/* 날짜 카드 */}
-          <div className="bg-white bg-opacity-20 rounded-lg p-4 text-center min-w-[120px]">
-            <div className="text-3xl font-bold">{dateInfo.short.split(' ')[1]}</div>
-            <div className="text-sm opacity-90">{dateInfo.month}</div>
-            <div className="text-sm opacity-75">{dateInfo.weekday}</div>
+          <div className="bg-white bg-opacity-90 rounded-lg p-4 text-center min-w-[120px] shadow-lg">
+            <div className="text-3xl font-bold text-gray-900">
+              {dateInfo.day || '1'}
+            </div>
+            <div className="text-sm text-gray-700">{dateInfo.month || '1월'}</div>
+            <div className="text-sm text-gray-600">{dateInfo.weekday || '월요일'}</div>
           </div>
         </div>
       </div>

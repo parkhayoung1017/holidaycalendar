@@ -7,10 +7,10 @@ import HolidayDetailView from '@/components/holiday/HolidayDetailView';
 import RelatedHolidays from '@/components/holiday/RelatedHolidays';
 
 interface HolidayDetailPageProps {
-  params: {
+  params: Promise<{
     country: string;
     slug: string;
-  };
+  }>;
 }
 
 // 공휴일 슬러그를 생성하는 함수
@@ -55,7 +55,7 @@ async function findRelatedHolidays(holiday: Holiday, limit: number = 4): Promise
 }
 
 export async function generateMetadata({ params }: HolidayDetailPageProps): Promise<Metadata> {
-  const { country, slug } = params;
+  const { country, slug } = await params;
   const currentYear = new Date().getFullYear();
   
   try {
@@ -97,7 +97,7 @@ export async function generateMetadata({ params }: HolidayDetailPageProps): Prom
 }
 
 export default async function HolidayDetailPage({ params }: HolidayDetailPageProps) {
-  const { country, slug } = params;
+  const { country, slug } = await params;
   const currentYear = new Date().getFullYear();
   
   try {

@@ -24,8 +24,14 @@ export default function MonthlyCalendar({
   holidays = [],
   className = ""
 }: MonthlyCalendarProps) {
-  const [currentDate] = useState(new Date());
+  const [currentDate, setCurrentDate] = useState<Date | null>(null);
   const [showAllHolidays, setShowAllHolidays] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setCurrentDate(new Date());
+    setIsClient(true);
+  }, []);
   
   // 월별 샘플 공휴일 데이터 생성 함수
   const generateSampleHolidays = (year: number, month: number): CalendarHoliday[] => {
@@ -144,7 +150,6 @@ export default function MonthlyCalendar({
     startDate.setDate(startDate.getDate() - mondayStart);
     
     const days = [];
-    const today = new Date();
     
     // 6주 * 7일 = 42일 생성
     for (let i = 0; i < 42; i++) {
@@ -159,7 +164,7 @@ export default function MonthlyCalendar({
         dateString: dateString,
         day: date.getDate(),
         isCurrentMonth: date.getMonth() === month,
-        isToday: date.toDateString() === today.toDateString(),
+        isToday: isClient && currentDate ? date.toDateString() === currentDate.toDateString() : false,
         holidays: dayHolidays
       });
     }
