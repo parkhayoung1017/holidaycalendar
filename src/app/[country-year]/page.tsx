@@ -61,6 +61,11 @@ export async function generateStaticParams() {
       const countryInfo = SUPPORTED_COUNTRIES.find(c => c.code === countryCode);
       if (countryInfo) {
         for (const year of years) {
+          // 국가 코드 기반 경로 (예: br-2025)
+          paths.push({
+            'country-year': `${countryCode.toLowerCase()}-${year}`
+          });
+          // 국가명 기반 경로도 추가 (예: brazil-2025)
           paths.push({
             'country-year': `${countryInfo.name.toLowerCase().replace(/\s+/g, '-')}-${year}`
           });
@@ -77,6 +82,11 @@ export async function generateStaticParams() {
     
     for (const country of popularCountries) {
       for (let year = currentYear - 1; year <= currentYear + 1; year++) {
+        // 국가 코드 기반 경로
+        paths.push({
+          'country-year': `${country.code.toLowerCase()}-${year}`
+        });
+        // 국가명 기반 경로
         paths.push({
           'country-year': `${country.name.toLowerCase().replace(/\s+/g, '-')}-${year}`
         });
@@ -104,13 +114,21 @@ function parseCountryYear(countryYear: string): { country: string | null; year: 
   }
   
   const countryParts = parts.slice(0, -1);
-  const countryName = countryParts.join(' ');
+  const countryIdentifier = countryParts.join(' ');
   
-  // 국가명으로 국가 코드 찾기
-  const countryInfo = SUPPORTED_COUNTRIES.find(c => 
-    c.name.toLowerCase().replace(/\s+/g, '-') === countryName ||
-    c.name.toLowerCase() === countryName.replace(/-/g, ' ')
-  );
+  // 국가 코드 또는 국가명으로 국가 찾기
+  const countryInfo = SUPPORTED_COUNTRIES.find(c => {
+    // 국가 코드로 직접 매칭 (예: br -> BR)
+    if (c.code.toLowerCase() === countryIdentifier.toLowerCase()) {
+      return true;
+    }
+    // 국가명으로 매칭 (예: brazil -> Brazil, south-korea -> South Korea)
+    if (c.name.toLowerCase().replace(/\s+/g, '-') === countryIdentifier ||
+        c.name.toLowerCase() === countryIdentifier.replace(/-/g, ' ')) {
+      return true;
+    }
+    return false;
+  });
   
   return { 
     country: countryInfo?.code || null, 
