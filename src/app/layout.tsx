@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-import { WebsiteStructuredData, OrganizationStructuredData } from "@/components/seo/StructuredData";
 import { ErrorBoundary } from "@/components/error/ErrorBoundary";
+import { loadTranslationsSync } from "@/lib/translation-loader";
+import { Locale } from "@/types/i18n";
+import { headers } from 'next/headers';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,33 +16,78 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://globalholidays.site'),
-  title: "Global Holidays - 전세계 공휴일 정보",
-  description: "전세계 주요 국가의 연도별 공휴일 정보를 제공하는 웹 서비스입니다. 여행 계획과 업무 일정에 도움이 되는 정확한 공휴일 정보를 확인하세요.",
-  keywords: "공휴일, 휴일, 국가별 공휴일, 여행, 해외 공휴일, global holidays, world holidays",
-  icons: {
-    icon: [
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-      {
-        url: '/calendar-icon.svg',
-        type: 'image/svg+xml',
-        sizes: '512x512',
+/**
+ * 언어별 메타데이터를 생성합니다
+ * @param locale 언어 코드
+ * @returns 메타데이터 객체
+ */
+function generateMetadataForLocale(locale: Locale): Metadata {
+  const translations = loadTranslationsSync(locale, 'common');
+  const siteData = translations.site || {};
+  
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://globalholidays.site';
+  
+  return {
+    metadataBase: new URL(baseUrl),
+    title: siteData.title || "World Holiday Calendar",
+    description: siteData.description || "Check worldwide holiday information at a glance",
+    keywords: siteData.keywords || "holidays, public holidays, national holidays, world holidays",
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        'ko': `${baseUrl}/ko`,
+        'en': `${baseUrl}/en`,
+        'x-default': `${baseUrl}/ko`, // 기본 언어를 한국어로 설정
       }
-    ],
-    shortcut: '/calendar-icon.svg',
-    apple: '/calendar-icon.svg',
-  },
-  openGraph: {
-    title: "Global Holidays - 전세계 공휴일 정보",
-    description: "전세계 공휴일 정보를 한눈에 확인하세요",
-    type: "website",
-    url: "https://globalholidays.site",
-  },
-};
+    },
+    icons: {
+      icon: [
+        {
+          url: '/icon.svg',
+          type: 'image/svg+xml',
+        },
+        {
+          url: '/calendar-icon.svg',
+          type: 'image/svg+xml',
+          sizes: '512x512',
+        }
+      ],
+      shortcut: '/calendar-icon.svg',
+      apple: '/calendar-icon.svg',
+    },
+    openGraph: {
+      title: siteData.title || "World Holiday Calendar",
+      description: siteData.description || "Check worldwide holiday information at a glance",
+      type: "website",
+      url: `${baseUrl}/${locale}`,
+      locale: locale === 'ko' ? 'ko_KR' : 'en_US',
+      alternateLocale: locale === 'ko' ? 'en_US' : 'ko_KR',
+      siteName: siteData.title || "World Holiday Calendar",
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: siteData.title || "World Holiday Calendar",
+      description: siteData.description || "Check worldwide holiday information at a glance",
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+    verification: {
+      google: process.env.GOOGLE_SITE_VERIFICATION,
+    },
+  };
+}
+
+// 기본 메타데이터 (한국어)
+export const metadata: Metadata = generateMetadataForLocale('ko');
 
 export default function RootLayout({
   children,
@@ -58,19 +103,13 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9099299007950279"
           crossOrigin="anonymous"
         />
-        <WebsiteStructuredData />
-        <OrganizationStructuredData />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
-        <Header />
-        <main className="flex-1">
-          <ErrorBoundary>
-            {children}
-          </ErrorBoundary>
-        </main>
-        <Footer />
+        <ErrorBoundary>
+          {children}
+        </ErrorBoundary>
       </body>
     </html>
   );

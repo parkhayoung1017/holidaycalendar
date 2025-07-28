@@ -1,11 +1,16 @@
+'use client';
+
 import { Holiday, Country } from '@/types';
+import { Locale } from '@/types/i18n';
 import { format, parseISO } from 'date-fns';
-import { ko } from 'date-fns/locale';
+import { ko, enUS } from 'date-fns/locale';
 import Link from 'next/link';
+import { getCountrySlugFromCode } from '@/lib/country-utils';
 
 interface RelatedHolidaysProps {
   holidays: Holiday[];
   country: Country;
+  locale?: Locale;
 }
 
 // 공휴일 슬러그를 생성하는 함수
@@ -18,7 +23,7 @@ function createHolidaySlug(holidayName: string): string {
     .trim();
 }
 
-export default function RelatedHolidays({ holidays, country }: RelatedHolidaysProps) {
+export default function RelatedHolidays({ holidays, country, locale = 'ko' }: RelatedHolidaysProps) {
   if (holidays.length === 0) {
     return null;
   }
@@ -27,10 +32,19 @@ export default function RelatedHolidays({ holidays, country }: RelatedHolidaysPr
   const formatDate = (dateString: string) => {
     try {
       const date = parseISO(dateString);
-      return {
-        monthDay: format(date, 'M월 d일', { locale: ko }),
-        weekday: format(date, 'EEE', { locale: ko })
-      };
+      const dateLocale = locale === 'ko' ? ko : enUS;
+      
+      if (locale === 'ko') {
+        return {
+          monthDay: format(date, 'M월 d일', { locale: dateLocale }),
+          weekday: format(date, 'EEE', { locale: dateLocale })
+        };
+      } else {
+        return {
+          monthDay: format(date, 'MMM d', { locale: dateLocale }),
+          weekday: format(date, 'EEE', { locale: dateLocale })
+        };
+      }
     } catch (error) {
       console.error('날짜 파싱 오류:', error);
       return {
@@ -51,12 +65,23 @@ export default function RelatedHolidays({ holidays, country }: RelatedHolidaysPr
     return colorMap[type] || 'bg-gray-100 text-gray-800';
   };
 
+  // 공휴일 타입 번역
+  const getHolidayTypeText = (type: Holiday['type']) => {
+    const typeLabels = {
+      'public': locale === 'ko' ? '공휴일' : 'Public Holiday',
+      'bank': locale === 'ko' ? '은행휴일' : 'Bank Holiday',
+      'school': locale === 'ko' ? '학교휴일' : 'School Holiday',
+      'optional': locale === 'ko' ? '선택휴일' : 'Optional Holiday'
+    };
+    return typeLabels[type] || typeLabels['public'];
+  };
+
   return (
     <section className="bg-white rounded-lg shadow-lg p-8">
       <div className="flex items-center mb-6">
         <span className="text-2xl mr-3">{country.flag}</span>
         <h2 className="text-2xl font-bold text-gray-900">
-          {country.name}의 다른 공휴일
+          {locale === 'ko' ? `${country.name}의 다른 공휴일` : `Other ${country.name} Holidays`}
         </h2>
       </div>
       
@@ -64,11 +89,12 @@ export default function RelatedHolidays({ holidays, country }: RelatedHolidaysPr
         {holidays.map((holiday) => {
           const dateInfo = formatDate(holiday.date);
           const slug = createHolidaySlug(holiday.name);
+          const countrySlug = getCountrySlugFromCode(country.code);
           
           return (
             <Link
               key={holiday.id}
-              href={`/holiday/${country.code.toLowerCase()}/${slug}`}
+              href={`/${locale}/holiday/${countrySlug}/${slug}`}
               className="block bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors group"
             >
               <div className="flex items-start justify-between">
@@ -83,7 +109,7 @@ export default function RelatedHolidays({ holidays, country }: RelatedHolidaysPr
                     </span>
                     {holiday.global && (
                       <span className="text-xs px-2 py-1 bg-yellow-100 text-yellow-800 rounded-full">
-                        전국
+                        {locale === 'ko' ? '전국' : 'National'}
                       </span>
                     )}
                   </div>
@@ -100,9 +126,7 @@ export default function RelatedHolidays({ holidays, country }: RelatedHolidaysPr
                 
                 <div className="ml-4 flex flex-col items-end space-y-2">
                   <span className={`px-2 py-1 rounded-full text-xs font-medium ${getTypeColor(holiday.type)}`}>
-                    {holiday.type === 'public' ? '공휴일' : 
-                     holiday.type === 'bank' ? '은행휴무' :
-                     holiday.type === 'school' ? '학교휴무' : '선택휴일'}
+                    {getHolidayTypeText(holiday.type)}
                   </span>
                   
                   <div className="text-right">
@@ -123,10 +147,10 @@ export default function RelatedHolidays({ holidays, country }: RelatedHolidaysPr
       {/* 전체 공휴일 보기 링크 */}
       <div className="mt-6 pt-4 border-t">
         <Link
-          href={`/${country.code.toLowerCase()}-${new Date().getFullYear()}`}
+          href={`/${locale}/${country.name.toLowerCase().replace(/\s+/g, '-')}-${new Date().getFullYear()}`}
           className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors"
         >
-          {country.name} 전체 공휴일 보기
+          {locale === 'ko' ? `${country.name} 전체 공휴일 보기` : `View All ${country.name} Holidays`}
           <svg 
             className="ml-2 w-4 h-4" 
             fill="none" 

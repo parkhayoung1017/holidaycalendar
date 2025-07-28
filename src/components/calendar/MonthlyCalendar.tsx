@@ -3,11 +3,13 @@
 import { useState, useEffect } from 'react';
 import { MONTH_NAMES, DAY_NAMES, CURRENT_YEAR, SUPPORTED_COUNTRIES } from '@/lib/constants';
 import { Holiday } from '@/types';
+import { getCountrySlugFromCode, createHolidaySlug } from '@/lib/country-utils';
 
 interface CalendarHoliday {
   date: string;
   name: string;
   country: string;
+  countryCode?: string;
   flag: string;
 }
 
@@ -16,13 +18,15 @@ interface MonthlyCalendarProps {
   month?: number; // 0-11 (JavaScript Date month format)
   holidays?: Holiday[];
   className?: string;
+  locale?: string;
 }
 
 export default function MonthlyCalendar({ 
   year = CURRENT_YEAR, 
   month = new Date().getMonth(),
   holidays = [],
-  className = ""
+  className = "",
+  locale = "ko"
 }: MonthlyCalendarProps) {
   const [currentDate, setCurrentDate] = useState<Date | null>(null);
   const [showAllHolidays, setShowAllHolidays] = useState(false);
@@ -36,61 +40,93 @@ export default function MonthlyCalendar({
   // 월별 샘플 공휴일 데이터 생성 함수
   const generateSampleHolidays = (year: number, month: number): CalendarHoliday[] => {
     const holidays: CalendarHoliday[] = [];
+    const isKorean = locale === 'ko';
+    
+    // 공휴일 이름 번역 매핑
+    const holidayNames = {
+      'new-years-day': { ko: '신정', en: "New Year's Day" },
+      'australia-day': { ko: '호주의 날', en: 'Australia Day' },
+      'valentines-day': { ko: '발렌타인데이', en: "Valentine's Day" },
+      'foundation-day': { ko: '건국기념일', en: 'Foundation Day' },
+      'independence-movement-day': { ko: '삼일절', en: 'Independence Movement Day' },
+      'st-patricks-day': { ko: '성 패트릭의 날', en: "St. Patrick's Day" },
+      'april-fools-day': { ko: '만우절', en: "April Fool's Day" },
+      'st-georges-day': { ko: '성 조지의 날', en: "St. George's Day" },
+      'labour-day': { ko: '근로자의 날', en: 'Labour Day' },
+      'childrens-day': { ko: '어린이날', en: "Children's Day" },
+      'victory-day': { ko: '승전기념일', en: 'Victory Day' },
+      'memorial-day': { ko: '현충일', en: 'Memorial Day' },
+      'flag-day': { ko: '국기의 날', en: 'Flag Day' },
+      'independence-day': { ko: '독립기념일', en: 'Independence Day' },
+      'canada-day': { ko: '캐나다 데이', en: 'Canada Day' }, // 누락된 캐나다 데이 추가
+      'bastille-day': { ko: '바스티유 데이', en: 'Bastille Day' },
+      'constitution-day': { ko: '제헌절', en: 'Constitution Day' },
+      'liberation-day': { ko: '광복절', en: 'Liberation Day' },
+      'chuseok': { ko: '추석', en: 'Chuseok (Harvest Festival)' },
+      'double-ninth-festival': { ko: '중양절', en: 'Double Ninth Festival' },
+      'national-foundation-day': { ko: '개천절', en: 'National Foundation Day' },
+      'hangeul-day': { ko: '한글날', en: 'Hangeul Day' },
+      'halloween': { ko: '할로윈', en: 'Halloween' },
+      'veterans-day': { ko: '재향군인의 날', en: 'Veterans Day' },
+      'thanksgiving': { ko: '추수감사절', en: 'Thanksgiving' },
+      'christmas-day': { ko: '크리스마스', en: 'Christmas Day' },
+      'new-years-eve': { ko: '신정 전야', en: "New Year's Eve" }
+    };
     
     // 월별 공휴일 데이터
-    const monthlyHolidays: Record<number, Array<{day: number, name: string, country: string, flag: string}>> = {
+    const monthlyHolidays: Record<number, Array<{day: number, nameKey: string, country: string, flag: string}>> = {
       0: [ // 1월
-        { day: 1, name: '신정', country: 'KR', flag: '🇰🇷' },
-        { day: 1, name: 'New Year\'s Day', country: 'US', flag: '🇺🇸' },
-        { day: 26, name: 'Australia Day', country: 'AU', flag: '🇦🇺' }
+        { day: 1, nameKey: 'new-years-day', country: 'KR', flag: '🇰🇷' },
+        { day: 1, nameKey: 'new-years-day', country: 'US', flag: '🇺🇸' },
+        { day: 26, nameKey: 'australia-day', country: 'AU', flag: '🇦🇺' }
       ],
       1: [ // 2월
-        { day: 14, name: 'Valentine\'s Day', country: 'US', flag: '🇺🇸' },
-        { day: 11, name: '건국기념일', country: 'JP', flag: '🇯🇵' }
+        { day: 14, nameKey: 'valentines-day', country: 'US', flag: '🇺🇸' },
+        { day: 11, nameKey: 'foundation-day', country: 'JP', flag: '🇯🇵' }
       ],
       2: [ // 3월
-        { day: 1, name: '삼일절', country: 'KR', flag: '🇰🇷' },
-        { day: 17, name: 'St. Patrick\'s Day', country: 'IE', flag: '🇮🇪' }
+        { day: 1, nameKey: 'independence-movement-day', country: 'KR', flag: '🇰🇷' },
+        { day: 17, nameKey: 'st-patricks-day', country: 'IE', flag: '🇮🇪' }
       ],
       3: [ // 4월
-        { day: 1, name: 'April Fool\'s Day', country: 'US', flag: '🇺🇸' },
-        { day: 23, name: 'St. George\'s Day', country: 'GB', flag: '🇬🇧' }
+        { day: 1, nameKey: 'april-fools-day', country: 'US', flag: '🇺🇸' },
+        { day: 23, nameKey: 'st-georges-day', country: 'GB', flag: '🇬🇧' }
       ],
       4: [ // 5월
-        { day: 1, name: '근로자의 날', country: 'KR', flag: '🇰🇷' },
-        { day: 5, name: '어린이날', country: 'KR', flag: '🇰🇷' },
-        { day: 8, name: 'Victory Day', country: 'RU', flag: '🇷🇺' }
+        { day: 1, nameKey: 'labour-day', country: 'KR', flag: '🇰🇷' },
+        { day: 5, nameKey: 'childrens-day', country: 'KR', flag: '🇰🇷' },
+        { day: 8, nameKey: 'victory-day', country: 'RU', flag: '🇷🇺' }
       ],
       5: [ // 6월
-        { day: 6, name: '현충일', country: 'KR', flag: '🇰🇷' },
-        { day: 14, name: 'Flag Day', country: 'US', flag: '🇺🇸' }
+        { day: 6, nameKey: 'memorial-day', country: 'KR', flag: '🇰🇷' },
+        { day: 14, nameKey: 'flag-day', country: 'US', flag: '🇺🇸' }
       ],
       6: [ // 7월
-        { day: 4, name: 'Independence Day', country: 'US', flag: '🇺🇸' },
-        { day: 14, name: 'Bastille Day', country: 'FR', flag: '🇫🇷' },
-        { day: 17, name: '제헌절', country: 'KR', flag: '🇰🇷' }
+        { day: 4, nameKey: 'independence-day', country: 'US', flag: '🇺🇸' },
+        { day: 14, nameKey: 'bastille-day', country: 'FR', flag: '🇫🇷' },
+        { day: 17, nameKey: 'constitution-day', country: 'KR', flag: '🇰🇷' }
       ],
       7: [ // 8월
-        { day: 15, name: '광복절', country: 'KR', flag: '🇰🇷' },
-        { day: 31, name: 'Independence Day', country: 'MY', flag: '🇲🇾' }
+        { day: 15, nameKey: 'liberation-day', country: 'KR', flag: '🇰🇷' },
+        { day: 31, nameKey: 'independence-day', country: 'MY', flag: '🇲🇾' }
       ],
       8: [ // 9월
-        { day: 3, name: '추석', country: 'KR', flag: '🇰🇷' },
-        { day: 9, name: '중양절', country: 'CN', flag: '🇨🇳' }
+        { day: 3, nameKey: 'chuseok', country: 'KR', flag: '🇰🇷' },
+        { day: 9, nameKey: 'double-ninth-festival', country: 'CN', flag: '🇨🇳' }
       ],
       9: [ // 10월
-        { day: 3, name: '개천절', country: 'KR', flag: '🇰🇷' },
-        { day: 9, name: '한글날', country: 'KR', flag: '🇰🇷' },
-        { day: 31, name: 'Halloween', country: 'US', flag: '🇺🇸' }
+        { day: 3, nameKey: 'national-foundation-day', country: 'KR', flag: '🇰🇷' },
+        { day: 9, nameKey: 'hangeul-day', country: 'KR', flag: '🇰🇷' },
+        { day: 31, nameKey: 'halloween', country: 'US', flag: '🇺🇸' }
       ],
       10: [ // 11월
-        { day: 11, name: 'Veterans Day', country: 'US', flag: '🇺🇸' },
-        { day: 23, name: 'Thanksgiving', country: 'US', flag: '🇺🇸' }
+        { day: 11, nameKey: 'veterans-day', country: 'US', flag: '🇺🇸' },
+        { day: 23, nameKey: 'thanksgiving', country: 'US', flag: '🇺🇸' }
       ],
       11: [ // 12월
-        { day: 25, name: 'Christmas Day', country: 'US', flag: '🇺🇸' },
-        { day: 25, name: 'Christmas Day', country: 'GB', flag: '🇬🇧' },
-        { day: 31, name: 'New Year\'s Eve', country: 'US', flag: '🇺🇸' }
+        { day: 25, nameKey: 'christmas-day', country: 'US', flag: '🇺🇸' },
+        { day: 25, nameKey: 'christmas-day', country: 'GB', flag: '🇬🇧' },
+        { day: 31, nameKey: 'new-years-eve', country: 'US', flag: '🇺🇸' }
       ]
     };
 
@@ -100,13 +136,32 @@ export default function MonthlyCalendar({
       // 해당 월의 날짜가 실제로 존재하는지 확인
       const lastDayOfMonth = new Date(year, month + 1, 0).getDate();
       if (holiday.day <= lastDayOfMonth) {
-        holidays.push({
+        const holidayName = holidayNames[holiday.nameKey as keyof typeof holidayNames];
+        const calendarHoliday = {
           date: getLocalDateString(new Date(year, month, holiday.day)),
-          name: holiday.name,
+          name: holidayName ? holidayName[isKorean ? 'ko' : 'en'] : holiday.nameKey,
           country: holiday.country,
           flag: holiday.flag
+        };
+        
+        // 디버깅: 생성된 공휴일 객체 확인
+        console.log('📅 샘플 공휴일 생성:', {
+          originalHoliday: holiday,
+          calendarHoliday,
+          holidayName,
+          isKorean,
+          selectedName: holidayName ? holidayName[isKorean ? 'ko' : 'en'] : holiday.nameKey
         });
+        
+        holidays.push(calendarHoliday);
       }
+    });
+
+    console.log('📅 생성된 전체 샘플 공휴일:', {
+      year,
+      month,
+      totalHolidays: holidays.length,
+      holidays
     });
 
     return holidays;
@@ -120,6 +175,71 @@ export default function MonthlyCalendar({
     return `${year}-${month}-${day}`;
   };
 
+  // 공휴일 이름 번역 함수
+  const translateHolidayName = (originalName: string, countryCode: string): string => {
+    if (locale === 'en') return originalName;
+    
+    // 일반적인 공휴일 번역 매핑
+    const commonTranslations: Record<string, string> = {
+      "New Year's Day": "신정",
+      "Christmas Day": "크리스마스",
+      "Christmas": "크리스마스",
+      "Easter": "부활절",
+      "Easter Sunday": "부활절",
+      "Easter Monday": "부활절 월요일",
+      "Good Friday": "성금요일",
+      "Labour Day": "근로자의 날",
+      "Labor Day": "근로자의 날",
+      "Independence Day": "독립기념일",
+      "National Day": "국경일",
+      "Thanksgiving": "추수감사절",
+      "Thanksgiving Day": "추수감사절",
+      "Valentine's Day": "발렌타인데이",
+      "Mother's Day": "어머니날",
+      "Father's Day": "아버지날",
+      "Children's Day": "어린이날",
+      "Halloween": "할로윈",
+      "New Year's Eve": "신정 전야",
+      "Memorial Day": "현충일",
+      "Veterans Day": "재향군인의 날",
+      "Martin Luther King Jr. Day": "마틴 루터 킹 주니어 데이",
+      "Presidents' Day": "대통령의 날",
+      "Columbus Day": "콜럼버스 데이",
+      "Boxing Day": "박싱 데이",
+      "Australia Day": "호주의 날",
+      "Canada Day": "캐나다 데이",
+      "Bastille Day": "바스티유 데이",
+      "St. Patrick's Day": "성 패트릭의 날",
+      "St. George's Day": "성 조지의 날",
+      "Victory Day": "승전기념일",
+      "Constitution Day": "제헌절",
+      "Liberation Day": "광복절",
+      "Foundation Day": "건국기념일",
+      "Flag Day": "국기의 날",
+      "Carnival": "카니발",
+      "Tiradentes": "티라덴치스",
+      "Corpus Christi": "성체 성혈 대축일",
+      "Our Lady of Aparecida": "아파레시다 성모 대축일",
+      "All Souls' Day": "위령의 날",
+      "Republic Proclamation Day": "공화국 선포일",
+      "Black Awareness Day": "흑인 의식의 날"
+    };
+    
+    // 정확한 매치 먼저 시도
+    if (commonTranslations[originalName]) {
+      return commonTranslations[originalName];
+    }
+    
+    // 부분 매치 시도
+    for (const [english, korean] of Object.entries(commonTranslations)) {
+      if (originalName.toLowerCase().includes(english.toLowerCase())) {
+        return korean;
+      }
+    }
+    
+    return originalName; // 번역을 찾지 못하면 원본 반환
+  };
+
   // 실제 공휴일 데이터를 캘린더 형식으로 변환
   const convertToCalendarHolidays = (holidays: Holiday[]): CalendarHoliday[] => {
     return holidays.map(holiday => {
@@ -127,7 +247,7 @@ export default function MonthlyCalendar({
       const country = SUPPORTED_COUNTRIES.find(c => c.code === holiday.countryCode);
       return {
         date: holiday.date,
-        name: holiday.name,
+        name: translateHolidayName(holiday.name, holiday.countryCode),
         country: holiday.countryCode,
         flag: country?.flag || '🌍'
       };
@@ -137,6 +257,8 @@ export default function MonthlyCalendar({
   const sampleHolidays = generateSampleHolidays(year, month);
   const realHolidays = convertToCalendarHolidays(holidays);
   const displayHolidays = realHolidays.length > 0 ? realHolidays : sampleHolidays;
+
+
 
   // 달력 데이터 생성
   const generateCalendarData = () => {
@@ -241,10 +363,58 @@ export default function MonthlyCalendar({
                     title={`${holiday.country}: ${holiday.name} - 클릭하여 상세보기`}
                     onClick={(e) => {
                       e.stopPropagation();
-                      const slug = holiday.name.toLowerCase()
-                        .replace(/[^a-z0-9\s]/g, '')
-                        .replace(/\s+/g, '-');
-                      window.location.href = `/holiday/${holiday.country.toLowerCase()}/${slug}`;
+                      
+                      // 디버깅을 위한 상세 로그
+                      console.log('🔍 공휴일 클릭 디버깅:', {
+                        holiday,
+                        holidayName: holiday?.name,
+                        holidayCountry: holiday?.country,
+                        holidayFlag: holiday?.flag,
+                        holidayType: typeof holiday,
+                        holidayKeys: holiday ? Object.keys(holiday) : 'holiday is null/undefined',
+                        isHolidayEmpty: Object.keys(holiday || {}).length === 0
+                      });
+                      
+                      // holiday 객체 자체가 비어있는지 확인
+                      if (!holiday || Object.keys(holiday).length === 0) {
+                        console.error('❌ URL 생성 실패: holiday 객체가 비어있습니다', { holiday });
+                        return;
+                      }
+                      
+                      if (!holiday.name || !holiday.country) {
+                        console.error('❌ URL 생성 실패: 공휴일 데이터가 불완전합니다', { 
+                          holiday,
+                          hasName: !!holiday.name,
+                          hasCountry: !!holiday.country
+                        });
+                        return;
+                      }
+                      
+                      const slug = createHolidaySlug(holiday.name);
+                      const countrySlug = getCountrySlugFromCode(holiday.country);
+                      
+                      if (!countrySlug || !slug) {
+                        console.error('❌ URL 생성 실패:', { 
+                          holidayName: holiday.name, 
+                          country: holiday.country, 
+                          countrySlug, 
+                          slug,
+                          slugFunction: typeof createHolidaySlug,
+                          countryFunction: typeof getCountrySlugFromCode
+                        });
+                        return;
+                      }
+                      
+                      const targetUrl = `/${locale}/holiday/${countrySlug}/${slug}`;
+                      console.log('✅ MonthlyCalendar 링크 클릭 성공:', {
+                        locale,
+                        holiday: holiday.name,
+                        country: holiday.country,
+                        countrySlug,
+                        slug,
+                        targetUrl
+                      });
+                      window.location.href = targetUrl;
                     }}
                   >
                     <span className="mr-1">{holiday.flag}</span>
@@ -259,12 +429,37 @@ export default function MonthlyCalendar({
                     className="text-xs text-gray-500 hover:text-gray-700 cursor-pointer"
                     onClick={(e) => {
                       e.stopPropagation();
+                      
                       // 첫 번째 공휴일로 이동 (또는 모든 공휴일을 보여주는 페이지로 이동)
                       const firstHoliday = day.holidays[0];
-                      const slug = firstHoliday.name.toLowerCase()
-                        .replace(/[^a-z0-9\s]/g, '')
-                        .replace(/\s+/g, '-');
-                      window.location.href = `/holiday/${firstHoliday.country.toLowerCase()}/${slug}`;
+                      
+                      console.log('🔍 "더보기" 클릭 디버깅:', {
+                        firstHoliday,
+                        totalHolidays: day.holidays.length,
+                        allHolidays: day.holidays
+                      });
+                      
+                      if (!firstHoliday || !firstHoliday.name || !firstHoliday.country) {
+                        console.error('❌ "더보기" URL 생성 실패: 첫 번째 공휴일 데이터가 불완전합니다', { firstHoliday });
+                        return;
+                      }
+                      
+                      const slug = createHolidaySlug(firstHoliday.name);
+                      const countrySlug = getCountrySlugFromCode(firstHoliday.country);
+                      
+                      if (!countrySlug || !slug) {
+                        console.error('❌ "더보기" URL 생성 실패:', { 
+                          holidayName: firstHoliday.name, 
+                          country: firstHoliday.country, 
+                          countrySlug, 
+                          slug 
+                        });
+                        return;
+                      }
+                      
+                      const targetUrl = `/${locale}/holiday/${countrySlug}/${slug}`;
+                      console.log('✅ "더보기" 링크 클릭 성공:', { targetUrl });
+                      window.location.href = targetUrl;
                     }}
                   >
                     +{day.holidays.length - 2}개 더
@@ -301,7 +496,7 @@ export default function MonthlyCalendar({
 
       {/* 이번 달 공휴일 목록 */}
       {displayHolidays.length > 0 && (
-        <div className="mt-6 pt-4 border-t border-gray-200">
+        <div className="mt-6 pt-4 border-t border-gray-200" data-component="MonthlyCalendar-HolidayList">
           <div className="flex items-center justify-between mb-3">
             <h4 className="text-sm font-medium text-gray-900">
               이번 달 공휴일 ({displayHolidays.length}개)
@@ -336,10 +531,31 @@ export default function MonthlyCalendar({
                     className="flex items-center justify-between p-2 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors"
                     onClick={() => {
                       // 공휴일 상세 페이지로 이동
-                      const slug = holiday.name.toLowerCase()
-                        .replace(/[^a-z0-9\s]/g, '')
-                        .replace(/\s+/g, '-');
-                      window.location.href = `/holiday/${holiday.country.toLowerCase()}/${slug}`;
+                      const slug = createHolidaySlug(holiday.name);
+                      // 국가 코드를 국가 슬러그로 변환
+                      const countrySlug = getCountrySlugFromCode(holiday.country);
+                      
+                      if (!countrySlug || !slug) {
+                        console.error('URL 생성 실패:', { holiday: holiday.name, country: holiday.country, countrySlug, slug });
+                        return;
+                      }
+                      
+                      const targetUrl = `/${locale}/holiday/${countrySlug}/${slug}`;
+                      
+                      // 디버깅: URL 생성 확인
+                      console.log('🚀 하단 목록 클릭:', {
+                        originalName: holiday.name,
+                        country: holiday.country,
+                        slug,
+                        countrySlug,
+                        targetUrl,
+                        // 추가 디버깅 정보
+                        slugValid: slug && slug.length > 0,
+                        countrySlugValid: countrySlug && countrySlug.length > 0,
+                        urlParts: targetUrl.split('/')
+                      });
+                      
+                      window.location.href = targetUrl;
                     }}
                   >
                     <div className="flex items-center gap-3">

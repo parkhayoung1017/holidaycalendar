@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { logError } from '@/lib/error-logger';
+import { useTranslation } from '@/hooks/useTranslation';
 
 interface ErrorBoundaryState {
   hasError: boolean;
@@ -66,6 +67,8 @@ interface ErrorFallbackProps {
 }
 
 function DefaultErrorFallback({ error, retry }: ErrorFallbackProps) {
+  const { t } = useTranslation('common');
+
   return (
     <div className="min-h-[400px] flex flex-col items-center justify-center p-8 bg-gray-50 rounded-lg">
       <div className="text-center max-w-md">
@@ -87,18 +90,18 @@ function DefaultErrorFallback({ error, retry }: ErrorFallbackProps) {
         </div>
 
         <h2 className="text-xl font-semibold text-gray-900 mb-2">
-          문제가 발생했습니다
+          {t('errors.general.title')}
         </h2>
         
         <p className="text-gray-600 mb-6">
-          페이지를 불러오는 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.
+          {t('errors.general.descriptionBoundary')}
         </p>
 
         {/* 개발 환경에서만 에러 상세 정보 표시 */}
         {process.env.NODE_ENV === 'development' && error && (
           <details className="mb-6 text-left">
             <summary className="cursor-pointer text-sm text-gray-500 hover:text-gray-700">
-              에러 상세 정보
+              {t('errors.general.errorDetails')}
             </summary>
             <pre className="mt-2 p-3 bg-gray-100 rounded text-xs text-red-600 overflow-auto">
               {error.message}
@@ -112,14 +115,14 @@ function DefaultErrorFallback({ error, retry }: ErrorFallbackProps) {
             onClick={retry}
             className="px-6 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
           >
-            다시 시도
+            {t('errors.general.retry')}
           </button>
           
           <button
             onClick={() => window.location.href = '/'}
             className="px-6 py-2 bg-gray-200 text-gray-800 font-medium rounded-lg hover:bg-gray-300 transition-colors"
           >
-            홈으로 이동
+            {t('errors.general.goHomeBoundary')}
           </button>
         </div>
       </div>

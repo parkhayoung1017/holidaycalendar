@@ -1,6 +1,14 @@
+'use client';
+
+import React from 'react';
 import ResponsiveBanner from '@/components/ads/ResponsiveBanner';
+import { useTranslation } from '@/hooks/useTranslation';
+import { formatLocalizedDate } from '@/lib/translation-utils';
 
 export default function Footer() {
+  const { t, locale } = useTranslation();
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-gray-50 border-t mt-auto">
       <div className="container py-8">
@@ -10,9 +18,9 @@ export default function Footer() {
         </div>
         
         <div className="text-center text-gray-600">
-          <p>&copy; 2025 World Holiday Calendar. All rights reserved.</p>
+          <p>{t('footer.copyright', { year: currentYear.toString() })}</p>
           <p className="mt-2 text-sm">
-            전세계 공휴일 정보를 제공하는 서비스입니다.
+            {t('footer.description')}
           </p>
         </div>
       </div>

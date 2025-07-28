@@ -1,31 +1,50 @@
+'use client';
+
 import { Holiday, Country } from '@/types';
+import { Locale } from '@/types/i18n';
 import { format, parseISO } from 'date-fns';
-import { ko } from 'date-fns/locale';
+import { ko, enUS } from 'date-fns/locale';
 import Link from 'next/link';
 
 interface HolidayDetailViewProps {
   holiday: Holiday;
   country: Country;
   countryOverview: string;
+  locale?: Locale;
 }
 
 export default function HolidayDetailView({ 
   holiday, 
   country, 
-  countryOverview 
+  countryOverview,
+  locale = 'ko'
 }: HolidayDetailViewProps) {
+  
   // 날짜 포맷팅
   const formatDate = (dateString: string) => {
     try {
       const date = parseISO(dateString);
-      return {
-        full: format(date, 'yyyy년 M월 d일 EEEE', { locale: ko }),
-        short: format(date, 'M월 d일', { locale: ko }),
-        weekday: format(date, 'EEEE', { locale: ko }),
-        month: format(date, 'M월', { locale: ko }),
-        year: format(date, 'yyyy년', { locale: ko }),
-        day: format(date, 'd', { locale: ko })
-      };
+      const dateLocale = locale === 'ko' ? ko : enUS;
+      
+      if (locale === 'ko') {
+        return {
+          full: format(date, 'yyyy년 M월 d일 EEEE', { locale: dateLocale }),
+          short: format(date, 'M월 d일', { locale: dateLocale }),
+          weekday: format(date, 'EEEE', { locale: dateLocale }),
+          month: format(date, 'M월', { locale: dateLocale }),
+          year: format(date, 'yyyy년', { locale: dateLocale }),
+          day: format(date, 'd', { locale: dateLocale })
+        };
+      } else {
+        return {
+          full: format(date, 'EEEE, MMMM d, yyyy', { locale: dateLocale }),
+          short: format(date, 'MMM d', { locale: dateLocale }),
+          weekday: format(date, 'EEEE', { locale: dateLocale }),
+          month: format(date, 'MMM', { locale: dateLocale }),
+          year: format(date, 'yyyy', { locale: dateLocale }),
+          day: format(date, 'd', { locale: dateLocale })
+        };
+      }
     } catch (error) {
       console.error('날짜 파싱 오류:', error);
       return {
@@ -48,15 +67,15 @@ export default function HolidayDetailView({
   console.log('Date info month:', dateInfo.month);
   console.log('Date info weekday:', dateInfo.weekday);
   
-  // 공휴일 타입 한글 변환
+  // 공휴일 타입 번역
   const getHolidayTypeText = (type: Holiday['type']) => {
-    const typeMap = {
-      'public': '공휴일',
-      'bank': '은행 휴무일',
-      'school': '학교 휴무일',
-      'optional': '선택적 휴일'
+    const typeLabels = {
+      'public': locale === 'ko' ? '공휴일' : 'Public Holiday',
+      'bank': locale === 'ko' ? '은행휴일' : 'Bank Holiday',
+      'school': locale === 'ko' ? '학교휴일' : 'School Holiday',
+      'optional': locale === 'ko' ? '선택휴일' : 'Optional Holiday'
     };
-    return typeMap[type] || '기타';
+    return typeLabels[type] || typeLabels['public'];
   };
 
   // 공휴일 타입별 색상
@@ -81,7 +100,7 @@ export default function HolidayDetailView({
               <span className="text-2xl mr-3">{country.flag}</span>
               <div>
                 <Link 
-                  href={`/${country.code.toLowerCase()}-${new Date().getFullYear()}`}
+                  href={`/${locale}/${country.name.toLowerCase().replace(/\s+/g, '-')}-${new Date().getFullYear()}`}
                   className="text-blue-200 hover:text-white transition-colors"
                 >
                   {country.name}
@@ -105,7 +124,7 @@ export default function HolidayDetailView({
               </span>
               {holiday.global && (
                 <span className="px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
-                  전국 공휴일
+                  {locale === 'ko' ? '전국 공휴일' : 'National Holiday'}
                 </span>
               )}
             </div>
@@ -126,7 +145,9 @@ export default function HolidayDetailView({
       <div className="p-8">
         {/* 공휴일 설명 */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">공휴일 소개</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
+            {locale === 'ko' ? '공휴일 상세 정보' : 'Holiday Details'}
+          </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-700 leading-relaxed text-lg">
               {holiday.description}
@@ -137,7 +158,9 @@ export default function HolidayDetailView({
         {/* 지역 정보 (지역별 공휴일인 경우) */}
         {holiday.counties && holiday.counties.length > 0 && (
           <section className="mb-8">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">적용 지역</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              {locale === 'ko' ? '적용 지역' : 'Applicable Regions'}
+            </h3>
             <div className="bg-gray-50 rounded-lg p-4">
               <div className="flex flex-wrap gap-2">
                 {holiday.counties.map((county, index) => (
@@ -156,7 +179,7 @@ export default function HolidayDetailView({
         {/* 국가별 공휴일 제도 설명 */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            {country.name}의 공휴일 제도
+            {locale === 'ko' ? `${country.name} 공휴일 제도` : `${country.name} Holiday System`}
           </h2>
           <div className="bg-blue-50 rounded-lg p-6">
             <p className="text-gray-700 leading-relaxed">
@@ -167,21 +190,31 @@ export default function HolidayDetailView({
         
         {/* 추가 정보 */}
         <section className="border-t pt-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">추가 정보</h3>
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">
+            {locale === 'ko' ? '추가 정보' : 'Additional Information'}
+          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="bg-gray-50 rounded-lg p-4">
-              <h4 className="font-medium text-gray-900 mb-2">공휴일 유형</h4>
+              <h4 className="font-medium text-gray-900 mb-2">
+                {locale === 'ko' ? '공휴일 유형' : 'Holiday Type'}
+              </h4>
               <p className="text-gray-600 text-sm">
-                {getHolidayTypeText(holiday.type)}으로 분류되며, 
-                {holiday.global ? ' 전국적으로 적용됩니다.' : ' 일부 지역에서 적용됩니다.'}
+                {locale === 'ko' 
+                  ? `${getHolidayTypeText(holiday.type)}로 분류되며, ${holiday.global ? '전국적으로 적용됩니다' : '지역적으로 적용됩니다'}.`
+                  : `Classified as ${getHolidayTypeText(holiday.type)} and ${holiday.global ? 'applied nationally' : 'applied regionally'}.`
+                }
               </p>
             </div>
             
             <div className="bg-gray-50 rounded-lg p-4">
-              <h4 className="font-medium text-gray-900 mb-2">날짜 정보</h4>
+              <h4 className="font-medium text-gray-900 mb-2">
+                {locale === 'ko' ? '날짜 정보' : 'Date Information'}
+              </h4>
               <p className="text-gray-600 text-sm">
-                {dateInfo.year} {dateInfo.weekday}에 해당하며, 
-                매년 같은 날짜에 기념됩니다.
+                {locale === 'ko'
+                  ? `${dateInfo.year} ${dateInfo.weekday}에 해당합니다.`
+                  : `Falls on ${dateInfo.weekday} in ${dateInfo.year}.`
+                }
               </p>
             </div>
           </div>
@@ -191,17 +224,17 @@ export default function HolidayDetailView({
         <div className="mt-8 pt-6 border-t">
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href={`/${country.code.toLowerCase()}-${new Date().getFullYear()}`}
+              href={`/${locale}/${country.name.toLowerCase().replace(/\s+/g, '-')}-${new Date().getFullYear()}`}
               className="flex-1 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors text-center font-medium"
             >
-              {country.name} 전체 공휴일 보기
+              {locale === 'ko' ? `${country.name} 전체 공휴일 보기` : `View All ${country.name} Holidays`}
             </Link>
             
             <Link
-              href="/"
+              href={`/${locale}`}
               className="flex-1 bg-gray-100 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors text-center font-medium"
             >
-              홈으로 돌아가기
+              {locale === 'ko' ? '홈페이지로 돌아가기' : 'Back to Home'}
             </Link>
           </div>
         </div>

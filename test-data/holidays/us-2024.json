@@ -2,7 +2,7 @@
   "countryCode": "US",
   "year": 2024,
   "totalHolidays": 2,
-  "lastUpdated": "2025-07-19T04:24:27.982Z",
+  "lastUpdated": "2025-07-27T05:45:20.110Z",
   "holidays": [
     {
       "id": "us-2024-01-01-0",
@@ -13,8 +13,8 @@
       "description": "New Year's Day celebration",
       "type": "public",
       "global": true,
-      "createdAt": "2025-07-19T04:24:27.982Z",
-      "updatedAt": "2025-07-19T04:24:27.982Z"
+      "createdAt": "2025-07-27T05:45:20.110Z",
+      "updatedAt": "2025-07-27T05:45:20.110Z"
     },
     {
       "id": "us-2024-07-04-0",
@@ -25,8 +25,8 @@
       "description": "Independence Day celebration",
       "type": "public",
       "global": true,
-      "createdAt": "2025-07-19T04:24:27.982Z",
-      "updatedAt": "2025-07-19T04:24:27.982Z"
+      "createdAt": "2025-07-27T05:45:20.110Z",
+      "updatedAt": "2025-07-27T05:45:20.110Z"
     }
   ]
 }

@@ -3,6 +3,7 @@
 import { Holiday } from '@/types';
 import { HOLIDAY_TYPE_LABELS } from '@/lib/constants';
 import Link from 'next/link';
+import { getCountrySlugFromCode, createHolidaySlug } from '@/lib/country-utils';
 
 interface HolidayWithCountryInfo extends Holiday {
   countryName: string;
@@ -12,9 +13,10 @@ interface HolidayWithCountryInfo extends Holiday {
 interface TodayHolidaysViewProps {
   holidays: HolidayWithCountryInfo[];
   date: string;
+  locale?: string;
 }
 
-export default function TodayHolidaysView({ holidays, date }: TodayHolidaysViewProps) {
+export default function TodayHolidaysView({ holidays, date, locale }: TodayHolidaysViewProps) {
   // 날짜를 한국어 형식으로 포맷
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr);
@@ -93,37 +95,58 @@ export default function TodayHolidaysView({ holidays, date }: TodayHolidaysViewP
 
                 {/* 공휴일 목록 */}
                 <div className="space-y-3">
-                  {group.holidays.map((holiday) => (
-                    <div
-                      key={holiday.id}
-                      className="border-l-4 border-blue-500 pl-4 py-2"
-                    >
-                      <h4 className="font-medium text-gray-900 mb-1">
-                        {holiday.name}
-                      </h4>
-                      <div className="flex items-center gap-2 text-sm text-gray-600">
-                        <span className="px-2 py-1 bg-gray-100 rounded-full text-xs">
-                          {HOLIDAY_TYPE_LABELS[holiday.type]}
-                        </span>
-                        {holiday.global && (
-                          <span className="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">
-                            전국
+                  {group.holidays.map((holiday) => {
+                    // 공휴일 상세 페이지 URL 생성
+                    const holidaySlug = createHolidaySlug(holiday.name);
+                    const countrySlug = getCountrySlugFromCode(holiday.countryCode);
+                    const holidayDetailUrl = `/${locale || 'ko'}/holiday/${countrySlug}/${holidaySlug}`;
+
+                    return (
+                      <div
+                        key={holiday.id}
+                        className="border-l-4 border-blue-500 pl-4 py-2 hover:bg-gray-50 rounded-r-lg transition-colors"
+                      >
+                        <Link 
+                          href={holidayDetailUrl}
+                          onClick={() => {
+                            console.log('TodayHolidaysView 링크 클릭:', {
+                              locale,
+                              holiday: holiday.name,
+                              country: holiday.countryCode,
+                              countrySlug: getCountrySlugFromCode(holiday.countryCode),
+                              slug: holidaySlug,
+                              targetUrl: holidayDetailUrl
+                            });
+                          }}
+                        >
+                          <h4 className="font-medium text-gray-900 mb-1 hover:text-blue-600 cursor-pointer transition-colors">
+                            {holiday.name}
+                          </h4>
+                        </Link>
+                        <div className="flex items-center gap-2 text-sm text-gray-600">
+                          <span className="px-2 py-1 bg-gray-100 rounded-full text-xs">
+                            {HOLIDAY_TYPE_LABELS[holiday.type]}
                           </span>
+                          {holiday.global && (
+                            <span className="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                              전국
+                            </span>
+                          )}
+                        </div>
+                        {holiday.description && (
+                          <p className="text-sm text-gray-600 mt-2 line-clamp-2">
+                            {holiday.description}
+                          </p>
                         )}
                       </div>
-                      {holiday.description && (
-                        <p className="text-sm text-gray-600 mt-2 line-clamp-2">
-                          {holiday.description}
-                        </p>
-                      )}
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
 
                 {/* 국가 페이지 링크 */}
                 <div className="mt-4 pt-4 border-t border-gray-200">
                   <Link
-                    href={`/${group.countryCode.toLowerCase()}-${new Date().getFullYear()}`}
+                    href={`/${locale}/${group.countryName.toLowerCase().replace(/\s+/g, '-')}-${new Date().getFullYear()}`}
                     className="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center"
                   >
                     {group.countryName} 전체 공휴일 보기
@@ -150,13 +173,13 @@ export default function TodayHolidaysView({ holidays, date }: TodayHolidaysViewP
           {/* 다른 페이지로 이동하는 링크들 */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/"
+              href={`/${locale}`}
               className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
               홈페이지로 이동
             </Link>
             <Link
-              href="/regions"
+              href={`/${locale}/regions`}
               className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors"
             >
               지역별 공휴일 보기

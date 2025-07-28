@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { generateSearchResults, sortSearchResults, type SearchResult } from '@/lib/search-utils';
+import { useTranslation } from '@/hooks/useTranslation';
 
 interface SearchBarProps {
   onSearch?: (query: string) => void;
@@ -13,28 +14,46 @@ interface SearchBarProps {
 export default function SearchBar({ 
   onSearch, 
   onSelect, 
-  placeholder = "국가명 또는 '미국 2025' 형태로 검색하세요",
+  placeholder,
   className = ""
 }: SearchBarProps) {
+  const { t, locale } = useTranslation();
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
+  const [isSearching, setIsSearching] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // 검색어 변경 처리
+  // 번역된 placeholder 사용
+  const effectivePlaceholder = placeholder || t('search.placeholder');
+
+  // 검색어 변경 처리 (다국어 지원)
   useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      const searchResults = generateSearchResults(query);
-      const sortedResults = sortSearchResults(searchResults, query);
-      setResults(sortedResults);
-      setSelectedIndex(-1);
-      onSearch?.(query);
+    const timeoutId = setTimeout(async () => {
+      if (query.length >= 2) {
+        setIsSearching(true);
+        try {
+          const searchResults = await generateSearchResults(query, locale);
+          const sortedResults = sortSearchResults(searchResults, query, locale);
+          setResults(sortedResults);
+          setSelectedIndex(-1);
+          onSearch?.(query);
+        } catch (error) {
+          console.error('검색 중 오류 발생:', error);
+          setResults([]);
+        } finally {
+          setIsSearching(false);
+        }
+      } else {
+        setResults([]);
+        setIsSearching(false);
+      }
     }, 300);
 
     return () => clearTimeout(timeoutId);
-  }, [query, onSearch]);
+  }, [query, locale, onSearch]);
 
   // 외부 클릭 감지
   useEffect(() => {
@@ -123,7 +142,7 @@ export default function SearchBar({
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
           onFocus={() => query.length >= 2 && setIsOpen(true)}
-          placeholder={placeholder}
+          placeholder={effectivePlaceholder}
           className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none text-gray-900 placeholder-gray-500"
         />
       </div>
@@ -168,13 +187,25 @@ export default function SearchBar({
         </div>
       )}
 
-      {/* 검색 결과 없음 */}
-      {isOpen && query.length >= 2 && results.length === 0 && (
+      {/* 로딩 상태 */}
+      {isOpen && query.length >= 2 && isSearching && (
         <div className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg p-4">
           <div className="text-center text-gray-500">
-            <div className="text-sm">검색 결과가 없습니다</div>
+            <div className="flex items-center justify-center space-x-2">
+              <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-blue-500"></div>
+              <div className="text-sm">{t('actions.loading')}</div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 검색 결과 없음 */}
+      {isOpen && query.length >= 2 && !isSearching && results.length === 0 && (
+        <div className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg p-4">
+          <div className="text-center text-gray-500">
+            <div className="text-sm">{t('search.noResults')}</div>
             <div className="text-xs mt-1">
-              다른 국가명이나 연도를 시도해보세요
+              {t('search.noResultsHint')}
             </div>
           </div>
         </div>

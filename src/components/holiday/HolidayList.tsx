@@ -1,91 +1,216 @@
-import { Holiday } from '@/types';
-import { HOLIDAY_TYPE_LABELS, MONTH_NAMES } from '@/lib/constants';
-import HolidayCard from './HolidayCard';
+'use client';
+
+import React, { useState, useMemo } from 'react';
+import { useTranslation } from '@/hooks/useTranslation';
+import { HolidayCard } from './HolidayCard';
+import { enrichHolidaysWithTranslations } from '@/lib/translation-utils';
+import { useI18nContext } from '@/lib/i18n-context';
+
+interface Holiday {
+  id: string;
+  name: string;
+  date: string;
+  country?: string;
+  countryCode: string;
+  type: string;
+  global?: boolean;
+}
 
 interface HolidayListProps {
   holidays: Holiday[];
+  country?: any;
+  locale?: string;
+  title?: string;
+  showCountry?: boolean;
+  showFilters?: boolean;
+  className?: string;
+  onHolidayClick?: (holiday: Holiday) => void;
 }
 
-// 월별로 공휴일을 그룹화하는 함수
-function groupHolidaysByMonth(holidays: Holiday[]): Record<number, Holiday[]> {
-  return holidays.reduce((groups, holiday) => {
-    const month = new Date(holiday.date).getMonth() + 1; // 1-12
-    if (!groups[month]) {
-      groups[month] = [];
+/**
+ * 휴일 목록을 표시하는 컴포넌트
+ * 필터링, 정렬, 검색 기능을 포함합니다.
+ */
+export function HolidayList({ 
+  holidays, 
+  country,
+  locale: propLocale,
+  title,
+  showCountry = false,
+  showFilters = true,
+  className = '',
+  onHolidayClick 
+}: HolidayListProps) {
+  const { t, locale } = useTranslation();
+  const { translations } = useI18nContext();
+
+  // 필터 상태
+  const [typeFilter, setTypeFilter] = useState<string>('all');
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [sortBy, setSortBy] = useState<'date' | 'name'>('date');
+
+  // 번역된 휴일 데이터
+  const enrichedHolidays = useMemo(() => {
+    return enrichHolidaysWithTranslations(holidays, translations, locale);
+  }, [holidays, translations, locale]);
+
+  // 필터링 및 정렬된 휴일 목록
+  const filteredAndSortedHolidays = useMemo(() => {
+    let filtered = enrichedHolidays;
+
+    // 타입 필터
+    if (typeFilter !== 'all') {
+      filtered = filtered.filter(holiday => holiday.type === typeFilter);
     }
-    groups[month].push(holiday);
-    return groups;
-  }, {} as Record<number, Holiday[]>);
-}
 
-// 날짜 포맷팅 함수
-function formatDate(dateString: string): { day: string; weekday: string } {
-  const date = new Date(dateString);
-  const day = date.getDate().toString();
-  const weekdays = ['일', '월', '화', '수', '목', '금', '토'];
-  const weekday = weekdays[date.getDay()];
-  
-  return { day, weekday };
-}
+    // 검색 필터
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      filtered = filtered.filter(holiday => 
+        (holiday.translatedName || holiday.name).toLowerCase().includes(query) ||
+        holiday.name.toLowerCase().includes(query) ||
+        (holiday.translatedCountry || holiday.countryCode).toLowerCase().includes(query)
+      );
+    }
 
-export default function HolidayList({ holidays }: HolidayListProps) {
-  if (!holidays || holidays.length === 0) {
-    return (
-      <div className="text-center py-12">
-        <div className="text-gray-400 mb-4">
-          <svg className="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-          </svg>
-        </div>
-        <h3 className="text-xl font-semibold text-gray-600 mb-2">공휴일 정보가 없습니다</h3>
-        <p className="text-gray-500">해당 연도의 공휴일 데이터를 준비 중입니다.</p>
-      </div>
-    );
-  }
+    // 정렬
+    filtered.sort((a, b) => {
+      if (sortBy === 'date') {
+        return new Date(a.date).getTime() - new Date(b.date).getTime();
+      } else {
+        const nameA = (a.translatedName || a.name).toLowerCase();
+        const nameB = (b.translatedName || b.name).toLowerCase();
+        return nameA.localeCompare(nameB);
+      }
+    });
 
-  const holidaysByMonth = groupHolidaysByMonth(holidays);
-  const months = Object.keys(holidaysByMonth)
-    .map(Number)
-    .sort((a, b) => a - b);
+    return filtered;
+  }, [enrichedHolidays, typeFilter, searchQuery, sortBy]);
+
+  // 사용 가능한 휴일 타입 목록
+  const availableTypes = useMemo(() => {
+    const types = new Set(holidays.map(h => h.type));
+    return Array.from(types);
+  }, [holidays]);
+
+  // 휴일 타입 번역
+  const translateType = (type: string) => {
+    return translations?.holidays?.types?.[type] || type;
+  };
 
   return (
-    <div className="space-y-8">
-      {months.map(month => (
-        <div key={month} className="bg-white rounded-lg shadow-sm border overflow-hidden">
-          <div className="bg-gray-50 px-6 py-4 border-b">
-            <h2 className="text-xl font-semibold text-gray-900">
-              {MONTH_NAMES.ko[month - 1]}
-              <span className="text-sm font-normal text-gray-500 ml-2">
-                ({holidaysByMonth[month].length}개)
-              </span>
-            </h2>
-          </div>
-          
-          <div className="divide-y divide-gray-100">
-            {holidaysByMonth[month].map(holiday => (
-              <HolidayCard key={holiday.id} holiday={holiday} />
-            ))}
+    <div className={`space-y-6 ${className}`}>
+      {/* 헤더 */}
+      {title && (
+        <div className="flex items-center justify-between">
+          <h2 className="text-2xl font-bold text-gray-900">{title}</h2>
+          <div className="text-sm text-gray-500">
+            {t('holidays.ui.totalHolidays')}: {filteredAndSortedHolidays.length}
           </div>
         </div>
-      ))}
-      
-      {/* 통계 정보 */}
-      <div className="bg-blue-50 rounded-lg p-6 text-center">
-        <h3 className="text-lg font-semibold text-blue-900 mb-2">
-          총 {holidays.length}개의 공휴일
-        </h3>
-        <div className="flex justify-center gap-6 text-sm text-blue-700">
-          <span>
-            공휴일: {holidays.filter(h => h.type === 'public').length}개
-          </span>
-          <span>
-            선택휴무일: {holidays.filter(h => h.type === 'optional').length}개
-          </span>
-          <span>
-            기타: {holidays.filter(h => !['public', 'optional'].includes(h.type)).length}개
-          </span>
+      )}
+
+      {/* 필터 및 검색 */}
+      {showFilters && (
+        <div className="bg-gray-50 rounded-lg p-4 space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {/* 검색 */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                {t('actions.search')}
+              </label>
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <svg className="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </div>
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder={t('holidays.ui.searchHolidays', '휴일 검색...')}
+                  className="w-full pl-9 pr-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+                />
+              </div>
+            </div>
+
+            {/* 타입 필터 */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                {t('holidays.ui.filterByType', '타입별 필터')}
+              </label>
+              <select
+                value={typeFilter}
+                onChange={(e) => setTypeFilter(e.target.value)}
+                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+              >
+                <option value="all">{t('common.all', '전체')}</option>
+                {availableTypes.map(type => (
+                  <option key={type} value={type}>
+                    {translateType(type)}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* 정렬 */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                {t('holidays.ui.sortBy', '정렬 기준')}
+              </label>
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value as 'date' | 'name')}
+                className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
+              >
+                <option value="date">{t('time.date')}</option>
+                <option value="name">{t('holidays.ui.name', '이름')}</option>
+              </select>
+            </div>
+          </div>
         </div>
-      </div>
+      )}
+
+      {/* 휴일 목록 */}
+      {filteredAndSortedHolidays.length > 0 ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {filteredAndSortedHolidays.map((holiday) => (
+            <HolidayCard
+              key={holiday.id}
+              holiday={holiday}
+              showCountry={showCountry}
+              onClick={onHolidayClick}
+            />
+          ))}
+        </div>
+      ) : (
+        <div className="text-center py-12">
+          <div className="text-gray-400 text-6xl mb-4">📅</div>
+          <h3 className="text-lg font-medium text-gray-900 mb-2">
+            {t('holidays.ui.noHolidays')}
+          </h3>
+          <p className="text-gray-500">
+            {searchQuery || typeFilter !== 'all' 
+              ? t('holidays.ui.noMatchingHolidays', '검색 조건에 맞는 휴일이 없습니다.')
+              : t('holidays.ui.noHolidaysAvailable', '표시할 휴일이 없습니다.')
+            }
+          </p>
+          {(searchQuery || typeFilter !== 'all') && (
+            <button
+              onClick={() => {
+                setSearchQuery('');
+                setTypeFilter('all');
+              }}
+              className="mt-4 text-blue-600 hover:text-blue-800 text-sm font-medium"
+            >
+              {t('holidays.ui.clearFilters', '필터 초기화')}
+            </button>
+          )}
+        </div>
+      )}
     </div>
   );
 }
+
+export default HolidayList;

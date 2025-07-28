@@ -31,7 +31,7 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
 /**
  * 웹사이트 전체에 대한 기본 구조화된 데이터
  */
-export function WebsiteStructuredData() {
+export function WebsiteStructuredData({ locale = 'ko' }: { locale?: string }) {
   const [isClient, setIsClient] = useState(false);
   
   useEffect(() => {
@@ -44,24 +44,39 @@ export function WebsiteStructuredData() {
   
   const baseUrl = 'https://globalholidays.site';
   
+  // 언어별 사이트 정보
+  const siteInfo = {
+    ko: {
+      name: '세계 공휴일 달력',
+      description: '전세계 주요 국가의 공휴일 정보를 제공하는 웹 서비스'
+    },
+    en: {
+      name: 'World Holiday Calendar',
+      description: 'A web service providing holiday information from major countries worldwide'
+    }
+  };
+  
+  const currentSiteInfo = siteInfo[locale as keyof typeof siteInfo] || siteInfo.ko;
+  
   const websiteData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'World Holiday Calendar',
-    description: '전세계 주요 국가의 공휴일 정보를 제공하는 웹 서비스',
-    url: baseUrl,
+    name: currentSiteInfo.name,
+    description: currentSiteInfo.description,
+    url: `${baseUrl}/${locale}`,
+    inLanguage: locale === 'ko' ? 'ko-KR' : 'en-US',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `${baseUrl}/search?q={search_term_string}`
+        urlTemplate: `${baseUrl}/${locale}/search?q={search_term_string}`
       },
       'query-input': 'required name=search_term_string'
     },
     publisher: {
       '@type': 'Organization',
-      name: 'World Holiday Calendar',
-      url: baseUrl,
+      name: currentSiteInfo.name,
+      url: `${baseUrl}/${locale}`,
       logo: {
         '@type': 'ImageObject',
         url: `${baseUrl}/calendar-icon.svg`
@@ -82,7 +97,7 @@ export function WebsiteStructuredData() {
 /**
  * 조직 정보에 대한 구조화된 데이터
  */
-export function OrganizationStructuredData() {
+export function OrganizationStructuredData({ locale = 'ko' }: { locale?: string }) {
   const [isClient, setIsClient] = useState(false);
   
   useEffect(() => {
@@ -95,13 +110,27 @@ export function OrganizationStructuredData() {
   
   const baseUrl = 'https://globalholidays.site';
   
+  // 언어별 조직 정보
+  const orgInfo = {
+    ko: {
+      name: '세계 공휴일 달력',
+      description: '전세계 공휴일 정보를 제공하는 웹 서비스'
+    },
+    en: {
+      name: 'World Holiday Calendar',
+      description: 'A web service providing worldwide holiday information'
+    }
+  };
+  
+  const currentOrgInfo = orgInfo[locale as keyof typeof orgInfo] || orgInfo.ko;
+  
   const organizationData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'World Holiday Calendar',
-    url: baseUrl,
+    name: currentOrgInfo.name,
+    url: `${baseUrl}/${locale}`,
     logo: `${baseUrl}/calendar-icon.svg`,
-    description: '전세계 공휴일 정보를 제공하는 웹 서비스',
+    description: currentOrgInfo.description,
     foundingDate: '2024',
     contactPoint: {
       '@type': 'ContactPoint',

@@ -7,18 +7,26 @@ interface HolidayDescription {
   keywords: string[]; // 매칭을 위한 키워드들
   description: string;
   culturalContext?: string; // 문화적 배경 설명
+  historicalBackground?: string; // 역사적 배경
+  modernCelebration?: string; // 현대적 기념 방식
+  economicImpact?: string; // 경제적 영향
+  regionalVariations?: string; // 지역별 차이점
 }
 
-// 국가별 공휴일 설명 데이터베이스
-const HOLIDAY_DESCRIPTIONS: Record<string, HolidayDescription[]> = {
-  // 미국 공휴일
-  US: [
-    {
-      name: "New Year's Day",
-      keywords: ["new year", "새해"],
-      description: "새로운 한 해의 시작을 축하하는 날로, 전 세계적으로 가장 보편적인 명절 중 하나입니다. 미국에서는 타임스퀘어의 볼 드롭 행사가 상징적이며, 새해 결심을 세우고 가족과 함께 시간을 보내는 전통이 있습니다. 많은 사람들이 전년도를 돌아보고 새로운 목표를 설정하는 의미 있는 하루입니다.",
-      culturalContext: "서구 문화권에서 그레고리력 기준 새해를 기념하는 전통"
-    },
+// 다국어 공휴일 설명 데이터베이스
+const HOLIDAY_DESCRIPTIONS: Record<string, Record<string, HolidayDescription[]>> = {
+  ko: {
+    // 미국 공휴일
+    US: [
+      {
+        name: "New Year's Day",
+        keywords: ["new year", "새해"],
+        description: "새로운 한 해의 시작을 축하하는 날로, 전 세계적으로 가장 보편적인 명절 중 하나입니다. 미국에서는 타임스퀘어의 볼 드롭 행사가 상징적이며, 새해 결심을 세우고 가족과 함께 시간을 보내는 전통이 있습니다. 많은 사람들이 전년도를 돌아보고 새로운 목표를 설정하는 의미 있는 하루입니다.",
+        culturalContext: "서구 문화권에서 그레고리력 기준 새해를 기념하는 전통",
+        historicalBackground: "그레고리력 도입 이후 1월 1일이 공식적인 새해 첫날로 정착되었으며, 미국에서는 19세기부터 본격적인 축제 문화가 발달했습니다.",
+        modernCelebration: "현대 미국에서는 타임스퀘어 볼 드롭, 로즈 퍼레이드, 가족 모임 등이 대표적인 기념 방식이며, 새해 결심(New Year's Resolution) 문화가 특히 발달했습니다.",
+        economicImpact: "새해 연휴는 미국 소매업계에 중요한 시기로, 파티 용품, 샴페인, 선물 등의 매출이 크게 증가하며 관광업계에도 상당한 경제적 효과를 가져다줍니다."
+      },
     {
       name: "Independence Day",
       keywords: ["independence", "4th july", "독립기념일"],
@@ -196,6 +204,109 @@ const HOLIDAY_DESCRIPTIONS: Record<string, HolidayDescription[]> = {
       culturalContext: "평화적 연방 결성과 다문화주의 가치를 기념하는 현대적 국경일"
     }
   ]
+  },
+  
+  // 영어 설명 데이터베이스
+  en: {
+    // 미국 공휴일
+    US: [
+      {
+        name: "New Year's Day",
+        keywords: ["new year", "새해"],
+        description: "New Year's Day marks the beginning of a new year and is one of the most universally celebrated holidays worldwide. In the United States, the iconic Times Square Ball Drop ceremony symbolizes the transition, while families gather to make resolutions and spend quality time together. This meaningful day allows people to reflect on the past year and set new goals for the future.",
+        culturalContext: "Western tradition of celebrating the Gregorian calendar new year",
+        historicalBackground: "Since the adoption of the Gregorian calendar, January 1st has been established as the official first day of the new year, with America developing a full festival culture from the 19th century.",
+        modernCelebration: "Modern American celebrations include the Times Square Ball Drop, Rose Parade, family gatherings, and the particularly developed culture of New Year's Resolutions.",
+        economicImpact: "The New Year holiday is crucial for American retail, with significant increases in sales of party supplies, champagne, and gifts, bringing considerable economic benefits to the tourism industry."
+      },
+      {
+        name: "Independence Day",
+        keywords: ["independence", "4th july", "독립기념일"],
+        description: "Independence Day commemorates the adoption of the Declaration of Independence on July 4, 1776, making it America's greatest national holiday. Decorated in red, white, and blue colors of the flag, Americans celebrate freedom and independence with barbecue parties and fireworks. Family picnics and parades are held nationwide, making this the day when American patriotism is most passionately expressed.",
+        culturalContext: "Symbol of national pride commemorating the historic moment of America's founding"
+      },
+      {
+        name: "Thanksgiving",
+        keywords: ["thanksgiving", "추수감사절"],
+        description: "Thanksgiving is America's representative holiday where families gather to share gratitude for the year. Centered around a feast featuring turkey, there's a tradition of sharing what each person is thankful for. Originating from the first harvest celebration shared by Plymouth settlers and Native Americans in 1621, it's now considered a precious time for strengthening family bonds.",
+        culturalContext: "Tradition of gratitude that began with harmony between Puritan settlers and Native Americans"
+      },
+      {
+        name: "Christmas",
+        keywords: ["christmas", "크리스마스"],
+        description: "Christmas commemorates the birth of Jesus Christ and is Christianity's greatest holiday, having established itself as a cultural celebration beyond religion in America. Traditions include decorating Christmas trees, exchanging gifts, and singing carols, with spending warm time with family being the most important meaning. Along with the Santa Claus legend, it's also a magical day for children.",
+        culturalContext: "Representative example of Christian tradition combined with secular festival culture"
+      }
+    ],
+    
+    // 한국 공휴일
+    KR: [
+      {
+        name: "Lunar New Year",
+        keywords: ["lunar new year", "설날", "korean new year"],
+        description: "Lunar New Year is the first day of the lunar calendar and the most important traditional holiday for Koreans. Families perform ancestral rites, give New Year greetings to elders through sebae, and eat tteokguk (rice cake soup) symbolizing growing a year older. The whole family gathers to enjoy traditional games like yutnori and kite flying, wearing hanbok to honor ancestral wisdom in this precious time.",
+        culturalContext: "Tradition combining agricultural society's seasonal cycles with ancestor worship"
+      },
+      {
+        name: "Chuseok",
+        keywords: ["chuseok", "추석", "harvest festival"],
+        description: "Chuseok falls on the 15th day of the 8th lunar month and is Korea's representative holiday for sharing the year's harvest with ancestors. Families make and eat songpyeon (rice cakes), honor ancestors through tomb visits, and enjoy traditional games like ganggangsullae under the full moon. Called 'Korea's Thanksgiving,' it's a meaningful day to confirm family love amid the rich autumn atmosphere.",
+        culturalContext: "Fusion of agricultural society's harvest festival with ancestor reverence culture"
+      },
+      {
+        name: "Children's Day",
+        keywords: ["children's day", "어린이날"],
+        description: "Children's Day was established to respect children's dignity and promote their happiness, honoring the spirit of Bang Jeong-hwan's love for children. Families visit amusement parks or zoos together and give children gifts to create a special day. Beyond a simple holiday, it's a meaningful day that raises social awareness about children's rights and future.",
+        culturalContext: "Product of modern child rights consciousness and educational reform spirit"
+      }
+    ],
+
+    // 일본 공휴일
+    JP: [
+      {
+        name: "New Year's Day",
+        keywords: ["new year", "새해", "신정"],
+        description: "New Year's Day is Japan's most important holiday, celebrating the beginning of a new year. Families gather to share osechi cuisine and visit shrines for hatsumode (first shrine visit) to pray for good fortune in the coming year. There's a unique Japanese culture of decorating doors with kadomatsu and exchanging nengajo (New Year cards) for greetings.",
+        culturalContext: "Representative holiday where Japanese traditional culture and modern celebration harmoniously blend"
+      },
+      {
+        name: "Coming of Age Day",
+        keywords: ["coming of age", "성인의 날", "seijin no hi"],
+        description: "Coming of Age Day celebrates young people who have turned 20, commemorated on the second Monday of January. Newly adult women wear gorgeous kimono while men dress in formal suits to attend local coming-of-age ceremonies. This day serves as a meaningful rite of passage that awakens responsibility as adults and welcomes them as members of society.",
+        culturalContext: "Modern coming-of-age ceremony combining Japanese society's collectivist culture with traditional rituals"
+      }
+    ],
+
+    // 영국 공휴일
+    GB: [
+      {
+        name: "Boxing Day",
+        keywords: ["boxing day"],
+        description: "Boxing Day, December 26th, is a unique traditional holiday in Britain and Commonwealth countries. Originating from the custom of masters giving gift boxes to servants, it's now a day for spending leisurely time with family or enjoying shopping. It's Britain's special culture of continuing Christmas spirit through activities like watching football matches or taking walks.",
+        culturalContext: "Victorian era class society's paternalism evolved into a modern holiday"
+      }
+    ],
+
+    // 프랑스 공휴일
+    FR: [
+      {
+        name: "Bastille Day",
+        keywords: ["bastille day", "바스티유 데이"],
+        description: "Bastille Day commemorates the storming of the Bastille prison on July 14, 1789, marking the French Revolution anniversary. The grand military parade on the Champs-Élysées and Eiffel Tower fireworks create a spectacular scene, while the day reflects on the republican spirit of liberty, equality, and fraternity. It's the national day when French revolutionary spirit and pride in democracy are most passionately expressed.",
+        culturalContext: "Festival of republican spirit commemorating the symbolic event of modern democratic revolution"
+      }
+    ],
+
+    // 캐나다 공휴일
+    CA: [
+      {
+        name: "Canada Day",
+        keywords: ["canada day", "캐나다 데이"],
+        description: "Canada Day commemorates the formation of the Canadian Confederation on July 1, 1867, as the national day when Canadians express their national pride. Decorated in red and white, waving the maple leaf flag, they celebrate Canada's multicultural society's inclusiveness and peaceful independence spirit. The ceremony at Ottawa's Parliament Hill and festivals across the nation well demonstrate Canada's gentle and inclusive national character.",
+        culturalContext: "Modern national day commemorating peaceful confederation formation and multicultural values"
+      }
+    ]
+  }
 };
 
 // 기본 템플릿 설명들
@@ -214,8 +325,11 @@ const DEFAULT_TEMPLATES = {
 /**
  * 공휴일 이름과 키워드를 매칭하여 가장 적합한 설명을 찾습니다
  */
-function findBestMatch(holidayName: string, countryCode: string): HolidayDescription | null {
-  const countryDescriptions = HOLIDAY_DESCRIPTIONS[countryCode];
+function findBestMatch(holidayName: string, countryCode: string, locale: string = 'ko'): HolidayDescription | null {
+  const localeDescriptions = HOLIDAY_DESCRIPTIONS[locale];
+  if (!localeDescriptions) return null;
+  
+  const countryDescriptions = localeDescriptions[countryCode];
   if (!countryDescriptions) return null;
 
   const normalizedName = holidayName.toLowerCase();
@@ -273,10 +387,98 @@ function getHolidayTemplate(holidayName: string, countryName: string): string {
 }
 
 /**
+ * SEO 최적화된 독창적 공휴일 설명을 생성합니다
+ */
+function generateSEOOptimizedDescription(
+  holidayName: string, 
+  countryName: string, 
+  countryCode: string,
+  locale: string = 'ko'
+): string {
+  const baseMatch = findBestMatch(holidayName, countryCode, locale);
+  
+  if (baseMatch) {
+    // 기존 설명을 바탕으로 SEO 최적화된 확장 콘텐츠 생성
+    const sections = [];
+    
+    // 1. 기본 설명
+    sections.push(baseMatch.description);
+    
+    // 2. 역사적 배경 (있는 경우)
+    if (baseMatch.historicalBackground) {
+      const historyTitle = locale === 'en' ? '**Historical Background**' : '**역사적 배경**';
+      sections.push(`\n\n${historyTitle}\n${baseMatch.historicalBackground}`);
+    }
+    
+    // 3. 현대적 기념 방식 (있는 경우)
+    if (baseMatch.modernCelebration) {
+      const modernTitle = locale === 'en' ? '**Modern Celebration**' : '**현대적 기념 방식**';
+      sections.push(`\n\n${modernTitle}\n${baseMatch.modernCelebration}`);
+    }
+    
+    // 4. 경제적 영향 (있는 경우)
+    if (baseMatch.economicImpact) {
+      const economicTitle = locale === 'en' ? '**Economic Impact**' : '**경제적 영향**';
+      sections.push(`\n\n${economicTitle}\n${baseMatch.economicImpact}`);
+    }
+    
+    // 5. 지역별 차이점 (있는 경우)
+    if (baseMatch.regionalVariations) {
+      const regionalTitle = locale === 'en' ? '**Regional Characteristics**' : '**지역별 특색**';
+      sections.push(`\n\n${regionalTitle}\n${baseMatch.regionalVariations}`);
+    }
+    
+    // 6. 문화적 의미 추가
+    const culturalTitle = locale === 'en' ? '**Cultural Significance**' : '**문화적 의미**';
+    const culturalDefault = locale === 'en' 
+      ? `${holidayName} is an important day that showcases the unique cultural identity of ${countryName}.`
+      : `${holidayName}은 ${countryName}의 독특한 문화적 정체성을 보여주는 중요한 날입니다.`;
+    
+    sections.push(`\n\n${culturalTitle}\n${baseMatch.culturalContext || culturalDefault}`);
+    
+    return sections.join('');
+  }
+  
+  // 매칭되지 않은 경우 템플릿 기반 SEO 콘텐츠 생성
+  return generateSEOTemplate(holidayName, countryName, locale);
+}
+
+/**
+ * SEO 최적화된 템플릿 기반 콘텐츠 생성
+ */
+function generateSEOTemplate(holidayName: string, countryName: string, locale: string): string {
+  const isKorean = locale === 'ko';
+  
+  if (isKorean) {
+    return `${holidayName}은 ${countryName}에서 매년 기념하는 중요한 공휴일입니다. 이 특별한 날은 해당 국가의 역사와 문화적 전통을 반영하며, 국민들에게 깊은 의미를 가지고 있습니다.
+
+**기념 방식과 전통**
+${holidayName} 기간 동안 ${countryName} 전역에서는 다양한 기념 행사와 전통 의식이 열립니다. 가족들이 모여 특별한 음식을 나누고, 지역 공동체가 함께 참여하는 축제와 행사들이 개최됩니다.
+
+**현대적 의미**
+현대 사회에서 ${holidayName}은 단순한 휴일을 넘어 ${countryName} 국민들의 정체성을 확인하고 문화적 유대감을 강화하는 중요한 역할을 합니다. 이 날을 통해 전통과 현대가 조화롭게 어우러지는 모습을 볼 수 있습니다.
+
+**사회적 영향**
+${holidayName}은 ${countryName}의 사회적, 경제적 활동에도 중요한 영향을 미칩니다. 많은 기업과 기관이 휴무를 하며, 관광업계에서는 특별한 프로그램과 이벤트를 준비하여 국내외 방문객들에게 문화적 경험을 제공합니다.`;
+  } else {
+    return `${holidayName} is an important public holiday celebrated annually in ${countryName}. This special day reflects the country's history and cultural traditions, holding deep meaning for its people.
+
+**Celebration Methods and Traditions**
+During ${holidayName}, various commemorative events and traditional ceremonies are held throughout ${countryName}. Families gather to share special foods, and communities come together for festivals and events.
+
+**Modern Significance**
+In modern society, ${holidayName} goes beyond being just a holiday - it plays a crucial role in confirming the identity of ${countryName}'s people and strengthening cultural bonds. Through this day, we can see how tradition and modernity harmoniously blend together.
+
+**Social Impact**
+${holidayName} has a significant impact on ${countryName}'s social and economic activities. Many businesses and institutions close for the holiday, while the tourism industry prepares special programs and events to provide cultural experiences for domestic and international visitors.`;
+  }
+}
+
+/**
  * 공휴일 설명을 생성합니다 (정적 데이터베이스 기반)
  * AI API 실패 시 기본 템플릿을 사용하는 폴백 로직 포함
  */
-export async function generateHolidayDescription(request: AIContentRequest): Promise<AIContentResponse> {
+export async function generateHolidayDescription(request: AIContentRequest, locale: string = 'ko'): Promise<AIContentResponse> {
   try {
     logInfo(`공휴일 설명 생성 시작: ${request.holidayName} (${request.countryName})`);
     
@@ -391,25 +593,52 @@ function generateFallbackDescription(request: AIContentRequest): AIContentRespon
 }
 
 /**
- * 국가별 공휴일 개요를 생성합니다
+ * 국가별 공휴일 개요를 생성합니다 (다국어 지원)
  */
-export async function generateCountryOverview(countryCode: string, countryName: string): Promise<string> {
-  const overviews: Record<string, string> = {
-    US: "미국의 공휴일은 연방 공휴일과 주별 공휴일로 나뉘며, 다양한 문화적 배경을 가진 이민자들의 전통이 어우러져 독특한 축제 문화를 형성하고 있습니다. 독립기념일, 추수감사절 등 미국 고유의 역사와 가치를 반영한 공휴일들이 특징적입니다.",
+export async function generateCountryOverview(countryCode: string, countryName: string, locale: string = 'ko'): Promise<string> {
+  const overviews: Record<string, Record<string, string>> = {
+    ko: {
+      US: "미국의 공휴일은 연방 공휴일과 주별 공휴일로 나뉘며, 다양한 문화적 배경을 가진 이민자들의 전통이 어우러져 독특한 축제 문화를 형성하고 있습니다. 독립기념일, 추수감사절 등 미국 고유의 역사와 가치를 반영한 공휴일들이 특징적이며, 각 주마다 고유한 기념일들도 함께 운영되어 연방제 국가의 다양성을 보여줍니다.",
+      
+      KR: "한국의 공휴일은 전통 명절과 현대적 기념일이 조화롭게 구성되어 있습니다. 설날과 추석 같은 음력 기반 전통 명절은 조상 숭배와 가족 중심 문화를 보여주며, 어린이날, 한글날 등은 근현대 한국의 가치관을 반영합니다. 특히 대체공휴일 제도를 통해 국민의 휴식권을 보장하고 있으며, 전통과 현대가 균형을 이루는 독특한 공휴일 체계를 갖추고 있습니다.",
+      
+      JP: "일본의 공휴일은 전통적인 절기와 현대적 가치가 균형을 이루고 있으며, 특히 골든위크와 같은 연휴 문화가 발달했습니다. 천황제와 관련된 공휴일과 함께 문화와 자연을 중시하는 일본인의 정서가 잘 드러나며, 하피먼데이 제도를 통해 3연휴를 만들어 국민의 여가 생활을 증진시키고 있습니다.",
+      
+      GB: "영국의 공휴일은 기독교 전통과 왕실 문화, 그리고 독특한 역사적 사건들을 기념하는 특색 있는 구성을 보입니다. 뱅크 홀리데이 시스템과 가이 포크스 나이트 같은 독특한 전통이 영국만의 문화적 정체성을 보여주며, 지역별로 다른 공휴일 체계를 통해 연합왕국의 다양성을 반영하고 있습니다.",
+      
+      FR: "프랑스의 공휴일은 가톨릭 전통과 공화국 정신이 공존하는 독특한 특징을 가집니다. 바스티유 데이로 대표되는 혁명 정신과 함께, 유럽 통합의 가치를 반영한 현대적 기념일들이 조화를 이루며, 세속주의 원칙 하에서도 종교적 전통을 존중하는 균형 잡힌 접근을 보여줍니다.",
+      
+      CA: "캐나다의 공휴일은 영국과 프랑스의 문화적 영향을 받으면서도, 다문화주의와 평화적 독립의 가치를 반영한 독특한 특성을 보입니다. 지역별 다양성을 인정하면서도 국가적 통합을 추구하는 캐나다의 정체성이 잘 드러나며, 원주민 문화와 이민자 문화를 포용하는 포괄적 접근을 취하고 있습니다."
+    },
     
-    KR: "한국의 공휴일은 전통 명절과 현대적 기념일이 조화롭게 구성되어 있습니다. 설날과 추석 같은 음력 기반 전통 명절은 조상 숭배와 가족 중심 문화를 보여주며, 어린이날, 한글날 등은 근현대 한국의 가치관을 반영합니다.",
-    
-    JP: "일본의 공휴일은 전통적인 절기와 현대적 가치가 균형을 이루고 있으며, 특히 골든위크와 같은 연휴 문화가 발달했습니다. 천황제와 관련된 공휴일과 함께 문화와 자연을 중시하는 일본인의 정서가 잘 드러납니다.",
-    
-    GB: "영국의 공휴일은 기독교 전통과 왕실 문화, 그리고 독특한 역사적 사건들을 기념하는 특색 있는 구성을 보입니다. 뱅크 홀리데이 시스템과 가이 포크스 나이트 같은 독특한 전통이 영국만의 문화적 정체성을 보여줍니다.",
-    
-    FR: "프랑스의 공휴일은 가톨릭 전통과 공화국 정신이 공존하는 독특한 특징을 가집니다. 바스티유 데이로 대표되는 혁명 정신과 함께, 유럽 통합의 가치를 반영한 현대적 기념일들이 조화를 이룹니다.",
-    
-    CA: "캐나다의 공휴일은 영국과 프랑스의 문화적 영향을 받으면서도, 다문화주의와 평화적 독립의 가치를 반영한 독특한 특성을 보입니다. 지역별 다양성을 인정하면서도 국가적 통합을 추구하는 캐나다의 정체성이 잘 드러납니다."
+    en: {
+      US: "American holidays are divided into federal holidays and state-specific holidays, with immigrant traditions from diverse cultural backgrounds blending to form a unique festival culture. Holidays reflecting America's unique history and values, such as Independence Day and Thanksgiving, are characteristic, with each state also operating its own commemorative days, showcasing the diversity of this federal nation.",
+      
+      KR: "Korean holidays are harmoniously composed of traditional festivals and modern commemorative days. Lunar calendar-based traditional holidays like Lunar New Year and Chuseok demonstrate ancestor worship and family-centered culture, while Children's Day and Hangeul Day reflect modern Korean values. The substitute holiday system particularly guarantees citizens' right to rest, maintaining a unique holiday system that balances tradition and modernity.",
+      
+      JP: "Japanese holidays maintain a balance between traditional seasonal observances and modern values, with particularly developed holiday cultures like Golden Week. Along with holidays related to the imperial system, the sentiment of Japanese people who value culture and nature is well reflected, and the Happy Monday system creates three-day weekends to enhance citizens' leisure life.",
+      
+      GB: "British holidays show a distinctive composition commemorating Christian traditions, royal culture, and unique historical events. Distinctive traditions like the Bank Holiday system and Guy Fawkes Night demonstrate Britain's unique cultural identity, reflecting the diversity of the United Kingdom through different holiday systems by region.",
+      
+      FR: "French holidays have the unique characteristic of Catholic traditions and republican spirit coexisting. Along with the revolutionary spirit represented by Bastille Day, modern commemorative days reflecting European integration values harmonize, showing a balanced approach that respects religious traditions even under secular principles.",
+      
+      CA: "Canadian holidays show unique characteristics reflecting multiculturalism and peaceful independence values while being influenced by British and French cultures. Canada's identity, which pursues national integration while recognizing regional diversity, is well reflected, taking an inclusive approach that embraces Indigenous and immigrant cultures."
+    }
   };
   
-  return overviews[countryCode] || 
-    `${countryName}의 공휴일은 해당 국가의 독특한 역사와 문화적 전통을 반영하며, 국민들의 정체성 형성과 사회적 결속에 중요한 역할을 하고 있습니다. 종교적 전통과 현대적 가치가 조화롭게 어우러진 의미 있는 기념일들로 구성되어 있습니다.`;
+  const localeOverviews = overviews[locale] || overviews.ko;
+  const overview = localeOverviews[countryCode];
+  
+  if (overview) {
+    return overview;
+  }
+  
+  // 기본 폴백 메시지 (다국어)
+  if (locale === 'en') {
+    return `${countryName}'s holidays reflect the country's unique history and cultural traditions, playing an important role in forming national identity and social cohesion. They consist of meaningful commemorative days where religious traditions and modern values harmoniously blend together.`;
+  } else {
+    return `${countryName}의 공휴일은 해당 국가의 독특한 역사와 문화적 전통을 반영하며, 국민들의 정체성 형성과 사회적 결속에 중요한 역할을 하고 있습니다. 종교적 전통과 현대적 가치가 조화롭게 어우러진 의미 있는 기념일들로 구성되어 있습니다.`;
+  }
 }
 
 /**
