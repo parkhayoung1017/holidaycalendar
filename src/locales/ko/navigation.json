@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "home": "홈",
+    "todayHolidays": "오늘의 공휴일",
+    "regionHolidays": "대륙별 공휴일",
+    "countryHolidays": "국가별 공휴일",
+    "about": "소개",
+    "contact": "문의"
+  },
+  "regions": {
+    "asia": "아시아",
+    "europe": "유럽",
+    "americas": "아메리카",
+    "northAmerica": "북아메리카",
+    "southAmerica": "남아메리카",
+    "africa": "아프리카",
+    "oceania": "오세아니아",
+    "antarctica": "남극"
+  },
+  "breadcrumb": {
+    "home": "홈",
+    "holidays": "공휴일",
+    "countries": "국가",
+    "regions": "지역",
+    "today": "오늘"
+  },
+  "footer": {
+    "copyright": "© 2025 세계 공휴일 달력. 모든 권리 보유.",
+    "description": "전 세계 공휴일 정보를 제공하는 신뢰할 수 있는 서비스입니다.",
+    "links": {
+      "privacy": "개인정보처리방침",
+      "terms": "이용약관",
+      "support": "고객지원"
+    }
+  },
+  "search": {
+    "placeholder": "국가명 또는 공휴일명을 검색하세요",
+    "noResults": "검색 결과가 없습니다",
+    "suggestions": "추천 검색어",
+    "recentSearches": "최근 검색"
+  },
+  "prevYear": "이전 연도",
+  "nextYear": "다음 연도",
+  "dataAvailable": "데이터 제공",
+  "holidays": "공휴일"
+}

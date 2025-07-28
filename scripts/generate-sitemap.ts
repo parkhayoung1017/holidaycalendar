@@ -3,16 +3,58 @@ import path from 'path';
 import { SUPPORTED_COUNTRIES, REGIONS, SUPPORTED_YEARS } from '../src/lib/constants';
 
 const SITE_URL = 'https://globalholidays.site';
+const SUPPORTED_LOCALES = ['ko', 'en'] as const;
+const DEFAULT_LOCALE = 'ko';
 
 interface SitemapUrl {
   loc: string;
   lastmod?: string;
   changefreq?: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
   priority?: number;
+  alternates?: {
+    languages: Record<string, string>;
+  };
 }
 
 /**
- * 사이트맵 XML 생성
+ * 언어별 hreflang 어노테이션을 생성하는 헬퍼 함수
+ */
+function generateAlternateLanguages(path: string): Record<string, string> {
+  const alternates: Record<string, string> = {};
+  
+  for (const locale of SUPPORTED_LOCALES) {
+    if (locale === DEFAULT_LOCALE) {
+      // 기본 언어는 루트 경로와 언어 경로 둘 다 포함
+      alternates[locale] = `${SITE_URL}${path}`;
+      alternates['x-default'] = `${SITE_URL}${path}`;
+    } else {
+      alternates[locale] = `${SITE_URL}/${locale}${path}`;
+    }
+  }
+  
+  return alternates;
+}
+
+/**
+ * 언어별 lastModified 날짜를 가져오는 함수
+ */
+function getLastModifiedDate(filePath?: string): string {
+  const currentDate = new Date().toISOString().split('T')[0];
+  
+  if (filePath && fs.existsSync(filePath)) {
+    try {
+      const stats = fs.statSync(filePath);
+      return stats.mtime.toISOString().split('T')[0];
+    } catch (error) {
+      console.warn(`파일 수정 날짜 확인 실패: ${filePath}`, error);
+    }
+  }
+  
+  return currentDate;
+}
+
+/**
+ * 사이트맵 XML 생성 (다국어 지원)
  */
 function generateSitemapXML(urls: SitemapUrl[]): string {
   const urlsXML = urls.map(url => {
@@ -30,88 +72,156 @@ function generateSitemapXML(urls: SitemapUrl[]): string {
       urlXML += `\n    <priority>${url.priority}</priority>`;
     }
 
+    // hreflang 어노테이션 추가
+    if (url.alternates?.languages) {
+      for (const [lang, href] of Object.entries(url.alternates.languages)) {
+        urlXML += `\n    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}" />`;
+      }
+    }
+
     urlXML += '\n  </url>';
     return urlXML;
   }).join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urlsXML}
 </urlset>`;
 }
 
 /**
- * 모든 사이트맵 URL 생성
+ * 모든 사이트맵 URL 생성 (다국어 지원)
  */
 function generateAllUrls(): SitemapUrl[] {
   const urls: SitemapUrl[] = [];
-  const currentDate = new Date().toISOString().split('T')[0];
 
-  // 홈페이지
-  urls.push({
-    loc: SITE_URL,
-    lastmod: currentDate,
-    changefreq: 'daily',
-    priority: 1.0
-  });
+  // 홈페이지 - 모든 언어 버전
+  for (const locale of SUPPORTED_LOCALES) {
+    const path = '';
+    const url = locale === DEFAULT_LOCALE ? SITE_URL : `${SITE_URL}/${locale}`;
+    
+    urls.push({
+      loc: url,
+      lastmod: new Date().toISOString().split('T')[0],
+      changefreq: 'daily',
+      priority: 1.0,
+      alternates: {
+        languages: generateAlternateLanguages(path)
+      }
+    });
+  }
 
-  // 오늘의 공휴일 페이지
-  urls.push({
-    loc: `${SITE_URL}/today`,
-    lastmod: currentDate,
-    changefreq: 'daily',
-    priority: 0.9
-  });
+  // 오늘의 공휴일 페이지 - 모든 언어 버전
+  for (const locale of SUPPORTED_LOCALES) {
+    const path = '/today';
+    const url = locale === DEFAULT_LOCALE ? `${SITE_URL}${path}` : `${SITE_URL}/${locale}${path}`;
+    
+    urls.push({
+      loc: url,
+      lastmod: new Date().toISOString().split('T')[0],
+      changefreq: 'daily',
+      priority: 0.9,
+      alternates: {
+        languages: generateAlternateLanguages(path)
+      }
+    });
+  }
 
-  // 국가별 연도 페이지
+  // 지역별 메인 페이지 - 모든 언어 버전
+  for (const locale of SUPPORTED_LOCALES) {
+    const path = '/regions';
+    const url = locale === DEFAULT_LOCALE ? `${SITE_URL}${path}` : `${SITE_URL}/${locale}${path}`;
+    
+    urls.push({
+      loc: url,
+      lastmod: new Date().toISOString().split('T')[0],
+      changefreq: 'weekly',
+      priority: 0.8,
+      alternates: {
+        languages: generateAlternateLanguages(path)
+      }
+    });
+  }
+
+  // 국가별 연도 페이지 - 모든 언어 버전
   for (const country of SUPPORTED_COUNTRIES) {
     for (const year of SUPPORTED_YEARS) {
       // 실제 데이터가 있는지 확인
       const dataPath = path.join(process.cwd(), 'data', 'holidays', `${country.code.toLowerCase()}-${year}.json`);
-
+      
       if (fs.existsSync(dataPath)) {
+        const countrySlug = country.name.toLowerCase().replace(/\s+/g, '-');
+        const pagePath = `/${countrySlug}-${year}`;
+        const lastModified = getLastModifiedDate(dataPath);
+        
+        for (const locale of SUPPORTED_LOCALES) {
+          const url = locale === DEFAULT_LOCALE ? `${SITE_URL}${pagePath}` : `${SITE_URL}/${locale}${pagePath}`;
+          
+          urls.push({
+            loc: url,
+            lastmod: lastModified,
+            changefreq: 'monthly',
+            priority: country.popular ? 0.8 : 0.6,
+            alternates: {
+              languages: generateAlternateLanguages(pagePath)
+            }
+          });
+        }
+      }
+    }
+  }
+
+  // 지역별 연도 페이지 - 모든 언어 버전
+  for (const region of REGIONS) {
+    for (const year of SUPPORTED_YEARS) {
+      const regionSlug = region.name.toLowerCase().replace(/\s+/g, '-');
+      const pagePath = `/regions/${regionSlug}/${year}`;
+      
+      for (const locale of SUPPORTED_LOCALES) {
+        const url = locale === DEFAULT_LOCALE ? `${SITE_URL}${pagePath}` : `${SITE_URL}/${locale}${pagePath}`;
+        
         urls.push({
-          loc: `${SITE_URL}/${country.code.toLowerCase()}-${year}`,
-          lastmod: currentDate,
+          loc: url,
+          lastmod: new Date().toISOString().split('T')[0],
           changefreq: 'monthly',
-          priority: country.popular ? 0.8 : 0.6
+          priority: 0.7,
+          alternates: {
+            languages: generateAlternateLanguages(pagePath)
+          }
         });
       }
     }
   }
 
-  // 지역별 페이지
-  for (const region of REGIONS) {
-    for (const year of SUPPORTED_YEARS) {
-      const regionSlug = region.name.toLowerCase().replace(/\s+/g, '-');
-      urls.push({
-        loc: `${SITE_URL}/regions/${regionSlug}/${year}`,
-        lastmod: currentDate,
-        changefreq: 'monthly',
-        priority: 0.7
-      });
-    }
-  }
-
-  // 개별 공휴일 상세 페이지
+  // 개별 공휴일 상세 페이지 - 모든 언어 버전
   for (const country of SUPPORTED_COUNTRIES) {
     for (const year of SUPPORTED_YEARS) {
       const dataPath = path.join(process.cwd(), 'data', 'holidays', `${country.code.toLowerCase()}-${year}.json`);
-
+      
       if (fs.existsSync(dataPath)) {
         try {
           const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
-          const holidayData = data.holidays || data; // holidays 배열이 있으면 사용, 없으면 전체 데이터 사용
-
+          const holidayData = data.holidays || data;
+          const lastModified = getLastModifiedDate(dataPath);
+          
           if (Array.isArray(holidayData)) {
             for (const holiday of holidayData) {
               const slug = generateSlug(holiday.name);
-              urls.push({
-                loc: `${SITE_URL}/holiday/${country.code.toLowerCase()}/${slug}`,
-                lastmod: currentDate,
-                changefreq: 'yearly',
-                priority: 0.5
-              });
+              const pagePath = `/holiday/${country.code.toLowerCase()}/${slug}`;
+              
+              for (const locale of SUPPORTED_LOCALES) {
+                const url = locale === DEFAULT_LOCALE ? `${SITE_URL}${pagePath}` : `${SITE_URL}/${locale}${pagePath}`;
+                
+                urls.push({
+                  loc: url,
+                  lastmod: lastModified,
+                  changefreq: 'yearly',
+                  priority: 0.5,
+                  alternates: {
+                    languages: generateAlternateLanguages(pagePath)
+                  }
+                });
+              }
             }
           }
         } catch (error) {

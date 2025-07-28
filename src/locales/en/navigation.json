@@ -1,0 +1,46 @@
+{
+  "menu": {
+    "home": "Home",
+    "todayHolidays": "Today's Holidays",
+    "regionHolidays": "Regional Holidays",
+    "countryHolidays": "Country Holidays",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "regions": {
+    "asia": "Asia",
+    "europe": "Europe",
+    "americas": "Americas",
+    "northAmerica": "North America",
+    "southAmerica": "South America",
+    "africa": "Africa",
+    "oceania": "Oceania",
+    "antarctica": "Antarctica"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "holidays": "Holidays",
+    "countries": "Countries",
+    "regions": "Regions",
+    "today": "Today"
+  },
+  "footer": {
+    "copyright": "© 2025 World Holiday Calendar. All rights reserved.",
+    "description": "A reliable service providing worldwide holiday information.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "support": "Support"
+    }
+  },
+  "search": {
+    "placeholder": "Search for countries or holidays",
+    "noResults": "No search results found",
+    "suggestions": "Suggested searches",
+    "recentSearches": "Recent searches"
+  },
+  "prevYear": "Previous Year",
+  "nextYear": "Next Year",
+  "dataAvailable": "Data Available",
+  "holidays": "Holidays"
+}

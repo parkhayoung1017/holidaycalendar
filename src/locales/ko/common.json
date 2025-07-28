@@ -1,0 +1,151 @@
+{
+  "site": {
+    "title": "세계 공휴일 달력",
+    "description": "전세계 공휴일 정보를 한눈에 확인하세요",
+    "keywords": "공휴일, 휴일, 국가별 공휴일, 세계 공휴일",
+    "tagline": "전 세계 공휴일을 한 곳에서",
+    "welcome": "환영합니다, {{name}}님!"
+  },
+  "actions": {
+    "search": "검색",
+    "viewMore": "더 보기",
+    "backToHome": "홈으로",
+    "viewDetails": "자세히 보기",
+    "selectCountry": "국가 선택",
+    "selectYear": "연도 선택",
+    "loading": "로딩 중...",
+    "retry": "다시 시도",
+    "close": "닫기",
+    "open": "열기"
+  },
+  "time": {
+    "today": "오늘",
+    "thisMonth": "이번 달",
+    "thisYear": "올해",
+    "year": "년",
+    "month": "월",
+    "day": "일",
+    "date": "날짜",
+    "duration": "기간"
+  },
+  "status": {
+    "noResults": "결과가 없습니다",
+    "error": "오류가 발생했습니다",
+    "notFound": "찾을 수 없습니다",
+    "success": "성공",
+    "failed": "실패"
+  },
+  "common": {
+    "and": "그리고",
+    "or": "또는",
+    "in": "에서",
+    "on": "에",
+    "at": "에서",
+    "by": "에 의해",
+    "for": "위한",
+    "with": "와 함께",
+    "without": "없이",
+    "additionalInfo": "추가 정보",
+    "total": "총",
+    "count": "개의",
+    "info": "정보",
+    "all": "전체"
+  },
+  "country": {
+    "info": "국가 정보"
+  },
+  "items": {
+    "zero": "항목이 없습니다",
+    "one": "{{count}}개 항목",
+    "other": "{{count}}개 항목들"
+  },
+  "language": {
+    "selector": "언어 선택",
+    "current": "현재 언어",
+    "korean": "한국어",
+    "english": "English",
+    "switchTo": "{{language}}로 전환",
+    "ko": "한국어",
+    "en": "English"
+  },
+  "footer": {
+    "copyright": "© {{year}} 세계 공휴일 달력. 모든 권리 보유.",
+    "description": "전세계 공휴일 정보를 제공하는 서비스입니다.",
+    "allRightsReserved": "모든 권리 보유"
+  },
+  "home": {
+    "title": "World Holiday Calendar",
+    "subtitle": "전세계 공휴일 정보를 한눈에 확인하세요",
+    "searchPlaceholder": "국가명 또는 '미국 2025' 형태로 검색하세요",
+    "quickLinks": {
+      "todayHolidays": "오늘의 공휴일",
+      "asiaRegion": "아시아 지역",
+      "europeRegion": "유럽 지역"
+    },
+    "popularCountries": "인기 국가 공휴일 보기",
+    "nextYearPreview": "🎉 {{year}}년 공휴일 미리보기",
+    "nextYearDescription": "새해 계획을 세우기 위해 내년 공휴일을 미리 확인해보세요",
+    "features": {
+      "search": {
+        "title": "빠른 검색",
+        "description": "국가명과 연도를 입력하면 즉시 해당 공휴일 정보를 확인할 수 있습니다"
+      },
+      "worldwide": {
+        "title": "전세계 정보",
+        "description": "주요 30개국의 정확한 공휴일 정보를 지역별로 비교해서 볼 수 있습니다"
+      },
+      "realtime": {
+        "title": "실시간 업데이트",
+        "description": "매일 업데이트되는 최신 공휴일 정보로 정확한 일정 계획을 세우세요"
+      }
+    },
+    "bottomInfo": {
+      "purpose": "여행 계획, 업무 일정, 해외 거주를 위한 필수 정보",
+      "tagline": "정확한 공휴일 정보로 더 나은 계획을 세우세요"
+    }
+  },
+  "search": {
+    "placeholder": "국가명 또는 '미국 2025' 형태로 검색하세요",
+    "noResults": "검색 결과가 없습니다",
+    "noResultsHint": "다른 국가명이나 연도를 시도해보세요"
+  },
+  "regions": {
+    "title": "지역별 공휴일",
+    "description": "전세계 주요 지역의 공휴일 정보를 확인하세요",
+    "asia": "아시아",
+    "europe": "유럽",
+    "northAmerica": "북미",
+    "southAmerica": "남미",
+    "africa": "아프리카",
+    "oceania": "오세아니아",
+    "countriesCount": "{{count}}개 국가",
+    "helpTitle": "원하는 지역을 찾지 못하셨나요?",
+    "helpDescription": "홈페이지에서 직접 국가를 검색하거나 오늘의 공휴일을 확인해보세요"
+  },
+  "errors": {
+    "pageNotFound": {
+      "title": "페이지를 찾을 수 없습니다",
+      "description": "요청하신 페이지가 존재하지 않거나 이동되었을 수 있습니다.",
+      "goHome": "홈으로 돌아가기",
+      "popularCountries": "인기 국가 공휴일 보기",
+      "searchHelp": "특정 국가의 공휴일을 찾고 계신가요?",
+      "searchPage": "검색 페이지",
+      "searchHelpSuffix": "에서 찾아보세요."
+    },
+    "general": {
+      "title": "문제가 발생했습니다",
+      "description": "페이지를 로드하는 중 오류가 발생했습니다.",
+      "descriptionBoundary": "페이지를 불러오는 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.",
+      "retry": "다시 시도",
+      "goHome": "홈페이지로 이동",
+      "goHomeBoundary": "홈으로 이동",
+      "devInfo": "개발 정보:",
+      "errorDetails": "에러 상세 정보"
+    },
+    "quickLinks": {
+      "todayHolidays": "오늘의 공휴일",
+      "regionalHolidays": "지역별 공휴일",
+      "countryHolidays": "국가별 공휴일"
+    }
+  }
+}

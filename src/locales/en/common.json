@@ -1,0 +1,151 @@
+{
+  "site": {
+    "title": "World Holiday Calendar",
+    "description": "Check worldwide holiday information at a glance",
+    "keywords": "holidays, public holidays, national holidays, world holidays",
+    "tagline": "All world holidays in one place",
+    "welcome": "Welcome, {{name}}!"
+  },
+  "actions": {
+    "search": "Search",
+    "viewMore": "View More",
+    "backToHome": "Back to Home",
+    "viewDetails": "View Details",
+    "selectCountry": "Select Country",
+    "selectYear": "Select Year",
+    "loading": "Loading...",
+    "retry": "Retry",
+    "close": "Close",
+    "open": "Open"
+  },
+  "time": {
+    "today": "Today",
+    "thisMonth": "This Month",
+    "thisYear": "This Year",
+    "year": "Year",
+    "month": "Month",
+    "day": "Day",
+    "date": "Date",
+    "duration": "Duration"
+  },
+  "status": {
+    "noResults": "No results found",
+    "error": "An error occurred",
+    "notFound": "Not found",
+    "success": "Success",
+    "failed": "Failed"
+  },
+  "common": {
+    "and": "and",
+    "or": "or",
+    "in": "in",
+    "on": "on",
+    "at": "at",
+    "by": "by",
+    "for": "for",
+    "with": "with",
+    "without": "without",
+    "additionalInfo": "Additional Information",
+    "total": "Total",
+    "count": "",
+    "info": "Information",
+    "all": "All"
+  },
+  "country": {
+    "info": "Country Information"
+  },
+  "items": {
+    "zero": "No items",
+    "one": "{{count}} item",
+    "other": "{{count}} items"
+  },
+  "language": {
+    "selector": "Language Selector",
+    "current": "Current Language",
+    "korean": "한국어",
+    "english": "English",
+    "switchTo": "Switch to {{language}}",
+    "ko": "한국어",
+    "en": "English"
+  },
+  "footer": {
+    "copyright": "© {{year}} World Holiday Calendar. All rights reserved.",
+    "description": "A service providing worldwide holiday information.",
+    "allRightsReserved": "All rights reserved"
+  },
+  "home": {
+    "title": "World Holiday Calendar",
+    "subtitle": "Check worldwide holiday information at a glance",
+    "searchPlaceholder": "Search by country name or 'USA 2025' format",
+    "quickLinks": {
+      "todayHolidays": "Today's Holidays",
+      "asiaRegion": "Asia Region",
+      "europeRegion": "Europe Region"
+    },
+    "popularCountries": "Popular Countries' Holidays",
+    "nextYearPreview": "🎉 {{year}} Holiday Preview",
+    "nextYearDescription": "Check next year's holidays in advance to plan your new year",
+    "features": {
+      "search": {
+        "title": "Quick Search",
+        "description": "Enter country name and year to instantly check holiday information"
+      },
+      "worldwide": {
+        "title": "Worldwide Information",
+        "description": "Compare accurate holiday information from 30+ major countries by region"
+      },
+      "realtime": {
+        "title": "Real-time Updates",
+        "description": "Plan accurately with the latest holiday information updated daily"
+      }
+    },
+    "bottomInfo": {
+      "purpose": "Essential information for travel planning, work schedules, and overseas living",
+      "tagline": "Make better plans with accurate holiday information"
+    }
+  },
+  "search": {
+    "placeholder": "Search by country name or 'USA 2025' format",
+    "noResults": "No search results found",
+    "noResultsHint": "Try different country names or years"
+  },
+  "regions": {
+    "title": "Regional Holidays",
+    "description": "Check holiday information from major regions around the world",
+    "asia": "Asia",
+    "europe": "Europe",
+    "northAmerica": "North America",
+    "southAmerica": "South America",
+    "africa": "Africa",
+    "oceania": "Oceania",
+    "countriesCount": "{{count}} countries",
+    "helpTitle": "Can't find the region you're looking for?",
+    "helpDescription": "Search for countries directly on the homepage or check today's holidays"
+  },
+  "errors": {
+    "pageNotFound": {
+      "title": "Page Not Found",
+      "description": "The page you requested does not exist or may have been moved.",
+      "goHome": "Go to Homepage",
+      "popularCountries": "Popular Country Holidays",
+      "searchHelp": "Looking for a specific country's holidays?",
+      "searchPage": "Search page",
+      "searchHelpSuffix": " to find them."
+    },
+    "general": {
+      "title": "Something went wrong",
+      "description": "An error occurred while loading the page.",
+      "descriptionBoundary": "An error occurred while loading the page. Please try again in a moment.",
+      "retry": "Try Again",
+      "goHome": "Go to Homepage",
+      "goHomeBoundary": "Go to Home",
+      "devInfo": "Development Info:",
+      "errorDetails": "Error Details"
+    },
+    "quickLinks": {
+      "todayHolidays": "Today's Holidays",
+      "regionalHolidays": "Regional Holidays",
+      "countryHolidays": "Country Holidays"
+    }
+  }
+}
