@@ -10,18 +10,25 @@
 import { validateBuildData, logValidationResult } from '../src/lib/build-validator';
 
 async function main() {
-  console.log('🔍 빌드 데이터 검증을 시작합니다...\n');
+  console.log('🔍 빌드 데이터 및 번역 검증을 시작합니다...\n');
   
   try {
-    const result = await validateBuildData();
+    // 번역 검증을 포함한 전체 검증 실행
+    const includeTranslations = !process.argv.includes('--no-translations');
+    const result = await validateBuildData(includeTranslations);
     
     // 검증 결과 출력
     logValidationResult(result);
     
     // 검증 실패 시 프로세스 종료
     if (!result.isValid) {
-      console.error('❌ 데이터 검증 실패로 인해 빌드를 중단합니다.');
+      console.error('❌ 데이터 또는 번역 검증 실패로 인해 빌드를 중단합니다.');
       process.exit(1);
+    }
+    
+    // 번역 완성도가 너무 낮은 경우 경고
+    if (result.translationCompleteness && result.translationCompleteness.overallScore < 70) {
+      console.log('⚠️  번역 완성도가 낮습니다. 사용자 경험에 영향을 줄 수 있습니다.');
     }
     
     // 경고가 있지만 빌드는 계속 진행
@@ -29,10 +36,10 @@ async function main() {
       console.log('⚠️  경고가 있지만 빌드를 계속 진행합니다.');
     }
     
-    console.log('✅ 데이터 검증이 완료되었습니다. 빌드를 진행합니다.\n');
+    console.log('✅ 데이터 및 번역 검증이 완료되었습니다. 빌드를 진행합니다.\n');
     
   } catch (error) {
-    console.error('💥 데이터 검증 중 예상치 못한 오류가 발생했습니다:', error);
+    console.error('💥 검증 중 예상치 못한 오류가 발생했습니다:', error);
     process.exit(1);
   }
 }

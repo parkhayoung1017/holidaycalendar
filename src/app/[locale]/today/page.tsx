@@ -79,6 +79,7 @@ export default async function TodayPage({ params }: TodayPageProps) {
               date: todayISO,
               type: 'today'
             }}
+            locale={locale}
           />
         )}
         

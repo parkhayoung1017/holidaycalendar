@@ -13,17 +13,27 @@
     "test:run": "vitest run",
     "test:ui": "vitest --ui",
     "validate-data": "tsx scripts/validate-build-data.ts",
+    "validate-data-only": "tsx scripts/validate-build-data.ts --no-translations",
     "collect-data": "tsx scripts/collect-holiday-data.ts",
     "collect-all": "tsx scripts/collect-holiday-data.ts --all",
     "collect-current-year": "tsx scripts/collect-holiday-data.ts --all --year $(date +%Y)",
     "test-collector": "tsx scripts/test-data-collector.ts",
     "generate-sitemap": "tsx scripts/generate-sitemap.ts",
     "seo-setup": "npm run generate-sitemap",
-    "validate-translations": "tsx scripts/validate-translations.ts"
+    "validate-translations": "tsx scripts/validate-translations.ts",
+    "validate-translations-strict": "tsx scripts/validate-translations.ts --strict",
+    "check-translations": "tsx scripts/validate-translations.ts --verbose",
+    "manage-cache": "tsx scripts/manage-ai-cache.ts",
+    "generate-descriptions": "tsx scripts/generate-all-holiday-descriptions.ts",
+    "generate-descriptions-en": "tsx scripts/generate-all-holiday-descriptions.ts --en",
+    "generate-descriptions-force": "tsx scripts/generate-all-holiday-descriptions.ts --force"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
     "axios": "^1.10.0",
+    "chalk": "^5.4.1",
     "date-fns": "^4.1.0",
+    "dotenv": "^17.2.1",
     "next": "15.4.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"

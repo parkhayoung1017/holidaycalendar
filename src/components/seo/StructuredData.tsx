@@ -1,18 +1,24 @@
 'use client';
 
 import { generateStructuredData } from '@/lib/seo-utils';
+import { useTranslation } from '@/hooks/useTranslation';
+import { loadTranslationsSync } from '@/lib/translation-loader';
 import { useEffect, useState } from 'react';
 
 interface StructuredDataProps {
   type: 'holiday' | 'country' | 'region';
   data: any;
+  locale?: string;
 }
 
 /**
- * 구조화된 데이터 (JSON-LD)를 페이지에 삽입하는 컴포넌트
+ * 구조화된 데이터 (JSON-LD)를 페이지에 삽입하는 컴포넌트 - 다국어 지원
  */
-export default function StructuredData({ type, data }: StructuredDataProps) {
-  const structuredData = generateStructuredData(type, data);
+export default function StructuredData({ type, data, locale }: StructuredDataProps) {
+  const { locale: currentLocale } = useTranslation();
+  const targetLocale = locale || currentLocale;
+  
+  const structuredData = generateStructuredData(type, data, targetLocale);
   
   if (!structuredData) {
     return null;
@@ -29,7 +35,7 @@ export default function StructuredData({ type, data }: StructuredDataProps) {
 }
 
 /**
- * 웹사이트 전체에 대한 기본 구조화된 데이터
+ * 웹사이트 전체에 대한 기본 구조화된 데이터 - 다국어 지원
  */
 export function WebsiteStructuredData({ locale = 'ko' }: { locale?: string }) {
   const [isClient, setIsClient] = useState(false);
@@ -43,26 +49,17 @@ export function WebsiteStructuredData({ locale = 'ko' }: { locale?: string }) {
   }
   
   const baseUrl = 'https://globalholidays.site';
+  const translations = loadTranslationsSync(locale, 'common');
   
-  // 언어별 사이트 정보
-  const siteInfo = {
-    ko: {
-      name: '세계 공휴일 달력',
-      description: '전세계 주요 국가의 공휴일 정보를 제공하는 웹 서비스'
-    },
-    en: {
-      name: 'World Holiday Calendar',
-      description: 'A web service providing holiday information from major countries worldwide'
-    }
-  };
-  
-  const currentSiteInfo = siteInfo[locale as keyof typeof siteInfo] || siteInfo.ko;
+  // 번역된 사이트 정보 사용
+  const siteName = translations.structuredData?.website?.name || translations.site?.title || 'World Holiday Calendar';
+  const siteDescription = translations.structuredData?.website?.description || translations.site?.description || 'A web service providing holiday information from major countries worldwide';
   
   const websiteData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: currentSiteInfo.name,
-    description: currentSiteInfo.description,
+    name: siteName,
+    description: siteDescription,
     url: `${baseUrl}/${locale}`,
     inLanguage: locale === 'ko' ? 'ko-KR' : 'en-US',
     potentialAction: {
@@ -71,11 +68,11 @@ export function WebsiteStructuredData({ locale = 'ko' }: { locale?: string }) {
         '@type': 'EntryPoint',
         urlTemplate: `${baseUrl}/${locale}/search?q={search_term_string}`
       },
-      'query-input': 'required name=search_term_string'
+      'query-input': translations.structuredData?.search?.queryInput || 'required name=search_term_string'
     },
     publisher: {
       '@type': 'Organization',
-      name: currentSiteInfo.name,
+      name: siteName,
       url: `${baseUrl}/${locale}`,
       logo: {
         '@type': 'ImageObject',
@@ -95,7 +92,7 @@ export function WebsiteStructuredData({ locale = 'ko' }: { locale?: string }) {
 }
 
 /**
- * 조직 정보에 대한 구조화된 데이터
+ * 조직 정보에 대한 구조화된 데이터 - 다국어 지원
  */
 export function OrganizationStructuredData({ locale = 'ko' }: { locale?: string }) {
   const [isClient, setIsClient] = useState(false);
@@ -109,32 +106,25 @@ export function OrganizationStructuredData({ locale = 'ko' }: { locale?: string 
   }
   
   const baseUrl = 'https://globalholidays.site';
+  const translations = loadTranslationsSync(locale, 'common');
   
-  // 언어별 조직 정보
-  const orgInfo = {
-    ko: {
-      name: '세계 공휴일 달력',
-      description: '전세계 공휴일 정보를 제공하는 웹 서비스'
-    },
-    en: {
-      name: 'World Holiday Calendar',
-      description: 'A web service providing worldwide holiday information'
-    }
-  };
-  
-  const currentOrgInfo = orgInfo[locale as keyof typeof orgInfo] || orgInfo.ko;
+  // 번역된 조직 정보 사용
+  const orgName = translations.structuredData?.organization?.name || translations.site?.title || 'World Holiday Calendar';
+  const orgDescription = translations.structuredData?.organization?.description || translations.site?.description || 'A web service providing worldwide holiday information';
+  const contactType = translations.structuredData?.organization?.contactType || 'customer service';
   
   const organizationData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: currentOrgInfo.name,
+    name: orgName,
     url: `${baseUrl}/${locale}`,
     logo: `${baseUrl}/calendar-icon.svg`,
-    description: currentOrgInfo.description,
+    description: orgDescription,
     foundingDate: '2024',
+    inLanguage: locale === 'ko' ? 'ko-KR' : 'en-US',
     contactPoint: {
       '@type': 'ContactPoint',
-      contactType: 'customer service',
+      contactType: contactType,
       availableLanguage: ['Korean', 'English']
     },
     sameAs: [

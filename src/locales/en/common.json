@@ -47,7 +47,7 @@
     "without": "without",
     "additionalInfo": "Additional Information",
     "total": "Total",
-    "count": "",
+    "count": "items",
     "info": "Information",
     "all": "All"
   },
@@ -121,6 +121,35 @@
     "countriesCount": "{{count}} countries",
     "helpTitle": "Can't find the region you're looking for?",
     "helpDescription": "Search for countries directly on the homepage or check today's holidays"
+  },
+  "structuredData": {
+    "website": {
+      "name": "World Holiday Calendar",
+      "description": "A web service providing holiday information from major countries worldwide"
+    },
+    "organization": {
+      "name": "World Holiday Calendar",
+      "description": "A web service providing worldwide holiday information",
+      "contactType": "customer service"
+    },
+    "event": {
+      "holidayInfo": "{{name}} holiday information in {{country}}",
+      "eventStatus": "scheduled event",
+      "attendanceMode": "offline event"
+    },
+    "page": {
+      "todayHolidays": "Today's Holidays - {{date}}",
+      "todayDescription": "Holiday information for countries celebrating today {{date}}",
+      "countryHolidays": "{{country}} Holidays {{year}}",
+      "countryDescription": "All holiday information for {{country}} in {{year}}",
+      "regionHolidays": "{{region}} Regional Holidays {{year}}",
+      "regionDescription": "{{year}} {{region}} regional holiday comparison"
+    },
+    "search": {
+      "action": "search action",
+      "target": "search target",
+      "queryInput": "search term input required"
+    }
   },
   "errors": {
     "pageNotFound": {

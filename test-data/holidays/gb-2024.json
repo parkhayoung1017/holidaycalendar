@@ -2,7 +2,7 @@
   "countryCode": "GB",
   "year": 2024,
   "totalHolidays": 2,
-  "lastUpdated": "2025-07-27T05:45:21.117Z",
+  "lastUpdated": "2025-07-28T00:39:37.441Z",
   "holidays": [
     {
       "id": "us-2024-01-01-0",
@@ -13,8 +13,8 @@
       "description": "New Year's Day celebration",
       "type": "public",
       "global": true,
-      "createdAt": "2025-07-27T05:45:21.117Z",
-      "updatedAt": "2025-07-27T05:45:21.117Z"
+      "createdAt": "2025-07-28T00:39:37.441Z",
+      "updatedAt": "2025-07-28T00:39:37.441Z"
     },
     {
       "id": "us-2024-07-04-0",
@@ -25,8 +25,8 @@
       "description": "Independence Day celebration",
       "type": "public",
       "global": true,
-      "createdAt": "2025-07-27T05:45:21.117Z",
-      "updatedAt": "2025-07-27T05:45:21.117Z"
+      "createdAt": "2025-07-28T00:39:37.441Z",
+      "updatedAt": "2025-07-28T00:39:37.441Z"
     }
   ]
 }

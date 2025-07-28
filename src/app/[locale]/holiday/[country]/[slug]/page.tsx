@@ -7,6 +7,7 @@ import { generateHolidayDescription, generateCountryOverview } from '@/lib/ai-co
 import { getCountryCodeFromSlug, createHolidaySlug } from '@/lib/country-utils';
 import HolidayDetailView from '@/components/holiday/HolidayDetailView';
 import RelatedHolidays from '@/components/holiday/RelatedHolidays';
+import StructuredData from '@/components/seo/StructuredData';
 
 interface HolidayDetailPageProps {
   params: Promise<{
@@ -209,6 +210,16 @@ export default async function HolidayDetailPage({ params }: HolidayDetailPagePro
     
     return (
       <div className="min-h-screen bg-gray-50">
+        {/* 구조화된 데이터 추가 */}
+        <StructuredData 
+          type="holiday" 
+          data={{
+            holiday: enrichedHoliday,
+            country: countryData
+          }}
+          locale={validLocale}
+        />
+        
         <div className="max-w-4xl mx-auto px-4 py-8">
           {/* 공휴일 상세 정보 */}
           <HolidayDetailView 

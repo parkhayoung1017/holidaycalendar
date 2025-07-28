@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { loadHolidayData, loadCountryData, getAllAvailableData } from '@/lib/data-loader';
 import HolidayList from '@/components/holiday/HolidayList';
 import { CURRENT_YEAR } from '@/lib/constants';
+import StructuredData from '@/components/seo/StructuredData';
 
 interface PageProps {
   params: {
@@ -153,6 +154,17 @@ export default async function RegionYearPage({ params }: PageProps) {
     
     return (
       <div className="container mx-auto px-4 py-8">
+        {/* 구조화된 데이터 추가 */}
+        <StructuredData 
+          type="region" 
+          data={{
+            region: regionName,
+            year: year,
+            countries: validCountryHolidays.map(item => item.country.name)
+          }}
+          locale={resolvedParams.locale}
+        />
+        
         {/* 페이지 헤더 */}
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

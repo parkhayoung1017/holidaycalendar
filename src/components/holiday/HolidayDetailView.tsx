@@ -149,9 +149,13 @@ export default function HolidayDetailView({
             {locale === 'ko' ? '공휴일 상세 정보' : 'Holiday Details'}
           </h2>
           <div className="prose prose-lg max-w-none">
-            <p className="text-gray-700 leading-relaxed text-lg">
-              {holiday.description}
-            </p>
+            <div className="text-gray-700 leading-relaxed text-lg space-y-4">
+              {holiday.description.split('\n\n').map((paragraph, index) => (
+                <p key={index} className="mb-4">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
           </div>
         </section>
         

@@ -2,7 +2,13 @@
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { Locale, I18nContext, TranslationNamespace } from '@/types/i18n';
-import { loadTranslations } from './translation-loader';
+import { 
+  loadTranslations, 
+  smartWarmupCache, 
+  startAutoCacheCleanup, 
+  stopAutoCacheCleanup,
+  debugCachePerformance 
+} from './translation-loader';
 import { getLanguageFromCookie, saveLanguageToCookie } from './cookie-utils';
 
 // 기본 컨텍스트 값
@@ -75,7 +81,30 @@ export function I18nProvider({ children, initialLocale }: I18nProviderProps) {
   const [translations, setTranslations] = useState<Partial<TranslationNamespace>>({});
   const [isLoading, setIsLoading] = useState(true);
 
-  // 언어 변경 함수
+  // 성능 최적화 초기화
+  useEffect(() => {
+    // 자동 캐시 정리 시작 (10분 간격)
+    startAutoCacheCleanup(10 * 60 * 1000);
+    
+    // 스마트 캐시 워밍업 (사용자 언어 우선)
+    smartWarmupCache(locale, 'ko').catch(error => 
+      console.warn('캐시 워밍업 실패:', error)
+    );
+
+    // 개발 환경에서 캐시 성능 디버깅
+    if (process.env.NODE_ENV === 'development') {
+      setTimeout(() => {
+        debugCachePerformance();
+      }, 3000);
+    }
+
+    // 컴포넌트 언마운트 시 정리
+    return () => {
+      stopAutoCacheCleanup();
+    };
+  }, []);
+
+  // 언어 변경 함수 (성능 최적화 적용)
   const setLocale = (newLocale: Locale) => {
     if (newLocale === locale) {
       return; // 같은 언어면 아무것도 하지 않음
@@ -93,6 +122,11 @@ export function I18nProvider({ children, initialLocale }: I18nProviderProps) {
       .then((newTranslations) => {
         setTranslations(newTranslations);
         setIsLoading(false);
+        
+        // 언어 변경 후 스마트 캐시 워밍업 (백그라운드)
+        smartWarmupCache(newLocale, locale).catch(error => 
+          console.warn('언어 변경 후 캐시 워밍업 실패:', error)
+        );
       })
       .catch((error) => {
         console.error('번역 데이터 로드 실패:', error);

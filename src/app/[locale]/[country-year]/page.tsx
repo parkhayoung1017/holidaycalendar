@@ -7,6 +7,7 @@ import HolidayList from '@/components/holiday/HolidayList';
 import YearNavigation from '@/components/navigation/YearNavigation';
 import { ErrorMessages } from '@/components/error/ErrorMessage';
 import { getTranslations } from '@/lib/translation-loader';
+import StructuredData from '@/components/seo/StructuredData';
 
 interface PageProps {
   params: {
@@ -151,6 +152,17 @@ export default async function CountryYearPage({ params }: PageProps) {
     
     return (
       <div className="container mx-auto px-4 py-8">
+        {/* 구조화된 데이터 추가 */}
+        <StructuredData 
+          type="country" 
+          data={{
+            country: countryData,
+            year: year,
+            holidays: holidayData
+          }}
+          locale={params.locale}
+        />
+        
         <CountryHeader 
           country={countryData}
           year={year}

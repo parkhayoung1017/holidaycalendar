@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { Holiday, Country } from '@/types';
 import { DEFAULT_METADATA, SUPPORTED_COUNTRIES } from './constants';
+import { loadTranslationsSync } from './translation-loader';
 
 /**
  * 국가별 연도 페이지의 동적 메타데이터 생성
@@ -215,21 +216,35 @@ export function generateSlug(text: string): string {
 }
 
 /**
- * 구조화된 데이터 (JSON-LD) 생성
+ * 구조화된 데이터 (JSON-LD) 생성 - 다국어 지원
  */
-export function generateStructuredData(type: 'holiday' | 'country' | 'region', data: any) {
+export function generateStructuredData(
+  type: 'holiday' | 'country' | 'region', 
+  data: any, 
+  locale: string = 'ko'
+) {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://globalholidays.site';
+  const translations = loadTranslationsSync(locale, 'common');
+  
+  // 언어 코드를 schema.org 형식으로 변환
+  const inLanguage = locale === 'ko' ? 'ko-KR' : 'en-US';
   
   switch (type) {
     case 'holiday':
       // 오늘의 공휴일 타입인지 확인
       if (data.type === 'today' && Array.isArray(data.holidays)) {
+        const pageName = translations.structuredData?.page?.todayHolidays?.replace('{{date}}', data.date) || 
+                         `Today's Holidays - ${data.date}`;
+        const pageDescription = translations.structuredData?.page?.todayDescription?.replace('{{date}}', data.date) || 
+                               `Holiday information for countries celebrating today ${data.date}`;
+        
         return {
           '@context': 'https://schema.org',
           '@type': 'WebPage',
-          name: `오늘의 공휴일 - ${data.date}`,
-          description: `${data.date} 오늘 공휴일인 국가들의 정보`,
-          url: `${baseUrl}/today`,
+          name: pageName,
+          description: pageDescription,
+          url: `${baseUrl}/${locale}/today`,
+          inLanguage,
           mainEntity: {
             '@type': 'ItemList',
             numberOfItems: data.holidays.length,
@@ -240,11 +255,14 @@ export function generateStructuredData(type: 'holiday' | 'country' | 'region', d
                 '@type': 'Event',
                 name: holiday.name,
                 startDate: holiday.date,
+                inLanguage,
                 location: {
                   '@type': 'Country',
                   name: holiday.countryName || holiday.country,
                   addressCountry: holiday.countryCode
-                }
+                },
+                eventStatus: 'https://schema.org/EventScheduled',
+                eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode'
               }
             }))
           }
@@ -252,34 +270,52 @@ export function generateStructuredData(type: 'holiday' | 'country' | 'region', d
       }
       
       // 개별 공휴일 타입
+      const holidayDescription = data.holiday?.description || 
+        translations.structuredData?.event?.holidayInfo
+          ?.replace('{{name}}', data.holiday?.name || 'Holiday')
+          ?.replace('{{country}}', data.country?.name || 'Country') ||
+        `${data.holiday?.name || 'Holiday'} in ${data.country?.name || 'Country'}`;
+      
       return {
         '@context': 'https://schema.org',
         '@type': 'Event',
-        name: data.holiday?.name || '공휴일',
+        name: data.holiday?.name || 'Holiday',
         startDate: data.holiday?.date || new Date().toISOString().split('T')[0],
         endDate: data.holiday?.date || new Date().toISOString().split('T')[0],
+        inLanguage,
         location: {
           '@type': 'Country',
-          name: data.country?.name || '국가',
+          name: data.country?.name || 'Country',
           addressCountry: data.country?.code || 'XX'
         },
-        description: data.holiday?.description || `${data.country?.name || '국가'}의 ${data.holiday?.name || '공휴일'}`,
+        description: holidayDescription,
         eventStatus: 'https://schema.org/EventScheduled',
         eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
         organizer: {
           '@type': 'Organization',
-          name: DEFAULT_METADATA.SITE_NAME,
-          url: baseUrl
+          name: translations.structuredData?.organization?.name || DEFAULT_METADATA.SITE_NAME,
+          url: `${baseUrl}/${locale}`
         }
       };
       
     case 'country':
+      const countryPageName = translations.structuredData?.page?.countryHolidays
+        ?.replace('{{country}}', data.country.name)
+        ?.replace('{{year}}', data.year) ||
+        `${data.country.name} Holidays ${data.year}`;
+      
+      const countryPageDescription = translations.structuredData?.page?.countryDescription
+        ?.replace('{{year}}', data.year)
+        ?.replace('{{country}}', data.country.name) ||
+        `All holiday information for ${data.country.name} in ${data.year}`;
+      
       return {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        name: `${data.country.name} 공휴일 ${data.year}`,
-        description: `${data.year}년 ${data.country.name}의 모든 공휴일 정보`,
-        url: `${baseUrl}/${data.country.code.toLowerCase()}-${data.year}`,
+        name: countryPageName,
+        description: countryPageDescription,
+        url: `${baseUrl}/${locale}/${data.country.code.toLowerCase()}-${data.year}`,
+        inLanguage,
         mainEntity: {
           '@type': 'ItemList',
           numberOfItems: data.holidays.length,
@@ -290,22 +326,37 @@ export function generateStructuredData(type: 'holiday' | 'country' | 'region', d
               '@type': 'Event',
               name: holiday.name,
               startDate: holiday.date,
+              inLanguage,
               location: {
                 '@type': 'Country',
-                name: data.country.name
-              }
+                name: data.country.name,
+                addressCountry: data.country.code
+              },
+              eventStatus: 'https://schema.org/EventScheduled',
+              eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode'
             }
           }))
         }
       };
       
     case 'region':
+      const regionPageName = translations.structuredData?.page?.regionHolidays
+        ?.replace('{{region}}', data.region)
+        ?.replace('{{year}}', data.year) ||
+        `${data.region} Regional Holidays ${data.year}`;
+      
+      const regionPageDescription = translations.structuredData?.page?.regionDescription
+        ?.replace('{{year}}', data.year)
+        ?.replace('{{region}}', data.region) ||
+        `${data.year} ${data.region} regional holiday comparison`;
+      
       return {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
-        name: `${data.region} 지역 공휴일 ${data.year}`,
-        description: `${data.year}년 ${data.region} 지역 공휴일 비교`,
-        url: `${baseUrl}/regions/${data.region.toLowerCase()}/${data.year}`,
+        name: regionPageName,
+        description: regionPageDescription,
+        url: `${baseUrl}/${locale}/regions/${data.region.toLowerCase()}/${data.year}`,
+        inLanguage,
         about: {
           '@type': 'Place',
           name: data.region,

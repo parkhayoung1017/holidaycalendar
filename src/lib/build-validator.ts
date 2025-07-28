@@ -2,6 +2,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { Holiday } from '@/types';
 import { SUPPORTED_COUNTRIES, SUPPORTED_YEARS } from '@/lib/constants';
+import { TranslationValidator, ValidationResult as TranslationValidationResult } from './translation-validator';
 
 interface ValidationResult {
   isValid: boolean;
@@ -15,6 +16,16 @@ interface ValidationResult {
   };
 }
 
+interface ComprehensiveValidationResult extends ValidationResult {
+  translationResult?: TranslationValidationResult;
+  translationCompleteness?: {
+    fileCompleteness: number;
+    keyCompleteness: number;
+    overallScore: number;
+    recommendations: string[];
+  };
+}
+
 interface HolidayDataFile {
   countryCode: string;
   year: number;
@@ -24,10 +35,10 @@ interface HolidayDataFile {
 }
 
 /**
- * 빌드 시 모든 데이터 파일의 유효성을 검증합니다.
+ * 빌드 시 모든 데이터 파일과 번역 파일의 유효성을 검증합니다.
  */
-export async function validateBuildData(): Promise<ValidationResult> {
-  const result: ValidationResult = {
+export async function validateBuildData(includeTranslations: boolean = true): Promise<ComprehensiveValidationResult> {
+  const result: ComprehensiveValidationResult = {
     isValid: true,
     errors: [],
     warnings: [],
@@ -40,6 +51,7 @@ export async function validateBuildData(): Promise<ValidationResult> {
   };
 
   try {
+    // 1. 공휴일 데이터 검증
     const holidaysDir = path.join(process.cwd(), 'data', 'holidays');
     
     // 디렉토리 존재 확인
@@ -111,6 +123,35 @@ export async function validateBuildData(): Promise<ValidationResult> {
 
     if (processedYears.size < 3) {
       result.warnings.push('최소 3개 연도의 데이터가 권장됩니다.');
+    }
+
+    // 2. 번역 파일 검증 (옵션)
+    if (includeTranslations) {
+      try {
+        const translationValidator = new TranslationValidator();
+        const translationResult = await translationValidator.validateAll();
+        
+        result.translationResult = translationResult;
+        result.translationCompleteness = translationValidator.calculateCompleteness(translationResult);
+        
+        // 번역 오류를 전체 결과에 반영
+        if (!translationResult.isValid) {
+          result.isValid = false;
+          result.errors.push(...translationResult.errors.map(e => `번역: ${e.message}`));
+        }
+        
+        // 번역 경고를 전체 결과에 반영
+        result.warnings.push(...translationResult.warnings.map(w => `번역: ${w.message}`));
+        
+        // 번역 완성도가 낮은 경우 경고 추가
+        if (result.translationCompleteness.overallScore < 90) {
+          result.warnings.push(`번역 완성도가 낮습니다 (${Math.round(result.translationCompleteness.overallScore)}%)`);
+        }
+        
+      } catch (error) {
+        result.errors.push(`번역 검증 중 오류 발생: ${error}`);
+        result.isValid = false;
+      }
     }
 
   } catch (error) {
@@ -273,7 +314,9 @@ function findMissingData(
 /**
  * 검증 결과를 콘솔에 출력합니다.
  */
-export function logValidationResult(result: ValidationResult): void {
+export function logValidationResult(result: ValidationResult): void;
+export function logValidationResult(result: ComprehensiveValidationResult): void;
+export function logValidationResult(result: ValidationResult | ComprehensiveValidationResult): void {
   console.log('\n=== 빌드 데이터 검증 결과 ===');
   
   if (result.isValid) {
@@ -287,6 +330,17 @@ export function logValidationResult(result: ValidationResult): void {
   console.log(`- 총 연도 수: ${result.stats.totalYears}`);
   console.log(`- 총 공휴일 수: ${result.stats.totalHolidays}`);
   console.log(`- 누락된 데이터: ${result.stats.missingData.length}개`);
+
+  // 번역 검증 결과가 있는 경우 출력
+  const comprehensiveResult = result as ComprehensiveValidationResult;
+  if (comprehensiveResult.translationResult && comprehensiveResult.translationCompleteness) {
+    console.log('\n🌐 번역 통계:');
+    console.log(`- 번역 파일 완성도: ${Math.round(comprehensiveResult.translationCompleteness.fileCompleteness)}%`);
+    console.log(`- 번역 키 완성도: ${Math.round(comprehensiveResult.translationCompleteness.keyCompleteness)}%`);
+    console.log(`- 전체 번역 점수: ${Math.round(comprehensiveResult.translationCompleteness.overallScore)}%`);
+    console.log(`- 번역 오류: ${comprehensiveResult.translationResult.errors.length}개`);
+    console.log(`- 번역 경고: ${comprehensiveResult.translationResult.warnings.length}개`);
+  }
 
   if (result.errors.length > 0) {
     console.log('\n🚨 오류:');
@@ -306,6 +360,14 @@ export function logValidationResult(result: ValidationResult): void {
     if (result.stats.missingData.length > 10) {
       console.log(`  ... 및 ${result.stats.missingData.length - 10}개 더`);
     }
+  }
+
+  // 번역 권장사항 출력
+  if (comprehensiveResult.translationCompleteness?.recommendations.length > 0) {
+    console.log('\n💡 번역 권장사항:');
+    comprehensiveResult.translationCompleteness.recommendations.forEach(rec => {
+      console.log(`  - ${rec}`);
+    });
   }
 
   console.log('\n');
