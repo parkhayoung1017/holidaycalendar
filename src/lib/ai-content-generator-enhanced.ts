@@ -5,7 +5,7 @@ import * as dotenv from 'dotenv';
 import { getCachedDescription, setCachedDescription } from './ai-content-cache';
 
 // 환경 변수 로드
-dotenv.config();
+dotenv.config({ path: '.env.local' });
 
 // Anthropic 클라이언트 초기화
 const anthropic = new Anthropic({
@@ -798,14 +798,14 @@ ${holidayName} has a significant impact on ${countryName}'s social and economic 
 /**
  * 공휴일 설명을 생성합니다 (다국어 지원)
  */
-export async function generateHolidayDescription(request: AIContentRequest, locale: string = 'ko'): Promise<AIContentResponse> {
+export async function generateHolidayDescription(request: AIContentRequest, locale: string = 'ko', forceRegenerate: boolean = false): Promise<AIContentResponse> {
   try {
     logInfo(`공휴일 설명 생성 시작: ${request.holidayName} (${request.countryName}) - ${locale}`);
 
     const { holidayId, holidayName, countryName, existingDescription } = request;
 
-    // 이미 설명이 있으면 그대로 반환
-    if (existingDescription && existingDescription.trim().length > 30) {
+    // 강제 재생성이 아니고 이미 설명이 있으면 그대로 반환
+    if (!forceRegenerate && existingDescription && existingDescription.trim().length > 30) {
       logInfo(`기존 설명 사용: ${holidayName}`);
       return {
         holidayId,
@@ -829,20 +829,42 @@ export async function generateHolidayDescription(request: AIContentRequest, loca
 
     const countryCode = countryCodeMap[countryName] || 'US';
 
-    // 1. 캐시에서 기존 설명 조회
-    const cachedDescription = await getCachedDescription(holidayName, countryName, locale);
-    if (cachedDescription) {
-      logInfo(`캐시에서 설명 조회 성공: ${holidayName}`);
-      return {
-        holidayId,
-        description: cachedDescription.description,
-        confidence: cachedDescription.confidence,
-        generatedAt: cachedDescription.generatedAt
-      };
+    // 1. 강제 재생성이 아닌 경우 캐시에서 기존 설명 조회
+    if (!forceRegenerate) {
+      const cachedDescription = await getCachedDescription(holidayName, countryName, locale);
+      if (cachedDescription) {
+        logInfo(`캐시에서 설명 조회 성공: ${holidayName}`);
+        return {
+          holidayId,
+          description: cachedDescription.description,
+          confidence: cachedDescription.confidence,
+          generatedAt: cachedDescription.generatedAt
+        };
+      }
     }
 
-    // 2. 실시간 AI 생성은 비활성화 (비용 절약을 위해 캐시된 데이터만 사용)
-    logInfo(`실시간 AI 생성 건너뜀 (캐시 우선): ${holidayName}`);
+    // 2. 실시간 AI 생성 시도
+    if (forceRegenerate || process.env.ENABLE_AI_GENERATION === 'true') {
+      try {
+        logInfo(`실시간 AI 생성 시작: ${holidayName}`);
+        const aiDescription = await generateAIHolidayDescription(holidayName, countryName, new Date().toISOString(), locale);
+
+        // 캐시에 저장
+        await setCachedDescription(holidayId, holidayName, countryName, locale, aiDescription, 0.95);
+
+        logInfo(`실시간 AI 생성 완료: ${holidayName}`);
+        return {
+          holidayId,
+          description: aiDescription,
+          confidence: 0.95,
+          generatedAt: new Date().toISOString()
+        };
+      } catch (error) {
+        logWarning(`AI 생성 실패, 폴백 사용: ${holidayName}`, error);
+      }
+    } else {
+      logInfo(`실시간 AI 생성 건너뜀 (캐시 우선): ${holidayName}`);
+    }
 
     // 2. SEO 최적화된 설명 생성 (AI 실패시 폴백)
     const description = generateSEOOptimizedDescription(holidayName, countryName, countryCode, locale);

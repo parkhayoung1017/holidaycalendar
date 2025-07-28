@@ -73,14 +73,19 @@ async function main() {
               countryName: countryName,
               date: holiday.date,
               existingDescription: forceRegenerate ? '' : holiday.description
-            }, locale);
+            }, locale, forceRegenerate);
             
-            if (result.confidence > 0.9) {
-              stats.generated++;
-              console.log(`    ✅ AI 생성 완료 (신뢰도: ${result.confidence})`);
-            } else {
+            // 캐시에서 가져온 경우 (신뢰도가 0.95인 경우는 대부분 캐시)
+            // 또는 새로 생성된 시간이 최근이 아닌 경우
+            const isFromCache = result.confidence === 0.95 || 
+                               (new Date().getTime() - new Date(result.generatedAt).getTime()) > 60000; // 1분 이상 전
+            
+            if (isFromCache) {
               stats.cached++;
               console.log(`    📦 캐시 사용 (신뢰도: ${result.confidence})`);
+            } else {
+              stats.generated++;
+              console.log(`    ✅ AI 생성 완료 (신뢰도: ${result.confidence})`);
             }
             
             // API 호출 간격 조절 (과도한 요청 방지)
