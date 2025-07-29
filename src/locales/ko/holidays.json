@@ -33,7 +33,18 @@
     "marineDay": "바다의 날",
     "donLuisMunozRiveraBirthday": "돈 루이스 무뇨스 리베라 탄신일",
     "santiagoApostol": "성 야고보 사도 축일",
-    "bastilleDay": "바스티유 데이"
+    "bastilleDay": "바스티유 데이",
+    "vesakDay": "웨삭데이",
+    "chineseNewYear": "중국 신정",
+    "hariRayaPuasa": "하리 라야 푸아사",
+    "hariRayaHaji": "하리 라야 하지",
+    "deepavali": "디파발리",
+    "thaipusam": "타이푸삼",
+    "dragonBoatFestival": "단오절",
+    "qingmingFestival": "청명절",
+    "doubleNinthFestival": "중양절",
+    "lanternFestival": "원소절",
+    "hungryGhostFestival": "중원절"
   },
   "korean": {
     "lunarNewYear": "설날",

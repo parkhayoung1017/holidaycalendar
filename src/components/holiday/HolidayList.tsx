@@ -3,7 +3,7 @@
 import React, { useState, useMemo } from 'react';
 import { useTranslation } from '@/hooks/useTranslation';
 import { HolidayCard } from './HolidayCard';
-import { enrichHolidaysWithTranslations } from '@/lib/translation-utils';
+import { enrichHolidaysWithTranslation } from '@/lib/holiday-translation';
 import { useI18nContext } from '@/lib/i18n-context';
 
 interface Holiday {
@@ -51,8 +51,8 @@ export function HolidayList({
 
   // 번역된 휴일 데이터
   const enrichedHolidays = useMemo(() => {
-    return enrichHolidaysWithTranslations(holidays, translations, locale);
-  }, [holidays, translations, locale]);
+    return enrichHolidaysWithTranslation(holidays, locale);
+  }, [holidays, locale]);
 
   // 필터링 및 정렬된 휴일 목록
   const filteredAndSortedHolidays = useMemo(() => {

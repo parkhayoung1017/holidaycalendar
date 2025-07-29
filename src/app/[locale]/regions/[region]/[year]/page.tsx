@@ -5,6 +5,7 @@ import { loadHolidayData, loadCountryData, getAllAvailableData } from '@/lib/dat
 import HolidayList from '@/components/holiday/HolidayList';
 import { CURRENT_YEAR } from '@/lib/constants';
 import StructuredData from '@/components/seo/StructuredData';
+import { translateHolidayName } from '@/lib/holiday-translation';
 
 interface PageProps {
   params: {
@@ -372,6 +373,9 @@ export default async function RegionYearPage({ params }: PageProps) {
                       const monthName = holidayDate.toLocaleDateString(isKorean ? 'ko-KR' : 'en-US', { month: 'short' });
                       const day = holidayDate.getDate();
                       
+                      // 공휴일 이름 번역
+                      const translatedName = isKorean ? translateHolidayName(holiday.name, 'ko') : holiday.name;
+                      
                       return (
                         <div key={holiday.id || index} className="flex items-center justify-between p-3 rounded-lg hover:bg-gray-50 transition-colors">
                           <div className="flex items-center gap-3">
@@ -381,7 +385,7 @@ export default async function RegionYearPage({ params }: PageProps) {
                             </div>
                             <div>
                               <div className="font-medium text-gray-900 text-sm leading-tight">
-                                {holiday.name}
+                                {translatedName}
                               </div>
                               <div className="text-xs text-gray-500 mt-1">
                                 {holidayDate.toLocaleDateString(isKorean ? 'ko-KR' : 'en-US', { weekday: 'short' })}

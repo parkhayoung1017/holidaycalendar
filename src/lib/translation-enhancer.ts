@@ -59,11 +59,28 @@ const HOLIDAY_NAME_TRANSLATIONS: Record<string, Record<string, string>> = {
     // 싱가포르 공휴일
     "Chinese New Year": "중국 신정",
     "Hari Raya Puasa": "하리 라야 푸아사",
-    "Vesak Day": "웨삭 데이",
+    "Vesak Day": "웨삭데이",
     "Hari Raya Haji": "하리 라야 하지",
     "National Day": "국경일",
     "Deepavali": "디파발리",
-    "Labour Day": "노동절"
+    "Labour Day": "노동절",
+    
+    // 추가 공휴일들
+    "Buddha's Birthday": "부처님오신날",
+    "Lunar New Year": "설날",
+    "Mid-Autumn Festival": "중추절",
+    "Dragon Boat Festival": "단오절",
+    "Qingming Festival": "청명절",
+    "Double Ninth Festival": "중양절",
+    "Lantern Festival": "원소절",
+    
+    // 기타 아시아 공휴일
+    "Diwali": "디왈리",
+    "Holi": "홀리",
+    "Eid al-Fitr": "이드 알 피트르",
+    "Eid al-Adha": "이드 알 아드하",
+    "Thaipusam": "타이푸삼",
+    "Hungry Ghost Festival": "중원절"
   },
   en: {
     "신정": "New Year's Day",

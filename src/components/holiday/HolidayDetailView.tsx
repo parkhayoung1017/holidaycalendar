@@ -6,6 +6,7 @@ import { format, parseISO } from 'date-fns';
 import { ko, enUS } from 'date-fns/locale';
 import Link from 'next/link';
 import { translateHolidayName, translateHolidayDescription } from '@/lib/translation-enhancer';
+import { useTranslation } from '@/hooks/useTranslation';
 
 interface HolidayDetailViewProps {
   holiday: Holiday;
@@ -20,6 +21,7 @@ export default function HolidayDetailView({
   countryOverview,
   locale = 'ko'
 }: HolidayDetailViewProps) {
+  const { t } = useTranslation();
   
   // 날짜 포맷팅
   const formatDate = (dateString: string) => {
@@ -61,8 +63,66 @@ export default function HolidayDetailView({
 
   const dateInfo = formatDate(holiday.date);
   
-  // 번역된 공휴일 정보
-  const translatedName = translateHolidayName(holiday.name, locale);
+  // 번역된 공휴일 정보 - 다중 번역 시스템 사용
+  const getTranslatedHolidayName = (name: string): string => {
+    // 1. 직접 매핑 시도 (가장 확실한 방법)
+    const directMappings: Record<string, string> = {
+      'Vesak Day': locale === 'ko' ? '웨삭데이' : 'Vesak Day',
+      'Chinese New Year': locale === 'ko' ? '중국 신정' : 'Chinese New Year',
+      'Hari Raya Puasa': locale === 'ko' ? '하리 라야 푸아사' : 'Hari Raya Puasa',
+      'Hari Raya Haji': locale === 'ko' ? '하리 라야 하지' : 'Hari Raya Haji',
+      'Deepavali': locale === 'ko' ? '디파발리' : 'Deepavali',
+      'Diwali': locale === 'ko' ? '디파발리' : 'Diwali',
+      'Thaipusam': locale === 'ko' ? '타이푸삼' : 'Thaipusam',
+      'National Day': locale === 'ko' ? '국경일' : 'National Day',
+      'Labour Day': locale === 'ko' ? '노동절' : 'Labour Day',
+      'Labor Day': locale === 'ko' ? '노동절' : 'Labor Day',
+      'Good Friday': locale === 'ko' ? '성금요일' : 'Good Friday',
+      'Christmas Day': locale === 'ko' ? '크리스마스' : 'Christmas Day',
+      'Christmas': locale === 'ko' ? '크리스마스' : 'Christmas',
+      'Boxing Day': locale === 'ko' ? '박싱 데이' : 'Boxing Day',
+      'New Year\'s Day': locale === 'ko' ? '신정' : 'New Year\'s Day',
+      'Easter Sunday': locale === 'ko' ? '부활절' : 'Easter Sunday',
+      'Easter Monday': locale === 'ko' ? '부활절 월요일' : 'Easter Monday',
+      'Independence Day': locale === 'ko' ? '독립기념일' : 'Independence Day',
+      'Memorial Day': locale === 'ko' ? '현충일' : 'Memorial Day',
+      'Thanksgiving': locale === 'ko' ? '추수감사절' : 'Thanksgiving',
+      'Buddha\'s Birthday': locale === 'ko' ? '부처님오신날' : 'Buddha\'s Birthday',
+      'Children\'s Day': locale === 'ko' ? '어린이날' : 'Children\'s Day',
+      'Constitution Day': locale === 'ko' ? '제헌절' : 'Constitution Day',
+      'Liberation Day': locale === 'ko' ? '광복절' : 'Liberation Day',
+      'National Foundation Day': locale === 'ko' ? '개천절' : 'National Foundation Day',
+      'Hangeul Day': locale === 'ko' ? '한글날' : 'Hangeul Day',
+      'Chuseok': locale === 'ko' ? '추석' : 'Chuseok',
+      'Lunar New Year': locale === 'ko' ? '설날' : 'Lunar New Year'
+    };
+    
+    if (directMappings[name]) {
+      console.log(`✅ Direct mapping for "${name}": "${directMappings[name]}"`);
+      return directMappings[name];
+    }
+    
+    // 2. translation-enhancer를 통한 번역 시도
+    const enhancedTranslation = translateHolidayName(name, locale);
+    if (enhancedTranslation !== name) {
+      console.log(`✅ Enhanced translation for "${name}": "${enhancedTranslation}"`);
+      return enhancedTranslation;
+    }
+    
+    // 3. 부분 매칭 시도 (예: "Christmas Eve" -> "크리스마스 이브")
+    for (const [englishName, translatedName] of Object.entries(directMappings)) {
+      if (name.includes(englishName.replace(/'/g, ''))) {
+        const partialTranslation = name.replace(englishName.replace(/'/g, ''), translatedName);
+        console.log(`✅ Partial matching for "${name}": "${partialTranslation}"`);
+        return partialTranslation;
+      }
+    }
+    
+    console.log(`⚠️ No translation found for "${name}", using original`);
+    return name;
+  };
+  
+  const translatedName = getTranslatedHolidayName(holiday.name);
   // AI 생성 설명을 우선 사용하고, 없으면 번역된 설명 사용
   const translatedDescription = holiday.description || translateHolidayDescription(holiday.name, locale);
   

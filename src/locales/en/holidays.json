@@ -33,7 +33,18 @@
     "marineDay": "Marine Day",
     "donLuisMunozRiveraBirthday": "Birthday of Don Luis Muñoz Rivera",
     "santiagoApostol": "Santiago Apóstol",
-    "bastilleDay": "Bastille Day"
+    "bastilleDay": "Bastille Day",
+    "vesakDay": "Vesak Day",
+    "chineseNewYear": "Chinese New Year",
+    "hariRayaPuasa": "Hari Raya Puasa",
+    "hariRayaHaji": "Hari Raya Haji",
+    "deepavali": "Deepavali",
+    "thaipusam": "Thaipusam",
+    "dragonBoatFestival": "Dragon Boat Festival",
+    "qingmingFestival": "Qingming Festival",
+    "doubleNinthFestival": "Double Ninth Festival",
+    "lanternFestival": "Lantern Festival",
+    "hungryGhostFestival": "Hungry Ghost Festival"
   },
   "korean": {
     "lunarNewYear": "Lunar New Year",
