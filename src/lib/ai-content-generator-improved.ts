@@ -13,36 +13,63 @@ interface HolidayDescription {
   economicImpact?: string;
 }
 
-// 한국 공휴일 설명 데이터베이스 (개선된 버전)
-const KOREAN_HOLIDAYS: HolidayDescription[] = [
+// 한국 공휴일 설명 데이터베이스 (다국어 지원)
+interface LocalizedHolidayDescription extends HolidayDescription {
+  descriptions: {
+    ko: string;
+    en: string;
+  };
+}
+
+const KOREAN_HOLIDAYS: LocalizedHolidayDescription[] = [
   {
     name: "New Year's Day",
     keywords: ["new year", "신정", "새해", "1월 1일"],
-    description: "신정(新正)은 양력 1월 1일을 기념하는 새해 첫날입니다. 한국에서는 전통적으로 음력 설날을 더 중요하게 여겨왔지만, 현대 사회에서는 신정도 공휴일로 지정되어 새로운 한 해의 시작을 축하합니다.\n\n이날에는 가족과 친구들이 모여 새해 인사를 나누고, 새해 계획과 목표를 세우는 시간을 갖습니다. 많은 사람들이 해돋이를 보러 가거나, 새해 첫날 특별한 의미를 담은 활동을 하며 한 해를 시작합니다.\n\n서구 문화의 영향으로 새해 파티나 카운트다운 행사도 인기를 끌고 있으며, 특히 젊은 세대들 사이에서는 새해 결심을 세우고 SNS를 통해 새해 인사를 나누는 문화가 자리잡았습니다.",
+    description: "", // 기본값, descriptions 사용
+    descriptions: {
+      ko: "신정(新正)은 양력 1월 1일을 기념하는 새해 첫날입니다. 한국에서는 전통적으로 음력 설날을 더 중요하게 여겨왔지만, 현대 사회에서는 신정도 공휴일로 지정되어 새로운 한 해의 시작을 축하합니다.\n\n이날에는 가족과 친구들이 모여 새해 인사를 나누고, 새해 계획과 목표를 세우는 시간을 갖습니다. 많은 사람들이 해돋이를 보러 가거나, 새해 첫날 특별한 의미를 담은 활동을 하며 한 해를 시작합니다.\n\n서구 문화의 영향으로 새해 파티나 카운트다운 행사도 인기를 끌고 있으며, 특히 젊은 세대들 사이에서는 새해 결심을 세우고 SNS를 통해 새해 인사를 나누는 문화가 자리잡았습니다.",
+      en: "New Year's Day (Sinjeong) is the first day of the Gregorian calendar year, celebrated on January 1st. While Korea traditionally places more importance on the Lunar New Year, modern Korean society has designated New Year's Day as a public holiday to celebrate the beginning of a new year.\n\nOn this day, families and friends gather to exchange New Year greetings and set goals and plans for the new year. Many people go to watch the sunrise or engage in special activities that hold meaning for the first day of the year.\n\nDue to Western cultural influence, New Year parties and countdown events have also become popular, especially among younger generations who make New Year's resolutions and share greetings through social media."
+    },
     culturalContext: "전통적인 음력 설날과 구별되는 양력 기준 새해로, 현대 한국 사회의 국제화를 반영하는 문화적 변화"
   },
   {
     name: "Lunar New Year",
     keywords: ["lunar new year", "설날", "음력 새해", "seollal"],
-    description: "설날은 음력 1월 1일로, 한국인들이 가장 중요하게 여기는 전통 명절입니다. 조상에게 차례를 지내고, 어른들께 세배를 드리며, 떡국을 먹어 한 살 더 먹는다는 의미를 담고 있습니다.\n\n온 가족이 모여 윷놀이, 연날리기 등 전통 놀이를 즐기며, 한복을 입고 조상의 지혜를 기리는 소중한 시간입니다. 새해를 맞아 덕담을 나누고 세뱃돈을 주고받는 따뜻한 정이 넘치는 명절이기도 합니다.\n\n현대에는 3일간의 연휴로 지정되어 전국적인 민족 대이동이 일어나며, 전통과 현대가 조화된 새로운 형태의 설날 문화가 만들어지고 있습니다.",
+    description: "", // 기본값, descriptions 사용
+    descriptions: {
+      ko: "설날은 음력 1월 1일로, 한국인들이 가장 중요하게 여기는 전통 명절입니다. 조상에게 차례를 지내고, 어른들께 세배를 드리며, 떡국을 먹어 한 살 더 먹는다는 의미를 담고 있습니다.\n\n온 가족이 모여 윷놀이, 연날리기 등 전통 놀이를 즐기며, 한복을 입고 조상의 지혜를 기리는 소중한 시간입니다. 새해를 맞아 덕담을 나누고 세뱃돈을 주고받는 따뜻한 정이 넘치는 명절이기도 합니다.\n\n현대에는 3일간의 연휴로 지정되어 전국적인 민족 대이동이 일어나며, 전통과 현대가 조화된 새로운 형태의 설날 문화가 만들어지고 있습니다.",
+      en: "Lunar New Year (Seollal) is celebrated on the first day of the lunar calendar and is the most important traditional holiday for Koreans. Families perform ancestral rites (charye), give New Year greetings to elders through sebae, and eat tteokguk (rice cake soup) symbolizing growing a year older.\n\nThe whole family gathers to enjoy traditional games like yutnori and kite flying, wearing hanbok and honoring ancestral wisdom in precious moments together. It's a warm holiday filled with affection where people exchange New Year greetings and give and receive New Year's money.\n\nIn modern times, it's designated as a three-day holiday period that causes nationwide mass migration, creating new forms of Seollal culture that harmoniously blend tradition and modernity."
+    },
     culturalContext: "농경사회의 계절 순환과 조상 숭배 사상이 결합된 한국의 대표적 전통 명절"
   },
   {
     name: "Independence Movement Day",
     keywords: ["independence movement", "3.1절", "삼일절", "독립운동일"],
-    description: "3.1절은 1919년 3월 1일 일제강점기에 일어난 3.1 독립운동을 기념하는 국경일입니다. 이날 전국에서 '대한독립만세'를 외치며 평화적 독립운동이 전개되었으며, 이는 우리 민족의 자주독립 의지를 전 세계에 알린 역사적 사건입니다.\n\n민족대표 33인이 태화관에서 독립선언서를 낭독한 것을 시작으로, 전국 각지에서 200만 명이 넘는 사람들이 만세운동에 참여했습니다. 비폭력 저항정신으로 진행된 이 운동은 세계 평화운동사에도 큰 영향을 미쳤습니다.\n\n현재는 매년 3월 1일 전국에서 기념식이 열리며, 독립정신을 되새기고 평화와 자유의 소중함을 다시 한번 생각해보는 의미 있는 날로 기념되고 있습니다.",
+    description: "", // 기본값, descriptions 사용
+    descriptions: {
+      ko: "3.1절은 1919년 3월 1일 일제강점기에 일어난 3.1 독립운동을 기념하는 국경일입니다. 이날 전국에서 '대한독립만세'를 외치며 평화적 독립운동이 전개되었으며, 이는 우리 민족의 자주독립 의지를 전 세계에 알린 역사적 사건입니다.\n\n민족대표 33인이 태화관에서 독립선언서를 낭독한 것을 시작으로, 전국 각지에서 200만 명이 넘는 사람들이 만세운동에 참여했습니다. 비폭력 저항정신으로 진행된 이 운동은 세계 평화운동사에도 큰 영향을 미쳤습니다.\n\n현재는 매년 3월 1일 전국에서 기념식이 열리며, 독립정신을 되새기고 평화와 자유의 소중함을 다시 한번 생각해보는 의미 있는 날로 기념되고 있습니다.",
+      en: "Independence Movement Day commemorates the March 1st Independence Movement of 1919 during Japanese colonial rule. On this day, peaceful independence demonstrations spread nationwide with people shouting 'Long live Korean independence,' making it a historic event that announced our nation's will for independence to the world.\n\nStarting with 33 national representatives reading the Declaration of Independence at Taehwagwan, over 2 million people across the country participated in the independence movement. This movement, conducted with a spirit of non-violent resistance, had a significant impact on the world's peace movement history.\n\nCurrently, commemorative ceremonies are held nationwide every March 1st, serving as a meaningful day to reflect on the spirit of independence and reconsider the preciousness of peace and freedom."
+    },
     culturalContext: "일제강점기 극복 의지와 평화적 저항정신을 상징하는 한국 근현대사의 중요한 전환점"
   },
   {
     name: "Children's Day",
     keywords: ["children's day", "어린이날", "5월 5일"],
-    description: "어린이날은 매년 5월 5일에 기념하는 공휴일로, 어린이들의 인격을 존중하고 행복을 도모하기 위해 제정된 특별한 날입니다. 1923년 방정환 선생을 중심으로 한 어린이 운동가들이 처음 제정했으며, 세계에서 가장 오래된 어린이 기념일 중 하나입니다.\n\n이날이 되면 전국의 가정에서는 부모들이 자녀들에게 선물을 주거나 놀이공원, 동물원 등으로 나들이를 가는 것이 일반적입니다. 각종 문화시설에서는 어린이를 위한 특별 프로그램을 운영하며, 어린이들의 꿈과 희망을 응원하는 사회 분위기가 조성됩니다.\n\n현대 사회에서는 단순한 축제를 넘어 어린이 인권과 복지, 교육 환경 개선에 대해 다시 한번 생각해보는 계기가 되고 있으며, 저출산 시대를 맞아 그 의미가 더욱 중요해지고 있습니다.",
+    description: "", // 기본값, descriptions 사용
+    descriptions: {
+      ko: "어린이날은 매년 5월 5일에 기념하는 공휴일로, 어린이들의 인격을 존중하고 행복을 도모하기 위해 제정된 특별한 날입니다. 1923년 방정환 선생을 중심으로 한 어린이 운동가들이 처음 제정했으며, 세계에서 가장 오래된 어린이 기념일 중 하나입니다.\n\n이날이 되면 전국의 가정에서는 부모들이 자녀들에게 선물을 주거나 놀이공원, 동물원 등으로 나들이를 가는 것이 일반적입니다. 각종 문화시설에서는 어린이를 위한 특별 프로그램을 운영하며, 어린이들의 꿈과 희망을 응원하는 사회 분위기가 조성됩니다.\n\n현대 사회에서는 단순한 축제를 넘어 어린이 인권과 복지, 교육 환경 개선에 대해 다시 한번 생각해보는 계기가 되고 있으며, 저출산 시대를 맞아 그 의미가 더욱 중요해지고 있습니다.",
+      en: "Children's Day is a public holiday celebrated every May 5th, established as a special day to respect children's dignity and promote their happiness. First established in 1923 by children's rights activists led by Bang Jeong-hwan, it is one of the world's oldest children's commemoration days.\n\nOn this day, it's common for parents across the country to give gifts to their children or take them on outings to amusement parks, zoos, and other attractions. Various cultural facilities operate special programs for children, creating a social atmosphere that supports children's dreams and hopes.\n\nIn modern society, it has become an opportunity to reconsider children's rights, welfare, and educational environment improvements beyond just a simple festival, and its significance has become even more important in the era of low birth rates."
+    },
     culturalContext: "근대 아동 인권 의식과 교육 개혁 정신의 산물로, 방정환의 어린이 사랑 정신을 계승하는 문화적 유산"
   },
   {
     name: "Buddha's Birthday",
     keywords: ["buddha", "부처님 오신 날", "석가탄신일", "연등회"],
-    description: "부처님 오신 날은 석가모니 부처님의 탄생을 기념하는 불교 최대의 명절로, 음력 4월 8일에 기념됩니다. 전국의 사찰에서는 화려한 연등이 밝혀지고, 신도들은 부처님의 자비와 지혜를 기리며 마음의 평안을 구합니다.\n\n특히 서울 조계사에서 시작되어 청계천을 따라 이어지는 연등축제는 봄밤을 수놓는 장관을 연출하며, 불교 신도뿐만 아니라 일반 시민들에게도 큰 볼거리가 되고 있습니다. 각 사찰에서는 관불의식, 법요식 등 다양한 불교 의례가 거행됩니다.\n\n2020년 유네스코 인류무형문화유산으로 등재된 연등회는 한국 불교문화의 아름다움을 세계에 알리는 대표적인 문화행사로 자리잡았으며, 전통과 현대가 조화롭게 어우러진 모습을 보여줍니다.",
+    description: "", // 기본값, descriptions 사용
+    descriptions: {
+      ko: "부처님 오신 날은 석가모니 부처님의 탄생을 기념하는 불교 최대의 명절로, 음력 4월 8일에 기념됩니다. 전국의 사찰에서는 화려한 연등이 밝혀지고, 신도들은 부처님의 자비와 지혜를 기리며 마음의 평안을 구합니다.\n\n특히 서울 조계사에서 시작되어 청계천을 따라 이어지는 연등축제는 봄밤을 수놓는 장관을 연출하며, 불교 신도뿐만 아니라 일반 시민들에게도 큰 볼거리가 되고 있습니다. 각 사찰에서는 관불의식, 법요식 등 다양한 불교 의례가 거행됩니다.\n\n2020년 유네스코 인류무형문화유산으로 등재된 연등회는 한국 불교문화의 아름다움을 세계에 알리는 대표적인 문화행사로 자리잡았으며, 전통과 현대가 조화롭게 어우러진 모습을 보여줍니다.",
+      en: "Buddha's Birthday commemorates the birth of Gautama Buddha and is the most important Buddhist holiday, celebrated on the 8th day of the 4th lunar month. Temples across the country light colorful lanterns, and believers honor Buddha's compassion and wisdom while seeking peace of mind.\n\nParticularly, the Lotus Lantern Festival that starts from Jogyesa Temple in Seoul and continues along Cheonggyecheon creates a spectacular sight decorating spring nights, becoming a major attraction not only for Buddhists but also for ordinary citizens. Various Buddhist ceremonies such as bathing the Buddha statue and dharma services are held at temples.\n\nThe Lotus Lantern Festival, registered as a UNESCO Intangible Cultural Heritage in 2020, has established itself as a representative cultural event that introduces the beauty of Korean Buddhist culture to the world, showing a harmonious blend of tradition and modernity."
+    },
     culturalContext: "한국 불교 문화의 정수를 보여주는 대표적 종교 축제로, 1,500년 이상 이어져 온 깊은 역사적 전통"
   },
   {
@@ -112,13 +139,13 @@ const US_HOLIDAYS: HolidayDescription[] = [
 ];
 
 /**
- * 개선된 공휴일 매칭 함수
+ * 개선된 공휴일 매칭 함수 (다국어 지원)
  */
 function findBestHolidayMatch(holidayName: string, countryName: string, locale: string = 'ko'): HolidayDescription | null {
   const normalizedName = holidayName.toLowerCase().trim();
   
   // 국가별 데이터베이스 선택
-  let holidayDatabase: HolidayDescription[] = [];
+  let holidayDatabase: (HolidayDescription | LocalizedHolidayDescription)[] = [];
   
   if (countryName.includes('Korea') || countryName === 'KR') {
     holidayDatabase = KOREAN_HOLIDAYS;
@@ -137,7 +164,8 @@ function findBestHolidayMatch(holidayName: string, countryName: string, locale: 
   
   if (bestMatch) {
     logInfo(`정확한 이름 매칭 성공: ${holidayName}`);
-    return bestMatch;
+    // 다국어 지원 처리
+    return processLocalizedDescription(bestMatch, locale);
   }
   
   // 2. 키워드 매칭 (부분 일치)
@@ -151,12 +179,13 @@ function findBestHolidayMatch(holidayName: string, countryName: string, locale: 
   
   if (bestMatch) {
     logInfo(`키워드 매칭 성공: ${holidayName}`);
-    return bestMatch;
+    // 다국어 지원 처리
+    return processLocalizedDescription(bestMatch, locale);
   }
   
   // 3. 유사도 기반 매칭 (간단한 문자열 유사도)
   let maxSimilarity = 0;
-  let similarMatch: HolidayDescription | null = null;
+  let similarMatch: (HolidayDescription | LocalizedHolidayDescription) | null = null;
   
   holidayDatabase.forEach(holiday => {
     // 이름과의 유사도 계산
@@ -177,11 +206,32 @@ function findBestHolidayMatch(holidayName: string, countryName: string, locale: 
   
   if (similarMatch) {
     logInfo(`유사도 매칭 성공: ${holidayName} (유사도: ${maxSimilarity.toFixed(2)})`);
-    return similarMatch;
+    // 다국어 지원 처리
+    return processLocalizedDescription(similarMatch, locale);
   }
   
   logWarning(`매칭 실패: ${holidayName}`);
   return null;
+}
+
+/**
+ * 다국어 설명 처리 함수
+ */
+function processLocalizedDescription(
+  holiday: HolidayDescription | LocalizedHolidayDescription, 
+  locale: string
+): HolidayDescription {
+  // LocalizedHolidayDescription인지 확인
+  if ('descriptions' in holiday && holiday.descriptions) {
+    const localizedDescription = holiday.descriptions[locale as 'ko' | 'en'] || holiday.descriptions.ko;
+    return {
+      ...holiday,
+      description: localizedDescription
+    };
+  }
+  
+  // 일반 HolidayDescription인 경우 그대로 반환
+  return holiday;
 }
 
 /**

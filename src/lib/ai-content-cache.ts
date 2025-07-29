@@ -15,6 +15,7 @@ interface CachedContent {
 
 const CACHE_DIR = path.join(process.cwd(), 'data', 'ai-cache');
 const CACHE_FILE = path.join(CACHE_DIR, 'holiday-descriptions.json');
+const PUBLIC_CACHE_FILE = path.join(process.cwd(), 'public', 'ai-cache.json');
 
 /**
  * 캐시 디렉토리를 생성합니다
@@ -36,29 +37,58 @@ export async function getCachedDescription(
   locale: string
 ): Promise<CachedContent | null> {
   try {
-    await ensureCacheDir();
-    
     const cacheKey = `${holidayName}-${countryName}-${locale}`;
     
+    // 먼저 개발 환경의 캐시 파일 시도
     try {
+      await ensureCacheDir();
       const cacheData = await fs.readFile(CACHE_FILE, 'utf-8');
       const cache: Record<string, CachedContent> = JSON.parse(cacheData);
       
       const cached = cache[cacheKey];
       if (cached) {
-        // 마지막 사용 시간 업데이트
+        // 마지막 사용 시간 업데이트 (개발 환경에서만)
         cached.lastUsed = new Date().toISOString();
         cache[cacheKey] = cached;
         
-        // 캐시 파일 업데이트
+        // 캐시 파일 업데이트 (개발 환경에서만)
         await fs.writeFile(CACHE_FILE, JSON.stringify(cache, null, 2));
         
-        logInfo(`캐시에서 설명 조회 성공: ${holidayName}`);
+        logInfo(`캐시에서 설명 조회 성공 (개발): ${holidayName}`);
         return cached;
       }
     } catch (error) {
-      // 캐시 파일이 없거나 파싱 오류인 경우 무시
-      logWarning('캐시 파일 읽기 실패 (정상적인 경우일 수 있음)', error);
+      // 개발 환경 캐시 실패 시 배포 환경 캐시 시도
+      try {
+        const publicCacheData = await fs.readFile(PUBLIC_CACHE_FILE, 'utf-8');
+        const publicCache: Record<string, CachedContent> = JSON.parse(publicCacheData);
+        
+        const cached = publicCache[cacheKey];
+        if (cached) {
+          logInfo(`캐시에서 설명 조회 성공 (배포): ${holidayName}`);
+          return cached;
+        }
+      } catch (publicError) {
+        // 마지막으로 HTTP를 통한 캐시 접근 시도 (배포 환경)
+        try {
+          if (typeof window !== 'undefined') {
+            // 클라이언트 사이드에서는 fetch 사용
+            const response = await fetch('/ai-cache.json');
+            if (response.ok) {
+              const httpCache: Record<string, CachedContent> = await response.json();
+              const cached = httpCache[cacheKey];
+              if (cached) {
+                logInfo(`캐시에서 설명 조회 성공 (HTTP): ${holidayName}`);
+                return cached;
+              }
+            }
+          }
+        } catch (httpError) {
+          logWarning('HTTP 캐시 접근도 실패', httpError);
+        }
+        
+        logWarning('모든 캐시 접근 방법 실패', publicError);
+      }
     }
     
     return null;

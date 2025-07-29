@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npm run validate-data && next build",
+    "build": "npm run validate-data && npm run copy-cache && next build",
     "build:static": "npm run validate-data && tsx scripts/build-static-pages.ts --static",
     "build:isr": "npm run validate-data && tsx scripts/build-static-pages.ts",
     "start": "next start",
@@ -31,7 +31,8 @@
     "test-improved-ai": "tsx scripts/test-improved-ai-content.ts",
     "test-ai-detailed": "tsx scripts/test-improved-ai-content.ts",
     "generate-missing-descriptions": "tsx scripts/generate-missing-ai-descriptions.ts",
-    "generate-country-descriptions": "tsx scripts/generate-missing-ai-descriptions.ts"
+    "generate-country-descriptions": "tsx scripts/generate-missing-ai-descriptions.ts",
+    "copy-cache": "tsx scripts/copy-cache-to-public.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",
