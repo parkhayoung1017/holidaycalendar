@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "AL-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.381Z",
+      "updatedAt": "2025-07-29T04:47:26.381Z"
+    },
+    {
+      "id": "AL-2025-01-02-1",
+      "name": "New Year's Day",
+      "date": "2025-01-02",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.381Z",
+      "updatedAt": "2025-07-29T04:47:26.381Z"
+    },
+    {
+      "id": "AL-2025-03-14-2",
+      "name": "Summer Day",
+      "date": "2025-03-14",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.381Z",
+      "updatedAt": "2025-07-29T04:47:26.381Z"
+    },
+    {
+      "id": "AL-2025-03-24-3",
+      "name": "Nowruz",
+      "date": "2025-03-24",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.381Z",
+      "updatedAt": "2025-07-29T04:47:26.381Z"
+    },
+    {
+      "id": "AL-2025-04-20-4",
+      "name": "Easter Sunday",
+      "date": "2025-04-20",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.381Z",
+      "updatedAt": "2025-07-29T04:47:26.381Z"
+    },
+    {
+      "id": "AL-2025-04-21-6",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.382Z",
+      "updatedAt": "2025-07-29T04:47:26.382Z"
+    },
+    {
+      "id": "AL-2025-05-01-8",
+      "name": "May Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.382Z",
+      "updatedAt": "2025-07-29T04:47:26.382Z"
+    },
+    {
+      "id": "AL-2025-09-05-9",
+      "name": "Mother Teresa Day",
+      "date": "2025-09-05",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.382Z",
+      "updatedAt": "2025-07-29T04:47:26.382Z"
+    },
+    {
+      "id": "AL-2025-11-28-10",
+      "name": "Independence Day",
+      "date": "2025-11-28",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.382Z",
+      "updatedAt": "2025-07-29T04:47:26.382Z"
+    },
+    {
+      "id": "AL-2025-12-01-11",
+      "name": "Liberation Day",
+      "date": "2025-12-01",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.382Z",
+      "updatedAt": "2025-07-29T04:47:26.382Z"
+    },
+    {
+      "id": "AL-2025-12-08-12",
+      "name": "Youth Day",
+      "date": "2025-12-08",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.382Z",
+      "updatedAt": "2025-07-29T04:47:26.382Z"
+    },
+    {
+      "id": "AL-2025-12-25-13",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:26.382Z",
+      "updatedAt": "2025-07-29T04:47:26.382Z"
+    }
+  ],
+  "timestamp": 1753764446382,
+  "ttl": 86400000,
+  "key": "holiday:AL:2025"
+}

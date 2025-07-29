@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "MC-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-01-27-1",
+      "name": "Saint Devota's Day",
+      "date": "2025-01-27",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-04-21-2",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-05-01-3",
+      "name": "May Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-05-29-4",
+      "name": "Ascension Day",
+      "date": "2025-05-29",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-06-09-5",
+      "name": "Whit Monday",
+      "date": "2025-06-09",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-06-19-6",
+      "name": "Corpus Christi",
+      "date": "2025-06-19",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-08-15-7",
+      "name": "Assumption Day",
+      "date": "2025-08-15",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-11-01-8",
+      "name": "All Saints Day",
+      "date": "2025-11-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-11-19-9",
+      "name": "National Day",
+      "date": "2025-11-19",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-12-08-10",
+      "name": "The Immaculate Conception",
+      "date": "2025-12-08",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    },
+    {
+      "id": "MC-2025-12-25-11",
+      "name": "​Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:47.990Z",
+      "updatedAt": "2025-07-29T04:48:47.990Z"
+    }
+  ],
+  "timestamp": 1753764527990,
+  "ttl": 86400000,
+  "key": "holiday:MC:2025"
+}

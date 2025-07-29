@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "BS-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-01-12-1",
+      "name": "Majority Rule Day",
+      "date": "2024-01-12",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-04-01-3",
+      "name": "Perry Christie Day",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-04-01-4",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-05-20-5",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-07-10-6",
+      "name": "Independence Day",
+      "date": "2024-07-10",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-08-05-7",
+      "name": "Emancipation Day",
+      "date": "2024-08-05",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-10-14-8",
+      "name": "National Heroes' Day",
+      "date": "2024-10-14",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-12-25-9",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    },
+    {
+      "id": "BS-2024-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:36.863Z",
+      "updatedAt": "2025-07-29T04:44:36.863Z"
+    }
+  ],
+  "timestamp": 1753764276864,
+  "ttl": 86400000,
+  "key": "holiday:BS:2024"
+}

@@ -1,0 +1,129 @@
+{
+  "countryCode": "CG",
+  "year": 2024,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-07-29T04:44:45.252Z",
+  "holidays": [
+    {
+      "id": "CG-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-03-31-1",
+      "name": "Easter Sunday",
+      "date": "2024-03-31",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-04-01-2",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-05-01-3",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-05-09-4",
+      "name": "Ascension Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-05-20-5",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-06-10-6",
+      "name": "Reconciliation Day",
+      "date": "2024-06-10",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-08-15-7",
+      "name": "National Day",
+      "date": "2024-08-15",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-11-01-8",
+      "name": "All Saints' Day",
+      "date": "2024-11-01",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-11-28-9",
+      "name": "Republic Day",
+      "date": "2024-11-28",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    },
+    {
+      "id": "CG-2024-12-25-10",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "CG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:45.252Z",
+      "updatedAt": "2025-07-29T04:44:45.252Z"
+    }
+  ]
+}

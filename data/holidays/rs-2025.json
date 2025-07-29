@@ -1,0 +1,129 @@
+{
+  "countryCode": "RS",
+  "year": 2025,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-07-29T04:49:19.543Z",
+  "holidays": [
+    {
+      "id": "RS-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-01-02-1",
+      "name": "New Year's Day",
+      "date": "2025-01-02",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-01-07-2",
+      "name": "Christmas Day",
+      "date": "2025-01-07",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-02-15-3",
+      "name": "Statehood Day",
+      "date": "2025-02-15",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-02-17-4",
+      "name": "Statehood Day",
+      "date": "2025-02-17",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-04-18-5",
+      "name": "Good Friday",
+      "date": "2025-04-18",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-04-20-6",
+      "name": "Easter Sunday",
+      "date": "2025-04-20",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-04-21-7",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-05-01-8",
+      "name": "Labour Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-05-02-9",
+      "name": "Labour Day",
+      "date": "2025-05-02",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    },
+    {
+      "id": "RS-2025-11-11-10",
+      "name": "Armistice Day",
+      "date": "2025-11-11",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:19.543Z",
+      "updatedAt": "2025-07-29T04:49:19.543Z"
+    }
+  ]
+}

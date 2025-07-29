@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "NE-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:07.998Z",
+      "updatedAt": "2025-07-29T04:49:07.998Z"
+    },
+    {
+      "id": "NE-2025-04-21-1",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:07.998Z",
+      "updatedAt": "2025-07-29T04:49:07.998Z"
+    },
+    {
+      "id": "NE-2025-04-24-2",
+      "name": "Concord Day",
+      "date": "2025-04-24",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:07.998Z",
+      "updatedAt": "2025-07-29T04:49:07.998Z"
+    },
+    {
+      "id": "NE-2025-05-01-3",
+      "name": "Labour Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:07.998Z",
+      "updatedAt": "2025-07-29T04:49:07.998Z"
+    },
+    {
+      "id": "NE-2025-08-03-4",
+      "name": "Nigerien Independence Day",
+      "date": "2025-08-03",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:07.998Z",
+      "updatedAt": "2025-07-29T04:49:07.998Z"
+    },
+    {
+      "id": "NE-2025-12-18-5",
+      "name": "Nigerien Republic Day",
+      "date": "2025-12-18",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:07.998Z",
+      "updatedAt": "2025-07-29T04:49:07.998Z"
+    },
+    {
+      "id": "NE-2025-12-25-6",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:49:07.998Z",
+      "updatedAt": "2025-07-29T04:49:07.998Z"
+    }
+  ],
+  "timestamp": 1753764547998,
+  "ttl": 86400000,
+  "key": "holiday:NE:2025"
+}

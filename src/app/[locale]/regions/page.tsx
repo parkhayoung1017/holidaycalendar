@@ -11,7 +11,8 @@ function getRegionName(regionId: string, isKorean: boolean): string {
     'north-america': { ko: '북미', en: 'North America' },
     'south-america': { ko: '남미', en: 'South America' },
     'africa': { ko: '아프리카', en: 'Africa' },
-    'oceania': { ko: '오세아니아', en: 'Oceania' }
+    'oceania': { ko: '오세아니아', en: 'Oceania' },
+    'middle-east': { ko: '중동', en: 'Middle East' }
   };
   
   return regionNames[regionId]?.[isKorean ? 'ko' : 'en'] || regionId;
@@ -23,43 +24,49 @@ interface PageProps {
   };
 }
 
-// 지역 정보 정의
+// 지역 정보 정의 (수집된 데이터 기반으로 확장)
 const REGIONS = [
   {
     id: 'asia',
     nameKey: 'regions.asia',
-    countries: ['KR', 'JP', 'CN', 'IN', 'TH', 'SG', 'MY', 'ID', 'PH', 'VN'],
+    countries: ['KR', 'JP', 'CN', 'IN', 'TH', 'SG', 'MY', 'ID', 'PH', 'VN', 'BD', 'PK', 'LK', 'MM', 'KH', 'LA', 'MN', 'KZ', 'UZ', 'KG', 'TJ', 'TM', 'AM', 'AZ', 'GE', 'BT', 'NP', 'BN', 'TL', 'HK', 'MO', 'TW'],
     flag: '🌏'
   },
   {
     id: 'europe',
     nameKey: 'regions.europe', 
-    countries: ['GB', 'DE', 'FR', 'IT', 'ES', 'NL', 'SE', 'NO', 'DK', 'FI'],
+    countries: ['GB', 'DE', 'FR', 'IT', 'ES', 'NL', 'SE', 'NO', 'DK', 'FI', 'IS', 'IE', 'PT', 'BE', 'LU', 'PL', 'CZ', 'SK', 'HU', 'SI', 'HR', 'RS', 'BG', 'RO', 'GR', 'CY', 'MT', 'EE', 'LV', 'LT', 'RU', 'UA', 'BY', 'MD', 'AL', 'BA', 'ME', 'MK', 'AD', 'MC', 'SM', 'VA', 'LI', 'FO', 'GI', 'IM', 'JE', 'GG', 'GL', 'SJ', 'CH', 'AT'],
     flag: '🌍'
   },
   {
     id: 'north-america',
     nameKey: 'regions.northAmerica',
-    countries: ['US', 'CA', 'MX'],
+    countries: ['US', 'CA', 'MX', 'GT', 'BZ', 'SV', 'HN', 'NI', 'CR', 'PA', 'CU', 'JM', 'HT', 'DO', 'BB', 'BS', 'DM', 'GD', 'KN', 'LC', 'VC', 'PR', 'VI', 'VG', 'KY', 'TC', 'MS', 'GU', 'SX', 'TT'],
     flag: '🌎'
   },
   {
     id: 'south-america',
     nameKey: 'regions.southAmerica',
-    countries: ['BR', 'AR', 'CL', 'CO', 'PE'],
+    countries: ['BR', 'AR', 'CL', 'PE', 'CO', 'VE', 'EC', 'BO', 'PY', 'UY', 'GY', 'SR'],
     flag: '🌎'
   },
   {
     id: 'africa',
     nameKey: 'regions.africa',
-    countries: ['ZA', 'NG', 'EG'],
+    countries: ['ZA', 'EG', 'NG', 'KE', 'ET', 'GH', 'TZ', 'UG', 'MZ', 'MG', 'ZW', 'BW', 'NA', 'ZM', 'MW', 'MA', 'DZ', 'TN', 'LY', 'SD', 'AO', 'CM', 'CD', 'CG', 'CI', 'GA', 'GN', 'GW', 'LR', 'ML', 'MR', 'MU', 'NE', 'RW', 'SN', 'SC', 'SL', 'SO', 'SS', 'SZ', 'TD', 'TG', 'BF', 'BI', 'BJ', 'CF', 'CV', 'DJ', 'ER', 'GM', 'GQ', 'KM', 'LS', 'MV', 'ST', 'SH'],
     flag: '🌍'
   },
   {
     id: 'oceania',
     nameKey: 'regions.oceania',
-    countries: ['AU', 'NZ'],
+    countries: ['AU', 'NZ', 'FJ', 'PG', 'SB', 'VU', 'NC', 'PF', 'KI', 'MH', 'NR', 'NU', 'PW', 'TO', 'TV', 'WS', 'WF'],
     flag: '🌏'
+  },
+  {
+    id: 'middle-east',
+    nameKey: 'regions.middleEast',
+    countries: ['AE', 'SA', 'IL', 'TR', 'IR', 'IQ', 'SY', 'LB', 'JO', 'KW', 'QA', 'BH', 'OM', 'YE', 'AF', 'PS'],
+    flag: '🕌'
   }
 ];
 

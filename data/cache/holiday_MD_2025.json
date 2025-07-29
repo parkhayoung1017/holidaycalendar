@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "id": "MD-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-01-07-1",
+      "name": "Craciun pe stil Vechi (Orthodox Christmas)",
+      "date": "2025-01-07",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-01-08-2",
+      "name": "Craciun pe stil Vechi (Orthodox Christmas)",
+      "date": "2025-01-08",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-02-23-3",
+      "name": "Day of Veterans of the Armed Forces and Law Enforcement Agencies",
+      "date": "2025-02-23",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-03-08-4",
+      "name": "International Women's Day",
+      "date": "2025-03-08",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-04-20-5",
+      "name": "Easter Sunday",
+      "date": "2025-04-20",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-05-01-6",
+      "name": "Labour Day (Moldova)",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-05-09-7",
+      "name": "Victory and Commemoration Day",
+      "date": "2025-05-09",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-05-22-8",
+      "name": "Bălţi Day",
+      "date": "2025-05-22",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-08-25-9",
+      "name": "Memorial Day",
+      "date": "2025-08-25",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-08-27-10",
+      "name": "Independence Day (Moldova)",
+      "date": "2025-08-27",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-08-31-11",
+      "name": "Limba Noastra (National Language Day (Moldova))",
+      "date": "2025-08-31",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-09-03-12",
+      "name": "Day of the Moldovan National Army",
+      "date": "2025-09-03",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-10-14-13",
+      "name": "Capital's Day",
+      "date": "2025-10-14",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-11-21-14",
+      "name": "South Capital's Day Cahul",
+      "date": "2025-11-21",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    },
+    {
+      "id": "MD-2025-12-25-15",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "MD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:50.016Z",
+      "updatedAt": "2025-07-29T04:48:50.016Z"
+    }
+  ],
+  "timestamp": 1753764530017,
+  "ttl": 86400000,
+  "key": "holiday:MD:2025"
+}

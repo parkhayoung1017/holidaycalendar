@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { MONTH_NAMES, DAY_NAMES, CURRENT_YEAR, SUPPORTED_COUNTRIES } from '@/lib/constants';
 import { Holiday } from '@/types';
 import { getCountrySlugFromCode, createHolidaySlug } from '@/lib/country-utils';
+import { useI18nContext } from '@/lib/i18n-context';
 
 interface CalendarHoliday {
   date: string;
@@ -31,11 +32,67 @@ export default function MonthlyCalendar({
   const [currentDate, setCurrentDate] = useState<Date | null>(null);
   const [showAllHolidays, setShowAllHolidays] = useState(false);
   const [isClient, setIsClient] = useState(false);
+  const { translations } = useI18nContext();
 
   useEffect(() => {
     setCurrentDate(new Date());
     setIsClient(true);
   }, []);
+
+  // 국가명 번역 함수
+  const translateCountryName = (countryCode: string): string => {
+    // 직접 번역 매핑 사용 (더 안정적)
+    const countryTranslations: Record<string, { ko: string; en: string }> = {
+      'KR': { ko: '대한민국', en: 'South Korea' },
+      'JP': { ko: '일본', en: 'Japan' },
+      'CN': { ko: '중국', en: 'China' },
+      'US': { ko: '미국', en: 'United States' },
+      'GB': { ko: '영국', en: 'United Kingdom' },
+      'DE': { ko: '독일', en: 'Germany' },
+      'FR': { ko: '프랑스', en: 'France' },
+      'IT': { ko: '이탈리아', en: 'Italy' },
+      'ES': { ko: '스페인', en: 'Spain' },
+      'NL': { ko: '네덜란드', en: 'Netherlands' },
+      'CA': { ko: '캐나다', en: 'Canada' },
+      'AU': { ko: '호주', en: 'Australia' },
+      'BR': { ko: '브라질', en: 'Brazil' },
+      'AR': { ko: '아르헨티나', en: 'Argentina' },
+      'SG': { ko: '싱가포르', en: 'Singapore' },
+      'IN': { ko: '인도', en: 'India' },
+      'MX': { ko: '멕시코', en: 'Mexico' },
+      'NZ': { ko: '뉴질랜드', en: 'New Zealand' },
+      'ZA': { ko: '남아프리카공화국', en: 'South Africa' },
+      'EG': { ko: '이집트', en: 'Egypt' },
+      'ME': { ko: '몬테네그로', en: 'Montenegro' },
+      'CL': { ko: '칠레', en: 'Chile' },
+      'LS': { ko: '레소토', en: 'Lesotho' },
+      'GM': { ko: '감비아', en: 'Gambia' },
+      'PR': { ko: '푸에르토리코', en: 'Puerto Rico' },
+      'SM': { ko: '산마리노', en: 'San Marino' },
+      'IE': { ko: '아일랜드', en: 'Ireland' },
+      'RU': { ko: '러시아', en: 'Russia' },
+      'MY': { ko: '말레이시아', en: 'Malaysia' }
+    };
+    
+    const translation = countryTranslations[countryCode];
+    if (translation) {
+      return locale === 'ko' ? translation.ko : translation.en;
+    }
+    
+    // 번역이 없으면 translations.countries에서 시도
+    if (locale === 'ko' && translations?.countries?.[countryCode]) {
+      return translations.countries[countryCode];
+    }
+    
+    // SUPPORTED_COUNTRIES에서 영어 이름 찾기
+    const countryInfo = SUPPORTED_COUNTRIES.find(c => c.code === countryCode);
+    if (countryInfo) {
+      return locale === 'en' ? countryInfo.name : countryInfo.name;
+    }
+    
+    // 마지막으로 국가 코드 반환
+    return countryCode;
+  };
   
   // 월별 샘플 공휴일 데이터 생성 함수
   const generateSampleHolidays = (year: number, month: number): CalendarHoliday[] => {
@@ -179,7 +236,7 @@ export default function MonthlyCalendar({
   const translateHolidayName = (originalName: string, countryCode: string): string => {
     if (locale === 'en') return originalName;
     
-    // 일반적인 공휴일 번역 매핑
+    // 일반적인 공휴일 번역 매핑 (확장된 버전)
     const commonTranslations: Record<string, string> = {
       "New Year's Day": "신정",
       "Christmas Day": "크리스마스",
@@ -222,7 +279,28 @@ export default function MonthlyCalendar({
       "Our Lady of Aparecida": "아파레시다 성모 대축일",
       "All Souls' Day": "위령의 날",
       "Republic Proclamation Day": "공화국 선포일",
-      "Black Awareness Day": "흑인 의식의 날"
+      "Black Awareness Day": "흑인 의식의 날",
+      // 화면에 보이는 추가 공휴일들
+      "Revolution Day": "혁명의 날",
+      "Statehood Day": "주 설립일",
+      "Constitutionalist Revolution of 1932": "1932년 입헌주의 혁명",
+      "Orangemen's Day": "오렌지맨의 날",
+      "Battle of the Boyne": "보인 전투 기념일",
+      "Our Lady of Mount Carmel": "갈멜산의 성모 마리아",
+      "King Letsie III's Birthday": "레치에 3세 국왕 탄신일",
+      "Marine Day": "바다의 날",
+      "Birthday of Don Luis Muñoz Rivera": "돈 루이스 무뇨스 리베라 탄신일",
+      "Santiago Apóstol": "성 야고보 사도 축일",
+      "Armed Forces Day": "국군의 날",
+      "June 30 Revolution": "6월 30일 혁명",
+      "Revolution Day 2011 National Police Day": "2011년 혁명의 날 국가경찰의 날",
+      "Sinai Liberation Day": "시나이 해방의 날",
+      "Saint Olav's Day": "성 올라프의 날",
+      "Liberation from Fascism": "파시즘 해방의 날",
+      "Day of the Cantabrian Institutions": "칸타브리아 기관의 날",
+      "Birthday of Dr. José Celso Barbosa": "호세 셀소 바르보사 박사 탄신일",
+      "Saint Olav's Eve": "성 올라프 전야",
+      "Tynwald Day": "틴월드 데이"
     };
     
     // 정확한 매치 먼저 시도
@@ -230,10 +308,11 @@ export default function MonthlyCalendar({
       return commonTranslations[originalName];
     }
     
-    // 부분 매치 시도
-    for (const [english, korean] of Object.entries(commonTranslations)) {
+    // 부분 매치 시도 (더 구체적인 것부터)
+    const sortedKeys = Object.keys(commonTranslations).sort((a, b) => b.length - a.length);
+    for (const english of sortedKeys) {
       if (originalName.toLowerCase().includes(english.toLowerCase())) {
-        return korean;
+        return commonTranslations[english];
       }
     }
     
@@ -523,7 +602,7 @@ export default function MonthlyCalendar({
               .map((holiday, index) => {
                 const holidayDate = new Date(holiday.date);
                 const countryInfo = SUPPORTED_COUNTRIES.find(c => c.code === holiday.country);
-                const countryName = countryInfo?.name || holiday.country;
+                const countryName = translateCountryName(holiday.country);
                 
                 return (
                   <div 

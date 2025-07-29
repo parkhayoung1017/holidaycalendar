@@ -32,7 +32,11 @@
     "test-ai-detailed": "tsx scripts/test-improved-ai-content.ts",
     "generate-missing-descriptions": "tsx scripts/generate-missing-ai-descriptions.ts",
     "generate-country-descriptions": "tsx scripts/generate-missing-ai-descriptions.ts",
-    "copy-cache": "tsx scripts/copy-cache-to-public.ts"
+    "copy-cache": "tsx scripts/copy-cache-to-public.ts",
+    "collect-nager": "tsx scripts/collect-nager-countries.ts",
+    "collect-missing": "tsx scripts/collect-nager-countries.ts",
+    "update-countries": "tsx scripts/update-country-constants.ts",
+    "update-translations": "tsx scripts/update-country-translations.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",

@@ -1,0 +1,151 @@
+{
+  "countryCode": "GD",
+  "year": 2024,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-07-29T04:45:08.144Z",
+  "holidays": [
+    {
+      "id": "GD-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-02-07-1",
+      "name": "Independence Day",
+      "date": "2024-02-07",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-04-01-3",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-05-01-4",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-05-01-5",
+      "name": "Indian Arrival Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-05-20-6",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-05-30-7",
+      "name": "Corpus Christi",
+      "date": "2024-05-30",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-08-05-8",
+      "name": "Emancipation Day",
+      "date": "2024-08-05",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-08-11-9",
+      "name": "Carnival",
+      "date": "2024-08-11",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-10-25-10",
+      "name": "Thanksgiving Day",
+      "date": "2024-10-25",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-12-25-11",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    },
+    {
+      "id": "GD-2024-12-26-12",
+      "name": "Boxing Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:08.144Z",
+      "updatedAt": "2025-07-29T04:45:08.144Z"
+    }
+  ]
+}

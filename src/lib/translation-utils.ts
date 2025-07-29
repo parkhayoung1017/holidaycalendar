@@ -43,7 +43,19 @@ const HOLIDAY_NAME_MAPPING: Record<string, string> = {
   "National Women's Day": "common.nationalWomensDay",
   "Heritage Day": "common.heritageDay",
   "Day of Reconciliation": "common.dayOfReconciliation",
-  "Day of Goodwill": "common.dayOfGoodwill"
+  "Day of Goodwill": "common.dayOfGoodwill",
+  // 화면에 보이는 추가 공휴일들
+  "Revolution Day": "common.revolutionDay",
+  "Statehood Day": "common.statehoodDay",
+  "Constitutionalist Revolution of 1932": "common.constitutionalistRevolution",
+  "Orangemen's Day": "common.orangemensDay",
+  "Battle of the Boyne": "common.battleOfBoyne",
+  "Our Lady of Mount Carmel": "common.ourLadyOfMountCarmel",
+  "King Letsie III's Birthday": "common.kingsBirthday",
+  "Marine Day": "common.marineDay",
+  "Birthday of Don Luis Muñoz Rivera": "common.donLuisMunozRiveraBirthday",
+  "Santiago Apóstol": "common.santiagoApostol",
+  "Bastille Day": "common.bastilleDay"
 };
 
 // 국가별 특별 휴일 번역 키
@@ -116,10 +128,8 @@ export function translateHolidayName(
     if (holidayName.includes(englishName) || englishName.includes(holidayName)) {
       const translated = getNestedTranslation(translations.holidays, translationKey);
       if (translated) {
-        // 부분 매칭인 경우 원본 이름도 함께 표시
-        return locale === 'ko' 
-          ? `${translated} (${holidayName})`
-          : translated;
+        // 부분 매칭인 경우에도 번역된 이름만 반환 (원본 이름 제거)
+        return translated;
       }
     }
   }
@@ -138,11 +148,28 @@ export function translateCountryName(
   countryCode: string,
   translations: any
 ): string {
-  if (!countryCode || !translations?.countries?.countries) {
+  if (!countryCode || !translations) {
     return countryCode;
   }
 
-  return translations.countries.countries[countryCode] || countryCode;
+  // 번역 데이터 구조 확인 및 국가명 반환
+  if (translations.countries && typeof translations.countries === 'object') {
+    // countries 객체가 중첩된 구조인 경우
+    if (translations.countries.countries) {
+      return translations.countries.countries[countryCode] || countryCode;
+    }
+    // countries 객체가 직접 국가 코드를 키로 가지는 경우
+    else if (translations.countries[countryCode]) {
+      return translations.countries[countryCode];
+    }
+  }
+
+  // countries가 직접 최상위에 있는 경우 (현재 구조)
+  if (translations[countryCode]) {
+    return translations[countryCode];
+  }
+
+  return countryCode;
 }
 
 /**

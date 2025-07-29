@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "BJ-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.337Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-01-10-1",
+      "name": "Traditional Day",
+      "date": "2025-01-10",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-04-20-2",
+      "name": "Easter Sunday",
+      "date": "2025-04-20",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-04-21-3",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-05-01-4",
+      "name": "Labour Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-05-29-5",
+      "name": "Ascension Day",
+      "date": "2025-05-29",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-06-09-6",
+      "name": "Whit Monday",
+      "date": "2025-06-09",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-08-01-7",
+      "name": "Independence Day",
+      "date": "2025-08-01",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-08-15-8",
+      "name": "Assumption Day",
+      "date": "2025-08-15",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-10-26-9",
+      "name": "Armed Forces Day",
+      "date": "2025-10-26",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-11-01-10",
+      "name": "All Saints' Day",
+      "date": "2025-11-01",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-11-30-11",
+      "name": "National Day",
+      "date": "2025-11-30",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-12-25-12",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    },
+    {
+      "id": "BJ-2025-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2025-12-26",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:47:41.338Z",
+      "updatedAt": "2025-07-29T04:47:41.338Z"
+    }
+  ],
+  "timestamp": 1753764461339,
+  "ttl": 86400000,
+  "key": "holiday:BJ:2025"
+}

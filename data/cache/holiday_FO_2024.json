@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "id": "FO-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-03-28-1",
+      "name": "Maundy Thursday",
+      "date": "2024-03-28",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-03-31-3",
+      "name": "Easter Sunday",
+      "date": "2024-03-31",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-04-01-4",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-04-25-5",
+      "name": "National Flag Day",
+      "date": "2024-04-25",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-04-26-6",
+      "name": "General Prayer Day",
+      "date": "2024-04-26",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-05-09-7",
+      "name": "Ascension Day",
+      "date": "2024-05-09",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-05-19-8",
+      "name": "Pentecost",
+      "date": "2024-05-19",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-05-20-9",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-06-05-10",
+      "name": "Constitution Day",
+      "date": "2024-06-05",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-07-28-11",
+      "name": "Saint Olav's Eve",
+      "date": "2024-07-28",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-07-29-12",
+      "name": "Saint Olav's Day",
+      "date": "2024-07-29",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-12-24-13",
+      "name": "Christmas Eve",
+      "date": "2024-12-24",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-12-25-14",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-12-26-15",
+      "name": "St. Stephen's Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    },
+    {
+      "id": "FO-2024-12-31-16",
+      "name": "New Year's Eve",
+      "date": "2024-12-31",
+      "country": "",
+      "countryCode": "FO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:03.983Z",
+      "updatedAt": "2025-07-29T04:45:03.983Z"
+    }
+  ],
+  "timestamp": 1753764303984,
+  "ttl": 86400000,
+  "key": "holiday:FO:2024"
+}

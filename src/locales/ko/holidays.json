@@ -22,7 +22,18 @@
     "nationalWomensDay": "여성의 날",
     "heritageDay": "문화유산의 날",
     "dayOfReconciliation": "화해의 날",
-    "dayOfGoodwill": "선의의 날"
+    "dayOfGoodwill": "선의의 날",
+    "revolutionDay": "혁명의 날",
+    "statehoodDay": "주 설립일",
+    "constitutionalistRevolution": "입헌주의 혁명",
+    "orangemensDay": "오렌지맨의 날",
+    "battleOfBoyne": "보인 전투 기념일",
+    "ourLadyOfMountCarmel": "갈멜산의 성모 마리아",
+    "kingsBirthday": "국왕 탄신일",
+    "marineDay": "바다의 날",
+    "donLuisMunozRiveraBirthday": "돈 루이스 무뇨스 리베라 탄신일",
+    "santiagoApostol": "성 야고보 사도 축일",
+    "bastilleDay": "바스티유 데이"
   },
   "korean": {
     "lunarNewYear": "설날",

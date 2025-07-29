@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "LS-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-03-11-1",
+      "name": "Moshoeshoe Day",
+      "date": "2025-03-11",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-04-18-2",
+      "name": "Good Friday",
+      "date": "2025-04-18",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-04-21-3",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-05-01-4",
+      "name": "Workers' Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-05-25-5",
+      "name": "Africa Day/ Heroes' Day",
+      "date": "2025-05-25",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-05-29-6",
+      "name": "Ascension Day",
+      "date": "2025-05-29",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-07-17-7",
+      "name": "King Letsie III's Birthday",
+      "date": "2025-07-17",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-10-04-8",
+      "name": "Independence Day",
+      "date": "2025-10-04",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-12-25-9",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    },
+    {
+      "id": "LS-2025-12-26-10",
+      "name": "Boxing Day",
+      "date": "2025-12-26",
+      "country": "",
+      "countryCode": "LS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:46.944Z",
+      "updatedAt": "2025-07-29T04:48:46.944Z"
+    }
+  ],
+  "timestamp": 1753764526945,
+  "ttl": 86400000,
+  "key": "holiday:LS:2025"
+}

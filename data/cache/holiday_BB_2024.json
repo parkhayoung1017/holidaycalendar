@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "BB-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-01-21-1",
+      "name": "Errol Barrow Day",
+      "date": "2024-01-21",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-03-29-2",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-04-01-3",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-04-28-4",
+      "name": "National Heroes' Day",
+      "date": "2024-04-28",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-05-01-5",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-05-20-6",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-08-01-7",
+      "name": "Emancipation Day",
+      "date": "2024-08-01",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-08-05-8",
+      "name": "Kadooment Day",
+      "date": "2024-08-05",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-11-30-9",
+      "name": "Independence Day",
+      "date": "2024-11-30",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-12-25-10",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    },
+    {
+      "id": "BB-2024-12-26-11",
+      "name": "Boxing Day",
+      "date": "2024-12-26",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:26.499Z",
+      "updatedAt": "2025-07-29T04:44:26.499Z"
+    }
+  ],
+  "timestamp": 1753764266500,
+  "ttl": 86400000,
+  "key": "holiday:BB:2024"
+}

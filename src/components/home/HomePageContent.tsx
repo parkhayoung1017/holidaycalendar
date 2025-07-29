@@ -61,10 +61,47 @@ export default function HomePageContent({
       )
     : [];
 
-  // 국가명 번역 함수
+  // 국가명 번역 함수 (직접 매핑 사용)
   const getTranslatedCountryName = (country: Country) => {
-    const translatedName = translateCountryName(country.code, translations);
-    return translatedName !== country.code ? translatedName : country.name;
+    if (locale === 'en') return country.name;
+    
+    // 직접 번역 매핑 (한국어)
+    const countryTranslations: Record<string, string> = {
+      'KR': '대한민국',
+      'JP': '일본',
+      'CN': '중국',
+      'US': '미국',
+      'GB': '영국',
+      'DE': '독일',
+      'FR': '프랑스',
+      'IT': '이탈리아',
+      'ES': '스페인',
+      'NL': '네덜란드',
+      'CA': '캐나다',
+      'AU': '호주',
+      'BR': '브라질',
+      'AR': '아르헨티나',
+      'SG': '싱가포르',
+      'IN': '인도',
+      'MX': '멕시코',
+      'NZ': '뉴질랜드',
+      'ZA': '남아프리카공화국',
+      'EG': '이집트'
+    };
+    
+    // 번역된 이름이 있으면 사용, 없으면 원본 이름 사용
+    const translatedName = countryTranslations[country.code];
+    
+    if (process.env.NODE_ENV === 'development') {
+      console.log('국가명 번역:', {
+        countryCode: country.code,
+        originalName: country.name,
+        translatedName,
+        hasTranslation: !!translatedName
+      });
+    }
+    
+    return translatedName || country.name;
   };
 
   // 번역 데이터가 로딩 중일 때 로딩 표시

@@ -1,0 +1,197 @@
+{
+  "data": [
+    {
+      "id": "CL-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-03-29-1",
+      "name": "Good Friday",
+      "date": "2024-03-29",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-03-30-2",
+      "name": "Holy Saturday",
+      "date": "2024-03-30",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-05-01-3",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-05-21-4",
+      "name": "Navy Day",
+      "date": "2024-05-21",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-06-07-5",
+      "name": "Battle of Arica",
+      "date": "2024-06-07",
+      "country": "",
+      "countryCode": "CL",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CL-AP"
+      ],
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-06-20-6",
+      "name": "National Day of Indigenous Peoples",
+      "date": "2024-06-20",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-06-24-7",
+      "name": "Saint Peter and Saint Paul",
+      "date": "2024-06-24",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-07-16-8",
+      "name": "Our Lady of Mount Carmel",
+      "date": "2024-07-16",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-08-15-9",
+      "name": "Assumption of Mary",
+      "date": "2024-08-15",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-09-18-10",
+      "name": "National holiday",
+      "date": "2024-09-18",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-09-19-11",
+      "name": "Army Day",
+      "date": "2024-09-19",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-10-12-12",
+      "name": "Columbus Day",
+      "date": "2024-10-12",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-10-31-13",
+      "name": "Reformation Day",
+      "date": "2024-10-31",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-11-01-14",
+      "name": "All Saints",
+      "date": "2024-11-01",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-12-08-15",
+      "name": "Immaculate Conception",
+      "date": "2024-12-08",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    },
+    {
+      "id": "CL-2024-12-25-16",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:44:49.446Z",
+      "updatedAt": "2025-07-29T04:44:49.446Z"
+    }
+  ],
+  "timestamp": 1753764289446,
+  "ttl": 86400000,
+  "key": "holiday:CL:2024"
+}

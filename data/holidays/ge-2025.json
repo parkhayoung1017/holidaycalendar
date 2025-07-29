@@ -1,0 +1,195 @@
+{
+  "countryCode": "GE",
+  "year": 2025,
+  "totalHolidays": 17,
+  "lastUpdated": "2025-07-29T04:48:13.385Z",
+  "holidays": [
+    {
+      "id": "GE-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.384Z",
+      "updatedAt": "2025-07-29T04:48:13.384Z"
+    },
+    {
+      "id": "GE-2025-01-02-1",
+      "name": "New Year's Day",
+      "date": "2025-01-02",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-01-07-2",
+      "name": "Orthodox Christmas",
+      "date": "2025-01-07",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-01-19-3",
+      "name": "Orthodox Epiphany",
+      "date": "2025-01-19",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-03-03-4",
+      "name": "Mother's Day",
+      "date": "2025-03-03",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-03-08-5",
+      "name": "International Women's Day",
+      "date": "2025-03-08",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-04-09-6",
+      "name": "National Unity Day",
+      "date": "2025-04-09",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-04-18-7",
+      "name": "Good Friday",
+      "date": "2025-04-18",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-04-19-8",
+      "name": "Holy Saturday",
+      "date": "2025-04-19",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-04-20-9",
+      "name": "Easter Sunday",
+      "date": "2025-04-20",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-04-21-10",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-05-09-11",
+      "name": "Day of Victory over Fascism",
+      "date": "2025-05-09",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-05-12-12",
+      "name": "Saint Andrew the First-Called Day",
+      "date": "2025-05-12",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-05-26-13",
+      "name": "Independence Day",
+      "date": "2025-05-26",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-08-28-14",
+      "name": "Saint Mary's Day",
+      "date": "2025-08-28",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-10-14-15",
+      "name": "Day of Svetitskhoveli Cathedra",
+      "date": "2025-10-14",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    },
+    {
+      "id": "GE-2025-11-23-16",
+      "name": "Saint George's Day",
+      "date": "2025-11-23",
+      "country": "",
+      "countryCode": "GE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:13.385Z",
+      "updatedAt": "2025-07-29T04:48:13.385Z"
+    }
+  ]
+}

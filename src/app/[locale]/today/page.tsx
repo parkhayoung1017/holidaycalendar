@@ -8,6 +8,7 @@ import { ErrorMessages } from '@/components/error/ErrorMessage';
 import { logError } from '@/lib/error-logger';
 import ResponsiveBanner from '@/components/ads/ResponsiveBanner';
 import InlineBanner from '@/components/ads/InlineBanner';
+import { getTranslations } from '@/lib/translation-loader';
 
 // 현재 날짜를 로컬 시간대 기준으로 가져오는 함수
 function getTodayISO(): string {
@@ -56,15 +57,21 @@ export default async function TodayPage({ params }: TodayPageProps) {
   const todayISO = getTodayISO();
   
   try {
+    // 번역 데이터 로드
+    const translations = await getTranslations(locale);
+    
     // 오늘 날짜의 공휴일 데이터 로드
     const todayHolidays = await getHolidaysByDate(todayISO);
     
-    // 국가 정보 매핑
+    // 국가 정보 매핑 (번역된 국가명 사용)
     const holidaysWithCountryInfo = todayHolidays.map(holiday => {
       const countryInfo = SUPPORTED_COUNTRIES.find(c => c.code === holiday.countryCode);
+      // 번역된 국가명 사용
+      const translatedCountryName = translations?.countries?.[holiday.countryCode] || countryInfo?.name || holiday.country;
+      
       return {
         ...holiday,
-        countryName: countryInfo?.name || holiday.country,
+        countryName: translatedCountryName,
         countryFlag: countryInfo?.flag || '🏳️',
       };
     });

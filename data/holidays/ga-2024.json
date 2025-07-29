@@ -1,0 +1,129 @@
+{
+  "countryCode": "GA",
+  "year": 2024,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-07-29T04:45:06.077Z",
+  "holidays": [
+    {
+      "id": "GA-2024-01-01-0",
+      "name": "New Year's Day",
+      "date": "2024-01-01",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-03-12-1",
+      "name": "Renovation Day",
+      "date": "2024-03-12",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-04-01-2",
+      "name": "Easter Monday",
+      "date": "2024-04-01",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-04-17-3",
+      "name": "Women's Day",
+      "date": "2024-04-17",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-05-01-4",
+      "name": "Labour Day",
+      "date": "2024-05-01",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-05-06-5",
+      "name": "Martyr's Day",
+      "date": "2024-05-06",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-05-20-6",
+      "name": "Whit Monday",
+      "date": "2024-05-20",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-08-15-7",
+      "name": "Assumption Day",
+      "date": "2024-08-15",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-08-17-8",
+      "name": "Independence Day",
+      "date": "2024-08-17",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2024-11-01",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    },
+    {
+      "id": "GA-2024-12-25-10",
+      "name": "Christmas Day",
+      "date": "2024-12-25",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:45:06.077Z",
+      "updatedAt": "2025-07-29T04:45:06.077Z"
+    }
+  ]
+}

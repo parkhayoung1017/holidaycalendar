@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "id": "CY-2025-01-01-0",
+      "name": "New Year's Day",
+      "date": "2025-01-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-01-06-1",
+      "name": "Epiphany",
+      "date": "2025-01-06",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-03-03-2",
+      "name": "Green Monday",
+      "date": "2025-03-03",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-03-25-3",
+      "name": "Greek Independence Day",
+      "date": "2025-03-25",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-04-01-4",
+      "name": "Cyprus National Day",
+      "date": "2025-04-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-04-18-5",
+      "name": "Good Friday",
+      "date": "2025-04-18",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-04-21-6",
+      "name": "Easter Monday",
+      "date": "2025-04-21",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-04-22-7",
+      "name": "Easter Tuesday",
+      "date": "2025-04-22",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-05-01-8",
+      "name": "Labour Day",
+      "date": "2025-05-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-06-08-9",
+      "name": "Pentecost",
+      "date": "2025-06-08",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-06-09-10",
+      "name": "Whit Monday",
+      "date": "2025-06-09",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-08-15-11",
+      "name": "Assumption of the Virgin Mary",
+      "date": "2025-08-15",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-10-01-12",
+      "name": "Cyprus Independence Day",
+      "date": "2025-10-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-10-28-13",
+      "name": "Ohi Day",
+      "date": "2025-10-28",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-12-24-14",
+      "name": "Christmas Eve",
+      "date": "2025-12-24",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-12-25-15",
+      "name": "Christmas Day",
+      "date": "2025-12-25",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    },
+    {
+      "id": "CY-2025-12-26-16",
+      "name": "St. Stephen's Day",
+      "date": "2025-12-26",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-07-29T04:48:02.225Z",
+      "updatedAt": "2025-07-29T04:48:02.225Z"
+    }
+  ],
+  "timestamp": 1753764482225,
+  "ttl": 86400000,
+  "key": "holiday:CY:2025"
+}

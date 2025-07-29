@@ -22,7 +22,18 @@
     "nationalWomensDay": "National Women's Day",
     "heritageDay": "Heritage Day",
     "dayOfReconciliation": "Day of Reconciliation",
-    "dayOfGoodwill": "Day of Goodwill"
+    "dayOfGoodwill": "Day of Goodwill",
+    "revolutionDay": "Revolution Day",
+    "statehoodDay": "Statehood Day",
+    "constitutionalistRevolution": "Constitutionalist Revolution of 1932",
+    "orangemensDay": "Orangemen's Day",
+    "battleOfBoyne": "Battle of the Boyne",
+    "ourLadyOfMountCarmel": "Our Lady of Mount Carmel",
+    "kingsBirthday": "King's Birthday",
+    "marineDay": "Marine Day",
+    "donLuisMunozRiveraBirthday": "Birthday of Don Luis Muñoz Rivera",
+    "santiagoApostol": "Santiago Apóstol",
+    "bastilleDay": "Bastille Day"
   },
   "korean": {
     "lunarNewYear": "Lunar New Year",
