@@ -9,6 +9,7 @@ import { loadTranslationsSync } from '@/lib/translation-loader';
 import HreflangTags from '@/components/seo/HreflangTags';
 import { WebsiteStructuredData, OrganizationStructuredData } from '@/components/seo/StructuredData';
 import LanguageUpdater from '@/components/seo/LanguageUpdater';
+import SideBanner from '@/components/ads/SideBanner';
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -98,10 +99,12 @@ export default async function LocaleLayout({
       
       <I18nProvider initialLocale={validLocale}>
         <Header />
-        <main className="flex-1">
+        <main className="flex-1 relative">
           <ErrorBoundary>
             {children}
           </ErrorBoundary>
+          {/* 사이드 배너 - 구글 애드센스와 겹치지 않도록 우측에 고정 배치 */}
+          <SideBanner className="hidden lg:block" />
         </main>
         <Footer />
       </I18nProvider>
