@@ -7,7 +7,7 @@
     "description": "미국 독립기념일(Independence Day)은 1776년 7월 4일 미국이 영국으로부터 독립을 선언한 것을 기념하는 연방 공휴일입니다. 이날 대륙회의는 토머스 제퍼슨이 주도하여 작성한 독립선언문을 채택했으며, 이는 미국이 독립 국가로서의 첫 걸음을 내딘 역사적인 순간이었습니다.\n\n독립선언 당시 13개 식민지는 영국의 과도한 과세와 정치적 억압에 맞서 자유와 독립을 추구했습니다. 이후 8년간의 독립전쟁을 거쳐 1783년 파리조약으로 미국의 독립이 최종 승인되었습니다.\n\n독립기념일은 미국에서 가장 성대하게 축하되는 공휴일 중 하나입니다. 전국 각지에서 대규모 불꽃놀이가 펼쳐지며, 레드・화이트・블루 색상의 애국적 장식으로 거리가 꾸며집니다. 가족과 친구들이 모여 바비큐 파티를 즐기고, 퍼레이드와 야외 콘서트가 열립니다.\n\n현대 미국 사회에서 독립기념일은 단순한 역사적 기념일을 넘어 미국의 정체성과 가치관을 재확인하는 날로 자리 잡았습니다. 자유, 민주주의, 평등이라는 건국 이념을 되새기며, 다양한 배경을 가진 시민들이 하나의 국가 공동체임을 확인하는 기회가 됩니다.\n\n흥미로운 점은 존 애덤스가 7월 2일을 독립기념일로 예측했다는 것입니다. 실제 독립선언문 승인은 7월 2일이었으나, 공식 서명과 발표가 7월 4일에 이루어져 이날이 독립기념일로 정착했습니다. 또한 독립선언 주역이었던 토머스 제퍼슨과 존 애덤스가 모두 7월 4일에 사망했다는 우연한 사실도 있습니다.\n\n세계 각국의 독립기념일과 비교할 때, 미국의 독립기념일은 특히 시민들의 자발적이고 열정적인 참여가 돋보입니다. 프랑스의 바스티유 데이(7월 14일)와 함께 근대 민주주의 혁명을 상징하는 대표적인 국경일로 평가받고 있습니다.",
     "confidence": 0.95,
     "generatedAt": "2025-07-28T04:56:09.346Z",
-    "lastUsed": "2025-07-29T00:13:38.549Z"
+    "lastUsed": "2025-07-29T08:29:09.974Z"
   },
   "New Year's Day-United States-ko": {
     "holidayId": "US-2025-01-01-0",
@@ -27,7 +27,7 @@
     "description": "신정(新正)은 양력 1월 1일을 기념하는 새해 첫날로, 한국에서는 전통적인 음력 설날과 구별되는 공휴일입니다. 서구 문화의 영향으로 도입된 이 날은 현대 한국 사회에서 국제적 표준에 맞춘 새해의 시작을 의미합니다.\n\n한국에서 신정은 1896년 고종 때 태양력이 공식 채택되면서 시작되었으며, 일제강점기와 해방 이후를 거치며 점차 정착되었습니다. 1989년부터는 공휴일로 지정되어 현재에 이르고 있으며, 전통적인 음력 설날과 함께 이중의 새해 문화를 형성하고 있습니다.\n\n신정에는 가족과 친구들이 모여 새해 인사를 나누고, 새해 계획과 목표를 세우는 시간을 갖습니다. 많은 사람들이 해돋이를 보러 가거나, 새해 첫날 특별한 의미를 담은 활동을 하며 한 해를 시작합니다. 서구 문화의 영향으로 새해 파티나 카운트다운 행사도 인기를 끌고 있습니다.\n\n특히 젊은 세대들 사이에서는 새해 결심을 세우고 SNS를 통해 새해 인사를 나누는 문화가 자리잡았으며, 연말연시 휴가를 이용해 해외여행을 떠나는 경우도 늘어나고 있습니다. 또한 각종 문화시설에서는 신정 특별 프로그램을 운영하여 시민들에게 다양한 즐길 거리를 제공합니다.\n\n현대 한국 사회에서 신정은 전통적인 음력 설날과는 다른 의미로 받아들여지고 있습니다. 음력 설날이 가족 중심의 전통 명절이라면, 신정은 개인적 성찰과 새로운 시작을 다짐하는 현대적 기념일의 성격이 강합니다. 이러한 이중 구조는 한국 사회의 전통과 현대가 공존하는 독특한 문화적 특징을 보여줍니다.",
     "confidence": 0.95,
     "generatedAt": "2025-07-29T12:00:00.000Z",
-    "lastUsed": "2025-07-29T05:09:06.564Z"
+    "lastUsed": "2025-07-29T08:28:32.086Z"
   },
   "Lunar New Year-South Korea-ko": {
     "holidayId": "KR-2025-01-30-3",
@@ -77,7 +77,7 @@
     "description": "대한민국의 현충일은 매년 6월 6일에 국가와 민족을 위해 희생하신 순국선열과 호국영령들의 숭고한 정신을 기리는 국경일입니다. 1956년에 제정된 이후, 나라를 위해 목숨을 바친 분들을 추모하고 그들의 애국정신을 되새기는 중요한 날로 자리잡았습니다.\n\n현충일의 '현충(顯忠)'은 '충성을 나타내 보인다'는 의미로, 이날은 특히 한국전쟁에서 산화하신 참전용사들을 비롯해 국가수호를 위해 헌신하신 모든 분들을 기억하는 날입니다. 매년 이날 오전 10시에는 전국적으로 1분간 추모 사이렌이 울리며, 국민들은 묵념으로 호국영령들의 넋을 기립니다.\n\n정부에서는 국립현충원에서 주관하는 중앙추모식을 거행하며, 대통령이 참석하여 헌화와 분향을 하고 추모사를 낭독합니다. 전국 각지의 현충원과 충혼탑에서도 추모행사가 열리며, 많은 시민들이 참배를 하고 태극기를 조기로 게양합니다.\n\n현대 한국사회에서 현충일은 단순한 추모의 날을 넘어, 평화의 소중함과 국가 안보의 중요성을 되새기는 교육적 의미도 지니고 있습니다. 학교에서는 현충일 계기교육을 실시하며, 청소년들에게 호국보훈의 의미를 전달합니다.\n\n흥미로운 점은 현충일 추모식에서 사용되는 '현충일 노래'가 1955년에 작곡된 이후 지금까지 변함없이 불리고 있다는 것입니다. 또한 현충원에는 매년 100만 명 이상의 참배객이 방문하며, 특히 현충일 전후로는 더욱 많은 시민들이 찾습니다.\n\n미국의 메모리얼 데이(Memorial Day)나 영국의 리멤버런스 데이(Remembrance Day)처럼, 현충일도 국가를 위해 희생하신 분들을 기리는 날이라는 점에서 공통점이 있습니다. 다만 한국의 현충일은 순국선열까지 포함하는 더 포괄적인 의미를 지니고 있다는 특징이 있습니다.",
     "confidence": 0.95,
     "generatedAt": "2025-07-28T04:50:49.112Z",
-    "lastUsed": "2025-07-28T05:50:06.410Z"
+    "lastUsed": "2025-07-29T08:28:35.692Z"
   },
   "Liberation Day-South Korea-ko": {
     "holidayId": "KR-2025-08-15-8",
@@ -117,7 +117,7 @@
     "description": "한글날은 한글 창제를 기념하고 한글의 우수성을 널리 알리기 위해 제정된 국경일입니다. 1446년 세종대왕이 훈민정음을 반포한 것을 기념하여, 매년 10월 9일에 기념하고 있습니다. 처음에는 '가갸날'이라고 불렸다가 1928년부터 '한글날'로 명칭이 변경되었습니다.\n\n한글의 창제는 당시 문자 생활에서 소외된 백성들을 위한 획기적인 사건이었습니다. 한자만을 사용하던 시대에 누구나 쉽게 배우고 사용할 수 있는 문자를 만든 것은 세계 문자 역사상 매우 특별한 사례로 평가받고 있습니다. 특히 문자의 제작 원리를 설명한 '훈민정음 해례본'이 현존하는 것은 세계적으로도 유례가 없는 일입니다.\n\n한글날에는 전국적으로 다양한 기념행사가 열립니다. 국립한글박물관과 세종대왕기념관에서는 특별 전시회가 개최되며, 한글학회에서는 한글 학술대회를 개최합니다. 또한 각급 학교에서는 한글 관련 교육과 백일장 등 다양한 문예행사가 진행됩니다.\n\n현대 사회에서 한글날은 단순히 문자 창제를 기념하는 날을 넘어, 한국의 문화적 자부심을 확인하는 날로 자리 잡았습니다. UNESCO 세계기록유산으로 등재된 훈민정음의 과학성과 체계성은 국제적으로도 인정받고 있으며, K-pop 등 한류 문화의 확산과 함께 한글에 대한 세계적 관심도 높아지고 있습니다.\n\n흥미로운 점은 한글이 디지털 시대에 매우 적합한 문자라는 것입니다. 컴퓨터와 모바일 기기에서 한글의 입력과 표현이 매우 효율적이며, 이는 한국이 IT 강국으로 성장하는데 기여했다는 평가를 받고 있습니다.\n\n다른 나라의 경우, 자국 문자의 날을 국경일로 지정한 사례는 많지 않습니다. 러시아의 키릴 문자의 날이나 불가리아의 키릴 문자와 슬라브 문화의 날 정도가 비슷한 성격을 가진 기념일이라고 할 수 있습니다. 이는 한글의 창제가 가진 역사적, 문화적 특수성을 보여주는 것이라 할 수 있습니다.",
     "confidence": 0.95,
     "generatedAt": "2025-07-28T04:52:40.808Z",
-    "lastUsed": "2025-07-28T05:49:09.638Z"
+    "lastUsed": "2025-07-29T08:28:38.239Z"
   },
   "Christmas Day-South Korea-ko": {
     "holidayId": "KR-2025-12-25-14",
@@ -137,7 +137,7 @@
     "description": "Martin Luther King Jr. Day는 미국의 위대한 인권운동가이자 시민운동 지도자였던 마틴 루터 킹 주니어 목사를 기리는 연방 공휴일입니다. 매년 1월 셋째 월요일에 기념되며, 1983년 로널드 레이건 대통령이 법안에 서명한 후 1986년부터 공식 연방 공휴일로 지정되었습니다.\n\n킹 목사는 1950년대와 60년대에 비폭력 저항운동을 통해 미국의 인종차별 철폐와 시민권 획득을 위해 헌신했습니다. 그의 유명한 \"I Have a Dream\" 연설은 1963년 워싱턴 행진에서 이루어졌으며, 미국 역사상 가장 영향력 있는 연설 중 하나로 평가받고 있습니다. 1968년 4월 4일 테네시 주 멤피스에서 암살당하기 전까지, 그는 평화적인 방법으로 인종 평등을 추구했습니다.\n\n이 날을 기념하기 위해 미국 전역에서 다양한 행사가 개최됩니다. 많은 도시에서 퍼레이드와 기념식이 열리며, 학교와 지역사회에서는 킹 목사의 생애와 업적에 대한 교육 프로그램을 진행합니다. 특히 이 날은 \"봉사의 날\"로도 알려져 있어, 많은 미국인들이 자원봉사 활동에 참여합니다.\n\n현대 사회에서 MLK Day는 단순히 한 개인을 기리는 날을 넘어, 인종 평등과 사회 정의를 위한 지속적인 노력을 상기시키는 날로 자리 잡았습니다. 최근의 인종 관련 사회 운동들과 맞물려 이 날의 의미는 더욱 중요해지고 있습니다.\n\n흥미로운 점은, 이 공휴일이 전국적으로 인정받기까지 상당한 저항이 있었다는 것입니다. 일부 주에서는 1990년대까지도 이 날을 공식적으로 기념하지 않았으며, 애리조나 주는 NFL이 수퍼볼 개최지를 철회하겠다고 위협한 후에야 1992년에 이 공휴일을 인정했습니다.\n\n전 세계적으로 볼 때, 한 명의 인권운동가를 기리는 국가 공휴일이 제정된 것은 매우 특별한 사례입니다. 남아프리카공화국의 넬슨 만델라 데이와 함께, MLK Day는 인권과 평화를 위해 투쟁한 지도자를 기리는 대표적인 공휴일로 손꼽힙니다.",
     "confidence": 0.95,
     "generatedAt": "2025-07-28T04:53:51.075Z",
-    "lastUsed": "2025-07-29T01:57:59.947Z"
+    "lastUsed": "2025-07-29T08:29:22.629Z"
   },
   "Lincoln's Birthday-United States-ko": {
     "holidayId": "US-2025-02-12-2",
@@ -177,7 +177,7 @@
     "description": "Truman Day는 미국 미주리주에서 매년 5월 8일에 기념하는 공휴일로, 미국의 제33대 대통령인 해리 S. 트루먼(Harry S. Truman)을 기리는 날입니다. 트루먼은 미주리주 라마(Lamar)에서 태어나 미주리주의 유일한 대통령이라는 특별한 의미를 지니고 있습니다.\n\n트루먼은 제2차 세계대전 말기인 1945년 프랭클린 D. 루스벨트 대통령의 서거 이후 대통령직을 승계했으며, 히로시마와 나가사키에 원자폭탄 투하를 결정하고 전후 냉전 시대의 시작을 이끈 중요한 역사적 인물입니다. 또한 트루먼 독트린과 마셜 플랜을 통해 전후 유럽 재건에 큰 역할을 했습니다.\n\n미주리주에서는 이날을 주 전역의 공휴일로 지정하여, 관공서와 학교가 휴무하며 다양한 기념행사가 열립니다. 특히 트루먼의 고향인 인디펜던스(Independence)시에서는 트루먼 도서관과 박물관을 중심으로 특별 전시회, 강연회, 추모식 등이 개최됩니다.\n\n현대 사회에서 Truman Day는 단순한 기념일을 넘어 미국의 민주주의 가치와 리더십의 중요성을 되새기는 의미 있는 날로 받아들여지고 있습니다. 트루먼의 \"부엌이 견딜 수 있는 열기를 감당할 수 없다면 부엌에서 나가라\"는 명언처럼, 어려운 결정을 내려야 하는 상황에서의 결단력과 책임감을 상기시키는 날이기도 합니다.\n\n흥미로운 점은 트루먼의 중간 이름 'S'가 실제로 아무런 의미가 없다는 것입니다. 그의 부모는 양가 할아버지의 이름을 모두 기념하고 싶었지만 어느 한쪽을 선택할 수 없어 단순히 'S'만 넣었다고 합니다. 이 일화는 트루먼의 소탈한 성격을 보여주는 예시로 자주 언급됩니다.\n\n미국의 다른 주에서는 이와 유사하게 과거 대통령을 기리는 공휴일을 지정한 경우가 있으나, 주 단위의 공휴일로 전직 대통령을 기리는 것은 미주리주의 Truman Day가 특별한 사례로 꼽힙니다.",
     "confidence": 0.95,
     "generatedAt": "2025-07-28T04:55:07.677Z",
-    "lastUsed": "2025-07-28T05:25:21.391Z"
+    "lastUsed": "2025-07-29T08:29:15.654Z"
   },
   "Memorial Day-United States-ko": {
     "holidayId": "US-2025-05-26-7",
@@ -1077,7 +1077,7 @@
     "description": "I notice there seems to be an error in the date provided (July 28, 2025), as Martin Luther King Jr. Day is officially observed on the third Monday in January each year. Let me provide a description based on the correct observance date:\n\nMartin Luther King Jr. Day stands as one of America's most significant federal holidays, commemorating the birthday and enduring legacy of the iconic civil rights leader. First observed in 1986 after years of persistent advocacy by activists and legislators, the holiday marks Dr. King's vital role in advancing civil rights through nonviolent resistance and moral leadership.\n\nBorn on January 15, 1929, Dr. King emerged as the foremost leader of the civil rights movement in the 1950s and 1960s. His work culminated in landmark achievements like the Civil Rights Act of 1964 and the Voting Rights Act of 1965. The holiday's establishment came after a long campaign following his assassination in 1968, with President Ronald Reagan finally signing it into law in 1983.\n\nToday, Americans observe the holiday through various meaningful activities. Many participate in service projects, embracing the concept of \"a day on, not a day off.\" Cities host commemorative marches, educational programs, and ceremonies. Schools and organizations often organize activities focused on civil rights history, racial equality, and social justice.\n\nThe holiday has evolved to become more than just a celebration of Dr. King's life. It serves as a national day of reflection on racial equality, social justice, and community service. Many corporations and organizations use this day for diversity training and cultural awareness programs, while communities organize interfaith services and volunteer activities.\n\nAn interesting aspect of the holiday's history was the initial resistance from some states. Arizona notably faced a tourism boycott and lost the opportunity to host Super Bowl XXVII before finally recognizing the holiday in 1992. South Carolina became the last state to make it a paid holiday for all state employees in 2000.\n\nWhile other countries don't officially observe MLK Day, Dr. King's influence extends globally. His principles of nonviolent resistance have inspired movements worldwide, from South Africa's anti-apartheid struggle to modern social justice movements. Several cities internationally hold events honoring his legacy, particularly in places he visited during his lifetime, such as India and Germany.\n\nThe holiday continues to evolve in meaning and significance, especially in light of contemporary discussions about racial justice and civil rights. It serves as both a celebration of progress made and a reminder of the ongoing work needed to fully realize Dr. King's dream of equality and justice for all.",
     "confidence": 0.95,
     "generatedAt": "2025-07-28T03:36:23.916Z",
-    "lastUsed": "2025-07-29T01:57:58.427Z"
+    "lastUsed": "2025-07-29T08:29:21.464Z"
   },
   "Lincoln's Birthday-United States-en": {
     "holidayId": "US-2025-02-12-2",
@@ -2327,7 +2327,7 @@
     "description": "캐나다데이(Canada Day)는 캐나다의 건국을 기념하는 가장 중요한 국경일입니다. 1867년 7월 1일, 영국령 북아메리카법(British North America Act)이 발효되면서 캐나다가 영국으로부터 자치권을 획득하고 연방국가로 출범한 것을 기념합니다. 처음에는 'Dominion Day'로 불렸다가 1982년에 현재의 명칭으로 변경되었습니다.\n\n이 날의 역사적 의미는 온타리오, 퀘벡, 노바스코샤, 뉴브런즈윅 등 4개 주가 하나의 연방으로 통합되어 근대 캐나다의 기틀을 마련했다는 점입니다. 영국의 식민지에서 자치권을 가진 독립국으로 발전하는 첫걸음을 내딘 날이기도 합니다.\n\n캐나다데이는 전국적으로 다양한 축제와 행사가 열립니다. 수도 오타와에서는 의사당 앞 국회언덕에서 대규모 축하행사가 열리며, 총독과 총리가 참석하는 공식행사도 진행됩니다. 각 도시에서는 퍼레이드, 콘서트, 불꽃놀이가 열리고, 시민들은 빨간색과 흰색의 국가 상징색으로 치장하고 거리로 나와 축제를 즐깁니다.\n\n현대 캐나다 사회에서 이 날은 단순한 건국기념일을 넘어 다문화주의와 포용성이라는 캐나다의 핵심 가치를 재확인하는 날로 자리잡았습니다. 다양한 문화적 배경을 가진 이민자들이 하나의 국가 정체성을 공유하면서도 각자의 문화를 존중받는 모습을 보여주는 상징적인 날입니다.\n\n흥미로운 점은 퀘벡 주에서는 이날이 이사 날(Moving Day)과 겹친다는 것입니다. 역사적으로 퀘벡에서는 7월 1일을 전후로 임대계약이 만료되는 관행이 있어, 많은 사람들이 이사를 하느라 분주한 모습을 보입니다.\n\n미국의 독립기념일(7월 4일)과 비교하면, 캐나다데이는 독립을 쟁취했다기보다는 평화로운 방식으로 자치권을 획득한 것을 기념한다는 점에서 차이가 있습니다. 이는 캐나다의 평화적이고 실용적인 국가 정체성을 잘 보여주는 사례라고 할 수 있습니다.",
     "confidence": 0.95,
     "generatedAt": "2025-07-28T05:05:00.127Z",
-    "lastUsed": "2025-07-29T05:27:44.629Z"
+    "lastUsed": "2025-07-29T08:28:54.512Z"
   },
   "Orangemen's Day-Canada-ko": {
     "holidayId": "CA-2025-07-12-15",
@@ -2767,7 +2767,7 @@
     "description": "멕시코의 노동절(Día del Trabajo)은 매년 5월 1일에 기념되는 중요한 공휴일입니다. 이 날은 19세기 말 시카고 헤이마켓 사건을 기념하는 국제 노동절과 같은 날에 기념되며, 멕시코의 노동자 권리 향상을 위한 투쟁의 역사를 상기시키는 날입니다.\n\n멕시코의 노동절은 1886년 포르피리오 디아스 정권 시절부터 시작되었습니다. 당시 멕시코 노동자들은 열악한 근로조건과 저임금에 시달리고 있었고, 이에 대한 저항으로 파업과 시위가 빈번히 발생했습니다. 특히 1906년 소노라 주의 카나네아 광산 파업과 1907년 리오 블랑코 섬유공장 파업은 멕시코 노동운동의 상징적인 사건으로 기록되어 있습니다.\n\n노동절에는 멕시코 전역에서 다양한 기념행사가 열립니다. 수도 멕시코시티의 소칼로 광장에서는 대규모 노동자 집회가 열리며, 노동조합들은 행진을 통해 노동자의 권리와 더 나은 근로조건을 요구합니다. 많은 기업과 상점들이 휴업하며, 가족들은 함께 시간을 보내거나 피크닉을 즐깁니다.\n\n현대 멕시코 사회에서 노동절은 단순한 휴일을 넘어 노동자의 권리와 존엄성을 재확인하는 중요한 의미를 지닙니다. 특히 최저임금 인상, 근로조건 개선, 노동자 보호 등의 이슈가 이날 집중적으로 논의됩니다.\n\n흥미로운 점은 멕시코의 노동절이 다른 북미 국가들과 다른 날짜에 기념된다는 것입니다. 미국과 캐나다가 9월 첫 월요일을 노동절로 지정한 것과 달리, 멕시코는 대부분의 유럽과 남미 국가들처럼 5월 1일을 노동절로 지정했습니다. 이는 멕시코가 국제 노동운동의 전통을 더 강하게 따르고 있음을 보여줍니다.\n\n또한 멕시코의 노동절은 '5월의 날'(Primero de Mayo)이라고도 불리며, 봄의 시작과 노동의 존엄성을 동시에 기념하는 의미도 담고 있습니다. 이날은 많은 멕시코 가정에서 전통 음식을 나누며 가족과 함께하는 시간을 보내는 것이 일반적입니다.",
     "confidence": 0.9,
     "generatedAt": "2025-07-29T00:33:41.220Z",
-    "lastUsed": "2025-07-29T01:13:23.500Z"
+    "lastUsed": "2025-07-29T08:30:01.389Z"
   },
   "Independence Day-Mexico-ko": {
     "holidayId": "MX-2024-09-16-6",
@@ -4877,7 +4877,7 @@
     "description": "베삭데이(Vesak Day)는 불교의 가장 중요한 축일로, 싱가포르에서는 매년 음력 4월 보름에 공휴일로 지정하여 기념합니다. 2024년에는 5월 22일이 이에 해당합니다. 이 날은 부처님의 탄생과 깨달음, 열반이라는 세 가지 중요한 사건을 기념하는 날로, '삼보일(Triple Blessed Day)'이라고도 불립니다.\n\n싱가포르의 베삭데이 기념은 국가의 다문화적 특성을 잘 보여주는 대표적인 예입니다. 인구의 약 33%가 불교 신자인 싱가포르에서는 이 날을 통해 종교적 화합과 관용을 실천하고 있습니다. 1955년 처음으로 공휴일로 지정된 이후, 베삭데이는 불교 신자뿐만 아니라 다른 종교인들에게도 존중받는 중요한 문화적 행사가 되었습니다.\n\n이 날 싱가포르의 사찰들은 등불로 화려하게 장식되며, 신자들은 새벽부터 사찰을 찾아 기도와 명상을 합니다. 특히 부다 투스 렐릭 템플(Buddha Tooth Relic Temple)과 같은 주요 사찰에서는 대규모 의식이 거행됩니다. 많은 불교 신자들이 채식을 하고, 동물을 방생하며, 자선 활동에 참여하는 것도 이날의 중요한 전통입니다.\n\n현대 싱가포르 사회에서 베삭데이는 단순한 종교 행사를 넘어 자비와 이해, 평화의 가치를 되새기는 날로 자리 잡았습니다. 젊은 세대들도 이날을 통해 전통문화를 배우고, 사회적 화합을 실천하는 기회로 삼고 있습니다.\n\n흥미로운 점은 싱가포르의 베삭데이 행사가 다른 동남아시아 국가들과는 차별화된 특징을 보인다는 것입니다. 예를 들어, 스리랑카나 태국에서는 대규모 거리 행진이 주를 이루는 반면, 싱가포르에서는 더욱 차분하고 명상적인 분위기에서 기념행사가 진행됩니다.\n\n특별히 주목할 만한 현상은 최근 들어 비불교 신자들도 이날의 의미를 이해하고 존중하며, 사찰 방문이나 문화 행사에 참여하는 경우가 늘어나고 있다는 점입니다. 이는 싱가포르의 다문화 사회가 얼마나 성숙하게 발전했는지를 보여주는 좋은 예시라고 할 수 있습니다.",
     "confidence": 0.9,
     "generatedAt": "2025-07-29T01:42:07.329Z",
-    "lastUsed": "2025-07-29T01:42:07.329Z"
+    "lastUsed": "2025-07-29T08:30:30.138Z"
   },
   "Vesak Day-Singapore-en": {
     "holidayId": "SG-2024-05-22-6",

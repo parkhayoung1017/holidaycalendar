@@ -32,12 +32,90 @@ export default function MonthlyCalendar({
   const [currentDate, setCurrentDate] = useState<Date | null>(null);
   const [showAllHolidays, setShowAllHolidays] = useState(false);
   const [isClient, setIsClient] = useState(false);
+  const [displayYear, setDisplayYear] = useState(year);
+  const [displayMonth, setDisplayMonth] = useState(month);
+  const [dynamicHolidays, setDynamicHolidays] = useState<Holiday[]>([]);
+  const [isLoadingHolidays, setIsLoadingHolidays] = useState(false);
   const { translations } = useI18nContext();
 
   useEffect(() => {
     setCurrentDate(new Date());
     setIsClient(true);
   }, []);
+
+  // 동적으로 공휴일 데이터 로드하는 함수 (API 사용)
+  const loadDynamicHolidays = async (year: number, month: number) => {
+    setIsLoadingHolidays(true);
+    try {
+      // 주요 국가들의 공휴일 데이터를 API로 로드
+      const popularCountries = ['KR', 'US', 'GB', 'DE', 'FR', 'JP', 'CA', 'AU', 'BR', 'IN'];
+      
+      const response = await fetch('/api/holidays/multiple', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          countries: popularCountries,
+          year: year,
+          month: month // 0-11 형식
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error(`API 요청 실패: ${response.status}`);
+      }
+
+      const result = await response.json();
+      
+      if (result.success) {
+        console.log('📅 동적 공휴일 로드 완료:', {
+          year,
+          month: month + 1,
+          totalHolidays: result.total,
+          countries: popularCountries,
+          holidays: result.data.slice(0, 5) // 처음 5개만 로그
+        });
+
+        setDynamicHolidays(result.data);
+      } else {
+        throw new Error(result.error || '알 수 없는 에러');
+      }
+    } catch (error) {
+      console.error('동적 공휴일 로드 실패:', error);
+      setDynamicHolidays([]);
+    } finally {
+      setIsLoadingHolidays(false);
+    }
+  };
+
+  // displayYear나 displayMonth가 변경될 때마다 동적으로 공휴일 로드
+  useEffect(() => {
+    // 초기 월(props로 전달받은 월)이 아닌 경우에만 동적 로드
+    if (displayYear !== year || displayMonth !== month) {
+      loadDynamicHolidays(displayYear, displayMonth);
+    }
+  }, [displayYear, displayMonth, year, month]);
+
+  // 이전달로 이동
+  const goToPreviousMonth = () => {
+    if (displayMonth === 0) {
+      setDisplayYear(displayYear - 1);
+      setDisplayMonth(11);
+    } else {
+      setDisplayMonth(displayMonth - 1);
+    }
+  };
+
+  // 다음달로 이동
+  const goToNextMonth = () => {
+    if (displayMonth === 11) {
+      setDisplayYear(displayYear + 1);
+      setDisplayMonth(0);
+    } else {
+      setDisplayMonth(displayMonth + 1);
+    }
+  };
 
   // 국가명 번역 함수
   const translateCountryName = (countryCode: string): string => {
@@ -333,16 +411,19 @@ export default function MonthlyCalendar({
     });
   };
 
-  const sampleHolidays = generateSampleHolidays(year, month);
+  const sampleHolidays = generateSampleHolidays(displayYear, displayMonth);
   const realHolidays = convertToCalendarHolidays(holidays);
-  const displayHolidays = realHolidays.length > 0 ? realHolidays : sampleHolidays;
-
-
+  const dynamicRealHolidays = convertToCalendarHolidays(dynamicHolidays);
+  
+  // 우선순위: 동적 공휴일 > 초기 공휴일 > 샘플 공휴일
+  const displayHolidays = dynamicRealHolidays.length > 0 
+    ? dynamicRealHolidays 
+    : (realHolidays.length > 0 ? realHolidays : sampleHolidays);
 
   // 달력 데이터 생성
   const generateCalendarData = () => {
-    const firstDay = new Date(year, month, 1);
-    const lastDay = new Date(year, month + 1, 0);
+    const firstDay = new Date(displayYear, displayMonth, 1);
+    const lastDay = new Date(displayYear, displayMonth + 1, 0);
     const startDate = new Date(firstDay);
     
     // 월요일부터 시작하도록 조정 (0=일요일, 1=월요일)
@@ -364,7 +445,7 @@ export default function MonthlyCalendar({
         date: date,
         dateString: dateString,
         day: date.getDate(),
-        isCurrentMonth: date.getMonth() === month,
+        isCurrentMonth: date.getMonth() === displayMonth,
         isToday: isClient && currentDate ? date.toDateString() === currentDate.toDateString() : false,
         holidays: dayHolidays
       });
@@ -379,11 +460,44 @@ export default function MonthlyCalendar({
     <div className={`bg-white rounded-xl shadow-lg p-6 ${className}`}>
       {/* 캘린더 헤더 */}
       <div className="flex items-center justify-between mb-6">
-        <h3 className="text-xl font-semibold text-gray-900">
-          {year}년 {MONTH_NAMES.ko[month]}
-        </h3>
+        <div className="flex items-center gap-4">
+          <button
+            onClick={goToPreviousMonth}
+            className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+            title="이전 달"
+          >
+            <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          
+          <h3 className="text-xl font-semibold text-gray-900">
+            {displayYear}년 {MONTH_NAMES.ko[displayMonth]}
+          </h3>
+          
+          <button
+            onClick={goToNextMonth}
+            className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+            title="다음 달"
+          >
+            <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+        
         <div className="text-sm text-gray-500">
-          {realHolidays.length > 0 ? (
+          {isLoadingHolidays ? (
+            <span className="flex items-center gap-1">
+              <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+              로딩 중...
+            </span>
+          ) : dynamicRealHolidays.length > 0 ? (
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+              전세계 {dynamicRealHolidays.length}개 공휴일
+            </span>
+          ) : realHolidays.length > 0 ? (
             <span className="flex items-center gap-1">
               <span className="w-2 h-2 bg-green-500 rounded-full"></span>
               전세계 {realHolidays.length}개 공휴일
