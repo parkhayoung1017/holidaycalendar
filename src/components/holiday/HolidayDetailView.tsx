@@ -5,6 +5,7 @@ import { Locale } from '@/types/i18n';
 import { format, parseISO } from 'date-fns';
 import { ko, enUS } from 'date-fns/locale';
 import Link from 'next/link';
+import { translateHolidayName, translateHolidayDescription } from '@/lib/translation-enhancer';
 
 interface HolidayDetailViewProps {
   holiday: Holiday;
@@ -60,12 +61,10 @@ export default function HolidayDetailView({
 
   const dateInfo = formatDate(holiday.date);
   
-  // 디버깅을 위한 로그
-  console.log('Holiday date:', holiday.date);
-  console.log('Date info full:', dateInfo.full);
-  console.log('Date info day:', dateInfo.day);
-  console.log('Date info month:', dateInfo.month);
-  console.log('Date info weekday:', dateInfo.weekday);
+  // 번역된 공휴일 정보
+  const translatedName = translateHolidayName(holiday.name, locale);
+  // AI 생성 설명을 우선 사용하고, 없으면 번역된 설명 사용
+  const translatedDescription = holiday.description || translateHolidayDescription(holiday.name, locale);
   
   // 공휴일 타입 번역
   const getHolidayTypeText = (type: Holiday['type']) => {
@@ -110,7 +109,7 @@ export default function HolidayDetailView({
             </div>
             
             {/* 공휴일 이름 */}
-            <h1 className="text-4xl font-bold mb-2">{holiday.name}</h1>
+            <h1 className="text-4xl font-bold mb-2">{translatedName}</h1>
             
             {/* 날짜 정보 */}
             <div className="text-xl text-blue-100 mb-4">
@@ -150,7 +149,7 @@ export default function HolidayDetailView({
           </h2>
           <div className="prose prose-lg max-w-none">
             <div className="text-gray-700 leading-relaxed text-lg space-y-4">
-              {holiday.description.split('\n\n').map((paragraph, index) => (
+              {translatedDescription.split('\n\n').map((paragraph, index) => (
                 <p key={index} className="mb-4">
                   {paragraph}
                 </p>

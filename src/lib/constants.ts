@@ -6,8 +6,8 @@ export const SUPPORTED_COUNTRIES = [
   { code: 'KR', name: 'South Korea', region: 'Asia', flag: '🇰🇷', popular: true },
   { code: 'JP', name: 'Japan', region: 'Asia', flag: '🇯🇵', popular: true },
   { code: 'CN', name: 'China', region: 'Asia', flag: '🇨🇳', popular: true },
-  { code: 'IN', name: 'India', region: 'Asia', flag: '🇮🇳', popular: true },
-  { code: 'TH', name: 'Thailand', region: 'Asia', flag: '🇹🇭', popular: true },
+  { code: 'IN', name: 'India', region: 'Asia', flag: '🇮🇳', popular: false }, // 데이터 부족으로 인기 국가에서 제외
+  { code: 'TH', name: 'Thailand', region: 'Asia', flag: '🇹🇭', popular: false }, // 데이터 부족으로 인기 국가에서 제외
   { code: 'VN', name: 'Vietnam', region: 'Asia', flag: '🇻🇳', popular: false },
   { code: 'SG', name: 'Singapore', region: 'Asia', flag: '🇸🇬', popular: true },
   { code: 'MY', name: 'Malaysia', region: 'Asia', flag: '🇲🇾', popular: false },
@@ -126,8 +126,8 @@ export const SUPPORTED_COUNTRIES = [
   { code: 'SD', name: 'Sudan', region: 'Africa', flag: '🇸🇩', popular: false },
 
   // 중동
-  { code: 'AE', name: 'United Arab Emirates', region: 'Middle East', flag: '🇦🇪', popular: true },
-  { code: 'SA', name: 'Saudi Arabia', region: 'Middle East', flag: '🇸🇦', popular: true },
+  { code: 'AE', name: 'United Arab Emirates', region: 'Middle East', flag: '🇦🇪', popular: false }, // 데이터 부족으로 인기 국가에서 제외
+  { code: 'SA', name: 'Saudi Arabia', region: 'Middle East', flag: '🇸🇦', popular: false }, // 데이터 부족으로 인기 국가에서 제외
   { code: 'IL', name: 'Israel', region: 'Middle East', flag: '🇮🇱', popular: false },
   { code: 'TR', name: 'Turkey', region: 'Middle East', flag: '🇹🇷', popular: false },
   { code: 'IR', name: 'Iran', region: 'Middle East', flag: '🇮🇷', popular: false },

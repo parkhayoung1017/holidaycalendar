@@ -4,6 +4,7 @@ import { Holiday, Country } from '@/types';
 import { Locale } from '@/types/i18n';
 import { loadHolidayData, loadCountryData } from '@/lib/data-loader';
 import { generateHolidayDescription, generateCountryOverview } from '@/lib/ai-content-generator-enhanced';
+import { generateImprovedHolidayDescription } from '@/lib/ai-content-generator-improved';
 import { getCountryCodeFromSlug, createHolidaySlug } from '@/lib/country-utils';
 import HolidayDetailView from '@/components/holiday/HolidayDetailView';
 import RelatedHolidays from '@/components/holiday/RelatedHolidays';
@@ -160,27 +161,66 @@ export default async function HolidayDetailPage({ params }: HolidayDetailPagePro
       notFound();
     }
     
-    // AI 생성 설명이 없으면 생성 (다국어 지원)
+    // 개선된 AI 생성 설명 시스템 사용 (다국어 지원)
     let description = holiday.description;
-    if (!description || description.trim().length < 30) {
+    console.log('🔍 공휴일 설명 생성 디버깅:', {
+      holidayName: holiday.name,
+      countryName: countryData.name,
+      existingDescription: description,
+      existingLength: description?.length || 0
+    });
+    
+    if (!description || description.trim().length < 100) {
       try {
-        const aiResponse = await generateHolidayDescription({
+        console.log('📝 AI 설명 생성 시작...');
+        
+        // 먼저 개선된 시스템 시도
+        const improvedResponse = await generateImprovedHolidayDescription({
           holidayId: holiday.id,
           holidayName: holiday.name,
           countryName: countryData.name,
           date: holiday.date,
           existingDescription: holiday.description
         }, validLocale);
-        description = aiResponse.description;
+        
+        description = improvedResponse.description;
+        console.log('✅ 개선된 AI 시스템 응답:', {
+          confidence: improvedResponse.confidence,
+          descriptionLength: description.length,
+          preview: description.substring(0, 100) + '...'
+        });
+        
+        // 개선된 시스템에서도 충분한 설명을 얻지 못한 경우 기존 시스템 시도
+        if (description.length < 100) {
+          console.log('⚠️ 개선된 시스템 결과 부족, 기존 시스템 시도...');
+          const fallbackResponse = await generateHolidayDescription({
+            holidayId: holiday.id,
+            holidayName: holiday.name,
+            countryName: countryData.name,
+            date: holiday.date,
+            existingDescription: holiday.description
+          }, validLocale);
+          
+          if (fallbackResponse.description.length > description.length) {
+            description = fallbackResponse.description;
+            console.log('✅ 기존 시스템 사용:', {
+              confidence: fallbackResponse.confidence,
+              descriptionLength: description.length
+            });
+          }
+        }
       } catch (error) {
-        console.error('AI 설명 생성 실패:', error);
+        console.error('❌ AI 설명 생성 실패:', error);
         // 다국어 폴백 메시지
         if (validLocale === 'en') {
-          description = `${holiday.name} is a special day celebrated in ${countryData.name}.`;
+          description = `${holiday.name} is a special day celebrated in ${countryData.name}. This holiday holds cultural significance and is observed with traditional ceremonies and family gatherings.`;
         } else {
-          description = `${holiday.name}은(는) ${countryData.name}에서 기념하는 특별한 날입니다.`;
+          description = `${holiday.name}은(는) ${countryData.name}에서 기념하는 특별한 날입니다. 이 날에는 전통적인 의식과 함께 가족들이 모여 의미 있는 시간을 보내며, 문화적 가치를 이어가는 소중한 기회가 됩니다.`;
         }
+        console.log('🔄 폴백 설명 사용:', description.substring(0, 100) + '...');
       }
+    } else {
+      console.log('✅ 기존 설명 사용 (충분한 길이)');
     }
     
     // 국가 개요 생성 (다국어 지원)

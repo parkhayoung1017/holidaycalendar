@@ -26,7 +26,10 @@
     "manage-cache": "tsx scripts/manage-ai-cache.ts",
     "generate-descriptions": "tsx scripts/generate-all-holiday-descriptions.ts",
     "generate-descriptions-en": "tsx scripts/generate-all-holiday-descriptions.ts --en",
-    "generate-descriptions-force": "tsx scripts/generate-all-holiday-descriptions.ts --force"
+    "generate-descriptions-force": "tsx scripts/generate-all-holiday-descriptions.ts --force",
+    "setup-calendarific": "tsx scripts/setup-calendarific.ts",
+    "test-improved-ai": "tsx scripts/test-improved-ai-content.ts",
+    "test-ai-detailed": "tsx scripts/test-improved-ai-content.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",
