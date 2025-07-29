@@ -15,7 +15,7 @@ const anthropic = new Anthropic({
 /**
  * Claude API를 사용하여 실제 AI 기반 공휴일 설명을 생성합니다
  */
-async function generateAIHolidayDescription(
+export async function generateAIHolidayDescription(
   holidayName: string,
   countryName: string,
   date: string,
