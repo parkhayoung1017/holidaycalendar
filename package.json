@@ -29,7 +29,9 @@
     "generate-descriptions-force": "tsx scripts/generate-all-holiday-descriptions.ts --force",
     "setup-calendarific": "tsx scripts/setup-calendarific.ts",
     "test-improved-ai": "tsx scripts/test-improved-ai-content.ts",
-    "test-ai-detailed": "tsx scripts/test-improved-ai-content.ts"
+    "test-ai-detailed": "tsx scripts/test-improved-ai-content.ts",
+    "generate-missing-descriptions": "tsx scripts/generate-missing-ai-descriptions.ts",
+    "generate-country-descriptions": "tsx scripts/generate-missing-ai-descriptions.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",
