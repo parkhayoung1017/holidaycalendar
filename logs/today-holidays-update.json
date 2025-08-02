@@ -104,5 +104,16 @@
     ],
     "timestamp": "2025-08-01T02:31:36.135Z",
     "success": true
+  },
+  {
+    "date": "2025-08-02",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇨🇩 Democratic Republic of the Congo",
+      "🇲🇰 North Macedonia"
+    ],
+    "timestamp": "2025-08-02T02:09:01.180Z",
+    "success": true
   }
 ]
