@@ -115,5 +115,15 @@
     ],
     "timestamp": "2025-08-02T02:09:01.180Z",
     "success": true
+  },
+  {
+    "date": "2025-08-03",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇳🇪 Niger"
+    ],
+    "timestamp": "2025-08-03T02:30:15.321Z",
+    "success": true
   }
 ]
