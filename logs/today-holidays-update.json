@@ -125,5 +125,21 @@
     ],
     "timestamp": "2025-08-03T02:30:15.321Z",
     "success": true
+  },
+  {
+    "date": "2025-08-04",
+    "totalHolidays": 12,
+    "countriesCount": 7,
+    "countries": [
+      "🇨🇦 Canada",
+      "🇦🇺 Australia",
+      "🇧🇧 Barbados",
+      "🇧🇸 Bahamas",
+      "🇬🇧 United Kingdom",
+      "🇬🇩 Grenada",
+      "🇲🇸 Montserrat"
+    ],
+    "timestamp": "2025-08-04T02:29:29.130Z",
+    "success": true
   }
 ]
