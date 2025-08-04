@@ -1,5 +1,6 @@
 import { Holiday, AIContentRequest, AIContentResponse } from '@/types';
 import { logApiError, logWarning, logInfo } from './error-logger';
+import { getCachedDescription, setCachedDescription } from './hybrid-cache';
 
 // 공휴일 설명 데이터베이스
 interface HolidayDescription {
@@ -475,8 +476,8 @@ ${holidayName} has a significant impact on ${countryName}'s social and economic 
 }
 
 /**
- * 공휴일 설명을 생성합니다 (정적 데이터베이스 기반)
- * AI API 실패 시 기본 템플릿을 사용하는 폴백 로직 포함
+ * 공휴일 설명을 생성합니다 (하이브리드 캐시 시스템 통합)
+ * Supabase 우선, 로컬 캐시 폴백, 정적 데이터베이스, AI API 실패 시 기본 템플릿 순으로 처리
  */
 export async function generateHolidayDescription(request: AIContentRequest, locale: string = 'ko'): Promise<AIContentResponse> {
   try {
@@ -484,7 +485,7 @@ export async function generateHolidayDescription(request: AIContentRequest, loca
     
     const { holidayId, holidayName, countryName, existingDescription } = request;
     
-    // 이미 설명이 있으면 그대로 반환
+    // 1. 기존 설명이 있으면 그대로 반환
     if (existingDescription && existingDescription.trim().length > 30) {
       logInfo(`기존 설명 사용: ${holidayName}`);
       return {
@@ -493,6 +494,22 @@ export async function generateHolidayDescription(request: AIContentRequest, loca
         confidence: 1.0,
         generatedAt: new Date().toISOString()
       };
+    }
+
+    // 2. 하이브리드 캐시에서 조회 시도 (Supabase 우선, 로컬 캐시 폴백)
+    try {
+      const cachedDescription = await getCachedDescription(holidayName, countryName, locale);
+      if (cachedDescription && cachedDescription.description.length > 30) {
+        logInfo(`하이브리드 캐시에서 설명 조회 성공: ${holidayName}`);
+        return {
+          holidayId,
+          description: cachedDescription.description,
+          confidence: cachedDescription.confidence,
+          generatedAt: cachedDescription.generatedAt
+        };
+      }
+    } catch (error) {
+      logWarning(`하이브리드 캐시 조회 실패, 정적 데이터베이스로 진행: ${holidayName}`, error);
     }
     
     // 국가 코드 추출 (간단한 매핑)
@@ -509,11 +526,11 @@ export async function generateHolidayDescription(request: AIContentRequest, loca
     
     const countryCode = countryCodeMap[countryName] || 'US';
     
-    // 정적 데이터베이스에서 매칭 시도
-    const bestMatch = findBestMatch(holidayName, countryCode);
+    // 3. 정적 데이터베이스에서 매칭 시도
+    const bestMatch = findBestMatch(holidayName, countryCode, locale);
     
     if (bestMatch) {
-      logInfo(`데이터베이스 매칭 성공: ${holidayName}`);
+      logInfo(`정적 데이터베이스 매칭 성공: ${holidayName}`);
       
       // 콘텐츠 품질 검증
       if (!validateContent(bestMatch.description)) {
@@ -521,17 +538,27 @@ export async function generateHolidayDescription(request: AIContentRequest, loca
         return generateFallbackDescription(request);
       }
       
-      return {
+      const result = {
         holidayId,
         description: bestMatch.description,
         confidence: 0.9,
         generatedAt: new Date().toISOString()
       };
+      
+      // 하이브리드 캐시에 저장 (비동기로 처리하여 응답 속도 영향 최소화)
+      setCachedDescription(
+        holidayId, holidayName, countryName, locale, 
+        bestMatch.description, 0.9
+      ).catch(error => 
+        logWarning(`하이브리드 캐시 저장 실패: ${holidayName}`, error)
+      );
+      
+      return result;
     }
     
-    // 매칭되지 않으면 템플릿 사용
+    // 4. 매칭되지 않으면 템플릿 사용
     logWarning(`데이터베이스 매칭 실패, 템플릿 사용: ${holidayName}`);
-    return generateTemplateDescription(request, countryCode);
+    return generateTemplateDescription(request, countryCode, locale);
     
   } catch (error) {
     const aiError = error as Error;
@@ -549,7 +576,7 @@ export async function generateHolidayDescription(request: AIContentRequest, loca
 /**
  * 템플릿 기반 설명을 생성합니다
  */
-function generateTemplateDescription(request: AIContentRequest, countryCode: string): AIContentResponse {
+function generateTemplateDescription(request: AIContentRequest, countryCode: string, locale: string = 'ko'): AIContentResponse {
   try {
     const template = getHolidayTemplate(request.holidayName, request.countryName);
     const description = template
@@ -562,13 +589,23 @@ function generateTemplateDescription(request: AIContentRequest, countryCode: str
       return generateFallbackDescription(request);
     }
     
-    logInfo(`템플릿 설명 생성 완료: ${request.holidayName}`);
-    return {
+    const result = {
       holidayId: request.holidayId,
       description,
       confidence: 0.6,
       generatedAt: new Date().toISOString()
     };
+    
+    // 하이브리드 캐시에 저장 (비동기로 처리)
+    setCachedDescription(
+      request.holidayId, request.holidayName, request.countryName, locale, 
+      description, 0.6
+    ).catch(error => 
+      logWarning(`하이브리드 캐시 저장 실패 (템플릿): ${request.holidayName}`, error)
+    );
+    
+    logInfo(`템플릿 설명 생성 완료: ${request.holidayName}`);
+    return result;
   } catch (error) {
     logApiError('generateTemplateDescription', error as Error, { holidayName: request.holidayName });
     return generateFallbackDescription(request);
@@ -578,18 +615,73 @@ function generateTemplateDescription(request: AIContentRequest, countryCode: str
 /**
  * 최종 폴백 설명을 생성합니다 (요구사항 8.3 구현)
  */
-function generateFallbackDescription(request: AIContentRequest): AIContentResponse {
+function generateFallbackDescription(request: AIContentRequest, locale: string = 'ko'): AIContentResponse {
   logWarning(`기본 폴백 설명 사용: ${request.holidayName}`);
   
   // 가장 기본적이고 안전한 설명 템플릿
   const fallbackDescription = `${request.holidayName}은(는) ${request.countryName}에서 기념하는 특별한 날입니다. 이 날에는 전통적인 의식과 함께 가족들이 모여 의미 있는 시간을 보내며, 문화적 가치를 이어가는 소중한 기회가 됩니다. 각 지역의 고유한 관습과 전통을 통해 공동체의 결속을 다지고, 세대 간 문화 전승의 역할을 하는 중요한 날입니다.`;
   
-  return {
+  const result = {
     holidayId: request.holidayId,
     description: fallbackDescription,
     confidence: 0.3,
     generatedAt: new Date().toISOString()
   };
+  
+  // 하이브리드 캐시에 저장 (비동기로 처리)
+  setCachedDescription(
+    request.holidayId, request.holidayName, request.countryName, locale, 
+    fallbackDescription, 0.3
+  ).catch(error => 
+    logWarning(`하이브리드 캐시 저장 실패 (폴백): ${request.holidayName}`, error)
+  );
+  
+  return result;
+}
+
+/**
+ * 콘텐츠 품질을 검증합니다
+ */
+function validateContent(description: string): boolean {
+  if (!description || typeof description !== 'string') {
+    return false;
+  }
+  
+  const trimmed = description.trim();
+  
+  // 최소 길이 검증 (30자 이상)
+  if (trimmed.length < 30) {
+    return false;
+  }
+  
+  // 기본적인 내용 검증 (의미 있는 문장인지 확인)
+  const sentences = trimmed.split(/[.!?]/).filter(s => s.trim().length > 0);
+  if (sentences.length < 1) {
+    return false;
+  }
+  
+  // 반복되는 문자나 의미 없는 내용 검증
+  const repeatedPattern = /(.{10,})\1{2,}/;
+  if (repeatedPattern.test(trimmed)) {
+    return false;
+  }
+  
+  return true;t result = {
+    holidayId: request.holidayId,
+    description: fallbackDescription,
+    confidence: 0.3,
+    generatedAt: new Date().toISOString()
+  };
+  
+  // 하이브리드 캐시에 저장 (비동기로 처리)
+  setCachedDescription(
+    request.holidayId, request.holidayName, request.countryName, locale, 
+    fallbackDescription, 0.3
+  ).catch(error => 
+    logWarning(`하이브리드 캐시 저장 실패 (폴백): ${request.holidayName}`, error)
+  );
+  
+  return result;
 }
 
 /**
