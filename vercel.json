@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "src/app/ads.txt/route.ts": {
+      "maxDuration": 10
+    }
+  },
   "headers": [
     {
       "source": "/ads.txt",
@@ -12,6 +17,12 @@
           "value": "public, max-age=86400"
         }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/ads.txt",
+      "destination": "/ads.txt"
     }
   ]
 }
