@@ -39,6 +39,13 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ['date-fns'],
   },
 
+  // 리다이렉트 설정 (ads.txt는 리다이렉트하지 않음)
+  async redirects() {
+    return [
+      // ads.txt는 리다이렉트하지 않고 직접 서빙
+    ];
+  },
+
   // 헤더 설정
   async headers() {
     return [
@@ -78,6 +85,19 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/robots.txt',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'text/plain',
+          },
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=86400, s-maxage=86400',
+          },
+        ],
+      },
+      {
+        source: '/ads.txt',
         headers: [
           {
             key: 'Content-Type',
