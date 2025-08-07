@@ -28,6 +28,8 @@ async function getHandler(request: NextRequest): Promise<NextResponse> {
     // 쿼리 파라미터 파싱
     const { page, limit } = parsePaginationParams(searchParams);
     const country = searchParams.get('country') || undefined;
+    const countryName = searchParams.get('country_name') || undefined;
+    const holidayName = searchParams.get('holiday_name') || undefined;
     const locale = searchParams.get('locale') || undefined;
     const isManual = parseBooleanParam(searchParams.get('isManual'));
     const search = searchParams.get('search') || undefined;
@@ -41,6 +43,8 @@ async function getHandler(request: NextRequest): Promise<NextResponse> {
         page,
         limit,
         country,
+        countryName,
+        holidayName,
         locale,
         isManual,
         search
@@ -129,16 +133,16 @@ async function postHandler(request: NextRequest): Promise<NextResponse> {
       }
     }
 
-    // 설명 데이터 준비
+    // 설명 데이터 준비 - 수동 작성임을 명확히 표시
     const descriptionData: HolidayDescriptionCreate = {
       holiday_id: body.holiday_id,
       holiday_name: body.holiday_name,
       country_name: countryName,
       locale: body.locale,
       description: body.description,
-      is_manual: true,
-      modified_by: body.modified_by,
-      confidence: 1.0
+      is_manual: true, // 수동 작성 명시
+      modified_by: body.modified_by, // 실제 작성자 이름 저장
+      confidence: 1.0 // 수동 작성이므로 최고 신뢰도
     };
 
     let result: any = null;

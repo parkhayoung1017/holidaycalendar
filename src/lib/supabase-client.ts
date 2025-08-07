@@ -15,6 +15,8 @@ export interface PaginationOptions {
 // 필터링 옵션 타입
 export interface FilterOptions {
   country?: string;
+  countryName?: string;
+  holidayName?: string;
   locale?: string;
   isManual?: boolean;
   search?: string;
@@ -158,6 +160,8 @@ export class SupabaseHolidayDescriptionService {
         page = 1, 
         limit = 20, 
         country, 
+        countryName,
+        holidayName,
         locale, 
         isManual, 
         search 
@@ -170,6 +174,12 @@ export class SupabaseHolidayDescriptionService {
       // 필터 적용
       if (country) {
         query = query.eq('country_name', country);
+      }
+      if (countryName) {
+        query = query.eq('country_name', countryName);
+      }
+      if (holidayName) {
+        query = query.eq('holiday_name', holidayName);
       }
       if (locale) {
         query = query.eq('locale', locale);

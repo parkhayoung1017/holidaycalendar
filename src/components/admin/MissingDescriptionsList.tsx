@@ -10,6 +10,10 @@ interface MissingHoliday {
   country_code: string;
   date: string;
   year: number;
+  language_status?: {
+    ko: boolean;
+    en: boolean;
+  };
 }
 
 interface MissingDescriptionsListProps {
@@ -135,9 +139,31 @@ export default function MissingDescriptionsList({
                       <h3 className="text-sm font-medium text-gray-900">
                         {holiday.holiday_name}
                       </h3>
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                        {holiday.country_code}
-                      </span>
+                      <div className="flex items-center space-x-2">
+                        <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
+                          {holiday.country_code}
+                        </span>
+                        <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-700">
+                          {holiday.country_name}
+                        </span>
+                      </div>
+                      {/* 언어별 작성 상태 표시 */}
+                      <div className="flex items-center space-x-1">
+                        <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
+                          holiday.language_status?.ko 
+                            ? 'bg-green-100 text-green-800' 
+                            : 'bg-yellow-100 text-yellow-800'
+                        }`}>
+                          🇰🇷 {holiday.language_status?.ko ? '완료' : '미완성'}
+                        </span>
+                        <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
+                          holiday.language_status?.en 
+                            ? 'bg-green-100 text-green-800' 
+                            : 'bg-yellow-100 text-yellow-800'
+                        }`}>
+                          🇺🇸 {holiday.language_status?.en ? '완료' : '미완성'}
+                        </span>
+                      </div>
                     </div>
                     <div className="mt-1 flex items-center space-x-4 text-sm text-gray-500">
                       <span>{holiday.country_name}</span>
@@ -145,6 +171,9 @@ export default function MissingDescriptionsList({
                       <span>{formatDate(holiday.date)}</span>
                       <span>•</span>
                       <span>{holiday.year}년</span>
+                    </div>
+                    <div className="mt-2 text-xs text-gray-400">
+                      두 언어 모두 작성이 완료되면 이 목록에서 제거됩니다.
                     </div>
                   </div>
                   <div className="flex-shrink-0">

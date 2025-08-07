@@ -1,17 +1,17 @@
 {
-  "id": "6f24a125-9b7a-4a08-a920-632dac696b39",
+  "id": "d43033dd-5dc4-4ccb-8460-f84853e1fe3d",
   "holiday_id": "ad_2024_2024-01-06_Epiphany",
   "holiday_name": "Epiphany",
   "country_name": "Andorra",
-  "locale": "ko",
-  "description": "한번 더 테스트를 해봅니다. 제발",
+  "locale": "en",
+  "description": "영어 테스트 진행중",
   "confidence": 1,
-  "generated_at": "2025-08-07T02:44:11.820525+00:00",
-  "last_used": "2025-08-07T02:44:11.748+00:00",
-  "modified_at": "2025-08-07T02:44:11.748+00:00",
+  "generated_at": "2025-08-07T03:06:56.658686+00:00",
+  "last_used": "2025-08-07T03:06:56.568+00:00",
+  "modified_at": "2025-08-07T03:06:56.568+00:00",
   "modified_by": "admin",
   "is_manual": true,
   "ai_model": null,
-  "created_at": "2025-08-07T02:44:11.748+00:00",
-  "updated_at": "2025-08-07T02:44:11.748+00:00"
+  "created_at": "2025-08-07T03:06:56.568+00:00",
+  "updated_at": "2025-08-07T03:06:56.568+00:00"
 }

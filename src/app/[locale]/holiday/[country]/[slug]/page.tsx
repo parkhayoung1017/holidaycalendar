@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+
 import { Metadata } from 'next';
 import { Holiday } from '@/types';
 import { Locale } from '@/types/i18n';
@@ -431,5 +431,5 @@ export async function generateStaticParams() {
   return params;
 }
 
-// ISR 설정 - 개발 환경에서는 캐시 비활성화, 프로덕션에서는 1시간마다 재생성
-export const revalidate = process.env.NODE_ENV === 'development' ? 0 : 3600;
+// ISR 설정 - 1시간마다 재생성
+export const revalidate = 3600;

@@ -69,52 +69,81 @@ async function findMissingDescriptions(
     
     const existingKeys = new Set<string>();
     
-    // 1. Supabase에서 기존 설명 확인 (우선순위)
+    // 1. Supabase에서 기존 설명 확인 (수동 작성된 설명만)
     try {
-      const supabaseDescriptions = await service.getDescriptions({
-        page: 1,
-        limit: 10000, // 모든 설명을 가져오기 위해 큰 값 설정
-        locale: 'ko'
-      });
+      // 한국어와 영어의 수동 작성된 설명만 가져오기
+      const [koDescriptions, enDescriptions] = await Promise.all([
+        service.getDescriptions({
+          page: 1,
+          limit: 10000,
+          locale: 'ko',
+          isManual: true  // 수동 작성된 설명만
+        }),
+        service.getDescriptions({
+          page: 1,
+          limit: 10000,
+          locale: 'en',
+          isManual: true  // 수동 작성된 설명만
+        })
+      ]);
       
-      supabaseDescriptions.data.forEach(desc => {
-        // 다양한 키 형식으로 저장하여 매칭률 향상
-        existingKeys.add(`${desc.holiday_name}_${desc.country_name}_ko`);
-        existingKeys.add(`${desc.holiday_name}_${desc.country_name}_en`);
-        // 국가 코드도 함께 확인
+      // 한국어 설명 처리
+      koDescriptions.data.forEach(desc => {
+        const normalizedKey = `${desc.holiday_name}|${desc.country_name}|ko`;
+        existingKeys.add(normalizedKey);
+        
+        // 국가 코드 변형도 추가
         const countryCode = getCountryCodeFromName(desc.country_name);
         if (countryCode) {
-          existingKeys.add(`${desc.holiday_name}_${countryCode}_ko`);
-          existingKeys.add(`${desc.holiday_name}_${countryCode}_en`);
+          existingKeys.add(`${desc.holiday_name}|${countryCode}|ko`);
         }
       });
       
-      console.log('Supabase에서 가져온 설명 개수:', supabaseDescriptions.data.length);
+      // 영어 설명 처리
+      enDescriptions.data.forEach(desc => {
+        const normalizedKey = `${desc.holiday_name}|${desc.country_name}|en`;
+        existingKeys.add(normalizedKey);
+        
+        // 국가 코드 변형도 추가
+        const countryCode = getCountryCodeFromName(desc.country_name);
+        if (countryCode) {
+          existingKeys.add(`${desc.holiday_name}|${countryCode}|en`);
+        }
+      });
+      
+      console.log('Supabase에서 가져온 설명 개수:', {
+        ko: koDescriptions.data.length,
+        en: enDescriptions.data.length,
+        total: koDescriptions.data.length + enDescriptions.data.length
+      });
     } catch (error) {
       console.warn('Supabase 설명 조회 실패:', error);
     }
     
-    // 2. AI 캐시 파일에서 기존 설명 확인 (더 정확한 파싱)
+    // 2. AI 캐시 파일에서 수동 작성된 설명만 확인
     try {
       const aiCachePath = path.join(process.cwd(), 'public', 'ai-cache.json');
       if (fs.existsSync(aiCachePath)) {
         const aiCache = JSON.parse(fs.readFileSync(aiCachePath, 'utf-8'));
         Object.entries(aiCache).forEach(([key, value]: [string, any]) => {
           if (value && typeof value === 'object') {
-            // 새로운 형식: 객체 형태의 캐시 데이터
-            if (value.holidayName && value.countryName) {
-              existingKeys.add(`${value.holidayName}_${value.countryName}_ko`);
-              existingKeys.add(`${value.holidayName}_${value.countryName}_en`);
+            // 매우 엄격한 수동 작성 검증: confidence가 정확히 1.0이고 isManual이 true인 경우만
+            const isReallyManual = value.isManual === true && value.confidence === 1.0;
+            
+            if (isReallyManual && value.holidayName && value.countryName && value.locale) {
+              // 다양한 키 형식으로 저장하여 매칭률 향상
+              existingKeys.add(`${value.holidayName}|${value.countryName}|${value.locale}`);
+              existingKeys.add(`${value.holidayName}_${value.countryName}_${value.locale}`);
+              existingKeys.add(`${value.holidayName}-${value.countryName}-${value.locale}`);
+              
+              console.log(`🎯 AI 캐시에서 수동 설명 발견: ${value.holidayName} (${value.countryName}, ${value.locale})`);
+            } else if (value.holidayName && value.countryName && value.locale) {
+              // AI 생성 설명은 로그만 출력하고 제외
+              console.log(`🤖 AI 생성 설명 제외: ${value.holidayName} (${value.countryName}, ${value.locale}) - confidence: ${value.confidence}, isManual: ${value.isManual}`);
             }
           } else {
-            // 기존 형식: 키 기반 파싱
-            const parts = key.split('-');
-            if (parts.length >= 3) {
-              const holidayName = parts.slice(0, -2).join('-');
-              const countryName = parts[parts.length - 2];
-              existingKeys.add(`${holidayName}_${countryName}_ko`);
-              existingKeys.add(`${holidayName}_${countryName}_en`);
-            }
+            // 기존 형식은 AI 생성으로 간주하여 제외
+            // (수동 작성된 설명은 객체 형태로 저장됨)
           }
         });
       }
@@ -132,9 +161,22 @@ async function findMissingDescriptions(
             try {
               const filePath = path.join(descriptionsDir, file);
               const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-              if (data.holiday_name && data.country_name) {
-                existingKeys.add(`${data.holiday_name}_${data.country_name}_ko`);
-                existingKeys.add(`${data.holiday_name}_${data.country_name}_en`);
+              if (data.holiday_name && data.country_name && data.locale) {
+                // 실제 파일의 언어에 맞게 키 생성 (수정된 로직)
+                const locale = data.locale;
+                existingKeys.add(`${data.holiday_name}|${data.country_name}|${locale}`);
+                existingKeys.add(`${data.holiday_name}_${data.country_name}_${locale}`);
+                existingKeys.add(`${data.holiday_name}-${data.country_name}-${locale}`);
+                
+                // 국가 코드 변형도 추가
+                const countryCode = getCountryCodeFromName(data.country_name);
+                if (countryCode) {
+                  existingKeys.add(`${data.holiday_name}|${countryCode}|${locale}`);
+                  existingKeys.add(`${data.holiday_name}_${countryCode}_${locale}`);
+                  existingKeys.add(`${data.holiday_name}-${countryCode}-${locale}`);
+                }
+                
+                console.log(`📁 파일에서 설명 발견: ${data.holiday_name} (${data.country_name}, ${locale})`);
               }
             } catch (error) {
               console.warn(`설명 파일 읽기 실패: ${file}`, error);
@@ -146,13 +188,7 @@ async function findMissingDescriptions(
       console.warn('설명 디렉토리 읽기 실패:', error);
     }
     
-    // 4. 하이브리드 캐시에서도 확인 (추가 보완)
-    try {
-      const { getCachedDescription } = await import('../../../../lib/hybrid-cache');
-      // 이미 위에서 Supabase와 로컬 캐시를 확인했으므로 여기서는 스킵
-    } catch (error) {
-      console.warn('하이브리드 캐시 확인 실패:', error);
-    }
+    // 4. 추가 확인 완료 (Supabase, AI 캐시, 파일 시스템 모두 확인됨)
     
     console.log('총 기존 설명 개수:', existingKeys.size);
 
@@ -197,27 +233,95 @@ async function findMissingDescriptions(
           for (const holiday of holidayData.holidays) {
             const countryName = holidayData.country || getCountryName(countryCode);
             
-            // 다양한 키 형식으로 확인하여 매칭률 향상
-            const possibleKeys = [
-              `${holiday.name}_${countryName}_ko`,
-              `${holiday.name}_${countryName}_en`,
-              `${holiday.name}_${countryCode.toUpperCase()}_ko`,
-              `${holiday.name}_${countryCode.toUpperCase()}_en`,
-              `${holiday.name}_${getCountryName(countryCode)}_ko`,
-              `${holiday.name}_${getCountryName(countryCode)}_en`
-            ];
+            // 다양한 국가명 형식과 로케일 조합으로 확인
+            const countryVariations = [
+              countryName,
+              countryCode.toUpperCase(),
+              countryCode.toLowerCase(),
+              getCountryName(countryCode),
+              // 특별한 경우들
+              ...(countryName === 'United States' ? ['US', 'USA', 'America'] : []),
+              ...(countryName === 'United Kingdom' ? ['GB', 'UK', 'Britain'] : []),
+              ...(countryName === 'South Korea' ? ['KR', 'Korea'] : [])
+            ].filter((v, i, arr) => arr.indexOf(v) === i); // 중복 제거
             
-            // 모든 가능한 키를 확인해서 하나라도 존재하면 설명이 있는 것으로 간주
-            const hasDescription = possibleKeys.some(key => existingKeys.has(key));
+            const locales = ['ko', 'en'];
+            const possibleKeys: string[] = [];
             
-            if (!hasDescription) {
+            // 모든 국가명 변형과 로케일 조합 생성
+            for (const country of countryVariations) {
+              for (const locale of locales) {
+                // 정규화된 키 형식
+                possibleKeys.push(`${holiday.name}|${country}|${locale}`);
+                // 기존 형식 (하위 호환성)
+                possibleKeys.push(`${holiday.name}_${country}_${locale}`);
+                // AI 캐시 형식 (Holiday Name-Country Name-locale)
+                possibleKeys.push(`${holiday.name}-${country}-${locale}`);
+              }
+            }
+            
+            // 모든 지원 언어에 설명이 있는지 확인 (한국어와 영어 모두)
+            const hasKoreanDescription = countryVariations.some(country => 
+              existingKeys.has(`${holiday.name}|${country}|ko`) ||
+              existingKeys.has(`${holiday.name}_${country}_ko`) ||
+              existingKeys.has(`${holiday.name}-${country}-ko`)
+            );
+            
+            const hasEnglishDescription = countryVariations.some(country => 
+              existingKeys.has(`${holiday.name}|${country}|en`) ||
+              existingKeys.has(`${holiday.name}_${country}_en`) ||
+              existingKeys.has(`${holiday.name}-${country}-en`)
+            );
+            
+            // 두 언어 모두 설명이 있어야만 완료된 것으로 간주
+            const hasCompleteDescription = hasKoreanDescription && hasEnglishDescription;
+            
+            // 디버깅을 위한 로그 (Andorra Carnival 특별 확인)
+            const isAndorraCarnival = holiday.name === 'Carnival' && countryCode.toLowerCase() === 'ad';
+            
+            if (allMissingHolidays.length < 5 || isAndorraCarnival) {
+              console.log(`공휴일 확인: ${holiday.name} (${countryName})`, {
+                hasKoreanDescription,
+                hasEnglishDescription,
+                hasCompleteDescription,
+                checkedKeys: possibleKeys.slice(0, 6), // 처음 6개만 표시
+                totalKeys: possibleKeys.length,
+                isAndorraCarnival,
+                existingKeysCount: existingKeys.size
+              });
+              
+              // Andorra Carnival의 경우 더 자세한 디버깅
+              if (isAndorraCarnival) {
+                console.log('🔍 Andorra Carnival 상세 디버깅:');
+                console.log('- 생성된 가능한 키들:', possibleKeys);
+                console.log('- 기존 키 중 일치하는 것들:');
+                possibleKeys.forEach(key => {
+                  if (existingKeys.has(key)) {
+                    console.log(`  ✅ 발견: ${key}`);
+                  }
+                });
+                console.log('- 기존 키 샘플 (처음 10개):');
+                Array.from(existingKeys).slice(0, 10).forEach(key => {
+                  console.log(`  - ${key}`);
+                });
+              }
+            }
+            
+            // 두 언어 모두 설명이 있는 경우에만 "설명 없는 공휴일" 목록에서 제외
+            // 하나라도 설명이 없으면 목록에 포함 (수정된 로직)
+            if (!hasCompleteDescription) {
               allMissingHolidays.push({
                 holiday_id: `${countryCode}_${fileYear}_${holiday.date}_${holiday.name.replace(/\s+/g, '_')}`,
                 holiday_name: holiday.name,
                 country_name: countryName,
                 country_code: countryCode.toUpperCase(),
                 date: holiday.date,
-                year: parseInt(fileYear)
+                year: parseInt(fileYear),
+                // 언어별 작성 상태 추가
+                language_status: {
+                  ko: hasKoreanDescription,
+                  en: hasEnglishDescription
+                }
               });
             }
           }
@@ -250,6 +354,7 @@ async function findMissingDescriptions(
  */
 function getCountryName(countryCode: string): string {
   const countryNames: Record<string, string> = {
+    // 주요 국가들
     'us': 'United States',
     'kr': 'South Korea',
     'jp': 'Japan',
@@ -269,7 +374,238 @@ function getCountryName(countryCode: string): string {
     'se': 'Sweden',
     'no': 'Norway',
     'dk': 'Denmark',
-    'fi': 'Finland'
+    'fi': 'Finland',
+    
+    // 추가 국가들 (알파벳 순)
+    'ad': 'Andorra',
+    'ae': 'United Arab Emirates',
+    'af': 'Afghanistan',
+    'ag': 'Antigua and Barbuda',
+    'ai': 'Anguilla',
+    'al': 'Albania',
+    'am': 'Armenia',
+    'ao': 'Angola',
+    'aq': 'Antarctica',
+    'ar': 'Argentina',
+    'as': 'American Samoa',
+    'at': 'Austria',
+    'aw': 'Aruba',
+    'ax': 'Åland Islands',
+    'az': 'Azerbaijan',
+    'ba': 'Bosnia and Herzegovina',
+    'bb': 'Barbados',
+    'bd': 'Bangladesh',
+    'be': 'Belgium',
+    'bf': 'Burkina Faso',
+    'bg': 'Bulgaria',
+    'bh': 'Bahrain',
+    'bi': 'Burundi',
+    'bj': 'Benin',
+    'bl': 'Saint Barthélemy',
+    'bm': 'Bermuda',
+    'bn': 'Brunei',
+    'bo': 'Bolivia',
+    'bq': 'Caribbean Netherlands',
+    'bs': 'Bahamas',
+    'bt': 'Bhutan',
+    'bv': 'Bouvet Island',
+    'bw': 'Botswana',
+    'by': 'Belarus',
+    'bz': 'Belize',
+    'cc': 'Cocos Islands',
+    'cd': 'Democratic Republic of the Congo',
+    'cf': 'Central African Republic',
+    'cg': 'Republic of the Congo',
+    'ch': 'Switzerland',
+    'ci': 'Côte d\'Ivoire',
+    'ck': 'Cook Islands',
+    'cl': 'Chile',
+    'cm': 'Cameroon',
+    'co': 'Colombia',
+    'cr': 'Costa Rica',
+    'cu': 'Cuba',
+    'cv': 'Cape Verde',
+    'cw': 'Curaçao',
+    'cx': 'Christmas Island',
+    'cy': 'Cyprus',
+    'cz': 'Czech Republic',
+    'dj': 'Djibouti',
+    'dm': 'Dominica',
+    'do': 'Dominican Republic',
+    'dz': 'Algeria',
+    'ec': 'Ecuador',
+    'ee': 'Estonia',
+    'eg': 'Egypt',
+    'eh': 'Western Sahara',
+    'er': 'Eritrea',
+    'et': 'Ethiopia',
+    'fj': 'Fiji',
+    'fk': 'Falkland Islands',
+    'fm': 'Micronesia',
+    'fo': 'Faroe Islands',
+    'ga': 'Gabon',
+    'gd': 'Grenada',
+    'ge': 'Georgia',
+    'gf': 'French Guiana',
+    'gg': 'Guernsey',
+    'gh': 'Ghana',
+    'gi': 'Gibraltar',
+    'gl': 'Greenland',
+    'gm': 'Gambia',
+    'gn': 'Guinea',
+    'gp': 'Guadeloupe',
+    'gq': 'Equatorial Guinea',
+    'gr': 'Greece',
+    'gs': 'South Georgia',
+    'gt': 'Guatemala',
+    'gu': 'Guam',
+    'gw': 'Guinea-Bissau',
+    'gy': 'Guyana',
+    'hk': 'Hong Kong',
+    'hm': 'Heard Island',
+    'hn': 'Honduras',
+    'hr': 'Croatia',
+    'ht': 'Haiti',
+    'hu': 'Hungary',
+    'id': 'Indonesia',
+    'ie': 'Ireland',
+    'il': 'Israel',
+    'im': 'Isle of Man',
+    'io': 'British Indian Ocean Territory',
+    'iq': 'Iraq',
+    'ir': 'Iran',
+    'is': 'Iceland',
+    'je': 'Jersey',
+    'jm': 'Jamaica',
+    'jo': 'Jordan',
+    'ke': 'Kenya',
+    'kg': 'Kyrgyzstan',
+    'kh': 'Cambodia',
+    'ki': 'Kiribati',
+    'km': 'Comoros',
+    'kn': 'Saint Kitts and Nevis',
+    'kp': 'North Korea',
+    'kw': 'Kuwait',
+    'ky': 'Cayman Islands',
+    'kz': 'Kazakhstan',
+    'la': 'Laos',
+    'lb': 'Lebanon',
+    'lc': 'Saint Lucia',
+    'li': 'Liechtenstein',
+    'lk': 'Sri Lanka',
+    'lr': 'Liberia',
+    'ls': 'Lesotho',
+    'lt': 'Lithuania',
+    'lu': 'Luxembourg',
+    'lv': 'Latvia',
+    'ly': 'Libya',
+    'ma': 'Morocco',
+    'mc': 'Monaco',
+    'md': 'Moldova',
+    'me': 'Montenegro',
+    'mf': 'Saint Martin',
+    'mg': 'Madagascar',
+    'mh': 'Marshall Islands',
+    'mk': 'North Macedonia',
+    'ml': 'Mali',
+    'mm': 'Myanmar',
+    'mn': 'Mongolia',
+    'mo': 'Macao',
+    'mp': 'Northern Mariana Islands',
+    'mq': 'Martinique',
+    'mr': 'Mauritania',
+    'ms': 'Montserrat',
+    'mt': 'Malta',
+    'mu': 'Mauritius',
+    'mv': 'Maldives',
+    'mw': 'Malawi',
+    'my': 'Malaysia',
+    'mz': 'Mozambique',
+    'na': 'Namibia',
+    'nc': 'New Caledonia',
+    'ne': 'Niger',
+    'nf': 'Norfolk Island',
+    'ng': 'Nigeria',
+    'ni': 'Nicaragua',
+    'np': 'Nepal',
+    'nr': 'Nauru',
+    'nu': 'Niue',
+    'nz': 'New Zealand',
+    'om': 'Oman',
+    'pa': 'Panama',
+    'pe': 'Peru',
+    'pf': 'French Polynesia',
+    'pg': 'Papua New Guinea',
+    'ph': 'Philippines',
+    'pk': 'Pakistan',
+    'pl': 'Poland',
+    'pm': 'Saint Pierre and Miquelon',
+    'pn': 'Pitcairn',
+    'pr': 'Puerto Rico',
+    'ps': 'Palestine',
+    'pt': 'Portugal',
+    'pw': 'Palau',
+    'py': 'Paraguay',
+    'qa': 'Qatar',
+    're': 'Réunion',
+    'ro': 'Romania',
+    'rs': 'Serbia',
+    'rw': 'Rwanda',
+    'sa': 'Saudi Arabia',
+    'sb': 'Solomon Islands',
+    'sc': 'Seychelles',
+    'sd': 'Sudan',
+    'sg': 'Singapore',
+    'sh': 'Saint Helena',
+    'si': 'Slovenia',
+    'sj': 'Svalbard and Jan Mayen',
+    'sk': 'Slovakia',
+    'sl': 'Sierra Leone',
+    'sm': 'San Marino',
+    'sn': 'Senegal',
+    'so': 'Somalia',
+    'sr': 'Suriname',
+    'ss': 'South Sudan',
+    'st': 'São Tomé and Príncipe',
+    'sv': 'El Salvador',
+    'sx': 'Sint Maarten',
+    'sy': 'Syria',
+    'sz': 'Eswatini',
+    'tc': 'Turks and Caicos Islands',
+    'td': 'Chad',
+    'tf': 'French Southern Territories',
+    'tg': 'Togo',
+    'th': 'Thailand',
+    'tj': 'Tajikistan',
+    'tk': 'Tokelau',
+    'tl': 'Timor-Leste',
+    'tm': 'Turkmenistan',
+    'tn': 'Tunisia',
+    'to': 'Tonga',
+    'tr': 'Turkey',
+    'tt': 'Trinidad and Tobago',
+    'tv': 'Tuvalu',
+    'tw': 'Taiwan',
+    'tz': 'Tanzania',
+    'ua': 'Ukraine',
+    'ug': 'Uganda',
+    'um': 'United States Minor Outlying Islands',
+    'uy': 'Uruguay',
+    'uz': 'Uzbekistan',
+    'va': 'Vatican City',
+    'vc': 'Saint Vincent and the Grenadines',
+    've': 'Venezuela',
+    'vg': 'British Virgin Islands',
+    'vi': 'U.S. Virgin Islands',
+    'vn': 'Vietnam',
+    'vu': 'Vanuatu',
+    'wf': 'Wallis and Futuna',
+    'ws': 'Samoa',
+    'ye': 'Yemen',
+    'yt': 'Mayotte',
+    'za': 'South Africa',
+    'zm': 'Zambia',
+    'zw': 'Zimbabwe'
   };
   
   return countryNames[countryCode.toLowerCase()] || countryCode.toUpperCase();
@@ -301,7 +637,8 @@ function getCountryCodeFromName(countryName: string): string | null {
     'Sweden': 'SE',
     'Norway': 'NO',
     'Denmark': 'DK',
-    'Finland': 'FI'
+    'Finland': 'FI',
+    'Andorra': 'AD'
   };
   
   return countryCodeMap[countryName] || null;

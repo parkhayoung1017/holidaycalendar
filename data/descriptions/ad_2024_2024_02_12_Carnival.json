@@ -1,0 +1,17 @@
+{
+  "id": "2d979f21-97d0-428d-9bdd-e8b4e962f03f",
+  "holiday_id": "ad_2024_2024-02-12_Carnival",
+  "holiday_name": "Carnival",
+  "country_name": "Andorra",
+  "locale": "ko",
+  "description": "카니발 테스트입니다.",
+  "confidence": 1,
+  "generated_at": "2025-08-07T03:24:49.300018+00:00",
+  "last_used": "2025-08-07T03:24:49.189+00:00",
+  "modified_at": "2025-08-07T03:24:49.189+00:00",
+  "modified_by": "admin",
+  "is_manual": true,
+  "ai_model": null,
+  "created_at": "2025-08-07T03:24:49.189+00:00",
+  "updated_at": "2025-08-07T03:24:49.189+00:00"
+}
