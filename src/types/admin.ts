@@ -2,7 +2,7 @@
  * 어드민 시스템 관련 타입 정의
  */
 
-// Supabase 데이터베이스 테이블 타입들
+// Supabase 관련 타입
 export interface HolidayDescription {
   id: string;
   holiday_id: string;
@@ -31,7 +31,7 @@ export interface AdminSession {
   user_agent?: string;
 }
 
-// 어드민 대시보드 관련 타입들
+// 어드민 관련 타입
 export interface AdminDashboardStats {
   totalHolidays: number;
   totalDescriptions: number;
@@ -47,7 +47,6 @@ export interface AdminDashboardStats {
   }>;
 }
 
-// API 요청/응답 타입들
 export interface AdminLoginRequest {
   password: string;
 }
@@ -55,6 +54,19 @@ export interface AdminLoginRequest {
 export interface AdminLoginResponse {
   success: boolean;
   sessionToken?: string;
+  expiresAt?: string;
+  error?: string;
+}
+
+export interface AdminLogoutResponse {
+  success: boolean;
+  error?: string;
+}
+
+export interface AdminVerifyResponse {
+  success: boolean;
+  valid: boolean;
+  sessionId?: string;
   expiresAt?: string;
   error?: string;
 }
@@ -77,7 +89,7 @@ export interface HolidayDescriptionCreate {
   ai_model?: string;
 }
 
-// 에러 관련 타입들
+// 에러 관련 타입
 export enum AdminErrorCode {
   UNAUTHORIZED = 'UNAUTHORIZED',
   INVALID_PASSWORD = 'INVALID_PASSWORD',
@@ -99,51 +111,45 @@ export class AdminError extends Error {
   }
 }
 
-// 세션 관리 관련 타입들
-export interface SessionData {
-  sessionToken: string;
-  expiresAt: Date;
-  createdAt: Date;
-  lastAccessed: Date;
-  ipAddress?: string;
-  userAgent?: string;
+// 페이지네이션 및 필터링 타입
+export interface PaginationOptions {
+  page?: number;
+  limit?: number;
 }
 
-// 로깅 관련 타입들
-export interface AdminActionLog {
-  action: string;
-  userId: string;
-  timestamp: Date;
-  details?: any;
-  ipAddress?: string;
+export interface FilterOptions {
+  country?: string;
+  locale?: string;
+  isManual?: boolean;
+  search?: string;
 }
 
-export interface SecurityEventLog {
-  event: string;
-  ipAddress: string;
-  timestamp: Date;
-  details?: any;
+export interface PaginatedResponse<T> {
+  data: T[];
+  total: number;
+  page: number;
+  limit: number;
+  totalPages: number;
 }
 
-// 마이그레이션 관련 타입들
-export interface MigrationResult {
-  success: number;
-  failed: number;
-  errors: string[];
-  totalProcessed: number;
-  startTime: Date;
-  endTime: Date;
+// 인증 관련 타입
+export interface AuthenticatedRequest extends Request {
+  sessionId?: string;
+  session?: AdminSession;
 }
 
-// 기존 캐시 데이터 형식 (호환성 유지용)
-export interface CachedContent {
-  holidayId: string;
-  holidayName: string;
-  countryName: string;
-  locale: string;
-  description: string;
-  confidence: number;
-  generatedAt: string;
-  lastUsed: string;
-  aiModel?: string;
+export interface AuthResult {
+  success: boolean;
+  sessionId?: string;
+  session?: AdminSession;
+  error?: string;
+  response?: Response;
+}
+
+// 클라이언트 사이드 인증 상태 타입
+export interface AuthStatus {
+  isAuthenticated: boolean;
+  sessionId?: string;
+  expiresAt?: string;
+  error?: string;
 }

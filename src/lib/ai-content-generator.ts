@@ -1,6 +1,8 @@
 import { Holiday, AIContentRequest, AIContentResponse } from '@/types';
 import { logApiError, logWarning, logInfo } from './error-logger';
 import { getCachedDescription, setCachedDescription } from './hybrid-cache';
+import { SupabaseHolidayDescriptionService } from './supabase-client';
+import type { HolidayDescriptionCreate } from '../types/admin';
 
 // 공휴일 설명 데이터베이스
 interface HolidayDescription {
@@ -498,7 +500,66 @@ export async function generateHolidayDescription(request: AIContentRequest, loca
 
     // 2. 하이브리드 캐시에서 조회 시도 (Supabase 우선, 로컬 캐시 폴백)
     try {
-      const cachedDescription = await getCachedDescription(holidayName, countryName, locale);
+      // 먼저 원래 국가명으로 조회
+      let cachedDescription = await getCachedDescription(holidayName, countryName, locale);
+      
+      // 찾지 못한 경우 국가 코드 매핑을 통해 다시 시도
+      if (!cachedDescription || cachedDescription.description.length <= 30) {
+        const countryCodeMap: Record<string, string> = {
+          'United States': 'US',
+          'South Korea': 'KR',
+          'Korea': 'KR',
+          'Japan': 'JP',
+          'United Kingdom': 'GB',
+          'Britain': 'GB',
+          'France': 'FR',
+          'Canada': 'CA',
+          'Australia': 'AU',
+          'Germany': 'DE',
+          'Italy': 'IT',
+          'Spain': 'ES',
+          'Netherlands': 'NL',
+          'Brazil': 'BR',
+          'Mexico': 'MX',
+          'India': 'IN',
+          'China': 'CN',
+          'Russia': 'RU'
+        };
+        
+        const reverseCountryCodeMap: Record<string, string> = {
+          'US': 'United States',
+          'KR': 'South Korea',
+          'JP': 'Japan',
+          'GB': 'United Kingdom',
+          'FR': 'France',
+          'CA': 'Canada',
+          'AU': 'Australia',
+          'DE': 'Germany',
+          'IT': 'Italy',
+          'ES': 'Spain',
+          'NL': 'Netherlands',
+          'BR': 'Brazil',
+          'MX': 'Mexico',
+          'IN': 'India',
+          'CN': 'China',
+          'RU': 'Russia'
+        };
+        
+        // 국가명을 국가코드로 변환해서 시도
+        const countryCode = countryCodeMap[countryName];
+        if (countryCode) {
+          cachedDescription = await getCachedDescription(holidayName, countryCode, locale);
+        }
+        
+        // 국가코드를 국가명으로 변환해서 시도
+        if (!cachedDescription && countryName.length === 2) {
+          const fullCountryName = reverseCountryCodeMap[countryName.toUpperCase()];
+          if (fullCountryName) {
+            cachedDescription = await getCachedDescription(holidayName, fullCountryName, locale);
+          }
+        }
+      }
+      
       if (cachedDescription && cachedDescription.description.length > 30) {
         logInfo(`하이브리드 캐시에서 설명 조회 성공: ${holidayName}`);
         return {
@@ -545,7 +606,15 @@ export async function generateHolidayDescription(request: AIContentRequest, loca
         generatedAt: new Date().toISOString()
       };
       
-      // 하이브리드 캐시에 저장 (비동기로 처리하여 응답 속도 영향 최소화)
+      // Supabase에 자동 저장 (비동기로 처리하여 응답 속도 영향 최소화)
+      saveToSupabaseAsync(
+        holidayId, holidayName, countryName, locale, 
+        bestMatch.description, 0.9, 'static_database'
+      ).catch(error => 
+        logWarning(`Supabase 자동 저장 실패: ${holidayName}`, error)
+      );
+      
+      // 하이브리드 캐시에도 저장
       setCachedDescription(
         holidayId, holidayName, countryName, locale, 
         bestMatch.description, 0.9
@@ -586,7 +655,7 @@ function generateTemplateDescription(request: AIContentRequest, countryCode: str
     // 템플릿 설명도 품질 검증
     if (!validateContent(description)) {
       logWarning(`템플릿 콘텐츠 품질 검증 실패, 기본 폴백 사용: ${request.holidayName}`);
-      return generateFallbackDescription(request);
+      return generateFallbackDescription(request, locale);
     }
     
     const result = {
@@ -596,7 +665,15 @@ function generateTemplateDescription(request: AIContentRequest, countryCode: str
       generatedAt: new Date().toISOString()
     };
     
-    // 하이브리드 캐시에 저장 (비동기로 처리)
+    // Supabase에 자동 저장 (비동기로 처리)
+    saveToSupabaseAsync(
+      request.holidayId, request.holidayName, request.countryName, locale, 
+      description, 0.6, 'template_generator'
+    ).catch(error => 
+      logWarning(`Supabase 자동 저장 실패 (템플릿): ${request.holidayName}`, error)
+    );
+    
+    // 하이브리드 캐시에도 저장 (비동기로 처리)
     setCachedDescription(
       request.holidayId, request.holidayName, request.countryName, locale, 
       description, 0.6
@@ -608,8 +685,203 @@ function generateTemplateDescription(request: AIContentRequest, countryCode: str
     return result;
   } catch (error) {
     logApiError('generateTemplateDescription', error as Error, { holidayName: request.holidayName });
-    return generateFallbackDescription(request);
+    return generateFallbackDescription(request, locale);
   }
+}
+
+/**
+ * Supabase에 비동기로 설명을 저장합니다
+ */
+async function saveToSupabaseAsync(
+  holidayId: string,
+  holidayName: string,
+  countryName: string,
+  locale: string,
+  description: string,
+  confidence: number,
+  aiModel: string = 'static_database'
+): Promise<void> {
+  try {
+    const supabaseService = new SupabaseHolidayDescriptionService();
+    
+    // 기존 데이터 확인
+    const existing = await supabaseService.getDescription(holidayName, countryName, locale);
+    
+    if (existing) {
+      // 기존 데이터가 있으면 업데이트 (더 높은 신뢰도인 경우만)
+      if (confidence > existing.confidence) {
+        await supabaseService.updateDescription(existing.id, {
+          description,
+          confidence,
+          modified_by: 'ai_generator',
+          ai_model: aiModel,
+          is_manual: false
+        });
+        logInfo(`Supabase 업데이트 완료: ${holidayName} (신뢰도: ${existing.confidence} → ${confidence})`);
+      }
+    } else {
+      // 새로 생성
+      const createData: HolidayDescriptionCreate = {
+        holiday_id: holidayId,
+        holiday_name: holidayName,
+        country_name: countryName,
+        locale,
+        description,
+        confidence,
+        is_manual: false,
+        modified_by: 'ai_generator',
+        ai_model: aiModel
+      };
+      
+      await supabaseService.createDescription(createData);
+      logInfo(`Supabase 새 설명 저장 완료: ${holidayName}`);
+    }
+  } catch (error) {
+    logWarning(`Supabase 저장 실패: ${holidayName}`, error);
+    throw error;
+  }
+}
+
+/**
+ * 콘텐츠 품질을 검증합니다
+ */
+function validateContent(description: string): boolean {
+  if (!description || typeof description !== 'string') {
+    return false;
+  }
+  
+  const trimmed = description.trim();
+  
+  // 최소 길이 검증
+  if (trimmed.length < 50) {
+    return false;
+  }
+  
+  // 의미 있는 내용 검증 (너무 반복적이거나 일반적인 내용 제외)
+  const words = trimmed.split(/\s+/);
+  if (words.length < 10) {
+    return false;
+  }
+  
+  // 기본적인 문장 구조 검증
+  const sentences = trimmed.split(/[.!?]+/).filter(s => s.trim().length > 0);
+  if (sentences.length < 2) {
+    return false;
+  }
+  
+  return true;
+}
+
+/**
+ * 최종 폴백 설명을 생성합니다 (요구사항 8.3 구현)
+ */
+function generateFallbackDescription(request: AIContentRequest, locale: string = 'ko'): AIContentResponse {
+  logWarning(`기본 폴백 설명 사용: ${request.holidayName}`);
+  
+  // 가장 기본적이고 안전한 설명 템플릿
+  const fallbackDescription = `${request.holidayName}은(는) ${request.countryName}에서 기념하는 특별한 날입니다. 이 날에는 전통적인 의식과 함께 가족들이 모여 의미 있는 시간을 보내며, 문화적 가치를 이어가는 소중한 기회가 됩니다. 각 지역의 고유한 관습과 전통을 통해 공동체의 결속을 다지고, 세대 간 문화 전승의 역할을 하는 중요한 날입니다.`;
+  
+  const result = {
+    holidayId: request.holidayId,
+    description: fallbackDescription,
+    confidence: 0.3,
+    generatedAt: new Date().toISOString()
+  };
+  
+  // 폴백 설명도 캐시에 저장 (비동기로 처리)
+  setCachedDescription(
+    request.holidayId, request.holidayName, request.countryName, locale, 
+    fallbackDescription, 0.3
+  ).catch(error => 
+    logWarning(`폴백 설명 캐시 저장 실패: ${request.holidayName}`, error)
+  );
+  
+  return result;
+}
+
+/**
+ * AI 생성 설명을 Supabase에 저장하는 새로운 함수
+ */
+export async function saveAIDescriptionToSupabase(
+  holidayId: string,
+  holidayName: string,
+  countryName: string,
+  locale: string,
+  description: string,
+  confidence: number,
+  aiModel: string = 'openai-gpt'
+): Promise<void> {
+  try {
+    logInfo(`AI 설명 Supabase 저장 시작: ${holidayName}`);
+    
+    const supabaseService = new SupabaseHolidayDescriptionService();
+    
+    // 기존 데이터 확인
+    const existing = await supabaseService.getDescription(holidayName, countryName, locale);
+    
+    if (existing) {
+      // 기존 데이터가 있으면 업데이트 (AI 생성 설명이 더 신뢰도가 높은 경우)
+      if (!existing.is_manual && confidence >= existing.confidence) {
+        await supabaseService.updateDescription(existing.id, {
+          description,
+          confidence,
+          modified_by: 'ai_generator',
+          ai_model: aiModel,
+          is_manual: false,
+          generated_at: new Date().toISOString(),
+          last_used: new Date().toISOString()
+        });
+        logInfo(`AI 설명 Supabase 업데이트 완료: ${holidayName}`);
+      } else {
+        logInfo(`기존 설명이 더 우선순위가 높음: ${holidayName} (수동: ${existing.is_manual}, 신뢰도: ${existing.confidence})`);
+      }
+    } else {
+      // 새로 생성
+      const createData: HolidayDescriptionCreate = {
+        holiday_id: holidayId,
+        holiday_name: holidayName,
+        country_name: countryName,
+        locale,
+        description,
+        confidence,
+        is_manual: false,
+        modified_by: 'ai_generator',
+        ai_model: aiModel
+      };
+      
+      await supabaseService.createDescription(createData);
+      logInfo(`AI 설명 Supabase 새 저장 완료: ${holidayName}`);
+    }
+    
+    // 하이브리드 캐시에도 저장
+    await setCachedDescription(holidayId, holidayName, countryName, locale, description, confidence);
+    
+  } catch (error) {
+    logApiError('AI 설명 Supabase 저장 실패', error as Error, { holidayName, countryName, locale });
+    throw error;
+  }
+}
+
+/**
+ * 기존 AI 콘텐츠 생성 스크립트와의 호환성을 위한 래퍼 함수
+ */
+export async function addHolidayDescription(
+  holidayId: string,
+  holidayName: string,
+  countryName: string,
+  description: string,
+  locale: string = 'ko',
+  confidence: number = 0.95
+): Promise<void> {
+  await saveAIDescriptionToSupabase(
+    holidayId,
+    holidayName,
+    countryName,
+    locale,
+    description,
+    confidence,
+    'openai-gpt'
+  );
 }
 
 /**
@@ -666,7 +938,19 @@ function validateContent(description: string): boolean {
     return false;
   }
   
-  return true;t result = {
+  return true;
+}
+
+/**
+ * 최종 폴백 설명을 생성합니다 (요구사항 8.3 구현)
+ */
+function generateFallbackDescription(request: AIContentRequest, locale: string = 'ko'): AIContentResponse {
+  logWarning(`기본 폴백 설명 사용: ${request.holidayName}`);
+  
+  // 가장 기본적이고 안전한 설명 템플릿
+  const fallbackDescription = `${request.holidayName}은(는) ${request.countryName}에서 기념하는 특별한 날입니다. 이 날에는 전통적인 의식과 함께 가족들이 모여 의미 있는 시간을 보내며, 문화적 가치를 이어가는 소중한 기회가 됩니다. 각 지역의 고유한 관습과 전통을 통해 공동체의 결속을 다지고, 세대 간 문화 전승의 역할을 하는 중요한 날입니다.`;
+  
+  const result = {
     holidayId: request.holidayId,
     description: fallbackDescription,
     confidence: 0.3,

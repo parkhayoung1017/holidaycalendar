@@ -14,6 +14,7 @@ interface Holiday {
   countryCode: string;
   type: string;
   global?: boolean;
+  description?: string;
   translatedName?: string;
   translatedType?: string;
   translatedCountry?: string;
@@ -119,6 +120,15 @@ export function HolidayCard({
         .replace(/\s+/g, '-');
       // 국가 코드를 국가 슬러그로 변환
       const countrySlug = getCountrySlugFromCode(enrichedHoliday.countryCode);
+      
+      console.log('HolidayCard 클릭 디버깅:', {
+        countryCode: enrichedHoliday.countryCode,
+        countrySlug,
+        holidayName: enrichedHoliday.name,
+        slug,
+        finalUrl: `/${locale}/holiday/${countrySlug}/${slug}`
+      });
+      
       window.location.href = `/${locale}/holiday/${countrySlug}/${slug}`;
     }
   };
@@ -158,6 +168,19 @@ export function HolidayCard({
           {formatDate(enrichedHoliday.date)}
         </span>
       </div>
+
+      {/* 설명 */}
+      {enrichedHoliday.description && (
+        <div className="mb-3">
+          <p className="text-sm text-gray-600 leading-relaxed overflow-hidden" style={{
+            display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical'
+          }}>
+            {enrichedHoliday.description}
+          </p>
+        </div>
+      )}
 
       {/* 하단 정보 */}
       <div className="flex items-center justify-between">

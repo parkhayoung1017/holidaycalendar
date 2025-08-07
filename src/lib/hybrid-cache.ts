@@ -54,7 +54,7 @@ export interface CacheStats {
  * 로컬 캐시 서비스
  */
 class LocalCacheService {
-  private cacheFilePath = path.join(process.cwd(), 'data/ai-cache/holiday-descriptions.json');
+  private cacheFilePath = path.join(process.cwd(), 'public/ai-cache.json');
   private cache: Record<string, CachedContent> | null = null;
   private lastLoadTime = 0;
   private readonly CACHE_TTL: number;
@@ -263,7 +263,7 @@ export class HybridCacheService {
     locale: string = 'ko'
   ): Promise<CachedContent | null> {
     try {
-      // 1. Supabase에서 조회 시도
+      // 1. Supabase에서 조회 시도 (국가명과 국가코드 모두 시도)
       if (this.options.enableSupabase) {
         // Supabase 연결 상태가 불확실한 경우 연결 확인
         if (!this.stats.isSupabaseAvailable) {
@@ -272,7 +272,19 @@ export class HybridCacheService {
         
         if (this.stats.isSupabaseAvailable) {
           try {
-            const supabaseResult = await this.getFromSupabase(holidayName, countryName, locale);
+            // 먼저 국가명으로 조회
+            let supabaseResult = await this.getFromSupabase(holidayName, countryName, locale);
+            
+            // 국가명으로 찾지 못한 경우 국가코드로도 시도
+            if (!supabaseResult && countryName.length > 2) {
+              // 국가명을 국가코드로 변환해서 시도
+              const countryCode = await this.getCountryCodeFromName(countryName);
+              if (countryCode) {
+                supabaseResult = await this.getFromSupabase(holidayName, countryCode, locale);
+                console.log(`국가코드로 재시도: ${countryName} -> ${countryCode}`, !!supabaseResult);
+              }
+            }
+            
             if (supabaseResult) {
               this.stats.supabaseHits++;
               return this.convertToLegacyFormat(supabaseResult);
@@ -285,11 +297,35 @@ export class HybridCacheService {
         }
       }
 
-      // 2. 로컬 캐시로 폴백
+      // 2. 로컬 캐시로 폴백 (국가명과 국가코드 모두 시도)
       if (this.options.fallbackToLocal) {
-        const localResult = await this.localCacheService.getCachedDescription(
+        // 먼저 국가명으로 조회
+        let localResult = await this.localCacheService.getCachedDescription(
           holidayName, countryName, locale
         );
+        
+        // 국가명으로 찾지 못한 경우 국가코드로도 시도
+        if (!localResult && countryName.length > 2) {
+          const countryCode = await this.getCountryCodeFromName(countryName);
+          if (countryCode) {
+            localResult = await this.localCacheService.getCachedDescription(
+              holidayName, countryCode, locale
+            );
+            console.log(`로컬 캐시 국가코드로 재시도: ${countryName} -> ${countryCode}`, !!localResult);
+          }
+        }
+        
+        // 국가코드로 찾지 못한 경우 국가명으로도 시도
+        if (!localResult && countryName.length === 2) {
+          const countryName_full = await this.getCountryNameFromCode(countryName);
+          if (countryName_full) {
+            localResult = await this.localCacheService.getCachedDescription(
+              holidayName, countryName_full, locale
+            );
+            console.log(`로컬 캐시 국가명으로 재시도: ${countryName} -> ${countryName_full}`, !!localResult);
+          }
+        }
+        
         if (localResult) {
           this.stats.localHits++;
           return localResult;
@@ -473,6 +509,9 @@ export class HybridCacheService {
    * 레거시 형식을 Supabase 형식으로 변환
    */
   private convertFromLegacyFormat(legacyData: CachedContent): any {
+    // confidence가 1.0이면 수동 작성으로 간주
+    const isManual = legacyData.confidence === 1.0;
+    
     return {
       holiday_id: legacyData.holidayId,
       holiday_name: legacyData.holidayName,
@@ -482,9 +521,9 @@ export class HybridCacheService {
       confidence: legacyData.confidence,
       generated_at: legacyData.generatedAt,
       last_used: legacyData.lastUsed,
-      modified_by: 'hybrid_cache',
-      is_manual: false,
-      ai_model: 'openai-gpt'
+      modified_by: isManual ? 'admin_manual' : 'hybrid_cache',
+      is_manual: isManual,
+      ai_model: isManual ? null : 'openai-gpt'
     };
   }
 
@@ -504,6 +543,38 @@ export class HybridCacheService {
       this.stats.isSupabaseAvailable = false;
       this.stats.lastSupabaseCheck = new Date().toISOString();
       console.warn('Supabase 연결 상태 확인 실패:', error);
+    }
+  }
+
+  /**
+   * 국가명을 국가코드로 변환
+   */
+  private async getCountryCodeFromName(countryName: string): Promise<string | null> {
+    try {
+      const { SUPPORTED_COUNTRIES } = await import('./constants');
+      const country = SUPPORTED_COUNTRIES.find(c => 
+        c.name.toLowerCase() === countryName.toLowerCase()
+      );
+      return country ? country.code : null;
+    } catch (error) {
+      console.warn('국가명을 국가코드로 변환 실패:', error);
+      return null;
+    }
+  }
+
+  /**
+   * 국가코드를 국가명으로 변환
+   */
+  private async getCountryNameFromCode(countryCode: string): Promise<string | null> {
+    try {
+      const { SUPPORTED_COUNTRIES } = await import('./constants');
+      const country = SUPPORTED_COUNTRIES.find(c => 
+        c.code.toLowerCase() === countryCode.toLowerCase()
+      );
+      return country ? country.name : null;
+    } catch (error) {
+      console.warn('국가코드를 국가명으로 변환 실패:', error);
+      return null;
     }
   }
 
@@ -568,6 +639,48 @@ export async function setCachedDescription(
   };
   
   await cache.setDescription(data);
+  
+  // 저장 후 캐시 통계 초기화하여 다음 조회 시 최신 데이터 반영
+  cache.resetStats();
+}
+
+/**
+ * 특정 항목의 캐시를 무효화하는 함수
+ */
+export async function invalidateCachedDescription(
+  holidayName: string,
+  countryName: string,
+  locale: string = 'ko'
+): Promise<void> {
+  const cache = getHybridCache();
+  
+  try {
+    // 로컬 캐시에서 해당 항목 제거
+    const localCacheService = (cache as any).localCacheService;
+    
+    if (localCacheService && typeof localCacheService.loadCache === 'function') {
+      const cacheKey = `${holidayName}-${countryName}-${locale}`;
+      const cacheData = await localCacheService.loadCache();
+      
+      if (cacheData && cacheData[cacheKey]) {
+        delete cacheData[cacheKey];
+        
+        if (typeof localCacheService.saveCache === 'function') {
+          await localCacheService.saveCache(cacheData);
+          console.log(`✅ 로컬 캐시 무효화: ${cacheKey}`);
+        }
+      }
+    }
+    
+    // 캐시 통계 초기화 (다음 조회 시 Supabase에서 최신 데이터 가져오도록)
+    if (typeof cache.resetStats === 'function') {
+      cache.resetStats();
+    }
+    
+  } catch (error) {
+    console.warn('⚠️ 캐시 무효화 실패:', error);
+    // 캐시 무효화 실패는 치명적이지 않으므로 에러를 던지지 않음
+  }
 }
 
 /**

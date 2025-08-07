@@ -3,6 +3,7 @@ import path from 'path';
 import { Holiday, Country } from '@/types';
 import { SUPPORTED_COUNTRIES } from '@/lib/constants';
 import { logError, logWarning, logInfo } from './error-logger';
+import { getCachedDescription } from './hybrid-cache';
 
 interface HolidayDataFile {
   countryCode: string;
@@ -18,7 +19,8 @@ interface HolidayDataFile {
  */
 export async function loadHolidayData(
   countryCode: string, 
-  year: number
+  year: number,
+  locale: string = 'ko'
 ): Promise<Holiday[]> {
   try {
     logInfo(`공휴일 데이터 로드 시작: ${countryCode}-${year}`);
@@ -56,8 +58,12 @@ export async function loadHolidayData(
       return [];
     }
     
-    logInfo(`공휴일 데이터 로드 완료: ${countryCode}-${year} - ${data.holidays.length}개`);
-    return data.holidays;
+    // 각 공휴일에 설명 추가 (로케일에 맞는 설명 조회)
+    const countryName = (data.country && data.country.trim()) || await getCountryNameFromCode(countryCode);
+    const enrichedHolidays = await enrichHolidaysWithDescriptions(data.holidays, countryName, locale);
+    
+    logInfo(`공휴일 데이터 로드 완료: ${countryCode}-${year} - ${enrichedHolidays.length}개`);
+    return enrichedHolidays;
     
   } catch (error) {
     logError(error as Error, {
@@ -67,6 +73,369 @@ export async function loadHolidayData(
     });
     return [];
   }
+}
+
+/**
+ * 국가 코드에서 국가명을 가져오는 함수
+ */
+async function getCountryNameFromCode(countryCode: string): Promise<string> {
+  try {
+    // SUPPORTED_COUNTRIES에서 국가 정보 찾기
+    const country = SUPPORTED_COUNTRIES.find(c => 
+      c.code.toLowerCase() === countryCode.toLowerCase()
+    );
+    
+    if (country) {
+      return country.name;
+    }
+    
+    // SUPPORTED_COUNTRIES에 없으면 기본 매핑 사용
+    const countryMapping: Record<string, string> = {
+      'ad': 'Andorra',
+      'ae': 'United Arab Emirates',
+      'af': 'Afghanistan',
+      'ag': 'Antigua and Barbuda',
+      'ai': 'Anguilla',
+      'al': 'Albania',
+      'am': 'Armenia',
+      'ao': 'Angola',
+      'aq': 'Antarctica',
+      'ar': 'Argentina',
+      'as': 'American Samoa',
+      'at': 'Austria',
+      'au': 'Australia',
+      'aw': 'Aruba',
+      'ax': 'Åland Islands',
+      'az': 'Azerbaijan',
+      'ba': 'Bosnia and Herzegovina',
+      'bb': 'Barbados',
+      'bd': 'Bangladesh',
+      'be': 'Belgium',
+      'bf': 'Burkina Faso',
+      'bg': 'Bulgaria',
+      'bh': 'Bahrain',
+      'bi': 'Burundi',
+      'bj': 'Benin',
+      'bl': 'Saint Barthélemy',
+      'bm': 'Bermuda',
+      'bn': 'Brunei',
+      'bo': 'Bolivia',
+      'bq': 'Caribbean Netherlands',
+      'br': 'Brazil',
+      'bs': 'Bahamas',
+      'bt': 'Bhutan',
+      'bv': 'Bouvet Island',
+      'bw': 'Botswana',
+      'by': 'Belarus',
+      'bz': 'Belize',
+      'ca': 'Canada',
+      'cc': 'Cocos Islands',
+      'cd': 'Democratic Republic of the Congo',
+      'cf': 'Central African Republic',
+      'cg': 'Republic of the Congo',
+      'ch': 'Switzerland',
+      'ci': 'Côte d\'Ivoire',
+      'ck': 'Cook Islands',
+      'cl': 'Chile',
+      'cm': 'Cameroon',
+      'cn': 'China',
+      'co': 'Colombia',
+      'cr': 'Costa Rica',
+      'cu': 'Cuba',
+      'cv': 'Cape Verde',
+      'cw': 'Curaçao',
+      'cx': 'Christmas Island',
+      'cy': 'Cyprus',
+      'cz': 'Czech Republic',
+      'de': 'Germany',
+      'dj': 'Djibouti',
+      'dk': 'Denmark',
+      'dm': 'Dominica',
+      'do': 'Dominican Republic',
+      'dz': 'Algeria',
+      'ec': 'Ecuador',
+      'ee': 'Estonia',
+      'eg': 'Egypt',
+      'eh': 'Western Sahara',
+      'er': 'Eritrea',
+      'es': 'Spain',
+      'et': 'Ethiopia',
+      'fi': 'Finland',
+      'fj': 'Fiji',
+      'fk': 'Falkland Islands',
+      'fm': 'Micronesia',
+      'fo': 'Faroe Islands',
+      'fr': 'France',
+      'ga': 'Gabon',
+      'gb': 'United Kingdom',
+      'gd': 'Grenada',
+      'ge': 'Georgia',
+      'gf': 'French Guiana',
+      'gg': 'Guernsey',
+      'gh': 'Ghana',
+      'gi': 'Gibraltar',
+      'gl': 'Greenland',
+      'gm': 'Gambia',
+      'gn': 'Guinea',
+      'gp': 'Guadeloupe',
+      'gq': 'Equatorial Guinea',
+      'gr': 'Greece',
+      'gs': 'South Georgia and the South Sandwich Islands',
+      'gt': 'Guatemala',
+      'gu': 'Guam',
+      'gw': 'Guinea-Bissau',
+      'gy': 'Guyana',
+      'hk': 'Hong Kong',
+      'hm': 'Heard Island and McDonald Islands',
+      'hn': 'Honduras',
+      'hr': 'Croatia',
+      'ht': 'Haiti',
+      'hu': 'Hungary',
+      'id': 'Indonesia',
+      'ie': 'Ireland',
+      'il': 'Israel',
+      'im': 'Isle of Man',
+      'in': 'India',
+      'io': 'British Indian Ocean Territory',
+      'iq': 'Iraq',
+      'ir': 'Iran',
+      'is': 'Iceland',
+      'it': 'Italy',
+      'je': 'Jersey',
+      'jm': 'Jamaica',
+      'jo': 'Jordan',
+      'jp': 'Japan',
+      'ke': 'Kenya',
+      'kg': 'Kyrgyzstan',
+      'kh': 'Cambodia',
+      'ki': 'Kiribati',
+      'km': 'Comoros',
+      'kn': 'Saint Kitts and Nevis',
+      'kp': 'North Korea',
+      'kr': 'South Korea',
+      'kw': 'Kuwait',
+      'ky': 'Cayman Islands',
+      'kz': 'Kazakhstan',
+      'la': 'Laos',
+      'lb': 'Lebanon',
+      'lc': 'Saint Lucia',
+      'li': 'Liechtenstein',
+      'lk': 'Sri Lanka',
+      'lr': 'Liberia',
+      'ls': 'Lesotho',
+      'lt': 'Lithuania',
+      'lu': 'Luxembourg',
+      'lv': 'Latvia',
+      'ly': 'Libya',
+      'ma': 'Morocco',
+      'mc': 'Monaco',
+      'md': 'Moldova',
+      'me': 'Montenegro',
+      'mf': 'Saint Martin',
+      'mg': 'Madagascar',
+      'mh': 'Marshall Islands',
+      'mk': 'North Macedonia',
+      'ml': 'Mali',
+      'mm': 'Myanmar',
+      'mn': 'Mongolia',
+      'mo': 'Macao',
+      'mp': 'Northern Mariana Islands',
+      'mq': 'Martinique',
+      'mr': 'Mauritania',
+      'ms': 'Montserrat',
+      'mt': 'Malta',
+      'mu': 'Mauritius',
+      'mv': 'Maldives',
+      'mw': 'Malawi',
+      'mx': 'Mexico',
+      'my': 'Malaysia',
+      'mz': 'Mozambique',
+      'na': 'Namibia',
+      'nc': 'New Caledonia',
+      'ne': 'Niger',
+      'nf': 'Norfolk Island',
+      'ng': 'Nigeria',
+      'ni': 'Nicaragua',
+      'nl': 'Netherlands',
+      'no': 'Norway',
+      'np': 'Nepal',
+      'nr': 'Nauru',
+      'nu': 'Niue',
+      'nz': 'New Zealand',
+      'om': 'Oman',
+      'pa': 'Panama',
+      'pe': 'Peru',
+      'pf': 'French Polynesia',
+      'pg': 'Papua New Guinea',
+      'ph': 'Philippines',
+      'pk': 'Pakistan',
+      'pl': 'Poland',
+      'pm': 'Saint Pierre and Miquelon',
+      'pn': 'Pitcairn',
+      'pr': 'Puerto Rico',
+      'ps': 'Palestine',
+      'pt': 'Portugal',
+      'pw': 'Palau',
+      'py': 'Paraguay',
+      'qa': 'Qatar',
+      're': 'Réunion',
+      'ro': 'Romania',
+      'rs': 'Serbia',
+      'ru': 'Russia',
+      'rw': 'Rwanda',
+      'sa': 'Saudi Arabia',
+      'sb': 'Solomon Islands',
+      'sc': 'Seychelles',
+      'sd': 'Sudan',
+      'se': 'Sweden',
+      'sg': 'Singapore',
+      'sh': 'Saint Helena',
+      'si': 'Slovenia',
+      'sj': 'Svalbard and Jan Mayen',
+      'sk': 'Slovakia',
+      'sl': 'Sierra Leone',
+      'sm': 'San Marino',
+      'sn': 'Senegal',
+      'so': 'Somalia',
+      'sr': 'Suriname',
+      'ss': 'South Sudan',
+      'st': 'São Tomé and Príncipe',
+      'sv': 'El Salvador',
+      'sx': 'Sint Maarten',
+      'sy': 'Syria',
+      'sz': 'Eswatini',
+      'tc': 'Turks and Caicos Islands',
+      'td': 'Chad',
+      'tf': 'French Southern Territories',
+      'tg': 'Togo',
+      'th': 'Thailand',
+      'tj': 'Tajikistan',
+      'tk': 'Tokelau',
+      'tl': 'Timor-Leste',
+      'tm': 'Turkmenistan',
+      'tn': 'Tunisia',
+      'to': 'Tonga',
+      'tr': 'Turkey',
+      'tt': 'Trinidad and Tobago',
+      'tv': 'Tuvalu',
+      'tw': 'Taiwan',
+      'tz': 'Tanzania',
+      'ua': 'Ukraine',
+      'ug': 'Uganda',
+      'um': 'United States Minor Outlying Islands',
+      'us': 'United States',
+      'uy': 'Uruguay',
+      'uz': 'Uzbekistan',
+      'va': 'Vatican City',
+      'vc': 'Saint Vincent and the Grenadines',
+      've': 'Venezuela',
+      'vg': 'British Virgin Islands',
+      'vi': 'U.S. Virgin Islands',
+      'vn': 'Vietnam',
+      'vu': 'Vanuatu',
+      'wf': 'Wallis and Futuna',
+      'ws': 'Samoa',
+      'ye': 'Yemen',
+      'yt': 'Mayotte',
+      'za': 'South Africa',
+      'zm': 'Zambia',
+      'zw': 'Zimbabwe'
+    };
+    
+    return countryMapping[countryCode.toLowerCase()] || countryCode.toUpperCase();
+  } catch (error) {
+    logWarning(`국가 코드 변환 실패: ${countryCode}`, {
+      countryCode,
+      error: error instanceof Error ? error.message : '알 수 없는 오류'
+    });
+    return countryCode.toUpperCase();
+  }
+}
+
+/**
+ * 공휴일 배열에 설명을 추가합니다.
+ */
+async function enrichHolidaysWithDescriptions(holidays: Holiday[], countryName: string, locale: string = 'ko'): Promise<Holiday[]> {
+  const enrichedHolidays: Holiday[] = [];
+  
+  for (const holiday of holidays) {
+    try {
+      // 하이브리드 캐시에서 설명 조회 (Supabase 우선, 로컬 캐시 폴백)
+      let cachedDescription = await getCachedDescription(holiday.name, countryName, locale);
+      
+      // 첫 번째 시도에서 찾지 못한 경우 다양한 국가명 형식으로 재시도
+      if (!cachedDescription) {
+        const countryVariations = [
+          countryName,
+          // 국가 코드 매핑 시도
+          getCountryCodeFromName(countryName),
+          // 일반적인 국가명 변형들
+          countryName.replace(/^The\s+/i, ''), // "The United States" -> "United States"
+          countryName.replace(/\s+of\s+.*$/i, ''), // "Republic of Korea" -> "Republic"
+        ].filter(Boolean);
+        
+        for (const variation of countryVariations) {
+          if (variation && variation !== countryName) {
+            cachedDescription = await getCachedDescription(holiday.name, variation, locale);
+            if (cachedDescription) {
+              logInfo(`공휴일 설명 조회 성공 (변형된 국가명): ${holiday.name} (${variation})`);
+              break;
+            }
+          }
+        }
+      }
+      
+      const enrichedHoliday: Holiday = {
+        ...holiday,
+        description: cachedDescription?.description || holiday.description
+      };
+      
+      enrichedHolidays.push(enrichedHoliday);
+    } catch (error) {
+      // 설명 조회 실패 시 원본 공휴일 데이터 사용
+      logWarning(`공휴일 설명 조회 실패: ${holiday.name} (${countryName})`, {
+        holidayName: holiday.name,
+        countryName,
+        error: error instanceof Error ? error.message : '알 수 없는 오류'
+      });
+      enrichedHolidays.push(holiday);
+    }
+  }
+  
+  return enrichedHolidays;
+}
+
+/**
+ * 국가명에서 국가 코드를 가져오는 함수 (data-loader 내부용)
+ */
+function getCountryCodeFromName(countryName: string): string | null {
+  const countryCodeMap: Record<string, string> = {
+    'United States': 'US',
+    'South Korea': 'KR',
+    'Korea': 'KR',
+    'Japan': 'JP',
+    'China': 'CN',
+    'United Kingdom': 'GB',
+    'Britain': 'GB',
+    'Great Britain': 'GB',
+    'Germany': 'DE',
+    'France': 'FR',
+    'Canada': 'CA',
+    'Australia': 'AU',
+    'India': 'IN',
+    'Brazil': 'BR',
+    'Mexico': 'MX',
+    'Italy': 'IT',
+    'Spain': 'ES',
+    'Russia': 'RU',
+    'Netherlands': 'NL',
+    'Sweden': 'SE',
+    'Norway': 'NO',
+    'Denmark': 'DK',
+    'Finland': 'FI'
+  };
+  
+  return countryCodeMap[countryName] || null;
 }
 
 /**

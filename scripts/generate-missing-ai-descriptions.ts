@@ -7,8 +7,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { generateAIHolidayDescription } from '../src/lib/ai-content-generator-enhanced';
-import { setCachedDescription } from '../src/lib/ai-content-cache';
-import { getCachedDescription } from '../src/lib/ai-content-cache';
+import { saveAIDescriptionToSupabase } from '../src/lib/ai-content-supabase-integration';
+import { getCachedDescription } from '../src/lib/hybrid-cache';
 import { Holiday } from '../src/types';
 
 // 이미 AI 설명이 생성된 국가들 (제외할 국가들)
@@ -146,14 +146,15 @@ async function generateCountryDescriptions(countryCode: string, year: number = 2
         );
 
         if (description && description.length > 100) {
-          // 캐시에 저장
-          await setCachedDescription(
+          // Supabase에 저장 (하이브리드 캐시도 자동으로 업데이트됨)
+          await saveAIDescriptionToSupabase(
             holiday.id,
             holiday.name,
             countryName,
             locale,
             description,
-            0.9
+            0.9,
+            'claude-3.5-sonnet'
           );
 
           console.log(`    ✅ ${holiday.name} (${locale}) - 생성 완료 (${description.length}자)`);

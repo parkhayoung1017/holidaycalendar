@@ -1,0 +1,17 @@
+{
+  "id": "19d81c76-c395-48f6-a589-19e0d9cbb312",
+  "holiday_id": "ad_2024_2024-01-01_New_Year's_Day",
+  "holiday_name": "New Year's Day",
+  "country_name": "Andorra",
+  "locale": "ko",
+  "description": "제발 좀 되라 좀 제발",
+  "confidence": 1,
+  "generated_at": "2025-08-06T02:23:42.317776+00:00",
+  "last_used": "2025-08-06T02:23:42.189+00:00",
+  "modified_at": "2025-08-07T00:49:02.907Z",
+  "modified_by": "admin",
+  "is_manual": true,
+  "ai_model": null,
+  "created_at": "2025-08-06T02:23:42.189+00:00",
+  "updated_at": "2025-08-06T02:23:42.189+00:00"
+}

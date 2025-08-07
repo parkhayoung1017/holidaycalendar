@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
     // 모든 국가의 공휴일 데이터를 병렬로 로드
     const holidayPromises = countries.map(async (countryCode: string) => {
       try {
-        const holidays = await loadHolidayData(countryCode, yearNum);
+        const holidays = await loadHolidayData(countryCode, yearNum, 'ko');
         
         // 특정 월이 지정된 경우 해당 월의 공휴일만 필터링
         const filteredHolidays = monthNum !== null 

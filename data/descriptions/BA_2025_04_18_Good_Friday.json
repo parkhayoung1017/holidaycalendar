@@ -1,0 +1,14 @@
+{
+  "id": "desc_2025_good_friday_ba",
+  "holiday_id": "BA-2025-04-18-5",
+  "holiday_name": "Good Friday",
+  "country_name": "Bosnia and Herzegovina",
+  "locale": "ko",
+  "description": "성 금요일(Good Friday)은 예수 그리스도의 십자가 처형을 기념하는 기독교의 중요한 날입니다. 보스니아 헤르체고비나에서는 주로 세르비아계 정교회 지역(Republika Srpska)에서 기념됩니다. 이 날은 경건한 기도와 묵상의 시간으로, 많은 신자들이 교회에서 특별 예배에 참석합니다. 전통적으로 금식을 하며, 예수의 고난을 기억하고 부활절을 준비하는 의미 깊은 날입니다.",
+  "is_manual": true,
+  "modified_by": "manual-fix",
+  "confidence": 1.0,
+  "created_at": "2025-08-07T01:00:00.000Z",
+  "modified_at": "2025-08-07T01:00:00.000Z",
+  "updated_at": "2025-08-07T01:00:00.000Z"
+}

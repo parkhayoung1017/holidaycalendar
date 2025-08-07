@@ -25,8 +25,8 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    // 공휴일 데이터 로드
-    const holidays = await loadHolidayData(countryCode, yearNum);
+    // 공휴일 데이터 로드 (기본값: 한국어)
+    const holidays = await loadHolidayData(countryCode, yearNum, 'ko');
 
     // 특정 월이 지정된 경우 해당 월의 공휴일만 필터링
     const filteredHolidays = monthNum !== null 

@@ -128,16 +128,19 @@ export class SupabaseHolidayDescriptionService {
   /**
    * 공휴일 설명 삭제
    */
-  async deleteDescription(id: string): Promise<void> {
+  async deleteDescription(id: string): Promise<boolean> {
     try {
-      const { error } = await this.supabase
+      const { error, count } = await this.supabase
         .from('holiday_descriptions')
         .delete()
-        .eq('id', id);
+        .eq('id', id)
+        .select('*', { count: 'exact', head: true });
 
       if (error) {
         throw error;
       }
+
+      return (count || 0) > 0;
     } catch (error) {
       console.error('공휴일 설명 삭제 실패:', error);
       throw error;
@@ -202,6 +205,32 @@ export class SupabaseHolidayDescriptionService {
       };
     } catch (error) {
       console.error('공휴일 설명 목록 조회 실패:', error);
+      throw error;
+    }
+  }
+
+  /**
+   * ID로 특정 설명 조회
+   */
+  async getDescriptionById(id: string): Promise<HolidayDescription | null> {
+    try {
+      const { data, error } = await this.supabase
+        .from('holiday_descriptions')
+        .select('*')
+        .eq('id', id)
+        .single();
+
+      if (error) {
+        if (error.code === 'PGRST116') {
+          // 데이터가 없는 경우
+          return null;
+        }
+        throw error;
+      }
+
+      return data;
+    } catch (error) {
+      console.error('ID로 설명 조회 실패:', error);
       throw error;
     }
   }

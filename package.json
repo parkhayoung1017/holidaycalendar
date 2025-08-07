@@ -38,7 +38,9 @@
     "update-countries": "tsx scripts/update-country-constants.ts",
     "update-translations": "tsx scripts/update-country-translations.ts",
     "test-supabase": "tsx scripts/test-supabase-connection.ts",
-    "setup-supabase": "tsx scripts/setup-supabase-instructions.ts"
+    "setup-supabase": "tsx scripts/setup-supabase-instructions.ts",
+    "test-admin-auth": "tsx scripts/test-admin-auth.ts",
+    "test-admin-api": "tsx scripts/test-admin-api.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",

@@ -22,9 +22,9 @@ interface HolidayDetailPageProps {
 
 
 // 슬러그로부터 공휴일을 찾는 함수
-async function findHolidayBySlug(countryCode: string, slug: string, year: number): Promise<Holiday | null> {
+async function findHolidayBySlug(countryCode: string, slug: string, year: number, locale: string = 'ko'): Promise<Holiday | null> {
   try {
-    const holidays = await loadHolidayData(countryCode, year);
+    const holidays = await loadHolidayData(countryCode, year, locale);
 
     console.log('findHolidayBySlug 디버깅:', {
       countryCode,
@@ -59,10 +59,10 @@ async function findHolidayBySlug(countryCode: string, slug: string, year: number
 }
 
 // 관련 공휴일을 찾는 함수
-async function findRelatedHolidays(holiday: Holiday, limit: number = 4): Promise<Holiday[]> {
+async function findRelatedHolidays(holiday: Holiday, locale: string = 'ko', limit: number = 4): Promise<Holiday[]> {
   try {
     const currentYear = new Date().getFullYear();
-    const holidays = await loadHolidayData(holiday.countryCode, currentYear);
+    const holidays = await loadHolidayData(holiday.countryCode, currentYear, locale);
 
     // 현재 공휴일 제외하고 같은 국가의 다른 공휴일들 반환
     return holidays
@@ -91,7 +91,7 @@ export async function generateMetadata({ params }: HolidayDetailPageProps): Prom
   }
 
   try {
-    const holiday = await findHolidayBySlug(countryCode, slug, currentYear);
+    const holiday = await findHolidayBySlug(countryCode, slug, currentYear, validLocale);
     const countryData = await loadCountryData(countryCode);
 
     if (!holiday || !countryData) {
@@ -165,7 +165,7 @@ export default async function HolidayDetailPage({ params }: HolidayDetailPagePro
   try {
     // 공휴일과 국가 데이터 로드
     const [holiday, countryData] = await Promise.all([
-      findHolidayBySlug(countryCode, slug, currentYear),
+      findHolidayBySlug(countryCode, slug, currentYear, validLocale),
       loadCountryData(countryCode)
     ]);
 
@@ -180,8 +180,10 @@ export default async function HolidayDetailPage({ params }: HolidayDetailPagePro
       );
     }
 
-    // 개선된 AI 생성 설명 시스템 사용 (다국어 지원)
+    // Supabase에서 최신 설명 조회 (어드민 수정 내용 반영)
     let description = holiday.description;
+    let isManualDescription = false; // 수동 작성 설명 여부 플래그
+    
     console.log('🔍 공휴일 설명 생성 디버깅:', {
       holidayName: holiday.name,
       countryName: countryData.name,
@@ -189,7 +191,78 @@ export default async function HolidayDetailPage({ params }: HolidayDetailPagePro
       existingLength: description?.length || 0
     });
 
-    if (!description || description.trim().length < 100) {
+    // 하이브리드 캐시에서 최신 설명 조회 (Supabase 우선) - 다양한 국가명 형식으로 시도
+    try {
+      const { getCachedDescription } = await import('@/lib/hybrid-cache');
+      
+      console.log('🔍 하이브리드 캐시 조회 시작:', {
+        holidayName: holiday.name,
+        countryName: countryData.name,
+        countryCode: countryData.code,
+        locale: validLocale,
+        existingDescriptionLength: description?.length || 0
+      });
+      
+      // 다양한 국가명 형식으로 조회 시도
+      const countryVariations = [
+        countryData.name, // 'Andorra'
+        countryData.code, // 'AD'
+        countryData.code.toLowerCase(), // 'ad'
+        // 추가 변형들
+        countryData.name.toLowerCase(), // 'andorra'
+        // 특별한 경우들
+        ...(countryData.name === 'United States' ? ['US', 'USA', 'America'] : []),
+        ...(countryData.name === 'United Kingdom' ? ['GB', 'UK', 'Britain'] : []),
+        ...(countryData.name === 'South Korea' ? ['KR', 'Korea'] : [])
+      ].filter((v, i, arr) => arr.indexOf(v) === i); // 중복 제거
+      
+      let cachedDescription = null;
+      let usedCountryName = '';
+      
+      for (const countryVariation of countryVariations) {
+        console.log(`🔍 국가명 변형 시도: "${countryVariation}"`);
+        
+        cachedDescription = await getCachedDescription(holiday.name, countryVariation, validLocale);
+        
+        if (cachedDescription && cachedDescription.description.length > 10) {
+          usedCountryName = countryVariation;
+          console.log(`✅ 국가명 변형 "${countryVariation}"으로 설명 조회 성공!`);
+          break;
+        }
+      }
+      
+      console.log('🔍 하이브리드 캐시 조회 결과:', {
+        found: !!cachedDescription,
+        usedCountryName,
+        descriptionLength: cachedDescription?.description?.length || 0,
+        confidence: cachedDescription?.confidence,
+        preview: cachedDescription?.description?.substring(0, 100)
+      });
+      
+      if (cachedDescription && cachedDescription.description.length > 10) {
+        description = cachedDescription.description;
+        console.log('✅ 하이브리드 캐시에서 설명 조회 성공:', {
+          usedCountryName,
+          confidence: cachedDescription.confidence,
+          descriptionLength: description.length,
+          isManual: cachedDescription.confidence === 1.0
+        });
+        
+        // 수동 작성된 설명인 경우 AI 생성을 건너뛰기 위한 플래그 설정
+        if (cachedDescription.confidence === 1.0) {
+          console.log('🎯 수동 작성된 설명이므로 AI 생성을 건너뜁니다.');
+          // 수동 작성된 설명은 길이에 관계없이 그대로 사용
+          isManualDescription = true;
+        }
+      } else {
+        console.log('⚠️ 하이브리드 캐시에서 유효한 설명을 찾지 못함 - 시도한 국가명들:', countryVariations);
+      }
+    } catch (error) {
+      console.warn('⚠️ 하이브리드 캐시 조회 실패, 기존 로직 사용:', error);
+    }
+
+    // 수동 작성된 설명이 아니고, 설명이 없거나 너무 짧은 경우에만 AI 생성
+    if (!isManualDescription && (!description || description.trim().length < 100)) {
       try {
         console.log('📝 AI 설명 생성 시작...');
 
@@ -259,7 +332,7 @@ export default async function HolidayDetailPage({ params }: HolidayDetailPagePro
     }
 
     // 관련 공휴일 로드
-    const relatedHolidays = await findRelatedHolidays(holiday);
+    const relatedHolidays = await findRelatedHolidays(holiday, validLocale);
 
     // 공휴일 객체에 생성된 설명 추가
     const enrichedHoliday: Holiday = {
@@ -331,7 +404,7 @@ export async function generateStaticParams() {
       for (const countryCode of popularCountries) {
         if (availableData[countryCode]?.includes(currentYear)) {
           try {
-            const holidays = await loadHolidayData(countryCode, currentYear);
+            const holidays = await loadHolidayData(countryCode, currentYear, locale);
             const countrySlug = getCountrySlugFromCode(countryCode);
 
             // 각 공휴일에 대한 경로 생성
@@ -358,5 +431,5 @@ export async function generateStaticParams() {
   return params;
 }
 
-// ISR 설정 - 24시간마다 재생성
-export const revalidate = 86400;
+// ISR 설정 - 개발 환경에서는 캐시 비활성화, 프로덕션에서는 1시간마다 재생성
+export const revalidate = process.env.NODE_ENV === 'development' ? 0 : 3600;

@@ -34,48 +34,271 @@ function getCountryCodeFromSlug(slug: string): string | null {
   // 슬러그를 정규화 (소문자, 하이픈을 공백으로)
   const normalizedSlug = slug.toLowerCase().replace(/-/g, ' ');
   
-  // 국가 매핑 (주요 국가들)
+  // 국가 매핑 (전체 지원 국가들)
   const countryMapping: Record<string, string> = {
-    'south korea': 'KR',
-    'korea': 'KR',
-    'united states': 'US',
-    'usa': 'US',
+    // A
+    'andorra': 'AD',
+    'united arab emirates': 'AE',
+    'uae': 'AE',
+    'afghanistan': 'AF',
+    'albania': 'AL',
+    'armenia': 'AM',
+    'angola': 'AO',
+    'argentina': 'AR',
+    'austria': 'AT',
+    'australia': 'AU',
+    'azerbaijan': 'AZ',
+    
+    // B
+    'bosnia and herzegovina': 'BA',
+    'bosnia': 'BA',
+    'herzegovina': 'BA',
+    'barbados': 'BB',
+    'bangladesh': 'BD',
+    'belgium': 'BE',
+    'burkina faso': 'BF',
+    'bulgaria': 'BG',
+    'bahrain': 'BH',
+    'burundi': 'BI',
+    'benin': 'BJ',
+    'brunei': 'BN',
+    'bolivia': 'BO',
+    'brazil': 'BR',
+    'bahamas': 'BS',
+    'bhutan': 'BT',
+    'botswana': 'BW',
+    'belarus': 'BY',
+    'belize': 'BZ',
+    
+    // C
+    'canada': 'CA',
+    'democratic republic of the congo': 'CD',
+    'drc': 'CD',
+    'congo drc': 'CD',
+    'central african republic': 'CF',
+    'car': 'CF',
+    'republic of the congo': 'CG',
+    'congo': 'CG',
+    'switzerland': 'CH',
+    'ivory coast': 'CI',
+    'cote d ivoire': 'CI',
+    'chile': 'CL',
+    'cameroon': 'CM',
+    'china': 'CN',
+    'colombia': 'CO',
+    'costa rica': 'CR',
+    'cuba': 'CU',
+    'cape verde': 'CV',
+    'cyprus': 'CY',
+    'czech republic': 'CZ',
+    'czechia': 'CZ',
+    
+    // D
+    'germany': 'DE',
+    'djibouti': 'DJ',
+    'denmark': 'DK',
+    'dominica': 'DM',
+    'dominican republic': 'DO',
+    'algeria': 'DZ',
+    
+    // E
+    'ecuador': 'EC',
+    'estonia': 'EE',
+    'egypt': 'EG',
+    'eritrea': 'ER',
+    'spain': 'ES',
+    'ethiopia': 'ET',
+    
+    // F
+    'finland': 'FI',
+    'fiji': 'FJ',
+    'france': 'FR',
+    
+    // G
+    'gabon': 'GA',
     'united kingdom': 'GB',
     'uk': 'GB',
-    'japan': 'JP',
-    'china': 'CN',
-    'germany': 'DE',
-    'france': 'FR',
-    'canada': 'CA',
-    'australia': 'AU',
-    'brazil': 'BR',
-    'india': 'IN',
-    'russia': 'RU',
-    'italy': 'IT',
-    'spain': 'ES',
-    'mexico': 'MX',
-    'netherlands': 'NL',
-    'sweden': 'SE',
-    'norway': 'NO',
-    'denmark': 'DK',
-    'finland': 'FI',
-    'poland': 'PL',
-    'turkey': 'TR',
-    'thailand': 'TH',
-    'singapore': 'SG',
-    'malaysia': 'MY',
+    'britain': 'GB',
+    'great britain': 'GB',
+    'grenada': 'GD',
+    'georgia': 'GE',
+    'ghana': 'GH',
+    'gambia': 'GM',
+    'guinea': 'GN',
+    'equatorial guinea': 'GQ',
+    'greece': 'GR',
+    'guatemala': 'GT',
+    'guinea bissau': 'GW',
+    'guyana': 'GY',
+    
+    // H
+    'honduras': 'HN',
+    'croatia': 'HR',
+    'haiti': 'HT',
+    'hungary': 'HU',
+    
+    // I
     'indonesia': 'ID',
-    'philippines': 'PH',
-    'vietnam': 'VN',
-    'egypt': 'EG',
-    'south africa': 'ZA',
+    'ireland': 'IE',
+    'israel': 'IL',
+    'india': 'IN',
+    'iraq': 'IQ',
+    'iran': 'IR',
+    'iceland': 'IS',
+    'italy': 'IT',
+    
+    // J
+    'jamaica': 'JM',
+    'jordan': 'JO',
+    'japan': 'JP',
+    
+    // K
+    'kenya': 'KE',
+    'kyrgyzstan': 'KG',
+    'cambodia': 'KH',
+    'kiribati': 'KI',
+    'comoros': 'KM',
+    'saint kitts and nevis': 'KN',
+    'north korea': 'KP',
+    'south korea': 'KR',
+    'korea': 'KR',
+    'kuwait': 'KW',
+    'kazakhstan': 'KZ',
+    
+    // L
+    'laos': 'LA',
+    'lebanon': 'LB',
+    'saint lucia': 'LC',
+    'liechtenstein': 'LI',
+    'sri lanka': 'LK',
+    'liberia': 'LR',
+    'lesotho': 'LS',
+    'lithuania': 'LT',
+    'luxembourg': 'LU',
+    'latvia': 'LV',
+    'libya': 'LY',
+    
+    // M
+    'morocco': 'MA',
+    'monaco': 'MC',
+    'moldova': 'MD',
+    'montenegro': 'ME',
+    'madagascar': 'MG',
+    'marshall islands': 'MH',
+    'north macedonia': 'MK',
+    'macedonia': 'MK',
+    'mali': 'ML',
+    'myanmar': 'MM',
+    'burma': 'MM',
+    'mongolia': 'MN',
+    'mauritania': 'MR',
+    'malta': 'MT',
+    'mauritius': 'MU',
+    'maldives': 'MV',
+    'malawi': 'MW',
+    'mexico': 'MX',
+    'malaysia': 'MY',
+    'mozambique': 'MZ',
+    
+    // N
+    'namibia': 'NA',
+    'niger': 'NE',
     'nigeria': 'NG',
-    'argentina': 'AR',
-    'chile': 'CL',
-    'colombia': 'CO',
-    'peru': 'PE',
-    'venezuela': 'VE',
+    'nicaragua': 'NI',
+    'netherlands': 'NL',
+    'norway': 'NO',
+    'nepal': 'NP',
+    'nauru': 'NR',
     'new zealand': 'NZ',
+    
+    // O
+    'oman': 'OM',
+    
+    // P
+    'panama': 'PA',
+    'peru': 'PE',
+    'papua new guinea': 'PG',
+    'philippines': 'PH',
+    'pakistan': 'PK',
+    'poland': 'PL',
+    'portugal': 'PT',
+    'palau': 'PW',
+    'paraguay': 'PY',
+    
+    // Q
+    'qatar': 'QA',
+    
+    // R
+    'romania': 'RO',
+    'serbia': 'RS',
+    'russia': 'RU',
+    'russian federation': 'RU',
+    'rwanda': 'RW',
+    
+    // S
+    'saudi arabia': 'SA',
+    'solomon islands': 'SB',
+    'seychelles': 'SC',
+    'sudan': 'SD',
+    'sweden': 'SE',
+    'singapore': 'SG',
+    'slovenia': 'SI',
+    'slovakia': 'SK',
+    'sierra leone': 'SL',
+    'san marino': 'SM',
+    'senegal': 'SN',
+    'somalia': 'SO',
+    'suriname': 'SR',
+    'south sudan': 'SS',
+    'sao tome and principe': 'ST',
+    'el salvador': 'SV',
+    'syria': 'SY',
+    'eswatini': 'SZ',
+    'swaziland': 'SZ',
+    
+    // T
+    'chad': 'TD',
+    'togo': 'TG',
+    'thailand': 'TH',
+    'tajikistan': 'TJ',
+    'timor leste': 'TL',
+    'east timor': 'TL',
+    'turkmenistan': 'TM',
+    'tunisia': 'TN',
+    'tonga': 'TO',
+    'turkey': 'TR',
+    'trinidad and tobago': 'TT',
+    'tuvalu': 'TV',
+    'taiwan': 'TW',
+    'tanzania': 'TZ',
+    
+    // U
+    'ukraine': 'UA',
+    'uganda': 'UG',
+    'united states': 'US',
+    'usa': 'US',
+    'america': 'US',
+    'uruguay': 'UY',
+    'uzbekistan': 'UZ',
+    
+    // V
+    'vatican city': 'VA',
+    'vatican': 'VA',
+    'saint vincent and the grenadines': 'VC',
+    'venezuela': 'VE',
+    'vietnam': 'VN',
+    'vanuatu': 'VU',
+    
+    // W
+    'samoa': 'WS',
+    
+    // Y
+    'yemen': 'YE',
+    
+    // Z
+    'south africa': 'ZA',
+    'zambia': 'ZM',
+    'zimbabwe': 'ZW',
   };
   
   return countryMapping[normalizedSlug] || null;
@@ -146,7 +369,7 @@ export default async function CountryYearPage({ params }: PageProps) {
   
   try {
     const [holidayData, countryData] = await Promise.all([
-      loadHolidayData(countryCode, year),
+      loadHolidayData(countryCode, year, params.locale),
       loadCountryData(countryCode)
     ]);
     

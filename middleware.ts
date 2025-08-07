@@ -4,6 +4,28 @@ import type { NextRequest } from 'next/server';
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   
+  // 어드민 페이지에 대한 보안 헤더 설정
+  if (pathname.startsWith('/admin')) {
+    const response = NextResponse.next();
+    
+    // 크롤링 차단 헤더
+    response.headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive, nosnippet, noimageindex');
+    
+    // 보안 헤더
+    response.headers.set('X-Frame-Options', 'DENY');
+    response.headers.set('X-Content-Type-Options', 'nosniff');
+    response.headers.set('Referrer-Policy', 'no-referrer');
+    response.headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
+    
+    // CSP 헤더 (어드민 페이지용)
+    response.headers.set(
+      'Content-Security-Policy',
+      "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'none';"
+    );
+    
+    return response;
+  }
+  
   // 이미 locale이 포함된 경로는 그대로 통과 (pathname 헤더 추가)
   if (pathname.startsWith('/ko/') || pathname.startsWith('/en/')) {
     const response = NextResponse.next();

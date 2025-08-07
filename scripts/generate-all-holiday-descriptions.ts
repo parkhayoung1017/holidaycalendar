@@ -1,8 +1,9 @@
 #!/usr/bin/env tsx
 
 import { loadHolidayData, getAllAvailableData } from '../src/lib/data-loader';
-import { generateHolidayDescription } from '../src/lib/ai-content-generator-enhanced';
-import { getCacheStats } from '../src/lib/ai-content-cache';
+import { generateAIHolidayDescription } from '../src/lib/ai-content-generator-enhanced';
+import { saveAIDescriptionToSupabase } from '../src/lib/ai-content-supabase-integration';
+import { getCachedDescription, getCacheStatus } from '../src/lib/hybrid-cache';
 import { logInfo, logWarning } from '../src/lib/error-logger';
 
 interface GenerationStats {
@@ -67,29 +68,45 @@ async function main() {
           try {
             console.log(`  📅 ${holiday.name} 처리 중... (${processedCount}/${maxItems || '∞'})`);
             
-            const result = await generateHolidayDescription({
-              holidayId: holiday.id,
-              holidayName: holiday.name,
-              countryName: countryName,
-              date: holiday.date,
-              existingDescription: forceRegenerate ? '' : holiday.description
-            }, locale, forceRegenerate);
+            // 강제 재생성이 아닌 경우 기존 캐시 확인
+            if (!forceRegenerate) {
+              const cached = await getCachedDescription(holiday.name, countryName, locale);
+              if (cached && cached.description.length > 100) {
+                stats.cached++;
+                console.log(`    📦 캐시 사용 (신뢰도: ${cached.confidence})`);
+                continue;
+              }
+            }
             
-            // 캐시에서 가져온 경우 (신뢰도가 0.95인 경우는 대부분 캐시)
-            // 또는 새로 생성된 시간이 최근이 아닌 경우
-            const isFromCache = result.confidence === 0.95 || 
-                               (new Date().getTime() - new Date(result.generatedAt).getTime()) > 60000; // 1분 이상 전
+            // AI로 새 설명 생성
+            const description = await generateAIHolidayDescription(
+              holiday.name,
+              countryName,
+              holiday.date,
+              locale
+            );
             
-            if (isFromCache) {
-              stats.cached++;
-              console.log(`    📦 캐시 사용 (신뢰도: ${result.confidence})`);
-            } else {
+            if (description && description.length > 100) {
+              // Supabase에 저장 (하이브리드 캐시도 자동으로 업데이트됨)
+              await saveAIDescriptionToSupabase(
+                holiday.id,
+                holiday.name,
+                countryName,
+                locale,
+                description,
+                0.9,
+                'claude-3.5-sonnet'
+              );
+              
               stats.generated++;
-              console.log(`    ✅ AI 생성 완료 (신뢰도: ${result.confidence})`);
+              console.log(`    ✅ AI 생성 완료 (${description.length}자)`);
+            } else {
+              stats.failed++;
+              console.log(`    ⚠️  설명이 너무 짧음 (${description?.length || 0}자)`);
             }
             
             // API 호출 간격 조절 (과도한 요청 방지)
-            await sleep(1000);
+            await sleep(2000);
             
           } catch (error) {
             stats.failed++;
@@ -159,9 +176,11 @@ async function showFinalStats(stats: GenerationStats) {
   // 캐시 통계 표시
   console.log('\n📦 캐시 현황:');
   try {
-    const cacheStats = await getCacheStats();
-    console.log(`캐시 항목: ${cacheStats.totalItems}개`);
-    console.log(`캐시 크기: ${cacheStats.totalSize}`);
+    const cacheStatus = await getCacheStatus();
+    console.log(`Supabase 히트: ${cacheStatus.hybrid.supabaseHits}개`);
+    console.log(`로컬 캐시 히트: ${cacheStatus.hybrid.localHits}개`);
+    console.log(`로컬 캐시 항목: ${cacheStatus.local.totalEntries}개`);
+    console.log(`Supabase 연결 상태: ${cacheStatus.hybrid.isSupabaseAvailable ? '✅ 연결됨' : '❌ 연결 안됨'}`);
   } catch (error) {
     console.log('캐시 통계 조회 실패');
   }
