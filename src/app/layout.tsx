@@ -103,6 +103,21 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9099299007950279"
           crossOrigin="anonymous"
         />
+        {/* Google Analytics (gtag.js) */}
+        <script 
+          async 
+          src="https://www.googletagmanager.com/gtag/js?id=G-LD1TMF47X6"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-LD1TMF47X6');
+            `,
+          }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
