@@ -17,7 +17,8 @@ async function handler(request: NextRequest): Promise<NextResponse> {
   try {
     const { searchParams } = new URL(request.url);
     const country = searchParams.get('country') || undefined;
-    const year = searchParams.get('year') || undefined;
+    // 연도 필터가 없으면 현재 연도(2025)를 기본값으로 사용
+    const year = searchParams.get('year') || '2025';
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '50');
 
@@ -57,6 +58,10 @@ async function findMissingDescriptions(
     country_code: string;
     date: string;
     year: number;
+    language_status: {
+      ko: boolean;
+      en: boolean;
+    };
   }>;
   total: number;
 }> {
@@ -69,53 +74,110 @@ async function findMissingDescriptions(
     
     const existingKeys = new Set<string>();
     
-    // 1. Supabase에서 기존 설명 확인 (수동 작성된 설명만)
+    // 1. Supabase에서 기존 설명 확인 (수동 작성된 설명 + admin이 작성한 설명)
     try {
-      // 한국어와 영어의 수동 작성된 설명만 가져오기
+      // 한국어와 영어의 모든 설명을 가져와서 수동 작성된 것만 필터링
       const [koDescriptions, enDescriptions] = await Promise.all([
         service.getDescriptions({
           page: 1,
           limit: 10000,
-          locale: 'ko',
-          isManual: true  // 수동 작성된 설명만
+          locale: 'ko'
         }),
         service.getDescriptions({
           page: 1,
           limit: 10000,
-          locale: 'en',
-          isManual: true  // 수동 작성된 설명만
+          locale: 'en'
         })
       ]);
-      
-      // 한국어 설명 처리
-      koDescriptions.data.forEach(desc => {
-        const normalizedKey = `${desc.holiday_name}|${desc.country_name}|ko`;
-        existingKeys.add(normalizedKey);
-        
-        // 국가 코드 변형도 추가
-        const countryCode = getCountryCodeFromName(desc.country_name);
-        if (countryCode) {
-          existingKeys.add(`${desc.holiday_name}|${countryCode}|ko`);
-        }
-      });
-      
-      // 영어 설명 처리
-      enDescriptions.data.forEach(desc => {
-        const normalizedKey = `${desc.holiday_name}|${desc.country_name}|en`;
-        existingKeys.add(normalizedKey);
-        
-        // 국가 코드 변형도 추가
-        const countryCode = getCountryCodeFromName(desc.country_name);
-        if (countryCode) {
-          existingKeys.add(`${desc.holiday_name}|${countryCode}|en`);
-        }
-      });
       
       console.log('Supabase에서 가져온 설명 개수:', {
         ko: koDescriptions.data.length,
         en: enDescriptions.data.length,
         total: koDescriptions.data.length + enDescriptions.data.length
       });
+      
+      // 한국어 설명 처리 (수동 작성된 것만)
+      koDescriptions.data.forEach(desc => {
+        // 수동 작성 여부 확인: is_manual이 true이거나 modified_by가 admin인 경우
+        const isManuallyWritten = desc.is_manual === true || desc.modified_by === 'admin';
+        
+        if (isManuallyWritten) {
+          // 다양한 키 형식으로 저장하여 매칭률 향상
+          const keyVariations = [
+            `${desc.holiday_name}|${desc.country_name}|ko`,
+            `${desc.holiday_name}_${desc.country_name}_ko`,
+            `${desc.holiday_name}-${desc.country_name}-ko`
+          ];
+          
+          keyVariations.forEach(key => existingKeys.add(key));
+          
+          // 안도라 카니발 특별 디버깅
+          if (desc.holiday_name === 'Carnival' && desc.country_name === 'Andorra') {
+            console.log('🎯 Supabase에서 안도라 카니발 한국어 설명 발견:', {
+              holiday_name: desc.holiday_name,
+              country_name: desc.country_name,
+              locale: desc.locale,
+              is_manual: desc.is_manual,
+              modified_by: desc.modified_by,
+              isManuallyWritten,
+              keys: keyVariations
+            });
+          }
+          
+          // 국가 코드 변형도 추가
+          const countryCode = getCountryCodeFromName(desc.country_name);
+          if (countryCode) {
+            const codeVariations = [
+              `${desc.holiday_name}|${countryCode}|ko`,
+              `${desc.holiday_name}_${countryCode}_ko`,
+              `${desc.holiday_name}-${countryCode}-ko`
+            ];
+            codeVariations.forEach(key => existingKeys.add(key));
+          }
+        }
+      });
+      
+      // 영어 설명 처리 (수동 작성된 것만)
+      enDescriptions.data.forEach(desc => {
+        // 수동 작성 여부 확인: is_manual이 true이거나 modified_by가 admin인 경우
+        const isManuallyWritten = desc.is_manual === true || desc.modified_by === 'admin';
+        
+        if (isManuallyWritten) {
+          // 다양한 키 형식으로 저장하여 매칭률 향상
+          const keyVariations = [
+            `${desc.holiday_name}|${desc.country_name}|en`,
+            `${desc.holiday_name}_${desc.country_name}_en`,
+            `${desc.holiday_name}-${desc.country_name}-en`
+          ];
+          
+          keyVariations.forEach(key => existingKeys.add(key));
+          
+          // 안도라 카니발 특별 디버깅
+          if (desc.holiday_name === 'Carnival' && desc.country_name === 'Andorra') {
+            console.log('🎯 Supabase에서 안도라 카니발 영어 설명 발견:', {
+              holiday_name: desc.holiday_name,
+              country_name: desc.country_name,
+              locale: desc.locale,
+              is_manual: desc.is_manual,
+              modified_by: desc.modified_by,
+              isManuallyWritten,
+              keys: keyVariations
+            });
+          }
+          
+          // 국가 코드 변형도 추가
+          const countryCode = getCountryCodeFromName(desc.country_name);
+          if (countryCode) {
+            const codeVariations = [
+              `${desc.holiday_name}|${countryCode}|en`,
+              `${desc.holiday_name}_${countryCode}_en`,
+              `${desc.holiday_name}-${countryCode}-en`
+            ];
+            codeVariations.forEach(key => existingKeys.add(key));
+          }
+        }
+      });
+      
     } catch (error) {
       console.warn('Supabase 설명 조회 실패:', error);
     }
@@ -260,18 +322,21 @@ async function findMissingDescriptions(
               }
             }
             
-            // 모든 지원 언어에 설명이 있는지 확인 (한국어와 영어 모두)
-            const hasKoreanDescription = countryVariations.some(country => 
-              existingKeys.has(`${holiday.name}|${country}|ko`) ||
-              existingKeys.has(`${holiday.name}_${country}_ko`) ||
-              existingKeys.has(`${holiday.name}-${country}-ko`)
-            );
+            // 정확한 매칭을 위해 공휴일명과 국가명이 정확히 일치하는 키만 확인
+            const koKeys = [
+              `${holiday.name}|${countryName}|ko`,
+              `${holiday.name}_${countryName}_ko`,
+              `${holiday.name}-${countryName}-ko`
+            ];
             
-            const hasEnglishDescription = countryVariations.some(country => 
-              existingKeys.has(`${holiday.name}|${country}|en`) ||
-              existingKeys.has(`${holiday.name}_${country}_en`) ||
-              existingKeys.has(`${holiday.name}-${country}-en`)
-            );
+            const enKeys = [
+              `${holiday.name}|${countryName}|en`,
+              `${holiday.name}_${countryName}_en`,
+              `${holiday.name}-${countryName}-en`
+            ];
+            
+            const hasKoreanDescription = koKeys.some(key => existingKeys.has(key));
+            const hasEnglishDescription = enKeys.some(key => existingKeys.has(key));
             
             // 두 언어 모두 설명이 있어야만 완료된 것으로 간주
             const hasCompleteDescription = hasKoreanDescription && hasEnglishDescription;
@@ -317,7 +382,6 @@ async function findMissingDescriptions(
                 country_code: countryCode.toUpperCase(),
                 date: holiday.date,
                 year: parseInt(fileYear),
-                // 언어별 작성 상태 추가
                 language_status: {
                   ko: hasKoreanDescription,
                   en: hasEnglishDescription

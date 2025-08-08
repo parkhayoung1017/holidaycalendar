@@ -1,44 +1,65 @@
-import { getHybridCache } from './src/lib/hybrid-cache';
+#!/usr/bin/env npx tsx
 
-async function testAndorraCache() {
-  console.log('🔍 안도라 New Year\'s Day 하이브리드 캐시 테스트 시작...');
-  
-  const cache = getHybridCache();
-  
+/**
+ * 하이브리드 캐시에서 안도라 카니발 확인 스크립트
+ */
+
+// 환경 변수 직접 설정
+process.env.NEXT_PUBLIC_SUPABASE_URL = 'https://wkajscrxfcmeksyxllft.supabase.co';
+process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndrYWpzY3J4ZmNtZWtzeXhsbGZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQyNzU4NDUsImV4cCI6MjA2OTg1MTg0NX0.dZi1lmJYODf0JlGaiIVQEG0Txnp2EobW_8YBDoZ6oC4';
+process.env.SUPABASE_SERVICE_ROLE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndrYWpzY3J4ZmNtZWtzeXhsbGZ0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NDI3NTg0NSwiZXhwIjoyMDY5ODUxODQ1fQ.CQpI2Bsq1Oc8v4FqhbcqtmNY9fgS6njqxd-S2-ntSbQ';
+
+import { getCachedDescription } from './src/lib/hybrid-cache';
+
+async function testHybridCacheAndorra() {
+  console.log('🔍 하이브리드 캐시에서 안도라 카니발 확인...\n');
+
   try {
-    // 단일 조회 테스트
-    console.log('\n1. 단일 조회 테스트:');
-    const singleResult = await cache.getDescription('New Year\'s Day', 'Andorra', 'ko');
-    console.log('결과:', singleResult ? {
-      source: singleResult.source,
-      descriptionLength: singleResult.description.length,
-      preview: singleResult.description.substring(0, 100) + '...'
-    } : '없음');
-    
-    // 배치 조회 테스트
-    console.log('\n2. 배치 조회 테스트:');
-    const batchResults = await cache.getDescriptions([
-      { holidayName: 'New Year\'s Day', countryName: 'Andorra', locale: 'ko' }
-    ]);
-    
-    console.log('배치 결과:', batchResults.length > 0 && batchResults[0] ? {
-      source: batchResults[0].source,
-      descriptionLength: batchResults[0].description.length,
-      preview: batchResults[0].description.substring(0, 100) + '...'
-    } : '없음');
-    
-    // 다양한 국가명 형식으로 테스트
-    console.log('\n3. 다양한 국가명 형식 테스트:');
-    const variations = ['Andorra', 'andorra', 'ANDORRA'];
-    
-    for (const countryName of variations) {
-      const result = await cache.getDescription('New Year\'s Day', countryName, 'ko');
-      console.log(`"${countryName}":`, result ? '발견' : '없음');
+    // 1. 한국어 설명 확인
+    console.log('1️⃣ 한국어 설명 확인...');
+    const koDescription = await getCachedDescription(
+      'ad_2024_2024-02-12_Carnival',
+      'Carnival',
+      'Andorra',
+      'ko'
+    );
+
+    if (koDescription) {
+      console.log('✅ 한국어 설명 발견:');
+      console.log(`   - 신뢰도: ${koDescription.confidence}`);
+      console.log(`   - 생성 시간: ${koDescription.generatedAt}`);
+      console.log(`   - 내용 미리보기: ${koDescription.description.substring(0, 100)}...`);
+    } else {
+      console.log('❌ 한국어 설명 없음');
     }
-    
+
+    // 2. 영어 설명 확인
+    console.log('\n2️⃣ 영어 설명 확인...');
+    const enDescription = await getCachedDescription(
+      'ad_2024_2024-02-12_Carnival',
+      'Carnival',
+      'Andorra',
+      'en'
+    );
+
+    if (enDescription) {
+      console.log('✅ 영어 설명 발견:');
+      console.log(`   - 신뢰도: ${enDescription.confidence}`);
+      console.log(`   - 생성 시간: ${enDescription.generatedAt}`);
+      console.log(`   - 내용 미리보기: ${enDescription.description.substring(0, 100)}...`);
+    } else {
+      console.log('❌ 영어 설명 없음');
+    }
+
+    // 3. 상태 요약
+    console.log('\n📊 상태 요약:');
+    console.log(`한국어: ${koDescription ? '✅ 있음' : '❌ 없음'}`);
+    console.log(`영어: ${enDescription ? '✅ 있음' : '❌ 없음'}`);
+    console.log(`완료 상태: ${koDescription && enDescription ? '✅ 완료' : '❌ 미완료'}`);
+
   } catch (error) {
-    console.error('❌ 테스트 실패:', error);
+    console.error('❌ 하이브리드 캐시 확인 실패:', error);
   }
 }
 
-testAndorraCache();
+testHybridCacheAndorra().catch(console.error);

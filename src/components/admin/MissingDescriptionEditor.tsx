@@ -132,36 +132,50 @@ export default function MissingDescriptionEditor({
     });
 
     try {
-      const promises = SUPPORTED_LOCALES.map(async (locale) => {
-        // 다양한 국가명 형식으로 시도
-        const countryVariations = [
-          holiday.country_name,
-          holiday.country_code,
-          holiday.country_code.toLowerCase(),
-          // 특별한 경우들
-          ...(holiday.country_name === 'United States' ? ['US', 'USA', 'America'] : []),
-          ...(holiday.country_name === 'United Kingdom' ? ['GB', 'UK', 'Britain'] : []),
-          ...(holiday.country_name === 'South Korea' ? ['KR', 'Korea'] : [])
-        ].filter((v, i, arr) => arr.indexOf(v) === i); // 중복 제거
+      // 초기화: 빈 설명으로 시작
+      const descriptionsMap: Record<string, string> = {
+        ko: '',
+        en: ''
+      };
 
-        for (const countryVariation of countryVariations) {
-          try {
-            const response = await fetch(
-              `/api/admin/descriptions?holidayName=${encodeURIComponent(holiday.holiday_name)}&countryName=${encodeURIComponent(countryVariation)}&locale=${locale.code}&isManual=true&limit=1`
-            );
+      // 각 언어별로 설명을 조회
+      for (const locale of SUPPORTED_LOCALES) {
+        try {
+          console.log(`🔍 ${locale.code} 설명 조회 시작:`, {
+            holidayName: holiday.holiday_name,
+            countryName: holiday.country_name
+          });
 
-            if (response.ok) {
-              const data = await response.json();
-              if (data.descriptions && data.descriptions.length > 0) {
-                const desc = data.descriptions[0];
+          // 정확한 매칭을 위해 공휴일명과 국가명을 정확히 매칭 (모든 설명 조회)
+          const response = await fetch(
+            `/api/admin/descriptions?holidayName=${encodeURIComponent(holiday.holiday_name)}&countryName=${encodeURIComponent(holiday.country_name)}&locale=${locale.code}&limit=5`
+          );
 
-                // 매우 엄격한 검증: 확실히 관리자가 작성한 설명만 인정
-                const isReallyManual = desc.is_manual === true &&
-                  desc.modified_by &&
-                  desc.modified_by !== 'system' &&
-                  desc.modified_by !== 'hybrid_cache' &&
-                  desc.modified_by !== 'ai_generator' &&
-                  desc.modified_by !== 'auto';
+          if (response.ok) {
+            const data = await response.json();
+            console.log(`📊 ${locale.code} API 응답:`, {
+              count: data.descriptions?.length || 0,
+              descriptions: data.descriptions?.map((d: any) => ({
+                holiday_name: d.holiday_name,
+                country_name: d.country_name,
+                locale: d.locale,
+                is_manual: d.is_manual,
+                modified_by: d.modified_by,
+                preview: d.description?.substring(0, 50) + '...'
+              })) || []
+            });
+
+            if (data.descriptions && data.descriptions.length > 0) {
+              // 정확히 일치하는 설명 찾기
+              const exactMatch = data.descriptions.find((desc: any) => 
+                desc.holiday_name === holiday.holiday_name && 
+                desc.country_name === holiday.country_name &&
+                desc.locale === locale.code
+              );
+
+              if (exactMatch) {
+                // 수동 작성 여부 확인: is_manual이 true이거나 modified_by가 admin인 경우
+                const isReallyManual = exactMatch.is_manual === true || exactMatch.modified_by === 'admin';
 
                 // 의심스러운 콘텐츠 패턴 감지
                 const suspiciousPatterns = [
@@ -177,54 +191,48 @@ export default function MissingDescriptionEditor({
 
                 const hasSuspiciousContent = suspiciousPatterns.some(pattern => {
                   if (typeof pattern === 'string') {
-                    return desc.description.toLowerCase().includes(pattern.toLowerCase());
+                    return exactMatch.description.toLowerCase().includes(pattern.toLowerCase());
                   } else {
-                    return pattern.test(desc.description);
+                    return pattern.test(exactMatch.description);
                   }
                 });
 
                 // 추가 검증: 설명이 너무 짧거나 의미없는 내용인지 확인
-                const isTooShort = desc.description.trim().length < 50;
-                const isValidContent = desc.description.includes('공휴일') ||
-                  desc.description.includes('holiday') ||
-                  desc.description.includes('기념') ||
-                  desc.description.includes('celebrate');
+                const isTooShort = exactMatch.description.trim().length < 50;
 
-                if (isReallyManual && !hasSuspiciousContent && !isTooShort && isValidContent) {
-                  console.log(`✅ 유효한 수동 설명 발견: ${holiday.holiday_name} (${countryVariation}, ${locale.code})`);
-                  return { locale: locale.code, description: desc.description };
+                if (isReallyManual && !hasSuspiciousContent && !isTooShort) {
+                  console.log(`✅ 유효한 수동 설명 발견: ${holiday.holiday_name} (${holiday.country_name}, ${locale.code})`);
+                  descriptionsMap[locale.code] = exactMatch.description;
                 } else {
-                  console.log(`⚠️ 무효한 설명 제외: ${holiday.holiday_name} (${countryVariation}, ${locale.code})`, {
-                    isManual: desc.is_manual,
-                    modifiedBy: desc.modified_by,
+                  console.log(`⚠️ 무효한 설명 제외: ${holiday.holiday_name} (${holiday.country_name}, ${locale.code})`, {
+                    isManual: exactMatch.is_manual,
+                    modifiedBy: exactMatch.modified_by,
                     isReallyManual,
                     hasSuspiciousContent,
                     isTooShort,
-                    isValidContent,
-                    preview: desc.description.substring(0, 50)
+                    preview: exactMatch.description.substring(0, 50)
                   });
                 }
+              } else {
+                console.log(`❌ 정확한 매칭 없음: ${holiday.holiday_name} (${holiday.country_name}, ${locale.code})`);
               }
+            } else {
+              console.log(`❌ 설명 없음: ${holiday.holiday_name} (${holiday.country_name}, ${locale.code})`);
             }
-          } catch (error) {
-            console.warn(`설명 조회 실패: ${countryVariation} (${locale.code})`, error);
+          } else {
+            console.warn(`API 응답 오류: ${response.status} ${response.statusText}`);
           }
+        } catch (error) {
+          console.warn(`설명 조회 실패: ${holiday.country_name} (${locale.code})`, error);
         }
-
-        return { locale: locale.code, description: '' };
-      });
-
-      const results = await Promise.all(promises);
-      const descriptionsMap: Record<string, string> = {};
-
-      results.forEach(result => {
-        descriptionsMap[result.locale] = result.description;
-      });
+      }
 
       console.log('로드된 기존 설명들:', descriptionsMap);
       setExistingDescriptions(descriptionsMap);
     } catch (error) {
       console.error('기존 설명 로드 실패:', error);
+      // 오류 발생 시 빈 설명으로 초기화
+      setExistingDescriptions({ ko: '', en: '' });
     }
   };
 
@@ -305,8 +313,8 @@ export default function MissingDescriptionEditor({
           shouldRemoveFromList: bothCompleted
         });
 
-        // 저장 완료 후 모달 닫기
-        console.log('✅ 저장 완료, 모달 닫기');
+        // 저장 완료 후 모달 닫기 - 항상 목록을 새로고침하여 최신 상태 반영
+        console.log('✅ 저장 완료, 모달 닫기 및 목록 새로고침');
         onSave();
       } else {
         throw new Error(result.error || '설명 저장에 실패했습니다.');
@@ -434,8 +442,8 @@ export default function MissingDescriptionEditor({
                   <span className="text-lg mr-2">{locale.flag}</span>
                   <div className="text-left">
                     <div className="font-medium">{locale.name}</div>
-                    <div className="text-xs opacity-75">
-                      {hasExisting ? getUIText(selectedLocale).written : getUIText(selectedLocale).notWritten}
+                    <div className={`text-xs ${hasExisting ? 'text-green-600' : 'text-yellow-600'}`}>
+                      {hasExisting ? '✅ 작성됨' : '📝 미작성'}
                     </div>
                   </div>
                 </button>

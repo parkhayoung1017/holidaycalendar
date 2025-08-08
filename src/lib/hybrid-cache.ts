@@ -279,7 +279,7 @@ export class HybridCacheService {
   ): Promise<CachedContent | null> {
     try {
       console.log('🔍 하이브리드 캐시 조회 시작:', { holidayName, countryName, locale });
-      
+
       // 병렬로 Supabase와 로컬 캐시 동시 조회 (성능 개선)
       const [supabaseResult, localResult] = await Promise.allSettled([
         this.getFromSupabaseWithFallback(holidayName, countryName, locale),

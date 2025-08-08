@@ -10,7 +10,7 @@ interface MissingHoliday {
   country_code: string;
   date: string;
   year: number;
-  language_status?: {
+  language_status: {
     ko: boolean;
     en: boolean;
   };
@@ -150,18 +150,18 @@ export default function MissingDescriptionsList({
                       {/* 언어별 작성 상태 표시 */}
                       <div className="flex items-center space-x-1">
                         <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
-                          holiday.language_status?.ko 
+                          holiday.language_status.ko 
                             ? 'bg-green-100 text-green-800' 
-                            : 'bg-yellow-100 text-yellow-800'
+                            : 'bg-red-100 text-red-800'
                         }`}>
-                          🇰🇷 {holiday.language_status?.ko ? '완료' : '미완성'}
+                          🇰🇷 {holiday.language_status.ko ? '작성됨' : '미작성'}
                         </span>
                         <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
-                          holiday.language_status?.en 
+                          holiday.language_status.en 
                             ? 'bg-green-100 text-green-800' 
-                            : 'bg-yellow-100 text-yellow-800'
+                            : 'bg-red-100 text-red-800'
                         }`}>
-                          🇺🇸 {holiday.language_status?.en ? '완료' : '미완성'}
+                          🇺🇸 {holiday.language_status.en ? '작성됨' : '미작성'}
                         </span>
                       </div>
                     </div>

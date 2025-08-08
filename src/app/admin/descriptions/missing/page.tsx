@@ -30,7 +30,7 @@ export default function MissingDescriptionsPage() {
   });
   const [filters, setFilters] = useState({
     country: '',
-    year: ''
+    year: '2025'  // 기본값을 현재 연도로 설정
   });
 
   useEffect(() => {
