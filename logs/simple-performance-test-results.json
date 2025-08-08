@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-08-08T00:58:22.670Z",
+  "testType": "simple_performance_test",
+  "results": {
+    "parallelTest": {
+      "sequential": {
+        "testName": "순차 로딩",
+        "duration": 45,
+        "itemsProcessed": 93,
+        "itemsPerSecond": 2067,
+        "details": {
+          "countriesProcessed": 5,
+          "averageHolidaysPerCountry": 19
+        }
+      },
+      "parallel": {
+        "testName": "병렬 로딩",
+        "duration": 14,
+        "itemsProcessed": 93,
+        "itemsPerSecond": 6643,
+        "details": {
+          "countriesProcessed": 5,
+          "averageHolidaysPerCountry": 19
+        }
+      },
+      "improvement": 69
+    },
+    "homePageTest": {
+      "testName": "홈페이지 로딩 시뮬레이션",
+      "duration": 31,
+      "itemsProcessed": 204,
+      "itemsPerSecond": 6581,
+      "details": {
+        "availableCountries": 215,
+        "popularCountriesProcessed": 8,
+        "monthlyHolidays": 52,
+        "totalCountryHolidays": 152,
+        "averageHolidaysPerCountry": 19
+      }
+    },
+    "efficiencyTest": {
+      "testName": "데이터 로딩 효율성",
+      "duration": 27,
+      "itemsProcessed": 300,
+      "itemsPerSecond": 11111,
+      "details": {
+        "totalCountries": 20,
+        "successfulLoads": 20,
+        "failedLoads": 0,
+        "successRate": 100,
+        "averageHolidaysPerCountry": 15,
+        "countryResults": [
+          {
+            "country": "Argentina",
+            "code": "AR",
+            "holidayCount": 16,
+            "success": true
+          },
+          {
+            "country": "Australia",
+            "code": "AU",
+            "holidayCount": 24,
+            "success": true
+          },
+          {
+            "country": "Brazil",
+            "code": "BR",
+            "holidayCount": 15,
+            "success": true
+          },
+          {
+            "country": "Canada",
+            "code": "CA",
+            "holidayCount": 31,
+            "success": true
+          },
+          {
+            "country": "China",
+            "code": "CN",
+            "holidayCount": 7,
+            "success": true
+          },
+          {
+            "country": "Germany",
+            "code": "DE",
+            "holidayCount": 20,
+            "success": true
+          },
+          {
+            "country": "Egypt",
+            "code": "EG",
+            "holidayCount": 7,
+            "success": true
+          },
+          {
+            "country": "Spain",
+            "code": "ES",
+            "holidayCount": 32,
+            "success": true
+          },
+          {
+            "country": "France",
+            "code": "FR",
+            "holidayCount": 11,
+            "success": true
+          },
+          {
+            "country": "United Kingdom",
+            "code": "GB",
+            "holidayCount": 13,
+            "success": true
+          },
+          {
+            "country": "India",
+            "code": "IN",
+            "holidayCount": 0,
+            "success": false
+          },
+          {
+            "country": "Italy",
+            "code": "IT",
+            "holidayCount": 12,
+            "success": true
+          },
+          {
+            "country": "Japan",
+            "code": "JP",
+            "holidayCount": 16,
+            "success": true
+          },
+          {
+            "country": "South Korea",
+            "code": "KR",
+            "holidayCount": 15,
+            "success": true
+          },
+          {
+            "country": "Mexico",
+            "code": "MX",
+            "holidayCount": 9,
+            "success": true
+          },
+          {
+            "country": "Netherlands",
+            "code": "NL",
+            "holidayCount": 11,
+            "success": true
+          },
+          {
+            "country": "New Zealand",
+            "code": "NZ",
+            "holidayCount": 23,
+            "success": true
+          },
+          {
+            "country": "Singapore",
+            "code": "SG",
+            "holidayCount": 11,
+            "success": true
+          },
+          {
+            "country": "United States",
+            "code": "US",
+            "holidayCount": 15,
+            "success": true
+          },
+          {
+            "country": "South Africa",
+            "code": "ZA",
+            "holidayCount": 12,
+            "success": true
+          }
+        ]
+      }
+    },
+    "summary": {
+      "totalDuration": 118,
+      "overallImprovement": 69,
+      "recommendations": [
+        "✅ 병렬 처리가 매우 효과적입니다. 계속 사용하세요.",
+        "✅ 홈페이지 로딩 성능이 우수합니다.",
+        "✅ 데이터 로딩 안정성이 우수합니다."
+      ]
+    }
+  },
+  "environment": {
+    "nodeVersion": "v22.17.0",
+    "platform": "darwin",
+    "arch": "arm64"
+  }
+}

@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { Locale } from '@/types/i18n';
 import { POPULAR_COUNTRIES, CURRENT_YEAR } from "@/lib/constants";
 import { getAllAvailableData, getHolidaysByMonth } from "@/lib/data-loader";
+import { conditionalWarmCache } from "@/lib/cache-warmer";
 import HomePageContent from "@/components/home/HomePageContent";
 
 // ISR 설정 - 6시간마다 재생성
@@ -22,14 +23,26 @@ export default async function Home({ params }: HomePageProps) {
   }
   
   const validLocale = locale as Locale;
-  // 실제 사용 가능한 데이터 확인
-  const availableData = await getAllAvailableData();
   
-  // 현재 월의 전 세계 공휴일 데이터 가져오기
+  // 병렬로 데이터 로딩 및 캐시 워밍 (성능 개선)
+  const [availableData, monthlyHolidays] = await Promise.all([
+    getAllAvailableData(),
+    (async () => {
+      const currentDate = new Date();
+      const currentYear = currentDate.getFullYear();
+      const currentMonth = currentDate.getMonth();
+      return await getHolidaysByMonth(currentYear, currentMonth);
+    })(),
+    // 백그라운드에서 캐시 워밍 실행 (페이지 로딩을 차단하지 않음)
+    conditionalWarmCache().catch(error => {
+      console.warn('캐시 워밍 실패 (무시됨):', error);
+      return null;
+    })
+  ]);
+  
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
   const currentMonth = currentDate.getMonth();
-  const monthlyHolidays = await getHolidaysByMonth(currentYear, currentMonth);
   
   // 인기 국가 중에서 실제 데이터가 있는 것들만 필터링
   const availablePopularCountries = POPULAR_COUNTRIES.filter(country => 

@@ -180,89 +180,19 @@ export default async function HolidayDetailPage({ params }: HolidayDetailPagePro
       );
     }
 
-    // Supabase에서 최신 설명 조회 (어드민 수정 내용 반영)
+    // loadHolidayData에서 이미 하이브리드 캐시를 통해 최신 설명을 가져왔으므로
+    // 여기서는 중복 조회를 하지 않고 그대로 사용합니다.
     let description = holiday.description;
-    let isManualDescription = false; // 수동 작성 설명 여부 플래그
     
-    console.log('🔍 공휴일 설명 생성 디버깅:', {
+    console.log('🔍 공휴일 설명 확인:', {
       holidayName: holiday.name,
       countryName: countryData.name,
-      existingDescription: description,
-      existingLength: description?.length || 0
+      descriptionLength: description?.length || 0,
+      hasDescription: !!description
     });
 
-    // 하이브리드 캐시에서 최신 설명 조회 (Supabase 우선) - 다양한 국가명 형식으로 시도
-    try {
-      const { getCachedDescription } = await import('@/lib/hybrid-cache');
-      
-      console.log('🔍 하이브리드 캐시 조회 시작:', {
-        holidayName: holiday.name,
-        countryName: countryData.name,
-        countryCode: countryData.code,
-        locale: validLocale,
-        existingDescriptionLength: description?.length || 0
-      });
-      
-      // 다양한 국가명 형식으로 조회 시도
-      const countryVariations = [
-        countryData.name, // 'Andorra'
-        countryData.code, // 'AD'
-        countryData.code.toLowerCase(), // 'ad'
-        // 추가 변형들
-        countryData.name.toLowerCase(), // 'andorra'
-        // 특별한 경우들
-        ...(countryData.name === 'United States' ? ['US', 'USA', 'America'] : []),
-        ...(countryData.name === 'United Kingdom' ? ['GB', 'UK', 'Britain'] : []),
-        ...(countryData.name === 'South Korea' ? ['KR', 'Korea'] : [])
-      ].filter((v, i, arr) => arr.indexOf(v) === i); // 중복 제거
-      
-      let cachedDescription = null;
-      let usedCountryName = '';
-      
-      for (const countryVariation of countryVariations) {
-        console.log(`🔍 국가명 변형 시도: "${countryVariation}"`);
-        
-        cachedDescription = await getCachedDescription(holiday.name, countryVariation, validLocale);
-        
-        if (cachedDescription && cachedDescription.description.length > 10) {
-          usedCountryName = countryVariation;
-          console.log(`✅ 국가명 변형 "${countryVariation}"으로 설명 조회 성공!`);
-          break;
-        }
-      }
-      
-      console.log('🔍 하이브리드 캐시 조회 결과:', {
-        found: !!cachedDescription,
-        usedCountryName,
-        descriptionLength: cachedDescription?.description?.length || 0,
-        confidence: cachedDescription?.confidence,
-        preview: cachedDescription?.description?.substring(0, 100)
-      });
-      
-      if (cachedDescription && cachedDescription.description.length > 10) {
-        description = cachedDescription.description;
-        console.log('✅ 하이브리드 캐시에서 설명 조회 성공:', {
-          usedCountryName,
-          confidence: cachedDescription.confidence,
-          descriptionLength: description.length,
-          isManual: cachedDescription.confidence === 1.0
-        });
-        
-        // 수동 작성된 설명인 경우 AI 생성을 건너뛰기 위한 플래그 설정
-        if (cachedDescription.confidence === 1.0) {
-          console.log('🎯 수동 작성된 설명이므로 AI 생성을 건너뜁니다.');
-          // 수동 작성된 설명은 길이에 관계없이 그대로 사용
-          isManualDescription = true;
-        }
-      } else {
-        console.log('⚠️ 하이브리드 캐시에서 유효한 설명을 찾지 못함 - 시도한 국가명들:', countryVariations);
-      }
-    } catch (error) {
-      console.warn('⚠️ 하이브리드 캐시 조회 실패, 기존 로직 사용:', error);
-    }
-
-    // 수동 작성된 설명이 아니고, 설명이 없거나 너무 짧은 경우에만 AI 생성
-    if (!isManualDescription && (!description || description.trim().length < 100)) {
+    // 설명이 없거나 너무 짧은 경우에만 AI 생성
+    if (!description || description.trim().length < 100) {
       try {
         console.log('📝 AI 설명 생성 시작...');
 

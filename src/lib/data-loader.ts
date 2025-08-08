@@ -353,9 +353,111 @@ async function getCountryNameFromCode(countryCode: string): Promise<string> {
 }
 
 /**
- * 공휴일 배열에 설명을 추가합니다.
+ * 공휴일 배열에 설명을 추가합니다. (배치 처리로 성능 개선)
  */
 async function enrichHolidaysWithDescriptions(holidays: Holiday[], countryName: string, locale: string = 'ko'): Promise<Holiday[]> {
+  if (holidays.length === 0) {
+    return [];
+  }
+
+  console.log('🔍 enrichHolidaysWithDescriptions 시작:', {
+    countryName,
+    locale,
+    holidayCount: holidays.length,
+    firstHoliday: holidays[0]?.name
+  });
+
+  try {
+    // 하이브리드 캐시에서 배치 조회 (성능 개선)
+    const { getHybridCache } = await import('./hybrid-cache');
+    const cache = getHybridCache();
+    
+    // 다양한 국가명 형식으로 시도
+    const countryVariations = [
+      countryName, // 'Andorra'
+      countryName.toLowerCase(), // 'andorra'
+      countryName.toUpperCase(), // 'ANDORRA'
+      // 국가 코드 변환 시도
+      ...(await getCountryCodeFromName(countryName) ? [await getCountryCodeFromName(countryName)] : []),
+      // 특별한 경우들
+      ...(countryName === 'United States' ? ['US', 'USA', 'America'] : []),
+      ...(countryName === 'United Kingdom' ? ['GB', 'UK', 'Britain'] : []),
+      ...(countryName === 'South Korea' ? ['KR', 'Korea'] : [])
+    ].filter((v, i, arr) => v && arr.indexOf(v) === i); // null 제거 및 중복 제거
+    
+    console.log('🔍 시도할 국가명 변형들:', countryVariations);
+    
+    let bestResults: Holiday[] = [];
+    let bestFoundCount = 0;
+    let usedCountryName = '';
+    
+    // 각 국가명 변형으로 시도
+    for (const countryVariation of countryVariations) {
+      console.log(`🔍 국가명 변형 시도: "${countryVariation}"`);
+      
+      // 배치 요청 준비
+      const batchRequests = holidays.map(holiday => ({
+        holidayName: holiday.name,
+        countryName: countryVariation,
+        locale: locale
+      }));
+      
+      try {
+        // 배치 조회 실행
+        const cachedDescriptions = await cache.getDescriptions(batchRequests);
+        
+        // 결과 매핑
+        const enrichedHolidays: Holiday[] = holidays.map((holiday, index) => {
+          const cachedDescription = cachedDescriptions[index];
+          
+          return {
+            ...holiday,
+            description: cachedDescription?.description || holiday.description
+          };
+        });
+        
+        // 찾은 설명 개수 계산
+        const foundDescriptions = cachedDescriptions.filter(desc => desc !== null).length;
+        
+        console.log(`🔍 "${countryVariation}" 결과: ${foundDescriptions}/${holidays.length}개 설명 발견`);
+        
+        // 더 많은 설명을 찾은 경우 업데이트
+        if (foundDescriptions > bestFoundCount) {
+          bestResults = enrichedHolidays;
+          bestFoundCount = foundDescriptions;
+          usedCountryName = countryVariation;
+          
+          console.log(`✅ 더 나은 결과 발견: "${countryVariation}" - ${foundDescriptions}개`);
+          
+          // 모든 설명을 찾았으면 더 이상 시도하지 않음
+          if (foundDescriptions === holidays.length) {
+            break;
+          }
+        }
+      } catch (error) {
+        console.warn(`⚠️ "${countryVariation}" 시도 실패:`, error);
+      }
+    }
+    
+    // 최종 결과 로깅
+    logInfo(`공휴일 설명 배치 조회 완료: ${usedCountryName || countryName} - ${bestFoundCount}/${holidays.length}개 설명 발견`);
+    
+    return bestResults.length > 0 ? bestResults : holidays; // 결과가 없으면 원본 반환
+    
+  } catch (error) {
+    // 배치 조회 실패 시 개별 조회로 폴백
+    logWarning(`배치 조회 실패, 개별 조회로 폴백: ${countryName}`, {
+      error: error instanceof Error ? error.message : '알 수 없는 오류'
+    });
+    
+    return await enrichHolidaysWithDescriptionsLegacy(holidays, countryName, locale);
+  }
+}
+
+/**
+ * 레거시 개별 조회 방식 (폴백용)
+ */
+async function enrichHolidaysWithDescriptionsLegacy(holidays: Holiday[], countryName: string, locale: string = 'ko'): Promise<Holiday[]> {
   const enrichedHolidays: Holiday[] = [];
   
   for (const holiday of holidays) {
@@ -410,6 +512,7 @@ async function enrichHolidaysWithDescriptions(holidays: Holiday[], countryName: 
  */
 function getCountryCodeFromName(countryName: string): string | null {
   const countryCodeMap: Record<string, string> = {
+    'Andorra': 'AD',
     'United States': 'US',
     'South Korea': 'KR',
     'Korea': 'KR',
@@ -432,7 +535,25 @@ function getCountryCodeFromName(countryName: string): string | null {
     'Sweden': 'SE',
     'Norway': 'NO',
     'Denmark': 'DK',
-    'Finland': 'FI'
+    'Finland': 'FI',
+    'Argentina': 'AR',
+    'Belgium': 'BE',
+    'Switzerland': 'CH',
+    'Austria': 'AT',
+    'Portugal': 'PT',
+    'Poland': 'PL',
+    'Czech Republic': 'CZ',
+    'Hungary': 'HU',
+    'Greece': 'GR',
+    'Turkey': 'TR',
+    'Ireland': 'IE',
+    'Iceland': 'IS',
+    'Luxembourg': 'LU',
+    'Malta': 'MT',
+    'Monaco': 'MC',
+    'San Marino': 'SM',
+    'Vatican City': 'VA',
+    'Liechtenstein': 'LI'
   };
   
   return countryCodeMap[countryName] || null;

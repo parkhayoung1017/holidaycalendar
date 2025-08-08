@@ -75,7 +75,7 @@ class LocalCacheService {
    */
   private async loadCache(): Promise<Record<string, CachedContent>> {
     const now = Date.now();
-    
+
     // 캐시가 유효한 경우 재사용
     if (this.cache && (now - this.lastLoadTime) < this.CACHE_TTL) {
       return this.cache;
@@ -85,7 +85,7 @@ class LocalCacheService {
       const fileContent = await fs.readFile(this.cacheFilePath, 'utf-8');
       this.cache = JSON.parse(fileContent);
       this.lastLoadTime = now;
-      
+
       return this.cache || {};
     } catch (error) {
       console.warn('로컬 캐시 로드 실패:', error);
@@ -99,22 +99,22 @@ class LocalCacheService {
    * 로컬 캐시에서 설명 조회
    */
   async getCachedDescription(
-    holidayName: string, 
-    countryName: string, 
+    holidayName: string,
+    countryName: string,
     locale: string
   ): Promise<CachedContent | null> {
     try {
       const cache = await this.loadCache();
       const key = this.getCacheKey(holidayName, countryName, locale);
       const content = cache[key];
-      
+
       if (content) {
         // lastUsed 업데이트 (비동기로 처리하여 성능 영향 최소화)
-        this.updateLastUsed(key).catch(error => 
+        this.updateLastUsed(key).catch(error =>
           console.warn('lastUsed 업데이트 실패:', error)
         );
       }
-      
+
       return content || null;
     } catch (error) {
       console.error('로컬 캐시 조회 실패:', error);
@@ -137,7 +137,7 @@ class LocalCacheService {
       const cache = await this.loadCache();
       const key = this.getCacheKey(holidayName, countryName, locale);
       const now = new Date().toISOString();
-      
+
       cache[key] = {
         holidayId,
         holidayName,
@@ -148,14 +148,14 @@ class LocalCacheService {
         generatedAt: now,
         lastUsed: now
       };
-      
+
       // 캐시 파일 저장
       await this.saveCache(cache);
-      
+
       // 메모리 캐시 업데이트
       this.cache = cache;
       this.lastLoadTime = Date.now();
-      
+
     } catch (error) {
       console.error('로컬 캐시 저장 실패:', error);
       throw error;
@@ -186,7 +186,7 @@ class LocalCacheService {
     try {
       // 디렉토리 생성
       await fs.mkdir(path.dirname(this.cacheFilePath), { recursive: true });
-      
+
       // 파일 저장
       await fs.writeFile(this.cacheFilePath, JSON.stringify(cache, null, 2));
     } catch (error) {
@@ -202,12 +202,12 @@ class LocalCacheService {
     try {
       const cache = await this.loadCache();
       const entries = Object.values(cache);
-      
-      const lastModified = entries.length > 0 
-        ? entries.reduce((latest, entry) => 
-            entry.lastUsed > latest ? entry.lastUsed : latest, entries[0].lastUsed)
+
+      const lastModified = entries.length > 0
+        ? entries.reduce((latest, entry) =>
+          entry.lastUsed > latest ? entry.lastUsed : latest, entries[0].lastUsed)
         : null;
-      
+
       return {
         totalEntries: entries.length,
         lastModified
@@ -258,81 +258,30 @@ export class HybridCacheService {
    * 공휴일 설명 조회 (하이브리드 방식)
    */
   async getDescription(
-    holidayName: string, 
-    countryName: string, 
+    holidayName: string,
+    countryName: string,
     locale: string = 'ko'
   ): Promise<CachedContent | null> {
     try {
-      // 1. Supabase에서 조회 시도 (국가명과 국가코드 모두 시도)
-      if (this.options.enableSupabase) {
-        // Supabase 연결 상태가 불확실한 경우 연결 확인
-        if (!this.stats.isSupabaseAvailable) {
-          await this.checkSupabaseAvailability();
-        }
-        
-        if (this.stats.isSupabaseAvailable) {
-          try {
-            // 먼저 국가명으로 조회
-            let supabaseResult = await this.getFromSupabase(holidayName, countryName, locale);
-            
-            // 국가명으로 찾지 못한 경우 국가코드로도 시도
-            if (!supabaseResult && countryName.length > 2) {
-              // 국가명을 국가코드로 변환해서 시도
-              const countryCode = await this.getCountryCodeFromName(countryName);
-              if (countryCode) {
-                supabaseResult = await this.getFromSupabase(holidayName, countryCode, locale);
-                console.log(`국가코드로 재시도: ${countryName} -> ${countryCode}`, !!supabaseResult);
-              }
-            }
-            
-            if (supabaseResult) {
-              this.stats.supabaseHits++;
-              return this.convertToLegacyFormat(supabaseResult);
-            }
-          } catch (error) {
-            logWarning('Supabase 조회 실패, 로컬 캐시로 폴백:', error);
-            this.stats.errors++;
-            this.stats.isSupabaseAvailable = false;
-          }
-        }
+      // 병렬로 Supabase와 로컬 캐시 동시 조회 (성능 개선)
+      const [supabaseResult, localResult] = await Promise.allSettled([
+        this.getFromSupabaseWithFallback(holidayName, countryName, locale),
+        this.getFromLocalCacheWithFallback(holidayName, countryName, locale)
+      ]);
+
+      // Supabase 결과 우선 사용
+      if (supabaseResult.status === 'fulfilled' && supabaseResult.value) {
+        this.stats.supabaseHits++;
+        return this.convertToLegacyFormat(supabaseResult.value);
       }
 
-      // 2. 로컬 캐시로 폴백 (국가명과 국가코드 모두 시도)
-      if (this.options.fallbackToLocal) {
-        // 먼저 국가명으로 조회
-        let localResult = await this.localCacheService.getCachedDescription(
-          holidayName, countryName, locale
-        );
-        
-        // 국가명으로 찾지 못한 경우 국가코드로도 시도
-        if (!localResult && countryName.length > 2) {
-          const countryCode = await this.getCountryCodeFromName(countryName);
-          if (countryCode) {
-            localResult = await this.localCacheService.getCachedDescription(
-              holidayName, countryCode, locale
-            );
-            console.log(`로컬 캐시 국가코드로 재시도: ${countryName} -> ${countryCode}`, !!localResult);
-          }
-        }
-        
-        // 국가코드로 찾지 못한 경우 국가명으로도 시도
-        if (!localResult && countryName.length === 2) {
-          const countryName_full = await this.getCountryNameFromCode(countryName);
-          if (countryName_full) {
-            localResult = await this.localCacheService.getCachedDescription(
-              holidayName, countryName_full, locale
-            );
-            console.log(`로컬 캐시 국가명으로 재시도: ${countryName} -> ${countryName_full}`, !!localResult);
-          }
-        }
-        
-        if (localResult) {
-          this.stats.localHits++;
-          return localResult;
-        }
+      // Supabase 실패 시 로컬 캐시 사용
+      if (localResult.status === 'fulfilled' && localResult.value) {
+        this.stats.localHits++;
+        return localResult.value;
       }
 
-      // 3. 데이터를 찾을 수 없음
+      // 둘 다 실패한 경우
       this.stats.misses++;
       return null;
 
@@ -390,25 +339,224 @@ export class HybridCacheService {
   }
 
   /**
-   * 여러 설명 일괄 조회
+   * 여러 설명 일괄 조회 (진정한 배치 처리로 성능 개선)
    */
   async getDescriptions(requests: Array<{
     holidayName: string;
     countryName: string;
     locale?: string;
   }>): Promise<Array<CachedContent | null>> {
-    const results: Array<CachedContent | null> = [];
-    
-    for (const request of requests) {
-      const result = await this.getDescription(
-        request.holidayName,
-        request.countryName,
-        request.locale || 'ko'
-      );
-      results.push(result);
+    if (requests.length === 0) {
+      return [];
     }
-    
+
+    try {
+      // 요청 정규화
+      const normalizedRequests = requests.map(req => ({
+        holidayName: req.holidayName,
+        countryName: req.countryName,
+        locale: req.locale || 'ko'
+      }));
+
+      // Supabase와 로컬 캐시에서 배치 조회 병렬 실행
+      const [supabaseResults, localResults] = await Promise.allSettled([
+        this.getBatchFromSupabase(normalizedRequests),
+        this.getBatchFromLocalCache(normalizedRequests)
+      ]);
+
+      // 결과 병합 (Supabase 우선, 로컬 캐시 폴백)
+      const finalResults: Array<CachedContent | null> = [];
+
+      for (let i = 0; i < normalizedRequests.length; i++) {
+        let result: CachedContent | null = null;
+
+        // Supabase 결과 우선 사용
+        if (supabaseResults.status === 'fulfilled' && supabaseResults.value[i]) {
+          result = this.convertToLegacyFormat(supabaseResults.value[i]);
+          this.stats.supabaseHits++;
+        }
+        // Supabase 실패 시 로컬 캐시 사용
+        else if (localResults.status === 'fulfilled' && localResults.value[i]) {
+          result = localResults.value[i];
+          this.stats.localHits++;
+        }
+        // 둘 다 없으면 miss
+        else {
+          this.stats.misses++;
+        }
+
+        finalResults.push(result);
+      }
+
+      return finalResults;
+
+    } catch (error) {
+      logApiError('배치 캐시 조회 실패', error as Error, { requestCount: requests.length });
+      this.stats.errors++;
+
+      // 배치 조회 실패 시 개별 조회로 폴백
+      return await this.getDescriptionsLegacy(requests);
+    }
+  }
+
+  /**
+   * 레거시 개별 조회 방식 (폴백용)
+   */
+  private async getDescriptionsLegacy(requests: Array<{
+    holidayName: string;
+    countryName: string;
+    locale?: string;
+  }>): Promise<Array<CachedContent | null>> {
+    const BATCH_SIZE = 5; // 폴백 시에는 더 작은 배치 크기 사용
+    const results: Array<CachedContent | null> = [];
+
+    for (let i = 0; i < requests.length; i += BATCH_SIZE) {
+      const batch = requests.slice(i, i + BATCH_SIZE);
+
+      const batchPromises = batch.map(request =>
+        this.getDescription(
+          request.holidayName,
+          request.countryName,
+          request.locale || 'ko'
+        )
+      );
+
+      const batchResults = await Promise.all(batchPromises);
+      results.push(...batchResults);
+    }
+
     return results;
+  }
+
+  /**
+   * Supabase에서 배치 조회
+   */
+  private async getBatchFromSupabase(requests: Array<{
+    holidayName: string;
+    countryName: string;
+    locale: string;
+  }>): Promise<Array<HolidayDescription | null>> {
+    if (!this.options.enableSupabase || !this.stats.isSupabaseAvailable) {
+      return new Array(requests.length).fill(null);
+    }
+
+    try {
+      return await this.getFromSupabaseBatch(requests);
+    } catch (error) {
+      this.stats.isSupabaseAvailable = false;
+      this.stats.errors++;
+      return new Array(requests.length).fill(null);
+    }
+  }
+
+  /**
+   * 로컬 캐시에서 배치 조회
+   */
+  private async getBatchFromLocalCache(requests: Array<{
+    holidayName: string;
+    countryName: string;
+    locale: string;
+  }>): Promise<Array<CachedContent | null>> {
+    if (!this.options.fallbackToLocal) {
+      return new Array(requests.length).fill(null);
+    }
+
+    try {
+      const results: Array<CachedContent | null> = [];
+
+      for (const request of requests) {
+        const result = await this.getFromLocalCacheWithFallback(
+          request.holidayName,
+          request.countryName,
+          request.locale
+        );
+        results.push(result);
+      }
+
+      return results;
+    } catch (error) {
+      console.warn('로컬 캐시 배치 조회 실패:', error);
+      return new Array(requests.length).fill(null);
+    }
+  }
+
+  /**
+   * Supabase에서 폴백 로직을 포함한 조회
+   */
+  private async getFromSupabaseWithFallback(
+    holidayName: string,
+    countryName: string,
+    locale: string
+  ): Promise<HolidayDescription | null> {
+    // Supabase가 비활성화되어 있으면 즉시 null 반환
+    if (!this.options.enableSupabase || !this.stats.isSupabaseAvailable) {
+      return null;
+    }
+
+    try {
+      // 먼저 국가명으로 조회
+      let result = await this.getFromSupabase(holidayName, countryName, locale);
+
+      // 국가명으로 찾지 못한 경우 국가코드로도 시도
+      if (!result && countryName.length > 2) {
+        const countryCode = await this.getCountryCodeFromName(countryName);
+        if (countryCode) {
+          result = await this.getFromSupabase(holidayName, countryCode, locale);
+        }
+      }
+
+      return result;
+    } catch (error) {
+      // Supabase 오류 시 연결 상태 업데이트
+      this.stats.isSupabaseAvailable = false;
+      this.stats.errors++;
+      return null;
+    }
+  }
+
+  /**
+   * 로컬 캐시에서 폴백 로직을 포함한 조회
+   */
+  private async getFromLocalCacheWithFallback(
+    holidayName: string,
+    countryName: string,
+    locale: string
+  ): Promise<CachedContent | null> {
+    if (!this.options.fallbackToLocal) {
+      return null;
+    }
+
+    try {
+      // 먼저 국가명으로 조회
+      let result = await this.localCacheService.getCachedDescription(
+        holidayName, countryName, locale
+      );
+
+      // 국가명으로 찾지 못한 경우 국가코드로도 시도
+      if (!result && countryName.length > 2) {
+        const countryCode = await this.getCountryCodeFromName(countryName);
+        if (countryCode) {
+          result = await this.localCacheService.getCachedDescription(
+            holidayName, countryCode, locale
+          );
+        }
+      }
+
+      // 국가코드로 찾지 못한 경우 국가명으로도 시도
+      if (!result && countryName.length === 2) {
+        const countryName_full = await this.getCountryNameFromCode(countryName);
+        if (countryName_full) {
+          result = await this.localCacheService.getCachedDescription(
+            holidayName, countryName_full, locale
+          );
+        }
+      }
+
+      return result;
+    } catch (error) {
+      console.warn('로컬 캐시 조회 실패:', error);
+      return null;
+    }
   }
 
   /**
@@ -443,24 +591,53 @@ export class HybridCacheService {
    * Supabase에서 데이터 조회 (재시도 로직 포함)
    */
   private async getFromSupabase(
-    holidayName: string, 
-    countryName: string, 
+    holidayName: string,
+    countryName: string,
     locale: string
   ): Promise<HolidayDescription | null> {
     let lastError: Error | null = null;
-    
+
     for (let attempt = 0; attempt < this.options.retryAttempts; attempt++) {
       try {
         return await this.supabaseService.getDescription(holidayName, countryName, locale);
       } catch (error) {
         lastError = error instanceof Error ? error : new Error('알 수 없는 오류');
-        
+
         if (attempt < this.options.retryAttempts - 1) {
           await this.sleep(this.options.retryDelay * (attempt + 1));
         }
       }
     }
-    
+
+    throw lastError;
+  }
+
+  /**
+   * Supabase에서 배치 데이터 조회 (성능 개선)
+   */
+  private async getFromSupabaseBatch(requests: Array<{
+    holidayName: string;
+    countryName: string;
+    locale: string;
+  }>): Promise<Array<HolidayDescription | null>> {
+    if (requests.length === 0) {
+      return [];
+    }
+
+    let lastError: Error | null = null;
+
+    for (let attempt = 0; attempt < this.options.retryAttempts; attempt++) {
+      try {
+        return await this.supabaseService.getDescriptionsBatch(requests);
+      } catch (error) {
+        lastError = error instanceof Error ? error : new Error('알 수 없는 오류');
+
+        if (attempt < this.options.retryAttempts - 1) {
+          await this.sleep(this.options.retryDelay * (attempt + 1));
+        }
+      }
+    }
+
     throw lastError;
   }
 
@@ -469,12 +646,12 @@ export class HybridCacheService {
    */
   private async saveToSupabase(data: CachedContent): Promise<void> {
     const supabaseData = this.convertFromLegacyFormat(data);
-    
+
     // 기존 데이터 확인
     const existing = await this.supabaseService.getDescription(
       data.holidayName, data.countryName, data.locale
     );
-    
+
     if (existing) {
       // 업데이트
       await this.supabaseService.updateDescription(existing.id, {
@@ -511,7 +688,7 @@ export class HybridCacheService {
   private convertFromLegacyFormat(legacyData: CachedContent): any {
     // confidence가 1.0이면 수동 작성으로 간주
     const isManual = legacyData.confidence === 1.0;
-    
+
     return {
       holiday_id: legacyData.holidayId,
       holiday_name: legacyData.holidayName,
@@ -535,7 +712,7 @@ export class HybridCacheService {
       const isAvailable = await checkSupabaseConnection();
       this.stats.isSupabaseAvailable = isAvailable;
       this.stats.lastSupabaseCheck = new Date().toISOString();
-      
+
       if (!isAvailable) {
         console.warn('Supabase 연결 불가, 로컬 캐시 모드로 동작');
       }
@@ -552,7 +729,7 @@ export class HybridCacheService {
   private async getCountryCodeFromName(countryName: string): Promise<string | null> {
     try {
       const { SUPPORTED_COUNTRIES } = await import('./constants');
-      const country = SUPPORTED_COUNTRIES.find(c => 
+      const country = SUPPORTED_COUNTRIES.find(c =>
         c.name.toLowerCase() === countryName.toLowerCase()
       );
       return country ? country.code : null;
@@ -568,7 +745,7 @@ export class HybridCacheService {
   private async getCountryNameFromCode(countryCode: string): Promise<string | null> {
     try {
       const { SUPPORTED_COUNTRIES } = await import('./constants');
-      const country = SUPPORTED_COUNTRIES.find(c => 
+      const country = SUPPORTED_COUNTRIES.find(c =>
         c.code.toLowerCase() === countryCode.toLowerCase()
       );
       return country ? country.name : null;
@@ -637,9 +814,9 @@ export async function setCachedDescription(
     generatedAt: new Date().toISOString(),
     lastUsed: new Date().toISOString()
   };
-  
+
   await cache.setDescription(data);
-  
+
   // 저장 후 캐시 통계 초기화하여 다음 조회 시 최신 데이터 반영
   cache.resetStats();
 }
@@ -653,30 +830,64 @@ export async function invalidateCachedDescription(
   locale: string = 'ko'
 ): Promise<void> {
   const cache = getHybridCache();
-  
+
   try {
-    // 로컬 캐시에서 해당 항목 제거
+    console.log('🗑️ 캐시 무효화 시작:', { holidayName, countryName, locale });
+
+    // 다양한 국가명 형식으로 캐시 무효화 시도
+    const countryVariations = [
+      countryName,
+      countryName.toLowerCase(),
+      countryName.toUpperCase(),
+      // 국가 코드 변환 시도
+      ...(countryName.length === 2 ? [countryName.toLowerCase(), countryName.toUpperCase()] : []),
+      // 특별한 경우들
+      ...(countryName === 'United States' ? ['US', 'USA', 'America'] : []),
+      ...(countryName === 'United Kingdom' ? ['GB', 'UK', 'Britain'] : []),
+      ...(countryName === 'South Korea' ? ['KR', 'Korea'] : [])
+    ].filter((v, i, arr) => arr.indexOf(v) === i); // 중복 제거
+
+    // 로컬 캐시에서 모든 변형 제거
     const localCacheService = (cache as any).localCacheService;
-    
+
     if (localCacheService && typeof localCacheService.loadCache === 'function') {
-      const cacheKey = `${holidayName}-${countryName}-${locale}`;
       const cacheData = await localCacheService.loadCache();
-      
-      if (cacheData && cacheData[cacheKey]) {
-        delete cacheData[cacheKey];
-        
-        if (typeof localCacheService.saveCache === 'function') {
-          await localCacheService.saveCache(cacheData);
-          console.log(`✅ 로컬 캐시 무효화: ${cacheKey}`);
+      let removedCount = 0;
+
+      for (const countryVariation of countryVariations) {
+        const cacheKey = `${holidayName}-${countryVariation}-${locale}`;
+
+        if (cacheData && cacheData[cacheKey]) {
+          delete cacheData[cacheKey];
+          removedCount++;
+          console.log(`🗑️ 로컬 캐시 항목 제거: ${cacheKey}`);
         }
       }
+
+      if (removedCount > 0 && typeof localCacheService.saveCache === 'function') {
+        await localCacheService.saveCache(cacheData);
+        console.log(`✅ 로컬 캐시 무효화 완료: ${removedCount}개 항목 제거`);
+      } else {
+        console.log('ℹ️ 제거할 로컬 캐시 항목 없음');
+      }
     }
-    
+
     // 캐시 통계 초기화 (다음 조회 시 Supabase에서 최신 데이터 가져오도록)
     if (typeof cache.resetStats === 'function') {
       cache.resetStats();
+      console.log('🔄 캐시 통계 초기화 완료');
     }
-    
+
+    // Supabase 연결 상태도 초기화하여 다음 조회 시 재확인하도록
+    const cacheService = cache as any;
+    if (cacheService.stats) {
+      cacheService.stats.isSupabaseAvailable = true;
+      cacheService.stats.lastSupabaseCheck = null;
+      console.log('🔄 Supabase 연결 상태 초기화 완료');
+    }
+
+    console.log('✅ 캐시 무효화 완료:', { holidayName, countryName, locale });
+
   } catch (error) {
     console.warn('⚠️ 캐시 무효화 실패:', error);
     // 캐시 무효화 실패는 치명적이지 않으므로 에러를 던지지 않음
@@ -693,7 +904,7 @@ export async function getCacheStatus(): Promise<{
   const cache = getHybridCache();
   const hybridStats = cache.getStats();
   const localStats = await cache.getLocalCacheStats();
-  
+
   return {
     hybrid: hybridStats,
     local: localStats

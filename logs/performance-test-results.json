@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-08-08T00:54:12.181Z",
+  "results": {
+    "batchTest": {
+      "individual": {
+        "testName": "개별 조회",
+        "duration": 0,
+        "itemsProcessed": 10,
+        "itemsPerSecond": null,
+        "cacheHits": 10,
+        "cacheMisses": 0,
+        "errors": 0,
+        "details": {
+          "supabaseHits": 0,
+          "localHits": 10,
+          "misses": 0,
+          "errors": 0,
+          "lastSupabaseCheck": null,
+          "isSupabaseAvailable": false
+        }
+      },
+      "batch": {
+        "testName": "배치 조회",
+        "duration": 0,
+        "itemsProcessed": 10,
+        "itemsPerSecond": null,
+        "cacheHits": 10,
+        "cacheMisses": 0,
+        "errors": 0,
+        "details": {
+          "supabaseHits": 0,
+          "localHits": 10,
+          "misses": 0,
+          "errors": 0,
+          "lastSupabaseCheck": null,
+          "isSupabaseAvailable": false
+        }
+      },
+      "improvement": 0
+    },
+    "warmingTest": {
+      "beforeWarming": {
+        "testName": "캐시 워밍 전",
+        "duration": 1663,
+        "itemsProcessed": 15,
+        "itemsPerSecond": 9,
+        "cacheHits": 70,
+        "cacheMisses": 0,
+        "errors": 1,
+        "details": {
+          "supabaseHits": 0,
+          "localHits": 70,
+          "misses": 0,
+          "errors": 1,
+          "lastSupabaseCheck": "2025-08-08T00:54:09.447Z",
+          "isSupabaseAvailable": false
+        }
+      },
+      "afterWarming": {
+        "testName": "캐시 워밍 후",
+        "duration": 243,
+        "itemsProcessed": 15,
+        "itemsPerSecond": 62,
+        "cacheHits": 70,
+        "cacheMisses": 0,
+        "errors": 0,
+        "details": {
+          "supabaseHits": 0,
+          "localHits": 70,
+          "misses": 0,
+          "errors": 0,
+          "lastSupabaseCheck": "2025-08-08T00:54:09.447Z",
+          "isSupabaseAvailable": false
+        }
+      },
+      "improvement": 85
+    },
+    "homePageTest": {
+      "testName": "홈페이지 로딩 시뮬레이션",
+      "duration": 97,
+      "itemsProcessed": 24,
+      "itemsPerSecond": 247,
+      "cacheHits": 176,
+      "cacheMisses": 0,
+      "errors": 0,
+      "details": {
+        "supabaseHits": 0,
+        "localHits": 176,
+        "misses": 0,
+        "errors": 0,
+        "lastSupabaseCheck": "2025-08-08T00:54:09.447Z",
+        "isSupabaseAvailable": false,
+        "countriesProcessed": 8,
+        "averageHolidaysPerCountry": 3
+      }
+    },
+    "summary": {
+      "totalDuration": 2500,
+      "overallImprovement": 43,
+      "recommendations": [
+        "⚠️ 배치 처리 효과가 제한적입니다. 네트워크 상태를 확인하세요.",
+        "✅ 캐시 워밍이 효과적입니다. 프로덕션에서 활용하세요.",
+        "✅ 홈페이지 로딩 성능이 양호합니다."
+      ]
+    }
+  },
+  "environment": {
+    "nodeVersion": "v22.17.0",
+    "platform": "darwin",
+    "arch": "arm64"
+  }
+}

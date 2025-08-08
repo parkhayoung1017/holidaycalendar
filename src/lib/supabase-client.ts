@@ -32,13 +32,16 @@ export interface PaginatedResponse<T> {
 }
 
 /**
- * Supabase를 통한 공휴일 설명 데이터 관리 서비스
+ * Supabase를 통한 공휴일 설명 데이터 관리 서비스 (성능 최적화 버전)
  */
 export class SupabaseHolidayDescriptionService {
   private supabase = getSupabaseAdmin();
+  private connectionCache = new Map<string, boolean>();
+  private lastConnectionCheck = 0;
+  private readonly CONNECTION_CHECK_INTERVAL = 60000; // 1분
 
   /**
-   * 특정 공휴일 설명 조회
+   * 특정 공휴일 설명 조회 (성능 최적화)
    */
   async getDescription(
     holidayName: string, 
@@ -46,6 +49,11 @@ export class SupabaseHolidayDescriptionService {
     locale: string = 'ko'
   ): Promise<HolidayDescription | null> {
     try {
+      // 연결 상태 확인 (캐시된 결과 사용)
+      if (!(await this.isConnectionHealthy())) {
+        throw new Error('Supabase 연결 불가');
+      }
+
       const { data, error } = await this.supabase
         .from('holiday_descriptions')
         .select('*')
@@ -62,14 +70,179 @@ export class SupabaseHolidayDescriptionService {
         throw error;
       }
 
-      // last_used 업데이트
-      await this.updateLastUsed(data.id);
+      // last_used 업데이트 (비동기로 처리하여 성능 영향 최소화)
+      this.updateLastUsed(data.id).catch(error => 
+        console.warn('last_used 업데이트 실패:', error)
+      );
 
       return data;
     } catch (error) {
       console.error('공휴일 설명 조회 실패:', error);
       throw error;
     }
+  }
+
+  /**
+   * 여러 공휴일 설명 배치 조회 (성능 개선, 안전한 쿼리 방식)
+   */
+  async getDescriptionsBatch(requests: Array<{
+    holidayName: string;
+    countryName: string;
+    locale?: string;
+  }>): Promise<Array<HolidayDescription | null>> {
+    if (requests.length === 0) {
+      return [];
+    }
+
+    try {
+      // 연결 상태 확인
+      if (!(await this.isConnectionHealthy())) {
+        throw new Error('Supabase 연결 불가');
+      }
+
+      // 배치 크기가 클 경우 개별 조회로 폴백
+      if (requests.length > 20) {
+        console.warn(`배치 크기가 큼 (${requests.length}개), 개별 조회로 폴백`);
+        return await this.getDescriptionsBatchFallback(requests);
+      }
+
+      // 안전한 배치 쿼리: IN 조건 사용
+      const results: Array<HolidayDescription | null> = [];
+      
+      // 고유한 국가별로 그룹화하여 쿼리 최적화
+      const countryGroups = new Map<string, Array<{
+        holidayName: string;
+        countryName: string;
+        locale: string;
+        index: number;
+      }>>();
+
+      requests.forEach((req, index) => {
+        const locale = req.locale || 'ko';
+        const key = `${req.countryName}-${locale}`;
+        if (!countryGroups.has(key)) {
+          countryGroups.set(key, []);
+        }
+        countryGroups.get(key)!.push({
+          holidayName: req.holidayName,
+          countryName: req.countryName,
+          locale,
+          index
+        });
+      });
+
+      // 결과 배열 초기화
+      for (let i = 0; i < requests.length; i++) {
+        results[i] = null;
+      }
+
+      // 국가별로 배치 쿼리 실행
+      for (const [, group] of countryGroups) {
+        if (group.length === 0) continue;
+
+        const countryName = group[0].countryName;
+        const locale = group[0].locale;
+        const holidayNames = group.map(item => item.holidayName);
+
+        try {
+          const { data, error } = await this.supabase
+            .from('holiday_descriptions')
+            .select('*')
+            .eq('country_name', countryName)
+            .eq('locale', locale)
+            .in('holiday_name', holidayNames);
+
+          if (error) {
+            console.warn(`국가별 배치 쿼리 실패 (${countryName}):`, error);
+            // 이 국가의 항목들을 개별 조회로 처리
+            await this.handleCountryGroupFallback(group, results);
+            continue;
+          }
+
+          // 결과 매핑
+          group.forEach(item => {
+            const found = data?.find(dbItem => 
+              dbItem.holiday_name === item.holidayName &&
+              dbItem.country_name === item.countryName &&
+              dbItem.locale === item.locale
+            );
+            results[item.index] = found || null;
+          });
+
+        } catch (error) {
+          console.warn(`국가별 배치 쿼리 예외 (${countryName}):`, error);
+          await this.handleCountryGroupFallback(group, results);
+        }
+      }
+
+      // 찾은 항목들의 last_used 업데이트 (비동기)
+      const foundItems = results.filter(item => item !== null) as HolidayDescription[];
+      if (foundItems.length > 0) {
+        this.updateLastUsedBatch(foundItems.map(item => item.id)).catch(error =>
+          console.warn('배치 last_used 업데이트 실패:', error)
+        );
+      }
+
+      return results;
+    } catch (error) {
+      console.error('배치 공휴일 설명 조회 실패:', error);
+      // 전체 실패 시 개별 조회로 폴백
+      return await this.getDescriptionsBatchFallback(requests);
+    }
+  }
+
+  /**
+   * 국가 그룹 폴백 처리
+   */
+  private async handleCountryGroupFallback(
+    group: Array<{
+      holidayName: string;
+      countryName: string;
+      locale: string;
+      index: number;
+    }>,
+    results: Array<HolidayDescription | null>
+  ): Promise<void> {
+    for (const item of group) {
+      try {
+        const result = await this.getDescription(
+          item.holidayName,
+          item.countryName,
+          item.locale
+        );
+        results[item.index] = result;
+      } catch (error) {
+        console.warn(`개별 조회 실패: ${item.holidayName} (${item.countryName})`, error);
+        results[item.index] = null;
+      }
+    }
+  }
+
+  /**
+   * 배치 조회 폴백 (개별 조회)
+   */
+  private async getDescriptionsBatchFallback(requests: Array<{
+    holidayName: string;
+    countryName: string;
+    locale?: string;
+  }>): Promise<Array<HolidayDescription | null>> {
+    const results: Array<HolidayDescription | null> = [];
+    
+    for (const request of requests) {
+      try {
+        const result = await this.getDescription(
+          request.holidayName,
+          request.countryName,
+          request.locale || 'ko'
+        );
+        results.push(result);
+      } catch (error) {
+        console.warn(`개별 조회 폴백 실패: ${request.holidayName}`, error);
+        results.push(null);
+      }
+    }
+    
+    return results;
   }
 
   /**
@@ -335,6 +508,36 @@ export class SupabaseHolidayDescriptionService {
   }
 
   /**
+   * 연결 상태 확인 (캐시된 결과 사용)
+   */
+  private async isConnectionHealthy(): Promise<boolean> {
+    const now = Date.now();
+    
+    // 캐시된 결과가 유효한 경우 재사용
+    if (now - this.lastConnectionCheck < this.CONNECTION_CHECK_INTERVAL) {
+      return this.connectionCache.get('healthy') || false;
+    }
+
+    try {
+      // 간단한 쿼리로 연결 상태 확인
+      const { error } = await this.supabase
+        .from('holiday_descriptions')
+        .select('id')
+        .limit(1);
+      
+      const isHealthy = !error;
+      this.connectionCache.set('healthy', isHealthy);
+      this.lastConnectionCheck = now;
+      
+      return isHealthy;
+    } catch (error) {
+      this.connectionCache.set('healthy', false);
+      this.lastConnectionCheck = now;
+      return false;
+    }
+  }
+
+  /**
    * last_used 필드 업데이트 (내부 사용)
    */
   private async updateLastUsed(id: string): Promise<void> {
@@ -346,6 +549,27 @@ export class SupabaseHolidayDescriptionService {
     } catch (error) {
       // last_used 업데이트 실패는 치명적이지 않으므로 로그만 남김
       console.warn('last_used 업데이트 실패:', error);
+    }
+  }
+
+  /**
+   * 여러 항목의 last_used 필드 배치 업데이트 (내부 사용)
+   */
+  private async updateLastUsedBatch(ids: string[]): Promise<void> {
+    if (ids.length === 0) return;
+
+    try {
+      const now = new Date().toISOString();
+      
+      // 배치 업데이트 (PostgreSQL의 ANY 연산자 사용)
+      await this.supabase
+        .from('holiday_descriptions')
+        .update({ last_used: now })
+        .in('id', ids);
+        
+    } catch (error) {
+      // 배치 업데이트 실패는 치명적이지 않으므로 로그만 남김
+      console.warn('배치 last_used 업데이트 실패:', error);
     }
   }
 

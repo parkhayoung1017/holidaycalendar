@@ -40,7 +40,10 @@
     "test-supabase": "tsx scripts/test-supabase-connection.ts",
     "setup-supabase": "tsx scripts/setup-supabase-instructions.ts",
     "test-admin-auth": "tsx scripts/test-admin-auth.ts",
-    "test-admin-api": "tsx scripts/test-admin-api.ts"
+    "test-admin-api": "tsx scripts/test-admin-api.ts",
+    "test:performance": "tsx test-performance.ts",
+    "test:performance-quick": "tsx test-performance.ts --quick",
+    "test:performance-simple": "tsx test-performance-simple.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",
