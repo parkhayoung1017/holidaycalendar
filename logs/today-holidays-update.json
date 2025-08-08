@@ -165,5 +165,13 @@
     "countries": [],
     "timestamp": "2025-08-07T02:22:07.135Z",
     "success": true
+  },
+  {
+    "date": "2025-08-08",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-08-08T02:21:56.114Z",
+    "success": true
   }
 ]
