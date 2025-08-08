@@ -108,11 +108,26 @@ class LocalCacheService {
       const key = this.getCacheKey(holidayName, countryName, locale);
       const content = cache[key];
 
+      console.log('🔍 로컬 캐시 조회:', {
+        key,
+        found: !!content,
+        totalCacheEntries: Object.keys(cache).length,
+        availableKeys: Object.keys(cache).slice(0, 5) // 처음 5개만 표시
+      });
+
       if (content) {
+        console.log('✅ 로컬 캐시에서 발견:', {
+          descriptionLength: content.description.length,
+          preview: content.description.substring(0, 100) + '...',
+          generatedAt: content.generatedAt
+        });
+
         // lastUsed 업데이트 (비동기로 처리하여 성능 영향 최소화)
         this.updateLastUsed(key).catch(error =>
           console.warn('lastUsed 업데이트 실패:', error)
         );
+      } else {
+        console.log('❌ 로컬 캐시에서 찾을 수 없음:', key);
       }
 
       return content || null;
@@ -263,29 +278,49 @@ export class HybridCacheService {
     locale: string = 'ko'
   ): Promise<CachedContent | null> {
     try {
+      console.log('🔍 하이브리드 캐시 조회 시작:', { holidayName, countryName, locale });
+      
       // 병렬로 Supabase와 로컬 캐시 동시 조회 (성능 개선)
       const [supabaseResult, localResult] = await Promise.allSettled([
         this.getFromSupabaseWithFallback(holidayName, countryName, locale),
         this.getFromLocalCacheWithFallback(holidayName, countryName, locale)
       ]);
 
+      console.log('🔍 조회 결과:', {
+        supabaseStatus: supabaseResult.status,
+        supabaseHasValue: supabaseResult.status === 'fulfilled' && !!supabaseResult.value,
+        localStatus: localResult.status,
+        localHasValue: localResult.status === 'fulfilled' && !!localResult.value,
+        supabaseAvailable: this.stats.isSupabaseAvailable
+      });
+
       // Supabase 결과 우선 사용
       if (supabaseResult.status === 'fulfilled' && supabaseResult.value) {
+        console.log('✅ Supabase에서 데이터 반환:', {
+          descriptionLength: supabaseResult.value.description.length,
+          preview: supabaseResult.value.description.substring(0, 100) + '...'
+        });
         this.stats.supabaseHits++;
         return this.convertToLegacyFormat(supabaseResult.value);
       }
 
       // Supabase 실패 시 로컬 캐시 사용
       if (localResult.status === 'fulfilled' && localResult.value) {
+        console.log('✅ 로컬 캐시에서 데이터 반환:', {
+          descriptionLength: localResult.value.description.length,
+          preview: localResult.value.description.substring(0, 100) + '...'
+        });
         this.stats.localHits++;
         return localResult.value;
       }
 
       // 둘 다 실패한 경우
+      console.log('❌ 하이브리드 캐시 조회 실패 - 데이터 없음');
       this.stats.misses++;
       return null;
 
     } catch (error) {
+      console.error('❌ 하이브리드 캐시 조회 예외:', error);
       logApiError('하이브리드 캐시 조회 실패', error as Error, { holidayName, countryName, locale });
       this.stats.errors++;
       return null;
