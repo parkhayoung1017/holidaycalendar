@@ -173,5 +173,16 @@
     "countries": [],
     "timestamp": "2025-08-08T02:21:56.114Z",
     "success": true
+  },
+  {
+    "date": "2025-08-09",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇸🇬 Singapore",
+      "🇿🇦 South Africa"
+    ],
+    "timestamp": "2025-08-09T02:04:15.703Z",
+    "success": true
   }
 ]
