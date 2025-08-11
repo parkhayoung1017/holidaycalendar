@@ -189,19 +189,38 @@ async function findMissingDescriptions(
         const aiCache = JSON.parse(fs.readFileSync(aiCachePath, 'utf-8'));
         Object.entries(aiCache).forEach(([key, value]: [string, any]) => {
           if (value && typeof value === 'object') {
-            // 매우 엄격한 수동 작성 검증: confidence가 정확히 1.0이고 isManual이 true인 경우만
-            const isReallyManual = value.isManual === true && value.confidence === 1.0;
+            // 수동 작성 또는 고품질 AI 생성 설명 인정: confidence가 0.9 이상이거나 isManual이 true인 경우
+            const isValidDescription = value.isManual === true || (value.confidence && value.confidence >= 0.9);
             
-            if (isReallyManual && value.holidayName && value.countryName && value.locale) {
-              // 다양한 키 형식으로 저장하여 매칭률 향상
-              existingKeys.add(`${value.holidayName}|${value.countryName}|${value.locale}`);
-              existingKeys.add(`${value.holidayName}_${value.countryName}_${value.locale}`);
-              existingKeys.add(`${value.holidayName}-${value.countryName}-${value.locale}`);
+            if (isValidDescription) {
+              // AI 캐시 키에서 공휴일명, 국가명, 로케일 추출
+              // 형식: "Holiday Name-Country Name-locale"
+              const keyParts = key.split('-');
+              if (keyParts.length >= 3) {
+                const locale = keyParts[keyParts.length - 1]; // 마지막 부분이 로케일
+                const countryName = keyParts[keyParts.length - 2]; // 마지막에서 두 번째가 국가명
+                const holidayName = keyParts.slice(0, -2).join('-'); // 나머지가 공휴일명
+                
+                if (holidayName && countryName && locale) {
+                  // 다양한 키 형식으로 저장하여 매칭률 향상
+                  existingKeys.add(`${holidayName}|${countryName}|${locale}`);
+                  existingKeys.add(`${holidayName}_${countryName}_${locale}`);
+                  existingKeys.add(`${holidayName}-${countryName}-${locale}`);
+                  
+                  const descType = value.isManual === true ? '수동' : 'AI 생성';
+                  console.log(`🎯 AI 캐시에서 ${descType} 설명 발견: ${holidayName} (${countryName}, ${locale}) - confidence: ${value.confidence}`);
+                }
+              }
               
-              console.log(`🎯 AI 캐시에서 수동 설명 발견: ${value.holidayName} (${value.countryName}, ${value.locale})`);
+              // 객체 내부의 holidayName, countryName, locale도 확인 (백업)
+              if (value.holidayName && value.countryName && value.locale) {
+                existingKeys.add(`${value.holidayName}|${value.countryName}|${value.locale}`);
+                existingKeys.add(`${value.holidayName}_${value.countryName}_${value.locale}`);
+                existingKeys.add(`${value.holidayName}-${value.countryName}-${value.locale}`);
+              }
             } else if (value.holidayName && value.countryName && value.locale) {
-              // AI 생성 설명은 로그만 출력하고 제외
-              console.log(`🤖 AI 생성 설명 제외: ${value.holidayName} (${value.countryName}, ${value.locale}) - confidence: ${value.confidence}, isManual: ${value.isManual}`);
+              // 낮은 품질 AI 생성 설명은 로그만 출력하고 제외
+              console.log(`🤖 낮은 품질 AI 설명 제외: ${value.holidayName} (${value.countryName}, ${value.locale}) - confidence: ${value.confidence}, isManual: ${value.isManual}`);
             }
           } else {
             // 기존 형식은 AI 생성으로 간주하여 제외
