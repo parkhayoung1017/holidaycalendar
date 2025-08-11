@@ -36,15 +36,13 @@ export default function MonthlyCalendar({
   const [displayMonth, setDisplayMonth] = useState(month);
   const [dynamicHolidays, setDynamicHolidays] = useState<Holiday[]>([]);
   const [isLoadingHolidays, setIsLoadingHolidays] = useState(false);
+  const [holidayCache, setHolidayCache] = useState<Record<string, Holiday[]>>({});
   const { translations } = useI18nContext();
 
   useEffect(() => {
     setCurrentDate(new Date());
     setIsClient(true);
   }, []);
-
-  // 캐시를 위한 상태 추가
-  const [holidayCache, setHolidayCache] = useState<Record<string, Holiday[]>>({});
 
   // 동적으로 공휴일 데이터 로드하는 함수 (캐싱 적용)
   const loadDynamicHolidays = async (year: number, month: number) => {
@@ -59,8 +57,8 @@ export default function MonthlyCalendar({
 
     setIsLoadingHolidays(true);
     try {
-      // 주요 국가들의 공휴일 데이터를 API로 로드 (국가 수 줄임)
-      const popularCountries = ['KR', 'US', 'GB', 'JP', 'FR', 'DE'];
+      // 주요 국가들의 공휴일 데이터를 API로 로드
+      const popularCountries = ['KR', 'US', 'GB', 'DE', 'FR', 'JP', 'CA', 'AU', 'BR', 'IN'];
       
       const response = await fetch('/api/holidays/multiple', {
         method: 'POST',
@@ -86,7 +84,7 @@ export default function MonthlyCalendar({
           month: month + 1,
           totalHolidays: result.total,
           countries: popularCountries,
-          cached: false
+          holidays: result.data.slice(0, 5) // 처음 5개만 로그
         });
 
         // 캐시에 저장
@@ -107,57 +105,13 @@ export default function MonthlyCalendar({
     }
   };
 
-  // 디바운싱을 위한 타이머 상태
-  const [loadTimer, setLoadTimer] = useState<NodeJS.Timeout | null>(null);
-
-  // displayYear나 displayMonth가 변경될 때마다 동적으로 공휴일 로드 (디바운싱 적용)
+  // displayYear나 displayMonth가 변경될 때마다 동적으로 공휴일 로드
   useEffect(() => {
     // 초기 월(props로 전달받은 월)이 아닌 경우에만 동적 로드
     if (displayYear !== year || displayMonth !== month) {
-      // 기존 타이머 클리어
-      if (loadTimer) {
-        clearTimeout(loadTimer);
-      }
-
-      // 300ms 디바운싱 적용
-      const timer = setTimeout(() => {
-        loadDynamicHolidays(displayYear, displayMonth);
-      }, 300);
-
-      setLoadTimer(timer);
+      loadDynamicHolidays(displayYear, displayMonth);
     }
-
-    return () => {
-      if (loadTimer) {
-        clearTimeout(loadTimer);
-      }
-    };
   }, [displayYear, displayMonth, year, month]);
-
-  // 인접한 월의 데이터를 미리 로드하는 함수
-  const preloadAdjacentMonths = async (currentYear: number, currentMonth: number) => {
-    const adjacentMonths = [
-      { year: currentMonth === 0 ? currentYear - 1 : currentYear, month: currentMonth === 0 ? 11 : currentMonth - 1 },
-      { year: currentMonth === 11 ? currentYear + 1 : currentYear, month: currentMonth === 11 ? 0 : currentMonth + 1 }
-    ];
-
-    adjacentMonths.forEach(({ year: adjYear, month: adjMonth }) => {
-      const cacheKey = `${adjYear}-${adjMonth}`;
-      if (!holidayCache[cacheKey]) {
-        // 백그라운드에서 미리 로드 (UI 블로킹 없음)
-        setTimeout(() => {
-          loadDynamicHolidays(adjYear, adjMonth);
-        }, 1000);
-      }
-    });
-  };
-
-  // 초기 로드 시 인접한 월 프리로딩
-  useEffect(() => {
-    if (isClient) {
-      preloadAdjacentMonths(displayYear, displayMonth);
-    }
-  }, [isClient, displayYear, displayMonth]);
 
   // 이전달로 이동
   const goToPreviousMonth = () => {
