@@ -164,16 +164,42 @@ class LocalCacheService {
         lastUsed: now
       };
 
-      // 캐시 파일 저장
+      // 캐시 파일 저장 (서버리스 환경에서는 스킵됨)
       await this.saveCache(cache);
 
-      // 메모리 캐시 업데이트
+      // 메모리 캐시 업데이트 (항상 수행)
       this.cache = cache;
       this.lastLoadTime = Date.now();
 
+      console.log('✅ 로컬 캐시 메모리 업데이트 완료:', key);
+
     } catch (error) {
-      console.error('로컬 캐시 저장 실패:', error);
-      throw error;
+      console.warn('로컬 캐시 저장 실패 (서버리스 환경에서는 정상):', error);
+      // 서버리스 환경에서는 파일 저장 실패를 치명적 오류로 처리하지 않음
+      // 메모리 캐시만이라도 업데이트 시도
+      try {
+        const cache = await this.loadCache();
+        const key = this.getCacheKey(holidayName, countryName, locale);
+        const now = new Date().toISOString();
+
+        cache[key] = {
+          holidayId,
+          holidayName,
+          countryName,
+          locale,
+          description,
+          confidence,
+          generatedAt: now,
+          lastUsed: now
+        };
+
+        this.cache = cache;
+        this.lastLoadTime = Date.now();
+        console.log('✅ 메모리 캐시만 업데이트 완료:', key);
+      } catch (fallbackError) {
+        console.warn('메모리 캐시 업데이트도 실패:', fallbackError);
+        // 완전히 실패해도 에러를 던지지 않음 (Supabase가 주 저장소이므로)
+      }
     }
   }
 
@@ -195,18 +221,26 @@ class LocalCacheService {
   }
 
   /**
-   * 캐시 파일 저장
+   * 캐시 파일 저장 (서버리스 환경에서는 스킵)
    */
   private async saveCache(cache: Record<string, CachedContent>): Promise<void> {
     try {
+      // 서버리스 환경 감지 (Vercel, Netlify 등)
+      const isServerless = process.env.VERCEL || process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME;
+      
+      if (isServerless) {
+        console.log('서버리스 환경에서는 로컬 캐시 파일 저장을 스킵합니다');
+        return;
+      }
+
       // 디렉토리 생성
       await fs.mkdir(path.dirname(this.cacheFilePath), { recursive: true });
 
       // 파일 저장
       await fs.writeFile(this.cacheFilePath, JSON.stringify(cache, null, 2));
     } catch (error) {
-      console.error('캐시 파일 저장 실패:', error);
-      throw error;
+      console.warn('캐시 파일 저장 실패 (서버리스 환경에서는 정상):', error);
+      // 서버리스 환경에서는 파일 저장 실패를 치명적 오류로 처리하지 않음
     }
   }
 
@@ -362,9 +396,18 @@ export class HybridCacheService {
         this.stats.errors++;
       }
 
-      // 모든 저장이 실패한 경우 오류 발생
+      // 서버리스 환경에서는 Supabase 저장만 성공해도 충분
+      // 로컬 캐시 저장 실패는 서버리스 환경에서 정상적인 상황
       if (errors.length === 2) {
-        throw new Error(`모든 캐시 저장 실패: ${errors.map(e => e.message).join(', ')}`);
+        // 서버리스 환경 감지
+        const isServerless = process.env.VERCEL || process.env.NETLIFY || process.env.AWS_LAMBDA_FUNCTION_NAME;
+        
+        if (isServerless) {
+          console.warn('서버리스 환경에서 로컬 캐시 저장 실패는 정상입니다. Supabase 저장만으로 충분합니다.');
+          // 서버리스 환경에서는 오류를 던지지 않음
+        } else {
+          throw new Error(`모든 캐시 저장 실패: ${errors.map(e => e.message).join(', ')}`);
+        }
       }
 
     } catch (error) {

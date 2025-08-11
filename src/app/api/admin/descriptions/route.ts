@@ -163,25 +163,9 @@ async function postHandler(request: NextRequest): Promise<NextResponse> {
       };
     }
     
-    // 파일 시스템에도 백업 저장
-    const fs = require('fs');
-    const path = require('path');
-    
-    const descriptionsDir = path.join(process.cwd(), 'data', 'descriptions');
-    if (!fs.existsSync(descriptionsDir)) {
-      fs.mkdirSync(descriptionsDir, { recursive: true });
-    }
-    
-    const fileName = `${body.holiday_id.replace(/[^a-zA-Z0-9]/g, '_')}.json`;
-    const filePath = path.join(descriptionsDir, fileName);
-    
-    fs.writeFileSync(filePath, JSON.stringify({
-      ...result,
-      created_at: result.created_at,
-      updated_at: result.modified_at || result.created_at
-    }, null, 2));
-    
-    console.log('설명 생성 API - 파일 백업 저장 완료:', filePath);
+    // 서버리스 환경에서는 파일 시스템 쓰기가 불가능하므로 파일 저장 제거
+    // 대신 Supabase와 하이브리드 캐시만 사용
+    console.log('설명 생성 API - 서버리스 환경에서는 파일 저장 생략');
     
     // 하이브리드 캐시 시스템에 저장하여 실제 웹사이트에 반영
     try {
@@ -201,36 +185,9 @@ async function postHandler(request: NextRequest): Promise<NextResponse> {
     } catch (error) {
       console.warn('하이브리드 캐시 업데이트 실패:', error);
       
-      // 하이브리드 캐시 실패 시 기존 AI 캐시 방식으로 폴백
-      try {
-        const aiCachePath = path.join(process.cwd(), 'public', 'ai-cache.json');
-        let aiCache: Record<string, any> = {};
-        
-        if (fs.existsSync(aiCachePath)) {
-          aiCache = JSON.parse(fs.readFileSync(aiCachePath, 'utf-8'));
-        }
-        
-        // AI 캐시 키 형식: "Holiday Name-Country Name-locale"
-        const cacheKey = `${body.holiday_name}-${countryName}-${body.locale}`;
-        
-        aiCache[cacheKey] = {
-          holidayId: body.holiday_id,
-          holidayName: body.holiday_name,
-          countryName: countryName, // 변환된 국가명 사용
-          locale: body.locale,
-          description: body.description,
-          confidence: 1.0, // 수동 작성이므로 최고 신뢰도
-          generatedAt: new Date().toISOString(),
-          lastUsed: new Date().toISOString(),
-          isManual: true // 수동 작성 표시
-        };
-        
-        fs.writeFileSync(aiCachePath, JSON.stringify(aiCache, null, 2));
-        console.log('설명 생성 API - AI 캐시 폴백 업데이트 완료:', cacheKey);
-        
-      } catch (fallbackError) {
-        console.error('AI 캐시 폴백도 실패:', fallbackError);
-      }
+      // 서버리스 환경에서는 AI 캐시 파일 쓰기도 불가능하므로 생략
+      // Supabase와 하이브리드 캐시만 사용
+      console.log('설명 생성 API - 서버리스 환경에서는 AI 캐시 파일 쓰기도 생략');
     }
 
     // 추가: 캐시 무효화를 통해 다음 조회 시 최신 데이터 반영 보장
