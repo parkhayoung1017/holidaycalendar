@@ -10,10 +10,19 @@ export default function InlineBanner({ className = '' }: { className?: string })
   }
 
   return (
-    <AdBanner
-      slot="6905542827"
-      format="autorelaxed"
-      className={`inline-banner ${className}`}
-    />
+    <div className={`w-full min-w-[300px] ${className}`}>
+      <AdBanner
+        slot="6905542827"
+        format="autorelaxed"
+        style={{
+          display: 'block',
+          width: '100%',
+          minWidth: '300px',
+          minHeight: '250px'
+        }}
+        className="inline-banner"
+        responsive={true}
+      />
+    </div>
   );
 }

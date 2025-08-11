@@ -10,14 +10,18 @@ export default function DisplayBanner({ className = '' }: { className?: string }
   }
 
   return (
-    <AdBanner
-      slot="9723277859"
-      style={{
-        display: 'inline-block',
-        width: '728px',
-        height: '90px'
-      }}
-      className={`display-banner ${className}`}
-    />
+    <div className={`w-full max-w-[728px] min-w-[320px] ${className}`}>
+      <AdBanner
+        slot="9723277859"
+        style={{
+          display: 'block',
+          width: '100%',
+          maxWidth: '728px',
+          minWidth: '320px',
+          height: '90px'
+        }}
+        className="display-banner"
+      />
+    </div>
   );
 }

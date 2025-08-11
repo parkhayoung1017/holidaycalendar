@@ -10,11 +10,19 @@ export default function ResponsiveBanner({ className = '' }: { className?: strin
   }
 
   return (
-    <AdBanner
-      slot="1653216146"
-      format="auto"
-      responsive={true}
-      className={`responsive-banner ${className}`}
-    />
+    <div className={`w-full min-w-[320px] ${className}`}>
+      <AdBanner
+        slot="1653216146"
+        format="auto"
+        style={{
+          display: 'block',
+          width: '100%',
+          minWidth: '320px',
+          minHeight: '100px'
+        }}
+        className="responsive-banner"
+        responsive={true}
+      />
+    </div>
   );
 }

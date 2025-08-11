@@ -10,14 +10,18 @@ export default function SidebarBanner({ className = '' }: { className?: string }
   }
 
   return (
-    <AdBanner
-      slot="3738924634"
-      style={{
-        display: 'inline-block',
-        width: '300px',
-        height: '600px'
-      }}
-      className={`sidebar-banner ${className}`}
-    />
+    <div className={`w-full max-w-[300px] min-w-[250px] ${className}`}>
+      <AdBanner
+        slot="3738924634"
+        style={{
+          display: 'block',
+          width: '100%',
+          maxWidth: '300px',
+          minWidth: '250px',
+          height: '600px'
+        }}
+        className="sidebar-banner"
+      />
+    </div>
   );
 }
