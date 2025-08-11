@@ -485,7 +485,7 @@ export default function MissingDescriptionEditor({
               onChange={(e) => setDescription(e.target.value)}
               placeholder={getPlaceholderText(selectedLocale)}
               rows={10}
-              maxLength={2000}
+
               className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 resize-vertical text-base leading-relaxed text-gray-900 bg-white placeholder:text-gray-400"
               style={{ minHeight: '200px' }}
             />
@@ -495,7 +495,7 @@ export default function MissingDescriptionEditor({
               {getHelpText(selectedLocale)}
             </p>
             <p className="text-xs text-gray-500">
-              <span className={description.length > 1800 ? 'text-orange-600 font-medium' : ''}>{description.length}</span> / 2000자
+              <span className="text-gray-600">{description.length}</span>자
             </p>
           </div>
         </div>
