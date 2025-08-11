@@ -6,6 +6,7 @@ import { Locale } from '@/types/i18n';
 import { useTranslation } from '@/hooks/useTranslation';
 import { useI18nContext } from '@/lib/i18n-context';
 import { saveLanguageToCookie } from '@/lib/cookie-utils';
+import CountryFlag from '@/components/ui/CountryFlag';
 
 interface LanguageSelectorProps {
   className?: string;
@@ -49,12 +50,12 @@ export function LanguageSelector({
   const languageInfo = {
     ko: {
       name: '한국어',
-      flag: '🇰🇷',
+      countryCode: 'KR',
       code: 'ko'
     },
     en: {
       name: 'English',
-      flag: '🇺🇸',
+      countryCode: 'US',
       code: 'en'
     }
   };
@@ -162,7 +163,7 @@ export function LanguageSelector({
         aria-label="현재 언어"
       >
         <span className="flex items-center space-x-2">
-          <span>{currentLanguage.flag}</span>
+          <CountryFlag countryCode={currentLanguage.countryCode} size="sm" />
           <span className="text-gray-900 dark:text-gray-100">
             {currentLanguage.name}
           </span>
@@ -197,7 +198,7 @@ export function LanguageSelector({
                   `}
                   title={`Switch to ${languageInfo[lang].name}`}
                 >
-                  <span>{languageInfo[lang].flag}</span>
+                  <CountryFlag countryCode={languageInfo[lang].countryCode} size="sm" />
                   <span className="text-gray-900 dark:text-gray-100">
                     {languageInfo[lang].name}
                   </span>

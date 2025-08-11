@@ -4,6 +4,7 @@ import { Holiday, Country } from '@/types';
 import { MONTH_NAMES } from '@/lib/constants';
 import { format } from 'date-fns';
 import { ko } from 'date-fns/locale';
+import CountryFlag from '@/components/ui/CountryFlag';
 
 interface SameDateHolidayGroupsProps {
   sameDateGroups: Array<[string, Array<{ country: Country; holiday: Holiday }>]>;
@@ -68,7 +69,7 @@ export default function SameDateHolidayGroups({
                         title={`${holiday.name} - 클릭하여 상세보기`}
                       >
                         <div className="flex items-start gap-3">
-                          <span className="text-2xl flex-shrink-0">{country.flag}</span>
+                          <CountryFlag countryCode={country.code} size="lg" className="flex-shrink-0" />
                           <div className="flex-1 min-w-0">
                             <h4 className="font-medium text-gray-900 text-sm">
                               {country.name}

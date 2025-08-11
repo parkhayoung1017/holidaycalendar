@@ -2,6 +2,7 @@
 
 import { Country } from '@/types';
 import { useTranslation } from '@/hooks/useTranslation';
+import CountryFlag from '@/components/ui/CountryFlag';
 
 interface CountryHeaderProps {
   country: Country;
@@ -14,9 +15,11 @@ export default function CountryHeader({ country, year, totalHolidays }: CountryH
   return (
     <div className="bg-white rounded-lg shadow-sm border p-6 mb-6">
       <div className="flex items-center gap-4 mb-4">
-        <span className="text-4xl" role="img" aria-label={`${country.name} flag`}>
-          {country.flag}
-        </span>
+        <CountryFlag 
+          countryCode={country.code} 
+          size="lg" 
+          className="text-4xl"
+        />
         <div>
           <h1 className="text-3xl font-bold text-gray-900">
             {country.name} {year}{t('time.year')} {t('navigation.holidays')}

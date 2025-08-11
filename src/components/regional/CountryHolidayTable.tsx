@@ -4,6 +4,7 @@ import { Holiday, Country } from '@/types';
 import { MONTH_NAMES } from '@/lib/constants';
 import { format } from 'date-fns';
 import { ko } from 'date-fns/locale';
+import CountryFlag from '@/components/ui/CountryFlag';
 
 interface CountryHolidayTableProps {
   countriesData: Array<{
@@ -55,7 +56,7 @@ export default function CountryHolidayTable({
                   className="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider min-w-[150px]"
                 >
                   <div className="flex flex-col items-center gap-1">
-                    <span className="text-2xl">{country.flag}</span>
+                    <CountryFlag countryCode={country.code} size="lg" />
                     <span>{country.name}</span>
                   </div>
                 </th>

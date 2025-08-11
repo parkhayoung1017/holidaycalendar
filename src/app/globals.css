@@ -26,6 +26,30 @@ body {
   line-height: 1.6;
 }
 
+/* 국기 이모지 지원을 위한 폰트 설정 */
+.flag-emoji {
+  font-family: "Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", "Twemoji Mozilla", "EmojiOne Color", "Android Emoji", sans-serif;
+  font-feature-settings: "liga" off;
+  font-variant-emoji: emoji;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 윈도우 환경에서 이모지 렌더링 최적화 */
+@supports (font-variant-emoji: emoji) {
+  .flag-emoji {
+    font-variant-emoji: emoji;
+  }
+}
+
+/* 윈도우 10/11 전용 이모지 폰트 지원 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .flag-emoji {
+    font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", sans-serif;
+  }
+}
+
 /* 기본 스타일 */
 .container {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
