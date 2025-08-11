@@ -192,5 +192,16 @@
     "countries": [],
     "timestamp": "2025-08-10T02:25:37.487Z",
     "success": true
+  },
+  {
+    "date": "2025-08-11",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇬🇩 Grenada",
+      "🇯🇵 Japan"
+    ],
+    "timestamp": "2025-08-11T02:21:39.569Z",
+    "success": true
   }
 ]
