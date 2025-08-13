@@ -180,9 +180,52 @@ export default async function HolidayDetailPage({ params }: HolidayDetailPagePro
       );
     }
 
-    // loadHolidayData에서 이미 하이브리드 캐시를 통해 최신 설명을 가져왔으므로
-    // 여기서는 중복 조회를 하지 않고 그대로 사용합니다.
+    // 어드민이 작성한 최신 설명을 강제로 가져오기 위해 직접 Supabase에서 조회
     let description = holiday.description;
+    
+    // Supabase에서 직접 최신 설명 조회 (어드민 작성 설명 우선 반영)
+    try {
+      const { createSupabaseService } = await import('@/lib/supabase-client');
+      const supabaseService = createSupabaseService();
+      
+      console.log('🔍 Supabase에서 직접 최신 설명 조회:', {
+        holidayName: holiday.name,
+        countryName: countryData.name,
+        locale: validLocale
+      });
+      
+      // Supabase에서 직접 조회
+      const latestSupabaseData = await supabaseService.getDescription(
+        holiday.name, 
+        countryData.name, 
+        validLocale
+      );
+      
+      if (latestSupabaseData && latestSupabaseData.description) {
+        // 어드민이 작성한 설명이면 무조건 우선 사용
+        if (latestSupabaseData.is_manual) {
+          description = latestSupabaseData.description;
+          console.log('🎯 어드민 작성 설명 우선 적용:', {
+            holidayName: holiday.name,
+            isManual: latestSupabaseData.is_manual,
+            confidence: latestSupabaseData.confidence,
+            descriptionLength: description.length,
+            preview: description.substring(0, 100) + '...'
+          });
+        }
+        // AI 생성 설명이지만 기존 설명보다 더 좋은 경우에만 사용
+        else if (!description || description.length < 100 || latestSupabaseData.confidence > 0.9) {
+          description = latestSupabaseData.description;
+          console.log('✅ Supabase AI 설명 적용:', {
+            holidayName: holiday.name,
+            confidence: latestSupabaseData.confidence,
+            descriptionLength: description.length
+          });
+        }
+      }
+    } catch (error) {
+      console.warn('⚠️ Supabase 직접 조회 실패, 기존 설명 사용:', error);
+    }
     
     console.log('🔍 공휴일 설명 확인:', {
       holidayName: holiday.name,

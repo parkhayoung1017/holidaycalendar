@@ -328,19 +328,47 @@ export class HybridCacheService {
         supabaseAvailable: this.stats.isSupabaseAvailable
       });
 
-      // Supabase 결과 우선 사용
+      // 1. Supabase에서 어드민 작성 설명 우선 사용
       if (supabaseResult.status === 'fulfilled' && supabaseResult.value) {
-        console.log('✅ Supabase에서 데이터 반환:', {
-          descriptionLength: supabaseResult.value.description.length,
-          preview: supabaseResult.value.description.substring(0, 100) + '...'
+        const supabaseData = supabaseResult.value;
+        console.log('✅ Supabase에서 데이터 발견:', {
+          isManual: supabaseData.is_manual,
+          confidence: supabaseData.confidence,
+          descriptionLength: supabaseData.description.length,
+          preview: supabaseData.description.substring(0, 100) + '...'
         });
+        
+        // 어드민 작성 설명이면 무조건 우선 사용
+        if (supabaseData.is_manual) {
+          console.log('🎯 어드민 작성 설명 우선 사용');
+          this.stats.supabaseHits++;
+          return this.convertToLegacyFormat(supabaseData);
+        }
+        
+        // AI 생성 설명인 경우, 로컬 캐시와 비교
+        if (localResult.status === 'fulfilled' && localResult.value) {
+          const localData = localResult.value;
+          
+          // 로컬 캐시가 더 최신이거나 신뢰도가 높으면 로컬 사용
+          const supabaseDate = new Date(supabaseData.updated_at || supabaseData.created_at);
+          const localDate = new Date(localData.generatedAt || '1970-01-01');
+          
+          if (localDate > supabaseDate || (localData.confidence && localData.confidence > supabaseData.confidence)) {
+            console.log('✅ 로컬 캐시가 더 최신/높은 신뢰도, 로컬 사용');
+            this.stats.localHits++;
+            return localData;
+          }
+        }
+        
+        // 그 외의 경우 Supabase 사용
+        console.log('✅ Supabase AI 설명 사용');
         this.stats.supabaseHits++;
-        return this.convertToLegacyFormat(supabaseResult.value);
+        return this.convertToLegacyFormat(supabaseData);
       }
 
-      // Supabase 실패 시 로컬 캐시 사용
+      // 2. Supabase 실패 시 로컬 캐시 사용
       if (localResult.status === 'fulfilled' && localResult.value) {
-        console.log('✅ 로컬 캐시에서 데이터 반환:', {
+        console.log('✅ 로컬 캐시에서 데이터 반환 (Supabase 실패):', {
           descriptionLength: localResult.value.description.length,
           preview: localResult.value.description.substring(0, 100) + '...'
         });
@@ -642,6 +670,49 @@ export class HybridCacheService {
    */
   getStats(): CacheStats {
     return { ...this.stats };
+  }
+
+  /**
+   * 특정 공휴일의 캐시 무효화
+   */
+  async invalidateDescription(
+    holidayName: string,
+    countryName: string,
+    locale: string = 'ko'
+  ): Promise<void> {
+    try {
+      console.log('🧹 캐시 무효화 시작:', { holidayName, countryName, locale });
+      
+      // 로컬 캐시 무효화
+      if (this.options.fallbackToLocal) {
+        try {
+          await this.localCacheService.invalidateCachedDescription(holidayName, countryName, locale);
+          console.log('✅ 로컬 캐시 무효화 완료');
+        } catch (error) {
+          console.warn('⚠️ 로컬 캐시 무효화 실패:', error);
+        }
+      }
+      
+      // 메모리 캐시 무효화 (키 패턴으로 삭제)
+      const keyPatterns = [
+        `${holidayName}-${countryName}-${locale}`,
+        `${holidayName}-${countryName.toUpperCase()}-${locale}`,
+        `${holidayName}-${countryName.toLowerCase()}-${locale}`
+      ];
+      
+      for (const pattern of keyPatterns) {
+        if (this.memoryCache.has(pattern)) {
+          this.memoryCache.delete(pattern);
+          console.log(`✅ 메모리 캐시 무효화: ${pattern}`);
+        }
+      }
+      
+      console.log('✅ 캐시 무효화 완료');
+      
+    } catch (error) {
+      console.error('❌ 캐시 무효화 실패:', error);
+      throw error;
+    }
   }
 
   /**

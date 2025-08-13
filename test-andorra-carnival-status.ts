@@ -1,111 +1,132 @@
-#!/usr/bin/env npx tsx
+#!/usr/bin/env tsx
 
 /**
- * 안도라 카니발의 언어별 작성 상태를 확인하는 테스트 스크립트
+ * 특정 공휴일 페이지 문제 진단 (푸에르토리코 Labour Day)
  */
 
-import fs from 'fs';
+import { config } from 'dotenv';
 import path from 'path';
 
-async function testAndorraCarnivalStatus() {
-  console.log('🔍 안도라 카니발 언어별 작성 상태 확인...\n');
+// .env.local 파일 로드
+config({ path: path.join(process.cwd(), '.env.local') });
 
-  // 1. 기존 설명 키 수집
-  const existingKeys = new Set<string>();
+import { loadHolidayData } from './src/lib/data-loader';
+import { getCountryCodeFromSlug, createHolidaySlug } from './src/lib/country-utils';
+import { HybridCacheService } from './src/lib/hybrid-cache';
 
-  // AI 캐시 확인
+async function testSpecificHoliday() {
+  console.log('🔍 특정 공휴일 페이지 문제 진단\n');
+
   try {
-    const aiCachePath = path.join(process.cwd(), 'public', 'ai-cache.json');
-    if (fs.existsSync(aiCachePath)) {
-      const aiCache = JSON.parse(fs.readFileSync(aiCachePath, 'utf-8'));
-      Object.entries(aiCache).forEach(([key, value]: [string, any]) => {
-        if (value && typeof value === 'object' && value.isManual === true && value.confidence === 1.0) {
-          if (value.holidayName && value.countryName && value.locale) {
-            existingKeys.add(`${value.holidayName}|${value.countryName}|${value.locale}`);
-            existingKeys.add(`${value.holidayName}_${value.countryName}_${value.locale}`);
-            existingKeys.add(`${value.holidayName}-${value.countryName}-${value.locale}`);
-          }
-        }
-      });
+    // URL 분석: /ko/holiday/pr/labour-day
+    const locale = 'ko';
+    const countrySlug = 'pr'; // 푸에르토리코
+    const holidaySlug = 'labour-day';
+
+    console.log('📋 URL 분석:');
+    console.log(`   언어: ${locale}`);
+    console.log(`   국가 슬러그: ${countrySlug}`);
+    console.log(`   공휴일 슬러그: ${holidaySlug}`);
+
+    // 1. 국가 코드 변환 확인
+    console.log('\n🌍 국가 코드 변환:');
+    const countryCode = getCountryCodeFromSlug(countrySlug);
+    console.log(`   슬러그 '${countrySlug}' → 국가코드: ${countryCode || '❌ 변환 실패'}`);
+
+    if (!countryCode) {
+      console.log('   ⚠️  국가 코드 변환 실패가 문제의 원인일 수 있습니다.');
+      return;
     }
-  } catch (error) {
-    console.warn('AI 캐시 파일 읽기 실패:', error);
-  }
 
-  // 설명 파일들 확인
-  try {
-    const descriptionsDir = path.join(process.cwd(), 'data', 'descriptions');
-    if (fs.existsSync(descriptionsDir)) {
-      const files = fs.readdirSync(descriptionsDir);
-      files.forEach(file => {
-        if (file.endsWith('.json')) {
-          try {
-            const filePath = path.join(descriptionsDir, file);
-            const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-            if (data.holiday_name && data.country_name && data.locale) {
-              const locale = data.locale;
-              existingKeys.add(`${data.holiday_name}|${data.country_name}|${locale}`);
-              existingKeys.add(`${data.holiday_name}_${data.country_name}_${locale}`);
-              existingKeys.add(`${data.holiday_name}-${data.country_name}-${locale}`);
-              
-              console.log(`📁 파일에서 설명 발견: ${data.holiday_name} (${data.country_name}, ${locale}) - ${file}`);
-            }
-          } catch (error) {
-            console.warn(`설명 파일 읽기 실패: ${file}`, error);
+    // 2. 해당 국가의 공휴일 데이터 확인
+    console.log('\n📅 공휴일 데이터 확인:');
+    const currentYear = new Date().getFullYear();
+    
+    try {
+      const holidays = await loadHolidayData(countryCode, currentYear, locale);
+      console.log(`   ${countryCode} ${currentYear}년 공휴일: ${holidays.length}개`);
+
+      if (holidays.length > 0) {
+        console.log('   📋 사용 가능한 공휴일들:');
+        holidays.slice(0, 10).forEach((holiday, index) => {
+          const slug = createHolidaySlug(holiday.name);
+          console.log(`      ${index + 1}. ${holiday.name} → ${slug}`);
+        });
+
+        // 3. 특정 공휴일 찾기
+        console.log(`\n🎯 '${holidaySlug}' 공휴일 검색:`);
+        const targetHoliday = holidays.find(holiday => {
+          const slug = createHolidaySlug(holiday.name);
+          return slug === holidaySlug;
+        });
+
+        if (targetHoliday) {
+          console.log('   ✅ 공휴일 발견:');
+          console.log(`      이름: ${targetHoliday.name}`);
+          console.log(`      날짜: ${targetHoliday.date}`);
+          console.log(`      설명 길이: ${targetHoliday.description?.length || 0}자`);
+          console.log(`      설명 미리보기: ${targetHoliday.description?.substring(0, 100) || 'N/A'}...`);
+
+          // 4. 하이브리드 캐시에서 설명 확인
+          console.log('\n🔄 하이브리드 캐시 설명 확인:');
+          const hybridCache = new HybridCacheService();
+          
+          const cachedDescription = await hybridCache.getDescription(
+            targetHoliday.name,
+            countryCode === 'PR' ? 'Puerto Rico' : 'Puerto Rico', // 국가명 변환
+            locale
+          );
+
+          if (cachedDescription) {
+            console.log('   ✅ 캐시된 설명 발견:');
+            console.log(`      설명 길이: ${cachedDescription.description?.length || 0}자`);
+            console.log(`      소스: ${cachedDescription.source || 'N/A'}`);
+            console.log(`      미리보기: ${cachedDescription.description?.substring(0, 100) || 'N/A'}...`);
+          } else {
+            console.log('   ❌ 캐시된 설명 없음');
           }
+
+        } else {
+          console.log('   ❌ 해당 슬러그의 공휴일을 찾을 수 없음');
+          console.log('   💡 가능한 원인:');
+          console.log('      - 슬러그 생성 로직 불일치');
+          console.log('      - 공휴일 이름 변경');
+          console.log('      - 해당 연도에 공휴일 없음');
         }
-      });
+      } else {
+        console.log('   ❌ 해당 국가/연도의 공휴일 데이터 없음');
+      }
+
+    } catch (error) {
+      console.log(`   ❌ 공휴일 데이터 로드 실패: ${error}`);
     }
+
+    // 5. 다른 연도 확인
+    console.log('\n📆 다른 연도 확인:');
+    const years = [2023, 2024, 2025];
+    
+    for (const year of years) {
+      try {
+        const holidays = await loadHolidayData(countryCode, year, locale);
+        const targetHoliday = holidays.find(holiday => {
+          const slug = createHolidaySlug(holiday.name);
+          return slug === holidaySlug;
+        });
+        
+        console.log(`   ${year}년: ${holidays.length}개 공휴일, ${targetHoliday ? '✅ 타겟 공휴일 있음' : '❌ 타겟 공휴일 없음'}`);
+      } catch (error) {
+        console.log(`   ${year}년: ❌ 데이터 로드 실패`);
+      }
+    }
+
+    console.log('\n✅ 진단 완료!');
+
   } catch (error) {
-    console.warn('설명 디렉토리 읽기 실패:', error);
+    console.error('❌ 진단 실패:', error);
   }
-
-  console.log(`\n📊 총 기존 설명 개수: ${existingKeys.size}\n`);
-
-  // 2. 안도라 카니발 상태 확인
-  const holidayName = 'Carnival';
-  const countryName = 'Andorra';
-
-  const koKeys = [
-    `${holidayName}|${countryName}|ko`,
-    `${holidayName}_${countryName}_ko`,
-    `${holidayName}-${countryName}-ko`
-  ];
-
-  const enKeys = [
-    `${holidayName}|${countryName}|en`,
-    `${holidayName}_${countryName}_en`,
-    `${holidayName}-${countryName}-en`
-  ];
-
-  console.log('🔍 안도라 카니발 키 확인:');
-  console.log('한국어 키들:');
-  koKeys.forEach(key => {
-    const exists = existingKeys.has(key);
-    console.log(`  ${exists ? '✅' : '❌'} ${key}`);
-  });
-
-  console.log('영어 키들:');
-  enKeys.forEach(key => {
-    const exists = existingKeys.has(key);
-    console.log(`  ${exists ? '✅' : '❌'} ${key}`);
-  });
-
-  const hasKoreanDescription = koKeys.some(key => existingKeys.has(key));
-  const hasEnglishDescription = enKeys.some(key => existingKeys.has(key));
-  const hasCompleteDescription = hasKoreanDescription && hasEnglishDescription;
-
-  console.log('\n📊 최종 상태:');
-  console.log(`한국어 설명: ${hasKoreanDescription ? '✅ 있음' : '❌ 없음'}`);
-  console.log(`영어 설명: ${hasEnglishDescription ? '✅ 있음' : '❌ 없음'}`);
-  console.log(`완료 상태: ${hasCompleteDescription ? '✅ 완료' : '❌ 미완료'}`);
-  console.log(`목록 표시: ${hasCompleteDescription ? '❌ 표시 안됨' : '✅ 표시됨'}`);
-
-  // 3. 기존 키 샘플 출력
-  console.log('\n📝 기존 키 샘플 (처음 10개):');
-  Array.from(existingKeys).slice(0, 10).forEach(key => {
-    console.log(`  - ${key}`);
-  });
 }
 
-testAndorraCarnivalStatus().catch(console.error);
+// 스크립트 실행
+if (require.main === module) {
+  testSpecificHoliday();
+}

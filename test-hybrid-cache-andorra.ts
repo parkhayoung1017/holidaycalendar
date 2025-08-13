@@ -1,65 +1,127 @@
-#!/usr/bin/env npx tsx
+#!/usr/bin/env tsx
 
 /**
- * 하이브리드 캐시에서 안도라 카니발 확인 스크립트
+ * 하이브리드 캐시 Supabase 연결 테스트
  */
 
-// 환경 변수 직접 설정
-process.env.NEXT_PUBLIC_SUPABASE_URL = 'https://wkajscrxfcmeksyxllft.supabase.co';
-process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndrYWpzY3J4ZmNtZWtzeXhsbGZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQyNzU4NDUsImV4cCI6MjA2OTg1MTg0NX0.dZi1lmJYODf0JlGaiIVQEG0Txnp2EobW_8YBDoZ6oC4';
-process.env.SUPABASE_SERVICE_ROLE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndrYWpzY3J4ZmNtZWtzeXhsbGZ0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NDI3NTg0NSwiZXhwIjoyMDY5ODUxODQ1fQ.CQpI2Bsq1Oc8v4FqhbcqtmNY9fgS6njqxd-S2-ntSbQ';
+import { config } from 'dotenv';
+import path from 'path';
 
-import { getCachedDescription } from './src/lib/hybrid-cache';
+// .env.local 파일 로드
+config({ path: path.join(process.cwd(), '.env.local') });
 
-async function testHybridCacheAndorra() {
-  console.log('🔍 하이브리드 캐시에서 안도라 카니발 확인...\n');
+import { HybridCacheService } from './src/lib/hybrid-cache';
+import { checkSupabaseConnection } from './src/lib/supabase';
+
+async function testHybridCache() {
+  console.log('🔍 하이브리드 캐시 Supabase 연결 테스트\n');
 
   try {
-    // 1. 한국어 설명 확인
-    console.log('1️⃣ 한국어 설명 확인...');
-    const koDescription = await getCachedDescription(
-      'ad_2024_2024-02-12_Carnival',
-      'Carnival',
-      'Andorra',
-      'ko'
-    );
+    // 1. 기본 Supabase 연결 확인
+    console.log('🔗 기본 Supabase 연결 확인:');
+    const isConnected = await checkSupabaseConnection();
+    console.log(`   연결 상태: ${isConnected ? '✅ 성공' : '❌ 실패'}`);
 
-    if (koDescription) {
-      console.log('✅ 한국어 설명 발견:');
-      console.log(`   - 신뢰도: ${koDescription.confidence}`);
-      console.log(`   - 생성 시간: ${koDescription.generatedAt}`);
-      console.log(`   - 내용 미리보기: ${koDescription.description.substring(0, 100)}...`);
-    } else {
-      console.log('❌ 한국어 설명 없음');
+    // 2. 하이브리드 캐시 인스턴스 생성
+    console.log('\n🔄 하이브리드 캐시 인스턴스 생성:');
+    const hybridCache = new HybridCacheService({
+      enableSupabase: true,
+      fallbackToLocal: true,
+      cacheTimeout: 3600000, // 1시간
+      retryAttempts: 2,
+      retryDelay: 1000
+    });
+
+    // 잠시 대기 (연결 상태 확인 완료 대기)
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
+    // 3. 캐시 통계 확인
+    console.log('\n📊 초기 캐시 통계:');
+    const initialStats = hybridCache.getStats();
+    console.log(`   Supabase 사용 가능: ${initialStats.isSupabaseAvailable ? '✅' : '❌'}`);
+    console.log(`   마지막 Supabase 확인: ${initialStats.lastSupabaseCheck}`);
+
+    // 4. 어드민이 작성한 설명 테스트
+    console.log('\n🔍 어드민 작성 설명 테스트:');
+    
+    // 실제 어드민이 작성한 데이터 조회 (스키마에서 확인한 데이터)
+    const adminTestCases = [
+      { name: 'Saint Mary\'s Day', country: 'Georgia', locale: 'ko' },
+      { name: 'Emancipation Day', country: 'Barbados', locale: 'ko' },
+      { name: 'Independence Day', country: 'Benin', locale: 'ko' }
+    ];
+
+    for (const testCase of adminTestCases) {
+      console.log(`\n   🎯 테스트: ${testCase.name} (${testCase.country})`);
+      
+      try {
+        const result = await hybridCache.getDescription(
+          testCase.name,
+          testCase.country,
+          testCase.locale
+        );
+        
+        if (result) {
+          console.log(`   ✅ 설명 발견:`);
+          console.log(`      설명 길이: ${result.description?.length || 0}자`);
+          console.log(`      소스: ${result.source || 'N/A'}`);
+          console.log(`      생성일: ${result.generatedAt || 'N/A'}`);
+          console.log(`      미리보기: ${result.description?.substring(0, 100) || 'N/A'}...`);
+        } else {
+          console.log(`   ❌ 설명 없음`);
+        }
+      } catch (error) {
+        console.log(`   ❌ 오류: ${error}`);
+      }
     }
 
-    // 2. 영어 설명 확인
-    console.log('\n2️⃣ 영어 설명 확인...');
-    const enDescription = await getCachedDescription(
-      'ad_2024_2024-02-12_Carnival',
-      'Carnival',
-      'Andorra',
-      'en'
-    );
+    // 5. 일반적인 공휴일 테스트
+    console.log('\n🎄 일반 공휴일 테스트:');
+    const generalTestCases = [
+      { name: 'Christmas Day', country: 'South Korea', locale: 'ko' },
+      { name: 'New Year\'s Day', country: 'South Korea', locale: 'ko' }
+    ];
 
-    if (enDescription) {
-      console.log('✅ 영어 설명 발견:');
-      console.log(`   - 신뢰도: ${enDescription.confidence}`);
-      console.log(`   - 생성 시간: ${enDescription.generatedAt}`);
-      console.log(`   - 내용 미리보기: ${enDescription.description.substring(0, 100)}...`);
-    } else {
-      console.log('❌ 영어 설명 없음');
+    for (const testCase of generalTestCases) {
+      console.log(`\n   🎯 테스트: ${testCase.name} (${testCase.country})`);
+      
+      try {
+        const result = await hybridCache.getDescription(
+          testCase.name,
+          testCase.country,
+          testCase.locale
+        );
+        
+        if (result) {
+          console.log(`   ✅ 설명 발견:`);
+          console.log(`      설명 길이: ${result.description?.length || 0}자`);
+          console.log(`      소스: ${result.source || 'N/A'}`);
+          console.log(`      미리보기: ${result.description?.substring(0, 100) || 'N/A'}...`);
+        } else {
+          console.log(`   ❌ 설명 없음`);
+        }
+      } catch (error) {
+        console.log(`   ❌ 오류: ${error}`);
+      }
     }
 
-    // 3. 상태 요약
-    console.log('\n📊 상태 요약:');
-    console.log(`한국어: ${koDescription ? '✅ 있음' : '❌ 없음'}`);
-    console.log(`영어: ${enDescription ? '✅ 있음' : '❌ 없음'}`);
-    console.log(`완료 상태: ${koDescription && enDescription ? '✅ 완료' : '❌ 미완료'}`);
+    // 6. 최종 캐시 통계
+    console.log('\n📊 최종 캐시 통계:');
+    const finalStats = hybridCache.getStats();
+    console.log(`   Supabase 사용 가능: ${finalStats.isSupabaseAvailable ? '✅' : '❌'}`);
+    console.log(`   Supabase 히트: ${finalStats.supabaseHits}`);
+    console.log(`   로컬 캐시 히트: ${finalStats.localHits}`);
+    console.log(`   미스: ${finalStats.misses}`);
+    console.log(`   오류: ${finalStats.errors}`);
+
+    console.log('\n✅ 하이브리드 캐시 테스트 완료!');
 
   } catch (error) {
-    console.error('❌ 하이브리드 캐시 확인 실패:', error);
+    console.error('❌ 테스트 실패:', error);
   }
 }
 
-testHybridCacheAndorra().catch(console.error);
+// 스크립트 실행
+if (require.main === module) {
+  testHybridCache();
+}

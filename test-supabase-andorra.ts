@@ -1,102 +1,155 @@
-#!/usr/bin/env npx tsx
+#!/usr/bin/env tsx
 
 /**
- * 안도라 카니발 Supabase 데이터 직접 확인 스크립트
+ * Supabase 연결 테스트 및 어드민 설명 확인
  */
 
-// 환경 변수 직접 설정
-process.env.NEXT_PUBLIC_SUPABASE_URL = 'https://wkajscrxfcmeksyxllft.supabase.co';
-process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndrYWpzY3J4ZmNtZWtzeXhsbGZ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQyNzU4NDUsImV4cCI6MjA2OTg1MTg0NX0.dZi1lmJYODf0JlGaiIVQEG0Txnp2EobW_8YBDoZ6oC4';
-process.env.SUPABASE_SERVICE_ROLE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndrYWpzY3J4ZmNtZWtzeXhsbGZ0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NDI3NTg0NSwiZXhwIjoyMDY5ODUxODQ1fQ.CQpI2Bsq1Oc8v4FqhbcqtmNY9fgS6njqxd-S2-ntSbQ';
+import { config } from 'dotenv';
+import path from 'path';
 
-import { SupabaseHolidayDescriptionService } from './src/lib/supabase-client';
+// .env.local 파일 로드
+config({ path: path.join(process.cwd(), '.env.local') });
 
-async function checkAndorraCarnivalInSupabase() {
-  console.log('🔍 Supabase에서 안도라 카니발 설명 확인 중...\n');
+import { createClient } from '@supabase/supabase-js';
+
+async function testSupabaseConnection() {
+  console.log('🔍 Supabase 연결 테스트 시작...\n');
+
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+  console.log('📋 환경 변수 확인:');
+  console.log(`   URL: ${supabaseUrl ? '✅ 설정됨' : '❌ 미설정'}`);
+  console.log(`   ANON KEY: ${supabaseAnonKey ? '✅ 설정됨' : '❌ 미설정'}`);
+  console.log(`   SERVICE KEY: ${supabaseServiceKey ? '✅ 설정됨' : '❌ 미설정'}`);
+
+  if (!supabaseUrl || !supabaseAnonKey) {
+    console.log('❌ 필수 환경 변수가 없습니다.');
+    return;
+  }
 
   try {
-    const service = new SupabaseHolidayDescriptionService();
+    // 1. 기본 연결 테스트 (anon key)
+    console.log('\n🔗 기본 연결 테스트 (anon key):');
+    const supabaseAnon = createClient(supabaseUrl, supabaseAnonKey);
+    
+    const { data: testData, error: testError } = await supabaseAnon
+      .from('holiday_descriptions')
+      .select('count')
+      .limit(1);
 
-    // 1. 안도라 관련 모든 설명 조회
-    console.log('1️⃣ 안도라 관련 모든 설명 조회...');
-    const andorraDescriptions = await service.getDescriptions({
-      countryName: 'Andorra',
-      page: 1,
-      limit: 100
-    });
+    if (testError) {
+      console.log(`   ❌ 연결 실패: ${testError.message}`);
+    } else {
+      console.log('   ✅ 기본 연결 성공');
+    }
 
-    console.log(`📊 안도라 설명 총 ${andorraDescriptions.data.length}개 발견:`);
-    andorraDescriptions.data.forEach((desc, index) => {
-      console.log(`${index + 1}. ${desc.holiday_name} (${desc.locale}) - ${desc.is_manual ? '수동' : '자동'} - ${desc.modified_by || 'N/A'}`);
-    });
+    // 2. 서비스 키 연결 테스트
+    if (supabaseServiceKey) {
+      console.log('\n🔗 서비스 키 연결 테스트:');
+      const supabaseService = createClient(supabaseUrl, supabaseServiceKey);
+      
+      const { data: serviceData, error: serviceError } = await supabaseService
+        .from('holiday_descriptions')
+        .select('count')
+        .limit(1);
 
-    // 2. 카니발 특별 확인
-    console.log('\n2️⃣ 카니발 관련 설명 확인...');
-    const carnivalDescriptions = andorraDescriptions.data.filter(desc => 
-      desc.holiday_name.toLowerCase().includes('carnival')
-    );
+      if (serviceError) {
+        console.log(`   ❌ 서비스 키 연결 실패: ${serviceError.message}`);
+      } else {
+        console.log('   ✅ 서비스 키 연결 성공');
+      }
+    }
 
-    if (carnivalDescriptions.length > 0) {
-      console.log(`🎯 카니발 설명 ${carnivalDescriptions.length}개 발견:`);
-      carnivalDescriptions.forEach((desc, index) => {
-        console.log(`${index + 1}. ${desc.holiday_name} (${desc.country_name}, ${desc.locale})`);
-        console.log(`   - 수동 작성: ${desc.is_manual ? '✅' : '❌'}`);
-        console.log(`   - 작성자: ${desc.modified_by || 'N/A'}`);
-        console.log(`   - 설명 미리보기: ${desc.description.substring(0, 100)}...`);
+    // 3. 실제 데이터 조회 테스트
+    console.log('\n📊 실제 데이터 조회 테스트:');
+    const supabase = supabaseServiceKey 
+      ? createClient(supabaseUrl, supabaseServiceKey)
+      : supabaseAnon;
+
+    // 전체 데이터 개수 확인
+    const { count, error: countError } = await supabase
+      .from('holiday_descriptions')
+      .select('*', { count: 'exact', head: true });
+
+    if (countError) {
+      console.log(`   ❌ 데이터 개수 조회 실패: ${countError.message}`);
+    } else {
+      console.log(`   ✅ 총 설명 개수: ${count}개`);
+    }
+
+    // 최근 데이터 몇 개 조회
+    const { data: recentData, error: recentError } = await supabase
+      .from('holiday_descriptions')
+      .select('holiday_name, country_name, locale, title, created_at, is_manual')
+      .order('created_at', { ascending: false })
+      .limit(10);
+
+    if (recentError) {
+      console.log(`   ❌ 최근 데이터 조회 실패: ${recentError.message}`);
+    } else {
+      console.log(`   ✅ 최근 데이터 ${recentData?.length || 0}개 조회 성공:`);
+      recentData?.forEach((item, index) => {
+        console.log(`      ${index + 1}. ${item.holiday_name} (${item.country_name}) - ${item.is_manual ? '어드민' : 'AI'} 작성`);
+      });
+    }
+
+    // 4. 특정 공휴일 검색 (어드민이 작성한 것)
+    console.log('\n🔍 어드민 작성 설명 검색:');
+    const { data: adminData, error: adminError } = await supabase
+      .from('holiday_descriptions')
+      .select('holiday_name, country_name, title, description, is_manual, created_at')
+      .eq('is_manual', true)
+      .limit(5);
+
+    if (adminError) {
+      console.log(`   ❌ 어드민 설명 조회 실패: ${adminError.message}`);
+    } else if (adminData && adminData.length > 0) {
+      console.log(`   ✅ 어드민 작성 설명 ${adminData.length}개 발견:`);
+      adminData.forEach((item, index) => {
+        console.log(`      ${index + 1}. ${item.holiday_name} (${item.country_name})`);
+        console.log(`         제목: ${item.title || 'N/A'}`);
+        console.log(`         설명: ${item.description?.substring(0, 100) || 'N/A'}...`);
+        console.log(`         작성일: ${item.created_at}`);
         console.log('');
       });
     } else {
-      console.log('❌ 카니발 설명을 찾을 수 없습니다.');
+      console.log('   ⚠️  어드민 작성 설명이 없습니다.');
     }
 
-    // 3. 직접 검색으로 카니발 확인
-    console.log('3️⃣ 직접 검색으로 카니발 확인...');
-    try {
-      const koResult = await service.getDescriptions({
-        holidayName: 'Carnival',
-        countryName: 'Andorra',
-        locale: 'ko',
-        limit: 5
+    // 5. 크리스마스 설명 검색
+    console.log('🎄 크리스마스 설명 검색:');
+    const { data: christmasData, error: christmasError } = await supabase
+      .from('holiday_descriptions')
+      .select('*')
+      .ilike('holiday_name', '%christmas%')
+      .eq('country_name', 'South Korea')
+      .eq('locale', 'ko');
+
+    if (christmasError) {
+      console.log(`   ❌ 크리스마스 설명 조회 실패: ${christmasError.message}`);
+    } else if (christmasData && christmasData.length > 0) {
+      console.log(`   ✅ 크리스마스 설명 ${christmasData.length}개 발견:`);
+      christmasData.forEach((item, index) => {
+        console.log(`      ${index + 1}. ${item.holiday_name}`);
+        console.log(`         제목: ${item.title || 'N/A'}`);
+        console.log(`         설명: ${item.description?.substring(0, 100) || 'N/A'}...`);
+        console.log(`         소스: ${item.is_manual ? '어드민' : 'AI'}`);
+        console.log('');
       });
-      
-      const enResult = await service.getDescriptions({
-        holidayName: 'Carnival',
-        countryName: 'Andorra',
-        locale: 'en',
-        limit: 5
-      });
-
-      console.log(`   - 한국어 설명: ${koResult.data.length > 0 ? '있음' : '없음'}`);
-      if (koResult.data.length > 0) {
-        console.log(`     내용: ${koResult.data[0].description.substring(0, 100)}...`);
-      }
-
-      console.log(`   - 영어 설명: ${enResult.data.length > 0 ? '있음' : '없음'}`);
-      if (enResult.data.length > 0) {
-        console.log(`     내용: ${enResult.data[0].description.substring(0, 100)}...`);
-      }
-
-    } catch (error) {
-      console.error('직접 검색 실패:', error);
+    } else {
+      console.log('   ⚠️  크리스마스 설명이 없습니다.');
     }
 
-    // 4. 수동 작성된 설명만 확인
-    console.log('\n4️⃣ 수동 작성된 설명만 확인...');
-    const manualDescriptions = await service.getDescriptions({
-      countryName: 'Andorra',
-      isManual: true,
-      page: 1,
-      limit: 100
-    });
-
-    console.log(`📝 안도라 수동 작성 설명 ${manualDescriptions.data.length}개:`);
-    manualDescriptions.data.forEach((desc, index) => {
-      console.log(`${index + 1}. ${desc.holiday_name} (${desc.locale}) - ${desc.modified_by}`);
-    });
+    console.log('✅ Supabase 연결 테스트 완료!');
 
   } catch (error) {
-    console.error('❌ Supabase 조회 실패:', error);
+    console.error('❌ 테스트 실패:', error);
   }
 }
 
-checkAndorraCarnivalInSupabase().catch(console.error);
+// 스크립트 실행
+if (require.main === module) {
+  testSupabaseConnection();
+}

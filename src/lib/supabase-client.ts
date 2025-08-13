@@ -32,6 +32,13 @@ export interface PaginatedResponse<T> {
 }
 
 /**
+ * Supabase 서비스 인스턴스 생성 함수
+ */
+export function createSupabaseService(): SupabaseHolidayDescriptionService {
+  return new SupabaseHolidayDescriptionService();
+}
+
+/**
  * Supabase를 통한 공휴일 설명 데이터 관리 서비스 (성능 최적화 버전)
  */
 export class SupabaseHolidayDescriptionService {
@@ -51,8 +58,11 @@ export class SupabaseHolidayDescriptionService {
     try {
       // 연결 상태 확인 (캐시된 결과 사용)
       if (!(await this.isConnectionHealthy())) {
-        throw new Error('Supabase 연결 불가');
+        console.warn('Supabase 연결 불가, null 반환');
+        return null;
       }
+
+      console.log('🔍 Supabase 조회 시작:', { holidayName, countryName, locale });
 
       const { data, error } = await this.supabase
         .from('holiday_descriptions')
@@ -65,10 +75,19 @@ export class SupabaseHolidayDescriptionService {
       if (error) {
         if (error.code === 'PGRST116') {
           // 데이터가 없는 경우
+          console.log('📭 Supabase에서 데이터 없음:', { holidayName, countryName, locale });
           return null;
         }
+        console.error('Supabase 조회 오류:', error);
         throw error;
       }
+
+      console.log('✅ Supabase에서 데이터 발견:', {
+        holidayName: data.holiday_name,
+        isManual: data.is_manual,
+        descriptionLength: data.description?.length || 0,
+        confidence: data.confidence
+      });
 
       // last_used 업데이트 (비동기로 처리하여 성능 영향 최소화)
       this.updateLastUsed(data.id).catch(error => 
@@ -78,7 +97,8 @@ export class SupabaseHolidayDescriptionService {
       return data;
     } catch (error) {
       console.error('공휴일 설명 조회 실패:', error);
-      throw error;
+      // 연결 오류 시 null 반환하여 로컬 캐시로 폴백 가능하게 함
+      return null;
     }
   }
 
