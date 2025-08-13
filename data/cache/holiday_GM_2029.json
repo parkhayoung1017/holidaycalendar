@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "GM-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:58.929Z",
+      "updatedAt": "2025-08-13T00:15:58.929Z"
+    },
+    {
+      "id": "GM-2029-02-18-1",
+      "name": "Independence Day",
+      "date": "2029-02-18",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:58.929Z",
+      "updatedAt": "2025-08-13T00:15:58.929Z"
+    },
+    {
+      "id": "GM-2029-03-30-2",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:58.929Z",
+      "updatedAt": "2025-08-13T00:15:58.929Z"
+    },
+    {
+      "id": "GM-2029-04-02-3",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:58.929Z",
+      "updatedAt": "2025-08-13T00:15:58.929Z"
+    },
+    {
+      "id": "GM-2029-05-01-4",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:58.929Z",
+      "updatedAt": "2025-08-13T00:15:58.929Z"
+    },
+    {
+      "id": "GM-2029-05-25-5",
+      "name": "Africa Day",
+      "date": "2029-05-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:58.929Z",
+      "updatedAt": "2025-08-13T00:15:58.929Z"
+    },
+    {
+      "id": "GM-2029-07-22-6",
+      "name": "Revolution Day",
+      "date": "2029-07-22",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:58.929Z",
+      "updatedAt": "2025-08-13T00:15:58.929Z"
+    },
+    {
+      "id": "GM-2029-08-15-7",
+      "name": "Assumption Day",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:58.929Z",
+      "updatedAt": "2025-08-13T00:15:58.929Z"
+    },
+    {
+      "id": "GM-2029-12-25-8",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:58.929Z",
+      "updatedAt": "2025-08-13T00:15:58.929Z"
+    }
+  ],
+  "timestamp": 1755044158932,
+  "ttl": 86400000,
+  "key": "holiday:GM:2029"
+}

@@ -1,0 +1,175 @@
+{
+  "data": [
+    {
+      "id": "BR-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-02-12-1",
+      "name": "Carnival",
+      "date": "2029-02-12",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-02-13-2",
+      "name": "Carnival",
+      "date": "2029-02-13",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-03-30-3",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-04-01-4",
+      "name": "Easter Sunday",
+      "date": "2029-04-01",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-04-21-5",
+      "name": "Tiradentes",
+      "date": "2029-04-21",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-05-01-6",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-05-31-7",
+      "name": "Corpus Christi",
+      "date": "2029-05-31",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-07-09-8",
+      "name": "Constitutionalist Revolution of 1932",
+      "date": "2029-07-09",
+      "country": "",
+      "countryCode": "BR",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "BR-SP"
+      ],
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-09-07-9",
+      "name": "Independence Day",
+      "date": "2029-09-07",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-10-12-10",
+      "name": "Our Lady of Aparecida",
+      "date": "2029-10-12",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-11-02-11",
+      "name": "All Souls' Day",
+      "date": "2029-11-02",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-11-15-12",
+      "name": "Republic Proclamation Day",
+      "date": "2029-11-15",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-11-20-13",
+      "name": "Black Awareness Day",
+      "date": "2029-11-20",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    },
+    {
+      "id": "BR-2029-12-25-14",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:59.508Z",
+      "updatedAt": "2025-08-13T00:14:59.508Z"
+    }
+  ],
+  "timestamp": 1755044099509,
+  "ttl": 86400000,
+  "key": "holiday:BR:2029"
+}

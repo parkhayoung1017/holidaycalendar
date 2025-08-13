@@ -1,0 +1,129 @@
+{
+  "countryCode": "UA",
+  "year": 2027,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:09:11.489Z",
+  "holidays": [
+    {
+      "id": "UA-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-03-08-1",
+      "name": "International Women's Day",
+      "date": "2027-03-08",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-05-01-2",
+      "name": "International Workers' Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-05-02-3",
+      "name": "Easter Sunday",
+      "date": "2027-05-02",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-05-08-4",
+      "name": "Victory day over Nazism in World War II",
+      "date": "2027-05-08",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-06-20-5",
+      "name": "Pentecost",
+      "date": "2027-06-20",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-06-28-6",
+      "name": "Constitution Day",
+      "date": "2027-06-28",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-07-15-7",
+      "name": "Statehood Day",
+      "date": "2027-07-15",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-08-24-8",
+      "name": "Independence Day",
+      "date": "2027-08-24",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-10-01-9",
+      "name": "Defender of Ukraine Day",
+      "date": "2027-10-01",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    },
+    {
+      "id": "UA-2027-12-25-10",
+      "name": "(Gregorian and Revised Julian) Christmas",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:11.489Z",
+      "updatedAt": "2025-08-13T00:09:11.489Z"
+    }
+  ]
+}

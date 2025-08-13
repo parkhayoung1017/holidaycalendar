@@ -1,0 +1,85 @@
+{
+  "countryCode": "TR",
+  "year": 2030,
+  "totalHolidays": 7,
+  "lastUpdated": "2025-08-13T00:23:41.546Z",
+  "holidays": [
+    {
+      "id": "TR-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:41.546Z",
+      "updatedAt": "2025-08-13T00:23:41.546Z"
+    },
+    {
+      "id": "TR-2030-04-23-1",
+      "name": "National Independence & Children's Day",
+      "date": "2030-04-23",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:41.546Z",
+      "updatedAt": "2025-08-13T00:23:41.546Z"
+    },
+    {
+      "id": "TR-2030-05-01-2",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:41.546Z",
+      "updatedAt": "2025-08-13T00:23:41.546Z"
+    },
+    {
+      "id": "TR-2030-05-19-3",
+      "name": "Atatürk Commemoration & Youth Day",
+      "date": "2030-05-19",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:41.546Z",
+      "updatedAt": "2025-08-13T00:23:41.546Z"
+    },
+    {
+      "id": "TR-2030-07-15-4",
+      "name": "Democracy and National Unity Day",
+      "date": "2030-07-15",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:41.546Z",
+      "updatedAt": "2025-08-13T00:23:41.546Z"
+    },
+    {
+      "id": "TR-2030-08-30-5",
+      "name": "Victory Day",
+      "date": "2030-08-30",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:41.546Z",
+      "updatedAt": "2025-08-13T00:23:41.546Z"
+    },
+    {
+      "id": "TR-2030-10-29-6",
+      "name": "Republic Day",
+      "date": "2030-10-29",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:41.546Z",
+      "updatedAt": "2025-08-13T00:23:41.546Z"
+    }
+  ]
+}

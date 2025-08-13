@@ -1,0 +1,162 @@
+{
+  "countryCode": "BJ",
+  "year": 2028,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:10:02.874Z",
+  "holidays": [
+    {
+      "id": "BJ-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-01-10-1",
+      "name": "Traditional Day",
+      "date": "2028-01-10",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-04-16-2",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-04-17-3",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-05-01-4",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-05-25-5",
+      "name": "Ascension Day",
+      "date": "2028-05-25",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-06-05-6",
+      "name": "Whit Monday",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-08-01-7",
+      "name": "Independence Day",
+      "date": "2028-08-01",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-08-15-8",
+      "name": "Assumption Day",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-10-26-9",
+      "name": "Armed Forces Day",
+      "date": "2028-10-26",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-11-01-10",
+      "name": "All Saints' Day",
+      "date": "2028-11-01",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-11-30-11",
+      "name": "National Day",
+      "date": "2028-11-30",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-12-25-12",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    },
+    {
+      "id": "BJ-2028-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "BJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:02.874Z",
+      "updatedAt": "2025-08-13T00:10:02.874Z"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "CR-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-03-25-1",
+      "name": "Maundy Thursday",
+      "date": "2027-03-25",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-03-26-2",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-04-11-3",
+      "name": "Juan Santamaría Day",
+      "date": "2027-04-11",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-05-01-4",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-07-25-5",
+      "name": "Annexation of the Party of Nicoya to Costa Rica",
+      "date": "2027-07-25",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-08-02-6",
+      "name": "Feast of Our Lady of the Angels",
+      "date": "2027-08-02",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-08-15-7",
+      "name": "Mother's Day",
+      "date": "2027-08-15",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-09-15-8",
+      "name": "Independence Day",
+      "date": "2027-09-15",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-12-01-9",
+      "name": "Army Abolition Day",
+      "date": "2027-12-01",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    },
+    {
+      "id": "CR-2027-12-25-10",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:05.497Z",
+      "updatedAt": "2025-08-13T00:06:05.497Z"
+    }
+  ],
+  "timestamp": 1755043565514,
+  "ttl": 86400000,
+  "key": "holiday:CR:2027"
+}

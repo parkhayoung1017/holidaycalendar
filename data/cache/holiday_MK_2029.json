@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "MK-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-01-07-1",
+      "name": "Christmas Day",
+      "date": "2029-01-07",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-04-06-2",
+      "name": "Good Friday",
+      "date": "2029-04-06",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-04-08-3",
+      "name": "Easter Sunday",
+      "date": "2029-04-08",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-04-09-4",
+      "name": "Easter Monday",
+      "date": "2029-04-09",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-05-01-5",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-05-24-6",
+      "name": "Saints Cyril and Methodius Day",
+      "date": "2029-05-24",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-08-02-7",
+      "name": "Day of the Republic",
+      "date": "2029-08-02",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-09-08-8",
+      "name": "Independence Day",
+      "date": "2029-09-08",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-10-11-9",
+      "name": "Revolution Day",
+      "date": "2029-10-11",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-10-23-10",
+      "name": "Day of the Macedonian Revolutionary Struggle",
+      "date": "2029-10-23",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    },
+    {
+      "id": "MK-2029-12-08-11",
+      "name": "Saint Clement of Ohrid Day",
+      "date": "2029-12-08",
+      "country": "",
+      "countryCode": "MK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:10.202Z",
+      "updatedAt": "2025-08-13T00:17:10.202Z"
+    }
+  ],
+  "timestamp": 1755044230203,
+  "ttl": 86400000,
+  "key": "holiday:MK:2029"
+}

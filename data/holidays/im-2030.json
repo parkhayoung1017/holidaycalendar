@@ -1,0 +1,118 @@
+{
+  "countryCode": "IM",
+  "year": 2030,
+  "totalHolidays": 10,
+  "lastUpdated": "2025-08-13T00:21:15.046Z",
+  "holidays": [
+    {
+      "id": "IM-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    },
+    {
+      "id": "IM-2030-04-19-1",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    },
+    {
+      "id": "IM-2030-04-22-2",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    },
+    {
+      "id": "IM-2030-05-06-3",
+      "name": "Early May Bank Holiday",
+      "date": "2030-05-06",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    },
+    {
+      "id": "IM-2030-05-27-4",
+      "name": "Spring Bank Holiday",
+      "date": "2030-05-27",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    },
+    {
+      "id": "IM-2030-06-07-5",
+      "name": "Senior Race Day",
+      "date": "2030-06-07",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    },
+    {
+      "id": "IM-2030-07-05-6",
+      "name": "Tynwald Day",
+      "date": "2030-07-05",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    },
+    {
+      "id": "IM-2030-08-26-7",
+      "name": "Late Summer Bank Holiday",
+      "date": "2030-08-26",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    },
+    {
+      "id": "IM-2030-12-25-8",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    },
+    {
+      "id": "IM-2030-12-26-9",
+      "name": "Boxing Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:15.046Z",
+      "updatedAt": "2025-08-13T00:21:15.046Z"
+    }
+  ]
+}

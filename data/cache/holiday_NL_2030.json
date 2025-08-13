@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "NL-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-04-19-1",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-04-21-2",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-04-27-4",
+      "name": "King's Day",
+      "date": "2030-04-27",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-05-05-5",
+      "name": "Liberation Day",
+      "date": "2030-05-05",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-05-30-6",
+      "name": "Ascension Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-06-09-7",
+      "name": "Pentecost",
+      "date": "2030-06-09",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-06-10-8",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-12-25-9",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    },
+    {
+      "id": "NL-2030-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "NL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:29.219Z",
+      "updatedAt": "2025-08-13T00:22:29.219Z"
+    }
+  ],
+  "timestamp": 1755044549220,
+  "ttl": 86400000,
+  "key": "holiday:NL:2030"
+}

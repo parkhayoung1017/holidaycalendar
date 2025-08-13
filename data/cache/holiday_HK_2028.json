@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "id": "HK-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-01-26-1",
+      "name": "Lunar New Year",
+      "date": "2028-01-26",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-01-27-2",
+      "name": "Second day of Lunar New Year",
+      "date": "2028-01-27",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-01-28-3",
+      "name": "Third day of Lunar New Year",
+      "date": "2028-01-28",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-04-04-4",
+      "name": "Ching Ming Festival",
+      "date": "2028-04-04",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-04-14-5",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-04-15-6",
+      "name": "Holy Saturday",
+      "date": "2028-04-15",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-04-17-7",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-05-01-8",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-05-02-9",
+      "name": "Buddha's Birthday",
+      "date": "2028-05-02",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-05-29-10",
+      "name": "Dragon Boat Festival",
+      "date": "2028-05-29",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-07-01-11",
+      "name": "Hong Kong Special Administrative Region Establishment Day",
+      "date": "2028-07-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-10-02-12",
+      "name": "National Day",
+      "date": "2028-10-02",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-10-04-13",
+      "name": "Day following the Mid-Autumn Festival",
+      "date": "2028-10-04",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-10-26-14",
+      "name": "Chung Yeung Festival",
+      "date": "2028-10-26",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-12-25-15",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    },
+    {
+      "id": "HK-2028-12-26-16",
+      "name": "Boxing Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:17.628Z",
+      "updatedAt": "2025-08-13T00:11:17.628Z"
+    }
+  ],
+  "timestamp": 1755043877629,
+  "ttl": 86400000,
+  "key": "holiday:HK:2028"
+}

@@ -1,0 +1,173 @@
+{
+  "countryCode": "GR",
+  "year": 2026,
+  "totalHolidays": 15,
+  "lastUpdated": "2025-08-13T00:02:09.435Z",
+  "holidays": [
+    {
+      "id": "GR-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.434Z",
+      "updatedAt": "2025-08-13T00:02:09.434Z"
+    },
+    {
+      "id": "GR-2026-01-06-1",
+      "name": "Epiphany",
+      "date": "2026-01-06",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.434Z",
+      "updatedAt": "2025-08-13T00:02:09.434Z"
+    },
+    {
+      "id": "GR-2026-02-23-2",
+      "name": "Clean Monday",
+      "date": "2026-02-23",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.434Z",
+      "updatedAt": "2025-08-13T00:02:09.434Z"
+    },
+    {
+      "id": "GR-2026-03-25-3",
+      "name": "Annunciation",
+      "date": "2026-03-25",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.434Z",
+      "updatedAt": "2025-08-13T00:02:09.434Z"
+    },
+    {
+      "id": "GR-2026-03-25-4",
+      "name": "Independence Day",
+      "date": "2026-03-25",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.434Z",
+      "updatedAt": "2025-08-13T00:02:09.434Z"
+    },
+    {
+      "id": "GR-2026-04-10-5",
+      "name": "Good Friday",
+      "date": "2026-04-10",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.434Z",
+      "updatedAt": "2025-08-13T00:02:09.434Z"
+    },
+    {
+      "id": "GR-2026-04-12-6",
+      "name": "Easter Sunday",
+      "date": "2026-04-12",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.434Z",
+      "updatedAt": "2025-08-13T00:02:09.434Z"
+    },
+    {
+      "id": "GR-2026-04-13-7",
+      "name": "Easter Monday",
+      "date": "2026-04-13",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.434Z",
+      "updatedAt": "2025-08-13T00:02:09.435Z"
+    },
+    {
+      "id": "GR-2026-05-01-8",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.435Z",
+      "updatedAt": "2025-08-13T00:02:09.435Z"
+    },
+    {
+      "id": "GR-2026-05-31-9",
+      "name": "Pentecost",
+      "date": "2026-05-31",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.435Z",
+      "updatedAt": "2025-08-13T00:02:09.435Z"
+    },
+    {
+      "id": "GR-2026-06-01-10",
+      "name": "Whit Monday",
+      "date": "2026-06-01",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.435Z",
+      "updatedAt": "2025-08-13T00:02:09.435Z"
+    },
+    {
+      "id": "GR-2026-08-15-11",
+      "name": "Assumption Day",
+      "date": "2026-08-15",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.435Z",
+      "updatedAt": "2025-08-13T00:02:09.435Z"
+    },
+    {
+      "id": "GR-2026-10-28-12",
+      "name": "Ochi Day",
+      "date": "2026-10-28",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.435Z",
+      "updatedAt": "2025-08-13T00:02:09.435Z"
+    },
+    {
+      "id": "GR-2026-12-25-13",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.435Z",
+      "updatedAt": "2025-08-13T00:02:09.435Z"
+    },
+    {
+      "id": "GR-2026-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:09.435Z",
+      "updatedAt": "2025-08-13T00:02:09.435Z"
+    }
+  ]
+}

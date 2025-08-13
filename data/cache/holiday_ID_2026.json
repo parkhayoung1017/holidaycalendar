@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "id": "ID-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:22.742Z",
+      "updatedAt": "2025-08-13T00:02:22.742Z"
+    },
+    {
+      "id": "ID-2026-04-03-1",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:22.742Z",
+      "updatedAt": "2025-08-13T00:02:22.742Z"
+    },
+    {
+      "id": "ID-2026-04-05-2",
+      "name": "Easter Sunday",
+      "date": "2026-04-05",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:22.742Z",
+      "updatedAt": "2025-08-13T00:02:22.742Z"
+    },
+    {
+      "id": "ID-2026-05-01-3",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:22.742Z",
+      "updatedAt": "2025-08-13T00:02:22.742Z"
+    },
+    {
+      "id": "ID-2026-05-14-4",
+      "name": "Ascension Day",
+      "date": "2026-05-14",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:22.742Z",
+      "updatedAt": "2025-08-13T00:02:22.742Z"
+    },
+    {
+      "id": "ID-2026-06-01-5",
+      "name": "Pancasila Day",
+      "date": "2026-06-01",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:22.742Z",
+      "updatedAt": "2025-08-13T00:02:22.742Z"
+    },
+    {
+      "id": "ID-2026-08-17-6",
+      "name": "Independence Day",
+      "date": "2026-08-17",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:22.742Z",
+      "updatedAt": "2025-08-13T00:02:22.742Z"
+    },
+    {
+      "id": "ID-2026-12-25-7",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:22.742Z",
+      "updatedAt": "2025-08-13T00:02:22.742Z"
+    }
+  ],
+  "timestamp": 1755043342743,
+  "ttl": 86400000,
+  "key": "holiday:ID:2026"
+}

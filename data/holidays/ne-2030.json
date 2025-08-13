@@ -1,0 +1,85 @@
+{
+  "countryCode": "NE",
+  "year": 2030,
+  "totalHolidays": 7,
+  "lastUpdated": "2025-08-13T00:22:25.312Z",
+  "holidays": [
+    {
+      "id": "NE-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:25.311Z",
+      "updatedAt": "2025-08-13T00:22:25.311Z"
+    },
+    {
+      "id": "NE-2030-04-22-1",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:25.311Z",
+      "updatedAt": "2025-08-13T00:22:25.311Z"
+    },
+    {
+      "id": "NE-2030-04-24-2",
+      "name": "Concord Day",
+      "date": "2030-04-24",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:25.311Z",
+      "updatedAt": "2025-08-13T00:22:25.311Z"
+    },
+    {
+      "id": "NE-2030-05-01-3",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:25.311Z",
+      "updatedAt": "2025-08-13T00:22:25.311Z"
+    },
+    {
+      "id": "NE-2030-08-03-4",
+      "name": "Nigerien Independence Day",
+      "date": "2030-08-03",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:25.311Z",
+      "updatedAt": "2025-08-13T00:22:25.311Z"
+    },
+    {
+      "id": "NE-2030-12-18-5",
+      "name": "Nigerien Republic Day",
+      "date": "2030-12-18",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:25.311Z",
+      "updatedAt": "2025-08-13T00:22:25.311Z"
+    },
+    {
+      "id": "NE-2030-12-25-6",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "NE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:25.312Z",
+      "updatedAt": "2025-08-13T00:22:25.312Z"
+    }
+  ]
+}

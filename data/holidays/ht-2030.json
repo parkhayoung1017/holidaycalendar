@@ -1,0 +1,228 @@
+{
+  "countryCode": "HT",
+  "year": 2030,
+  "totalHolidays": 20,
+  "lastUpdated": "2025-08-13T00:21:08.288Z",
+  "holidays": [
+    {
+      "id": "HT-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-01-02-1",
+      "name": "Ancestry Day",
+      "date": "2030-01-02",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-01-06-2",
+      "name": "Epiphany",
+      "date": "2030-01-06",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-03-04-3",
+      "name": "Carnival",
+      "date": "2030-03-04",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-03-05-4",
+      "name": "Carnival",
+      "date": "2030-03-05",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-03-06-5",
+      "name": "Ash Wednesday",
+      "date": "2030-03-06",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-04-18-6",
+      "name": "Maundy Thursday",
+      "date": "2030-04-18",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-04-19-7",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-04-21-8",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-05-01-9",
+      "name": "Labour and Agriculture Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-05-18-10",
+      "name": "Flag and Universities Day",
+      "date": "2030-05-18",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-05-30-11",
+      "name": "Ascension Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-06-20-12",
+      "name": "Corpus Christi",
+      "date": "2030-06-20",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-08-15-13",
+      "name": "Assumption of Mary",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-10-17-14",
+      "name": "Dessalines Day",
+      "date": "2030-10-17",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-11-01-15",
+      "name": "All Saints Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-11-02-16",
+      "name": "All Souls' Day",
+      "date": "2030-11-02",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-11-18-17",
+      "name": "Battle of Vertières Day",
+      "date": "2030-11-18",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-12-05-18",
+      "name": "Discovery Day",
+      "date": "2030-12-05",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    },
+    {
+      "id": "HT-2030-12-25-19",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:08.288Z",
+      "updatedAt": "2025-08-13T00:21:08.288Z"
+    }
+  ]
+}

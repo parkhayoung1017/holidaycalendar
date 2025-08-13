@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "id": "CZ-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-04-19-1",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-04-22-2",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-05-01-3",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-05-08-4",
+      "name": "Liberation Day",
+      "date": "2030-05-08",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-07-05-5",
+      "name": "Saints Cyril and Methodius Day",
+      "date": "2030-07-05",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-07-06-6",
+      "name": "Jan Hus Day",
+      "date": "2030-07-06",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-09-28-7",
+      "name": "St. Wenceslas Day",
+      "date": "2030-09-28",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-10-28-8",
+      "name": "Independent Czechoslovak State Day",
+      "date": "2030-10-28",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-11-17-9",
+      "name": "Struggle for Freedom and Democracy Day",
+      "date": "2030-11-17",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-12-24-10",
+      "name": "Christmas Eve",
+      "date": "2030-12-24",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-12-25-11",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    },
+    {
+      "id": "CZ-2030-12-26-12",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:19.456Z",
+      "updatedAt": "2025-08-13T00:20:19.456Z"
+    }
+  ],
+  "timestamp": 1755044419459,
+  "ttl": 86400000,
+  "key": "holiday:CZ:2030"
+}

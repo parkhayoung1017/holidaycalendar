@@ -1,0 +1,118 @@
+{
+  "countryCode": "BY",
+  "year": 2028,
+  "totalHolidays": 10,
+  "lastUpdated": "2025-08-13T00:10:12.074Z",
+  "holidays": [
+    {
+      "id": "BY-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    },
+    {
+      "id": "BY-2028-01-02-1",
+      "name": "New Year's Day",
+      "date": "2028-01-02",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    },
+    {
+      "id": "BY-2028-01-07-2",
+      "name": "Orthodox Christmas Day",
+      "date": "2028-01-07",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    },
+    {
+      "id": "BY-2028-03-08-3",
+      "name": "International Women's Day",
+      "date": "2028-03-08",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    },
+    {
+      "id": "BY-2028-04-25-4",
+      "name": "Commemoration Day",
+      "date": "2028-04-25",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    },
+    {
+      "id": "BY-2028-05-01-5",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    },
+    {
+      "id": "BY-2028-05-09-6",
+      "name": "Victory Day",
+      "date": "2028-05-09",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    },
+    {
+      "id": "BY-2028-07-03-7",
+      "name": "Independence Day",
+      "date": "2028-07-03",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    },
+    {
+      "id": "BY-2028-11-07-8",
+      "name": "October Revolution Day",
+      "date": "2028-11-07",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    },
+    {
+      "id": "BY-2028-12-25-9",
+      "name": "Catholic Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "BY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:12.074Z",
+      "updatedAt": "2025-08-13T00:10:12.074Z"
+    }
+  ]
+}

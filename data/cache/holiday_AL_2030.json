@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "AL-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-01-02-1",
+      "name": "New Year's Day",
+      "date": "2030-01-02",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-03-14-2",
+      "name": "Summer Day",
+      "date": "2030-03-14",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-03-22-3",
+      "name": "Nowruz",
+      "date": "2030-03-22",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-04-21-4",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-04-22-5",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-04-28-6",
+      "name": "Easter Sunday",
+      "date": "2030-04-28",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-04-29-7",
+      "name": "Easter Monday",
+      "date": "2030-04-29",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-05-01-8",
+      "name": "May Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-09-05-9",
+      "name": "Mother Teresa Day",
+      "date": "2030-09-05",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-11-28-10",
+      "name": "Independence Day",
+      "date": "2030-11-28",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-11-29-11",
+      "name": "Liberation Day",
+      "date": "2030-11-29",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-12-09-12",
+      "name": "Youth Day",
+      "date": "2030-12-09",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    },
+    {
+      "id": "AL-2030-12-25-13",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "AL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:27.895Z",
+      "updatedAt": "2025-08-13T00:19:27.895Z"
+    }
+  ],
+  "timestamp": 1755044367896,
+  "ttl": 86400000,
+  "key": "holiday:AL:2030"
+}

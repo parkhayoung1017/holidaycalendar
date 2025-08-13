@@ -1,0 +1,184 @@
+{
+  "countryCode": "IS",
+  "year": 2026,
+  "totalHolidays": 16,
+  "lastUpdated": "2025-08-13T00:02:32.762Z",
+  "holidays": [
+    {
+      "id": "IS-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-04-02-1",
+      "name": "Maundy Thursday",
+      "date": "2026-04-02",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-04-03-2",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-04-05-3",
+      "name": "Easter Sunday",
+      "date": "2026-04-05",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-04-06-4",
+      "name": "Easter Monday",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-04-23-5",
+      "name": "First Day of Summer",
+      "date": "2026-04-23",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-05-01-6",
+      "name": "May Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-05-14-7",
+      "name": "Ascension Day",
+      "date": "2026-05-14",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-05-24-8",
+      "name": "Pentecost",
+      "date": "2026-05-24",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-05-25-9",
+      "name": "Whit Monday",
+      "date": "2026-05-25",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-06-17-10",
+      "name": "Icelandic National Day",
+      "date": "2026-06-17",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-08-03-11",
+      "name": "Commerce Day",
+      "date": "2026-08-03",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-12-24-12",
+      "name": "Christmas Eve",
+      "date": "2026-12-24",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-12-25-13",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    },
+    {
+      "id": "IS-2026-12-31-15",
+      "name": "New Year's Eve",
+      "date": "2026-12-31",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:32.761Z",
+      "updatedAt": "2025-08-13T00:02:32.761Z"
+    }
+  ]
+}

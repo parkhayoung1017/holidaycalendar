@@ -1,0 +1,129 @@
+{
+  "countryCode": "RS",
+  "year": 2029,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:18:03.143Z",
+  "holidays": [
+    {
+      "id": "RS-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-01-02-1",
+      "name": "New Year's Day",
+      "date": "2029-01-02",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-01-07-2",
+      "name": "Christmas Day",
+      "date": "2029-01-07",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-02-15-3",
+      "name": "Statehood Day",
+      "date": "2029-02-15",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-02-16-4",
+      "name": "Statehood Day",
+      "date": "2029-02-16",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-04-06-5",
+      "name": "Good Friday",
+      "date": "2029-04-06",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-04-08-6",
+      "name": "Easter Sunday",
+      "date": "2029-04-08",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-04-09-7",
+      "name": "Easter Monday",
+      "date": "2029-04-09",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-05-01-8",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-05-02-9",
+      "name": "Labour Day",
+      "date": "2029-05-02",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    },
+    {
+      "id": "RS-2029-11-11-10",
+      "name": "Armistice Day",
+      "date": "2029-11-11",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:03.143Z",
+      "updatedAt": "2025-08-13T00:18:03.143Z"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "countryCode": "BG",
+  "year": 2030,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:19:43.809Z",
+  "holidays": [
+    {
+      "id": "BG-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-03-04-1",
+      "name": "Liberation Day",
+      "date": "2030-03-04",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-04-26-2",
+      "name": "Good Friday",
+      "date": "2030-04-26",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-04-27-3",
+      "name": "Holy Saturday",
+      "date": "2030-04-27",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-04-28-4",
+      "name": "Easter Sunday",
+      "date": "2030-04-28",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-04-29-5",
+      "name": "Easter Monday",
+      "date": "2030-04-29",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-05-01-6",
+      "name": "International Workers' Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-05-06-7",
+      "name": "Saint George's Day",
+      "date": "2030-05-06",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-05-24-8",
+      "name": "Saints Cyril and Methodius Day",
+      "date": "2030-05-24",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-09-06-9",
+      "name": "Unification Day",
+      "date": "2030-09-06",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-09-23-10",
+      "name": "Independence Day",
+      "date": "2030-09-23",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-12-24-11",
+      "name": "Christmas Eve",
+      "date": "2030-12-24",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-12-25-12",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    },
+    {
+      "id": "BG-2030-12-26-13",
+      "name": "Second day of Christmas",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:43.809Z",
+      "updatedAt": "2025-08-13T00:19:43.809Z"
+    }
+  ]
+}

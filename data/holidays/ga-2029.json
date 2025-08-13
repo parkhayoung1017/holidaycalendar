@@ -1,0 +1,129 @@
+{
+  "countryCode": "GA",
+  "year": 2029,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:15:48.325Z",
+  "holidays": [
+    {
+      "id": "GA-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-03-12-1",
+      "name": "Renovation Day",
+      "date": "2029-03-12",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-04-02-2",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-04-17-3",
+      "name": "Women's Day",
+      "date": "2029-04-17",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-05-01-4",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-05-06-5",
+      "name": "Martyr's Day",
+      "date": "2029-05-06",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-05-21-6",
+      "name": "Whit Monday",
+      "date": "2029-05-21",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-08-15-7",
+      "name": "Assumption Day",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-08-17-8",
+      "name": "Independence Day",
+      "date": "2029-08-17",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2029-11-01",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    },
+    {
+      "id": "GA-2029-12-25-10",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "GA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:48.325Z",
+      "updatedAt": "2025-08-13T00:15:48.325Z"
+    }
+  ]
+}

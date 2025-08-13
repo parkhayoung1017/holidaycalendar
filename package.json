@@ -17,6 +17,8 @@
     "collect-data": "tsx scripts/collect-holiday-data.ts",
     "collect-all": "tsx scripts/collect-holiday-data.ts --all",
     "collect-current-year": "tsx scripts/collect-holiday-data.ts --all --year $(date +%Y)",
+    "collect-future-data": "tsx collect-future-data-2026-2030.ts",
+    "collect-2026-2030": "tsx collect-future-data-2026-2030.ts",
     "test-collector": "tsx scripts/test-data-collector.ts",
     "generate-sitemap": "tsx scripts/generate-sitemap.ts",
     "seo-setup": "npm run generate-sitemap",

@@ -1,0 +1,302 @@
+{
+  "countryCode": "NZ",
+  "year": 2030,
+  "totalHolidays": 23,
+  "lastUpdated": "2025-08-13T00:22:35.809Z",
+  "holidays": [
+    {
+      "id": "NZ-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-01-02-1",
+      "name": "Day after New Year's Day",
+      "date": "2030-01-02",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-01-21-2",
+      "name": "Wellington Anniversary Day",
+      "date": "2030-01-21",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-WGN",
+        "NZ-MWT"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-01-28-3",
+      "name": "Auckland Anniversary Day",
+      "date": "2030-01-28",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-AUK",
+        "NZ-NTL",
+        "NZ-WKO",
+        "NZ-GIS",
+        "NZ-BOP"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-02-04-4",
+      "name": "Nelson Anniversary Day",
+      "date": "2030-02-04",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-NSN"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-02-06-5",
+      "name": "Waitangi Day",
+      "date": "2030-02-06",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-03-11-6",
+      "name": "Taranaki Anniversary Day",
+      "date": "2030-03-11",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-TKI"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-03-25-7",
+      "name": "Otago Anniversary Day",
+      "date": "2030-03-25",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-OTA"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-04-19-8",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-04-22-9",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-04-23-10",
+      "name": "Southland Anniversary Day",
+      "date": "2030-04-23",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-STL"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-04-25-11",
+      "name": "Anzac Day",
+      "date": "2030-04-25",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-06-03-12",
+      "name": "King's Birthday",
+      "date": "2030-06-03",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-06-21-13",
+      "name": "Matariki",
+      "date": "2030-06-21",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-09-23-14",
+      "name": "Canterbury (South) Anniversary Day",
+      "date": "2030-09-23",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-CAN"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-10-25-15",
+      "name": "Hawke's Bay Anniversary Day",
+      "date": "2030-10-25",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-HKB"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-10-28-16",
+      "name": "Labour Day",
+      "date": "2030-10-28",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-11-04-17",
+      "name": "Marlborough Anniversary Day",
+      "date": "2030-11-04",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-MBH"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-11-15-18",
+      "name": "Canterbury Anniversary Day",
+      "date": "2030-11-15",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-CAN"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-12-02-19",
+      "name": "Chatham Islands Anniversary Day",
+      "date": "2030-12-02",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-CIT"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-12-02-20",
+      "name": "Westland Anniversary Day",
+      "date": "2030-12-02",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "NZ-WTC"
+      ],
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-12-25-21",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    },
+    {
+      "id": "NZ-2030-12-26-22",
+      "name": "Boxing Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "NZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:35.809Z",
+      "updatedAt": "2025-08-13T00:22:35.809Z"
+    }
+  ]
+}

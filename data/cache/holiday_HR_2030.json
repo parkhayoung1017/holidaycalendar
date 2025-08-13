@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "HR-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-01-06-1",
+      "name": "Epiphany",
+      "date": "2030-01-06",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-04-21-2",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-05-01-4",
+      "name": "International Workers' Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-05-30-5",
+      "name": "National Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-06-20-6",
+      "name": "Corpus Christi",
+      "date": "2030-06-20",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-06-22-7",
+      "name": "Anti-Fascist Struggle Day",
+      "date": "2030-06-22",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-08-05-8",
+      "name": "Victory and Homeland Thanksgiving Day and the Day of Croatian defenders",
+      "date": "2030-08-05",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-08-15-9",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-11-01-10",
+      "name": "All Saints' Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-11-18-11",
+      "name": "Remembrance Day",
+      "date": "2030-11-18",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-12-25-12",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    },
+    {
+      "id": "HR-2030-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "HR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:06.970Z",
+      "updatedAt": "2025-08-13T00:21:06.970Z"
+    }
+  ],
+  "timestamp": 1755044466971,
+  "ttl": 86400000,
+  "key": "holiday:HR:2030"
+}

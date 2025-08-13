@@ -1,0 +1,186 @@
+{
+  "data": [
+    {
+      "id": "CL-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-04-19-1",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-04-20-2",
+      "name": "Holy Saturday",
+      "date": "2030-04-20",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-05-01-3",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-05-21-4",
+      "name": "Navy Day",
+      "date": "2030-05-21",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-06-07-5",
+      "name": "Battle of Arica",
+      "date": "2030-06-07",
+      "country": "",
+      "countryCode": "CL",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CL-AP"
+      ],
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-06-24-6",
+      "name": "Saint Peter and Saint Paul",
+      "date": "2030-06-24",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-07-16-7",
+      "name": "Our Lady of Mount Carmel",
+      "date": "2030-07-16",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-08-15-8",
+      "name": "Assumption of Mary",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-09-18-9",
+      "name": "National holiday",
+      "date": "2030-09-18",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-09-19-10",
+      "name": "Army Day",
+      "date": "2030-09-19",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-10-12-11",
+      "name": "Columbus Day",
+      "date": "2030-10-12",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-10-31-12",
+      "name": "Reformation Day",
+      "date": "2030-10-31",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-11-01-13",
+      "name": "All Saints",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-12-08-14",
+      "name": "Immaculate Conception",
+      "date": "2030-12-08",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    },
+    {
+      "id": "CL-2030-12-25-15",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "CL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:08.600Z",
+      "updatedAt": "2025-08-13T00:20:08.600Z"
+    }
+  ],
+  "timestamp": 1755044408601,
+  "ttl": 86400000,
+  "key": "holiday:CL:2030"
+}

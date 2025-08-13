@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "GR-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-01-06-1",
+      "name": "Epiphany",
+      "date": "2029-01-06",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-02-19-2",
+      "name": "Clean Monday",
+      "date": "2029-02-19",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-03-25-3",
+      "name": "Annunciation",
+      "date": "2029-03-25",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-03-25-4",
+      "name": "Independence Day",
+      "date": "2029-03-25",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-04-06-5",
+      "name": "Good Friday",
+      "date": "2029-04-06",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-04-08-6",
+      "name": "Easter Sunday",
+      "date": "2029-04-08",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-04-09-7",
+      "name": "Easter Monday",
+      "date": "2029-04-09",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-05-01-8",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-05-27-9",
+      "name": "Pentecost",
+      "date": "2029-05-27",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-05-28-10",
+      "name": "Whit Monday",
+      "date": "2029-05-28",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-08-15-11",
+      "name": "Assumption Day",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-10-28-12",
+      "name": "Ochi Day",
+      "date": "2029-10-28",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-12-25-13",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    },
+    {
+      "id": "GR-2029-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "GR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:02.984Z",
+      "updatedAt": "2025-08-13T00:16:02.984Z"
+    }
+  ],
+  "timestamp": 1755044162985,
+  "ttl": 86400000,
+  "key": "holiday:GR:2029"
+}

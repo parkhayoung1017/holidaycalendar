@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "GM-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:38.507Z",
+      "updatedAt": "2025-08-13T00:06:38.507Z"
+    },
+    {
+      "id": "GM-2027-02-18-1",
+      "name": "Independence Day",
+      "date": "2027-02-18",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:38.507Z",
+      "updatedAt": "2025-08-13T00:06:38.507Z"
+    },
+    {
+      "id": "GM-2027-03-26-2",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:38.507Z",
+      "updatedAt": "2025-08-13T00:06:38.507Z"
+    },
+    {
+      "id": "GM-2027-03-29-3",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:38.507Z",
+      "updatedAt": "2025-08-13T00:06:38.507Z"
+    },
+    {
+      "id": "GM-2027-05-01-4",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:38.507Z",
+      "updatedAt": "2025-08-13T00:06:38.507Z"
+    },
+    {
+      "id": "GM-2027-05-25-5",
+      "name": "Africa Day",
+      "date": "2027-05-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:38.507Z",
+      "updatedAt": "2025-08-13T00:06:38.507Z"
+    },
+    {
+      "id": "GM-2027-07-22-6",
+      "name": "Revolution Day",
+      "date": "2027-07-22",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:38.507Z",
+      "updatedAt": "2025-08-13T00:06:38.507Z"
+    },
+    {
+      "id": "GM-2027-08-15-7",
+      "name": "Assumption Day",
+      "date": "2027-08-15",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:38.507Z",
+      "updatedAt": "2025-08-13T00:06:38.507Z"
+    },
+    {
+      "id": "GM-2027-12-25-8",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:38.507Z",
+      "updatedAt": "2025-08-13T00:06:38.507Z"
+    }
+  ],
+  "timestamp": 1755043598508,
+  "ttl": 86400000,
+  "key": "holiday:GM:2027"
+}

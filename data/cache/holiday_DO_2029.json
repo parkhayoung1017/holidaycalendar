@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "id": "DO-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-01-06-1",
+      "name": "Day of Kings",
+      "date": "2029-01-06",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-01-21-2",
+      "name": "Our Lady of Altagracia",
+      "date": "2029-01-21",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-01-26-3",
+      "name": "Duarte's Birthday",
+      "date": "2029-01-26",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-02-27-4",
+      "name": "Independence Day",
+      "date": "2029-02-27",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-03-30-5",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-05-01-6",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-05-28-7",
+      "name": "Mother's Day",
+      "date": "2029-05-28",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-05-31-8",
+      "name": "Corpus Christi",
+      "date": "2029-05-31",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-08-16-9",
+      "name": "Restoration Day",
+      "date": "2029-08-16",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-09-24-10",
+      "name": "Our Lady of Mercy",
+      "date": "2029-09-24",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-11-06-11",
+      "name": "Constitution Day",
+      "date": "2029-11-06",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    },
+    {
+      "id": "DO-2029-12-25-12",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:32.526Z",
+      "updatedAt": "2025-08-13T00:15:32.526Z"
+    }
+  ],
+  "timestamp": 1755044132526,
+  "ttl": 86400000,
+  "key": "holiday:DO:2029"
+}

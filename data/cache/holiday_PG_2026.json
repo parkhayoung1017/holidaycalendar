@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "PG-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-04-03-1",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-04-04-2",
+      "name": "Holy Saturday",
+      "date": "2026-04-04",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-04-05-3",
+      "name": "Easter Sunday",
+      "date": "2026-04-05",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-04-06-4",
+      "name": "Easter Monday",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-06-08-5",
+      "name": "Queen's Birthday",
+      "date": "2026-06-08",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-07-23-6",
+      "name": "Remembrance Day",
+      "date": "2026-07-23",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-08-26-7",
+      "name": "Repentance Day",
+      "date": "2026-08-26",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-09-16-8",
+      "name": "Independence Day",
+      "date": "2026-09-16",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-12-25-9",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    },
+    {
+      "id": "PG-2026-12-26-10",
+      "name": "Boxing Day",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:52.045Z",
+      "updatedAt": "2025-08-13T00:03:52.045Z"
+    }
+  ],
+  "timestamp": 1755043432046,
+  "ttl": 86400000,
+  "key": "holiday:PG:2026"
+}

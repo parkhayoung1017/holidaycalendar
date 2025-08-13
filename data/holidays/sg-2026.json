@@ -1,0 +1,118 @@
+{
+  "countryCode": "SG",
+  "year": 2026,
+  "totalHolidays": 10,
+  "lastUpdated": "2025-08-13T00:04:16.795Z",
+  "holidays": [
+    {
+      "id": "SG-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.794Z",
+      "updatedAt": "2025-08-13T00:04:16.794Z"
+    },
+    {
+      "id": "SG-2026-02-17-1",
+      "name": "Chinese New Year",
+      "date": "2026-02-17",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.794Z",
+      "updatedAt": "2025-08-13T00:04:16.795Z"
+    },
+    {
+      "id": "SG-2026-02-18-2",
+      "name": "Chinese New Year",
+      "date": "2026-02-18",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.795Z",
+      "updatedAt": "2025-08-13T00:04:16.795Z"
+    },
+    {
+      "id": "SG-2026-03-20-3",
+      "name": "Hari Raya Puasa",
+      "date": "2026-03-20",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.795Z",
+      "updatedAt": "2025-08-13T00:04:16.795Z"
+    },
+    {
+      "id": "SG-2026-04-03-4",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.795Z",
+      "updatedAt": "2025-08-13T00:04:16.795Z"
+    },
+    {
+      "id": "SG-2026-05-01-5",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.795Z",
+      "updatedAt": "2025-08-13T00:04:16.795Z"
+    },
+    {
+      "id": "SG-2026-05-27-6",
+      "name": "Hari Raya Haji (Tentative Date)",
+      "date": "2026-05-27",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.795Z",
+      "updatedAt": "2025-08-13T00:04:16.795Z"
+    },
+    {
+      "id": "SG-2026-08-10-7",
+      "name": "National Day",
+      "date": "2026-08-10",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.795Z",
+      "updatedAt": "2025-08-13T00:04:16.795Z"
+    },
+    {
+      "id": "SG-2026-11-09-8",
+      "name": "Deepavali",
+      "date": "2026-11-09",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.795Z",
+      "updatedAt": "2025-08-13T00:04:16.795Z"
+    },
+    {
+      "id": "SG-2026-12-25-9",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:16.795Z",
+      "updatedAt": "2025-08-13T00:04:16.795Z"
+    }
+  ]
+}

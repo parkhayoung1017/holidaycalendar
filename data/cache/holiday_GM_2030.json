@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "GM-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:53.266Z",
+      "updatedAt": "2025-08-13T00:20:53.266Z"
+    },
+    {
+      "id": "GM-2030-02-18-1",
+      "name": "Independence Day",
+      "date": "2030-02-18",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:53.266Z",
+      "updatedAt": "2025-08-13T00:20:53.266Z"
+    },
+    {
+      "id": "GM-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:53.266Z",
+      "updatedAt": "2025-08-13T00:20:53.266Z"
+    },
+    {
+      "id": "GM-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:53.266Z",
+      "updatedAt": "2025-08-13T00:20:53.266Z"
+    },
+    {
+      "id": "GM-2030-05-01-4",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:53.266Z",
+      "updatedAt": "2025-08-13T00:20:53.266Z"
+    },
+    {
+      "id": "GM-2030-05-25-5",
+      "name": "Africa Day",
+      "date": "2030-05-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:53.266Z",
+      "updatedAt": "2025-08-13T00:20:53.266Z"
+    },
+    {
+      "id": "GM-2030-07-22-6",
+      "name": "Revolution Day",
+      "date": "2030-07-22",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:53.266Z",
+      "updatedAt": "2025-08-13T00:20:53.266Z"
+    },
+    {
+      "id": "GM-2030-08-15-7",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:53.266Z",
+      "updatedAt": "2025-08-13T00:20:53.266Z"
+    },
+    {
+      "id": "GM-2030-12-25-8",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:53.266Z",
+      "updatedAt": "2025-08-13T00:20:53.266Z"
+    }
+  ],
+  "timestamp": 1755044453266,
+  "ttl": 86400000,
+  "key": "holiday:GM:2030"
+}

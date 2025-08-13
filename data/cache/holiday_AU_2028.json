@@ -1,0 +1,354 @@
+{
+  "data": [
+    {
+      "id": "AU-2028-01-03-0",
+      "name": "New Year's Day",
+      "date": "2028-01-03",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-01-26-1",
+      "name": "Australia Day",
+      "date": "2028-01-26",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-03-06-2",
+      "name": "Labour Day",
+      "date": "2028-03-06",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-WA"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-03-13-3",
+      "name": "Canberra Day",
+      "date": "2028-03-13",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-03-13-4",
+      "name": "March Public Holiday",
+      "date": "2028-03-13",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-SA"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-03-13-5",
+      "name": "Eight Hours Day",
+      "date": "2028-03-13",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-TAS"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-03-13-6",
+      "name": "Labour Day",
+      "date": "2028-03-13",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-04-14-7",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-04-15-8",
+      "name": "Holy Saturday",
+      "date": "2028-04-15",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-04-16-9",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC",
+        "AU-WA"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-04-17-10",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-04-25-11",
+      "name": "Anzac Day",
+      "date": "2028-04-25",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-05-01-12",
+      "name": "May Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-NT"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-05-01-13",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-QLD"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-05-29-14",
+      "name": "Reconciliation Day",
+      "date": "2028-05-29",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-06-05-15",
+      "name": "Western Australia Day",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-WA"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-06-12-16",
+      "name": "King's Birthday",
+      "date": "2028-06-12",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-SA",
+        "AU-TAS",
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-08-07-17",
+      "name": "Picnic Day",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-NT"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-09-25-18",
+      "name": "King's Birthday",
+      "date": "2028-09-25",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-WA"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-09-29-19",
+      "name": "Friday before AFL Grand Final (Tentative Date)",
+      "date": "2028-09-29",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-10-02-20",
+      "name": "Labour Day",
+      "date": "2028-10-02",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-SA"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-10-02-21",
+      "name": "King's Birthday",
+      "date": "2028-10-02",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-QLD"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-11-07-22",
+      "name": "Melbourne Cup",
+      "date": "2028-11-07",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-12-25-23",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    },
+    {
+      "id": "AU-2028-12-26-24",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:49.607Z",
+      "updatedAt": "2025-08-13T00:09:49.607Z"
+    }
+  ],
+  "timestamp": 1755043789608,
+  "ttl": 86400000,
+  "key": "holiday:AU:2028"
+}

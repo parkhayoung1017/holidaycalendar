@@ -1,0 +1,129 @@
+{
+  "countryCode": "EC",
+  "year": 2029,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:15:35.146Z",
+  "holidays": [
+    {
+      "id": "EC-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-02-12-1",
+      "name": "Carnival",
+      "date": "2029-02-12",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-02-13-2",
+      "name": "Carnival",
+      "date": "2029-02-13",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-03-30-3",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-05-01-4",
+      "name": "International Workers' Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-05-24-5",
+      "name": "The Battle of Pichincha",
+      "date": "2029-05-24",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-08-10-6",
+      "name": "Declaration of Independence of Quito",
+      "date": "2029-08-10",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-10-09-7",
+      "name": "Independence of Guayaquil",
+      "date": "2029-10-09",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-11-02-8",
+      "name": "All Souls' Day",
+      "date": "2029-11-02",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-11-03-9",
+      "name": "Independence of Cuenca",
+      "date": "2029-11-03",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    },
+    {
+      "id": "EC-2029-12-25-10",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:35.146Z",
+      "updatedAt": "2025-08-13T00:15:35.146Z"
+    }
+  ]
+}

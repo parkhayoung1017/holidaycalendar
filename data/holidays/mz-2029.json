@@ -1,0 +1,107 @@
+{
+  "countryCode": "MZ",
+  "year": 2029,
+  "totalHolidays": 9,
+  "lastUpdated": "2025-08-13T00:17:27.381Z",
+  "holidays": [
+    {
+      "id": "MZ-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:27.381Z",
+      "updatedAt": "2025-08-13T00:17:27.381Z"
+    },
+    {
+      "id": "MZ-2029-02-03-1",
+      "name": "Heroes's Day",
+      "date": "2029-02-03",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:27.381Z",
+      "updatedAt": "2025-08-13T00:17:27.381Z"
+    },
+    {
+      "id": "MZ-2029-04-07-2",
+      "name": "Women's Day",
+      "date": "2029-04-07",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:27.381Z",
+      "updatedAt": "2025-08-13T00:17:27.381Z"
+    },
+    {
+      "id": "MZ-2029-05-01-3",
+      "name": "Worker's Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:27.381Z",
+      "updatedAt": "2025-08-13T00:17:27.381Z"
+    },
+    {
+      "id": "MZ-2029-06-25-4",
+      "name": "Independence Day",
+      "date": "2029-06-25",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:27.381Z",
+      "updatedAt": "2025-08-13T00:17:27.381Z"
+    },
+    {
+      "id": "MZ-2029-09-07-5",
+      "name": "Victory Day",
+      "date": "2029-09-07",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:27.381Z",
+      "updatedAt": "2025-08-13T00:17:27.381Z"
+    },
+    {
+      "id": "MZ-2029-09-25-6",
+      "name": "Revolution Day",
+      "date": "2029-09-25",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:27.381Z",
+      "updatedAt": "2025-08-13T00:17:27.381Z"
+    },
+    {
+      "id": "MZ-2029-10-04-7",
+      "name": "Day of Peace and Reconciliation",
+      "date": "2029-10-04",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:27.381Z",
+      "updatedAt": "2025-08-13T00:17:27.381Z"
+    },
+    {
+      "id": "MZ-2029-12-25-8",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:27.381Z",
+      "updatedAt": "2025-08-13T00:17:27.381Z"
+    }
+  ]
+}

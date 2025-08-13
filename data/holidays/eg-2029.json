@@ -1,0 +1,85 @@
+{
+  "countryCode": "EG",
+  "year": 2029,
+  "totalHolidays": 7,
+  "lastUpdated": "2025-08-13T00:15:37.832Z",
+  "holidays": [
+    {
+      "id": "EG-2029-01-07-0",
+      "name": "Christmas",
+      "date": "2029-01-07",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:37.832Z",
+      "updatedAt": "2025-08-13T00:15:37.832Z"
+    },
+    {
+      "id": "EG-2029-01-25-1",
+      "name": "Revolution Day 2011 National Police Day",
+      "date": "2029-01-25",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:37.832Z",
+      "updatedAt": "2025-08-13T00:15:37.832Z"
+    },
+    {
+      "id": "EG-2029-04-25-2",
+      "name": "Sinai Liberation Day",
+      "date": "2029-04-25",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:37.832Z",
+      "updatedAt": "2025-08-13T00:15:37.832Z"
+    },
+    {
+      "id": "EG-2029-05-01-3",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:37.832Z",
+      "updatedAt": "2025-08-13T00:15:37.832Z"
+    },
+    {
+      "id": "EG-2029-06-30-4",
+      "name": "June 30 Revolution",
+      "date": "2029-06-30",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:37.832Z",
+      "updatedAt": "2025-08-13T00:15:37.832Z"
+    },
+    {
+      "id": "EG-2029-07-23-5",
+      "name": "Revolution Day",
+      "date": "2029-07-23",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:37.832Z",
+      "updatedAt": "2025-08-13T00:15:37.832Z"
+    },
+    {
+      "id": "EG-2029-10-06-6",
+      "name": "Armed Forces Day",
+      "date": "2029-10-06",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:37.832Z",
+      "updatedAt": "2025-08-13T00:15:37.832Z"
+    }
+  ]
+}

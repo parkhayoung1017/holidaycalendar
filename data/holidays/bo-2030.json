@@ -1,0 +1,140 @@
+{
+  "countryCode": "BO",
+  "year": 2030,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:19:50.447Z",
+  "holidays": [
+    {
+      "id": "BO-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-02-02-1",
+      "name": "Feast of the Virgin of Candelaria",
+      "date": "2030-02-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-03-04-2",
+      "name": "Carnival",
+      "date": "2030-03-04",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-03-05-3",
+      "name": "Carnival",
+      "date": "2030-03-05",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-04-19-4",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-05-01-5",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-06-20-6",
+      "name": "Corpus Christi",
+      "date": "2030-06-20",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-06-21-7",
+      "name": "Andean New Year",
+      "date": "2030-06-21",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-08-02-8",
+      "name": "Agrarian Reform Day",
+      "date": "2030-08-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-08-06-9",
+      "name": "Independence Day",
+      "date": "2030-08-06",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-11-02-10",
+      "name": "All Saints' Day",
+      "date": "2030-11-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    },
+    {
+      "id": "BO-2030-12-25-11",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:50.447Z",
+      "updatedAt": "2025-08-13T00:19:50.447Z"
+    }
+  ]
+}

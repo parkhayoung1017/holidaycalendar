@@ -1,0 +1,129 @@
+{
+  "countryCode": "BS",
+  "year": 2029,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:15:00.810Z",
+  "holidays": [
+    {
+      "id": "BS-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-01-12-1",
+      "name": "Majority Rule Day",
+      "date": "2029-01-12",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-03-30-2",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-04-02-3",
+      "name": "Perry Christie Day",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-04-02-4",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-05-21-5",
+      "name": "Whit Monday",
+      "date": "2029-05-21",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-07-10-6",
+      "name": "Independence Day",
+      "date": "2029-07-10",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-08-06-7",
+      "name": "Emancipation Day",
+      "date": "2029-08-06",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-10-12-8",
+      "name": "National Heroes' Day",
+      "date": "2029-10-12",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-12-25-9",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    },
+    {
+      "id": "BS-2029-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:00.810Z",
+      "updatedAt": "2025-08-13T00:15:00.810Z"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "countryCode": "FI",
+  "year": 2029,
+  "totalHolidays": 15,
+  "lastUpdated": "2025-08-13T00:15:43.059Z",
+  "holidays": [
+    {
+      "id": "FI-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-01-06-1",
+      "name": "Epiphany",
+      "date": "2029-01-06",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-03-30-2",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-04-01-3",
+      "name": "Easter Sunday",
+      "date": "2029-04-01",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-04-02-4",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-05-01-5",
+      "name": "May Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-05-10-6",
+      "name": "Ascension Day",
+      "date": "2029-05-10",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-05-20-7",
+      "name": "Pentecost",
+      "date": "2029-05-20",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-06-22-8",
+      "name": "Midsummer Eve",
+      "date": "2029-06-22",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-06-23-9",
+      "name": "Midsummer Day",
+      "date": "2029-06-23",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-11-03-10",
+      "name": "All Saints' Day",
+      "date": "2029-11-03",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-12-06-11",
+      "name": "Independence Day",
+      "date": "2029-12-06",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-12-24-12",
+      "name": "Christmas Eve",
+      "date": "2029-12-24",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-12-25-13",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    },
+    {
+      "id": "FI-2029-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "FI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:43.059Z",
+      "updatedAt": "2025-08-13T00:15:43.059Z"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "countryCode": "IE",
+  "year": 2028,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:11:25.514Z",
+  "holidays": [
+    {
+      "id": "IE-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-02-07-1",
+      "name": "Saint Brigid's Day",
+      "date": "2028-02-07",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-03-17-2",
+      "name": "Saint Patrick's Day",
+      "date": "2028-03-17",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-04-14-3",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-04-17-4",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-05-01-5",
+      "name": "May Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-06-05-6",
+      "name": "June Holiday",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-08-07-7",
+      "name": "August Holiday",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-10-30-8",
+      "name": "October Holiday",
+      "date": "2028-10-30",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-12-25-9",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    },
+    {
+      "id": "IE-2028-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:25.514Z",
+      "updatedAt": "2025-08-13T00:11:25.514Z"
+    }
+  ]
+}

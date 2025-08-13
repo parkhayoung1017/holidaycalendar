@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "ZA-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-03-21-1",
+      "name": "Human Rights Day",
+      "date": "2029-03-21",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-03-30-2",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-04-02-3",
+      "name": "Family Day",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-04-27-4",
+      "name": "Freedom Day",
+      "date": "2029-04-27",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-05-01-5",
+      "name": "Workers' Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-06-16-6",
+      "name": "Youth Day",
+      "date": "2029-06-16",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-08-09-7",
+      "name": "National Women's Day",
+      "date": "2029-08-09",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-09-24-8",
+      "name": "Heritage Day",
+      "date": "2029-09-24",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-12-17-9",
+      "name": "Day of Reconciliation",
+      "date": "2029-12-17",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-12-25-10",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    },
+    {
+      "id": "ZA-2029-12-26-11",
+      "name": "Day of Goodwill",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:14.827Z",
+      "updatedAt": "2025-08-13T00:19:14.827Z"
+    }
+  ],
+  "timestamp": 1755044354828,
+  "ttl": 86400000,
+  "key": "holiday:ZA:2029"
+}

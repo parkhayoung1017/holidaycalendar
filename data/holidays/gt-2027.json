@@ -1,0 +1,151 @@
+{
+  "countryCode": "GT",
+  "year": 2027,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-08-13T00:06:42.573Z",
+  "holidays": [
+    {
+      "id": "GT-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-03-25-1",
+      "name": "Maundy Thursday",
+      "date": "2027-03-25",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-03-26-2",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-03-27-3",
+      "name": "Holy Saturday",
+      "date": "2027-03-27",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-03-28-4",
+      "name": "Easter Sunday",
+      "date": "2027-03-28",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-05-01-5",
+      "name": "International Workers' Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-06-30-6",
+      "name": "Army Day",
+      "date": "2027-06-30",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-09-15-7",
+      "name": "Independence Day",
+      "date": "2027-09-15",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-10-20-8",
+      "name": "Revolution Day",
+      "date": "2027-10-20",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2027-11-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-12-24-10",
+      "name": "Christmas Eve",
+      "date": "2027-12-24",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-12-25-11",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    },
+    {
+      "id": "GT-2027-12-31-12",
+      "name": "New Year's Eve",
+      "date": "2027-12-31",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:42.573Z",
+      "updatedAt": "2025-08-13T00:06:42.573Z"
+    }
+  ]
+}

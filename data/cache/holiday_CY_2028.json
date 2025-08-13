@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "id": "CY-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-01-06-1",
+      "name": "Epiphany",
+      "date": "2028-01-06",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-02-28-2",
+      "name": "Green Monday",
+      "date": "2028-02-28",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-03-25-3",
+      "name": "Greek Independence Day",
+      "date": "2028-03-25",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-04-01-4",
+      "name": "Cyprus National Day",
+      "date": "2028-04-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-04-14-5",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-04-17-6",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-04-18-7",
+      "name": "Easter Tuesday",
+      "date": "2028-04-18",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-05-01-8",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-06-04-9",
+      "name": "Pentecost",
+      "date": "2028-06-04",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-06-05-10",
+      "name": "Whit Monday",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-08-15-11",
+      "name": "Assumption of the Virgin Mary",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-10-01-12",
+      "name": "Cyprus Independence Day",
+      "date": "2028-10-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-10-28-13",
+      "name": "Ohi Day",
+      "date": "2028-10-28",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-12-24-14",
+      "name": "Christmas Eve",
+      "date": "2028-12-24",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-12-25-15",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    },
+    {
+      "id": "CY-2028-12-26-16",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:31.925Z",
+      "updatedAt": "2025-08-13T00:10:31.925Z"
+    }
+  ],
+  "timestamp": 1755043831925,
+  "ttl": 86400000,
+  "key": "holiday:CY:2028"
+}

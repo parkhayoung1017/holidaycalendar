@@ -1,0 +1,129 @@
+{
+  "countryCode": "FR",
+  "year": 2030,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:20:40.511Z",
+  "holidays": [
+    {
+      "id": "FR-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-04-22-1",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-05-01-2",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-05-08-3",
+      "name": "Victory in Europe Day",
+      "date": "2030-05-08",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-05-30-4",
+      "name": "Ascension Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-06-10-5",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-07-14-6",
+      "name": "Bastille Day",
+      "date": "2030-07-14",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-08-15-7",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-11-01-8",
+      "name": "All Saints' Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-11-11-9",
+      "name": "Armistice Day",
+      "date": "2030-11-11",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    },
+    {
+      "id": "FR-2030-12-25-10",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "FR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:40.511Z",
+      "updatedAt": "2025-08-13T00:20:40.511Z"
+    }
+  ]
+}

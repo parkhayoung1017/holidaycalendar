@@ -1,0 +1,227 @@
+{
+  "data": [
+    {
+      "id": "HT-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-01-02-1",
+      "name": "Ancestry Day",
+      "date": "2028-01-02",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-01-06-2",
+      "name": "Epiphany",
+      "date": "2028-01-06",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-02-28-3",
+      "name": "Carnival",
+      "date": "2028-02-28",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-02-29-4",
+      "name": "Carnival",
+      "date": "2028-02-29",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-03-01-5",
+      "name": "Ash Wednesday",
+      "date": "2028-03-01",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-04-13-6",
+      "name": "Maundy Thursday",
+      "date": "2028-04-13",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-04-14-7",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-04-16-8",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-05-01-9",
+      "name": "Labour and Agriculture Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-05-18-10",
+      "name": "Flag and Universities Day",
+      "date": "2028-05-18",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-05-25-11",
+      "name": "Ascension Day",
+      "date": "2028-05-25",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-06-15-12",
+      "name": "Corpus Christi",
+      "date": "2028-06-15",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-08-15-13",
+      "name": "Assumption of Mary",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-10-17-14",
+      "name": "Dessalines Day",
+      "date": "2028-10-17",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-11-01-15",
+      "name": "All Saints Day",
+      "date": "2028-11-01",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-11-02-16",
+      "name": "All Souls' Day",
+      "date": "2028-11-02",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-11-18-17",
+      "name": "Battle of Vertières Day",
+      "date": "2028-11-18",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-12-05-18",
+      "name": "Discovery Day",
+      "date": "2028-12-05",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    },
+    {
+      "id": "HT-2028-12-25-19",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "HT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:21.541Z",
+      "updatedAt": "2025-08-13T00:11:21.541Z"
+    }
+  ],
+  "timestamp": 1755043881543,
+  "ttl": 86400000,
+  "key": "holiday:HT:2028"
+}

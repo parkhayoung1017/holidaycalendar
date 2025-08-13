@@ -1,0 +1,129 @@
+{
+  "countryCode": "PG",
+  "year": 2027,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:08:14.657Z",
+  "holidays": [
+    {
+      "id": "PG-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-03-26-1",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-03-27-2",
+      "name": "Holy Saturday",
+      "date": "2027-03-27",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-03-28-3",
+      "name": "Easter Sunday",
+      "date": "2027-03-28",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-03-29-4",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-06-14-5",
+      "name": "Queen's Birthday",
+      "date": "2027-06-14",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-07-23-6",
+      "name": "Remembrance Day",
+      "date": "2027-07-23",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-08-26-7",
+      "name": "Repentance Day",
+      "date": "2027-08-26",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-09-16-8",
+      "name": "Independence Day",
+      "date": "2027-09-16",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-12-25-9",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    },
+    {
+      "id": "PG-2027-12-26-10",
+      "name": "Boxing Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "PG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:14.657Z",
+      "updatedAt": "2025-08-13T00:08:14.657Z"
+    }
+  ]
+}

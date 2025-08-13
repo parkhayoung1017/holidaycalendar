@@ -1,0 +1,173 @@
+{
+  "countryCode": "UY",
+  "year": 2030,
+  "totalHolidays": 15,
+  "lastUpdated": "2025-08-13T00:23:52.017Z",
+  "holidays": [
+    {
+      "id": "UY-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-01-06-1",
+      "name": "Children's Day",
+      "date": "2030-01-06",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-03-04-2",
+      "name": "Carnival",
+      "date": "2030-03-04",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-03-05-3",
+      "name": "Carnival",
+      "date": "2030-03-05",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-04-18-4",
+      "name": "Maundy Thursday",
+      "date": "2030-04-18",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-04-19-5",
+      "name": "Landing of the 33 Patriots Day",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-04-19-6",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-05-01-7",
+      "name": "International Workers' Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-05-18-8",
+      "name": "Battle of Las Piedras",
+      "date": "2030-05-18",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-06-19-9",
+      "name": "Birthday of José Gervasio Artigas and Never Again Day",
+      "date": "2030-06-19",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-07-18-10",
+      "name": "Constitution Day",
+      "date": "2030-07-18",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-08-25-11",
+      "name": "Independence Day",
+      "date": "2030-08-25",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-10-12-12",
+      "name": "Day of the race",
+      "date": "2030-10-12",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-11-02-13",
+      "name": "Deceased ones day",
+      "date": "2030-11-02",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    },
+    {
+      "id": "UY-2030-12-25-14",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "UY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:52.017Z",
+      "updatedAt": "2025-08-13T00:23:52.017Z"
+    }
+  ]
+}

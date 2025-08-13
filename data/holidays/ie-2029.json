@@ -1,0 +1,129 @@
+{
+  "countryCode": "IE",
+  "year": 2029,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:16:18.358Z",
+  "holidays": [
+    {
+      "id": "IE-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-02-05-1",
+      "name": "Saint Brigid's Day",
+      "date": "2029-02-05",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-03-17-2",
+      "name": "Saint Patrick's Day",
+      "date": "2029-03-17",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-03-30-3",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-04-02-4",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-05-07-5",
+      "name": "May Day",
+      "date": "2029-05-07",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-06-04-6",
+      "name": "June Holiday",
+      "date": "2029-06-04",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-08-06-7",
+      "name": "August Holiday",
+      "date": "2029-08-06",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-10-29-8",
+      "name": "October Holiday",
+      "date": "2029-10-29",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-12-25-9",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    },
+    {
+      "id": "IE-2029-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "IE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:18.358Z",
+      "updatedAt": "2025-08-13T00:16:18.358Z"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "countryCode": "EE",
+  "year": 2030,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:20:29.904Z",
+  "holidays": [
+    {
+      "id": "EE-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-02-24-1",
+      "name": "Independence Day",
+      "date": "2030-02-24",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-04-21-3",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-05-01-4",
+      "name": "Spring Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-06-09-5",
+      "name": "Pentecost",
+      "date": "2030-06-09",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-06-23-6",
+      "name": "Victory Day",
+      "date": "2030-06-23",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-06-24-7",
+      "name": "Midsummer Day",
+      "date": "2030-06-24",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-08-20-8",
+      "name": "Day of Restoration of Independence",
+      "date": "2030-08-20",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-12-24-9",
+      "name": "Christmas Eve",
+      "date": "2030-12-24",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-12-25-10",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    },
+    {
+      "id": "EE-2030-12-26-11",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "EE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:29.903Z",
+      "updatedAt": "2025-08-13T00:20:29.903Z"
+    }
+  ]
+}

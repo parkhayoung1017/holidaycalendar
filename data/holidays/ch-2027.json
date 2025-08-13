@@ -1,0 +1,449 @@
+{
+  "countryCode": "CH",
+  "year": 2027,
+  "totalHolidays": 23,
+  "lastUpdated": "2025-08-13T00:05:58.826Z",
+  "holidays": [
+    {
+      "id": "CH-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "CH",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-01-02-1",
+      "name": "St. Berchtold's Day",
+      "date": "2027-01-02",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-BE",
+        "CH-FR",
+        "CH-SH",
+        "CH-AG",
+        "CH-TG",
+        "CH-VD"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-01-06-2",
+      "name": "Epiphany",
+      "date": "2027-01-06",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-TI"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-03-01-4",
+      "name": "Republic Day",
+      "date": "2027-03-01",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-NE"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-03-19-5",
+      "name": "Saint Joseph's Day",
+      "date": "2027-03-19",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-SZ",
+        "CH-VS"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-03-26-7",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-ZH",
+        "CH-BE",
+        "CH-LU",
+        "CH-UR",
+        "CH-SZ",
+        "CH-OW",
+        "CH-NW",
+        "CH-GL",
+        "CH-ZG",
+        "CH-FR",
+        "CH-SO",
+        "CH-BS",
+        "CH-BL",
+        "CH-SH",
+        "CH-AR",
+        "CH-AI",
+        "CH-SG",
+        "CH-GR",
+        "CH-AG",
+        "CH-TG",
+        "CH-VD",
+        "CH-NE",
+        "CH-GE",
+        "CH-JU"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-03-29-8",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-ZH",
+        "CH-BE",
+        "CH-GL",
+        "CH-FR",
+        "CH-BS",
+        "CH-BL",
+        "CH-SH",
+        "CH-AR",
+        "CH-AI",
+        "CH-SG",
+        "CH-GR",
+        "CH-AG",
+        "CH-TG",
+        "CH-TI",
+        "CH-VD",
+        "CH-GE",
+        "CH-JU"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-04-04-10",
+      "name": "Näfels procession",
+      "date": "2027-04-04",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-GL"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-05-01-11",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-ZH",
+        "CH-SO",
+        "CH-BS",
+        "CH-BL",
+        "CH-SH",
+        "CH-NE",
+        "CH-JU"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-05-06-13",
+      "name": "Ascension Day",
+      "date": "2027-05-06",
+      "country": "",
+      "countryCode": "CH",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-05-17-14",
+      "name": "Whit Monday",
+      "date": "2027-05-17",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-ZH",
+        "CH-BE",
+        "CH-GL",
+        "CH-FR",
+        "CH-BS",
+        "CH-BL",
+        "CH-SH",
+        "CH-AR",
+        "CH-AI",
+        "CH-SG",
+        "CH-GR",
+        "CH-AG",
+        "CH-TG",
+        "CH-VD",
+        "CH-GE",
+        "CH-JU"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-05-27-16",
+      "name": "Corpus Christi",
+      "date": "2027-05-27",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-LU",
+        "CH-UR",
+        "CH-SZ",
+        "CH-OW",
+        "CH-NW",
+        "CH-ZG",
+        "CH-FR",
+        "CH-SO",
+        "CH-AI",
+        "CH-AG",
+        "CH-VS",
+        "CH-JU"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-06-29-18",
+      "name": "Saints Peter and Paul",
+      "date": "2027-06-29",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-TI"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-08-01-19",
+      "name": "Swiss National Day",
+      "date": "2027-08-01",
+      "country": "",
+      "countryCode": "CH",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-08-15-20",
+      "name": "Assumption of the Virgin Mary",
+      "date": "2027-08-15",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-LU",
+        "CH-UR",
+        "CH-SZ",
+        "CH-OW",
+        "CH-NW",
+        "CH-ZG",
+        "CH-FR",
+        "CH-SO",
+        "CH-AG",
+        "CH-TI",
+        "CH-VS"
+      ],
+      "createdAt": "2025-08-13T00:05:58.825Z",
+      "updatedAt": "2025-08-13T00:05:58.825Z"
+    },
+    {
+      "id": "CH-2027-09-09-22",
+      "name": "Geneva Prayday",
+      "date": "2027-09-09",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-GE"
+      ],
+      "createdAt": "2025-08-13T00:05:58.826Z",
+      "updatedAt": "2025-08-13T00:05:58.826Z"
+    },
+    {
+      "id": "CH-2027-09-19-23",
+      "name": "Federal Day of Thanksgiving",
+      "date": "2027-09-19",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-ZH",
+        "CH-BE",
+        "CH-LU",
+        "CH-SZ",
+        "CH-OW",
+        "CH-NW",
+        "CH-GL",
+        "CH-SO",
+        "CH-BS",
+        "CH-BL",
+        "CH-SH",
+        "CH-SG",
+        "CH-GR"
+      ],
+      "createdAt": "2025-08-13T00:05:58.826Z",
+      "updatedAt": "2025-08-13T00:05:58.826Z"
+    },
+    {
+      "id": "CH-2027-09-20-24",
+      "name": "Federal Fast Monday",
+      "date": "2027-09-20",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-VD"
+      ],
+      "createdAt": "2025-08-13T00:05:58.826Z",
+      "updatedAt": "2025-08-13T00:05:58.826Z"
+    },
+    {
+      "id": "CH-2027-11-01-25",
+      "name": "All Saints' Day",
+      "date": "2027-11-01",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-LU",
+        "CH-UR",
+        "CH-SZ",
+        "CH-OW",
+        "CH-NW",
+        "CH-GL",
+        "CH-ZG",
+        "CH-FR",
+        "CH-SO",
+        "CH-SG",
+        "CH-AG",
+        "CH-TI",
+        "CH-VS"
+      ],
+      "createdAt": "2025-08-13T00:05:58.826Z",
+      "updatedAt": "2025-08-13T00:05:58.826Z"
+    },
+    {
+      "id": "CH-2027-12-08-27",
+      "name": "Immaculate Conception",
+      "date": "2027-12-08",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-UR",
+        "CH-OW",
+        "CH-NW",
+        "CH-ZG",
+        "CH-FR",
+        "CH-AG",
+        "CH-VS"
+      ],
+      "createdAt": "2025-08-13T00:05:58.826Z",
+      "updatedAt": "2025-08-13T00:05:58.826Z"
+    },
+    {
+      "id": "CH-2027-12-25-29",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "CH",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:58.826Z",
+      "updatedAt": "2025-08-13T00:05:58.826Z"
+    },
+    {
+      "id": "CH-2027-12-26-30",
+      "name": "St. Stephen's Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-ZH",
+        "CH-BE",
+        "CH-LU",
+        "CH-GL",
+        "CH-FR",
+        "CH-BS",
+        "CH-BL",
+        "CH-SH",
+        "CH-SG",
+        "CH-GR",
+        "CH-AG",
+        "CH-TG",
+        "CH-TI",
+        "CH-AR",
+        "CH-AI"
+      ],
+      "createdAt": "2025-08-13T00:05:58.826Z",
+      "updatedAt": "2025-08-13T00:05:58.826Z"
+    },
+    {
+      "id": "CH-2027-12-31-32",
+      "name": "Restoration Day",
+      "date": "2027-12-31",
+      "country": "",
+      "countryCode": "CH",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CH-GE"
+      ],
+      "createdAt": "2025-08-13T00:05:58.826Z",
+      "updatedAt": "2025-08-13T00:05:58.826Z"
+    }
+  ]
+}

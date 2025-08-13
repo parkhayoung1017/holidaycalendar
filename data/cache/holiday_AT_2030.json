@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "AT-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-01-06-1",
+      "name": "Epiphany",
+      "date": "2030-01-06",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-04-21-2",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-05-01-4",
+      "name": "National Holiday",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-05-30-5",
+      "name": "Ascension Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-06-09-6",
+      "name": "Pentecost",
+      "date": "2030-06-09",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-06-10-7",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-06-20-8",
+      "name": "Corpus Christi",
+      "date": "2030-06-20",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-08-15-9",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-10-26-10",
+      "name": "National Holiday",
+      "date": "2030-10-26",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-11-01-11",
+      "name": "All Saints' Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-12-08-12",
+      "name": "Immaculate Conception",
+      "date": "2030-12-08",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-12-25-13",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    },
+    {
+      "id": "AT-2030-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:33.161Z",
+      "updatedAt": "2025-08-13T00:19:33.161Z"
+    }
+  ],
+  "timestamp": 1755044373162,
+  "ttl": 86400000,
+  "key": "holiday:AT:2030"
+}

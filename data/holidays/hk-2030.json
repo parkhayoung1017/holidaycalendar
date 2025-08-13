@@ -1,0 +1,195 @@
+{
+  "countryCode": "HK",
+  "year": 2030,
+  "totalHolidays": 17,
+  "lastUpdated": "2025-08-13T00:21:04.299Z",
+  "holidays": [
+    {
+      "id": "HK-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-02-04-1",
+      "name": "Lunar New Year",
+      "date": "2030-02-04",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-02-05-2",
+      "name": "Second day of Lunar New Year",
+      "date": "2030-02-05",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-02-06-3",
+      "name": "Third day of Lunar New Year",
+      "date": "2030-02-06",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-04-04-4",
+      "name": "Ching Ming Festival",
+      "date": "2030-04-04",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-04-19-5",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-04-20-6",
+      "name": "Holy Saturday",
+      "date": "2030-04-20",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-04-22-7",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-05-01-8",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-05-09-9",
+      "name": "Buddha's Birthday",
+      "date": "2030-05-09",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-06-05-10",
+      "name": "Dragon Boat Festival",
+      "date": "2030-06-05",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-07-01-11",
+      "name": "Hong Kong Special Administrative Region Establishment Day",
+      "date": "2030-07-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-09-13-12",
+      "name": "Day following the Mid-Autumn Festival",
+      "date": "2030-09-13",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-10-01-13",
+      "name": "National Day",
+      "date": "2030-10-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-10-05-14",
+      "name": "Chung Yeung Festival",
+      "date": "2030-10-05",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-12-25-15",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    },
+    {
+      "id": "HK-2030-12-26-16",
+      "name": "Boxing Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:04.299Z",
+      "updatedAt": "2025-08-13T00:21:04.299Z"
+    }
+  ]
+}

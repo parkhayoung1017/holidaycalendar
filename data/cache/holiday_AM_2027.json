@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "AM-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-01-02-1",
+      "name": "New Year's Day",
+      "date": "2027-01-02",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-01-05-2",
+      "name": "Christmas Day",
+      "date": "2027-01-05",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-01-06-3",
+      "name": "Christmas Day",
+      "date": "2027-01-06",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-01-28-4",
+      "name": "Army Day",
+      "date": "2027-01-28",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-03-08-5",
+      "name": "Women's Day",
+      "date": "2027-03-08",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-03-28-6",
+      "name": "Easter Sunday",
+      "date": "2027-03-28",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-04-24-7",
+      "name": "Armenian Genocide Remembrance Day",
+      "date": "2027-04-24",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-05-01-8",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-05-09-9",
+      "name": "Victory and Peace Day",
+      "date": "2027-05-09",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-05-28-10",
+      "name": "Republic Day",
+      "date": "2027-05-28",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-07-05-11",
+      "name": "Constitution Day",
+      "date": "2027-07-05",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-09-21-12",
+      "name": "Independence Day",
+      "date": "2027-09-21",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    },
+    {
+      "id": "AM-2027-12-31-13",
+      "name": "New Year's Eve",
+      "date": "2027-12-31",
+      "country": "",
+      "countryCode": "AM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:28.571Z",
+      "updatedAt": "2025-08-13T00:05:28.571Z"
+    }
+  ],
+  "timestamp": 1755043528572,
+  "ttl": 86400000,
+  "key": "holiday:AM:2027"
+}

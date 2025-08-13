@@ -1,0 +1,439 @@
+{
+  "data": [
+    {
+      "id": "CA-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-02-21-1",
+      "name": "Louis Riel Day",
+      "date": "2028-02-21",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-MB"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-02-21-2",
+      "name": "Islander Day",
+      "date": "2028-02-21",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-PE"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-02-21-3",
+      "name": "Heritage Day",
+      "date": "2028-02-21",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NS"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-02-21-4",
+      "name": "Family Day",
+      "date": "2028-02-21",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-BC",
+        "CA-NB",
+        "CA-ON",
+        "CA-SK"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-03-17-5",
+      "name": "Saint Patrick's Day",
+      "date": "2028-03-17",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-04-14-6",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-04-17-7",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-PE"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-04-23-8",
+      "name": "Saint George's Day",
+      "date": "2028-04-23",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-05-22-9",
+      "name": "National Patriots' Day",
+      "date": "2028-05-22",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-QC"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-05-22-10",
+      "name": "Victoria Day",
+      "date": "2028-05-22",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-06-21-11",
+      "name": "National Aboriginal Day",
+      "date": "2028-06-21",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NT"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-06-24-12",
+      "name": "Discovery Day",
+      "date": "2028-06-24",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-06-24-13",
+      "name": "National Holiday",
+      "date": "2028-06-24",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-QC"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-07-01-14",
+      "name": "Canada Day",
+      "date": "2028-07-01",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-07-12-15",
+      "name": "Orangemen's Day",
+      "date": "2028-07-12",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-08-07-16",
+      "name": "Civic Holiday",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-MB",
+        "CA-NL",
+        "CA-NT",
+        "CA-NU",
+        "CA-ON"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-08-07-17",
+      "name": "British Columbia Day",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-BC"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-08-07-18",
+      "name": "Heritage Day",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-YT"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-08-07-19",
+      "name": "New Brunswick Day",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NB"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-08-07-20",
+      "name": "Natal Day",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NS"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-08-07-21",
+      "name": "Saskatchewan Day",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-SK"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-08-21-22",
+      "name": "Gold Cup Parade Day",
+      "date": "2028-08-21",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-PE"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-08-21-23",
+      "name": "Discovery Day",
+      "date": "2028-08-21",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-YT"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-09-04-24",
+      "name": "Labour Day",
+      "date": "2028-09-04",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-09-30-25",
+      "name": "National Day for Truth and Reconciliation",
+      "date": "2028-09-30",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-10-09-26",
+      "name": "Thanksgiving",
+      "date": "2028-10-09",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-11-11-27",
+      "name": "Armistice Day",
+      "date": "2028-11-11",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-NL"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-11-11-28",
+      "name": "Remembrance Day",
+      "date": "2028-11-11",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-BC",
+        "CA-NB",
+        "CA-NT",
+        "CA-NS",
+        "CA-NU",
+        "CA-PE",
+        "CA-SK",
+        "CA-YT"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-12-25-29",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "CA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    },
+    {
+      "id": "CA-2028-12-26-30",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "CA",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "CA-AB",
+        "CA-NB",
+        "CA-NS",
+        "CA-ON",
+        "CA-PE"
+      ],
+      "createdAt": "2025-08-13T00:10:14.754Z",
+      "updatedAt": "2025-08-13T00:10:14.754Z"
+    }
+  ],
+  "timestamp": 1755043814755,
+  "ttl": 86400000,
+  "key": "holiday:CA:2028"
+}

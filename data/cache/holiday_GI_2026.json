@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "GI-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-03-09-1",
+      "name": "Commonwealth Day",
+      "date": "2026-03-09",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-04-03-2",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-04-06-3",
+      "name": "Easter Monday",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-04-28-4",
+      "name": "Workers' Memorial Day",
+      "date": "2026-04-28",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-05-01-5",
+      "name": "May Day Bank Holiday",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-05-25-6",
+      "name": "Spring Bank Holiday",
+      "date": "2026-05-25",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-06-08-7",
+      "name": "Queen's Birthday",
+      "date": "2026-06-08",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-08-31-8",
+      "name": "Summer Bank Holiday",
+      "date": "2026-08-31",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-09-10-9",
+      "name": "Gibraltar National Day",
+      "date": "2026-09-10",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-12-25-10",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    },
+    {
+      "id": "GI-2026-12-26-11",
+      "name": "Boxing Day",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:02.927Z",
+      "updatedAt": "2025-08-13T00:02:02.927Z"
+    }
+  ],
+  "timestamp": 1755043322927,
+  "ttl": 86400000,
+  "key": "holiday:GI:2026"
+}

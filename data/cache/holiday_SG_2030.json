@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "id": "SG-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:08.501Z",
+      "updatedAt": "2025-08-13T00:23:08.501Z"
+    },
+    {
+      "id": "SG-2030-02-04-1",
+      "name": "Chinese New Year",
+      "date": "2030-02-04",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:08.501Z",
+      "updatedAt": "2025-08-13T00:23:08.501Z"
+    },
+    {
+      "id": "SG-2030-04-19-3",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:08.501Z",
+      "updatedAt": "2025-08-13T00:23:08.501Z"
+    },
+    {
+      "id": "SG-2030-05-01-4",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:08.501Z",
+      "updatedAt": "2025-08-13T00:23:08.501Z"
+    },
+    {
+      "id": "SG-2030-08-09-5",
+      "name": "National Day",
+      "date": "2030-08-09",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:08.501Z",
+      "updatedAt": "2025-08-13T00:23:08.501Z"
+    },
+    {
+      "id": "SG-2030-12-25-6",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "SG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:08.501Z",
+      "updatedAt": "2025-08-13T00:23:08.501Z"
+    }
+  ],
+  "timestamp": 1755044588501,
+  "ttl": 86400000,
+  "key": "holiday:SG:2030"
+}

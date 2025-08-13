@@ -1,0 +1,140 @@
+{
+  "countryCode": "BO",
+  "year": 2027,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:05:45.589Z",
+  "holidays": [
+    {
+      "id": "BO-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-02-02-1",
+      "name": "Feast of the Virgin of Candelaria",
+      "date": "2027-02-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-02-08-2",
+      "name": "Carnival",
+      "date": "2027-02-08",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-02-09-3",
+      "name": "Carnival",
+      "date": "2027-02-09",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-03-26-4",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-05-01-5",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-05-27-6",
+      "name": "Corpus Christi",
+      "date": "2027-05-27",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-06-21-7",
+      "name": "Andean New Year",
+      "date": "2027-06-21",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-08-02-8",
+      "name": "Agrarian Reform Day",
+      "date": "2027-08-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-08-06-9",
+      "name": "Independence Day",
+      "date": "2027-08-06",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-11-02-10",
+      "name": "All Saints' Day",
+      "date": "2027-11-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    },
+    {
+      "id": "BO-2027-12-25-11",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:45.589Z",
+      "updatedAt": "2025-08-13T00:05:45.589Z"
+    }
+  ]
+}

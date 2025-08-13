@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "id": "RU-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-01-02-1",
+      "name": "New Year holiday",
+      "date": "2029-01-02",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-01-03-2",
+      "name": "New Year holiday",
+      "date": "2029-01-03",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-01-04-3",
+      "name": "New Year holiday",
+      "date": "2029-01-04",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-01-05-4",
+      "name": "New Year holiday",
+      "date": "2029-01-05",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-01-06-5",
+      "name": "New Year holiday",
+      "date": "2029-01-06",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-01-07-6",
+      "name": "Orthodox Christmas Day",
+      "date": "2029-01-07",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-02-23-7",
+      "name": "Defender of the Fatherland Day",
+      "date": "2029-02-23",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-03-08-8",
+      "name": "International Women's Day",
+      "date": "2029-03-08",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-05-01-9",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-05-09-10",
+      "name": "Victory Day",
+      "date": "2029-05-09",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-06-12-11",
+      "name": "Russia Day",
+      "date": "2029-06-12",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    },
+    {
+      "id": "RU-2029-11-04-12",
+      "name": "Unity Day",
+      "date": "2029-11-04",
+      "country": "",
+      "countryCode": "RU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:04.477Z",
+      "updatedAt": "2025-08-13T00:18:04.477Z"
+    }
+  ],
+  "timestamp": 1755044284478,
+  "ttl": 86400000,
+  "key": "holiday:RU:2029"
+}

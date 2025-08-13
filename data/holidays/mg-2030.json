@@ -1,0 +1,118 @@
+{
+  "countryCode": "MG",
+  "year": 2030,
+  "totalHolidays": 10,
+  "lastUpdated": "2025-08-13T00:22:01.249Z",
+  "holidays": [
+    {
+      "id": "MG-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    },
+    {
+      "id": "MG-2030-03-29-1",
+      "name": "Martyrs' Day",
+      "date": "2030-03-29",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    },
+    {
+      "id": "MG-2030-04-22-2",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    },
+    {
+      "id": "MG-2030-05-01-3",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    },
+    {
+      "id": "MG-2030-05-30-4",
+      "name": "Ascension Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    },
+    {
+      "id": "MG-2030-06-10-5",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    },
+    {
+      "id": "MG-2030-06-26-6",
+      "name": "Independence Day",
+      "date": "2030-06-26",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    },
+    {
+      "id": "MG-2030-08-15-7",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    },
+    {
+      "id": "MG-2030-11-01-8",
+      "name": "All Saints' Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    },
+    {
+      "id": "MG-2030-12-25-9",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:01.249Z",
+      "updatedAt": "2025-08-13T00:22:01.249Z"
+    }
+  ]
+}

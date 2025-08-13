@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "GY-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-02-23-1",
+      "name": "Republic Day",
+      "date": "2030-02-23",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-05-01-4",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-05-05-5",
+      "name": "Arrival Day",
+      "date": "2030-05-05",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-05-26-6",
+      "name": "Independence Day",
+      "date": "2030-05-26",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-07-01-7",
+      "name": "Caricom Day",
+      "date": "2030-07-01",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-08-01-8",
+      "name": "Emancipation Day",
+      "date": "2030-08-01",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-12-25-9",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    },
+    {
+      "id": "GY-2030-12-26-10",
+      "name": "Boxing Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "GY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:02.655Z",
+      "updatedAt": "2025-08-13T00:21:02.655Z"
+    }
+  ],
+  "timestamp": 1755044462656,
+  "ttl": 86400000,
+  "key": "holiday:GY:2030"
+}

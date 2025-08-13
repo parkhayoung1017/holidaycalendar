@@ -1,0 +1,151 @@
+{
+  "countryCode": "DO",
+  "year": 2028,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-08-13T00:10:39.943Z",
+  "holidays": [
+    {
+      "id": "DO-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.942Z",
+      "updatedAt": "2025-08-13T00:10:39.942Z"
+    },
+    {
+      "id": "DO-2028-01-06-1",
+      "name": "Day of Kings",
+      "date": "2028-01-06",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.942Z",
+      "updatedAt": "2025-08-13T00:10:39.942Z"
+    },
+    {
+      "id": "DO-2028-01-21-2",
+      "name": "Our Lady of Altagracia",
+      "date": "2028-01-21",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.942Z",
+      "updatedAt": "2025-08-13T00:10:39.942Z"
+    },
+    {
+      "id": "DO-2028-01-26-3",
+      "name": "Duarte's Birthday",
+      "date": "2028-01-26",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.942Z",
+      "updatedAt": "2025-08-13T00:10:39.942Z"
+    },
+    {
+      "id": "DO-2028-02-27-4",
+      "name": "Independence Day",
+      "date": "2028-02-27",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.942Z",
+      "updatedAt": "2025-08-13T00:10:39.942Z"
+    },
+    {
+      "id": "DO-2028-04-14-5",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.942Z",
+      "updatedAt": "2025-08-13T00:10:39.942Z"
+    },
+    {
+      "id": "DO-2028-05-01-6",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.942Z",
+      "updatedAt": "2025-08-13T00:10:39.942Z"
+    },
+    {
+      "id": "DO-2028-05-28-7",
+      "name": "Mother's Day",
+      "date": "2028-05-28",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.942Z",
+      "updatedAt": "2025-08-13T00:10:39.942Z"
+    },
+    {
+      "id": "DO-2028-06-15-8",
+      "name": "Corpus Christi",
+      "date": "2028-06-15",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.942Z",
+      "updatedAt": "2025-08-13T00:10:39.942Z"
+    },
+    {
+      "id": "DO-2028-08-16-9",
+      "name": "Restoration Day",
+      "date": "2028-08-16",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.943Z",
+      "updatedAt": "2025-08-13T00:10:39.943Z"
+    },
+    {
+      "id": "DO-2028-09-24-10",
+      "name": "Our Lady of Mercy",
+      "date": "2028-09-24",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.943Z",
+      "updatedAt": "2025-08-13T00:10:39.943Z"
+    },
+    {
+      "id": "DO-2028-11-06-11",
+      "name": "Constitution Day",
+      "date": "2028-11-06",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.943Z",
+      "updatedAt": "2025-08-13T00:10:39.943Z"
+    },
+    {
+      "id": "DO-2028-12-25-12",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:39.943Z",
+      "updatedAt": "2025-08-13T00:10:39.943Z"
+    }
+  ]
+}

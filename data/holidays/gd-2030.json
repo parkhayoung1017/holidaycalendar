@@ -1,0 +1,151 @@
+{
+  "countryCode": "GD",
+  "year": 2030,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-08-13T00:20:45.357Z",
+  "holidays": [
+    {
+      "id": "GD-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-02-07-1",
+      "name": "Independence Day",
+      "date": "2030-02-07",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-05-01-4",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-05-01-5",
+      "name": "Indian Arrival Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-06-10-6",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-06-20-7",
+      "name": "Corpus Christi",
+      "date": "2030-06-20",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-08-05-8",
+      "name": "Emancipation Day",
+      "date": "2030-08-05",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-08-11-9",
+      "name": "Carnival",
+      "date": "2030-08-11",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-10-25-10",
+      "name": "Thanksgiving Day",
+      "date": "2030-10-25",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-12-25-11",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    },
+    {
+      "id": "GD-2030-12-26-12",
+      "name": "Boxing Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "GD",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:45.357Z",
+      "updatedAt": "2025-08-13T00:20:45.357Z"
+    }
+  ]
+}

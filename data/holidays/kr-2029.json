@@ -1,0 +1,173 @@
+{
+  "countryCode": "KR",
+  "year": 2029,
+  "totalHolidays": 15,
+  "lastUpdated": "2025-08-13T00:16:42.325Z",
+  "holidays": [
+    {
+      "id": "KR-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-02-12-1",
+      "name": "Lunar New Year",
+      "date": "2029-02-12",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-02-13-2",
+      "name": "Lunar New Year",
+      "date": "2029-02-13",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-02-14-3",
+      "name": "Lunar New Year",
+      "date": "2029-02-14",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-03-01-4",
+      "name": "Independence Movement Day",
+      "date": "2029-03-01",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-05-07-5",
+      "name": "Children's Day",
+      "date": "2029-05-07",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-05-20-6",
+      "name": "Buddha's Birthday",
+      "date": "2029-05-20",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-06-06-7",
+      "name": "Memorial Day",
+      "date": "2029-06-06",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-08-15-8",
+      "name": "Liberation Day",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-09-21-9",
+      "name": "Chuseok",
+      "date": "2029-09-21",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-09-22-10",
+      "name": "Chuseok",
+      "date": "2029-09-22",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-09-24-11",
+      "name": "Chuseok",
+      "date": "2029-09-24",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-10-03-12",
+      "name": "National Foundation Day",
+      "date": "2029-10-03",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-10-09-13",
+      "name": "Hangul Day",
+      "date": "2029-10-09",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    },
+    {
+      "id": "KR-2029-12-25-14",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "KR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:42.325Z",
+      "updatedAt": "2025-08-13T00:16:42.325Z"
+    }
+  ]
+}

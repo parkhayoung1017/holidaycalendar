@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "NI-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-02-01-1",
+      "name": "Air Force Day",
+      "date": "2026-02-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-04-02-2",
+      "name": "Holy Thursday",
+      "date": "2026-04-02",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-05-01-3",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-05-27-4",
+      "name": "Army Day",
+      "date": "2026-05-27",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-07-19-5",
+      "name": "Liberation Day",
+      "date": "2026-07-19",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-09-14-6",
+      "name": "Battle of San Jacinto",
+      "date": "2026-09-14",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-09-15-7",
+      "name": "Independence Day",
+      "date": "2026-09-15",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-10-12-8",
+      "name": "Indigenous Resistance Day",
+      "date": "2026-10-12",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-12-08-9",
+      "name": "Immaculate Conception",
+      "date": "2026-12-08",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-12-25-10",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    },
+    {
+      "id": "NI-2026-12-31-11",
+      "name": "New Year's Eve",
+      "date": "2026-12-31",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:37.511Z",
+      "updatedAt": "2025-08-13T00:03:37.511Z"
+    }
+  ],
+  "timestamp": 1755043417512,
+  "ttl": 86400000,
+  "key": "holiday:NI:2026"
+}

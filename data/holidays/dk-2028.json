@@ -1,0 +1,162 @@
+{
+  "countryCode": "DK",
+  "year": 2028,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:10:37.281Z",
+  "holidays": [
+    {
+      "id": "DK-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-04-13-1",
+      "name": "Maundy Thursday",
+      "date": "2028-04-13",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-04-14-2",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-04-16-3",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-04-17-4",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-05-25-5",
+      "name": "Ascension Day",
+      "date": "2028-05-25",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-05-26-6",
+      "name": "Bank closing day",
+      "date": "2028-05-26",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-06-04-7",
+      "name": "Pentecost",
+      "date": "2028-06-04",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-06-05-8",
+      "name": "Constitution Day",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-06-05-9",
+      "name": "Whit Monday",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-12-24-10",
+      "name": "Christmas Eve",
+      "date": "2028-12-24",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-12-25-11",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-12-26-12",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    },
+    {
+      "id": "DK-2028-12-31-13",
+      "name": "New Year's Eve",
+      "date": "2028-12-31",
+      "country": "",
+      "countryCode": "DK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:37.281Z",
+      "updatedAt": "2025-08-13T00:10:37.281Z"
+    }
+  ]
+}

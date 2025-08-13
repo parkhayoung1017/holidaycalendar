@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "PE-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-03-29-1",
+      "name": "Holy Thursday",
+      "date": "2029-03-29",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-03-29-2",
+      "name": "Maundy Thursday",
+      "date": "2029-03-29",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-03-30-3",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-04-01-4",
+      "name": "Easter Sunday",
+      "date": "2029-04-01",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-05-01-5",
+      "name": "International Workers' Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-06-29-6",
+      "name": "St. Peter and St. Paul",
+      "date": "2029-06-29",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-07-28-7",
+      "name": "Independence Day",
+      "date": "2029-07-28",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-07-29-8",
+      "name": "Independence Day",
+      "date": "2029-07-29",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-08-30-9",
+      "name": "Santa Rosa de Lima",
+      "date": "2029-08-30",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-10-08-10",
+      "name": "Battle of Angamos",
+      "date": "2029-10-08",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-11-01-11",
+      "name": "All Saints Day",
+      "date": "2029-11-01",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-12-08-12",
+      "name": "Immaculate Conception",
+      "date": "2029-12-08",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    },
+    {
+      "id": "PE-2029-12-25-13",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "PE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:45.899Z",
+      "updatedAt": "2025-08-13T00:17:45.899Z"
+    }
+  ],
+  "timestamp": 1755044265900,
+  "ttl": 86400000,
+  "key": "holiday:PE:2029"
+}

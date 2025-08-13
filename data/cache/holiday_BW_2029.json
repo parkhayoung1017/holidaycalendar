@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "BW-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-03-30-1",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-04-02-2",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-05-01-3",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-05-10-4",
+      "name": "Ascension Day",
+      "date": "2029-05-10",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-07-01-5",
+      "name": "Sir Seretse Khama Day",
+      "date": "2029-07-01",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-07-16-6",
+      "name": "Presidents' Day",
+      "date": "2029-07-16",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-09-30-7",
+      "name": "Independence Day",
+      "date": "2029-09-30",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-10-01-8",
+      "name": "Botswana Day holiday",
+      "date": "2029-10-01",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-12-25-9",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    },
+    {
+      "id": "BW-2029-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:03.530Z",
+      "updatedAt": "2025-08-13T00:15:03.530Z"
+    }
+  ],
+  "timestamp": 1755044103530,
+  "ttl": 86400000,
+  "key": "holiday:BW:2029"
+}

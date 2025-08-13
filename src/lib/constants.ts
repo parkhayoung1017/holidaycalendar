@@ -270,12 +270,12 @@ export const POPULAR_COUNTRIES = SUPPORTED_COUNTRIES.filter(country => country.p
 
 // ===== 날짜 및 시간 상수 =====
 
-// 현재 연도와 지원 연도 범위 (확장된 버전)
+// 현재 연도와 지원 연도 범위 (2020-2030년까지 확장)
 export const CURRENT_YEAR = new Date().getFullYear();
 export const SUPPORTED_YEARS = Array.from(
-  { length: 15 }, 
-  (_, i) => CURRENT_YEAR - 5 + i
-);
+  { length: 11 }, 
+  (_, i) => 2020 + i
+); // 2020부터 2030년까지
 
 // 월 이름 (다국어 지원)
 export const MONTH_NAMES = {

@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "BO-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-02-02-1",
+      "name": "Feast of the Virgin of Candelaria",
+      "date": "2029-02-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-02-12-2",
+      "name": "Carnival",
+      "date": "2029-02-12",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-02-13-3",
+      "name": "Carnival",
+      "date": "2029-02-13",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-03-30-4",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-05-01-5",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-05-31-6",
+      "name": "Corpus Christi",
+      "date": "2029-05-31",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-06-21-7",
+      "name": "Andean New Year",
+      "date": "2029-06-21",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-08-02-8",
+      "name": "Agrarian Reform Day",
+      "date": "2029-08-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-08-06-9",
+      "name": "Independence Day",
+      "date": "2029-08-06",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-11-02-10",
+      "name": "All Saints' Day",
+      "date": "2029-11-02",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    },
+    {
+      "id": "BO-2029-12-25-11",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "BO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:58.208Z",
+      "updatedAt": "2025-08-13T00:14:58.208Z"
+    }
+  ],
+  "timestamp": 1755044098208,
+  "ttl": 86400000,
+  "key": "holiday:BO:2029"
+}

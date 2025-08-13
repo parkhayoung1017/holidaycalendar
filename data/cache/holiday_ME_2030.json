@@ -1,0 +1,227 @@
+{
+  "data": [
+    {
+      "id": "ME-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-01-02-1",
+      "name": "New Year's Day",
+      "date": "2030-01-02",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-01-06-2",
+      "name": "Orthodox Christmas Eve",
+      "date": "2030-01-06",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-01-07-3",
+      "name": "Orthodox Christmas Day",
+      "date": "2030-01-07",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-01-08-4",
+      "name": "Orthodox Christmas Day",
+      "date": "2030-01-08",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-04-19-5",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-04-21-6",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-04-22-7",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-04-26-8",
+      "name": "Good Friday",
+      "date": "2030-04-26",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-04-29-9",
+      "name": "Easter Monday",
+      "date": "2030-04-29",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-05-01-10",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-05-02-11",
+      "name": "Labour Day",
+      "date": "2030-05-02",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-05-21-12",
+      "name": "Independence Day",
+      "date": "2030-05-21",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-05-22-13",
+      "name": "Independence Day",
+      "date": "2030-05-22",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-07-13-14",
+      "name": "Statehood Day",
+      "date": "2030-07-13",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-07-14-15",
+      "name": "Statehood Day",
+      "date": "2030-07-14",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-11-01-16",
+      "name": "Catholic All Saints' Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-12-24-17",
+      "name": "Catholic Christmas Eve",
+      "date": "2030-12-24",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-12-25-18",
+      "name": "Catholic Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    },
+    {
+      "id": "ME-2030-12-26-19",
+      "name": "Catholic St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "ME",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:59.948Z",
+      "updatedAt": "2025-08-13T00:21:59.948Z"
+    }
+  ],
+  "timestamp": 1755044519949,
+  "ttl": 86400000,
+  "key": "holiday:ME:2030"
+}

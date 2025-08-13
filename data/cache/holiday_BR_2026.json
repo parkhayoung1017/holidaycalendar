@@ -1,0 +1,175 @@
+{
+  "data": [
+    {
+      "id": "BR-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.562Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-02-16-1",
+      "name": "Carnival",
+      "date": "2026-02-16",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-02-17-2",
+      "name": "Carnival",
+      "date": "2026-02-17",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-04-03-3",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-04-05-4",
+      "name": "Easter Sunday",
+      "date": "2026-04-05",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-04-21-5",
+      "name": "Tiradentes",
+      "date": "2026-04-21",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-05-01-6",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-06-04-7",
+      "name": "Corpus Christi",
+      "date": "2026-06-04",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-07-09-8",
+      "name": "Constitutionalist Revolution of 1932",
+      "date": "2026-07-09",
+      "country": "",
+      "countryCode": "BR",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "BR-SP"
+      ],
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-09-07-9",
+      "name": "Independence Day",
+      "date": "2026-09-07",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-10-12-10",
+      "name": "Our Lady of Aparecida",
+      "date": "2026-10-12",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-11-02-11",
+      "name": "All Souls' Day",
+      "date": "2026-11-02",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-11-15-12",
+      "name": "Republic Proclamation Day",
+      "date": "2026-11-15",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-11-20-13",
+      "name": "Black Awareness Day",
+      "date": "2026-11-20",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    },
+    {
+      "id": "BR-2026-12-25-14",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "BR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:01:08.563Z",
+      "updatedAt": "2025-08-13T00:01:08.563Z"
+    }
+  ],
+  "timestamp": 1755043268563,
+  "ttl": 86400000,
+  "key": "holiday:BR:2026"
+}

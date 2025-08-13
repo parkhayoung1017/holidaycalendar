@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "GG-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "GG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:33.253Z",
+      "updatedAt": "2025-08-13T00:06:33.253Z"
+    },
+    {
+      "id": "GG-2027-03-26-1",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "GG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:33.253Z",
+      "updatedAt": "2025-08-13T00:06:33.253Z"
+    },
+    {
+      "id": "GG-2027-03-29-2",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "GG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:33.253Z",
+      "updatedAt": "2025-08-13T00:06:33.253Z"
+    },
+    {
+      "id": "GG-2027-05-01-3",
+      "name": "Early May Bank Holiday",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "GG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:33.253Z",
+      "updatedAt": "2025-08-13T00:06:33.253Z"
+    },
+    {
+      "id": "GG-2027-05-09-4",
+      "name": "Liberation Day",
+      "date": "2027-05-09",
+      "country": "",
+      "countryCode": "GG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:33.253Z",
+      "updatedAt": "2025-08-13T00:06:33.253Z"
+    },
+    {
+      "id": "GG-2027-05-31-5",
+      "name": "Spring Bank Holiday",
+      "date": "2027-05-31",
+      "country": "",
+      "countryCode": "GG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:33.253Z",
+      "updatedAt": "2025-08-13T00:06:33.253Z"
+    },
+    {
+      "id": "GG-2027-08-30-6",
+      "name": "Summer Bank Holiday",
+      "date": "2027-08-30",
+      "country": "",
+      "countryCode": "GG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:33.253Z",
+      "updatedAt": "2025-08-13T00:06:33.253Z"
+    },
+    {
+      "id": "GG-2027-12-25-7",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "GG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:33.253Z",
+      "updatedAt": "2025-08-13T00:06:33.253Z"
+    },
+    {
+      "id": "GG-2027-12-26-8",
+      "name": "Boxing Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "GG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:33.253Z",
+      "updatedAt": "2025-08-13T00:06:33.253Z"
+    }
+  ],
+  "timestamp": 1755043593254,
+  "ttl": 86400000,
+  "key": "holiday:GG:2027"
+}

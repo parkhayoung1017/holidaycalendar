@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "VA-2027-01-01-0",
+      "name": "Solemnity of Mary, Mother of God",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-01-06-1",
+      "name": "Epiphany",
+      "date": "2027-01-06",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-02-11-2",
+      "name": "Anniversary of the foundation of Vatican City",
+      "date": "2027-02-11",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-03-13-3",
+      "name": "Anniversary of the election of Pope Francis",
+      "date": "2027-03-13",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-03-19-4",
+      "name": "Saint Joseph's Day",
+      "date": "2027-03-19",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-03-29-5",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-04-23-6",
+      "name": "Saint George",
+      "date": "2027-04-23",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-05-01-7",
+      "name": "Saint Joseph the Worker",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-06-29-8",
+      "name": "Saints Peter and Paul",
+      "date": "2027-06-29",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-08-15-9",
+      "name": "Assumption Day",
+      "date": "2027-08-15",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-09-08-10",
+      "name": "Nativity of Mary",
+      "date": "2027-09-08",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-11-01-11",
+      "name": "All Saints",
+      "date": "2027-11-01",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-12-08-12",
+      "name": "Immaculate Conception",
+      "date": "2027-12-08",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-12-25-13",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    },
+    {
+      "id": "VA-2027-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "VA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:18.092Z",
+      "updatedAt": "2025-08-13T00:09:18.092Z"
+    }
+  ],
+  "timestamp": 1755043758093,
+  "ttl": 86400000,
+  "key": "holiday:VA:2027"
+}

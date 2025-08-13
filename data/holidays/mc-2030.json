@@ -1,0 +1,140 @@
+{
+  "countryCode": "MC",
+  "year": 2030,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:21:57.339Z",
+  "holidays": [
+    {
+      "id": "MC-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-01-27-1",
+      "name": "Saint Devota's Day",
+      "date": "2030-01-27",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-04-22-2",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-05-01-3",
+      "name": "May Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-05-30-4",
+      "name": "Ascension Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-06-10-5",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-06-20-6",
+      "name": "Corpus Christi",
+      "date": "2030-06-20",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-08-15-7",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-11-01-8",
+      "name": "All Saints Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-11-19-9",
+      "name": "National Day",
+      "date": "2030-11-19",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-12-08-10",
+      "name": "The Immaculate Conception",
+      "date": "2030-12-08",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    },
+    {
+      "id": "MC-2030-12-25-11",
+      "name": "​Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:57.338Z",
+      "updatedAt": "2025-08-13T00:21:57.338Z"
+    }
+  ]
+}

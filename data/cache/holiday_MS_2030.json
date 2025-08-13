@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "MS-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-03-17-1",
+      "name": "Saint Patrick's Day",
+      "date": "2030-03-17",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-05-06-4",
+      "name": "Labour Day",
+      "date": "2030-05-06",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-06-10-5",
+      "name": "Queen's Birthday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-06-10-6",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-08-05-7",
+      "name": "Emancipation Day",
+      "date": "2030-08-05",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-12-25-8",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-12-26-9",
+      "name": "Boxing Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    },
+    {
+      "id": "MS-2030-12-31-10",
+      "name": "Festival Day",
+      "date": "2030-12-31",
+      "country": "",
+      "countryCode": "MS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:11.988Z",
+      "updatedAt": "2025-08-13T00:22:11.988Z"
+    }
+  ],
+  "timestamp": 1755044531989,
+  "ttl": 86400000,
+  "key": "holiday:MS:2030"
+}

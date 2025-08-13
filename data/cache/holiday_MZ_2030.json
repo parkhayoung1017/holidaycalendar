@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "MZ-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:21.374Z",
+      "updatedAt": "2025-08-13T00:22:21.374Z"
+    },
+    {
+      "id": "MZ-2030-02-03-1",
+      "name": "Heroes's Day",
+      "date": "2030-02-03",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:21.374Z",
+      "updatedAt": "2025-08-13T00:22:21.374Z"
+    },
+    {
+      "id": "MZ-2030-04-07-2",
+      "name": "Women's Day",
+      "date": "2030-04-07",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:21.374Z",
+      "updatedAt": "2025-08-13T00:22:21.374Z"
+    },
+    {
+      "id": "MZ-2030-05-01-3",
+      "name": "Worker's Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:21.374Z",
+      "updatedAt": "2025-08-13T00:22:21.374Z"
+    },
+    {
+      "id": "MZ-2030-06-25-4",
+      "name": "Independence Day",
+      "date": "2030-06-25",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:21.374Z",
+      "updatedAt": "2025-08-13T00:22:21.374Z"
+    },
+    {
+      "id": "MZ-2030-09-07-5",
+      "name": "Victory Day",
+      "date": "2030-09-07",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:21.374Z",
+      "updatedAt": "2025-08-13T00:22:21.374Z"
+    },
+    {
+      "id": "MZ-2030-09-25-6",
+      "name": "Revolution Day",
+      "date": "2030-09-25",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:21.374Z",
+      "updatedAt": "2025-08-13T00:22:21.374Z"
+    },
+    {
+      "id": "MZ-2030-10-04-7",
+      "name": "Day of Peace and Reconciliation",
+      "date": "2030-10-04",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:21.374Z",
+      "updatedAt": "2025-08-13T00:22:21.374Z"
+    },
+    {
+      "id": "MZ-2030-12-25-8",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "MZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:21.374Z",
+      "updatedAt": "2025-08-13T00:22:21.374Z"
+    }
+  ],
+  "timestamp": 1755044541376,
+  "ttl": 86400000,
+  "key": "holiday:MZ:2030"
+}

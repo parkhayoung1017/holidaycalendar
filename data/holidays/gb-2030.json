@@ -1,0 +1,182 @@
+{
+  "countryCode": "GB",
+  "year": 2030,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-08-13T00:20:43.145Z",
+  "holidays": [
+    {
+      "id": "GB-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "GB",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "GB-ENG",
+        "GB-NIR",
+        "GB-SCT",
+        "GB-WLS"
+      ],
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-01-02-1",
+      "name": "2 January",
+      "date": "2030-01-02",
+      "country": "",
+      "countryCode": "GB",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "GB-SCT"
+      ],
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-03-18-2",
+      "name": "Saint Patrick's Day",
+      "date": "2030-03-18",
+      "country": "",
+      "countryCode": "GB",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "GB-NIR"
+      ],
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-04-19-3",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "GB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-04-22-4",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "GB",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "GB-ENG",
+        "GB-WLS",
+        "GB-NIR"
+      ],
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-05-06-5",
+      "name": "Early May Bank Holiday",
+      "date": "2030-05-06",
+      "country": "",
+      "countryCode": "GB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-05-27-6",
+      "name": "Spring Bank Holiday",
+      "date": "2030-05-27",
+      "country": "",
+      "countryCode": "GB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-07-12-7",
+      "name": "Battle of the Boyne",
+      "date": "2030-07-12",
+      "country": "",
+      "countryCode": "GB",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "GB-NIR"
+      ],
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-08-05-8",
+      "name": "Summer Bank Holiday",
+      "date": "2030-08-05",
+      "country": "",
+      "countryCode": "GB",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "GB-SCT"
+      ],
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-08-26-9",
+      "name": "Summer Bank Holiday",
+      "date": "2030-08-26",
+      "country": "",
+      "countryCode": "GB",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "GB-ENG",
+        "GB-WLS",
+        "GB-NIR"
+      ],
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-12-02-10",
+      "name": "Saint Andrew's Day",
+      "date": "2030-12-02",
+      "country": "",
+      "countryCode": "GB",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "GB-SCT"
+      ],
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-12-25-11",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "GB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    },
+    {
+      "id": "GB-2030-12-26-12",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "GB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:43.145Z",
+      "updatedAt": "2025-08-13T00:20:43.145Z"
+    }
+  ]
+}

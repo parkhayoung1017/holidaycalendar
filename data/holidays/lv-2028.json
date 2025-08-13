@@ -1,0 +1,162 @@
+{
+  "countryCode": "LV",
+  "year": 2028,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:12:06.473Z",
+  "holidays": [
+    {
+      "id": "LV-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.472Z",
+      "updatedAt": "2025-08-13T00:12:06.472Z"
+    },
+    {
+      "id": "LV-2028-04-14-1",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.472Z",
+      "updatedAt": "2025-08-13T00:12:06.472Z"
+    },
+    {
+      "id": "LV-2028-04-16-2",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.472Z",
+      "updatedAt": "2025-08-13T00:12:06.472Z"
+    },
+    {
+      "id": "LV-2028-04-17-3",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.472Z",
+      "updatedAt": "2025-08-13T00:12:06.472Z"
+    },
+    {
+      "id": "LV-2028-05-01-4",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.472Z",
+      "updatedAt": "2025-08-13T00:12:06.472Z"
+    },
+    {
+      "id": "LV-2028-05-04-5",
+      "name": "Restoration of Independence day",
+      "date": "2028-05-04",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.472Z",
+      "updatedAt": "2025-08-13T00:12:06.472Z"
+    },
+    {
+      "id": "LV-2028-05-14-6",
+      "name": "Mother's Day",
+      "date": "2028-05-14",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.472Z",
+      "updatedAt": "2025-08-13T00:12:06.472Z"
+    },
+    {
+      "id": "LV-2028-06-23-7",
+      "name": "Midsummer Eve",
+      "date": "2028-06-23",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.472Z",
+      "updatedAt": "2025-08-13T00:12:06.473Z"
+    },
+    {
+      "id": "LV-2028-06-24-8",
+      "name": "Midsummer Day",
+      "date": "2028-06-24",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.473Z",
+      "updatedAt": "2025-08-13T00:12:06.473Z"
+    },
+    {
+      "id": "LV-2028-11-18-9",
+      "name": "Proclamation Day of the Republic of Latvia",
+      "date": "2028-11-18",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.473Z",
+      "updatedAt": "2025-08-13T00:12:06.473Z"
+    },
+    {
+      "id": "LV-2028-12-24-10",
+      "name": "Christmas Eve",
+      "date": "2028-12-24",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.473Z",
+      "updatedAt": "2025-08-13T00:12:06.473Z"
+    },
+    {
+      "id": "LV-2028-12-25-11",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.473Z",
+      "updatedAt": "2025-08-13T00:12:06.473Z"
+    },
+    {
+      "id": "LV-2028-12-26-12",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.473Z",
+      "updatedAt": "2025-08-13T00:12:06.473Z"
+    },
+    {
+      "id": "LV-2028-12-31-13",
+      "name": "New Year's Eve",
+      "date": "2028-12-31",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:06.473Z",
+      "updatedAt": "2025-08-13T00:12:06.473Z"
+    }
+  ]
+}

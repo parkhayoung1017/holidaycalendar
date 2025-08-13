@@ -1,0 +1,129 @@
+{
+  "countryCode": "UA",
+  "year": 2026,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:04:56.030Z",
+  "holidays": [
+    {
+      "id": "UA-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-03-08-1",
+      "name": "International Women's Day",
+      "date": "2026-03-08",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-04-12-2",
+      "name": "Easter Sunday",
+      "date": "2026-04-12",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-05-01-3",
+      "name": "International Workers' Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-05-08-4",
+      "name": "Victory day over Nazism in World War II",
+      "date": "2026-05-08",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-05-31-5",
+      "name": "Pentecost",
+      "date": "2026-05-31",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-06-28-6",
+      "name": "Constitution Day",
+      "date": "2026-06-28",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-07-15-7",
+      "name": "Statehood Day",
+      "date": "2026-07-15",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-08-24-8",
+      "name": "Independence Day",
+      "date": "2026-08-24",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-10-01-9",
+      "name": "Defender of Ukraine Day",
+      "date": "2026-10-01",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    },
+    {
+      "id": "UA-2026-12-25-10",
+      "name": "(Gregorian and Revised Julian) Christmas",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "UA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:56.030Z",
+      "updatedAt": "2025-08-13T00:04:56.030Z"
+    }
+  ]
+}

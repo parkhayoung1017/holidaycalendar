@@ -1,0 +1,151 @@
+{
+  "countryCode": "PA",
+  "year": 2028,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-08-13T00:12:53.071Z",
+  "holidays": [
+    {
+      "id": "PA-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-01-09-1",
+      "name": "Martyr's Day",
+      "date": "2028-01-09",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-02-28-2",
+      "name": "Carnival",
+      "date": "2028-02-28",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-02-29-3",
+      "name": "Carnival",
+      "date": "2028-02-29",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-04-14-4",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-05-01-5",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-11-03-6",
+      "name": "Separation Day",
+      "date": "2028-11-03",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-11-04-7",
+      "name": "Flag Day",
+      "date": "2028-11-04",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-11-05-8",
+      "name": "Colon Day",
+      "date": "2028-11-05",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-11-10-9",
+      "name": "Shout in Villa de los Santos",
+      "date": "2028-11-10",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-11-28-10",
+      "name": "Independence Day",
+      "date": "2028-11-28",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-12-08-11",
+      "name": "Mothers' Day",
+      "date": "2028-12-08",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    },
+    {
+      "id": "PA-2028-12-25-12",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "PA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:53.071Z",
+      "updatedAt": "2025-08-13T00:12:53.071Z"
+    }
+  ]
+}

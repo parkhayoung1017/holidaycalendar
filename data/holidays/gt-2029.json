@@ -1,0 +1,151 @@
+{
+  "countryCode": "GT",
+  "year": 2029,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-08-13T00:16:04.275Z",
+  "holidays": [
+    {
+      "id": "GT-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-03-29-1",
+      "name": "Maundy Thursday",
+      "date": "2029-03-29",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-03-30-2",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-03-31-3",
+      "name": "Holy Saturday",
+      "date": "2029-03-31",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-04-01-4",
+      "name": "Easter Sunday",
+      "date": "2029-04-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-05-01-5",
+      "name": "International Workers' Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-06-30-6",
+      "name": "Army Day",
+      "date": "2029-06-30",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-09-15-7",
+      "name": "Independence Day",
+      "date": "2029-09-15",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-10-20-8",
+      "name": "Revolution Day",
+      "date": "2029-10-20",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2029-11-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-12-24-10",
+      "name": "Christmas Eve",
+      "date": "2029-12-24",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-12-25-11",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    },
+    {
+      "id": "GT-2029-12-31-12",
+      "name": "New Year's Eve",
+      "date": "2029-12-31",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:04.275Z",
+      "updatedAt": "2025-08-13T00:16:04.275Z"
+    }
+  ]
+}

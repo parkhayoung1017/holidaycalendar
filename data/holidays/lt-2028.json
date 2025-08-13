@@ -1,0 +1,162 @@
+{
+  "countryCode": "LT",
+  "year": 2028,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:12:03.752Z",
+  "holidays": [
+    {
+      "id": "LT-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-02-16-1",
+      "name": "The Day of Restoration of the State of Lithuania",
+      "date": "2028-02-16",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-03-11-2",
+      "name": "Day of Restoration of Independence of Lithuania",
+      "date": "2028-03-11",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-04-16-3",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-04-17-4",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-05-01-5",
+      "name": "International Working Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-06-24-6",
+      "name": "St. John's Day",
+      "date": "2028-06-24",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-07-06-7",
+      "name": "Statehood Day",
+      "date": "2028-07-06",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-08-15-8",
+      "name": "Assumption Day",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2028-11-01",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-11-02-10",
+      "name": "All Souls' Day",
+      "date": "2028-11-02",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-12-24-11",
+      "name": "Christmas Eve",
+      "date": "2028-12-24",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-12-25-12",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    },
+    {
+      "id": "LT-2028-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:03.751Z",
+      "updatedAt": "2025-08-13T00:12:03.751Z"
+    }
+  ]
+}

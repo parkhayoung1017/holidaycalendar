@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "ZA-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-03-21-1",
+      "name": "Human Rights Day",
+      "date": "2026-03-21",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-04-03-2",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-04-06-3",
+      "name": "Family Day",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-04-27-4",
+      "name": "Freedom Day",
+      "date": "2026-04-27",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-05-01-5",
+      "name": "Workers' Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-06-16-6",
+      "name": "Youth Day",
+      "date": "2026-06-16",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-08-10-7",
+      "name": "National Women's Day",
+      "date": "2026-08-10",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-09-24-8",
+      "name": "Heritage Day",
+      "date": "2026-09-24",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-12-16-9",
+      "name": "Day of Reconciliation",
+      "date": "2026-12-16",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-12-25-10",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    },
+    {
+      "id": "ZA-2026-12-26-11",
+      "name": "Day of Goodwill",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "ZA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:14.282Z",
+      "updatedAt": "2025-08-13T00:05:14.282Z"
+    }
+  ],
+  "timestamp": 1755043514283,
+  "ttl": 86400000,
+  "key": "holiday:ZA:2026"
+}

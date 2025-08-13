@@ -1,0 +1,140 @@
+{
+  "countryCode": "GI",
+  "year": 2030,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:20:50.652Z",
+  "holidays": [
+    {
+      "id": "GI-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-03-11-1",
+      "name": "Commonwealth Day",
+      "date": "2030-03-11",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-04-28-4",
+      "name": "Workers' Memorial Day",
+      "date": "2030-04-28",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-05-01-5",
+      "name": "May Day Bank Holiday",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-05-27-6",
+      "name": "Spring Bank Holiday",
+      "date": "2030-05-27",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-06-10-7",
+      "name": "Queen's Birthday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-08-26-8",
+      "name": "Summer Bank Holiday",
+      "date": "2030-08-26",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-09-10-9",
+      "name": "Gibraltar National Day",
+      "date": "2030-09-10",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-12-25-10",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    },
+    {
+      "id": "GI-2030-12-26-11",
+      "name": "Boxing Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:50.652Z",
+      "updatedAt": "2025-08-13T00:20:50.652Z"
+    }
+  ]
+}

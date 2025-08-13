@@ -1,0 +1,162 @@
+{
+  "countryCode": "PL",
+  "year": 2029,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:17:52.510Z",
+  "holidays": [
+    {
+      "id": "PL-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.509Z",
+      "updatedAt": "2025-08-13T00:17:52.509Z"
+    },
+    {
+      "id": "PL-2029-01-06-1",
+      "name": "Epiphany",
+      "date": "2029-01-06",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.509Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-04-01-2",
+      "name": "Easter Sunday",
+      "date": "2029-04-01",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-04-02-3",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-05-01-4",
+      "name": "May Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-05-03-5",
+      "name": "Constitution Day",
+      "date": "2029-05-03",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-05-20-6",
+      "name": "Pentecost",
+      "date": "2029-05-20",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-05-31-7",
+      "name": "Corpus Christi",
+      "date": "2029-05-31",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-08-15-8",
+      "name": "Assumption Day",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2029-11-01",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-11-11-10",
+      "name": "Independence Day",
+      "date": "2029-11-11",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-12-24-11",
+      "name": "Christmas Eve",
+      "date": "2029-12-24",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-12-25-12",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    },
+    {
+      "id": "PL-2029-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "PL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:52.510Z",
+      "updatedAt": "2025-08-13T00:17:52.510Z"
+    }
+  ]
+}

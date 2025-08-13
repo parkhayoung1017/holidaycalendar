@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "AT-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-01-06-1",
+      "name": "Epiphany",
+      "date": "2028-01-06",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-04-16-2",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-04-17-3",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-05-01-4",
+      "name": "National Holiday",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-05-25-5",
+      "name": "Ascension Day",
+      "date": "2028-05-25",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-06-04-6",
+      "name": "Pentecost",
+      "date": "2028-06-04",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-06-05-7",
+      "name": "Whit Monday",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-06-15-8",
+      "name": "Corpus Christi",
+      "date": "2028-06-15",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-08-15-9",
+      "name": "Assumption Day",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-10-26-10",
+      "name": "National Holiday",
+      "date": "2028-10-26",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-11-01-11",
+      "name": "All Saints' Day",
+      "date": "2028-11-01",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-12-08-12",
+      "name": "Immaculate Conception",
+      "date": "2028-12-08",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-12-25-13",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    },
+    {
+      "id": "AT-2028-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "AT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:48.302Z",
+      "updatedAt": "2025-08-13T00:09:48.302Z"
+    }
+  ],
+  "timestamp": 1755043788304,
+  "ttl": 86400000,
+  "key": "holiday:AT:2028"
+}

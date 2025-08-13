@@ -1,0 +1,204 @@
+{
+  "countryCode": "PT",
+  "year": 2029,
+  "totalHolidays": 17,
+  "lastUpdated": "2025-08-13T00:17:56.485Z",
+  "holidays": [
+    {
+      "id": "PT-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-02-13-1",
+      "name": "Carnival",
+      "date": "2029-02-13",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-03-30-2",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-04-01-3",
+      "name": "Easter Sunday",
+      "date": "2029-04-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-04-25-4",
+      "name": "Freedom Day",
+      "date": "2029-04-25",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-05-01-5",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-05-31-6",
+      "name": "Corpus Christi",
+      "date": "2029-05-31",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-06-01-7",
+      "name": "Azores Day",
+      "date": "2029-06-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-20"
+      ],
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-06-10-8",
+      "name": "National Day",
+      "date": "2029-06-10",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-07-01-9",
+      "name": "Madeira Day",
+      "date": "2029-07-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-30"
+      ],
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-08-15-10",
+      "name": "Assumption Day",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-10-05-11",
+      "name": "Republic Day",
+      "date": "2029-10-05",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-11-01-12",
+      "name": "All Saints Day",
+      "date": "2029-11-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-12-01-13",
+      "name": "Restoration of Independence",
+      "date": "2029-12-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-12-08-14",
+      "name": "Immaculate Conception",
+      "date": "2029-12-08",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-12-25-15",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    },
+    {
+      "id": "PT-2029-12-26-16",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-30"
+      ],
+      "createdAt": "2025-08-13T00:17:56.485Z",
+      "updatedAt": "2025-08-13T00:17:56.485Z"
+    }
+  ]
+}

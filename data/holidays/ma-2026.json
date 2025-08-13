@@ -1,0 +1,118 @@
+{
+  "countryCode": "MA",
+  "year": 2026,
+  "totalHolidays": 10,
+  "lastUpdated": "2025-08-13T00:03:06.004Z",
+  "holidays": [
+    {
+      "id": "MA-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    },
+    {
+      "id": "MA-2026-01-11-1",
+      "name": "Proclamation of Independence",
+      "date": "2026-01-11",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    },
+    {
+      "id": "MA-2026-01-14-2",
+      "name": "Amazigh New Year",
+      "date": "2026-01-14",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    },
+    {
+      "id": "MA-2026-05-01-3",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    },
+    {
+      "id": "MA-2026-07-30-4",
+      "name": "Enthronement",
+      "date": "2026-07-30",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    },
+    {
+      "id": "MA-2026-08-14-5",
+      "name": "Zikra Oued Ed-Dahab",
+      "date": "2026-08-14",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    },
+    {
+      "id": "MA-2026-08-20-6",
+      "name": "Revolution of the King and the People",
+      "date": "2026-08-20",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    },
+    {
+      "id": "MA-2026-08-21-7",
+      "name": "Youth Day",
+      "date": "2026-08-21",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    },
+    {
+      "id": "MA-2026-11-06-8",
+      "name": "Green March",
+      "date": "2026-11-06",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    },
+    {
+      "id": "MA-2026-11-18-9",
+      "name": "Independence Day",
+      "date": "2026-11-18",
+      "country": "",
+      "countryCode": "MA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:06.004Z",
+      "updatedAt": "2025-08-13T00:03:06.004Z"
+    }
+  ]
+}

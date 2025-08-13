@@ -1,0 +1,140 @@
+{
+  "countryCode": "GI",
+  "year": 2029,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:15:56.267Z",
+  "holidays": [
+    {
+      "id": "GI-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-03-12-1",
+      "name": "Commonwealth Day",
+      "date": "2029-03-12",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-03-30-2",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-04-02-3",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-04-28-4",
+      "name": "Workers' Memorial Day",
+      "date": "2029-04-28",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-05-01-5",
+      "name": "May Day Bank Holiday",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-05-28-6",
+      "name": "Spring Bank Holiday",
+      "date": "2029-05-28",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-06-11-7",
+      "name": "Queen's Birthday",
+      "date": "2029-06-11",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-08-27-8",
+      "name": "Summer Bank Holiday",
+      "date": "2029-08-27",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-09-10-9",
+      "name": "Gibraltar National Day",
+      "date": "2029-09-10",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-12-25-10",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    },
+    {
+      "id": "GI-2029-12-26-11",
+      "name": "Boxing Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "GI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:15:56.267Z",
+      "updatedAt": "2025-08-13T00:15:56.267Z"
+    }
+  ]
+}

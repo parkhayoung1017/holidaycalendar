@@ -1,0 +1,140 @@
+{
+  "countryCode": "NI",
+  "year": 2027,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:08:02.827Z",
+  "holidays": [
+    {
+      "id": "NI-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-02-01-1",
+      "name": "Air Force Day",
+      "date": "2027-02-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-04-01-2",
+      "name": "Holy Thursday",
+      "date": "2027-04-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-05-01-3",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-05-27-4",
+      "name": "Army Day",
+      "date": "2027-05-27",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-07-19-5",
+      "name": "Liberation Day",
+      "date": "2027-07-19",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-09-14-6",
+      "name": "Battle of San Jacinto",
+      "date": "2027-09-14",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-09-15-7",
+      "name": "Independence Day",
+      "date": "2027-09-15",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-10-12-8",
+      "name": "Indigenous Resistance Day",
+      "date": "2027-10-12",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-12-08-9",
+      "name": "Immaculate Conception",
+      "date": "2027-12-08",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-12-25-10",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    },
+    {
+      "id": "NI-2027-12-31-11",
+      "name": "New Year's Eve",
+      "date": "2027-12-31",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:02.827Z",
+      "updatedAt": "2025-08-13T00:08:02.827Z"
+    }
+  ]
+}

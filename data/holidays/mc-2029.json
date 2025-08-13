@@ -1,0 +1,140 @@
+{
+  "countryCode": "MC",
+  "year": 2029,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:17:03.544Z",
+  "holidays": [
+    {
+      "id": "MC-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-01-27-1",
+      "name": "Saint Devota's Day",
+      "date": "2029-01-27",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-04-02-2",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-05-01-3",
+      "name": "May Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-05-10-4",
+      "name": "Ascension Day",
+      "date": "2029-05-10",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-05-21-5",
+      "name": "Whit Monday",
+      "date": "2029-05-21",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-05-31-6",
+      "name": "Corpus Christi",
+      "date": "2029-05-31",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-08-15-7",
+      "name": "Assumption Day",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-11-01-8",
+      "name": "All Saints Day",
+      "date": "2029-11-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-11-19-9",
+      "name": "National Day",
+      "date": "2029-11-19",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-12-08-10",
+      "name": "The Immaculate Conception",
+      "date": "2029-12-08",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    },
+    {
+      "id": "MC-2029-12-25-11",
+      "name": "​Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:03.544Z",
+      "updatedAt": "2025-08-13T00:17:03.544Z"
+    }
+  ]
+}

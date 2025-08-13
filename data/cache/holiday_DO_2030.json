@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "id": "DO-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-01-06-1",
+      "name": "Day of Kings",
+      "date": "2030-01-06",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-01-21-2",
+      "name": "Our Lady of Altagracia",
+      "date": "2030-01-21",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-01-26-3",
+      "name": "Duarte's Birthday",
+      "date": "2030-01-26",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-02-27-4",
+      "name": "Independence Day",
+      "date": "2030-02-27",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-04-19-5",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-05-01-6",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-05-28-7",
+      "name": "Mother's Day",
+      "date": "2030-05-28",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-06-20-8",
+      "name": "Corpus Christi",
+      "date": "2030-06-20",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-08-16-9",
+      "name": "Restoration Day",
+      "date": "2030-08-16",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-09-24-10",
+      "name": "Our Lady of Mercy",
+      "date": "2030-09-24",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-11-06-11",
+      "name": "Constitution Day",
+      "date": "2030-11-06",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    },
+    {
+      "id": "DO-2030-12-25-12",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "DO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:20:25.989Z",
+      "updatedAt": "2025-08-13T00:20:25.989Z"
+    }
+  ],
+  "timestamp": 1755044425994,
+  "ttl": 86400000,
+  "key": "holiday:DO:2030"
+}

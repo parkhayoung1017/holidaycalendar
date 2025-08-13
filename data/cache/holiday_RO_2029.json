@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "id": "RO-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-01-02-1",
+      "name": "Day after New Year's Day",
+      "date": "2029-01-02",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-01-06-2",
+      "name": "Epiphany",
+      "date": "2029-01-06",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-01-07-3",
+      "name": "Saint John the Baptist",
+      "date": "2029-01-07",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-01-24-4",
+      "name": "Union Day/Small Union",
+      "date": "2029-01-24",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-04-06-5",
+      "name": "Good Friday",
+      "date": "2029-04-06",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-04-08-6",
+      "name": "Easter Sunday",
+      "date": "2029-04-08",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-04-09-7",
+      "name": "Easter Monday",
+      "date": "2029-04-09",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-05-01-8",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-05-27-9",
+      "name": "Pentecost",
+      "date": "2029-05-27",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-05-28-10",
+      "name": "Whit Monday",
+      "date": "2029-05-28",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-06-01-11",
+      "name": "Children's Day",
+      "date": "2029-06-01",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-08-15-12",
+      "name": "Dormition of the Theotokos",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-11-30-13",
+      "name": "St. Andrew's Day",
+      "date": "2029-11-30",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-12-01-14",
+      "name": "National Day/Great Union",
+      "date": "2029-12-01",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-12-25-15",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    },
+    {
+      "id": "RO-2029-12-26-16",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "RO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:01.794Z",
+      "updatedAt": "2025-08-13T00:18:01.794Z"
+    }
+  ],
+  "timestamp": 1755044281795,
+  "ttl": 86400000,
+  "key": "holiday:RO:2029"
+}

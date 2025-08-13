@@ -1,0 +1,205 @@
+{
+  "data": [
+    {
+      "id": "CO-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-01-11-1",
+      "name": "Epiphany",
+      "date": "2027-01-11",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-03-22-2",
+      "name": "Saint Joseph's Day",
+      "date": "2027-03-22",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-03-25-3",
+      "name": "Maundy Thursday",
+      "date": "2027-03-25",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-03-26-4",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-05-01-5",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-05-10-6",
+      "name": "Ascension Day",
+      "date": "2027-05-10",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-05-31-7",
+      "name": "Corpus Christi",
+      "date": "2027-05-31",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-06-07-8",
+      "name": "Sacred Heart",
+      "date": "2027-06-07",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-07-05-9",
+      "name": "Saint Peter and Saint Paul",
+      "date": "2027-07-05",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-07-20-10",
+      "name": "Declaration of Independence",
+      "date": "2027-07-20",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-08-07-11",
+      "name": "Battle of Boyacá",
+      "date": "2027-08-07",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-08-16-12",
+      "name": "Assumption of Mary",
+      "date": "2027-08-16",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-10-18-13",
+      "name": "Columbus Day",
+      "date": "2027-10-18",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-11-01-14",
+      "name": "All Saints’ Day",
+      "date": "2027-11-01",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-11-15-15",
+      "name": "Independence of Cartagena",
+      "date": "2027-11-15",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-12-08-16",
+      "name": "Immaculate Conception",
+      "date": "2027-12-08",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    },
+    {
+      "id": "CO-2027-12-25-17",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "CO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:04.172Z",
+      "updatedAt": "2025-08-13T00:06:04.172Z"
+    }
+  ],
+  "timestamp": 1755043564174,
+  "ttl": 86400000,
+  "key": "holiday:CO:2027"
+}

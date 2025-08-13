@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "MG-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    },
+    {
+      "id": "MG-2029-03-29-1",
+      "name": "Martyrs' Day",
+      "date": "2029-03-29",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    },
+    {
+      "id": "MG-2029-04-02-2",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    },
+    {
+      "id": "MG-2029-05-01-3",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    },
+    {
+      "id": "MG-2029-05-10-4",
+      "name": "Ascension Day",
+      "date": "2029-05-10",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    },
+    {
+      "id": "MG-2029-05-21-5",
+      "name": "Whit Monday",
+      "date": "2029-05-21",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    },
+    {
+      "id": "MG-2029-06-26-6",
+      "name": "Independence Day",
+      "date": "2029-06-26",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    },
+    {
+      "id": "MG-2029-08-15-7",
+      "name": "Assumption Day",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    },
+    {
+      "id": "MG-2029-11-01-8",
+      "name": "All Saints' Day",
+      "date": "2029-11-01",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    },
+    {
+      "id": "MG-2029-12-25-9",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "MG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:07.539Z",
+      "updatedAt": "2025-08-13T00:17:07.539Z"
+    }
+  ],
+  "timestamp": 1755044227540,
+  "ttl": 86400000,
+  "key": "holiday:MG:2029"
+}

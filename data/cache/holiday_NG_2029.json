@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "NG-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    },
+    {
+      "id": "NG-2029-03-30-1",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    },
+    {
+      "id": "NG-2029-04-02-2",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    },
+    {
+      "id": "NG-2029-05-01-3",
+      "name": "Workers' Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    },
+    {
+      "id": "NG-2029-05-27-4",
+      "name": "Children's Day",
+      "date": "2029-05-27",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    },
+    {
+      "id": "NG-2029-06-12-5",
+      "name": "Democracy Day",
+      "date": "2029-06-12",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    },
+    {
+      "id": "NG-2029-10-01-6",
+      "name": "National Day",
+      "date": "2029-10-01",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    },
+    {
+      "id": "NG-2029-11-01-7",
+      "name": "National Youth Day",
+      "date": "2029-11-01",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    },
+    {
+      "id": "NG-2029-12-25-8",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    },
+    {
+      "id": "NG-2029-12-26-9",
+      "name": "Boxing Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "NG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:32.709Z",
+      "updatedAt": "2025-08-13T00:17:32.709Z"
+    }
+  ],
+  "timestamp": 1755044252710,
+  "ttl": 86400000,
+  "key": "holiday:NG:2029"
+}

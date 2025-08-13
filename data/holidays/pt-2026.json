@@ -1,0 +1,204 @@
+{
+  "countryCode": "PT",
+  "year": 2026,
+  "totalHolidays": 17,
+  "lastUpdated": "2025-08-13T00:03:59.888Z",
+  "holidays": [
+    {
+      "id": "PT-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-02-17-1",
+      "name": "Carnival",
+      "date": "2026-02-17",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-04-03-2",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-04-05-3",
+      "name": "Easter Sunday",
+      "date": "2026-04-05",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-04-25-4",
+      "name": "Freedom Day",
+      "date": "2026-04-25",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-05-01-5",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-06-01-6",
+      "name": "Azores Day",
+      "date": "2026-06-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-20"
+      ],
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-06-04-7",
+      "name": "Corpus Christi",
+      "date": "2026-06-04",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-06-10-8",
+      "name": "National Day",
+      "date": "2026-06-10",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-07-01-9",
+      "name": "Madeira Day",
+      "date": "2026-07-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-30"
+      ],
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-08-15-10",
+      "name": "Assumption Day",
+      "date": "2026-08-15",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-10-05-11",
+      "name": "Republic Day",
+      "date": "2026-10-05",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-11-01-12",
+      "name": "All Saints Day",
+      "date": "2026-11-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-12-01-13",
+      "name": "Restoration of Independence",
+      "date": "2026-12-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-12-08-14",
+      "name": "Immaculate Conception",
+      "date": "2026-12-08",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-12-25-15",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    },
+    {
+      "id": "PT-2026-12-26-16",
+      "name": "St. Stephen's Day",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-30"
+      ],
+      "createdAt": "2025-08-13T00:03:59.888Z",
+      "updatedAt": "2025-08-13T00:03:59.888Z"
+    }
+  ]
+}

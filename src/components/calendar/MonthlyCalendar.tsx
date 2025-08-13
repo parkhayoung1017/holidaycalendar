@@ -44,7 +44,7 @@ export default function MonthlyCalendar({
     setIsClient(true);
   }, []);
 
-  // 동적으로 공휴일 데이터 로드하는 함수 (캐싱 적용)
+  // 동적으로 공휴일 데이터 로드하는 함수 (캐싱 적용) - 모든 국가 포함
   const loadDynamicHolidays = async (year: number, month: number) => {
     const cacheKey = `${year}-${month}`;
     
@@ -57,19 +57,12 @@ export default function MonthlyCalendar({
 
     setIsLoadingHolidays(true);
     try {
-      // 주요 국가들의 공휴일 데이터를 API로 로드
-      const popularCountries = ['KR', 'US', 'GB', 'DE', 'FR', 'JP', 'CA', 'AU', 'BR', 'IN'];
-      
-      const response = await fetch('/api/holidays/multiple', {
-        method: 'POST',
+      // 모든 국가의 공휴일 데이터를 API로 로드
+      const response = await fetch(`/api/holidays/monthly?year=${year}&month=${month + 1}`, {
+        method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          countries: popularCountries,
-          year: year,
-          month: month // 0-11 형식
-        })
+        }
       });
 
       if (!response.ok) {
@@ -79,12 +72,16 @@ export default function MonthlyCalendar({
       const result = await response.json();
       
       if (result.success) {
-        console.log('📅 동적 공휴일 로드 완료:', {
+        console.log('📅 전세계 공휴일 로드 완료:', {
           year,
           month: month + 1,
           totalHolidays: result.total,
-          countries: popularCountries,
-          holidays: result.data.slice(0, 5) // 처음 5개만 로그
+          message: result.message,
+          sampleHolidays: result.data.slice(0, 5).map((h: any) => ({ 
+            name: h.name, 
+            date: h.date, 
+            country: h.countryCode 
+          }))
         });
 
         // 캐시에 저장
@@ -98,7 +95,7 @@ export default function MonthlyCalendar({
         throw new Error(result.error || '알 수 없는 에러');
       }
     } catch (error) {
-      console.error('동적 공휴일 로드 실패:', error);
+      console.error('전세계 공휴일 로드 실패:', error);
       setDynamicHolidays([]);
     } finally {
       setIsLoadingHolidays(false);
@@ -506,17 +503,23 @@ export default function MonthlyCalendar({
           {isLoadingHolidays ? (
             <span className="flex items-center gap-1">
               <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
-              로딩 중...
+              전세계 공휴일 로딩 중...
             </span>
           ) : dynamicRealHolidays.length > 0 ? (
             <span className="flex items-center gap-1">
               <span className="w-2 h-2 bg-green-500 rounded-full"></span>
               전세계 {dynamicRealHolidays.length}개 공휴일
+              <span className="text-xs text-gray-400 ml-1">
+                ({new Set(dynamicRealHolidays.map(h => h.country)).size}개국)
+              </span>
             </span>
           ) : realHolidays.length > 0 ? (
             <span className="flex items-center gap-1">
               <span className="w-2 h-2 bg-green-500 rounded-full"></span>
               전세계 {realHolidays.length}개 공휴일
+              <span className="text-xs text-gray-400 ml-1">
+                ({new Set(realHolidays.map(h => h.country)).size}개국)
+              </span>
             </span>
           ) : (
             <span className="flex items-center gap-1">
@@ -707,9 +710,16 @@ export default function MonthlyCalendar({
       {displayHolidays.length > 0 && (
         <div className="mt-6 pt-4 border-t border-gray-200" data-component="MonthlyCalendar-HolidayList">
           <div className="flex items-center justify-between mb-3">
-            <h4 className="text-sm font-medium text-gray-900">
-              이번 달 공휴일 ({displayHolidays.length}개)
-            </h4>
+            <div>
+              <h4 className="text-sm font-medium text-gray-900">
+                이번 달 공휴일 ({displayHolidays.length}개)
+              </h4>
+              {displayHolidays.length > 0 && (
+                <p className="text-xs text-gray-500 mt-1">
+                  전세계 {new Set(displayHolidays.map(h => h.country || h.countryCode)).size}개국의 공휴일
+                </p>
+              )}
+            </div>
             <button
               onClick={() => setShowAllHolidays(!showAllHolidays)}
               className="text-xs text-blue-600 hover:text-blue-800 flex items-center gap-1"

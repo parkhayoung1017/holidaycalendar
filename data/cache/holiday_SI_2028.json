@@ -1,0 +1,238 @@
+{
+  "data": [
+    {
+      "id": "SI-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-01-02-1",
+      "name": "New Year's Day",
+      "date": "2028-01-02",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-02-08-2",
+      "name": "Prešeren Day",
+      "date": "2028-02-08",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-04-16-3",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-04-17-4",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-04-27-5",
+      "name": "Day of Uprising Against Occupation",
+      "date": "2028-04-27",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-05-01-6",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-05-02-7",
+      "name": "Labour Day",
+      "date": "2028-05-02",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-05-02-8",
+      "name": "Primož Trubar Day",
+      "date": "2028-05-02",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-06-04-9",
+      "name": "Pentecost",
+      "date": "2028-06-04",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-06-25-10",
+      "name": "Statehood Day",
+      "date": "2028-06-25",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-08-14-11",
+      "name": "Sovereignty Day",
+      "date": "2028-08-14",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-08-15-12",
+      "name": "Assumption Day",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.696Z",
+      "updatedAt": "2025-08-13T00:13:24.696Z"
+    },
+    {
+      "id": "SI-2028-08-15-13",
+      "name": "Unification of Prekmurje Slovenes with the Mother Nation",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.697Z",
+      "updatedAt": "2025-08-13T00:13:24.697Z"
+    },
+    {
+      "id": "SI-2028-09-15-14",
+      "name": "Integration of Primorska into the Homeland",
+      "date": "2028-09-15",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.697Z",
+      "updatedAt": "2025-08-13T00:13:24.697Z"
+    },
+    {
+      "id": "SI-2028-09-23-15",
+      "name": "Slovenian Sports Day",
+      "date": "2028-09-23",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.697Z",
+      "updatedAt": "2025-08-13T00:13:24.697Z"
+    },
+    {
+      "id": "SI-2028-10-31-16",
+      "name": "Reformation Day",
+      "date": "2028-10-31",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.697Z",
+      "updatedAt": "2025-08-13T00:13:24.697Z"
+    },
+    {
+      "id": "SI-2028-11-01-17",
+      "name": "Day of the Dead",
+      "date": "2028-11-01",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.697Z",
+      "updatedAt": "2025-08-13T00:13:24.697Z"
+    },
+    {
+      "id": "SI-2028-11-23-18",
+      "name": "Rudolf Maister Day",
+      "date": "2028-11-23",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.697Z",
+      "updatedAt": "2025-08-13T00:13:24.697Z"
+    },
+    {
+      "id": "SI-2028-12-25-19",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.697Z",
+      "updatedAt": "2025-08-13T00:13:24.697Z"
+    },
+    {
+      "id": "SI-2028-12-26-20",
+      "name": "Independence and Unity Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "SI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:24.697Z",
+      "updatedAt": "2025-08-13T00:13:24.697Z"
+    }
+  ],
+  "timestamp": 1755044004697,
+  "ttl": 86400000,
+  "key": "holiday:SI:2028"
+}

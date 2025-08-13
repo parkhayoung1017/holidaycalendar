@@ -1,0 +1,184 @@
+{
+  "countryCode": "IS",
+  "year": 2030,
+  "totalHolidays": 16,
+  "lastUpdated": "2025-08-13T00:21:20.269Z",
+  "holidays": [
+    {
+      "id": "IS-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-04-18-1",
+      "name": "Maundy Thursday",
+      "date": "2030-04-18",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-04-21-3",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-04-22-4",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-04-25-5",
+      "name": "First Day of Summer",
+      "date": "2030-04-25",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-05-01-6",
+      "name": "May Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-05-30-7",
+      "name": "Ascension Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-06-09-8",
+      "name": "Pentecost",
+      "date": "2030-06-09",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-06-10-9",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-06-17-10",
+      "name": "Icelandic National Day",
+      "date": "2030-06-17",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-08-05-11",
+      "name": "Commerce Day",
+      "date": "2030-08-05",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-12-24-12",
+      "name": "Christmas Eve",
+      "date": "2030-12-24",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-12-25-13",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    },
+    {
+      "id": "IS-2030-12-31-15",
+      "name": "New Year's Eve",
+      "date": "2030-12-31",
+      "country": "",
+      "countryCode": "IS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:20.269Z",
+      "updatedAt": "2025-08-13T00:21:20.269Z"
+    }
+  ]
+}

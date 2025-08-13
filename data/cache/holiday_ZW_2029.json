@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "ZW-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-02-21-1",
+      "name": "Robert Mugabe National Youth Day",
+      "date": "2029-02-21",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-03-30-2",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-03-31-3",
+      "name": "Easter Saturday",
+      "date": "2029-03-31",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-03-31-4",
+      "name": "Holy Saturday",
+      "date": "2029-03-31",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-04-02-5",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-04-18-6",
+      "name": "Independence Day",
+      "date": "2029-04-18",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-05-01-7",
+      "name": "Worker's Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-05-25-8",
+      "name": "Africa Day",
+      "date": "2029-05-25",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-08-13-9",
+      "name": "Heroes' Day",
+      "date": "2029-08-13",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-08-14-10",
+      "name": "Defence Forces Day",
+      "date": "2029-08-14",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-12-22-11",
+      "name": "Unity Day",
+      "date": "2029-12-22",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-12-25-12",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    },
+    {
+      "id": "ZW-2029-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:17.493Z",
+      "updatedAt": "2025-08-13T00:19:17.493Z"
+    }
+  ],
+  "timestamp": 1755044357493,
+  "ttl": 86400000,
+  "key": "holiday:ZW:2029"
+}

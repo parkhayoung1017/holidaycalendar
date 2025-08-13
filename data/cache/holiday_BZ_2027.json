@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "BZ-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-03-08-1",
+      "name": "Baron Bliss Day",
+      "date": "2027-03-08",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-03-26-2",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-03-27-3",
+      "name": "Holy Saturday",
+      "date": "2027-03-27",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-03-28-4",
+      "name": "Easter Sunday",
+      "date": "2027-03-28",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-03-29-5",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-05-03-6",
+      "name": "Labour Day",
+      "date": "2027-05-03",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-05-24-7",
+      "name": "Commonwealth Day",
+      "date": "2027-05-24",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-09-10-8",
+      "name": "Saint George's Caye Day",
+      "date": "2027-09-10",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-09-21-9",
+      "name": "Independence Day",
+      "date": "2027-09-21",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-10-11-10",
+      "name": "Day of the Americas",
+      "date": "2027-10-11",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-11-19-11",
+      "name": "Garifuna Settlement Day",
+      "date": "2027-11-19",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-12-26-13",
+      "name": "Boxing Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    },
+    {
+      "id": "BZ-2027-12-27-12",
+      "name": "Christmas Day",
+      "date": "2027-12-27",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:52.210Z",
+      "updatedAt": "2025-08-13T00:05:52.210Z"
+    }
+  ],
+  "timestamp": 1755043552210,
+  "ttl": 86400000,
+  "key": "holiday:BZ:2027"
+}

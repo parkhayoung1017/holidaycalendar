@@ -1,0 +1,140 @@
+{
+  "countryCode": "NA",
+  "year": 2026,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:03:32.319Z",
+  "holidays": [
+    {
+      "id": "NA-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-03-21-1",
+      "name": "Independence Day",
+      "date": "2026-03-21",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-04-03-2",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-04-06-3",
+      "name": "Easter Monday",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-05-01-4",
+      "name": "Workers' Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-05-04-5",
+      "name": "Cassinga Day",
+      "date": "2026-05-04",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-05-14-6",
+      "name": "Ascension Day",
+      "date": "2026-05-14",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-05-25-7",
+      "name": "Africa Day",
+      "date": "2026-05-25",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-08-26-8",
+      "name": "Heroes' Day",
+      "date": "2026-08-26",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-12-10-9",
+      "name": "Human Rights Day",
+      "date": "2026-12-10",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-12-25-10",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    },
+    {
+      "id": "NA-2026-12-26-11",
+      "name": "Day of Goodwill",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:32.319Z",
+      "updatedAt": "2025-08-13T00:03:32.319Z"
+    }
+  ]
+}

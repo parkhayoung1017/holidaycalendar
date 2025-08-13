@@ -1,0 +1,140 @@
+{
+  "countryCode": "LU",
+  "year": 2027,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:07:27.710Z",
+  "holidays": [
+    {
+      "id": "LU-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-03-26-1",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-03-29-2",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-05-01-3",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-05-06-4",
+      "name": "Ascension Day",
+      "date": "2027-05-06",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-05-09-5",
+      "name": "Europe Day",
+      "date": "2027-05-09",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-05-17-6",
+      "name": "Whit Monday",
+      "date": "2027-05-17",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-06-23-7",
+      "name": "Sovereign's birthday",
+      "date": "2027-06-23",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-08-15-8",
+      "name": "Assumption Day",
+      "date": "2027-08-15",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2027-11-01",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-12-25-10",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    },
+    {
+      "id": "LU-2027-12-26-11",
+      "name": "St. Stephen's Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "LU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:27.710Z",
+      "updatedAt": "2025-08-13T00:07:27.710Z"
+    }
+  ]
+}

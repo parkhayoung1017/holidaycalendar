@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "id": "KZ-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-01-02-1",
+      "name": "New Year's Day",
+      "date": "2027-01-02",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-03-08-2",
+      "name": "International Women's Day",
+      "date": "2027-03-08",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-03-21-3",
+      "name": "Nauryz Meyramy",
+      "date": "2027-03-21",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-03-22-4",
+      "name": "Nauryz Meyramy",
+      "date": "2027-03-22",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-03-23-5",
+      "name": "Nauryz Meyramy",
+      "date": "2027-03-23",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-05-01-6",
+      "name": "Kazakhstan People's Unity Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-05-07-7",
+      "name": "Defender of the Fatherland Day",
+      "date": "2027-05-07",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-05-09-8",
+      "name": "Great Patriotic War Against Fascism Victory Day",
+      "date": "2027-05-09",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-07-06-9",
+      "name": "Capital City Day",
+      "date": "2027-07-06",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-08-30-10",
+      "name": "Constitution Day",
+      "date": "2027-08-30",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-10-25-11",
+      "name": "Republic Day",
+      "date": "2027-10-25",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    },
+    {
+      "id": "KZ-2027-12-16-12",
+      "name": "Independence Day",
+      "date": "2027-12-16",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:15.753Z",
+      "updatedAt": "2025-08-13T00:07:15.753Z"
+    }
+  ],
+  "timestamp": 1755043635754,
+  "ttl": 86400000,
+  "key": "holiday:KZ:2027"
+}

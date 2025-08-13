@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "id": "HU-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-03-15-1",
+      "name": "1848 Revolution Memorial Day",
+      "date": "2030-03-15",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-04-21-3",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-04-22-4",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-05-01-5",
+      "name": "Labour day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-06-09-6",
+      "name": "Pentecost",
+      "date": "2030-06-09",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-06-10-7",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-08-20-8",
+      "name": "State Foundation Day",
+      "date": "2030-08-20",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-10-23-9",
+      "name": "1956 Revolution Memorial Day",
+      "date": "2030-10-23",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-11-01-10",
+      "name": "All Saints Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-12-25-11",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    },
+    {
+      "id": "HU-2030-12-26-12",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "HU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:09.581Z",
+      "updatedAt": "2025-08-13T00:21:09.581Z"
+    }
+  ],
+  "timestamp": 1755044469581,
+  "ttl": 86400000,
+  "key": "holiday:HU:2030"
+}

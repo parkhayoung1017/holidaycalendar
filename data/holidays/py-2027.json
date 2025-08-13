@@ -1,0 +1,140 @@
+{
+  "countryCode": "PY",
+  "year": 2027,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:08:22.564Z",
+  "holidays": [
+    {
+      "id": "PY-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-03-01-1",
+      "name": "Heroes' day",
+      "date": "2027-03-01",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-03-25-2",
+      "name": "Maundy Thursday",
+      "date": "2027-03-25",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-03-26-3",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-05-01-4",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-05-14-5",
+      "name": "Paraguayan Independence",
+      "date": "2027-05-14",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-05-15-6",
+      "name": "Paraguayan Independence",
+      "date": "2027-05-15",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-06-12-7",
+      "name": "Chaco Armistice",
+      "date": "2027-06-12",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-08-15-8",
+      "name": "Founding of Asunción",
+      "date": "2027-08-15",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-09-29-9",
+      "name": "Boqueron Battle Victory Day",
+      "date": "2027-09-29",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-12-08-10",
+      "name": "Virgin of Caacupe",
+      "date": "2027-12-08",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    },
+    {
+      "id": "PY-2027-12-25-11",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "PY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:22.564Z",
+      "updatedAt": "2025-08-13T00:08:22.564Z"
+    }
+  ]
+}

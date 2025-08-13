@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "id": "SE-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-01-06-1",
+      "name": "Epiphany",
+      "date": "2028-01-06",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-04-14-2",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-04-16-3",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-04-17-4",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-05-01-5",
+      "name": "International Workers' Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-05-25-6",
+      "name": "Ascension Day",
+      "date": "2028-05-25",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-06-04-7",
+      "name": "Pentecost",
+      "date": "2028-06-04",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-06-06-8",
+      "name": "National Day of Sweden",
+      "date": "2028-06-06",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-06-23-9",
+      "name": "Midsummer Eve",
+      "date": "2028-06-23",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-06-24-10",
+      "name": "Midsummer Day",
+      "date": "2028-06-24",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-11-04-11",
+      "name": "All Saints' Day",
+      "date": "2028-11-04",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-12-24-12",
+      "name": "Christmas Eve",
+      "date": "2028-12-24",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-12-25-13",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    },
+    {
+      "id": "SE-2028-12-31-15",
+      "name": "New Year's Eve",
+      "date": "2028-12-31",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:13:20.779Z",
+      "updatedAt": "2025-08-13T00:13:20.779Z"
+    }
+  ],
+  "timestamp": 1755044000780,
+  "ttl": 86400000,
+  "key": "holiday:SE:2028"
+}

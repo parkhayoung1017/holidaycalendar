@@ -1,0 +1,162 @@
+{
+  "countryCode": "BE",
+  "year": 2030,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:19:41.126Z",
+  "holidays": [
+    {
+      "id": "BE-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-04-19-1",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-04-21-2",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-05-01-4",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-05-30-5",
+      "name": "Ascension Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-05-31-6",
+      "name": "Day after Ascension Day",
+      "date": "2030-05-31",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-06-10-7",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-07-21-8",
+      "name": "Belgian National Day",
+      "date": "2030-07-21",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-08-15-9",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-11-01-10",
+      "name": "All Saints' Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-11-11-11",
+      "name": "Armistice Day",
+      "date": "2030-11-11",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-12-25-12",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    },
+    {
+      "id": "BE-2030-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:41.126Z",
+      "updatedAt": "2025-08-13T00:19:41.126Z"
+    }
+  ]
+}

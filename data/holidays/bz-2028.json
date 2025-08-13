@@ -1,0 +1,162 @@
+{
+  "countryCode": "BZ",
+  "year": 2028,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:10:13.389Z",
+  "holidays": [
+    {
+      "id": "BZ-2028-01-03-0",
+      "name": "New Year's Day",
+      "date": "2028-01-03",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-03-06-1",
+      "name": "Baron Bliss Day",
+      "date": "2028-03-06",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-04-14-2",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-04-15-3",
+      "name": "Holy Saturday",
+      "date": "2028-04-15",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-04-16-4",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-04-17-5",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-05-01-6",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-05-22-7",
+      "name": "Commonwealth Day",
+      "date": "2028-05-22",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-09-10-8",
+      "name": "Saint George's Caye Day",
+      "date": "2028-09-10",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-09-21-9",
+      "name": "Independence Day",
+      "date": "2028-09-21",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-10-09-10",
+      "name": "Day of the Americas",
+      "date": "2028-10-09",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-11-19-11",
+      "name": "Garifuna Settlement Day",
+      "date": "2028-11-19",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-12-25-12",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    },
+    {
+      "id": "BZ-2028-12-26-13",
+      "name": "Boxing Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "BZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:13.388Z",
+      "updatedAt": "2025-08-13T00:10:13.388Z"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "SJ-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-03-25-1",
+      "name": "Maundy Thursday",
+      "date": "2027-03-25",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-03-26-2",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-03-28-3",
+      "name": "Easter Sunday",
+      "date": "2027-03-28",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-03-29-4",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-05-01-5",
+      "name": "May Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-05-06-6",
+      "name": "Ascension Day",
+      "date": "2027-05-06",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-05-16-7",
+      "name": "Pentecost",
+      "date": "2027-05-16",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-05-17-8",
+      "name": "Constitution Day",
+      "date": "2027-05-17",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-05-17-9",
+      "name": "Whit Monday",
+      "date": "2027-05-17",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-12-25-10",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    },
+    {
+      "id": "SJ-2027-12-26-11",
+      "name": "Second day of Christmas",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "SJ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:08:37.012Z",
+      "updatedAt": "2025-08-13T00:08:37.012Z"
+    }
+  ],
+  "timestamp": 1755043717012,
+  "ttl": 86400000,
+  "key": "holiday:SJ:2027"
+}

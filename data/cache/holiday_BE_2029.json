@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "BE-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-03-30-1",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-04-01-2",
+      "name": "Easter Sunday",
+      "date": "2029-04-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-04-02-3",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-05-01-4",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-05-10-5",
+      "name": "Ascension Day",
+      "date": "2029-05-10",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-05-11-6",
+      "name": "Day after Ascension Day",
+      "date": "2029-05-11",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-05-21-7",
+      "name": "Whit Monday",
+      "date": "2029-05-21",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-07-21-8",
+      "name": "Belgian National Day",
+      "date": "2029-07-21",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-08-15-9",
+      "name": "Assumption Day",
+      "date": "2029-08-15",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-11-01-10",
+      "name": "All Saints' Day",
+      "date": "2029-11-01",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-11-11-11",
+      "name": "Armistice Day",
+      "date": "2029-11-11",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-12-25-12",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    },
+    {
+      "id": "BE-2029-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "BE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:48.875Z",
+      "updatedAt": "2025-08-13T00:14:48.875Z"
+    }
+  ],
+  "timestamp": 1755044088876,
+  "ttl": 86400000,
+  "key": "holiday:BE:2029"
+}

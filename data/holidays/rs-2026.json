@@ -1,0 +1,129 @@
+{
+  "countryCode": "RS",
+  "year": 2026,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:04:06.377Z",
+  "holidays": [
+    {
+      "id": "RS-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-01-02-1",
+      "name": "New Year's Day",
+      "date": "2026-01-02",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-01-07-2",
+      "name": "Christmas Day",
+      "date": "2026-01-07",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-02-16-3",
+      "name": "Statehood Day",
+      "date": "2026-02-16",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-02-17-4",
+      "name": "Statehood Day",
+      "date": "2026-02-17",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-04-10-5",
+      "name": "Good Friday",
+      "date": "2026-04-10",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-04-12-6",
+      "name": "Easter Sunday",
+      "date": "2026-04-12",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-04-13-7",
+      "name": "Easter Monday",
+      "date": "2026-04-13",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-05-01-8",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-05-02-9",
+      "name": "Labour Day",
+      "date": "2026-05-02",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    },
+    {
+      "id": "RS-2026-11-11-10",
+      "name": "Armistice Day",
+      "date": "2026-11-11",
+      "country": "",
+      "countryCode": "RS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:06.377Z",
+      "updatedAt": "2025-08-13T00:04:06.377Z"
+    }
+  ]
+}

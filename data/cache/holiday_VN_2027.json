@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "id": "VN-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "VN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:24.700Z",
+      "updatedAt": "2025-08-13T00:09:24.700Z"
+    },
+    {
+      "id": "VN-2027-04-30-1",
+      "name": "Reunification Day",
+      "date": "2027-04-30",
+      "country": "",
+      "countryCode": "VN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:24.700Z",
+      "updatedAt": "2025-08-13T00:09:24.700Z"
+    },
+    {
+      "id": "VN-2027-05-01-2",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "VN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:24.700Z",
+      "updatedAt": "2025-08-13T00:09:24.700Z"
+    },
+    {
+      "id": "VN-2027-09-02-3",
+      "name": "National Day",
+      "date": "2027-09-02",
+      "country": "",
+      "countryCode": "VN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:24.700Z",
+      "updatedAt": "2025-08-13T00:09:24.700Z"
+    }
+  ],
+  "timestamp": 1755043764707,
+  "ttl": 86400000,
+  "key": "holiday:VN:2027"
+}

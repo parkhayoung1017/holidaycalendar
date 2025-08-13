@@ -1,0 +1,184 @@
+{
+  "countryCode": "GL",
+  "year": 2028,
+  "totalHolidays": 16,
+  "lastUpdated": "2025-08-13T00:11:04.929Z",
+  "holidays": [
+    {
+      "id": "GL-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-01-06-1",
+      "name": "Epiphany",
+      "date": "2028-01-06",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-04-13-2",
+      "name": "Maundy Thursday",
+      "date": "2028-04-13",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-04-14-3",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-04-16-4",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-04-17-5",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-05-12-6",
+      "name": "General Prayer Day",
+      "date": "2028-05-12",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-05-25-7",
+      "name": "Ascension Day",
+      "date": "2028-05-25",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-05-26-8",
+      "name": "Bank closing day",
+      "date": "2028-05-26",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-06-04-9",
+      "name": "Pentecost",
+      "date": "2028-06-04",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-06-05-10",
+      "name": "Whit Monday",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-06-21-11",
+      "name": "Ullortuneq",
+      "date": "2028-06-21",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-12-24-12",
+      "name": "Christmas Eve",
+      "date": "2028-12-24",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-12-25-13",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    },
+    {
+      "id": "GL-2028-12-31-15",
+      "name": "New Year's Eve",
+      "date": "2028-12-31",
+      "country": "",
+      "countryCode": "GL",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:04.929Z",
+      "updatedAt": "2025-08-13T00:11:04.929Z"
+    }
+  ]
+}

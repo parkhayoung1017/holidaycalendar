@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "GM-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:06.239Z",
+      "updatedAt": "2025-08-13T00:11:06.239Z"
+    },
+    {
+      "id": "GM-2028-02-18-1",
+      "name": "Independence Day",
+      "date": "2028-02-18",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:06.239Z",
+      "updatedAt": "2025-08-13T00:11:06.239Z"
+    },
+    {
+      "id": "GM-2028-04-14-2",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:06.239Z",
+      "updatedAt": "2025-08-13T00:11:06.239Z"
+    },
+    {
+      "id": "GM-2028-04-17-3",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:06.239Z",
+      "updatedAt": "2025-08-13T00:11:06.239Z"
+    },
+    {
+      "id": "GM-2028-05-01-4",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:06.239Z",
+      "updatedAt": "2025-08-13T00:11:06.239Z"
+    },
+    {
+      "id": "GM-2028-05-25-5",
+      "name": "Africa Day",
+      "date": "2028-05-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:06.239Z",
+      "updatedAt": "2025-08-13T00:11:06.239Z"
+    },
+    {
+      "id": "GM-2028-07-22-6",
+      "name": "Revolution Day",
+      "date": "2028-07-22",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:06.239Z",
+      "updatedAt": "2025-08-13T00:11:06.239Z"
+    },
+    {
+      "id": "GM-2028-08-15-7",
+      "name": "Assumption Day",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:06.239Z",
+      "updatedAt": "2025-08-13T00:11:06.239Z"
+    },
+    {
+      "id": "GM-2028-12-25-8",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:06.239Z",
+      "updatedAt": "2025-08-13T00:11:06.239Z"
+    }
+  ],
+  "timestamp": 1755043866239,
+  "ttl": 86400000,
+  "key": "holiday:GM:2028"
+}

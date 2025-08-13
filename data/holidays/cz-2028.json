@@ -1,0 +1,151 @@
+{
+  "countryCode": "CZ",
+  "year": 2028,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-08-13T00:10:33.236Z",
+  "holidays": [
+    {
+      "id": "CZ-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-04-14-1",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-04-17-2",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-05-01-3",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-05-08-4",
+      "name": "Liberation Day",
+      "date": "2028-05-08",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-07-05-5",
+      "name": "Saints Cyril and Methodius Day",
+      "date": "2028-07-05",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-07-06-6",
+      "name": "Jan Hus Day",
+      "date": "2028-07-06",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-09-28-7",
+      "name": "St. Wenceslas Day",
+      "date": "2028-09-28",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-10-28-8",
+      "name": "Independent Czechoslovak State Day",
+      "date": "2028-10-28",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-11-17-9",
+      "name": "Struggle for Freedom and Democracy Day",
+      "date": "2028-11-17",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-12-24-10",
+      "name": "Christmas Eve",
+      "date": "2028-12-24",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-12-25-11",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    },
+    {
+      "id": "CZ-2028-12-26-12",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "CZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:33.236Z",
+      "updatedAt": "2025-08-13T00:10:33.236Z"
+    }
+  ]
+}

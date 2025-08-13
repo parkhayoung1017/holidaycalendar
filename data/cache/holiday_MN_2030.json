@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "MN-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    },
+    {
+      "id": "MN-2030-03-08-1",
+      "name": "International Women's Day",
+      "date": "2030-03-08",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    },
+    {
+      "id": "MN-2030-06-01-2",
+      "name": "Naadam Holiday",
+      "date": "2030-06-01",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    },
+    {
+      "id": "MN-2030-07-11-3",
+      "name": "Naadam Holiday",
+      "date": "2030-07-11",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    },
+    {
+      "id": "MN-2030-07-12-4",
+      "name": "Naadam Holiday",
+      "date": "2030-07-12",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    },
+    {
+      "id": "MN-2030-07-13-5",
+      "name": "Naadam Holiday",
+      "date": "2030-07-13",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    },
+    {
+      "id": "MN-2030-07-14-6",
+      "name": "Naadam Holiday",
+      "date": "2030-07-14",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    },
+    {
+      "id": "MN-2030-07-15-7",
+      "name": "Naadam Holiday",
+      "date": "2030-07-15",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    },
+    {
+      "id": "MN-2030-11-26-8",
+      "name": "Republic Day",
+      "date": "2030-11-26",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    },
+    {
+      "id": "MN-2030-12-29-9",
+      "name": "Independence Day",
+      "date": "2030-12-29",
+      "country": "",
+      "countryCode": "MN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:07.994Z",
+      "updatedAt": "2025-08-13T00:22:07.994Z"
+    }
+  ],
+  "timestamp": 1755044527994,
+  "ttl": 86400000,
+  "key": "holiday:MN:2030"
+}

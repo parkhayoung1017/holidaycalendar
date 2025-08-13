@@ -1,0 +1,140 @@
+{
+  "countryCode": "NA",
+  "year": 2029,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:17:28.692Z",
+  "holidays": [
+    {
+      "id": "NA-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-03-21-1",
+      "name": "Independence Day",
+      "date": "2029-03-21",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-03-30-2",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-04-02-3",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-05-01-4",
+      "name": "Workers' Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-05-04-5",
+      "name": "Cassinga Day",
+      "date": "2029-05-04",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-05-10-6",
+      "name": "Ascension Day",
+      "date": "2029-05-10",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-05-25-7",
+      "name": "Africa Day",
+      "date": "2029-05-25",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-08-26-8",
+      "name": "Heroes' Day",
+      "date": "2029-08-26",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-12-10-9",
+      "name": "Human Rights Day",
+      "date": "2029-12-10",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-12-25-10",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    },
+    {
+      "id": "NA-2029-12-26-11",
+      "name": "Day of Goodwill",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:28.692Z",
+      "updatedAt": "2025-08-13T00:17:28.692Z"
+    }
+  ]
+}

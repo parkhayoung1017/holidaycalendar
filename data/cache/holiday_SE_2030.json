@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "id": "SE-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-01-06-1",
+      "name": "Epiphany",
+      "date": "2030-01-06",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-04-21-3",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-04-22-4",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-05-01-5",
+      "name": "International Workers' Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-05-30-6",
+      "name": "Ascension Day",
+      "date": "2030-05-30",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-06-06-7",
+      "name": "National Day of Sweden",
+      "date": "2030-06-06",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-06-09-8",
+      "name": "Pentecost",
+      "date": "2030-06-09",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-06-21-9",
+      "name": "Midsummer Eve",
+      "date": "2030-06-21",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-06-22-10",
+      "name": "Midsummer Day",
+      "date": "2030-06-22",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-11-02-11",
+      "name": "All Saints' Day",
+      "date": "2030-11-02",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-12-24-12",
+      "name": "Christmas Eve",
+      "date": "2030-12-24",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-12-25-13",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    },
+    {
+      "id": "SE-2030-12-31-15",
+      "name": "New Year's Eve",
+      "date": "2030-12-31",
+      "country": "",
+      "countryCode": "SE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:07.180Z",
+      "updatedAt": "2025-08-13T00:23:07.180Z"
+    }
+  ],
+  "timestamp": 1755044587181,
+  "ttl": 86400000,
+  "key": "holiday:SE:2030"
+}

@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "id": "SK-2026-01-01-0",
+      "name": "Day of the Establishment of the Slovak Republic",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-01-06-1",
+      "name": "Epiphany",
+      "date": "2026-01-06",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-04-03-2",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-04-06-3",
+      "name": "Easter Monday",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-05-01-4",
+      "name": "International Workers' Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-05-08-5",
+      "name": "Day of victory over fascism",
+      "date": "2026-05-08",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-07-05-6",
+      "name": "St. Cyril and Methodius Day",
+      "date": "2026-07-05",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-08-29-7",
+      "name": "Slovak National Uprising anniversary",
+      "date": "2026-08-29",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-09-01-8",
+      "name": "Day of the Constitution of the Slovak Republic",
+      "date": "2026-09-01",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-09-15-9",
+      "name": "Day of Our Lady of the Seven Sorrows",
+      "date": "2026-09-15",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-11-01-10",
+      "name": "All Saints’ Day",
+      "date": "2026-11-01",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-11-17-11",
+      "name": "Struggle for Freedom and Democracy Day",
+      "date": "2026-11-17",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-12-24-12",
+      "name": "Christmas Eve",
+      "date": "2026-12-24",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-12-25-13",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    },
+    {
+      "id": "SK-2026-12-26-14",
+      "name": "St. Stephen's Day",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "SK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:04:22.006Z",
+      "updatedAt": "2025-08-13T00:04:22.006Z"
+    }
+  ],
+  "timestamp": 1755043462007,
+  "ttl": 86400000,
+  "key": "holiday:SK:2026"
+}

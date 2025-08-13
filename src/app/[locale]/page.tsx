@@ -31,7 +31,10 @@ export default async function Home({ params }: HomePageProps) {
       const currentDate = new Date();
       const currentYear = currentDate.getFullYear();
       const currentMonth = currentDate.getMonth();
-      return await getHolidaysByMonth(currentYear, currentMonth);
+      // 모든 국가의 월별 공휴일 로드
+      const allHolidays = await getHolidaysByMonth(currentYear, currentMonth);
+      console.log(`홈페이지 초기 로드: ${currentYear}년 ${currentMonth + 1}월 전세계 공휴일 ${allHolidays.length}개 로드됨`);
+      return allHolidays;
     })(),
     // 백그라운드에서 캐시 워밍 실행 (페이지 로딩을 차단하지 않음)
     conditionalWarmCache().catch(error => {

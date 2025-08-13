@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "GM-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:05.528Z",
+      "updatedAt": "2025-08-13T00:02:05.528Z"
+    },
+    {
+      "id": "GM-2026-02-18-1",
+      "name": "Independence Day",
+      "date": "2026-02-18",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:05.528Z",
+      "updatedAt": "2025-08-13T00:02:05.528Z"
+    },
+    {
+      "id": "GM-2026-04-03-2",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:05.528Z",
+      "updatedAt": "2025-08-13T00:02:05.528Z"
+    },
+    {
+      "id": "GM-2026-04-06-3",
+      "name": "Easter Monday",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:05.528Z",
+      "updatedAt": "2025-08-13T00:02:05.528Z"
+    },
+    {
+      "id": "GM-2026-05-01-4",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:05.528Z",
+      "updatedAt": "2025-08-13T00:02:05.528Z"
+    },
+    {
+      "id": "GM-2026-05-25-5",
+      "name": "Africa Day",
+      "date": "2026-05-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:05.528Z",
+      "updatedAt": "2025-08-13T00:02:05.528Z"
+    },
+    {
+      "id": "GM-2026-07-22-6",
+      "name": "Revolution Day",
+      "date": "2026-07-22",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:05.528Z",
+      "updatedAt": "2025-08-13T00:02:05.528Z"
+    },
+    {
+      "id": "GM-2026-08-15-7",
+      "name": "Assumption Day",
+      "date": "2026-08-15",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:05.528Z",
+      "updatedAt": "2025-08-13T00:02:05.528Z"
+    },
+    {
+      "id": "GM-2026-12-25-8",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "GM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:05.528Z",
+      "updatedAt": "2025-08-13T00:02:05.528Z"
+    }
+  ],
+  "timestamp": 1755043325528,
+  "ttl": 86400000,
+  "key": "holiday:GM:2026"
+}

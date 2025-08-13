@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "TR-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:47.395Z",
+      "updatedAt": "2025-08-13T00:18:47.395Z"
+    },
+    {
+      "id": "TR-2029-04-23-1",
+      "name": "National Independence & Children's Day",
+      "date": "2029-04-23",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:47.395Z",
+      "updatedAt": "2025-08-13T00:18:47.395Z"
+    },
+    {
+      "id": "TR-2029-05-01-2",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:47.395Z",
+      "updatedAt": "2025-08-13T00:18:47.395Z"
+    },
+    {
+      "id": "TR-2029-05-19-3",
+      "name": "Atatürk Commemoration & Youth Day",
+      "date": "2029-05-19",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:47.395Z",
+      "updatedAt": "2025-08-13T00:18:47.395Z"
+    },
+    {
+      "id": "TR-2029-07-15-4",
+      "name": "Democracy and National Unity Day",
+      "date": "2029-07-15",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:47.395Z",
+      "updatedAt": "2025-08-13T00:18:47.395Z"
+    },
+    {
+      "id": "TR-2029-08-30-5",
+      "name": "Victory Day",
+      "date": "2029-08-30",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:47.395Z",
+      "updatedAt": "2025-08-13T00:18:47.395Z"
+    },
+    {
+      "id": "TR-2029-10-29-6",
+      "name": "Republic Day",
+      "date": "2029-10-29",
+      "country": "",
+      "countryCode": "TR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:18:47.395Z",
+      "updatedAt": "2025-08-13T00:18:47.395Z"
+    }
+  ],
+  "timestamp": 1755044327395,
+  "ttl": 86400000,
+  "key": "holiday:TR:2029"
+}

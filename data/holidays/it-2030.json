@@ -1,0 +1,140 @@
+{
+  "countryCode": "IT",
+  "year": 2030,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:21:21.563Z",
+  "holidays": [
+    {
+      "id": "IT-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-01-06-1",
+      "name": "Epiphany",
+      "date": "2030-01-06",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-04-21-2",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-04-25-4",
+      "name": "Liberation Day",
+      "date": "2030-04-25",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-05-01-5",
+      "name": "International Workers Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-06-02-6",
+      "name": "Republic Day",
+      "date": "2030-06-02",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-08-15-7",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-11-01-8",
+      "name": "All Saints Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-12-08-9",
+      "name": "Immaculate Conception",
+      "date": "2030-12-08",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-12-25-10",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    },
+    {
+      "id": "IT-2030-12-26-11",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "IT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:21.563Z",
+      "updatedAt": "2025-08-13T00:21:21.563Z"
+    }
+  ]
+}

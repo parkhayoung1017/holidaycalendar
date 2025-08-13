@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "NI-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-02-01-1",
+      "name": "Air Force Day",
+      "date": "2028-02-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-04-06-2",
+      "name": "Holy Thursday",
+      "date": "2028-04-06",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-05-01-3",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-05-27-4",
+      "name": "Army Day",
+      "date": "2028-05-27",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-07-19-5",
+      "name": "Liberation Day",
+      "date": "2028-07-19",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-09-14-6",
+      "name": "Battle of San Jacinto",
+      "date": "2028-09-14",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-09-15-7",
+      "name": "Independence Day",
+      "date": "2028-09-15",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-10-12-8",
+      "name": "Indigenous Resistance Day",
+      "date": "2028-10-12",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-12-08-9",
+      "name": "Immaculate Conception",
+      "date": "2028-12-08",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-12-25-10",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    },
+    {
+      "id": "NI-2028-12-31-11",
+      "name": "New Year's Eve",
+      "date": "2028-12-31",
+      "country": "",
+      "countryCode": "NI",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:41.701Z",
+      "updatedAt": "2025-08-13T00:12:41.701Z"
+    }
+  ],
+  "timestamp": 1755043961704,
+  "ttl": 86400000,
+  "key": "holiday:NI:2028"
+}

@@ -1,0 +1,195 @@
+{
+  "countryCode": "HK",
+  "year": 2029,
+  "totalHolidays": 17,
+  "lastUpdated": "2025-08-13T00:16:09.580Z",
+  "holidays": [
+    {
+      "id": "HK-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-02-13-1",
+      "name": "Lunar New Year",
+      "date": "2029-02-13",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-02-14-2",
+      "name": "Second day of Lunar New Year",
+      "date": "2029-02-14",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-02-15-3",
+      "name": "Third day of Lunar New Year",
+      "date": "2029-02-15",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-03-30-4",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-03-31-5",
+      "name": "Holy Saturday",
+      "date": "2029-03-31",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-04-02-6",
+      "name": "Easter Monday",
+      "date": "2029-04-02",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-04-04-7",
+      "name": "Ching Ming Festival",
+      "date": "2029-04-04",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-05-01-8",
+      "name": "Labour Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-05-21-9",
+      "name": "Buddha's Birthday",
+      "date": "2029-05-21",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-06-16-10",
+      "name": "Dragon Boat Festival",
+      "date": "2029-06-16",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-07-02-11",
+      "name": "Hong Kong Special Administrative Region Establishment Day",
+      "date": "2029-07-02",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-09-24-12",
+      "name": "Day following the Mid-Autumn Festival",
+      "date": "2029-09-24",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-10-01-13",
+      "name": "National Day",
+      "date": "2029-10-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-10-16-14",
+      "name": "Chung Yeung Festival",
+      "date": "2029-10-16",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-12-25-15",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    },
+    {
+      "id": "HK-2029-12-26-16",
+      "name": "Boxing Day",
+      "date": "2029-12-26",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:09.580Z",
+      "updatedAt": "2025-08-13T00:16:09.580Z"
+    }
+  ]
+}

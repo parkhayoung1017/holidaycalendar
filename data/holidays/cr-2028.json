@@ -1,0 +1,129 @@
+{
+  "countryCode": "CR",
+  "year": 2028,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:10:27.964Z",
+  "holidays": [
+    {
+      "id": "CR-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-04-11-1",
+      "name": "Juan Santamaría Day",
+      "date": "2028-04-11",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-04-13-2",
+      "name": "Maundy Thursday",
+      "date": "2028-04-13",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-04-14-3",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-05-01-4",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-07-25-5",
+      "name": "Annexation of the Party of Nicoya to Costa Rica",
+      "date": "2028-07-25",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-08-02-6",
+      "name": "Feast of Our Lady of the Angels",
+      "date": "2028-08-02",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-08-15-7",
+      "name": "Mother's Day",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-09-15-8",
+      "name": "Independence Day",
+      "date": "2028-09-15",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-12-01-9",
+      "name": "Army Abolition Day",
+      "date": "2028-12-01",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    },
+    {
+      "id": "CR-2028-12-25-10",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "CR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:27.964Z",
+      "updatedAt": "2025-08-13T00:10:27.964Z"
+    }
+  ]
+}

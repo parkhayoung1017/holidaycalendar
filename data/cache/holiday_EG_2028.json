@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "EG-2028-01-07-0",
+      "name": "Christmas",
+      "date": "2028-01-07",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:45.257Z",
+      "updatedAt": "2025-08-13T00:10:45.257Z"
+    },
+    {
+      "id": "EG-2028-01-25-1",
+      "name": "Revolution Day 2011 National Police Day",
+      "date": "2028-01-25",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:45.257Z",
+      "updatedAt": "2025-08-13T00:10:45.257Z"
+    },
+    {
+      "id": "EG-2028-04-25-2",
+      "name": "Sinai Liberation Day",
+      "date": "2028-04-25",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:45.257Z",
+      "updatedAt": "2025-08-13T00:10:45.257Z"
+    },
+    {
+      "id": "EG-2028-05-01-3",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:45.257Z",
+      "updatedAt": "2025-08-13T00:10:45.257Z"
+    },
+    {
+      "id": "EG-2028-07-02-4",
+      "name": "June 30 Revolution",
+      "date": "2028-07-02",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:45.257Z",
+      "updatedAt": "2025-08-13T00:10:45.257Z"
+    },
+    {
+      "id": "EG-2028-07-23-5",
+      "name": "Revolution Day",
+      "date": "2028-07-23",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:45.257Z",
+      "updatedAt": "2025-08-13T00:10:45.257Z"
+    },
+    {
+      "id": "EG-2028-10-06-6",
+      "name": "Armed Forces Day",
+      "date": "2028-10-06",
+      "country": "",
+      "countryCode": "EG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:45.257Z",
+      "updatedAt": "2025-08-13T00:10:45.257Z"
+    }
+  ],
+  "timestamp": 1755043845258,
+  "ttl": 86400000,
+  "key": "holiday:EG:2028"
+}

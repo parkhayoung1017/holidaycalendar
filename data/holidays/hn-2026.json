@@ -1,0 +1,129 @@
+{
+  "countryCode": "HN",
+  "year": 2026,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:02:17.386Z",
+  "holidays": [
+    {
+      "id": "HN-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-04-02-1",
+      "name": "Maundy Thursday",
+      "date": "2026-04-02",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-04-03-2",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-04-04-3",
+      "name": "Holy Saturday",
+      "date": "2026-04-04",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-04-14-4",
+      "name": "America's Day",
+      "date": "2026-04-14",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-05-01-5",
+      "name": "Labour Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-09-15-6",
+      "name": "Independence Day",
+      "date": "2026-09-15",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-10-03-7",
+      "name": "Francisco Morazán's Day/Soldier's Day",
+      "date": "2026-10-03",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-10-12-8",
+      "name": "Columbus Day",
+      "date": "2026-10-12",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-10-21-9",
+      "name": "Army Day",
+      "date": "2026-10-21",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    },
+    {
+      "id": "HN-2026-12-25-10",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:17.386Z",
+      "updatedAt": "2025-08-13T00:02:17.386Z"
+    }
+  ]
+}

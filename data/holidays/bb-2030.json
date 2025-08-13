@@ -1,0 +1,140 @@
+{
+  "countryCode": "BB",
+  "year": 2030,
+  "totalHolidays": 12,
+  "lastUpdated": "2025-08-13T00:19:38.481Z",
+  "holidays": [
+    {
+      "id": "BB-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-01-21-1",
+      "name": "Errol Barrow Day",
+      "date": "2030-01-21",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-04-22-3",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-04-28-4",
+      "name": "National Heroes' Day",
+      "date": "2030-04-28",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-05-01-5",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-06-10-6",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-08-01-7",
+      "name": "Emancipation Day",
+      "date": "2030-08-01",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-08-05-8",
+      "name": "Kadooment Day",
+      "date": "2030-08-05",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-11-30-9",
+      "name": "Independence Day",
+      "date": "2030-11-30",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-12-25-10",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    },
+    {
+      "id": "BB-2030-12-26-11",
+      "name": "Boxing Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "BB",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:38.481Z",
+      "updatedAt": "2025-08-13T00:19:38.481Z"
+    }
+  ]
+}

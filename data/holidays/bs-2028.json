@@ -1,0 +1,129 @@
+{
+  "countryCode": "BS",
+  "year": 2028,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:10:08.113Z",
+  "holidays": [
+    {
+      "id": "BS-2028-01-03-0",
+      "name": "New Year's Day",
+      "date": "2028-01-03",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-01-10-1",
+      "name": "Majority Rule Day",
+      "date": "2028-01-10",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-04-03-2",
+      "name": "Perry Christie Day",
+      "date": "2028-04-03",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-04-14-3",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-04-17-4",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-06-05-5",
+      "name": "Whit Monday",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-07-10-6",
+      "name": "Independence Day",
+      "date": "2028-07-10",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-08-07-7",
+      "name": "Emancipation Day",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-10-13-8",
+      "name": "National Heroes' Day",
+      "date": "2028-10-13",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-12-25-9",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    },
+    {
+      "id": "BS-2028-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:08.113Z",
+      "updatedAt": "2025-08-13T00:10:08.113Z"
+    }
+  ]
+}

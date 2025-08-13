@@ -1,0 +1,355 @@
+{
+  "countryCode": "AU",
+  "year": 2030,
+  "totalHolidays": 25,
+  "lastUpdated": "2025-08-13T00:19:34.492Z",
+  "holidays": [
+    {
+      "id": "AU-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-01-28-1",
+      "name": "Australia Day",
+      "date": "2030-01-28",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-03-04-2",
+      "name": "Labour Day",
+      "date": "2030-03-04",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-WA"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-03-11-3",
+      "name": "Canberra Day",
+      "date": "2030-03-11",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-03-11-4",
+      "name": "March Public Holiday",
+      "date": "2030-03-11",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-SA"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-03-11-5",
+      "name": "Eight Hours Day",
+      "date": "2030-03-11",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-TAS"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-03-11-6",
+      "name": "Labour Day",
+      "date": "2030-03-11",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-04-19-7",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-04-20-8",
+      "name": "Holy Saturday",
+      "date": "2030-04-20",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-04-21-9",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-QLD",
+        "AU-SA",
+        "AU-VIC",
+        "AU-WA"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-04-22-10",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-04-25-11",
+      "name": "Anzac Day",
+      "date": "2030-04-25",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-05-06-12",
+      "name": "May Day",
+      "date": "2030-05-06",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-NT"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-05-06-13",
+      "name": "Labour Day",
+      "date": "2030-05-06",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-QLD"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-05-27-14",
+      "name": "Reconciliation Day",
+      "date": "2030-05-27",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-06-03-15",
+      "name": "Western Australia Day",
+      "date": "2030-06-03",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-WA"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-06-10-16",
+      "name": "King's Birthday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-NT",
+        "AU-SA",
+        "AU-TAS",
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-08-05-17",
+      "name": "Picnic Day",
+      "date": "2030-08-05",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-NT"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-09-27-18",
+      "name": "Friday before AFL Grand Final (Tentative Date)",
+      "date": "2030-09-27",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-09-30-19",
+      "name": "King's Birthday",
+      "date": "2030-09-30",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-WA"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-10-07-20",
+      "name": "Labour Day",
+      "date": "2030-10-07",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-ACT",
+        "AU-NSW",
+        "AU-SA"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-10-07-21",
+      "name": "King's Birthday",
+      "date": "2030-10-07",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-QLD"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-11-05-22",
+      "name": "Melbourne Cup",
+      "date": "2030-11-05",
+      "country": "",
+      "countryCode": "AU",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "AU-VIC"
+      ],
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-12-25-23",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    },
+    {
+      "id": "AU-2030-12-26-24",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "AU",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:34.492Z",
+      "updatedAt": "2025-08-13T00:19:34.492Z"
+    }
+  ]
+}

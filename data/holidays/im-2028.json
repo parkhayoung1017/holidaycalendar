@@ -1,0 +1,118 @@
+{
+  "countryCode": "IM",
+  "year": 2028,
+  "totalHolidays": 10,
+  "lastUpdated": "2025-08-13T00:11:28.146Z",
+  "holidays": [
+    {
+      "id": "IM-2028-01-03-0",
+      "name": "New Year's Day",
+      "date": "2028-01-03",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    },
+    {
+      "id": "IM-2028-04-14-1",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    },
+    {
+      "id": "IM-2028-04-17-2",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    },
+    {
+      "id": "IM-2028-05-01-3",
+      "name": "Early May Bank Holiday",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    },
+    {
+      "id": "IM-2028-05-29-4",
+      "name": "Spring Bank Holiday",
+      "date": "2028-05-29",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    },
+    {
+      "id": "IM-2028-06-09-5",
+      "name": "Senior Race Day",
+      "date": "2028-06-09",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    },
+    {
+      "id": "IM-2028-07-05-6",
+      "name": "Tynwald Day",
+      "date": "2028-07-05",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    },
+    {
+      "id": "IM-2028-08-28-7",
+      "name": "Late Summer Bank Holiday",
+      "date": "2028-08-28",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    },
+    {
+      "id": "IM-2028-12-25-8",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    },
+    {
+      "id": "IM-2028-12-26-9",
+      "name": "Boxing Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "IM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:28.146Z",
+      "updatedAt": "2025-08-13T00:11:28.146Z"
+    }
+  ]
+}

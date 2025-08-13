@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "JM-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    },
+    {
+      "id": "JM-2028-03-01-1",
+      "name": "Ash Wednesday",
+      "date": "2028-03-01",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    },
+    {
+      "id": "JM-2028-04-14-2",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    },
+    {
+      "id": "JM-2028-04-17-3",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    },
+    {
+      "id": "JM-2028-05-23-4",
+      "name": "Labour Day",
+      "date": "2028-05-23",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    },
+    {
+      "id": "JM-2028-08-01-5",
+      "name": "Emancipation Day",
+      "date": "2028-08-01",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    },
+    {
+      "id": "JM-2028-08-07-6",
+      "name": "Independence Day",
+      "date": "2028-08-07",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    },
+    {
+      "id": "JM-2028-10-16-7",
+      "name": "National Heroes Day",
+      "date": "2028-10-16",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    },
+    {
+      "id": "JM-2028-12-25-8",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    },
+    {
+      "id": "JM-2028-12-26-9",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "JM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:37.336Z",
+      "updatedAt": "2025-08-13T00:11:37.336Z"
+    }
+  ],
+  "timestamp": 1755043897337,
+  "ttl": 86400000,
+  "key": "holiday:JM:2028"
+}

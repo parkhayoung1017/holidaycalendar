@@ -1,0 +1,162 @@
+{
+  "countryCode": "ZW",
+  "year": 2030,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:24:10.623Z",
+  "holidays": [
+    {
+      "id": "ZW-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-02-21-1",
+      "name": "Robert Mugabe National Youth Day",
+      "date": "2030-02-21",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-04-18-2",
+      "name": "Independence Day",
+      "date": "2030-04-18",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-04-19-3",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-04-20-4",
+      "name": "Easter Saturday",
+      "date": "2030-04-20",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-04-20-5",
+      "name": "Holy Saturday",
+      "date": "2030-04-20",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-04-22-6",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-05-01-7",
+      "name": "Worker's Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-05-25-8",
+      "name": "Africa Day",
+      "date": "2030-05-25",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-08-12-9",
+      "name": "Heroes' Day",
+      "date": "2030-08-12",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-08-13-10",
+      "name": "Defence Forces Day",
+      "date": "2030-08-13",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-12-22-11",
+      "name": "Unity Day",
+      "date": "2030-12-22",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-12-25-12",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    },
+    {
+      "id": "ZW-2030-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "ZW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:24:10.623Z",
+      "updatedAt": "2025-08-13T00:24:10.623Z"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "data": [
+    {
+      "id": "PT-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-03-05-1",
+      "name": "Carnival",
+      "date": "2030-03-05",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-04-19-2",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-04-21-3",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-04-25-4",
+      "name": "Freedom Day",
+      "date": "2030-04-25",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-05-01-5",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-06-01-6",
+      "name": "Azores Day",
+      "date": "2030-06-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-20"
+      ],
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-06-10-7",
+      "name": "National Day",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-06-20-8",
+      "name": "Corpus Christi",
+      "date": "2030-06-20",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-07-01-9",
+      "name": "Madeira Day",
+      "date": "2030-07-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-30"
+      ],
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-08-15-10",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-10-05-11",
+      "name": "Republic Day",
+      "date": "2030-10-05",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-11-01-12",
+      "name": "All Saints Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-12-01-13",
+      "name": "Restoration of Independence",
+      "date": "2030-12-01",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-12-08-14",
+      "name": "Immaculate Conception",
+      "date": "2030-12-08",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-12-25-15",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "PT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    },
+    {
+      "id": "PT-2030-12-26-16",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "PT",
+      "type": "optional",
+      "global": false,
+      "counties": [
+        "PT-30"
+      ],
+      "createdAt": "2025-08-13T00:22:50.375Z",
+      "updatedAt": "2025-08-13T00:22:50.375Z"
+    }
+  ],
+  "timestamp": 1755044570377,
+  "ttl": 86400000,
+  "key": "holiday:PT:2030"
+}

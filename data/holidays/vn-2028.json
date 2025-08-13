@@ -1,0 +1,52 @@
+{
+  "countryCode": "VN",
+  "year": 2028,
+  "totalHolidays": 4,
+  "lastUpdated": "2025-08-13T00:14:15.157Z",
+  "holidays": [
+    {
+      "id": "VN-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "VN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:15.157Z",
+      "updatedAt": "2025-08-13T00:14:15.157Z"
+    },
+    {
+      "id": "VN-2028-04-30-1",
+      "name": "Reunification Day",
+      "date": "2028-04-30",
+      "country": "",
+      "countryCode": "VN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:15.157Z",
+      "updatedAt": "2025-08-13T00:14:15.157Z"
+    },
+    {
+      "id": "VN-2028-05-01-2",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "VN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:15.157Z",
+      "updatedAt": "2025-08-13T00:14:15.157Z"
+    },
+    {
+      "id": "VN-2028-09-02-3",
+      "name": "National Day",
+      "date": "2028-09-02",
+      "country": "",
+      "countryCode": "VN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:14:15.157Z",
+      "updatedAt": "2025-08-13T00:14:15.157Z"
+    }
+  ]
+}

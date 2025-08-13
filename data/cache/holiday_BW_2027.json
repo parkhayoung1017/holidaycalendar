@@ -1,0 +1,128 @@
+{
+  "data": [
+    {
+      "id": "BW-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-03-26-1",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-03-29-2",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-05-01-3",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-05-06-4",
+      "name": "Ascension Day",
+      "date": "2027-05-06",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-07-01-5",
+      "name": "Sir Seretse Khama Day",
+      "date": "2027-07-01",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-07-19-6",
+      "name": "Presidents' Day",
+      "date": "2027-07-19",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-09-30-7",
+      "name": "Independence Day",
+      "date": "2027-09-30",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-10-01-8",
+      "name": "Botswana Day holiday",
+      "date": "2027-10-01",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-12-25-9",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    },
+    {
+      "id": "BW-2027-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "BW",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:05:49.593Z",
+      "updatedAt": "2025-08-13T00:05:49.593Z"
+    }
+  ],
+  "timestamp": 1755043549594,
+  "ttl": 86400000,
+  "key": "holiday:BW:2027"
+}

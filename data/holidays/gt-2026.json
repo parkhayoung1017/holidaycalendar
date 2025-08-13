@@ -1,0 +1,151 @@
+{
+  "countryCode": "GT",
+  "year": 2026,
+  "totalHolidays": 13,
+  "lastUpdated": "2025-08-13T00:02:10.811Z",
+  "holidays": [
+    {
+      "id": "GT-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-04-02-1",
+      "name": "Maundy Thursday",
+      "date": "2026-04-02",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-04-03-2",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-04-04-3",
+      "name": "Holy Saturday",
+      "date": "2026-04-04",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-04-05-4",
+      "name": "Easter Sunday",
+      "date": "2026-04-05",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-05-01-5",
+      "name": "International Workers' Day",
+      "date": "2026-05-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-06-30-6",
+      "name": "Army Day",
+      "date": "2026-06-30",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-09-15-7",
+      "name": "Independence Day",
+      "date": "2026-09-15",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-10-20-8",
+      "name": "Revolution Day",
+      "date": "2026-10-20",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2026-11-01",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-12-24-10",
+      "name": "Christmas Eve",
+      "date": "2026-12-24",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-12-25-11",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    },
+    {
+      "id": "GT-2026-12-31-12",
+      "name": "New Year's Eve",
+      "date": "2026-12-31",
+      "country": "",
+      "countryCode": "GT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:10.811Z",
+      "updatedAt": "2025-08-13T00:02:10.811Z"
+    }
+  ]
+}

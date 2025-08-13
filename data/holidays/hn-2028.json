@@ -1,0 +1,129 @@
+{
+  "countryCode": "HN",
+  "year": 2028,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:11:18.933Z",
+  "holidays": [
+    {
+      "id": "HN-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-04-13-1",
+      "name": "Maundy Thursday",
+      "date": "2028-04-13",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-04-14-2",
+      "name": "America's Day",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-04-14-3",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-04-15-4",
+      "name": "Holy Saturday",
+      "date": "2028-04-15",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-05-01-5",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-09-15-6",
+      "name": "Independence Day",
+      "date": "2028-09-15",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-10-03-7",
+      "name": "Francisco Morazán's Day/Soldier's Day",
+      "date": "2028-10-03",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-10-12-8",
+      "name": "Columbus Day",
+      "date": "2028-10-12",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-10-21-9",
+      "name": "Army Day",
+      "date": "2028-10-21",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    },
+    {
+      "id": "HN-2028-12-25-10",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "HN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:11:18.933Z",
+      "updatedAt": "2025-08-13T00:11:18.933Z"
+    }
+  ]
+}

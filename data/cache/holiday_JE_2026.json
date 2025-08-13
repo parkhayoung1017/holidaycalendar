@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "JE-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "JE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:34.925Z",
+      "updatedAt": "2025-08-13T00:02:34.925Z"
+    },
+    {
+      "id": "JE-2026-04-03-1",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "JE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:34.925Z",
+      "updatedAt": "2025-08-13T00:02:34.925Z"
+    },
+    {
+      "id": "JE-2026-04-06-2",
+      "name": "Easter Monday",
+      "date": "2026-04-06",
+      "country": "",
+      "countryCode": "JE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:34.925Z",
+      "updatedAt": "2025-08-13T00:02:34.925Z"
+    },
+    {
+      "id": "JE-2026-05-04-3",
+      "name": "Early May Bank Holiday",
+      "date": "2026-05-04",
+      "country": "",
+      "countryCode": "JE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:34.925Z",
+      "updatedAt": "2025-08-13T00:02:34.925Z"
+    },
+    {
+      "id": "JE-2026-05-09-4",
+      "name": "Liberation Day",
+      "date": "2026-05-09",
+      "country": "",
+      "countryCode": "JE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:34.925Z",
+      "updatedAt": "2025-08-13T00:02:34.925Z"
+    },
+    {
+      "id": "JE-2026-05-25-5",
+      "name": "Spring Bank Holiday",
+      "date": "2026-05-25",
+      "country": "",
+      "countryCode": "JE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:34.925Z",
+      "updatedAt": "2025-08-13T00:02:34.925Z"
+    },
+    {
+      "id": "JE-2026-08-31-6",
+      "name": "Summer Bank Holiday",
+      "date": "2026-08-31",
+      "country": "",
+      "countryCode": "JE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:34.925Z",
+      "updatedAt": "2025-08-13T00:02:34.925Z"
+    },
+    {
+      "id": "JE-2026-12-25-7",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "JE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:34.925Z",
+      "updatedAt": "2025-08-13T00:02:34.925Z"
+    },
+    {
+      "id": "JE-2026-12-26-8",
+      "name": "Boxing Day",
+      "date": "2026-12-26",
+      "country": "",
+      "countryCode": "JE",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:02:34.925Z",
+      "updatedAt": "2025-08-13T00:02:34.925Z"
+    }
+  ],
+  "timestamp": 1755043354925,
+  "ttl": 86400000,
+  "key": "holiday:JE:2026"
+}

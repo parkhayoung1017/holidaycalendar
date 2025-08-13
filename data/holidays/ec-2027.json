@@ -1,0 +1,129 @@
+{
+  "countryCode": "EC",
+  "year": 2027,
+  "totalHolidays": 11,
+  "lastUpdated": "2025-08-13T00:06:17.503Z",
+  "holidays": [
+    {
+      "id": "EC-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-02-08-1",
+      "name": "Carnival",
+      "date": "2027-02-08",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-02-09-2",
+      "name": "Carnival",
+      "date": "2027-02-09",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-03-26-3",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-05-01-4",
+      "name": "International Workers' Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-05-24-5",
+      "name": "The Battle of Pichincha",
+      "date": "2027-05-24",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-08-10-6",
+      "name": "Declaration of Independence of Quito",
+      "date": "2027-08-10",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-10-09-7",
+      "name": "Independence of Guayaquil",
+      "date": "2027-10-09",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-11-02-8",
+      "name": "All Souls' Day",
+      "date": "2027-11-02",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-11-03-9",
+      "name": "Independence of Cuenca",
+      "date": "2027-11-03",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    },
+    {
+      "id": "EC-2027-12-25-10",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "EC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:17.503Z",
+      "updatedAt": "2025-08-13T00:06:17.503Z"
+    }
+  ]
+}

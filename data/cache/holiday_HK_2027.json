@@ -1,0 +1,194 @@
+{
+  "data": [
+    {
+      "id": "HK-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-02-06-1",
+      "name": "Lunar New Year",
+      "date": "2027-02-06",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-02-08-2",
+      "name": "Second day of Lunar New Year",
+      "date": "2027-02-08",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-02-09-3",
+      "name": "Third day of Lunar New Year",
+      "date": "2027-02-09",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-03-26-4",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-03-27-5",
+      "name": "Holy Saturday",
+      "date": "2027-03-27",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-03-29-6",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-04-05-7",
+      "name": "Ching Ming Festival",
+      "date": "2027-04-05",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-05-01-8",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-05-13-9",
+      "name": "Buddha's Birthday",
+      "date": "2027-05-13",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-06-09-10",
+      "name": "Dragon Boat Festival",
+      "date": "2027-06-09",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-07-01-11",
+      "name": "Hong Kong Special Administrative Region Establishment Day",
+      "date": "2027-07-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-09-16-12",
+      "name": "Day following the Mid-Autumn Festival",
+      "date": "2027-09-16",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-10-01-13",
+      "name": "National Day",
+      "date": "2027-10-01",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-10-08-14",
+      "name": "Chung Yeung Festival",
+      "date": "2027-10-08",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-12-25-15",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    },
+    {
+      "id": "HK-2027-12-27-16",
+      "name": "Boxing Day",
+      "date": "2027-12-27",
+      "country": "",
+      "countryCode": "HK",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:47.862Z",
+      "updatedAt": "2025-08-13T00:06:47.862Z"
+    }
+  ],
+  "timestamp": 1755043607864,
+  "ttl": 86400000,
+  "key": "holiday:HK:2027"
+}

@@ -1,0 +1,239 @@
+{
+  "countryCode": "PR",
+  "year": 2026,
+  "totalHolidays": 21,
+  "lastUpdated": "2025-08-13T00:03:57.283Z",
+  "holidays": [
+    {
+      "id": "PR-2026-01-01-0",
+      "name": "New Year's Day",
+      "date": "2026-01-01",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-01-06-1",
+      "name": "Three Kings Day / Epiphany",
+      "date": "2026-01-06",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-01-12-2",
+      "name": "Birthday of Eugenio María de Hostos",
+      "date": "2026-01-12",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-01-19-3",
+      "name": "Martin Luther King, Jr. Day",
+      "date": "2026-01-19",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-02-16-4",
+      "name": "Presidents' Day",
+      "date": "2026-02-16",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-02-18-5",
+      "name": "Birthday of Luis Muñoz Marín",
+      "date": "2026-02-18",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-03-22-6",
+      "name": "Emancipation Day",
+      "date": "2026-03-22",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-04-03-7",
+      "name": "Good Friday",
+      "date": "2026-04-03",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-04-20-8",
+      "name": "Birthday of José de Diego",
+      "date": "2026-04-20",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-05-25-9",
+      "name": "Memorial Day",
+      "date": "2026-05-25",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-07-03-10",
+      "name": "Independence Day",
+      "date": "2026-07-03",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-07-20-11",
+      "name": "Birthday of Don Luis Muñoz Rivera",
+      "date": "2026-07-20",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-07-25-12",
+      "name": "Puerto Rico Constitution Day",
+      "date": "2026-07-25",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-07-27-13",
+      "name": "Birthday of Dr. José Celso Barbosa",
+      "date": "2026-07-27",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-09-07-14",
+      "name": "Labour Day",
+      "date": "2026-09-07",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-10-12-15",
+      "name": "Columbus Day",
+      "date": "2026-10-12",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-11-11-16",
+      "name": "Veterans Day",
+      "date": "2026-11-11",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-11-19-17",
+      "name": "Discovery of Puerto Rico",
+      "date": "2026-11-19",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-11-26-18",
+      "name": "Thanksgiving Day",
+      "date": "2026-11-26",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-12-24-19",
+      "name": "Christmas Eve",
+      "date": "2026-12-24",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    },
+    {
+      "id": "PR-2026-12-25-20",
+      "name": "Christmas Day",
+      "date": "2026-12-25",
+      "country": "",
+      "countryCode": "PR",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:03:57.283Z",
+      "updatedAt": "2025-08-13T00:03:57.283Z"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "countryCode": "CY",
+  "year": 2027,
+  "totalHolidays": 17,
+  "lastUpdated": "2025-08-13T00:06:09.586Z",
+  "holidays": [
+    {
+      "id": "CY-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-01-06-1",
+      "name": "Epiphany",
+      "date": "2027-01-06",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-03-15-2",
+      "name": "Green Monday",
+      "date": "2027-03-15",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-03-25-3",
+      "name": "Greek Independence Day",
+      "date": "2027-03-25",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-04-01-4",
+      "name": "Cyprus National Day",
+      "date": "2027-04-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-04-30-5",
+      "name": "Good Friday",
+      "date": "2027-04-30",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-05-01-6",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-05-03-7",
+      "name": "Easter Monday",
+      "date": "2027-05-03",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-05-04-8",
+      "name": "Easter Tuesday",
+      "date": "2027-05-04",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-06-20-9",
+      "name": "Pentecost",
+      "date": "2027-06-20",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-06-21-10",
+      "name": "Whit Monday",
+      "date": "2027-06-21",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-08-15-11",
+      "name": "Assumption of the Virgin Mary",
+      "date": "2027-08-15",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-10-01-12",
+      "name": "Cyprus Independence Day",
+      "date": "2027-10-01",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-10-28-13",
+      "name": "Ohi Day",
+      "date": "2027-10-28",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-12-24-14",
+      "name": "Christmas Eve",
+      "date": "2027-12-24",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-12-25-15",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    },
+    {
+      "id": "CY-2027-12-26-16",
+      "name": "St. Stephen's Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "CY",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:09.586Z",
+      "updatedAt": "2025-08-13T00:06:09.586Z"
+    }
+  ]
+}

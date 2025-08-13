@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "BS-2030-01-11-1",
+      "name": "Majority Rule Day",
+      "date": "2030-01-11",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    },
+    {
+      "id": "BS-2030-04-01-2",
+      "name": "Perry Christie Day",
+      "date": "2030-04-01",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    },
+    {
+      "id": "BS-2030-04-19-3",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    },
+    {
+      "id": "BS-2030-04-22-4",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    },
+    {
+      "id": "BS-2030-06-10-5",
+      "name": "Whit Monday",
+      "date": "2030-06-10",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    },
+    {
+      "id": "BS-2030-07-10-6",
+      "name": "Independence Day",
+      "date": "2030-07-10",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    },
+    {
+      "id": "BS-2030-08-05-7",
+      "name": "Emancipation Day",
+      "date": "2030-08-05",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    },
+    {
+      "id": "BS-2030-10-14-8",
+      "name": "National Heroes' Day",
+      "date": "2030-10-14",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    },
+    {
+      "id": "BS-2030-12-25-9",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    },
+    {
+      "id": "BS-2030-12-26-10",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "BS",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:19:53.130Z",
+      "updatedAt": "2025-08-13T00:19:53.130Z"
+    }
+  ],
+  "timestamp": 1755044393130,
+  "ttl": 86400000,
+  "key": "holiday:BS:2030"
+}

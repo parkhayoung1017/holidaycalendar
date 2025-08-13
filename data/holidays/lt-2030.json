@@ -1,0 +1,162 @@
+{
+  "countryCode": "LT",
+  "year": 2030,
+  "totalHolidays": 14,
+  "lastUpdated": "2025-08-13T00:21:50.662Z",
+  "holidays": [
+    {
+      "id": "LT-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-02-16-1",
+      "name": "The Day of Restoration of the State of Lithuania",
+      "date": "2030-02-16",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-03-11-2",
+      "name": "Day of Restoration of Independence of Lithuania",
+      "date": "2030-03-11",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-04-21-3",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-04-22-4",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-05-01-5",
+      "name": "International Working Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-06-24-6",
+      "name": "St. John's Day",
+      "date": "2030-06-24",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-07-06-7",
+      "name": "Statehood Day",
+      "date": "2030-07-06",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-08-15-8",
+      "name": "Assumption Day",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-11-01-9",
+      "name": "All Saints' Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.661Z",
+      "updatedAt": "2025-08-13T00:21:50.661Z"
+    },
+    {
+      "id": "LT-2030-11-02-10",
+      "name": "All Souls' Day",
+      "date": "2030-11-02",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.662Z",
+      "updatedAt": "2025-08-13T00:21:50.662Z"
+    },
+    {
+      "id": "LT-2030-12-24-11",
+      "name": "Christmas Eve",
+      "date": "2030-12-24",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.662Z",
+      "updatedAt": "2025-08-13T00:21:50.662Z"
+    },
+    {
+      "id": "LT-2030-12-25-12",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.662Z",
+      "updatedAt": "2025-08-13T00:21:50.662Z"
+    },
+    {
+      "id": "LT-2030-12-26-13",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "LT",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:21:50.662Z",
+      "updatedAt": "2025-08-13T00:21:50.662Z"
+    }
+  ]
+}

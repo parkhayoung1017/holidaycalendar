@@ -1,0 +1,118 @@
+{
+  "countryCode": "MX",
+  "year": 2030,
+  "totalHolidays": 10,
+  "lastUpdated": "2025-08-13T00:22:18.726Z",
+  "holidays": [
+    {
+      "id": "MX-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.725Z",
+      "updatedAt": "2025-08-13T00:22:18.725Z"
+    },
+    {
+      "id": "MX-2030-02-04-1",
+      "name": "Constitution Day",
+      "date": "2030-02-04",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.726Z",
+      "updatedAt": "2025-08-13T00:22:18.726Z"
+    },
+    {
+      "id": "MX-2030-03-18-2",
+      "name": "Benito Juárez's birthday",
+      "date": "2030-03-18",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.726Z",
+      "updatedAt": "2025-08-13T00:22:18.726Z"
+    },
+    {
+      "id": "MX-2030-04-18-3",
+      "name": "Maundy Thursday",
+      "date": "2030-04-18",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.726Z",
+      "updatedAt": "2025-08-13T00:22:18.726Z"
+    },
+    {
+      "id": "MX-2030-04-19-4",
+      "name": "Good Friday",
+      "date": "2030-04-19",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.726Z",
+      "updatedAt": "2025-08-13T00:22:18.726Z"
+    },
+    {
+      "id": "MX-2030-05-01-5",
+      "name": "Labor Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.726Z",
+      "updatedAt": "2025-08-13T00:22:18.726Z"
+    },
+    {
+      "id": "MX-2030-09-16-6",
+      "name": "Independence Day",
+      "date": "2030-09-16",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.726Z",
+      "updatedAt": "2025-08-13T00:22:18.726Z"
+    },
+    {
+      "id": "MX-2030-10-01-7",
+      "name": "Inauguration Day",
+      "date": "2030-10-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.726Z",
+      "updatedAt": "2025-08-13T00:22:18.726Z"
+    },
+    {
+      "id": "MX-2030-11-18-8",
+      "name": "Revolution Day",
+      "date": "2030-11-18",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.726Z",
+      "updatedAt": "2025-08-13T00:22:18.726Z"
+    },
+    {
+      "id": "MX-2030-12-25-9",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:22:18.726Z",
+      "updatedAt": "2025-08-13T00:22:18.726Z"
+    }
+  ]
+}

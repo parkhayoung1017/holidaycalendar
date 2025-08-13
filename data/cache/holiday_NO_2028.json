@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "NO-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-04-13-1",
+      "name": "Maundy Thursday",
+      "date": "2028-04-13",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-04-14-2",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-04-16-3",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-04-17-4",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-05-01-5",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-05-17-6",
+      "name": "Constitution Day",
+      "date": "2028-05-17",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-05-25-7",
+      "name": "Ascension Day",
+      "date": "2028-05-25",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-06-04-8",
+      "name": "Pentecost",
+      "date": "2028-06-04",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-06-05-9",
+      "name": "Whit Monday",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-12-25-10",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    },
+    {
+      "id": "NO-2028-12-26-11",
+      "name": "St. Stephen's Day",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "NO",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:44.362Z",
+      "updatedAt": "2025-08-13T00:12:44.362Z"
+    }
+  ],
+  "timestamp": 1755043964363,
+  "ttl": 86400000,
+  "key": "holiday:NO:2028"
+}

@@ -1,0 +1,150 @@
+{
+  "data": [
+    {
+      "id": "KZ-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-01-02-1",
+      "name": "New Year's Day",
+      "date": "2029-01-02",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-03-08-2",
+      "name": "International Women's Day",
+      "date": "2029-03-08",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-03-21-3",
+      "name": "Nauryz Meyramy",
+      "date": "2029-03-21",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-03-22-4",
+      "name": "Nauryz Meyramy",
+      "date": "2029-03-22",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-03-23-5",
+      "name": "Nauryz Meyramy",
+      "date": "2029-03-23",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-05-01-6",
+      "name": "Kazakhstan People's Unity Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-05-07-7",
+      "name": "Defender of the Fatherland Day",
+      "date": "2029-05-07",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-05-09-8",
+      "name": "Great Patriotic War Against Fascism Victory Day",
+      "date": "2029-05-09",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-07-06-9",
+      "name": "Capital City Day",
+      "date": "2029-07-06",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-08-30-10",
+      "name": "Constitution Day",
+      "date": "2029-08-30",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-10-25-11",
+      "name": "Republic Day",
+      "date": "2029-10-25",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    },
+    {
+      "id": "KZ-2029-12-16-12",
+      "name": "Independence Day",
+      "date": "2029-12-16",
+      "country": "",
+      "countryCode": "KZ",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:16:46.357Z",
+      "updatedAt": "2025-08-13T00:16:46.357Z"
+    }
+  ],
+  "timestamp": 1755044206358,
+  "ttl": 86400000,
+  "key": "holiday:KZ:2029"
+}

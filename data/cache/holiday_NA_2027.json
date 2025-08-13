@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "NA-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.611Z",
+      "updatedAt": "2025-08-13T00:07:57.611Z"
+    },
+    {
+      "id": "NA-2027-03-21-1",
+      "name": "Independence Day",
+      "date": "2027-03-21",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.611Z",
+      "updatedAt": "2025-08-13T00:07:57.611Z"
+    },
+    {
+      "id": "NA-2027-03-26-2",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.611Z",
+      "updatedAt": "2025-08-13T00:07:57.611Z"
+    },
+    {
+      "id": "NA-2027-03-29-3",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.611Z",
+      "updatedAt": "2025-08-13T00:07:57.611Z"
+    },
+    {
+      "id": "NA-2027-05-01-4",
+      "name": "Workers' Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.611Z",
+      "updatedAt": "2025-08-13T00:07:57.611Z"
+    },
+    {
+      "id": "NA-2027-05-04-5",
+      "name": "Cassinga Day",
+      "date": "2027-05-04",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.612Z",
+      "updatedAt": "2025-08-13T00:07:57.612Z"
+    },
+    {
+      "id": "NA-2027-05-06-6",
+      "name": "Ascension Day",
+      "date": "2027-05-06",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.612Z",
+      "updatedAt": "2025-08-13T00:07:57.612Z"
+    },
+    {
+      "id": "NA-2027-05-25-7",
+      "name": "Africa Day",
+      "date": "2027-05-25",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.612Z",
+      "updatedAt": "2025-08-13T00:07:57.612Z"
+    },
+    {
+      "id": "NA-2027-08-26-8",
+      "name": "Heroes' Day",
+      "date": "2027-08-26",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.612Z",
+      "updatedAt": "2025-08-13T00:07:57.612Z"
+    },
+    {
+      "id": "NA-2027-12-10-9",
+      "name": "Human Rights Day",
+      "date": "2027-12-10",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.612Z",
+      "updatedAt": "2025-08-13T00:07:57.612Z"
+    },
+    {
+      "id": "NA-2027-12-25-10",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.612Z",
+      "updatedAt": "2025-08-13T00:07:57.612Z"
+    },
+    {
+      "id": "NA-2027-12-26-11",
+      "name": "Day of Goodwill",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "NA",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:57.612Z",
+      "updatedAt": "2025-08-13T00:07:57.612Z"
+    }
+  ],
+  "timestamp": 1755043677612,
+  "ttl": 86400000,
+  "key": "holiday:NA:2027"
+}

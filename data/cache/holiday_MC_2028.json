@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "MC-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-01-27-1",
+      "name": "Saint Devota's Day",
+      "date": "2028-01-27",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-04-17-2",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-05-01-3",
+      "name": "May Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-05-25-4",
+      "name": "Ascension Day",
+      "date": "2028-05-25",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-06-05-5",
+      "name": "Whit Monday",
+      "date": "2028-06-05",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-06-15-6",
+      "name": "Corpus Christi",
+      "date": "2028-06-15",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-08-15-7",
+      "name": "Assumption Day",
+      "date": "2028-08-15",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-11-01-8",
+      "name": "All Saints Day",
+      "date": "2028-11-01",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-11-20-9",
+      "name": "National Day",
+      "date": "2028-11-20",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-12-08-10",
+      "name": "The Immaculate Conception",
+      "date": "2028-12-08",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    },
+    {
+      "id": "MC-2028-12-25-11",
+      "name": "​Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "MC",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:12:10.471Z",
+      "updatedAt": "2025-08-13T00:12:10.471Z"
+    }
+  ],
+  "timestamp": 1755043930471,
+  "ttl": 86400000,
+  "key": "holiday:MC:2028"
+}

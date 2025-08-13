@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "BG-2028-01-03-0",
+      "name": "New Year's Day",
+      "date": "2028-01-03",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.984Z",
+      "updatedAt": "2025-08-13T00:09:58.984Z"
+    },
+    {
+      "id": "BG-2028-03-03-1",
+      "name": "Liberation Day",
+      "date": "2028-03-03",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-04-14-2",
+      "name": "Good Friday",
+      "date": "2028-04-14",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-04-15-3",
+      "name": "Holy Saturday",
+      "date": "2028-04-15",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-04-16-4",
+      "name": "Easter Sunday",
+      "date": "2028-04-16",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-04-17-5",
+      "name": "Easter Monday",
+      "date": "2028-04-17",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-05-01-6",
+      "name": "International Workers' Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-05-08-7",
+      "name": "Saint George's Day",
+      "date": "2028-05-08",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-05-24-8",
+      "name": "Saints Cyril and Methodius Day",
+      "date": "2028-05-24",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-09-06-9",
+      "name": "Unification Day",
+      "date": "2028-09-06",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-09-22-10",
+      "name": "Independence Day",
+      "date": "2028-09-22",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-12-25-12",
+      "name": "Christmas Day",
+      "date": "2028-12-25",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-12-26-13",
+      "name": "Second day of Christmas",
+      "date": "2028-12-26",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    },
+    {
+      "id": "BG-2028-12-27-11",
+      "name": "Christmas Eve",
+      "date": "2028-12-27",
+      "country": "",
+      "countryCode": "BG",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:09:58.985Z",
+      "updatedAt": "2025-08-13T00:09:58.985Z"
+    }
+  ],
+  "timestamp": 1755043798987,
+  "ttl": 86400000,
+  "key": "holiday:BG:2028"
+}

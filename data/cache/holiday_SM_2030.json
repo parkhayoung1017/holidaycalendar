@@ -1,0 +1,205 @@
+{
+  "data": [
+    {
+      "id": "SM-2030-01-01-0",
+      "name": "New Year's Day",
+      "date": "2030-01-01",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-01-06-1",
+      "name": "Epiphany",
+      "date": "2030-01-06",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-02-05-2",
+      "name": "Feast of Saint Agatha",
+      "date": "2030-02-05",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-03-25-3",
+      "name": "Anniversary of the Arengo",
+      "date": "2030-03-25",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-04-21-4",
+      "name": "Easter Sunday",
+      "date": "2030-04-21",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-04-22-5",
+      "name": "Easter Monday",
+      "date": "2030-04-22",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-05-01-6",
+      "name": "Labour Day",
+      "date": "2030-05-01",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-06-20-7",
+      "name": "Corpus Christi",
+      "date": "2030-06-20",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-07-28-8",
+      "name": "Liberation from Fascism",
+      "date": "2030-07-28",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-08-15-9",
+      "name": "Ferragosto (Assumption)",
+      "date": "2030-08-15",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-09-03-10",
+      "name": "The Feast of San Marino and the Republic",
+      "date": "2030-09-03",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-11-01-11",
+      "name": "All Saints' Day",
+      "date": "2030-11-01",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-11-02-12",
+      "name": "Commemoration of all those who died at war",
+      "date": "2030-11-02",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-12-08-13",
+      "name": "Immaculate Conception",
+      "date": "2030-12-08",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-12-24-14",
+      "name": "Christmas Eve",
+      "date": "2030-12-24",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-12-25-15",
+      "name": "Christmas Day",
+      "date": "2030-12-25",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-12-26-16",
+      "name": "St. Stephen's Day",
+      "date": "2030-12-26",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    },
+    {
+      "id": "SM-2030-12-31-17",
+      "name": "New Year's Eve",
+      "date": "2030-12-31",
+      "country": "",
+      "countryCode": "SM",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:23:16.376Z",
+      "updatedAt": "2025-08-13T00:23:16.376Z"
+    }
+  ],
+  "timestamp": 1755044596377,
+  "ttl": 86400000,
+  "key": "holiday:SM:2030"
+}

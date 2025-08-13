@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "id": "CN-2028-01-01-0",
+      "name": "New Year's Day",
+      "date": "2028-01-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:25.322Z",
+      "updatedAt": "2025-08-13T00:10:25.322Z"
+    },
+    {
+      "id": "CN-2028-01-26-1",
+      "name": "Chinese New Year (Spring Festival)",
+      "date": "2028-01-26",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:25.322Z",
+      "updatedAt": "2025-08-13T00:10:25.322Z"
+    },
+    {
+      "id": "CN-2028-04-05-2",
+      "name": "Qingming Festival (Tomb-Sweeping Day)",
+      "date": "2028-04-05",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:25.322Z",
+      "updatedAt": "2025-08-13T00:10:25.322Z"
+    },
+    {
+      "id": "CN-2028-05-01-3",
+      "name": "Labour Day",
+      "date": "2028-05-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:25.322Z",
+      "updatedAt": "2025-08-13T00:10:25.322Z"
+    },
+    {
+      "id": "CN-2028-05-28-4",
+      "name": "Dragon Boat Festival",
+      "date": "2028-05-28",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:25.322Z",
+      "updatedAt": "2025-08-13T00:10:25.322Z"
+    },
+    {
+      "id": "CN-2028-10-01-5",
+      "name": "National Day",
+      "date": "2028-10-01",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:25.322Z",
+      "updatedAt": "2025-08-13T00:10:25.322Z"
+    },
+    {
+      "id": "CN-2028-10-03-6",
+      "name": "Mid-Autumn Festival",
+      "date": "2028-10-03",
+      "country": "",
+      "countryCode": "CN",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:10:25.322Z",
+      "updatedAt": "2025-08-13T00:10:25.322Z"
+    }
+  ],
+  "timestamp": 1755043825322,
+  "ttl": 86400000,
+  "key": "holiday:CN:2028"
+}

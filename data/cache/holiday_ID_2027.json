@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "id": "ID-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:51.852Z",
+      "updatedAt": "2025-08-13T00:06:51.852Z"
+    },
+    {
+      "id": "ID-2027-03-26-1",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:51.852Z",
+      "updatedAt": "2025-08-13T00:06:51.852Z"
+    },
+    {
+      "id": "ID-2027-03-28-2",
+      "name": "Easter Sunday",
+      "date": "2027-03-28",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:51.852Z",
+      "updatedAt": "2025-08-13T00:06:51.852Z"
+    },
+    {
+      "id": "ID-2027-05-01-3",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:51.852Z",
+      "updatedAt": "2025-08-13T00:06:51.852Z"
+    },
+    {
+      "id": "ID-2027-05-06-4",
+      "name": "Ascension Day",
+      "date": "2027-05-06",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:51.852Z",
+      "updatedAt": "2025-08-13T00:06:51.852Z"
+    },
+    {
+      "id": "ID-2027-06-01-5",
+      "name": "Pancasila Day",
+      "date": "2027-06-01",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:51.852Z",
+      "updatedAt": "2025-08-13T00:06:51.852Z"
+    },
+    {
+      "id": "ID-2027-08-17-6",
+      "name": "Independence Day",
+      "date": "2027-08-17",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:51.852Z",
+      "updatedAt": "2025-08-13T00:06:51.852Z"
+    },
+    {
+      "id": "ID-2027-12-25-7",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "ID",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:06:51.852Z",
+      "updatedAt": "2025-08-13T00:06:51.852Z"
+    }
+  ],
+  "timestamp": 1755043611852,
+  "ttl": 86400000,
+  "key": "holiday:ID:2027"
+}

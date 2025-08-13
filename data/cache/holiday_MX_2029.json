@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "id": "MX-2029-01-01-0",
+      "name": "New Year's Day",
+      "date": "2029-01-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:24.767Z",
+      "updatedAt": "2025-08-13T00:17:24.767Z"
+    },
+    {
+      "id": "MX-2029-02-05-1",
+      "name": "Constitution Day",
+      "date": "2029-02-05",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:24.767Z",
+      "updatedAt": "2025-08-13T00:17:24.767Z"
+    },
+    {
+      "id": "MX-2029-03-19-2",
+      "name": "Benito Juárez's birthday",
+      "date": "2029-03-19",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:24.767Z",
+      "updatedAt": "2025-08-13T00:17:24.767Z"
+    },
+    {
+      "id": "MX-2029-03-29-3",
+      "name": "Maundy Thursday",
+      "date": "2029-03-29",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:24.767Z",
+      "updatedAt": "2025-08-13T00:17:24.767Z"
+    },
+    {
+      "id": "MX-2029-03-30-4",
+      "name": "Good Friday",
+      "date": "2029-03-30",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:24.767Z",
+      "updatedAt": "2025-08-13T00:17:24.767Z"
+    },
+    {
+      "id": "MX-2029-05-01-5",
+      "name": "Labor Day",
+      "date": "2029-05-01",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:24.767Z",
+      "updatedAt": "2025-08-13T00:17:24.767Z"
+    },
+    {
+      "id": "MX-2029-09-16-6",
+      "name": "Independence Day",
+      "date": "2029-09-16",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:24.767Z",
+      "updatedAt": "2025-08-13T00:17:24.767Z"
+    },
+    {
+      "id": "MX-2029-11-19-7",
+      "name": "Revolution Day",
+      "date": "2029-11-19",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:24.767Z",
+      "updatedAt": "2025-08-13T00:17:24.767Z"
+    },
+    {
+      "id": "MX-2029-12-25-8",
+      "name": "Christmas Day",
+      "date": "2029-12-25",
+      "country": "",
+      "countryCode": "MX",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:17:24.767Z",
+      "updatedAt": "2025-08-13T00:17:24.767Z"
+    }
+  ],
+  "timestamp": 1755044244767,
+  "ttl": 86400000,
+  "key": "holiday:MX:2029"
+}

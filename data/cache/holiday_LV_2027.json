@@ -1,0 +1,161 @@
+{
+  "data": [
+    {
+      "id": "LV-2027-01-01-0",
+      "name": "New Year's Day",
+      "date": "2027-01-01",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-03-26-1",
+      "name": "Good Friday",
+      "date": "2027-03-26",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-03-28-2",
+      "name": "Easter Sunday",
+      "date": "2027-03-28",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-03-29-3",
+      "name": "Easter Monday",
+      "date": "2027-03-29",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-05-01-4",
+      "name": "Labour Day",
+      "date": "2027-05-01",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-05-04-5",
+      "name": "Restoration of Independence day",
+      "date": "2027-05-04",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-05-09-6",
+      "name": "Mother's Day",
+      "date": "2027-05-09",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-06-23-7",
+      "name": "Midsummer Eve",
+      "date": "2027-06-23",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-06-24-8",
+      "name": "Midsummer Day",
+      "date": "2027-06-24",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-11-18-9",
+      "name": "Proclamation Day of the Republic of Latvia",
+      "date": "2027-11-18",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-12-24-10",
+      "name": "Christmas Eve",
+      "date": "2027-12-24",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-12-25-11",
+      "name": "Christmas Day",
+      "date": "2027-12-25",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-12-26-12",
+      "name": "St. Stephen's Day",
+      "date": "2027-12-26",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    },
+    {
+      "id": "LV-2027-12-31-13",
+      "name": "New Year's Eve",
+      "date": "2027-12-31",
+      "country": "",
+      "countryCode": "LV",
+      "type": "public",
+      "global": true,
+      "createdAt": "2025-08-13T00:07:29.064Z",
+      "updatedAt": "2025-08-13T00:07:29.064Z"
+    }
+  ],
+  "timestamp": 1755043649065,
+  "ttl": 86400000,
+  "key": "holiday:LV:2027"
+}
