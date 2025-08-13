@@ -18,6 +18,19 @@
     "close": "닫기",
     "open": "열기"
   },
+  "loading": {
+    "default": "페이지를 불러오는 중...",
+    "home": "홈페이지를 불러오는 중...",
+    "today": "오늘의 공휴일을 확인하는 중...",
+    "search": "검색 결과를 불러오는 중...",
+    "admin": "관리자 페이지를 불러오는 중...",
+    "countryHolidays": "{{country}} {{year}}년 공휴일을 불러오는 중...",
+    "regionHolidays": "{{region}} 지역 공휴일을 불러오는 중...",
+    "asiaRegion": "아시아 지역 공휴일을 불러오는 중...",
+    "europeRegion": "유럽 지역 공휴일을 불러오는 중...",
+    "pleaseWait": "잠시만 기다려주세요",
+    "worldwideInfo": "전세계 공휴일 정보"
+  },
   "time": {
     "today": "오늘",
     "thisMonth": "이번 달",

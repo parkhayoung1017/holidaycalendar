@@ -18,6 +18,19 @@
     "close": "Close",
     "open": "Open"
   },
+  "loading": {
+    "default": "Loading page...",
+    "home": "Loading homepage...",
+    "today": "Loading today's holidays...",
+    "search": "Loading search results...",
+    "admin": "Loading admin page...",
+    "countryHolidays": "Loading {{country}} {{year}} holidays...",
+    "regionHolidays": "Loading {{region}} region holidays...",
+    "asiaRegion": "Loading Asia region holidays...",
+    "europeRegion": "Loading Europe region holidays...",
+    "pleaseWait": "Please wait",
+    "worldwideInfo": "Worldwide holiday information"
+  },
   "time": {
     "today": "Today",
     "thisMonth": "This Month",

@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ErrorBoundary } from "@/components/error/ErrorBoundary";
 import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
+import { LoadingProvider } from "@/components/providers/LoadingProvider";
+import PageTransition from "@/components/navigation/PageTransition";
 import { loadTranslationsSync } from "@/lib/translation-loader";
 import { Locale } from "@/types/i18n";
 import { headers } from 'next/headers';
@@ -110,9 +112,12 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <GoogleAnalytics gaId="G-LD1TMF47X6" />
-        <ErrorBoundary>
-          {children}
-        </ErrorBoundary>
+        <LoadingProvider>
+          <PageTransition />
+          <ErrorBoundary>
+            {children}
+          </ErrorBoundary>
+        </LoadingProvider>
       </body>
     </html>
   );

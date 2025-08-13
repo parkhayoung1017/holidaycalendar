@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { generateSearchResults, sortSearchResults, type SearchResult } from '@/lib/search-utils';
 import { useTranslation } from '@/hooks/useTranslation';
+import { useLoading } from '@/components/providers/LoadingProvider';
 
 interface SearchBarProps {
   onSearch?: (query: string) => void;
@@ -18,6 +19,7 @@ export default function SearchBar({
   className = ""
 }: SearchBarProps) {
   const { t, locale } = useTranslation();
+  const { showLoading } = useLoading();
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
   const [isOpen, setIsOpen] = useState(false);
@@ -104,6 +106,9 @@ export default function SearchBar({
     }
     setIsOpen(false);
     onSelect?.(result);
+    
+    // 깔끔한 로딩 표시 (메시지 없음)
+    showLoading();
     
     // 페이지 이동
     window.location.href = result.url;

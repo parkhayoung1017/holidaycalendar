@@ -6,6 +6,7 @@ import SearchBar from '@/components/search/SearchBar';
 import MonthlyCalendar from '@/components/calendar/MonthlyCalendar';
 import ResponsiveBanner from '@/components/ads/ResponsiveBanner';
 import InlineBanner from '@/components/ads/InlineBanner';
+import { LoadingLink } from '@/components/navigation/PageTransition';
 import { useTranslation } from '@/hooks/useTranslation';
 import { useI18nContext } from '@/lib/i18n-context';
 import { translateCountryName } from '@/lib/translation-utils';
@@ -140,26 +141,26 @@ export default function HomePageContent({
           
           {/* 빠른 링크 */}
           <div className="flex flex-wrap justify-center gap-4 text-sm">
-            <Link 
+            <LoadingLink 
               href={`/${locale}/today`} 
               className="text-blue-600 hover:text-blue-800 hover:underline"
             >
               {t('home.quickLinks.todayHolidays')}
-            </Link>
+            </LoadingLink>
             <span className="text-gray-400">•</span>
-            <Link 
+            <LoadingLink 
               href={`/${locale}/regions/asia/2025`} 
               className="text-blue-600 hover:text-blue-800 hover:underline"
             >
               {t('home.quickLinks.asiaRegion')}
-            </Link>
+            </LoadingLink>
             <span className="text-gray-400">•</span>
-            <Link 
+            <LoadingLink 
               href={`/${locale}/regions/europe/2025`} 
               className="text-blue-600 hover:text-blue-800 hover:underline"
             >
               {t('home.quickLinks.europeRegion')}
-            </Link>
+            </LoadingLink>
           </div>
         </div>
 
@@ -185,7 +186,7 @@ export default function HomePageContent({
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {availablePopularCountries.map((country) => (
-              <Link
+              <LoadingLink
                 key={country.code}
                 href={`/${locale}/${country.name.toLowerCase().replace(/\s+/g, '-')}-${country.displayYear}`}
                 className="group flex flex-col items-center p-4 rounded-lg border border-gray-200 hover:border-blue-300 hover:bg-blue-50 transition-all duration-200 hover:shadow-md"
@@ -199,7 +200,7 @@ export default function HomePageContent({
                 <span className="text-xs text-gray-500 mt-1">
                   {country.displayYear} {t('time.year')}
                 </span>
-              </Link>
+              </LoadingLink>
             ))}
           </div>
         </div>
@@ -215,7 +216,7 @@ export default function HomePageContent({
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {nextYearCountries.slice(0, 8).map((country) => (
-                <Link
+                <LoadingLink
                   key={`${country.code}-next-year`}
                   href={`/${locale}/${country.name.toLowerCase().replace(/\s+/g, '-')}-${CURRENT_YEAR + 1}`}
                   className="flex items-center space-x-2 p-3 rounded-lg bg-white bg-opacity-20 hover:bg-opacity-30 transition-all duration-200"
@@ -224,7 +225,7 @@ export default function HomePageContent({
                   <span className="text-sm font-medium truncate">
                     {getTranslatedCountryName(country)}
                   </span>
-                </Link>
+                </LoadingLink>
               ))}
             </div>
           </div>
