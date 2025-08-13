@@ -1,6 +1,7 @@
 import { SUPPORTED_COUNTRIES, SUPPORTED_YEARS, CURRENT_YEAR } from './constants';
 import { loadTranslations } from './translation-loader';
 import { Locale } from '@/types/i18n';
+import { getClientAvailableYears, isDataAvailable } from './data-availability';
 
 export interface SearchResult {
   type: 'country' | 'country-year' | 'region';
@@ -27,10 +28,13 @@ export function parseSearchQuery(query: string): {
 } {
   const normalizedQuery = query.toLowerCase().trim();
   
-  // 연도 추출 (2020-2030 범위)
+  // 연도 추출 (2020-2030 범위로 확장)
   const yearMatch = normalizedQuery.match(/\b(20[2-3]\d)\b/);
   const extractedYear = yearMatch ? parseInt(yearMatch[1]) : null;
-  const isValidYear = extractedYear ? SUPPORTED_YEARS.includes(extractedYear) : false;
+  
+  // 클라이언트에서 사용 가능한 연도 목록으로 검증
+  const availableYears = getClientAvailableYears();
+  const isValidYear = extractedYear ? availableYears.includes(extractedYear) : false;
   
   // 연도를 제거한 국가 쿼리
   const countryQuery = normalizedQuery.replace(/\b20[2-3]\d\b/, '').trim();
@@ -80,7 +84,7 @@ export async function findMatchingCountries(query: string, locale: Locale = 'ko'
   let countryTranslations: Record<string, string> = {};
   try {
     const translations = await loadTranslations(locale);
-    countryTranslations = translations.countries?.countries || {};
+    countryTranslations = translations.countries || {};
   } catch (error) {
     console.warn('번역 데이터 로드 실패:', error);
   }
@@ -192,12 +196,14 @@ export async function generateSearchResults(query: string, locale: Locale = 'ko'
     console.warn('번역 데이터 로드 실패:', error);
   }
   
-  const countryTranslations = translations.countries?.countries || {};
+  const countryTranslations = translations.countries || {};
   const commonTranslations = translations.common || {};
+  const availableYears = getClientAvailableYears();
   
   // 국가 + 연도 조합 결과
   if (isValidYear && year) {
     matchingCountries.forEach(country => {
+      // 해당 국가와 연도 조합이 실제로 존재하는지 확인 (클라이언트에서는 스킵)
       const translatedCountryName = countryTranslations[country.code] || country.name;
       const yearText = commonTranslations?.time?.year || '년';
       const viewText = locale === 'ko' ? '공휴일 보기' : 'View Holidays';
@@ -219,31 +225,47 @@ export async function generateSearchResults(query: string, locale: Locale = 'ko'
       });
     });
   } else {
-    // 국가만 검색한 경우 현재 연도로 결과 생성
+    // 국가만 검색한 경우 여러 연도의 결과를 생성
     matchingCountries.forEach(country => {
       const translatedCountryName = countryTranslations[country.code] || country.name;
       const yearText = commonTranslations?.time?.year || '년';
       const viewText = locale === 'ko' ? '공휴일 보기' : 'View Holidays';
       
-      results.push({
-        type: 'country-year',
-        country: {
-          code: country.code,
-          name: translatedCountryName,
-          flag: country.flag,
-          region: country.region
-        },
-        year: CURRENT_YEAR,
-        url: `/${locale}/${getCountrySlugFromCode(country.code)}-${CURRENT_YEAR}`,
-        title: `${translatedCountryName} ${CURRENT_YEAR}`,
-        description: locale === 'ko'
-          ? `${CURRENT_YEAR}${yearText} ${translatedCountryName} ${viewText}`
-          : `${viewText} for ${translatedCountryName} in ${CURRENT_YEAR}`
+      // 연도 정렬: 현재 연도를 최우선으로, 나머지는 내림차순(최신순) 정렬
+      const sortedYears = availableYears
+        .filter((year, index, arr) => arr.indexOf(year) === index) // 중복 제거
+        .sort((a, b) => {
+          // 현재 연도가 최우선
+          if (a === CURRENT_YEAR) return -1;
+          if (b === CURRENT_YEAR) return 1;
+          // 나머지는 내림차순 (최신순)
+          return b - a;
+        });
+      
+      const priorityYears = sortedYears;
+      
+      // 최대 5개 연도까지 표시 (더 많은 연도 옵션 제공)
+      priorityYears.slice(0, 5).forEach((searchYear, index) => {
+        results.push({
+          type: 'country-year',
+          country: {
+            code: country.code,
+            name: translatedCountryName,
+            flag: country.flag,
+            region: country.region
+          },
+          year: searchYear,
+          url: `/${locale}/${getCountrySlugFromCode(country.code)}-${searchYear}`,
+          title: `${translatedCountryName} ${searchYear}`,
+          description: locale === 'ko'
+            ? `${searchYear}${yearText} ${translatedCountryName} ${viewText}`
+            : `${viewText} for ${translatedCountryName} in ${searchYear}`
+        });
       });
     });
   }
   
-  return results.slice(0, 8); // 최대 8개 결과
+  return results.slice(0, 20); // 최대 20개 결과 (국가당 5개 연도 * 4개 국가)
 }
 
 /**
@@ -301,28 +323,55 @@ export function generateSearchResultsSync(query: string): SearchResult[] {
 export async function getPopularSearches(locale: Locale = 'ko'): Promise<string[]> {
   try {
     const translations = await loadTranslations(locale);
-    const countryTranslations = translations.countries?.countries || {};
+    const countryTranslations = translations.countries || {};
+    const availableYears = getClientAvailableYears();
     
-    const popularCountryCodes = ['US', 'KR', 'JP', 'GB', 'DE', 'FR', 'CA', 'AU'];
+    const popularCountryCodes = ['US', 'KR', 'JP', 'GB', 'DE', 'FR'];
     
-    return popularCountryCodes.map(code => {
+    // 우선순위 연도: 현재 연도 > 2025 > 최신 연도들 > 과거 연도들
+    const priorityYears = [
+      CURRENT_YEAR,
+      2025,
+      ...availableYears
+        .filter(y => y !== CURRENT_YEAR && y !== 2025 && y > 2025)
+        .sort((a, b) => b - a), // 최신순
+      2024,
+      ...availableYears
+        .filter(y => y < 2024)
+        .sort((a, b) => b - a) // 최신순
+    ].filter((year, index, arr) => arr.indexOf(year) === index); // 중복 제거
+    
+    const searches: string[] = [];
+    
+    // 인기 국가 + 다양한 연도 조합
+    popularCountryCodes.forEach(code => {
       const translatedName = countryTranslations[code] || 
                            SUPPORTED_COUNTRIES.find(c => c.code === code)?.name || 
                            code;
-      return `${translatedName} 2025`;
+      
+      // 각 국가마다 최대 3개 연도 (더 많은 옵션 제공)
+      priorityYears.slice(0, 3).forEach(year => {
+        searches.push(`${translatedName} ${year}`);
+      });
     });
+    
+    return searches.slice(0, 18); // 최대 18개 (6개 국가 * 3개 연도)
   } catch (error) {
     console.warn('인기 검색어 번역 실패:', error);
-    // 기본값 반환
+    // 기본값 반환 (다양한 연도 포함)
     return [
       '미국 2025',
+      '미국 2024',
       '한국 2025', 
+      '한국 2024',
       '일본 2025',
+      '일본 2026',
       '영국 2025',
+      '영국 2024',
       '독일 2025',
+      '독일 2026',
       '프랑스 2025',
-      '캐나다 2025',
-      '호주 2025'
+      '캐나다 2025'
     ];
   }
 }

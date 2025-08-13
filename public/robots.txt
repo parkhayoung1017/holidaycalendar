@@ -48,3 +48,6 @@ Disallow: /*?search=*
 # 필터링된 페이지 (중복 콘텐츠 방지)
 Disallow: /*?filter=*
 Disallow: /*?sort=*
+
+# 다음 웹마스터 도구 인증
+#DaumWebMasterTool:8a1435f7b80f526b71fe150a54091a482711ff4166e465b349b8e19e3f078a3b:QcrEeBz9NlA7CF6V4Udk2w==
