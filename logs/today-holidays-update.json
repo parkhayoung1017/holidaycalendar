@@ -264,5 +264,15 @@
     ],
     "timestamp": "2025-08-17T02:13:48.647Z",
     "success": true
+  },
+  {
+    "date": "2025-08-18",
+    "totalHolidays": 2,
+    "countriesCount": 1,
+    "countries": [
+      "🇨🇦 Canada"
+    ],
+    "timestamp": "2025-08-18T02:18:37.570Z",
+    "success": true
   }
 ]
