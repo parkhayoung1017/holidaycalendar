@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-07-25",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇪🇸 Spain"
-    ],
-    "timestamp": "2025-07-25T02:11:38.232Z",
-    "success": true
-  },
-  {
     "date": "2025-07-26",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -287,6 +277,21 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-08-24T02:08:03.889Z",
+    "success": true
+  },
+  {
+    "date": "2025-08-25",
+    "totalHolidays": 6,
+    "countriesCount": 6,
+    "countries": [
+      "🇬🇧 United Kingdom",
+      "🇬🇬 Guernsey",
+      "🇬🇮 Gibraltar",
+      "🇮🇲 Isle of Man",
+      "🇯🇪 Jersey",
+      "🇲🇩 Moldova"
+    ],
+    "timestamp": "2025-08-25T02:02:04.964Z",
     "success": true
   }
 ]
