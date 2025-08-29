@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-07-29",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-07-29T02:29:34.371Z",
-    "success": true
-  },
-  {
     "date": "2025-07-30",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -294,6 +286,14 @@
       "🇬🇪 Georgia"
     ],
     "timestamp": "2025-08-28T01:53:42.048Z",
+    "success": true
+  },
+  {
+    "date": "2025-08-29",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-08-29T01:53:32.031Z",
     "success": true
   }
 ]
