@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-07-31",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-07-31T02:20:24.317Z",
-    "success": true
-  },
-  {
     "date": "2025-08-01",
     "totalHolidays": 3,
     "countriesCount": 3,
@@ -294,6 +286,16 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-08-30T01:47:54.628Z",
+    "success": true
+  },
+  {
+    "date": "2025-08-31",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇲🇩 Moldova"
+    ],
+    "timestamp": "2025-08-31T01:59:00.320Z",
     "success": true
   }
 ]
