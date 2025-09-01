@@ -1,28 +1,5 @@
 [
   {
-    "date": "2025-08-01",
-    "totalHolidays": 3,
-    "countriesCount": 3,
-    "countries": [
-      "🇧🇧 Barbados",
-      "🇧🇯 Benin",
-      "🇨🇩 Democratic Republic of the Congo"
-    ],
-    "timestamp": "2025-08-01T02:31:36.135Z",
-    "success": true
-  },
-  {
-    "date": "2025-08-02",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇨🇩 Democratic Republic of the Congo",
-      "🇲🇰 North Macedonia"
-    ],
-    "timestamp": "2025-08-02T02:09:01.180Z",
-    "success": true
-  },
-  {
     "date": "2025-08-03",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -296,6 +273,18 @@
       "🇲🇩 Moldova"
     ],
     "timestamp": "2025-08-31T01:59:00.320Z",
+    "success": true
+  },
+  {
+    "date": "2025-09-01",
+    "totalHolidays": 3,
+    "countriesCount": 3,
+    "countries": [
+      "🇨🇦 Canada",
+      "🇵🇷 Puerto Rico",
+      "🇺🇸 United States"
+    ],
+    "timestamp": "2025-09-01T02:09:34.623Z",
     "success": true
   }
 ]
