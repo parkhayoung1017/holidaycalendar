@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-08-05",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-08-05T02:23:29.878Z",
-    "success": true
-  },
-  {
     "date": "2025-08-06",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -286,6 +278,16 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-09-04T01:48:10.084Z",
+    "success": true
+  },
+  {
+    "date": "2025-09-05",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇦🇱 Albania"
+    ],
+    "timestamp": "2025-09-05T01:50:59.861Z",
     "success": true
   }
 ]
