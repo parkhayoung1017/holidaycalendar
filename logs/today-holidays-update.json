@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-08-08",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-08-08T02:21:56.114Z",
-    "success": true
-  },
-  {
     "date": "2025-08-09",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -290,6 +282,21 @@
       "🇧🇷 Brazil"
     ],
     "timestamp": "2025-09-07T01:56:39.974Z",
+    "success": true
+  },
+  {
+    "date": "2025-09-08",
+    "totalHolidays": 7,
+    "countriesCount": 6,
+    "countries": [
+      "🇪🇸 Spain",
+      "🇦🇩 Andorra",
+      "🇱🇮 Liechtenstein",
+      "🇲🇰 North Macedonia",
+      "🇲🇹 Malta",
+      "🇻🇦 Vatican City"
+    ],
+    "timestamp": "2025-09-08T01:56:26.058Z",
     "success": true
   }
 ]
