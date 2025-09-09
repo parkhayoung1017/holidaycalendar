@@ -1,16 +1,5 @@
 [
   {
-    "date": "2025-08-09",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇸🇬 Singapore",
-      "🇿🇦 South Africa"
-    ],
-    "timestamp": "2025-08-09T02:04:15.703Z",
-    "success": true
-  },
-  {
     "date": "2025-08-10",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -297,6 +286,14 @@
       "🇻🇦 Vatican City"
     ],
     "timestamp": "2025-09-08T01:56:26.058Z",
+    "success": true
+  },
+  {
+    "date": "2025-09-09",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-09-09T01:52:44.457Z",
     "success": true
   }
 ]
