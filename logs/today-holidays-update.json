@@ -1,16 +1,5 @@
 [
   {
-    "date": "2025-08-17",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇦🇷 Argentina",
-      "🇬🇦 Gabon"
-    ],
-    "timestamp": "2025-08-17T02:13:48.647Z",
-    "success": true
-  },
-  {
     "date": "2025-08-18",
     "totalHolidays": 2,
     "countriesCount": 1,
@@ -290,6 +279,14 @@
       "🇲🇽 Mexico"
     ],
     "timestamp": "2025-09-16T01:48:44.355Z",
+    "success": true
+  },
+  {
+    "date": "2025-09-17",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-09-17T01:48:48.093Z",
     "success": true
   }
 ]
