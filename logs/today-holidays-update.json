@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-08-20",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-08-20T01:57:37.342Z",
-    "success": true
-  },
-  {
     "date": "2025-08-21",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -289,6 +281,16 @@
       "🇨🇱 Chile"
     ],
     "timestamp": "2025-09-19T01:51:56.187Z",
+    "success": true
+  },
+  {
+    "date": "2025-09-20",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇩🇪 Germany"
+    ],
+    "timestamp": "2025-09-20T01:46:53.622Z",
     "success": true
   }
 ]
