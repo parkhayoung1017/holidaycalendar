@@ -1,21 +1,5 @@
 [
   {
-    "date": "2025-08-21",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-08-21T01:56:21.179Z",
-    "success": true
-  },
-  {
-    "date": "2025-08-22",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-08-22T01:57:00.300Z",
-    "success": true
-  },
-  {
     "date": "2025-08-23",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -291,6 +275,17 @@
       "🇩🇪 Germany"
     ],
     "timestamp": "2025-09-20T01:46:53.622Z",
+    "success": true
+  },
+  {
+    "date": "2025-09-21",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇦🇲 Armenia",
+      "🇲🇹 Malta"
+    ],
+    "timestamp": "2025-09-21T01:59:31.050Z",
     "success": true
   }
 ]
