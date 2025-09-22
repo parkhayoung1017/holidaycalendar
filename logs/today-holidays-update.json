@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-08-23",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-08-23T01:52:57.185Z",
-    "success": true
-  },
-  {
     "date": "2025-08-24",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -286,6 +278,16 @@
       "🇲🇹 Malta"
     ],
     "timestamp": "2025-09-21T01:59:31.050Z",
+    "success": true
+  },
+  {
+    "date": "2025-09-22",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇳🇿 New Zealand"
+    ],
+    "timestamp": "2025-09-22T01:59:33.048Z",
     "success": true
   }
 ]
