@@ -289,5 +289,15 @@
     ],
     "timestamp": "2025-09-22T01:59:33.048Z",
     "success": true
+  },
+  {
+    "date": "2025-09-23",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇯🇵 Japan"
+    ],
+    "timestamp": "2025-09-23T01:49:26.493Z",
+    "success": true
   }
 ]
