@@ -1,17 +1,5 @@
 [
   {
-    "date": "2025-09-01",
-    "totalHolidays": 3,
-    "countriesCount": 3,
-    "countries": [
-      "🇨🇦 Canada",
-      "🇵🇷 Puerto Rico",
-      "🇺🇸 United States"
-    ],
-    "timestamp": "2025-09-01T02:09:34.623Z",
-    "success": true
-  },
-  {
     "date": "2025-09-02",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -294,6 +282,14 @@
       "🇨🇾 Cyprus"
     ],
     "timestamp": "2025-10-01T02:01:38.390Z",
+    "success": true
+  },
+  {
+    "date": "2025-10-02",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-10-02T01:49:08.576Z",
     "success": true
   }
 ]
