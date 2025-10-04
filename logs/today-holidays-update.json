@@ -283,5 +283,15 @@
     ],
     "timestamp": "2025-10-03T01:49:00.733Z",
     "success": true
+  },
+  {
+    "date": "2025-10-04",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇱🇸 Lesotho"
+    ],
+    "timestamp": "2025-10-04T01:44:56.202Z",
+    "success": true
   }
 ]
