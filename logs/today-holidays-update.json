@@ -288,5 +288,15 @@
     ],
     "timestamp": "2025-10-06T01:52:31.566Z",
     "success": true
+  },
+  {
+    "date": "2025-10-07",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇰🇷 South Korea"
+    ],
+    "timestamp": "2025-10-07T01:49:41.887Z",
+    "success": true
   }
 ]
