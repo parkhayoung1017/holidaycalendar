@@ -1,20 +1,5 @@
 [
   {
-    "date": "2025-09-08",
-    "totalHolidays": 7,
-    "countriesCount": 6,
-    "countries": [
-      "🇪🇸 Spain",
-      "🇦🇩 Andorra",
-      "🇱🇮 Liechtenstein",
-      "🇲🇰 North Macedonia",
-      "🇲🇹 Malta",
-      "🇻🇦 Vatican City"
-    ],
-    "timestamp": "2025-09-08T01:56:26.058Z",
-    "success": true
-  },
-  {
     "date": "2025-09-09",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -297,6 +282,17 @@
       "🇰🇷 South Korea"
     ],
     "timestamp": "2025-10-08T01:49:53.956Z",
+    "success": true
+  },
+  {
+    "date": "2025-10-09",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇪🇸 Spain",
+      "🇰🇷 South Korea"
+    ],
+    "timestamp": "2025-10-09T01:50:52.409Z",
     "success": true
   }
 ]
