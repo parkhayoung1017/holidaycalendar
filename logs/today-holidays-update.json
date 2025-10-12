@@ -1,23 +1,5 @@
 [
   {
-    "date": "2025-09-11",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇪🇸 Spain"
-    ],
-    "timestamp": "2025-09-11T01:51:54.340Z",
-    "success": true
-  },
-  {
-    "date": "2025-09-12",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-09-12T01:47:38.552Z",
-    "success": true
-  },
-  {
     "date": "2025-09-13",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -293,6 +275,19 @@
       "🇲🇰 North Macedonia"
     ],
     "timestamp": "2025-10-11T01:46:49.477Z",
+    "success": true
+  },
+  {
+    "date": "2025-10-12",
+    "totalHolidays": 4,
+    "countriesCount": 4,
+    "countries": [
+      "🇦🇷 Argentina",
+      "🇧🇷 Brazil",
+      "🇨🇱 Chile",
+      "🇪🇸 Spain"
+    ],
+    "timestamp": "2025-10-12T01:55:09.218Z",
     "success": true
   }
 ]
