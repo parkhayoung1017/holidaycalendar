@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-09-13",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-09-13T01:42:48.895Z",
-    "success": true
-  },
-  {
     "date": "2025-09-14",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -288,6 +280,20 @@
       "🇪🇸 Spain"
     ],
     "timestamp": "2025-10-12T01:55:09.218Z",
+    "success": true
+  },
+  {
+    "date": "2025-10-13",
+    "totalHolidays": 6,
+    "countriesCount": 5,
+    "countries": [
+      "🇺🇸 United States",
+      "🇧🇸 Bahamas",
+      "🇨🇦 Canada",
+      "🇯🇵 Japan",
+      "🇵🇷 Puerto Rico"
+    ],
+    "timestamp": "2025-10-13T01:58:40.218Z",
     "success": true
   }
 ]
