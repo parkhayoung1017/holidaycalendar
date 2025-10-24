@@ -284,5 +284,15 @@
     ],
     "timestamp": "2025-10-23T01:54:30.413Z",
     "success": true
+  },
+  {
+    "date": "2025-10-24",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇳🇿 New Zealand"
+    ],
+    "timestamp": "2025-10-24T01:50:00.036Z",
+    "success": true
   }
 ]
