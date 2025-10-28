@@ -290,5 +290,15 @@
     ],
     "timestamp": "2025-10-27T02:05:20.042Z",
     "success": true
+  },
+  {
+    "date": "2025-10-28",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇨🇾 Cyprus"
+    ],
+    "timestamp": "2025-10-28T01:54:39.015Z",
+    "success": true
   }
 ]
