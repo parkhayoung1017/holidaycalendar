@@ -1,24 +1,5 @@
 [
   {
-    "date": "2025-10-01",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇨🇳 China",
-      "🇨🇾 Cyprus"
-    ],
-    "timestamp": "2025-10-01T02:01:38.390Z",
-    "success": true
-  },
-  {
-    "date": "2025-10-02",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-10-02T01:49:08.576Z",
-    "success": true
-  },
-  {
     "date": "2025-10-03",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -298,6 +279,29 @@
       "🇩🇪 Germany"
     ],
     "timestamp": "2025-10-31T01:57:32.610Z",
+    "success": true
+  },
+  {
+    "date": "2025-11-01",
+    "totalHolidays": 14,
+    "countriesCount": 14,
+    "countries": [
+      "🇦🇩 Andorra",
+      "🇧🇯 Benin",
+      "🇨🇬 Republic of the Congo",
+      "🇨🇱 Chile",
+      "🇩🇪 Germany",
+      "🇪🇸 Spain",
+      "🇫🇷 France",
+      "🇬🇦 Gabon",
+      "🇮🇹 Italy",
+      "🇱🇮 Liechtenstein",
+      "🇲🇨 Monaco",
+      "🇲🇪 Montenegro",
+      "🇸🇲 San Marino",
+      "🇻🇦 Vatican City"
+    ],
+    "timestamp": "2025-11-01T02:01:08.121Z",
     "success": true
   }
 ]
