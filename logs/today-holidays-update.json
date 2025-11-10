@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-10-11",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇲🇰 North Macedonia"
-    ],
-    "timestamp": "2025-10-11T01:46:49.477Z",
-    "success": true
-  },
-  {
     "date": "2025-10-12",
     "totalHolidays": 4,
     "countriesCount": 4,
@@ -293,6 +283,14 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-11-09T02:02:55.000Z",
+    "success": true
+  },
+  {
+    "date": "2025-11-10",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-11-10T02:04:02.618Z",
     "success": true
   }
 ]
