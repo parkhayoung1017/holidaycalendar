@@ -1,16 +1,5 @@
 [
   {
-    "date": "2025-10-14",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇬🇪 Georgia",
-      "🇲🇩 Moldova"
-    ],
-    "timestamp": "2025-10-14T01:51:52.432Z",
-    "success": true
-  },
-  {
     "date": "2025-10-15",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -286,6 +275,14 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-11-12T01:59:30.005Z",
+    "success": true
+  },
+  {
+    "date": "2025-11-13",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-11-13T02:01:22.191Z",
     "success": true
   }
 ]
