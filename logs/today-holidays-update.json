@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-10-16",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-10-16T01:53:34.133Z",
-    "success": true
-  },
-  {
     "date": "2025-10-17",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -285,6 +277,16 @@
       "🇳🇿 New Zealand"
     ],
     "timestamp": "2025-11-14T02:00:12.224Z",
+    "success": true
+  },
+  {
+    "date": "2025-11-15",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇧🇷 Brazil"
+    ],
+    "timestamp": "2025-11-15T01:56:02.321Z",
     "success": true
   }
 ]
