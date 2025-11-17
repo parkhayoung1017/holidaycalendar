@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-10-18",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-10-18T01:47:21.182Z",
-    "success": true
-  },
-  {
     "date": "2025-10-19",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -287,6 +279,16 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-11-16T02:06:00.631Z",
+    "success": true
+  },
+  {
+    "date": "2025-11-17",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇲🇽 Mexico"
+    ],
+    "timestamp": "2025-11-17T02:01:06.284Z",
     "success": true
   }
 ]
