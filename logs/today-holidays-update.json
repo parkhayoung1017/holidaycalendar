@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-10-25",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇬🇩 Grenada"
-    ],
-    "timestamp": "2025-10-25T01:51:55.276Z",
-    "success": true
-  },
-  {
     "date": "2025-10-26",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -294,6 +284,17 @@
       "🇬🇪 Georgia"
     ],
     "timestamp": "2025-11-23T02:19:17.852Z",
+    "success": true
+  },
+  {
+    "date": "2025-11-24",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇦🇷 Argentina",
+      "🇯🇵 Japan"
+    ],
+    "timestamp": "2025-11-24T02:07:24.302Z",
     "success": true
   }
 ]
