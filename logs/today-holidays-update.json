@@ -296,5 +296,15 @@
     ],
     "timestamp": "2025-11-24T02:07:24.302Z",
     "success": true
+  },
+  {
+    "date": "2025-11-25",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇧🇦 Bosnia and Herzegovina"
+    ],
+    "timestamp": "2025-11-25T02:00:42.835Z",
+    "success": true
   }
 ]
