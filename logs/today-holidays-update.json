@@ -295,5 +295,16 @@
     ],
     "timestamp": "2025-11-27T01:58:34.475Z",
     "success": true
+  },
+  {
+    "date": "2025-11-28",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇦🇱 Albania",
+      "🇨🇬 Republic of the Congo"
+    ],
+    "timestamp": "2025-11-28T01:58:16.272Z",
+    "success": true
   }
 ]
