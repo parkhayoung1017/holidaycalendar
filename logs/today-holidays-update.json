@@ -1,24 +1,5 @@
 [
   {
-    "date": "2025-10-30",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-10-30T02:00:48.926Z",
-    "success": true
-  },
-  {
-    "date": "2025-10-31",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇨🇱 Chile",
-      "🇩🇪 Germany"
-    ],
-    "timestamp": "2025-10-31T01:57:32.610Z",
-    "success": true
-  },
-  {
     "date": "2025-11-01",
     "totalHolidays": 14,
     "countriesCount": 14,
@@ -305,6 +286,17 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-11-29T01:57:37.391Z",
+    "success": true
+  },
+  {
+    "date": "2025-11-30",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇧🇧 Barbados",
+      "🇧🇯 Benin"
+    ],
+    "timestamp": "2025-11-30T02:12:18.821Z",
     "success": true
   }
 ]
