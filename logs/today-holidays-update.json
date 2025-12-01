@@ -1,28 +1,5 @@
 [
   {
-    "date": "2025-11-01",
-    "totalHolidays": 14,
-    "countriesCount": 14,
-    "countries": [
-      "🇦🇩 Andorra",
-      "🇧🇯 Benin",
-      "🇨🇬 Republic of the Congo",
-      "🇨🇱 Chile",
-      "🇩🇪 Germany",
-      "🇪🇸 Spain",
-      "🇫🇷 France",
-      "🇬🇦 Gabon",
-      "🇮🇹 Italy",
-      "🇱🇮 Liechtenstein",
-      "🇲🇨 Monaco",
-      "🇲🇪 Montenegro",
-      "🇸🇲 San Marino",
-      "🇻🇦 Vatican City"
-    ],
-    "timestamp": "2025-11-01T02:01:08.121Z",
-    "success": true
-  },
-  {
     "date": "2025-11-02",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -297,6 +274,18 @@
       "🇧🇯 Benin"
     ],
     "timestamp": "2025-11-30T02:12:18.821Z",
+    "success": true
+  },
+  {
+    "date": "2025-12-01",
+    "totalHolidays": 4,
+    "countriesCount": 3,
+    "countries": [
+      "🇳🇿 New Zealand",
+      "🇦🇱 Albania",
+      "🇬🇧 United Kingdom"
+    ],
+    "timestamp": "2025-12-01T02:26:20.122Z",
     "success": true
   }
 ]
