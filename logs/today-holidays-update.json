@@ -1,16 +1,5 @@
 [
   {
-    "date": "2025-11-02",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇧🇷 Brazil",
-      "🇸🇲 San Marino"
-    ],
-    "timestamp": "2025-11-02T02:03:52.451Z",
-    "success": true
-  },
-  {
     "date": "2025-11-03",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -294,6 +283,14 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-12-02T02:03:00.851Z",
+    "success": true
+  },
+  {
+    "date": "2025-12-03",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-12-03T02:02:22.887Z",
     "success": true
   }
 ]
