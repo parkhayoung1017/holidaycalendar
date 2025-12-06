@@ -279,5 +279,15 @@
     "countries": [],
     "timestamp": "2025-12-05T02:03:47.755Z",
     "success": true
+  },
+  {
+    "date": "2025-12-06",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇪🇸 Spain"
+    ],
+    "timestamp": "2025-12-06T01:57:09.297Z",
+    "success": true
   }
 ]
