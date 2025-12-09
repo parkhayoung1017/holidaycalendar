@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-11-09",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-11-09T02:02:55.000Z",
-    "success": true
-  },
-  {
     "date": "2025-11-10",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -293,6 +285,14 @@
       "🇻🇦 Vatican City"
     ],
     "timestamp": "2025-12-08T02:04:42.228Z",
+    "success": true
+  },
+  {
+    "date": "2025-12-09",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-12-09T02:03:45.300Z",
     "success": true
   }
 ]
