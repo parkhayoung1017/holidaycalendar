@@ -1,23 +1,5 @@
 [
   {
-    "date": "2025-11-13",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-11-13T02:01:22.191Z",
-    "success": true
-  },
-  {
-    "date": "2025-11-14",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇳🇿 New Zealand"
-    ],
-    "timestamp": "2025-11-14T02:00:12.224Z",
-    "success": true
-  },
-  {
     "date": "2025-11-15",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -297,6 +279,14 @@
       "🇲🇹 Malta"
     ],
     "timestamp": "2025-12-13T02:00:19.766Z",
+    "success": true
+  },
+  {
+    "date": "2025-12-14",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-12-14T02:19:24.110Z",
     "success": true
   }
 ]
