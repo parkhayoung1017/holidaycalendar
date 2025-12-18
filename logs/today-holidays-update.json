@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-11-18",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-11-18T01:59:29.019Z",
-    "success": true
-  },
-  {
     "date": "2025-11-19",
     "totalHolidays": 3,
     "countriesCount": 3,
@@ -285,6 +277,16 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-12-17T02:03:00.479Z",
+    "success": true
+  },
+  {
+    "date": "2025-12-18",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇳🇪 Niger"
+    ],
+    "timestamp": "2025-12-18T02:03:36.827Z",
     "success": true
   }
 ]
