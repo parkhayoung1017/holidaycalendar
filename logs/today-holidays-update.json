@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-11-23",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇬🇪 Georgia"
-    ],
-    "timestamp": "2025-11-23T02:19:17.852Z",
-    "success": true
-  },
-  {
     "date": "2025-11-24",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -286,6 +276,23 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2025-12-23T02:07:58.363Z",
+    "success": true
+  },
+  {
+    "date": "2025-12-24",
+    "totalHolidays": 8,
+    "countriesCount": 8,
+    "countries": [
+      "🇧🇦 Bosnia and Herzegovina",
+      "🇨🇾 Cyprus",
+      "🇫🇴 Faroe Islands",
+      "🇬🇱 Greenland",
+      "🇱🇮 Liechtenstein",
+      "🇲🇪 Montenegro",
+      "🇵🇷 Puerto Rico",
+      "🇸🇲 San Marino"
+    ],
+    "timestamp": "2025-12-24T02:05:59.707Z",
     "success": true
   }
 ]
