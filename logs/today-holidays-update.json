@@ -1,16 +1,5 @@
 [
   {
-    "date": "2025-11-27",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇵🇷 Puerto Rico",
-      "🇺🇸 United States"
-    ],
-    "timestamp": "2025-11-27T01:58:34.475Z",
-    "success": true
-  },
-  {
     "date": "2025-11-28",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -357,6 +346,14 @@
       "🇿🇦 South Africa"
     ],
     "timestamp": "2025-12-26T02:07:15.065Z",
+    "success": true
+  },
+  {
+    "date": "2025-12-27",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2025-12-27T02:04:49.072Z",
     "success": true
   }
 ]
