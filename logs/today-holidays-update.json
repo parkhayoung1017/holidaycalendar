@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-12-04",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-04T02:03:30.878Z",
-    "success": true
-  },
-  {
     "date": "2025-12-05",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -484,6 +476,16 @@
       "🇸🇮 Slovenia"
     ],
     "timestamp": "2026-01-02T02:10:34.048Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-03",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇷🇺 Russia"
+    ],
+    "timestamp": "2026-01-03T02:03:55.176Z",
     "success": true
   }
 ]
