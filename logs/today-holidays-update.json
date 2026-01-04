@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-12-05",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-05T02:03:47.755Z",
-    "success": true
-  },
-  {
     "date": "2025-12-06",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -486,6 +478,17 @@
       "🇷🇺 Russia"
     ],
     "timestamp": "2026-01-03T02:03:55.176Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-04",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇨🇩 Democratic Republic of the Congo",
+      "🇷🇺 Russia"
+    ],
+    "timestamp": "2026-01-04T02:27:17.509Z",
     "success": true
   }
 ]
