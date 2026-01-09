@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-12-10",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-10T02:05:51.130Z",
-    "success": true
-  },
-  {
     "date": "2025-12-11",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -520,6 +512,16 @@
       "🇲🇪 Montenegro"
     ],
     "timestamp": "2026-01-08T02:10:11.545Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-09",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇵🇦 Panama"
+    ],
+    "timestamp": "2026-01-09T02:11:22.489Z",
     "success": true
   }
 ]
