@@ -523,5 +523,15 @@
     ],
     "timestamp": "2026-01-09T02:11:22.489Z",
     "success": true
+  },
+  {
+    "date": "2026-01-10",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇧🇯 Benin"
+    ],
+    "timestamp": "2026-01-10T02:07:21.720Z",
+    "success": true
   }
 ]
