@@ -1,21 +1,5 @@
 [
   {
-    "date": "2025-12-11",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-11T02:07:22.220Z",
-    "success": true
-  },
-  {
-    "date": "2025-12-12",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-12T02:07:15.873Z",
-    "success": true
-  },
-  {
     "date": "2025-12-13",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -532,6 +516,16 @@
       "🇧🇯 Benin"
     ],
     "timestamp": "2026-01-10T02:07:21.720Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-11",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇲🇦 Morocco"
+    ],
+    "timestamp": "2026-01-11T02:27:22.533Z",
     "success": true
   }
 ]
