@@ -530,5 +530,13 @@
     ],
     "timestamp": "2026-01-12T02:22:56.178Z",
     "success": true
+  },
+  {
+    "date": "2026-01-13",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-01-13T02:08:20.251Z",
+    "success": true
   }
 ]
