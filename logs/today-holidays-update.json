@@ -1,21 +1,5 @@
 [
   {
-    "date": "2025-12-14",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-14T02:19:24.110Z",
-    "success": true
-  },
-  {
-    "date": "2025-12-15",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-15T02:10:53.773Z",
-    "success": true
-  },
-  {
     "date": "2025-12-16",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -537,6 +521,17 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-01-13T02:08:20.251Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-14",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇲🇦 Morocco",
+      "🇻🇪 Venezuela"
+    ],
+    "timestamp": "2026-01-14T02:21:33.141Z",
     "success": true
   }
 ]
