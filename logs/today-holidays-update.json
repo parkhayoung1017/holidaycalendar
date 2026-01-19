@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-12-20",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-20T01:59:39.511Z",
-    "success": true
-  },
-  {
     "date": "2025-12-21",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -536,6 +528,19 @@
       "🇸🇷 Suriname"
     ],
     "timestamp": "2026-01-18T02:25:42.067Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-19",
+    "totalHolidays": 4,
+    "countriesCount": 4,
+    "countries": [
+      "🇬🇪 Georgia",
+      "🇳🇿 New Zealand",
+      "🇵🇷 Puerto Rico",
+      "🇺🇸 United States"
+    ],
+    "timestamp": "2026-01-19T02:23:10.733Z",
     "success": true
   }
 ]
