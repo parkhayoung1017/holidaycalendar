@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-12-23",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-23T02:07:58.363Z",
-    "success": true
-  },
-  {
     "date": "2025-12-24",
     "totalHolidays": 8,
     "countriesCount": 8,
@@ -544,6 +536,14 @@
       "🇩🇴 Dominican Republic"
     ],
     "timestamp": "2026-01-21T02:21:18.256Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-22",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-01-22T02:22:23.085Z",
     "success": true
   }
 ]
