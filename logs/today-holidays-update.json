@@ -1,61 +1,5 @@
 [
   {
-    "date": "2025-12-25",
-    "totalHolidays": 47,
-    "countriesCount": 47,
-    "countries": [
-      "🇦🇩 Andorra",
-      "🇦🇱 Albania",
-      "🇦🇷 Argentina",
-      "🇦🇺 Australia",
-      "🇧🇦 Bosnia and Herzegovina",
-      "🇧🇧 Barbados",
-      "🇧🇯 Benin",
-      "🇧🇷 Brazil",
-      "🇧🇸 Bahamas",
-      "🇨🇦 Canada",
-      "🇨🇩 Democratic Republic of the Congo",
-      "🇨🇬 Republic of the Congo",
-      "🇨🇱 Chile",
-      "🇨🇾 Cyprus",
-      "🇩🇪 Germany",
-      "🇪🇸 Spain",
-      "🇫🇴 Faroe Islands",
-      "🇫🇷 France",
-      "🇬🇦 Gabon",
-      "🇬🇧 United Kingdom",
-      "🇬🇩 Grenada",
-      "🇬🇬 Guernsey",
-      "🇬🇮 Gibraltar",
-      "🇬🇱 Greenland",
-      "🇬🇲 Gambia",
-      "🇮🇲 Isle of Man",
-      "🇮🇹 Italy",
-      "🇯🇪 Jersey",
-      "🇰🇷 South Korea",
-      "🇱🇮 Liechtenstein",
-      "🇱🇸 Lesotho",
-      "🇲🇨 Monaco",
-      "🇲🇩 Moldova",
-      "🇲🇪 Montenegro",
-      "🇲🇸 Montserrat",
-      "🇲🇹 Malta",
-      "🇲🇽 Mexico",
-      "🇳🇪 Niger",
-      "🇳🇱 Netherlands",
-      "🇳🇿 New Zealand",
-      "🇵🇷 Puerto Rico",
-      "🇸🇬 Singapore",
-      "🇸🇯 Svalbard and Jan Mayen",
-      "🇸🇲 San Marino",
-      "🇺🇸 United States",
-      "🇻🇦 Vatican City",
-      "🇿🇦 South Africa"
-    ],
-    "timestamp": "2025-12-25T02:07:56.850Z",
-    "success": true
-  },
-  {
     "date": "2025-12-26",
     "totalHolidays": 28,
     "countriesCount": 28,
@@ -535,6 +479,16 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-01-23T02:11:48.019Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-24",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇷🇴 Romania"
+    ],
+    "timestamp": "2026-01-24T02:08:06.791Z",
     "success": true
   }
 ]
