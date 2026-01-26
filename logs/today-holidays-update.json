@@ -1,13 +1,5 @@
 [
   {
-    "date": "2025-12-27",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-27T02:04:49.072Z",
-    "success": true
-  },
-  {
     "date": "2025-12-28",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -462,6 +454,18 @@
       "🇪🇬 Egypt"
     ],
     "timestamp": "2026-01-25T02:29:21.923Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-26",
+    "totalHolidays": 3,
+    "countriesCount": 3,
+    "countries": [
+      "🇦🇺 Australia",
+      "🇩🇴 Dominican Republic",
+      "🇳🇿 New Zealand"
+    ],
+    "timestamp": "2026-01-26T02:28:18.729Z",
     "success": true
   }
 ]
