@@ -1,21 +1,5 @@
 [
   {
-    "date": "2025-12-29",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-29T02:23:17.945Z",
-    "success": true
-  },
-  {
-    "date": "2025-12-30",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2025-12-30T02:08:32.688Z",
-    "success": true
-  },
-  {
     "date": "2025-12-31",
     "totalHolidays": 6,
     "countriesCount": 6,
@@ -478,6 +462,16 @@
       "🇦🇲 Armenia"
     ],
     "timestamp": "2026-01-28T02:20:45.774Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-29",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇵🇭 Philippines"
+    ],
+    "timestamp": "2026-01-29T02:36:57.890Z",
     "success": true
   }
 ]
