@@ -1,20 +1,5 @@
 [
   {
-    "date": "2025-12-31",
-    "totalHolidays": 6,
-    "countriesCount": 6,
-    "countries": [
-      "🇦🇲 Armenia",
-      "🇫🇴 Faroe Islands",
-      "🇬🇱 Greenland",
-      "🇱🇮 Liechtenstein",
-      "🇲🇸 Montserrat",
-      "🇸🇲 San Marino"
-    ],
-    "timestamp": "2025-12-31T02:08:47.177Z",
-    "success": true
-  },
-  {
     "date": "2026-01-01",
     "totalHolidays": 113,
     "countriesCount": 113,
@@ -472,6 +457,14 @@
       "🇵🇭 Philippines"
     ],
     "timestamp": "2026-01-29T02:36:57.890Z",
+    "success": true
+  },
+  {
+    "date": "2026-01-30",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-01-30T02:37:18.345Z",
     "success": true
   }
 ]
