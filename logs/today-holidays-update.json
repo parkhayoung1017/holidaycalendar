@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-01-05",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇦🇲 Armenia",
-      "🇷🇺 Russia"
-    ],
-    "timestamp": "2026-01-05T02:26:49.345Z",
-    "success": true
-  },
-  {
     "date": "2026-01-06",
     "totalHolidays": 28,
     "countriesCount": 28,
@@ -337,6 +326,14 @@
       "🇲🇿 Mozambique"
     ],
     "timestamp": "2026-02-03T02:43:55.840Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-04",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-02-04T02:38:19.948Z",
     "success": true
   }
 ]
