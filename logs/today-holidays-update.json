@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-01-08",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇲🇩 Moldova",
-      "🇲🇪 Montenegro"
-    ],
-    "timestamp": "2026-01-08T02:10:11.545Z",
-    "success": true
-  },
-  {
     "date": "2026-01-09",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -298,6 +287,16 @@
       "🇳🇿 New Zealand"
     ],
     "timestamp": "2026-02-06T02:41:04.326Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-07",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇬🇩 Grenada"
+    ],
+    "timestamp": "2026-02-07T02:35:48.930Z",
     "success": true
   }
 ]
