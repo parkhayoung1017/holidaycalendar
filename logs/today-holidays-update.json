@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-01-09",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇵🇦 Panama"
-    ],
-    "timestamp": "2026-01-09T02:11:22.489Z",
-    "success": true
-  },
-  {
     "date": "2026-01-10",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -297,6 +287,16 @@
       "🇬🇩 Grenada"
     ],
     "timestamp": "2026-02-07T02:35:48.930Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-08",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇸🇮 Slovenia"
+    ],
+    "timestamp": "2026-02-08T03:19:17.022Z",
     "success": true
   }
 ]
