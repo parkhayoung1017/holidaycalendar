@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-01-12",
-    "totalHolidays": 4,
-    "countriesCount": 4,
-    "countries": [
-      "🇧🇸 Bahamas",
-      "🇨🇴 Colombia",
-      "🇯🇵 Japan",
-      "🇵🇷 Puerto Rico"
-    ],
-    "timestamp": "2026-01-12T02:22:56.178Z",
-    "success": true
-  },
-  {
     "date": "2026-01-13",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -295,6 +282,17 @@
       "🇲🇹 Malta"
     ],
     "timestamp": "2026-02-10T02:56:37.698Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-11",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇯🇵 Japan",
+      "🇻🇦 Vatican City"
+    ],
+    "timestamp": "2026-02-11T02:54:35.421Z",
     "success": true
   }
 ]
