@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-01-14",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇲🇦 Morocco",
-      "🇻🇪 Venezuela"
-    ],
-    "timestamp": "2026-01-14T02:21:33.141Z",
-    "success": true
-  },
-  {
     "date": "2026-01-15",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -296,6 +285,14 @@
       "🇻🇪 Venezuela"
     ],
     "timestamp": "2026-02-12T02:50:16.225Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-13",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-02-13T02:50:47.427Z",
     "success": true
   }
 ]
