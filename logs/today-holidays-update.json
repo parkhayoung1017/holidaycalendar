@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-01-17",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇨🇩 Democratic Republic of the Congo"
-    ],
-    "timestamp": "2026-01-17T02:05:38.588Z",
-    "success": true
-  },
-  {
     "date": "2026-01-18",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -289,6 +279,30 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-02-15T02:51:44.870Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-16",
+    "totalHolidays": 18,
+    "countriesCount": 15,
+    "countries": [
+      "🇨🇦 Canada",
+      "🇦🇩 Andorra",
+      "🇦🇷 Argentina",
+      "🇧🇴 Bolivia",
+      "🇧🇷 Brazil",
+      "🇪🇨 Ecuador",
+      "🇭🇹 Haiti",
+      "🇰🇷 South Korea",
+      "🇱🇹 Lithuania",
+      "🇵🇦 Panama",
+      "🇵🇷 Puerto Rico",
+      "🇷🇸 Serbia",
+      "🇺🇸 United States",
+      "🇺🇾 Uruguay",
+      "🇻🇪 Venezuela"
+    ],
+    "timestamp": "2026-02-16T02:46:51.448Z",
     "success": true
   }
 ]
