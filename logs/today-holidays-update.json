@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-01-19",
-    "totalHolidays": 4,
-    "countriesCount": 4,
-    "countries": [
-      "🇬🇪 Georgia",
-      "🇳🇿 New Zealand",
-      "🇵🇷 Puerto Rico",
-      "🇺🇸 United States"
-    ],
-    "timestamp": "2026-01-19T02:23:10.733Z",
-    "success": true
-  },
-  {
     "date": "2026-01-20",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -318,6 +305,22 @@
       "🇻🇪 Venezuela"
     ],
     "timestamp": "2026-02-17T02:43:29.046Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-18",
+    "totalHolidays": 7,
+    "countriesCount": 7,
+    "countries": [
+      "🇬🇲 Gambia",
+      "🇭🇰 Hong Kong",
+      "🇭🇹 Haiti",
+      "🇯🇲 Jamaica",
+      "🇰🇷 South Korea",
+      "🇵🇷 Puerto Rico",
+      "🇸🇬 Singapore"
+    ],
+    "timestamp": "2026-02-18T02:47:03.643Z",
     "success": true
   }
 ]
