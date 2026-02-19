@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-01-20",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-01-20T02:11:56.271Z",
-    "success": true
-  },
-  {
     "date": "2026-01-21",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -321,6 +313,16 @@
       "🇸🇬 Singapore"
     ],
     "timestamp": "2026-02-18T02:47:03.643Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-19",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇭🇰 Hong Kong"
+    ],
+    "timestamp": "2026-02-19T02:46:37.440Z",
     "success": true
   }
 ]
