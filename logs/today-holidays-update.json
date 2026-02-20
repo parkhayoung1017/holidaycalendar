@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-01-21",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇧🇧 Barbados",
-      "🇩🇴 Dominican Republic"
-    ],
-    "timestamp": "2026-01-21T02:21:18.256Z",
-    "success": true
-  },
-  {
     "date": "2026-01-22",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -323,6 +312,14 @@
       "🇭🇰 Hong Kong"
     ],
     "timestamp": "2026-02-19T02:46:37.440Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-20",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-02-20T02:40:58.906Z",
     "success": true
   }
 ]
