@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-01-23",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-01-23T02:11:48.019Z",
-    "success": true
-  },
-  {
     "date": "2026-01-24",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -322,6 +314,14 @@
       "🇿🇼 Zimbabwe"
     ],
     "timestamp": "2026-02-21T02:34:37.082Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-22",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-02-22T02:47:25.682Z",
     "success": true
   }
 ]
