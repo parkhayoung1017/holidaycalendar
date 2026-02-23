@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-01-24",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇷🇴 Romania"
-    ],
-    "timestamp": "2026-01-24T02:08:06.791Z",
-    "success": true
-  },
-  {
     "date": "2026-01-25",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -322,6 +312,21 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-02-22T02:47:25.682Z",
+    "success": true
+  },
+  {
+    "date": "2026-02-23",
+    "totalHolidays": 6,
+    "countriesCount": 6,
+    "countries": [
+      "🇨🇾 Cyprus",
+      "🇬🇷 Greece",
+      "🇬🇾 Guyana",
+      "🇯🇵 Japan",
+      "🇲🇩 Moldova",
+      "🇷🇺 Russia"
+    ],
+    "timestamp": "2026-02-23T02:47:42.979Z",
     "success": true
   }
 ]
