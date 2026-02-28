@@ -324,5 +324,15 @@
     ],
     "timestamp": "2026-02-27T02:38:59.683Z",
     "success": true
+  },
+  {
+    "date": "2026-02-28",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇪🇸 Spain"
+    ],
+    "timestamp": "2026-02-28T02:28:03.602Z",
+    "success": true
   }
 ]
