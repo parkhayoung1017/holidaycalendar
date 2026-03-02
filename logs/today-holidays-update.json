@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-01-31",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-01-31T02:32:47.672Z",
-    "success": true
-  },
-  {
     "date": "2026-02-01",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -329,6 +321,16 @@
       "🇵🇾 Paraguay"
     ],
     "timestamp": "2026-03-01T02:54:13.125Z",
+    "success": true
+  },
+  {
+    "date": "2026-03-02",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇦🇺 Australia"
+    ],
+    "timestamp": "2026-03-02T02:41:55.305Z",
     "success": true
   }
 ]
