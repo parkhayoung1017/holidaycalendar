@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-02-01",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇳🇮 Nicaragua"
-    ],
-    "timestamp": "2026-02-01T03:14:14.411Z",
-    "success": true
-  },
-  {
     "date": "2026-02-02",
     "totalHolidays": 5,
     "countriesCount": 5,
@@ -342,6 +332,14 @@
       "🇬🇪 Georgia"
     ],
     "timestamp": "2026-03-03T02:44:38.613Z",
+    "success": true
+  },
+  {
+    "date": "2026-03-04",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-03-04T02:37:01.527Z",
     "success": true
   }
 ]
