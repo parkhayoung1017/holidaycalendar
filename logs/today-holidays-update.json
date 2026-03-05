@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-02-02",
-    "totalHolidays": 5,
-    "countriesCount": 5,
-    "countries": [
-      "🇧🇴 Bolivia",
-      "🇮🇪 Ireland",
-      "🇱🇮 Liechtenstein",
-      "🇲🇽 Mexico",
-      "🇳🇿 New Zealand"
-    ],
-    "timestamp": "2026-02-02T02:47:44.902Z",
-    "success": true
-  },
-  {
     "date": "2026-02-03",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -340,6 +326,14 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-03-04T02:37:01.527Z",
+    "success": true
+  },
+  {
+    "date": "2026-03-05",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-03-05T02:40:08.732Z",
     "success": true
   }
 ]
