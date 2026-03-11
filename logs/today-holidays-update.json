@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-02-08",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇸🇮 Slovenia"
-    ],
-    "timestamp": "2026-02-08T03:19:17.022Z",
-    "success": true
-  },
-  {
     "date": "2026-02-09",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -342,6 +332,17 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-03-10T02:36:34.703Z",
+    "success": true
+  },
+  {
+    "date": "2026-03-11",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇱🇸 Lesotho",
+      "🇱🇹 Lithuania"
+    ],
+    "timestamp": "2026-03-11T02:35:24.535Z",
     "success": true
   }
 ]
