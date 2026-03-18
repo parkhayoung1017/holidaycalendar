@@ -1,37 +1,5 @@
 [
   {
-    "date": "2026-02-15",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-02-15T02:51:44.870Z",
-    "success": true
-  },
-  {
-    "date": "2026-02-16",
-    "totalHolidays": 18,
-    "countriesCount": 15,
-    "countries": [
-      "🇨🇦 Canada",
-      "🇦🇩 Andorra",
-      "🇦🇷 Argentina",
-      "🇧🇴 Bolivia",
-      "🇧🇷 Brazil",
-      "🇪🇨 Ecuador",
-      "🇭🇹 Haiti",
-      "🇰🇷 South Korea",
-      "🇱🇹 Lithuania",
-      "🇵🇦 Panama",
-      "🇵🇷 Puerto Rico",
-      "🇷🇸 Serbia",
-      "🇺🇸 United States",
-      "🇺🇾 Uruguay",
-      "🇻🇪 Venezuela"
-    ],
-    "timestamp": "2026-02-16T02:46:51.448Z",
-    "success": true
-  },
-  {
     "date": "2026-02-17",
     "totalHolidays": 16,
     "countriesCount": 16,
@@ -351,6 +319,14 @@
       "🇲🇸 Montserrat"
     ],
     "timestamp": "2026-03-17T02:41:56.413Z",
+    "success": true
+  },
+  {
+    "date": "2026-03-18",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-03-18T02:48:21.168Z",
     "success": true
   }
 ]
