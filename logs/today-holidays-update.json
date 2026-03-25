@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-02-22",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-02-22T02:47:25.682Z",
-    "success": true
-  },
-  {
     "date": "2026-02-23",
     "totalHolidays": 6,
     "countriesCount": 6,
@@ -331,6 +323,18 @@
       "🇦🇷 Argentina"
     ],
     "timestamp": "2026-03-24T02:42:14.021Z",
+    "success": true
+  },
+  {
+    "date": "2026-03-25",
+    "totalHolidays": 4,
+    "countriesCount": 3,
+    "countries": [
+      "🇬🇷 Greece",
+      "🇨🇾 Cyprus",
+      "🇸🇲 San Marino"
+    ],
+    "timestamp": "2026-03-25T02:47:28.328Z",
     "success": true
   }
 ]
