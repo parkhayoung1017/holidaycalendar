@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-02-28",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇪🇸 Spain"
-    ],
-    "timestamp": "2026-02-28T02:28:03.602Z",
-    "success": true
-  },
-  {
     "date": "2026-03-01",
     "totalHolidays": 5,
     "countriesCount": 5,
@@ -316,6 +306,14 @@
       "🇲🇬 Madagascar"
     ],
     "timestamp": "2026-03-29T03:19:14.712Z",
+    "success": true
+  },
+  {
+    "date": "2026-03-30",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-03-30T03:22:29.710Z",
     "success": true
   }
 ]
