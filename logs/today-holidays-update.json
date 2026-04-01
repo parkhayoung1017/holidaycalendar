@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-03-02",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇦🇺 Australia"
-    ],
-    "timestamp": "2026-03-02T02:41:55.305Z",
-    "success": true
-  },
-  {
     "date": "2026-03-03",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -311,6 +301,16 @@
       "🇻🇪 Venezuela"
     ],
     "timestamp": "2026-03-31T02:55:44.674Z",
+    "success": true
+  },
+  {
+    "date": "2026-04-01",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇨🇾 Cyprus"
+    ],
+    "timestamp": "2026-04-01T03:26:56.087Z",
     "success": true
   }
 ]
