@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-03-05",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-03-05T02:40:08.732Z",
-    "success": true
-  },
-  {
     "date": "2026-03-06",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -400,6 +392,25 @@
       "🇿🇼 Zimbabwe"
     ],
     "timestamp": "2026-04-03T02:54:38.293Z",
+    "success": true
+  },
+  {
+    "date": "2026-04-04",
+    "totalHolidays": 12,
+    "countriesCount": 10,
+    "countries": [
+      "🇭🇰 Hong Kong",
+      "🇿🇼 Zimbabwe",
+      "🇦🇺 Australia",
+      "🇧🇿 Belize",
+      "🇨🇭 Switzerland",
+      "🇨🇱 Chile",
+      "🇬🇹 Guatemala",
+      "🇭🇳 Honduras",
+      "🇵🇬 Papua New Guinea",
+      "🇵🇭 Philippines"
+    ],
+    "timestamp": "2026-04-04T02:44:53.835Z",
     "success": true
   }
 ]
