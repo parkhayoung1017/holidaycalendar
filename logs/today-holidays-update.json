@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-03-09",
-    "totalHolidays": 7,
-    "countriesCount": 4,
-    "countries": [
-      "🇦🇺 Australia",
-      "🇧🇿 Belize",
-      "🇬🇮 Gibraltar",
-      "🇳🇿 New Zealand"
-    ],
-    "timestamp": "2026-03-09T02:45:47.857Z",
-    "success": true
-  },
-  {
     "date": "2026-03-10",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -505,6 +492,14 @@
       "🇳🇿 New Zealand"
     ],
     "timestamp": "2026-04-07T02:57:02.348Z",
+    "success": true
+  },
+  {
+    "date": "2026-04-08",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-04-08T03:16:56.274Z",
     "success": true
   }
 ]
