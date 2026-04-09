@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-03-10",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-03-10T02:36:34.703Z",
-    "success": true
-  },
-  {
     "date": "2026-03-11",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -500,6 +492,18 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-04-08T03:16:56.274Z",
+    "success": true
+  },
+  {
+    "date": "2026-04-09",
+    "totalHolidays": 3,
+    "countriesCount": 3,
+    "countries": [
+      "🇬🇪 Georgia",
+      "🇵🇭 Philippines",
+      "🇹🇳 Tunisia"
+    ],
+    "timestamp": "2026-04-09T02:52:57.520Z",
     "success": true
   }
 ]
