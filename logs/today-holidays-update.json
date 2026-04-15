@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-03-16",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇦🇱 Albania",
-      "🇲🇽 Mexico"
-    ],
-    "timestamp": "2026-03-16T03:18:23.145Z",
-    "success": true
-  },
-  {
     "date": "2026-03-17",
     "totalHolidays": 4,
     "countriesCount": 4,
@@ -532,6 +521,14 @@
       "🇭🇳 Honduras"
     ],
     "timestamp": "2026-04-14T03:24:58.893Z",
+    "success": true
+  },
+  {
+    "date": "2026-04-15",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-04-15T03:23:10.913Z",
     "success": true
   }
 ]
