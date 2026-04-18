@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-03-19",
-    "totalHolidays": 5,
-    "countriesCount": 5,
-    "countries": [
-      "🇨🇭 Switzerland",
-      "🇱🇮 Liechtenstein",
-      "🇲🇹 Malta",
-      "🇻🇦 Vatican City",
-      "🇻🇪 Venezuela"
-    ],
-    "timestamp": "2026-03-19T02:49:50.872Z",
-    "success": true
-  },
-  {
     "date": "2026-03-20",
     "totalHolidays": 3,
     "countriesCount": 3,
@@ -527,6 +513,16 @@
       "🇵🇭 Philippines"
     ],
     "timestamp": "2026-04-17T03:26:48.077Z",
+    "success": true
+  },
+  {
+    "date": "2026-04-18",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇿🇼 Zimbabwe"
+    ],
+    "timestamp": "2026-04-18T03:14:59.169Z",
     "success": true
   }
 ]
