@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-03-23",
-    "totalHolidays": 4,
-    "countriesCount": 4,
-    "countries": [
-      "🇦🇱 Albania",
-      "🇨🇴 Colombia",
-      "🇰🇿 Kazakhstan",
-      "🇳🇿 New Zealand"
-    ],
-    "timestamp": "2026-03-23T02:50:30.533Z",
-    "success": true
-  },
-  {
     "date": "2026-03-24",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -519,6 +506,14 @@
       "🇧🇾 Belarus"
     ],
     "timestamp": "2026-04-21T03:27:41.614Z",
+    "success": true
+  },
+  {
+    "date": "2026-04-22",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-04-22T03:26:01.565Z",
     "success": true
   }
 ]
