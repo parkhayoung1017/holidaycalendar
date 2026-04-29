@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-03-30",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-03-30T03:22:29.710Z",
-    "success": true
-  },
-  {
     "date": "2026-03-31",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -529,6 +521,16 @@
       "🇬🇮 Gibraltar"
     ],
     "timestamp": "2026-04-28T03:49:07.395Z",
+    "success": true
+  },
+  {
+    "date": "2026-04-29",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇯🇵 Japan"
+    ],
+    "timestamp": "2026-04-29T03:45:22.707Z",
     "success": true
   }
 ]
