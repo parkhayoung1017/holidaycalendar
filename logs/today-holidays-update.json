@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-04-02",
-    "totalHolidays": 19,
-    "countriesCount": 18,
-    "countries": [
-      "🇵🇪 Peru",
-      "🇦🇷 Argentina",
-      "🇨🇴 Colombia",
-      "🇨🇷 Costa Rica",
-      "🇩🇰 Denmark",
-      "🇪🇸 Spain",
-      "🇫🇴 Faroe Islands",
-      "🇬🇱 Greenland",
-      "🇬🇹 Guatemala",
-      "🇭🇳 Honduras",
-      "🇭🇹 Haiti",
-      "🇮🇸 Iceland",
-      "🇲🇽 Mexico",
-      "🇳🇮 Nicaragua",
-      "🇳🇴 Norway",
-      "🇵🇾 Paraguay",
-      "🇸🇯 Svalbard and Jan Mayen",
-      "🇺🇾 Uruguay"
-    ],
-    "timestamp": "2026-04-02T02:52:06.592Z",
-    "success": true
-  },
-  {
     "date": "2026-04-03",
     "totalHolidays": 73,
     "countriesCount": 72,
@@ -626,6 +599,20 @@
       "🇿🇼 Zimbabwe"
     ],
     "timestamp": "2026-05-01T03:58:43.710Z",
+    "success": true
+  },
+  {
+    "date": "2026-05-02",
+    "totalHolidays": 6,
+    "countriesCount": 5,
+    "countries": [
+      "🇸🇮 Slovenia",
+      "🇧🇦 Bosnia and Herzegovina",
+      "🇪🇸 Spain",
+      "🇲🇪 Montenegro",
+      "🇷🇸 Serbia"
+    ],
+    "timestamp": "2026-05-02T03:31:53.689Z",
     "success": true
   }
 ]
