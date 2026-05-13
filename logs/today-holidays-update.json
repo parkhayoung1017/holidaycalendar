@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-04-13",
-    "totalHolidays": 10,
-    "countriesCount": 10,
-    "countries": [
-      "🇦🇱 Albania",
-      "🇧🇦 Bosnia and Herzegovina",
-      "🇧🇬 Bulgaria",
-      "🇨🇾 Cyprus",
-      "🇬🇪 Georgia",
-      "🇬🇷 Greece",
-      "🇲🇪 Montenegro",
-      "🇲🇰 North Macedonia",
-      "🇷🇴 Romania",
-      "🇷🇸 Serbia"
-    ],
-    "timestamp": "2026-04-13T03:35:16.133Z",
-    "success": true
-  },
-  {
     "date": "2026-04-14",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -443,6 +424,14 @@
       "🇬🇪 Georgia"
     ],
     "timestamp": "2026-05-12T03:50:17.936Z",
+    "success": true
+  },
+  {
+    "date": "2026-05-13",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-05-13T03:58:34.761Z",
     "success": true
   }
 ]
