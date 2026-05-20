@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-04-20",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇵🇷 Puerto Rico"
-    ],
-    "timestamp": "2026-04-20T03:35:36.265Z",
-    "success": true
-  },
-  {
     "date": "2026-04-21",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -467,6 +457,14 @@
       "🇹🇷 Turkey"
     ],
     "timestamp": "2026-05-19T04:09:46.612Z",
+    "success": true
+  },
+  {
+    "date": "2026-05-20",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-05-20T04:10:43.372Z",
     "success": true
   }
 ]
