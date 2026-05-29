@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-04-29",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇯🇵 Japan"
-    ],
-    "timestamp": "2026-04-29T03:45:22.707Z",
-    "success": true
-  },
-  {
     "date": "2026-04-30",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -518,6 +508,14 @@
       "🇩🇴 Dominican Republic"
     ],
     "timestamp": "2026-05-28T04:13:11.834Z",
+    "success": true
+  },
+  {
+    "date": "2026-05-29",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-05-29T04:15:38.915Z",
     "success": true
   }
 ]
