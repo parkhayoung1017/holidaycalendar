@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-05-02",
-    "totalHolidays": 6,
-    "countriesCount": 5,
-    "countries": [
-      "🇸🇮 Slovenia",
-      "🇧🇦 Bosnia and Herzegovina",
-      "🇪🇸 Spain",
-      "🇲🇪 Montenegro",
-      "🇷🇸 Serbia"
-    ],
-    "timestamp": "2026-05-02T03:31:53.689Z",
-    "success": true
-  },
-  {
     "date": "2026-05-03",
     "totalHolidays": 3,
     "countriesCount": 3,
@@ -425,6 +411,24 @@
       "🇺🇦 Ukraine"
     ],
     "timestamp": "2026-05-31T04:25:52.042Z",
+    "success": true
+  },
+  {
+    "date": "2026-06-01",
+    "totalHolidays": 11,
+    "countriesCount": 9,
+    "countries": [
+      "🇦🇺 Australia",
+      "🇷🇴 Romania",
+      "🇨🇾 Cyprus",
+      "🇬🇷 Greece",
+      "🇮🇩 Indonesia",
+      "🇮🇪 Ireland",
+      "🇲🇳 Mongolia",
+      "🇳🇿 New Zealand",
+      "🇵🇹 Portugal"
+    ],
+    "timestamp": "2026-06-01T04:56:53.735Z",
     "success": true
   }
 ]
