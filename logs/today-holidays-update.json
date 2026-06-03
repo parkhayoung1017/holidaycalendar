@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-05-04",
-    "totalHolidays": 11,
-    "countriesCount": 9,
-    "countries": [
-      "🇦🇺 Australia",
-      "🇯🇵 Japan",
-      "🇬🇧 United Kingdom",
-      "🇮🇪 Ireland",
-      "🇮🇲 Isle of Man",
-      "🇯🇪 Jersey",
-      "🇱🇻 Latvia",
-      "🇲🇸 Montserrat",
-      "🇳🇦 Namibia"
-    ],
-    "timestamp": "2026-05-04T03:51:13.081Z",
-    "success": true
-  },
-  {
     "date": "2026-05-05",
     "totalHolidays": 4,
     "countriesCount": 4,
@@ -427,6 +409,14 @@
       "🇮🇹 Italy"
     ],
     "timestamp": "2026-06-02T04:44:16.078Z",
+    "success": true
+  },
+  {
+    "date": "2026-06-03",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-06-03T04:53:14.856Z",
     "success": true
   }
 ]
