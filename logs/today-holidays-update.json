@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-05-12",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇬🇪 Georgia"
-    ],
-    "timestamp": "2026-05-12T03:50:17.936Z",
-    "success": true
-  },
-  {
     "date": "2026-05-13",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -423,6 +413,14 @@
       "🇵🇹 Portugal"
     ],
     "timestamp": "2026-06-10T04:19:30.589Z",
+    "success": true
+  },
+  {
+    "date": "2026-06-11",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-06-11T04:41:31.013Z",
     "success": true
   }
 ]
