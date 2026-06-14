@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-05-15",
-    "totalHolidays": 4,
-    "countriesCount": 4,
-    "countries": [
-      "🇧🇪 Belgium",
-      "🇩🇰 Denmark",
-      "🇬🇱 Greenland",
-      "🇵🇾 Paraguay"
-    ],
-    "timestamp": "2026-05-15T04:02:01.454Z",
-    "success": true
-  },
-  {
     "date": "2026-05-16",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -398,6 +385,14 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-06-13T04:22:46.862Z",
+    "success": true
+  },
+  {
+    "date": "2026-06-14",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-06-14T04:49:48.720Z",
     "success": true
   }
 ]
