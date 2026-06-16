@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-05-17",
-    "totalHolidays": 4,
-    "countriesCount": 4,
-    "countries": [
-      "🇨🇩 Democratic Republic of the Congo",
-      "🇪🇸 Spain",
-      "🇳🇴 Norway",
-      "🇸🇯 Svalbard and Jan Mayen"
-    ],
-    "timestamp": "2026-05-17T04:02:26.997Z",
-    "success": true
-  },
-  {
     "date": "2026-05-18",
     "totalHolidays": 5,
     "countriesCount": 4,
@@ -396,6 +383,16 @@
       "🇨🇴 Colombia"
     ],
     "timestamp": "2026-06-15T05:06:17.384Z",
+    "success": true
+  },
+  {
+    "date": "2026-06-16",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇿🇦 South Africa"
+    ],
+    "timestamp": "2026-06-16T05:09:07.435Z",
     "success": true
   }
 ]
