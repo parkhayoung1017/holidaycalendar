@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-05-20",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-05-20T04:10:43.372Z",
-    "success": true
-  },
-  {
     "date": "2026-05-21",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -388,6 +380,21 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-06-18T04:43:34.640Z",
+    "success": true
+  },
+  {
+    "date": "2026-06-19",
+    "totalHolidays": 6,
+    "countriesCount": 6,
+    "countries": [
+      "🇨🇳 China",
+      "🇫🇮 Finland",
+      "🇭🇰 Hong Kong",
+      "🇸🇪 Sweden",
+      "🇺🇸 United States",
+      "🇺🇾 Uruguay"
+    ],
+    "timestamp": "2026-06-19T05:03:01.815Z",
     "success": true
   }
 ]
