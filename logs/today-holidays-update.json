@@ -396,5 +396,17 @@
     ],
     "timestamp": "2026-06-19T05:03:01.815Z",
     "success": true
+  },
+  {
+    "date": "2026-06-20",
+    "totalHolidays": 3,
+    "countriesCount": 3,
+    "countries": [
+      "🇦🇷 Argentina",
+      "🇫🇮 Finland",
+      "🇸🇪 Sweden"
+    ],
+    "timestamp": "2026-06-20T04:15:55.199Z",
+    "success": true
   }
 ]
