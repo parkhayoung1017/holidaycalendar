@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-05-23",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇯🇲 Jamaica"
-    ],
-    "timestamp": "2026-05-23T03:52:52.529Z",
-    "success": true
-  },
-  {
     "date": "2026-05-24",
     "totalHolidays": 21,
     "countriesCount": 21,
@@ -399,6 +389,16 @@
       "🇻🇪 Venezuela"
     ],
     "timestamp": "2026-06-21T04:59:31.261Z",
+    "success": true
+  },
+  {
+    "date": "2026-06-22",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇭🇷 Croatia"
+    ],
+    "timestamp": "2026-06-22T05:07:17.836Z",
     "success": true
   }
 ]
