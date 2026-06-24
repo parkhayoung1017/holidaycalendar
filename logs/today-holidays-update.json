@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-05-24",
-    "totalHolidays": 21,
-    "countriesCount": 21,
-    "countries": [
-      "🇦🇹 Austria",
-      "🇧🇬 Bulgaria",
-      "🇧🇿 Belize",
-      "🇩🇪 Germany",
-      "🇩🇰 Denmark",
-      "🇪🇨 Ecuador",
-      "🇪🇪 Estonia",
-      "🇫🇮 Finland",
-      "🇫🇴 Faroe Islands",
-      "🇬🇱 Greenland",
-      "🇭🇺 Hungary",
-      "🇮🇸 Iceland",
-      "🇰🇷 South Korea",
-      "🇱🇮 Liechtenstein",
-      "🇲🇰 North Macedonia",
-      "🇳🇱 Netherlands",
-      "🇳🇴 Norway",
-      "🇵🇱 Poland",
-      "🇸🇪 Sweden",
-      "🇸🇮 Slovenia",
-      "🇸🇯 Svalbard and Jan Mayen"
-    ],
-    "timestamp": "2026-05-24T04:13:10.059Z",
-    "success": true
-  },
-  {
     "date": "2026-05-25",
     "totalHolidays": 38,
     "countriesCount": 38,
@@ -411,6 +381,21 @@
       "🇱🇻 Latvia"
     ],
     "timestamp": "2026-06-23T04:05:26.669Z",
+    "success": true
+  },
+  {
+    "date": "2026-06-24",
+    "totalHolidays": 7,
+    "countriesCount": 6,
+    "countries": [
+      "🇨🇦 Canada",
+      "🇪🇪 Estonia",
+      "🇪🇸 Spain",
+      "🇱🇹 Lithuania",
+      "🇱🇻 Latvia",
+      "🇻🇪 Venezuela"
+    ],
+    "timestamp": "2026-06-24T04:08:39.832Z",
     "success": true
   }
 ]
