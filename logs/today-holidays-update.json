@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-05-26",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇬🇪 Georgia",
-      "🇬🇾 Guyana"
-    ],
-    "timestamp": "2026-05-26T04:09:55.793Z",
-    "success": true
-  },
-  {
     "date": "2026-05-27",
     "totalHolidays": 3,
     "countriesCount": 3,
@@ -360,6 +349,16 @@
       "🇸🇮 Slovenia"
     ],
     "timestamp": "2026-06-25T04:08:55.395Z",
+    "success": true
+  },
+  {
+    "date": "2026-06-26",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇲🇬 Madagascar"
+    ],
+    "timestamp": "2026-06-26T04:15:46.528Z",
     "success": true
   }
 ]
