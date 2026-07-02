@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-06-01",
-    "totalHolidays": 11,
-    "countriesCount": 9,
-    "countries": [
-      "🇦🇺 Australia",
-      "🇷🇴 Romania",
-      "🇨🇾 Cyprus",
-      "🇬🇷 Greece",
-      "🇮🇩 Indonesia",
-      "🇮🇪 Ireland",
-      "🇲🇳 Mongolia",
-      "🇳🇿 New Zealand",
-      "🇵🇹 Portugal"
-    ],
-    "timestamp": "2026-06-01T04:56:53.735Z",
-    "success": true
-  },
-  {
     "date": "2026-06-02",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -363,6 +345,16 @@
       "🇸🇷 Suriname"
     ],
     "timestamp": "2026-07-01T04:26:25.254Z",
+    "success": true
+  },
+  {
+    "date": "2026-07-02",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇪🇬 Egypt"
+    ],
+    "timestamp": "2026-07-02T04:05:42.230Z",
     "success": true
   }
 ]
