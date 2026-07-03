@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-06-02",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇮🇹 Italy"
-    ],
-    "timestamp": "2026-06-02T04:44:16.078Z",
-    "success": true
-  },
-  {
     "date": "2026-06-03",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -355,6 +345,18 @@
       "🇪🇬 Egypt"
     ],
     "timestamp": "2026-07-02T04:05:42.230Z",
+    "success": true
+  },
+  {
+    "date": "2026-07-03",
+    "totalHolidays": 3,
+    "countriesCount": 3,
+    "countries": [
+      "🇧🇾 Belarus",
+      "🇵🇷 Puerto Rico",
+      "🇺🇸 United States"
+    ],
+    "timestamp": "2026-07-03T03:52:00.689Z",
     "success": true
   }
 ]
