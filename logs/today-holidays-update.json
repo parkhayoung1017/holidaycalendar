@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-06-03",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-06-03T04:53:14.856Z",
-    "success": true
-  },
-  {
     "date": "2026-06-04",
     "totalHolidays": 16,
     "countriesCount": 16,
@@ -357,6 +349,14 @@
       "🇺🇸 United States"
     ],
     "timestamp": "2026-07-03T03:52:00.689Z",
+    "success": true
+  },
+  {
+    "date": "2026-07-04",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-07-04T03:44:26.914Z",
     "success": true
   }
 ]
