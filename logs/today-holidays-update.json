@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-06-07",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇨🇱 Chile",
-      "🇲🇹 Malta"
-    ],
-    "timestamp": "2026-06-07T04:40:55.358Z",
-    "success": true
-  },
-  {
     "date": "2026-06-08",
     "totalHolidays": 5,
     "countriesCount": 5,
@@ -344,6 +333,14 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-07-07T04:00:12.216Z",
+    "success": true
+  },
+  {
+    "date": "2026-07-08",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-07-08T03:26:23.892Z",
     "success": true
   }
 ]
