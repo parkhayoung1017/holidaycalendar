@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-06-17",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇮🇸 Iceland"
-    ],
-    "timestamp": "2026-06-17T04:50:42.056Z",
-    "success": true
-  },
-  {
     "date": "2026-06-18",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -346,6 +336,16 @@
       "🇱🇸 Lesotho"
     ],
     "timestamp": "2026-07-17T03:19:52.830Z",
+    "success": true
+  },
+  {
+    "date": "2026-07-18",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇺🇾 Uruguay"
+    ],
+    "timestamp": "2026-07-18T02:56:48.456Z",
     "success": true
   }
 ]
