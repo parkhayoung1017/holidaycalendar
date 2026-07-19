@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-06-18",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-06-18T04:43:34.640Z",
-    "success": true
-  },
-  {
     "date": "2026-06-19",
     "totalHolidays": 6,
     "countriesCount": 6,
@@ -346,6 +338,17 @@
       "🇺🇾 Uruguay"
     ],
     "timestamp": "2026-07-18T02:56:48.456Z",
+    "success": true
+  },
+  {
+    "date": "2026-07-19",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇳🇮 Nicaragua",
+      "🇻🇪 Venezuela"
+    ],
+    "timestamp": "2026-07-19T03:29:27.511Z",
     "success": true
   }
 ]
