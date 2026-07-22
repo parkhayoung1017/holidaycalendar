@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-06-21",
-    "totalHolidays": 5,
-    "countriesCount": 5,
-    "countries": [
-      "🇧🇴 Bolivia",
-      "🇨🇦 Canada",
-      "🇨🇱 Chile",
-      "🇬🇱 Greenland",
-      "🇻🇪 Venezuela"
-    ],
-    "timestamp": "2026-06-21T04:59:31.261Z",
-    "success": true
-  },
-  {
     "date": "2026-06-22",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -345,6 +331,16 @@
       "🇧🇪 Belgium"
     ],
     "timestamp": "2026-07-21T03:22:49.654Z",
+    "success": true
+  },
+  {
+    "date": "2026-07-22",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇬🇲 Gambia"
+    ],
+    "timestamp": "2026-07-22T03:21:30.148Z",
     "success": true
   }
 ]
