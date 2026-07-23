@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-06-22",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇭🇷 Croatia"
-    ],
-    "timestamp": "2026-06-22T05:07:17.836Z",
-    "success": true
-  },
-  {
     "date": "2026-06-23",
     "totalHolidays": 3,
     "countriesCount": 3,
@@ -341,6 +331,17 @@
       "🇬🇲 Gambia"
     ],
     "timestamp": "2026-07-22T03:21:30.148Z",
+    "success": true
+  },
+  {
+    "date": "2026-07-23",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇪🇬 Egypt",
+      "🇵🇬 Papua New Guinea"
+    ],
+    "timestamp": "2026-07-23T03:28:15.752Z",
     "success": true
   }
 ]
