@@ -1,20 +1,5 @@
 [
   {
-    "date": "2026-06-24",
-    "totalHolidays": 7,
-    "countriesCount": 6,
-    "countries": [
-      "🇨🇦 Canada",
-      "🇪🇪 Estonia",
-      "🇪🇸 Spain",
-      "🇱🇹 Lithuania",
-      "🇱🇻 Latvia",
-      "🇻🇪 Venezuela"
-    ],
-    "timestamp": "2026-06-24T04:08:39.832Z",
-    "success": true
-  },
-  {
     "date": "2026-06-25",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -340,6 +325,21 @@
       "🇻🇪 Venezuela"
     ],
     "timestamp": "2026-07-24T03:22:34.935Z",
+    "success": true
+  },
+  {
+    "date": "2026-07-25",
+    "totalHolidays": 6,
+    "countriesCount": 6,
+    "countries": [
+      "🇨🇷 Costa Rica",
+      "🇨🇺 Cuba",
+      "🇪🇸 Spain",
+      "🇵🇷 Puerto Rico",
+      "🇹🇳 Tunisia",
+      "🇻🇪 Venezuela"
+    ],
+    "timestamp": "2026-07-25T03:20:42.738Z",
     "success": true
   }
 ]
