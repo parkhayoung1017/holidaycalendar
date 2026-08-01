@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-07-01",
-    "totalHolidays": 5,
-    "countriesCount": 5,
-    "countries": [
-      "🇧🇼 Botswana",
-      "🇨🇦 Canada",
-      "🇭🇰 Hong Kong",
-      "🇵🇹 Portugal",
-      "🇸🇷 Suriname"
-    ],
-    "timestamp": "2026-07-01T04:26:25.254Z",
-    "success": true
-  },
-  {
     "date": "2026-07-02",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -336,6 +322,22 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-07-31T03:33:23.140Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-01",
+    "totalHolidays": 7,
+    "countriesCount": 7,
+    "countries": [
+      "🇧🇧 Barbados",
+      "🇧🇯 Benin",
+      "🇨🇩 Democratic Republic of the Congo",
+      "🇨🇭 Switzerland",
+      "🇬🇾 Guyana",
+      "🇯🇲 Jamaica",
+      "🇸🇻 El Salvador"
+    ],
+    "timestamp": "2026-08-01T03:32:44.360Z",
     "success": true
   }
 ]
