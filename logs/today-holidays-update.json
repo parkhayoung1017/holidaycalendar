@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-03",
-    "totalHolidays": 3,
-    "countriesCount": 3,
-    "countries": [
-      "🇧🇾 Belarus",
-      "🇵🇷 Puerto Rico",
-      "🇺🇸 United States"
-    ],
-    "timestamp": "2026-07-03T03:52:00.689Z",
-    "success": true
-  },
-  {
     "date": "2026-07-04",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -342,6 +330,26 @@
       "🇸🇻 El Salvador"
     ],
     "timestamp": "2026-08-02T03:32:21.018Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-03",
+    "totalHolidays": 16,
+    "countriesCount": 11,
+    "countries": [
+      "🇨🇦 Canada",
+      "🇦🇺 Australia",
+      "🇧🇧 Barbados",
+      "🇬🇧 United Kingdom",
+      "🇬🇩 Grenada",
+      "🇮🇪 Ireland",
+      "🇮🇸 Iceland",
+      "🇲🇸 Montserrat",
+      "🇳🇪 Niger",
+      "🇸🇻 El Salvador",
+      "🇻🇪 Venezuela"
+    ],
+    "timestamp": "2026-08-03T03:34:37.007Z",
     "success": true
   }
 ]
