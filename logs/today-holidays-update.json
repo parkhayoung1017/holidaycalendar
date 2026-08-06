@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-07-06",
-    "totalHolidays": 5,
-    "countriesCount": 5,
-    "countries": [
-      "🇨🇿 Czech Republic",
-      "🇬🇾 Guyana",
-      "🇮🇲 Isle of Man",
-      "🇰🇿 Kazakhstan",
-      "🇱🇹 Lithuania"
-    ],
-    "timestamp": "2026-07-06T04:09:39.334Z",
-    "success": true
-  },
-  {
     "date": "2026-07-07",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -350,6 +336,18 @@
       "🇸🇻 El Salvador"
     ],
     "timestamp": "2026-08-05T03:12:54.287Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-06",
+    "totalHolidays": 3,
+    "countriesCount": 3,
+    "countries": [
+      "🇧🇴 Bolivia",
+      "🇯🇲 Jamaica",
+      "🇸🇻 El Salvador"
+    ],
+    "timestamp": "2026-08-06T03:16:02.192Z",
     "success": true
   }
 ]
