@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-07-12",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇨🇦 Canada",
-      "🇲🇳 Mongolia"
-    ],
-    "timestamp": "2026-07-12T03:32:58.080Z",
-    "success": true
-  },
-  {
     "date": "2026-07-13",
     "totalHolidays": 3,
     "countriesCount": 3,
@@ -357,6 +346,14 @@
       "🇿🇼 Zimbabwe"
     ],
     "timestamp": "2026-08-11T02:08:28.202Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-12",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-08-12T02:26:11.429Z",
     "success": true
   }
 ]
