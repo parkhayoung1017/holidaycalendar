@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-07-15",
-    "totalHolidays": 3,
-    "countriesCount": 3,
-    "countries": [
-      "🇲🇳 Mongolia",
-      "🇹🇷 Turkey",
-      "🇺🇦 Ukraine"
-    ],
-    "timestamp": "2026-07-15T02:55:28.059Z",
-    "success": true
-  },
-  {
     "date": "2026-07-16",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -351,6 +339,47 @@
       "🇸🇮 Slovenia"
     ],
     "timestamp": "2026-08-14T02:26:01.819Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-15",
+    "totalHolidays": 33,
+    "countriesCount": 32,
+    "countries": [
+      "🇸🇮 Slovenia",
+      "🇦🇩 Andorra",
+      "🇦🇹 Austria",
+      "🇧🇪 Belgium",
+      "🇧🇯 Benin",
+      "🇨🇬 Republic of the Congo",
+      "🇨🇭 Switzerland",
+      "🇨🇱 Chile",
+      "🇨🇷 Costa Rica",
+      "🇨🇾 Cyprus",
+      "🇩🇪 Germany",
+      "🇪🇸 Spain",
+      "🇫🇷 France",
+      "🇬🇦 Gabon",
+      "🇬🇲 Gambia",
+      "🇬🇷 Greece",
+      "🇭🇷 Croatia",
+      "🇭🇹 Haiti",
+      "🇮🇹 Italy",
+      "🇰🇷 South Korea",
+      "🇱🇮 Liechtenstein",
+      "🇱🇹 Lithuania",
+      "🇱🇺 Luxembourg",
+      "🇲🇨 Monaco",
+      "🇲🇬 Madagascar",
+      "🇲🇹 Malta",
+      "🇵🇱 Poland",
+      "🇵🇹 Portugal",
+      "🇵🇾 Paraguay",
+      "🇷🇴 Romania",
+      "🇸🇲 San Marino",
+      "🇻🇦 Vatican City"
+    ],
+    "timestamp": "2026-08-15T01:36:59.210Z",
     "success": true
   }
 ]
