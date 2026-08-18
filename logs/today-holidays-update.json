@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-07-18",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇺🇾 Uruguay"
-    ],
-    "timestamp": "2026-07-18T02:56:48.456Z",
-    "success": true
-  },
-  {
     "date": "2026-07-19",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -384,6 +374,14 @@
       "🇮🇩 Indonesia"
     ],
     "timestamp": "2026-08-17T01:41:59.904Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-18",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-08-18T01:37:24.370Z",
     "success": true
   }
 ]
