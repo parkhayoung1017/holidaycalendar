@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-07-23",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇪🇬 Egypt",
-      "🇵🇬 Papua New Guinea"
-    ],
-    "timestamp": "2026-07-23T03:28:15.752Z",
-    "success": true
-  },
-  {
     "date": "2026-07-24",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -377,6 +366,14 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-08-22T01:36:29.232Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-23",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-08-23T01:46:08.924Z",
     "success": true
   }
 ]
