@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-07-26",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇨🇺 Cuba"
-    ],
-    "timestamp": "2026-07-26T03:34:52.298Z",
-    "success": true
-  },
-  {
     "date": "2026-07-27",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -369,6 +359,17 @@
       "🇺🇾 Uruguay"
     ],
     "timestamp": "2026-08-25T01:38:26.370Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-26",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇳🇦 Namibia",
+      "🇵🇬 Papua New Guinea"
+    ],
+    "timestamp": "2026-08-26T01:43:44.565Z",
     "success": true
   }
 ]
