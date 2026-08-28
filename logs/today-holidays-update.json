@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-07-29",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇫🇴 Faroe Islands",
-      "🇵🇪 Peru"
-    ],
-    "timestamp": "2026-07-29T03:17:37.689Z",
-    "success": true
-  },
-  {
     "date": "2026-07-30",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -356,6 +345,16 @@
       "🇲🇩 Moldova"
     ],
     "timestamp": "2026-08-27T08:43:54.209Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-28",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇬🇪 Georgia"
+    ],
+    "timestamp": "2026-08-28T10:56:24.632Z",
     "success": true
   }
 ]
