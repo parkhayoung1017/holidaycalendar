@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-07-30",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇲🇦 Morocco"
-    ],
-    "timestamp": "2026-07-30T02:50:21.389Z",
-    "success": true
-  },
-  {
     "date": "2026-07-31",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -355,6 +345,16 @@
       "🇬🇪 Georgia"
     ],
     "timestamp": "2026-08-28T10:56:24.632Z",
+    "success": true
+  },
+  {
+    "date": "2026-08-29",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇸🇰 Slovakia"
+    ],
+    "timestamp": "2026-08-29T06:42:29.624Z",
     "success": true
   }
 ]
