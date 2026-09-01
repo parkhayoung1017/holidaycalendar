@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-08-02",
-    "totalHolidays": 5,
-    "countriesCount": 5,
-    "countries": [
-      "🇧🇴 Bolivia",
-      "🇨🇩 Democratic Republic of the Congo",
-      "🇨🇷 Costa Rica",
-      "🇲🇰 North Macedonia",
-      "🇸🇻 El Salvador"
-    ],
-    "timestamp": "2026-08-02T03:32:21.018Z",
-    "success": true
-  },
-  {
     "date": "2026-08-03",
     "totalHolidays": 16,
     "countriesCount": 11,
@@ -359,6 +345,16 @@
       "🇵🇭 Philippines"
     ],
     "timestamp": "2026-08-31T04:59:51.737Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-01",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇸🇰 Slovakia"
+    ],
+    "timestamp": "2026-09-01T04:38:22.578Z",
     "success": true
   }
 ]
