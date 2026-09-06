@@ -1,17 +1,5 @@
 [
   {
-    "date": "2026-08-07",
-    "totalHolidays": 3,
-    "countriesCount": 3,
-    "countries": [
-      "🇧🇸 Bahamas",
-      "🇨🇴 Colombia",
-      "🇸🇻 El Salvador"
-    ],
-    "timestamp": "2026-08-07T02:55:43.200Z",
-    "success": true
-  },
-  {
     "date": "2026-08-08",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -339,6 +327,16 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-09-05T03:58:39.315Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-06",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇧🇬 Bulgaria"
+    ],
+    "timestamp": "2026-09-06T04:04:53.829Z",
     "success": true
   }
 ]
