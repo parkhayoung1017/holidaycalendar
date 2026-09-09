@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-08-10",
-    "totalHolidays": 4,
-    "countriesCount": 4,
-    "countries": [
-      "🇪🇨 Ecuador",
-      "🇸🇬 Singapore",
-      "🇿🇦 South Africa",
-      "🇿🇼 Zimbabwe"
-    ],
-    "timestamp": "2026-08-10T02:17:26.319Z",
-    "success": true
-  },
-  {
     "date": "2026-08-11",
     "totalHolidays": 3,
     "countriesCount": 3,
@@ -348,6 +335,14 @@
       "🇻🇪 Venezuela"
     ],
     "timestamp": "2026-09-08T04:05:54.391Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-09",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-09-09T04:12:54.357Z",
     "success": true
   }
 ]
