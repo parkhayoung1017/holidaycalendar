@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-08-12",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-08-12T02:26:11.429Z",
-    "success": true
-  },
-  {
     "date": "2026-08-13",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -343,6 +335,16 @@
       "🇬🇮 Gibraltar"
     ],
     "timestamp": "2026-09-10T04:10:03.390Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-11",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇪🇸 Spain"
+    ],
+    "timestamp": "2026-09-11T04:09:18.991Z",
     "success": true
   }
 ]
