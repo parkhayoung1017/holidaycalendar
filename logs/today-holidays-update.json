@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-08-13",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇹🇳 Tunisia"
-    ],
-    "timestamp": "2026-08-13T02:27:34.318Z",
-    "success": true
-  },
-  {
     "date": "2026-08-14",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -345,6 +335,14 @@
       "🇪🇸 Spain"
     ],
     "timestamp": "2026-09-11T04:09:18.991Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-12",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-09-12T04:08:50.984Z",
     "success": true
   }
 ]
