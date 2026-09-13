@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-08-14",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇲🇦 Morocco",
-      "🇸🇮 Slovenia"
-    ],
-    "timestamp": "2026-08-14T02:26:01.819Z",
-    "success": true
-  },
-  {
     "date": "2026-08-15",
     "totalHolidays": 33,
     "countriesCount": 32,
@@ -343,6 +332,14 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-09-12T04:08:50.984Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-13",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-09-13T04:20:35.102Z",
     "success": true
   }
 ]
