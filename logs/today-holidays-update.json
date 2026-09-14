@@ -1,46 +1,5 @@
 [
   {
-    "date": "2026-08-15",
-    "totalHolidays": 33,
-    "countriesCount": 32,
-    "countries": [
-      "🇸🇮 Slovenia",
-      "🇦🇩 Andorra",
-      "🇦🇹 Austria",
-      "🇧🇪 Belgium",
-      "🇧🇯 Benin",
-      "🇨🇬 Republic of the Congo",
-      "🇨🇭 Switzerland",
-      "🇨🇱 Chile",
-      "🇨🇷 Costa Rica",
-      "🇨🇾 Cyprus",
-      "🇩🇪 Germany",
-      "🇪🇸 Spain",
-      "🇫🇷 France",
-      "🇬🇦 Gabon",
-      "🇬🇲 Gambia",
-      "🇬🇷 Greece",
-      "🇭🇷 Croatia",
-      "🇭🇹 Haiti",
-      "🇮🇹 Italy",
-      "🇰🇷 South Korea",
-      "🇱🇮 Liechtenstein",
-      "🇱🇹 Lithuania",
-      "🇱🇺 Luxembourg",
-      "🇲🇨 Monaco",
-      "🇲🇬 Madagascar",
-      "🇲🇹 Malta",
-      "🇵🇱 Poland",
-      "🇵🇹 Portugal",
-      "🇵🇾 Paraguay",
-      "🇷🇴 Romania",
-      "🇸🇲 San Marino",
-      "🇻🇦 Vatican City"
-    ],
-    "timestamp": "2026-08-15T01:36:59.210Z",
-    "success": true
-  },
-  {
     "date": "2026-08-16",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -340,6 +299,16 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-09-13T04:20:35.102Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-14",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇳🇮 Nicaragua"
+    ],
+    "timestamp": "2026-09-14T04:27:09.548Z",
     "success": true
   }
 ]
