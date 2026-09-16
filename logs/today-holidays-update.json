@@ -1,19 +1,5 @@
 [
   {
-    "date": "2026-08-17",
-    "totalHolidays": 6,
-    "countriesCount": 5,
-    "countries": [
-      "🇨🇦 Canada",
-      "🇦🇷 Argentina",
-      "🇨🇴 Colombia",
-      "🇬🇦 Gabon",
-      "🇮🇩 Indonesia"
-    ],
-    "timestamp": "2026-08-17T01:41:59.904Z",
-    "success": true
-  },
-  {
     "date": "2026-08-18",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -316,6 +302,17 @@
       "🇸🇻 El Salvador"
     ],
     "timestamp": "2026-09-15T04:27:43.906Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-16",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇲🇽 Mexico",
+      "🇵🇬 Papua New Guinea"
+    ],
+    "timestamp": "2026-09-16T04:23:11.597Z",
     "success": true
   }
 ]
