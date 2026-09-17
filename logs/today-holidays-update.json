@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-08-18",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-08-18T01:37:24.370Z",
-    "success": true
-  },
-  {
     "date": "2026-08-19",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -313,6 +305,14 @@
       "🇵🇬 Papua New Guinea"
     ],
     "timestamp": "2026-09-16T04:23:11.597Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-17",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-09-17T04:29:10.931Z",
     "success": true
   }
 ]
