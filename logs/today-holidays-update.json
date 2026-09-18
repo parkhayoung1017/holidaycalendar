@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-08-19",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-08-19T01:39:17.452Z",
-    "success": true
-  },
-  {
     "date": "2026-08-20",
     "totalHolidays": 3,
     "countriesCount": 3,
@@ -313,6 +305,16 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-09-17T04:29:10.931Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-18",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇨🇱 Chile"
+    ],
+    "timestamp": "2026-09-18T04:13:48.035Z",
     "success": true
   }
 ]
