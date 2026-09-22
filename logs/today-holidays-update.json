@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-08-23",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-08-23T01:46:08.924Z",
-    "success": true
-  },
-  {
     "date": "2026-08-24",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -319,6 +311,16 @@
       "🇲🇹 Malta"
     ],
     "timestamp": "2026-09-21T04:27:22.445Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-22",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇧🇬 Bulgaria"
+    ],
+    "timestamp": "2026-09-22T04:23:17.661Z",
     "success": true
   }
 ]
