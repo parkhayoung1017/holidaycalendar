@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-08-28",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇬🇪 Georgia"
-    ],
-    "timestamp": "2026-08-28T10:56:24.632Z",
-    "success": true
-  },
-  {
     "date": "2026-08-29",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -336,6 +326,18 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-09-27T04:51:45.398Z",
+    "success": true
+  },
+  {
+    "date": "2026-09-28",
+    "totalHolidays": 3,
+    "countriesCount": 3,
+    "countries": [
+      "🇦🇺 Australia",
+      "🇨🇿 Czech Republic",
+      "🇳🇿 New Zealand"
+    ],
+    "timestamp": "2026-09-28T04:53:36.217Z",
     "success": true
   }
 ]
