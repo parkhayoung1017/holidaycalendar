@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-09-02",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇻🇳 Vietnam"
-    ],
-    "timestamp": "2026-09-02T04:00:27.920Z",
-    "success": true
-  },
-  {
     "date": "2026-09-03",
     "totalHolidays": 2,
     "countriesCount": 2,
@@ -327,6 +317,14 @@
       "🇺🇦 Ukraine"
     ],
     "timestamp": "2026-10-01T05:21:11.176Z",
+    "success": true
+  },
+  {
+    "date": "2026-10-02",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-10-02T05:09:19.523Z",
     "success": true
   }
 ]
