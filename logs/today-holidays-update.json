@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-09-04",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-09-04T04:01:42.352Z",
-    "success": true
-  },
-  {
     "date": "2026-09-05",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -326,6 +318,17 @@
       "🇰🇷 South Korea"
     ],
     "timestamp": "2026-10-03T04:52:54.764Z",
+    "success": true
+  },
+  {
+    "date": "2026-10-04",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇱🇸 Lesotho",
+      "🇲🇿 Mozambique"
+    ],
+    "timestamp": "2026-10-04T05:25:25.666Z",
     "success": true
   }
 ]
