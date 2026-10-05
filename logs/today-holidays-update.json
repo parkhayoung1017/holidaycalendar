@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-09-05",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-09-05T03:58:39.315Z",
-    "success": true
-  },
-  {
     "date": "2026-09-06",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -329,6 +321,17 @@
       "🇲🇿 Mozambique"
     ],
     "timestamp": "2026-10-04T05:25:25.666Z",
+    "success": true
+  },
+  {
+    "date": "2026-10-05",
+    "totalHolidays": 3,
+    "countriesCount": 2,
+    "countries": [
+      "🇦🇺 Australia",
+      "🇵🇹 Portugal"
+    ],
+    "timestamp": "2026-10-05T05:08:54.175Z",
     "success": true
   }
 ]
