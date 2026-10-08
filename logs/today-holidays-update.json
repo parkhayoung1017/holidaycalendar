@@ -1,21 +1,5 @@
 [
   {
-    "date": "2026-09-08",
-    "totalHolidays": 8,
-    "countriesCount": 7,
-    "countries": [
-      "🇪🇸 Spain",
-      "🇦🇩 Andorra",
-      "🇱🇮 Liechtenstein",
-      "🇲🇰 North Macedonia",
-      "🇲🇹 Malta",
-      "🇻🇦 Vatican City",
-      "🇻🇪 Venezuela"
-    ],
-    "timestamp": "2026-09-08T04:05:54.391Z",
-    "success": true
-  },
-  {
     "date": "2026-09-09",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -325,6 +309,16 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-10-07T05:28:13.071Z",
+    "success": true
+  },
+  {
+    "date": "2026-10-08",
+    "totalHolidays": 1,
+    "countriesCount": 1,
+    "countries": [
+      "🇵🇪 Peru"
+    ],
+    "timestamp": "2026-10-08T05:36:36.484Z",
     "success": true
   }
 ]
