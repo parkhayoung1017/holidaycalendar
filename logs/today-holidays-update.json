@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-09-13",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-09-13T04:20:35.102Z",
-    "success": true
-  },
-  {
     "date": "2026-09-14",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -339,6 +331,14 @@
       "🇻🇪 Venezuela"
     ],
     "timestamp": "2026-10-12T05:29:54.425Z",
+    "success": true
+  },
+  {
+    "date": "2026-10-13",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-10-13T06:27:34.870Z",
     "success": true
   }
 ]
