@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-09-23",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇯🇵 Japan",
-      "🇸🇮 Slovenia"
-    ],
-    "timestamp": "2026-09-23T04:20:17.853Z",
-    "success": true
-  },
-  {
     "date": "2026-09-24",
     "totalHolidays": 4,
     "countriesCount": 4,
@@ -338,6 +327,14 @@
       "🇳🇿 New Zealand"
     ],
     "timestamp": "2026-10-23T04:19:43.352Z",
+    "success": true
+  },
+  {
+    "date": "2026-10-24",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-10-24T04:09:28.527Z",
     "success": true
   }
 ]
