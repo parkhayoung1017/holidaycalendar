@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-09-30",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇧🇼 Botswana",
-      "🇨🇦 Canada"
-    ],
-    "timestamp": "2026-09-30T05:06:35.101Z",
-    "success": true
-  },
-  {
     "date": "2026-10-01",
     "totalHolidays": 7,
     "countriesCount": 7,
@@ -322,6 +311,14 @@
       "🇹🇷 Turkey"
     ],
     "timestamp": "2026-10-29T05:19:46.781Z",
+    "success": true
+  },
+  {
+    "date": "2026-10-30",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-10-30T05:19:23.426Z",
     "success": true
   }
 ]
