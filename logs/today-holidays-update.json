@@ -320,5 +320,20 @@
     "countries": [],
     "timestamp": "2026-10-30T05:19:23.426Z",
     "success": true
+  },
+  {
+    "date": "2026-10-31",
+    "totalHolidays": 6,
+    "countriesCount": 6,
+    "countries": [
+      "🇨🇱 Chile",
+      "🇩🇪 Germany",
+      "🇫🇮 Finland",
+      "🇵🇭 Philippines",
+      "🇸🇪 Sweden",
+      "🇸🇮 Slovenia"
+    ],
+    "timestamp": "2026-10-31T05:01:25.902Z",
+    "success": true
   }
 ]
