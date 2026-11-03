@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-10-04",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇱🇸 Lesotho",
-      "🇲🇿 Mozambique"
-    ],
-    "timestamp": "2026-10-04T05:25:25.666Z",
-    "success": true
-  },
-  {
     "date": "2026-10-05",
     "totalHolidays": 3,
     "countriesCount": 2,
@@ -359,6 +348,19 @@
       "🇻🇪 Venezuela"
     ],
     "timestamp": "2026-11-02T05:30:32.879Z",
+    "success": true
+  },
+  {
+    "date": "2026-11-03",
+    "totalHolidays": 4,
+    "countriesCount": 4,
+    "countries": [
+      "🇦🇺 Australia",
+      "🇪🇨 Ecuador",
+      "🇯🇵 Japan",
+      "🇵🇦 Panama"
+    ],
+    "timestamp": "2026-11-03T06:10:26.835Z",
     "success": true
   }
 ]
