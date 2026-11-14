@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-10-15",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇹🇳 Tunisia"
-    ],
-    "timestamp": "2026-10-15T04:11:04.686Z",
-    "success": true
-  },
-  {
     "date": "2026-10-16",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -358,6 +348,14 @@
       "🇸🇻 El Salvador"
     ],
     "timestamp": "2026-11-13T06:05:21.794Z",
+    "success": true
+  },
+  {
+    "date": "2026-11-14",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-11-14T05:52:47.436Z",
     "success": true
   }
 ]
