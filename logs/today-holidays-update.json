@@ -1,13 +1,5 @@
 [
   {
-    "date": "2026-10-18",
-    "totalHolidays": 0,
-    "countriesCount": 0,
-    "countries": [],
-    "timestamp": "2026-10-18T04:03:19.142Z",
-    "success": true
-  },
-  {
     "date": "2026-10-19",
     "totalHolidays": 1,
     "countriesCount": 1,
@@ -357,6 +349,17 @@
       "🇲🇽 Mexico"
     ],
     "timestamp": "2026-11-16T05:53:47.371Z",
+    "success": true
+  },
+  {
+    "date": "2026-11-17",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇨🇿 Czech Republic",
+      "🇸🇰 Slovakia"
+    ],
+    "timestamp": "2026-11-17T07:30:35.290Z",
     "success": true
   }
 ]
