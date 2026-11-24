@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-10-25",
-    "totalHolidays": 2,
-    "countriesCount": 2,
-    "countries": [
-      "🇬🇩 Grenada",
-      "🇰🇿 Kazakhstan"
-    ],
-    "timestamp": "2026-10-25T04:12:07.280Z",
-    "success": true
-  },
-  {
     "date": "2026-10-26",
     "totalHolidays": 4,
     "countriesCount": 4,
@@ -370,6 +359,14 @@
       "🇸🇮 Slovenia"
     ],
     "timestamp": "2026-11-23T07:01:07.263Z",
+    "success": true
+  },
+  {
+    "date": "2026-11-24",
+    "totalHolidays": 0,
+    "countriesCount": 0,
+    "countries": [],
+    "timestamp": "2026-11-24T09:26:30.558Z",
     "success": true
   }
 ]
