@@ -1,18 +1,5 @@
 [
   {
-    "date": "2026-10-26",
-    "totalHolidays": 4,
-    "countriesCount": 4,
-    "countries": [
-      "🇦🇹 Austria",
-      "🇧🇯 Benin",
-      "🇮🇪 Ireland",
-      "🇳🇿 New Zealand"
-    ],
-    "timestamp": "2026-10-26T04:15:58.734Z",
-    "success": true
-  },
-  {
     "date": "2026-10-27",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -367,6 +354,17 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-11-24T09:26:30.558Z",
+    "success": true
+  },
+  {
+    "date": "2026-11-25",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇧🇦 Bosnia and Herzegovina",
+      "🇸🇷 Suriname"
+    ],
+    "timestamp": "2026-11-25T07:58:18.344Z",
     "success": true
   }
 ]
