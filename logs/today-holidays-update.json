@@ -1,15 +1,5 @@
 [
   {
-    "date": "2026-10-29",
-    "totalHolidays": 1,
-    "countriesCount": 1,
-    "countries": [
-      "🇹🇷 Turkey"
-    ],
-    "timestamp": "2026-10-29T05:19:46.781Z",
-    "success": true
-  },
-  {
     "date": "2026-10-30",
     "totalHolidays": 0,
     "countriesCount": 0,
@@ -365,6 +355,17 @@
     "countriesCount": 0,
     "countries": [],
     "timestamp": "2026-11-27T07:50:04.741Z",
+    "success": true
+  },
+  {
+    "date": "2026-11-28",
+    "totalHolidays": 2,
+    "countriesCount": 2,
+    "countries": [
+      "🇨🇬 Republic of the Congo",
+      "🇵🇦 Panama"
+    ],
+    "timestamp": "2026-11-28T07:18:29.114Z",
     "success": true
   }
 ]
